@@ -1,0 +1,66 @@
+{
+  "query_id": "query_015",
+  "session_id": "61-context-consolidation-Overnight-30q-v1-20260315-145355",
+  "timestamp": "2026-03-15T14:57:34.274976",
+  "query": {
+    "original": "What conditions cause the Grappled condition to end?",
+    "used": "What conditions cause the Grappled condition to end?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "The Grappled condition in Dungeons & Dragons 5th Edition causes a creature's speed to become 0, preventing it from benefiting from any speed bonuses. The Grappled condition ends under the following ci"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1101,
+    "rag_completion": 2851,
+    "meta_prompt": 1149,
+    "meta_completion": 155,
+    "total_calls": 2,
+    "total": 5256
+  },
+  "costs": {
+    "rag": 0.0006628,
+    "meta": 0.00026535,
+    "embed": 0.0,
+    "total": 0.00092815
+  },
+  "timings": {
+    "rag_s": 4.51,
+    "query_s": 11.44,
+    "total_s": 17.61
+  },
+  "answer": " The Grappled condition ends when the grappler becomes incapacitated, an effect removes the grappled creature from the reach of the grappler or the grappling effect, or the grappled creature successfully escapes the grapple using its action to beat the grappler's Strength (Athletics) or Dexterity (Acrobatics) check. The grappler can also release the grappled creature at any time without requiring an action.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and fully correct, providing all the conditions under which the Grappled condition ends, including the additional detail about the grappled creature escaping and the grappler's ability to release the grappled creature."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the user's query about the conditions that cause the Grappled condition to end in Dungeons & Dragons 5th Edition. It provides a clear and accurate list of circumstances under which the Grappled condition ceases to apply, which is exactly what the user is asking for.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the retrieved context provides a comprehensive answer to the query. It outlines all the relevant conditions that lead to the end of the Grappled condition, including incapacitation, removal from reach, the ability of the grappled creature to escape, and the grappler's option to release the grappled creature. This information is sufficient to fully answer the user's question without needing additional context.\n\n   **Score: 2/2**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

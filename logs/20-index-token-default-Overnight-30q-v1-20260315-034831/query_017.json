@@ -1,0 +1,138 @@
+{
+  "query_id": "query_017",
+  "session_id": "20-index-token-default-Overnight-30q-v1-20260315-034831",
+  "timestamp": "2026-03-15T03:52:37.923282",
+  "query": {
+    "original": "Can you use Action Surge to cast two leveled spells in one turn?",
+    "used": "Can you use Action Surge to cast two leveled spells in one turn?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Classes",
+      "topic": "Sorcerer",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Sorcerer.md",
+      "preview": "|\n| 5th              | 7                  |\n|                  |                    |\n\n***Converting a Spell Slot to Sorcery Points***. As a bonus action on your turn, you can expend one spell slot an"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "slots, but only to cast your lower-level spells. If a lower-level spell that you cast, like *burning hands*, has an enhanced effect when cast using a higher-level slot, you can use the enhanced effect"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.\n\n#### Protection\n\nWhen a creature you can see attacks a target other than yo"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "from another class.\n\n## Spellcasting\n\nYour capacity for spellcasting depends partly on your combined levels in all your spellcasting classes and partly on your individual levels in those classes. Once"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Classes",
+      "topic": "Wizard",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Wizard.md",
+      "preview": "can add your Intelligence modifier to one damage roll of any wizard evocation spell you cast.\n\n#### Overchannel\n\nStarting at 14th level, you can increase the power of your simpler spells. When you cas"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "# SPELLCASTING\n\nMagic permeates fantasy gaming worlds and often appears in the form of a spell.\n\nThis chapter provides the rules for casting spells. Different character classes have distinctive ways o"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "cast another spell that requires concentration. You can't concentrate on two spells at once.\n- **Taking damage.** Whenever you take damage while you are concentrating on a spell, you must make a Const"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Classes",
+      "topic": "Sorcerer",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Sorcerer.md",
+      "preview": "know the 1st-level spell *burning hands* and have a 1st-level and a 2nd-level spell slot available, you can cast *burning hands* using either slot.\n\n#### Spells Known of 1st Level and Higher\n\nYou know"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Spells",
+      "topic": "Compulsion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Compulsion.md",
+      "preview": "### Compulsion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nCreatures of your choice that you can see wi"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Classes",
+      "topic": "Wizard",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Wizard.md",
+      "preview": "multiverse revolve around the schools of magic. Wizards through the ages have cataloged thousands of spells, grouping them into eight categories called schools. In some places, these traditions are li"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 6661,
+    "rag_completion": 7402,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 14063
+  },
+  "costs": {
+    "rag": 0.00213909,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00213909
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 15.38,
+    "total_s": 26.86
+  },
+  "answer": " Based on the new context, the rules for concentrating on spells state that you cannot concentrate on two spells at once. Therefore, even with Action Surge, you cannot cast two leveled spells that require concentration in one turn. However, you could potentially use Action Surge to cast one spell and then use a bonus action or another action to cast another non-concentration spell during the same turn.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains inaccuracies regarding the use of Action Surge and the casting of leveled spells. It incorrectly implies that you cannot cast two leveled spells with Action Surge, which is not true as long as one is not a bonus action."
+    },
+    "context_relevancy": {
+      "score": null,
+      "passing": null,
+      "feedback": "The evaluation of the context in relation to the user's query about using Action Surge to cast two leveled spells in one turn is accurate. \n\n1. **Does the retrieved context match the subject matter of the user's query?**\n   - The context does not directly address the specific question of whether Action Surge allows for the casting of two leveled spells in one turn. While it discusses spellcasting mechanics and Action Surge, it lacks a clear answer regarding the interaction between these two elements. Therefore, the score of 1/2 is appropriate.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does not provide a complete answer to the user's query. It mentions Action Surge but does not clarify its interaction with spellcasting, particularly in the context of casting two leveled spells. Thus, the score of 0/2 is also appropriate.\n\nGiven that the context does not provide the necessary information to fully answer the user's question, the final result of 1.0 is justified. \n\nIn summary, the existing evaluation is correct, and no refinement is needed."
+    }
+  }
+}

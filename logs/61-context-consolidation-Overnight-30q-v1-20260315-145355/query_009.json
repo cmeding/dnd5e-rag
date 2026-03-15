@@ -1,0 +1,66 @@
+{
+  "query_id": "query_009",
+  "session_id": "61-context-consolidation-Overnight-30q-v1-20260315-145355",
+  "timestamp": "2026-03-15T14:56:01.274058",
+  "query": {
+    "original": "Does the invisible condition prevent a creature from casting spells?",
+    "used": "Does the invisible condition prevent a creature from casting spells?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "The invisible condition in Dungeons & Dragons 5th Edition means that an invisible creature is impossible to see without magic or special senses, and it is heavily obscured for the purpose of hiding. W"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1178,
+    "rag_completion": 3102,
+    "meta_prompt": 1400,
+    "meta_completion": 150,
+    "total_calls": 2,
+    "total": 5830
+  },
+  "costs": {
+    "rag": 0.00071896,
+    "meta": 0.0003,
+    "embed": 0.0,
+    "total": 0.00101896
+  },
+  "timings": {
+    "rag_s": 3.82,
+    "query_s": 6.54,
+    "total_s": 13.34
+  },
+  "answer": " I cannot find this in the provided rules that the invisible condition prevents a creature from casting spells. However, casting a spell will end the invisibility effect.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query and correctly states that the invisible condition does not prevent spellcasting. However, it introduces a misleading statement about casting a spell ending the invisibility effect, which is not universally true for all spells. This reduces the overall correctness of the answer."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context directly addresses the user's query about whether the invisible condition prevents a creature from casting spells. It explains the mechanics of invisibility in Dungeons & Dragons 5th Edition, clarifying that while a creature can cast spells while invisible, doing so will end the invisibility effect. This is relevant and matches the subject matter of the query.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The context provides a comprehensive answer to the query. It explains both the nature of the invisible condition and the specific interaction with spellcasting. The information is complete and does not require additional context to understand the relationship between invisibility and spellcasting. Therefore, it can be used exclusively to answer the user's question.\n\n   **Score: 2/2**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

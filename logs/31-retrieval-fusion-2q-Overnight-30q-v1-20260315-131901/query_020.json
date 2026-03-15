@@ -1,0 +1,138 @@
+{
+  "query_id": "query_020",
+  "session_id": "31-retrieval-fusion-2q-Overnight-30q-v1-20260315-131901",
+  "timestamp": "2026-03-15T13:27:09.298311",
+  "query": {
+    "original": "Can a Druid wear metal armor?",
+    "used": "Can a Druid wear metal armor?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.03279569892473118,
+      "category": "Classes",
+      "topic": "Druid",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Druid.md",
+      "preview": "#### Equipment\n\nYou start with the following equipment, in addition to the equipment granted by your background:\n\n- (*a*) a wooden shield or (*b*) any simple weapon\n- (*a*) a scimitar or (*b*) any sim"
+    },
+    {
+      "rank": 2,
+      "score": 0.03278688524590164,
+      "category": "Classes",
+      "topic": "Druid",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Druid.md",
+      "preview": "- When you transform, you assume the beast's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert"
+    },
+    {
+      "rank": 3,
+      "score": 0.032539682539682535,
+      "category": "Treasure",
+      "topic": "# Magic Items",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\# Magic Items.md",
+      "preview": "## Wearing and Wielding Items\n\nUsing a magic item\u2019s properties might mean wearing or wielding it. A magic item meant to be worn must be donned in the intended fashion: boots go on the feet, gloves on "
+    },
+    {
+      "rank": 4,
+      "score": 0.03200204813108039,
+      "category": "Monsters",
+      "topic": "Druid (NPC)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Druid (NPC).md",
+      "preview": "### Druid\n\n*Medium humanoid (any race), any alignment*\n\n**Armor Class** 11 (16 with *barkskin*)\n\n**Hit Points** 27 (5d8 + 5)\n\n**Speed** 30 ft.\n\n| STR     | DEX     | CON     | INT     | WIS     | CHA "
+    },
+    {
+      "rank": 5,
+      "score": 0.031009615384615385,
+      "category": "Classes",
+      "topic": "Druid",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Druid.md",
+      "preview": "#### Proficiencies\n\n**Armor:** Light armor, medium armor, shields (druids will not wear armor or use shields made of metal)\n\n**Weapons:** Clubs, daggers, darts, javelins, maces, quarterstaffs, scimita"
+    },
+    {
+      "rank": 6,
+      "score": 0.030117753623188408,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "## Equipment\n\nA stat block rarely refers to equipment, other than armor or weapons used by a monster. A creature that customarily wears clothes, such as a humanoid, is assumed to be dressed appropriat"
+    },
+    {
+      "rank": 7,
+      "score": 0.029850746268656716,
+      "category": "Treasure",
+      "topic": "# Magic Items",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\# Magic Items.md",
+      "preview": "### Multiple Items of the Same Kind\n\nUse common sense to determine whether more than one of a given kind of magic item can be worn. A character can\u2019t normally wear more than one pair of footwear, one "
+    },
+    {
+      "rank": 8,
+      "score": 0.015384615384615385,
+      "category": "Equipment",
+      "topic": "Armor",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Armor.md",
+      "preview": "# Armor\n\nFantasy gaming worlds are a vast tapestry made up of many different cultures, each with its own technology level. For this reason, adventurers have access to a variety of armor types, ranging"
+    },
+    {
+      "rank": 9,
+      "score": 0.015151515151515152,
+      "category": "Equipment",
+      "topic": "Gear",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Gear.md",
+      "preview": "***Component Pouch***. A component pouch is a small, watertight leather belt pouch that has compartments to hold all the material components and other special items you need to cast your spells, excep"
+    },
+    {
+      "rank": 10,
+      "score": 0.015151515151515152,
+      "category": "Classes",
+      "topic": "Druid",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Druid.md",
+      "preview": "### Beast Spells\n\nBeginning at 18th level, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3796,
+    "rag_completion": 4364,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 8160
+  },
+  "costs": {
+    "rag": 0.00124672,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00124672
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 14.95,
+    "total_s": 22.12
+  },
+  "answer": " I cannot find this in the provided rules whether a Druid can wear metal armor or not. The rules only state the starting equipment for a Druid, which includes leather armor.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.03279569892473118
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains inaccuracies. It incorrectly states that the rules do not clarify whether a Druid can wear metal armor, while the reference answer clearly explains that Druids traditionally do not wear metal armor but are not mechanically prevented from doing so."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context directly addresses the query about whether a Druid can wear metal armor. It specifically states that \"druids will not wear armor or use shields made of metal,\" which is a clear and relevant answer to the question.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a complete answer to the query. It explicitly states the restriction on Druids wearing metal armor, which is the core of the question. There is no need for additional information to understand the answer.\n\n**Feedback Summary:**\nThe retrieved context is highly relevant and directly answers the user's query about Druids and metal armor. It provides a clear statement regarding the restrictions on armor types for Druids, making it sufficient to fully address the question without requiring further elaboration.\n\n[RESULT] 4.0"
+    }
+  }
+}

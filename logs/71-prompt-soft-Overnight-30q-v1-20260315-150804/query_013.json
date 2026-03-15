@@ -1,0 +1,138 @@
+{
+  "query_id": "query_013",
+  "session_id": "71-prompt-soft-Overnight-30q-v1-20260315-150804",
+  "timestamp": "2026-03-15T15:10:53.226498",
+  "query": {
+    "original": "If a creature has exhaustion level 3 and is also restrained, what is its movement speed?",
+    "used": "If a creature has exhaustion level 3 and is also restrained, what is its movement speed?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Restrained\n\n- A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- Attack rolls against the creature have advantage, and the creature's attack rolls have dis"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gameplay",
+      "topic": "Adventuring",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Adventuring.md",
+      "preview": "## Suffocating\n\nA creature can hold its breath for a number of minutes equal to 1 + its Constitution modifier (minimum of 30 seconds).\n\nWhen a creature runs out of breath or is choking, it can survive"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Exhaustion\n\nSome special abilities and environmental hazards, such as starvation and the long-term effects of freezing or scorching temperatures, can lead to a special condition called exhaustion. "
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "Freedom of Movement",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Freedom of Movement.md",
+      "preview": "### Freedom of Movement\n\n*4th-level abjuration*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S, M (a leather strap, bound around the arm or a similar appendage)\n\n**Duration:** 1 h"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Unconscious\n\n- An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings\n- The creature drops whatever it's holding and falls prone.\n- Th"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Spells",
+      "topic": "Slow",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Slow.md",
+      "preview": "### Slow\n\n*3rd-level transmutation*\n\n**Casting Time:** 1 action\n\n**Range:** 120 feet\n\n**Components:** V, S, M (a drop of molasses)\n\n**Duration:** Concentration, up to 1 minute\n\nYou alter time around u"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "Haste",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Haste.md",
+      "preview": "### Haste\n\n*3rd-level transmutation*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S, M (a shaving of licorice root)\n\n**Duration:** Concentration, up to 1 minute\n\nChoose a willin"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Spells",
+      "topic": "Dominate Monster",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Dominate Monster.md",
+      "preview": "### Dominate Monster\n\n*8th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 hour\n\nYou attempt to beguile a creature that y"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Monsters",
+      "topic": "Lion (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Lion (Creature).md",
+      "preview": "### Lion\n\n*Large beast, unaligned*\n\n**Armor Class** 12\n\n**Hit Points** 26 (4d10+4)\n\n**Speed** 50 ft.\n\n| STR     | DEX     | CON     | INT    | WIS     | CHA    |\n|---------|---------|---------|-------"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Spells",
+      "topic": "Dominate Beast",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Dominate Beast.md",
+      "preview": "### Dominate Beast\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou attempt to beguile a beast that you "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3430,
+    "rag_completion": 3809,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 7239
+  },
+  "costs": {
+    "rag": 0.00110101,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00110101
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 8.33,
+    "total_s": 18.17
+  },
+  "answer": " The context provided does not give enough information to determine the movement speed of a creature with exhaustion level 3 and also restrained. The rules for exhaustion only state that a creature with exhaustion has disadvantage on strength and dexterity ability checks, and its speed is reduced by 5 feet. However, the rules for being restrained state that a creature's speed becomes 0, which overrides the effect of exhaustion on speed. Therefore, the answer is: A creature with exhaustion level 3 and also restrained has a movement speed of 0.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer correctly identifies that a creature with exhaustion level 3 and restrained has a movement speed of 0, which is accurate. However, it includes some unnecessary details about the effects of exhaustion that could lead to confusion, as the primary focus should be on the restrained condition taking precedence. Overall, it is relevant and mostly correct, warranting a score of 4."
+    },
+    "context_relevancy": {
+      "score": 0.625,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context includes information about the \"Restrained\" condition and the \"Exhaustion\" condition. The \"Restrained\" condition states that a restrained creature's speed becomes 0, which directly answers part of the user's query. The \"Exhaustion\" section provides a table that outlines the effects of different levels of exhaustion, including level 3, which imposes disadvantage on attack rolls and saving throws but does not directly affect movement speed. However, it does mention that at level 5, speed is reduced to 0. Therefore, while the context does not explicitly state the combined effect of exhaustion level 3 and being restrained, it does provide relevant information about both conditions.\n\n   **Score: 1.5/2** (The context is relevant but does not fully address the specific interaction of the two conditions.)\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does not provide a definitive answer to the user's query regarding the movement speed of a creature with exhaustion level 3 and restrained. While it states that a restrained creature's speed is 0, it does not clarify how exhaustion level 3 interacts with being restrained. Since the user is asking for a specific movement speed, and the context does not provide a clear answer, it cannot be used exclusively to answer the query.\n\n   **Score: 1/2** (The context provides partial information but does not fully answer the query.)\n\n**Final Result: [RESULT] 2.5**"
+    }
+  }
+}

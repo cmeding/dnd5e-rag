@@ -1,0 +1,66 @@
+{
+  "query_id": "query_014",
+  "session_id": "93-kitchen-sink-Overnight-30q-v1-20260315-163650",
+  "timestamp": "2026-03-15T16:41:11.977081",
+  "query": {
+    "original": "Can a paralyzed creature make death saving throws?",
+    "used": "Can a paralyzed creature attempt death saving throws in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, a paralyzed creature is considered incapacitated, meaning it cannot move or speak. However, the rules regarding death saving throws specify that whenever a creature "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2090,
+    "rag_completion": 6270,
+    "meta_prompt": 3339,
+    "meta_completion": 269,
+    "total_calls": 4,
+    "total": 11968
+  },
+  "costs": {
+    "rag": 0.0014212,
+    "meta": 0.00066225,
+    "embed": 0.0,
+    "total": 0.00208345
+  },
+  "timings": {
+    "rag_s": 9.14,
+    "query_s": 10.34,
+    "total_s": 15.97
+  },
+  "answer": " Yes, according to the provided rules, a paralyzed creature can attempt death saving throws while at 0 hit points.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and correctly states that a paralyzed creature can attempt death saving throws, but it lacks detail about the mechanics of how this works, such as the fact that death saving throws are not considered actions and that the creature automatically fails certain types of saving throws."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query about whether a paralyzed creature can attempt death saving throws in DnD 5e. It explains that a paralyzed creature is incapacitated but can still make death saving throws when at 0 hit points, which is the crux of the user's question. The context also provides relevant details about the mechanics of death saving throws, which further clarifies the situation.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the retrieved context provides a complete answer to the user's query. It explains the relationship between paralysis and the ability to make death saving throws, including the implications of being at 0 hit points and the effects of taking damage. The information is comprehensive enough to fully address the question without needing additional context or information.\n\n   **Score: 2/2**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

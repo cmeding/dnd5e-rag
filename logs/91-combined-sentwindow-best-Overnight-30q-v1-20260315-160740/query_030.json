@@ -1,0 +1,138 @@
+{
+  "query_id": "query_030",
+  "session_id": "91-combined-sentwindow-best-Overnight-30q-v1-20260315-160740",
+  "timestamp": "2026-03-15T16:22:22.020939",
+  "query": {
+    "original": "Can you cast a spell and also make a weapon attack in the same turn without any special features?",
+    "used": "Can you cast a spell and make a weapon attack in the same turn in DnD 5e without using any class features or abilities?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.03333333333333333,
+      "category": "Classes",
+      "topic": "Ranger",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Ranger.md",
+      "preview": "Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of"
+    },
+    {
+      "rank": 2,
+      "score": 0.03252247488101534,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "If you have both the Spellcasting class feature and the Pact Magic class feature from the warlock class, you can use the spell slots you gain from the Pact Magic feature to cast spells you know or hav"
+    },
+    {
+      "rank": 3,
+      "score": 0.031754032258064516,
+      "category": "Classes",
+      "topic": "Warlock",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Warlock.md",
+      "preview": "#### Thirsting Blade\n\n*Prerequisite: 5th level, Pact of the Blade feature*\n\nYou can attack with your pact weapon twice, instead of once, whenever you take the Attack action on your turn.\n\n"
+    },
+    {
+      "rank": 4,
+      "score": 0.031099324975891997,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "You can't cast another spell during the same turn, except for a cantrip with a casting time of 1 action.\n\n"
+    },
+    {
+      "rank": 5,
+      "score": 0.03057889822595705,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "You use melee weapons to make melee attacks in hand-to-hand combat, and some of them can be thrown to make a ranged attack.\n\n"
+    },
+    {
+      "rank": 6,
+      "score": 0.016666666666666666,
+      "category": "Classes",
+      "topic": "Monk",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Monk.md",
+      "preview": "For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn.\n\n"
+    },
+    {
+      "rank": 7,
+      "score": 0.016666666666666666,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "# Making an Attack\n\nWhether you're striking with a melee weapon, firing a weapon at range, or making an attack roll as part of a spell, an attack has a simple structure.\n\n"
+    },
+    {
+      "rank": 8,
+      "score": 0.01639344262295082,
+      "category": "Classes",
+      "topic": "Sorcerer",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Sorcerer.md",
+      "preview": "#### Hit Points\n\n**Hit Dice:** 1d6 per sorcerer level\n\n**Hit Points at 1st Level:** 6 + your Constitution modifier\n\n**Hit Points at Higher Levels:** 1d6 (or 4) + your Constitution modifier per sorcere"
+    },
+    {
+      "rank": 9,
+      "score": 0.01639344262295082,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "# Casting a Spell\n\nWhen a character casts any spell, the same basic rules are followed, regardless of the character's class or the spell's effects.\n\n"
+    },
+    {
+      "rank": 10,
+      "score": 0.016129032258064516,
+      "category": "Classes",
+      "topic": "Warlock",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Warlock.md",
+      "preview": "You can cast your arcanum spell once without expending a spell slot. "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3104,
+    "rag_completion": 4170,
+    "meta_prompt": 64,
+    "meta_completion": 29,
+    "total_calls": 3,
+    "total": 7367
+  },
+  "costs": {
+    "rag": 0.00113374,
+    "meta": 2.7e-05,
+    "embed": 0.0,
+    "total": 0.00116074
+  },
+  "timings": {
+    "rag_s": 17.92,
+    "query_s": 24.37,
+    "total_s": 31.54
+  },
+  "answer": " No, in DnD 5e, you cannot cast a spell and make a weapon attack in the same turn without using a class feature or ability. The context provided describes the Ranger's \"Extra Attack\" feature, which allows for an additional weapon attack, but it does not mention anything about casting spells during the same turn. Additionally, the Warlock's \"Arcanum\" ability only allows for casting a spell without expending a spell slot, but it does not affect the ability to make weapon attacks.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.03333333333333333
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and mostly correct, accurately stating that you cannot cast a spell and make a weapon attack in the same turn without class features. However, it introduces unnecessary details about specific class features that are not directly related to the user's question, which slightly detracts from its clarity."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context does not directly address the user's query about whether a spell can be cast and a weapon attack can be made in the same turn without using any class features or abilities. The context provided discusses specific class features related to the Warlock class and the Thirsting Blade feature, which are not relevant to the general question about casting spells and making weapon attacks. The mention of making an attack and the rules surrounding spellcasting are present, but they do not specifically answer the query regarding the possibility of both actions occurring in the same turn without class features.\n\n   **Score: 0.5/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does not provide a complete answer to the user's query. While it mentions that you cannot cast another spell during the same turn except for a cantrip with a casting time of 1 action, it does not clarify the conditions under which a spell and a weapon attack can occur in the same turn without class features or abilities. Therefore, the context cannot be used exclusively to answer the query.\n\n   **Score: 0.5/2**\n\n**Feedback Summary:**\nThe retrieved context does not adequately match the subject matter of the user's query, as it focuses on specific class features rather than the general rules of spellcasting and weapon attacks. Additionally, it does not provide a complete answer to the question, as it lacks clarity on the conditions for performing both actions in the same turn without class features. \n\n**Final Result: [RESULT] 1.0**"
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "query_id": "query_001",
+  "session_id": "BASE-hierarchical-markdown-index-build-20260314-232218",
+  "timestamp": "2026-03-14T23:22:56.170870",
+  "query": {
+    "original": "Can a grappled Creature cast Spells?",
+    "used": "Can a grappled Creature cast Spells?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.7698840657710687,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "A monster's innate spells can't be swapped out with other spells. If a monster's innate spells don't require attack rolls, no attack bonus is given for them.\n\n### Spellcasting\n\nA monster with the Spel"
+    },
+    {
+      "rank": 2,
+      "score": 0.7662152077592754,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "# SPELLCASTING\n\nMagic permeates fantasy gaming worlds and often appears in the form of a spell.\n\nThis chapter provides the rules for casting spells. Different character classes have distinctive ways o"
+    },
+    {
+      "rank": 3,
+      "score": 0.7620225708672875,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "Some characters and monsters have special abilities that let them cast spells without using spell slots. For example, a monk who follows the Way of the Four Elements, a warlock who chooses certain eld"
+    },
+    {
+      "rank": 4,
+      "score": 0.7581372007624582,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "A grappled creature can use its action to escape. To do so, it must succeed on a Strength (Athletics) or Dexterity (Acrobatics) check contested by your Strength (Athletics) check.\n\n***Moving a Grapple"
+    },
+    {
+      "rank": 5,
+      "score": 0.7553133798127935,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it.\n\n### Grappling\n\nWhen you want to grab a creature or wrestle with it, you can use the Attac"
+    },
+    {
+      "rank": 6,
+      "score": 0.7548178495924831,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "# SPELLCASTING\n\nMagic permeates fantasy gaming worlds and often appears in the form of a spell.\n\nThis chapter provides the rules for casting spells. Different character classes have distinctive ways o"
+    },
+    {
+      "rank": 7,
+      "score": 0.7451391053743008,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "Some characters and monsters have special abilities that let them cast spells without using spell slots. For example, a monk who follows the Way of the Four Elements, a warlock who chooses certain eld"
+    },
+    {
+      "rank": 8,
+      "score": 0.7448975212695278,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "You can't cast another spell during the same turn, except for a cantrip with a casting time of 1 action.\n\n### Reactions\n\nSome spells can be cast as reactions. These spells take a fraction of a second "
+    },
+    {
+      "rank": 9,
+      "score": 0.7448975212695278,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "You can't cast another spell during the same turn, except for a cantrip with a casting time of 1 action.\n\n### Reactions\n\nSome spells can be cast as reactions. These spells take a fraction of a second "
+    },
+    {
+      "rank": 10,
+      "score": 0.742811635905905,
+      "category": "Characterizations",
+      "topic": "Feats",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Feats.md",
+      "preview": "You gain the following benefits:\n\n- You have advantage on attack rolls against a creature you are grappling.\n- You can use your action to try to pin a creature grappled by you. To do so, make another "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 8589,
+    "rag_completion": 9146,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 17735
+  },
+  "costs": {
+    "rag": 0.00268253,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00268253
+  },
+  "timings": {
+    "rag_s": 0.04,
+    "query_s": 11.5,
+    "total_s": 37.14
+  },
+  "answer": " In the context of gameplay during combat, if a creature is grappled, it may still attempt to cast spells that do not require somatic components, as long as it has the necessary verbal and material components and is not incapacitated. However, the distraction and physical restraint of grappling may impose disadvantage or other penalties on the spellcasting ability check, depending on the Dungeon Master's discretion.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 0.7698840657710687
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "The refined answer should be **YES**. The response correctly states that a grappled creature can cast spells that do not require somatic components, provided it has the necessary verbal and material components and is not incapacitated. The additional context provided about spell components and casting does not contradict this information, reinforcing that a grappled creature can still cast certain spells. Therefore, the final answer remains **YES**."
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query and provides additional context about spellcasting while grappled, but it incorrectly states that spells requiring somatic components cannot be cast. The reference answer correctly states that the grappled condition does not restrict spellcasting, which the generated answer fails to fully acknowledge."
+    },
+    "context_relevancy": {
+      "score": null,
+      "passing": null,
+      "feedback": "The evaluation of the context in relation to the query about whether a grappled creature can cast spells is accurate.\n\n1. **Does the retrieved context match the subject matter of the user's query?**\n   - The context provided does not address the specific question regarding the implications of grappling on a creature's ability to cast spells. It discusses general spellcasting mechanics, but it does not mention the effects of being grappled, which is crucial to answering the query. Therefore, the score of 0 points is appropriate.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Since the context does not contain any information about the effects of grappling on spellcasting, it cannot be used to answer the question. Thus, the score of 0 points is also justified here.\n\n**Final Feedback:**\nThe retrieved context does not provide relevant information regarding the specific query about a grappled creature's ability to cast spells. Therefore, the evaluation score of 0.0 is correct, as the context is not useful for answering the query.\n\nIn summary, the evaluation is consistent with the context provided, and the scores reflect the lack of relevant information regarding the specific question asked."
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "query_id": "query_024",
+  "session_id": "27-index-hierarchical-markdown-Overnight-30q-v1-20260315-130532",
+  "timestamp": "2026-03-15T13:11:12.787459",
+  "query": {
+    "original": "Can a deafened creature cast spells with verbal components?",
+    "used": "Can a deafened creature cast spells with verbal components?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "Thus, a character who is gagged or in an area of silence, such as one created by the *silence* spell, can't cast a spell with a verbal component.\n\n### Somatic (S)\n\nSpellcasting gestures might include "
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Spells",
+      "topic": "Blindness-Deafness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Blindness-Deafness.md",
+      "preview": "Choose one creature that you can see within range to make a Constitution saving throw. If it fails, the target is either blinded or deafened (your choice) for the duration. At the end of each of its t"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Spells",
+      "topic": "Blindness-Deafness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Blindness-Deafness.md",
+      "preview": "### Blindness/Deafness\n\n*2nd-level necromancy*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V\n\n**Duration:** 1 minute\n\nYou can blind or deafen a foe. Choose one creature that you c"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "- The charmer has advantage on any ability check to interact socially with the creature.\n\n## Deafened\n\n- A deafened creature can't hear and automatically fails any ability check that requires hearing."
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Spells",
+      "topic": "Blindness-Deafness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Blindness-Deafness.md",
+      "preview": "On a success, the spell ends.\n\n***At Higher Levels***. When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "### Verbal (V)\n\nMost spells require the chanting of mystic words. The words themselves aren't the source of the spell's power; rather, the particular combination of sounds, with specific pitch and res"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "Blindness-Deafness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Blindness-Deafness.md",
+      "preview": "### Blindness/Deafness\n\n*2nd-level necromancy*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V\n\n**Duration:** 1 minute\n\nYou can blind or deafen a foe."
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Spells",
+      "topic": "Divine Word",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Divine Word.md",
+      "preview": "Each creature that can hear you must make a Charisma saving throw. On a failed save, a creature suffers an effect based on its current hit points:\n\n- 50 hit points or fewer: deafened for 1 minute\n- 40"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Monsters",
+      "topic": "Bat (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Bat (Creature).md",
+      "preview": "The bat can't use its blindsight while deafened.\n\n***Keen Hearing***. The bat has advantage on Wisdom (Perception) checks that rely on hearing.\n\n###### Actions\n\n***Bite***. *Melee Weapon Attack:* +0 t"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1967,
+    "rag_completion": 2152,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 4119
+  },
+  "costs": {
+    "rag": 0.0006252499999999999,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0006252499999999999
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 3.66,
+    "total_s": 12.27
+  },
+  "answer": " A deafened creature cannot cast spells with verbal components because they cannot hear or produce sounds necessary for spellcasting. (Reference: Spellcasting.md)",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains a significant mistake regarding the rules of casting spells with verbal components. It incorrectly states that a deafened creature cannot cast such spells, which contradicts the established rules."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context discusses the implications of being gagged or in an area of silence on casting spells with verbal components. It also defines what it means to be deafened and how it affects a creature's ability to hear. However, it does not explicitly address whether a deafened creature can cast spells with verbal components. Therefore, while there is relevant information regarding verbal components and the effects of being deafened, it does not directly answer the query.\n\n   **Score: 1 point** (The context is somewhat relevant but does not directly answer the question.)\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does not provide a complete answer to the query. It implies that a character who cannot hear (such as a deafened creature) would automatically fail any ability check that requires hearing, but it does not clarify whether this inability to hear prevents them from casting spells with verbal components. The information provided is insufficient to conclude definitively about the ability of a deafened creature to cast such spells.\n\n   **Score: 0 points** (The context does not provide a full answer to the query.)\n\n**Final Result: [RESULT] 1.0**"
+    }
+  }
+}

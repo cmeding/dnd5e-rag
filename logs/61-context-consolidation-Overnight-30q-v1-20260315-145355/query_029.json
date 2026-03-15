@@ -1,0 +1,66 @@
+{
+  "query_id": "query_029",
+  "session_id": "61-context-consolidation-Overnight-30q-v1-20260315-145355",
+  "timestamp": "2026-03-15T15:01:19.389592",
+  "query": {
+    "original": "Does a Barbarian lose their Rage bonus damage if they cast a spell while raging?",
+    "used": "Does a Barbarian lose their Rage bonus damage if they cast a spell while raging?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, a Barbarian cannot cast spells or concentrate on them while raging. This means that if a Barbarian is in a state of rage, they will lose the ability to cast spells, "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1099,
+    "rag_completion": 2625,
+    "meta_prompt": 983,
+    "meta_completion": 201,
+    "total_calls": 2,
+    "total": 4908
+  },
+  "costs": {
+    "rag": 0.0006196400000000001,
+    "meta": 0.00026805,
+    "embed": 0.0,
+    "total": 0.00088769
+  },
+  "timings": {
+    "rag_s": 4.79,
+    "query_s": 7.02,
+    "total_s": 14.53
+  },
+  "answer": " I cannot find this in the provided rules. A Barbarian does not have the ability to cast spells while raging.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and correctly states that a Barbarian cannot cast spells while raging, which implies they cannot lose Rage bonus damage from spellcasting. However, it lacks the detail that spellcasting is an absolute restriction and does not mention the need to end rage voluntarily to cast spells."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context does match the subject matter of the user's query. It discusses the limitations of a Barbarian's abilities while raging, specifically addressing the inability to cast spells. This directly relates to the query about whether a Barbarian loses their Rage bonus damage when casting a spell while raging. The context explains that a Barbarian cannot cast spells at all while raging, which is crucial to understanding the answer to the query.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The retrieved context provides a comprehensive answer to the user's query. It clearly states that a Barbarian cannot cast spells while raging, which implies that the question of losing Rage bonus damage due to spellcasting is moot, as spellcasting is not an option. The explanation also includes relevant details about the benefits of raging and the conditions under which rage can end, which further supports the answer. Therefore, the context is sufficient to fully address the query without needing additional information.\n\n   **Score: 2/2**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

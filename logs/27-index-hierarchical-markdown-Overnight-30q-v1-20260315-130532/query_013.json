@@ -1,0 +1,138 @@
+{
+  "query_id": "query_013",
+  "session_id": "27-index-hierarchical-markdown-Overnight-30q-v1-20260315-130532",
+  "timestamp": "2026-03-15T13:08:54.492244",
+  "query": {
+    "original": "If a creature has exhaustion level 3 and is also restrained, what is its movement speed?",
+    "used": "If a creature has exhaustion level 3 and is also restrained, what is its movement speed?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "A creature suffers the effect of its current level of exhaustion as well as all lower levels. For example, a creature suffering level 2 exhaustion has its speed halved and has disadvantage on ability "
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "Its weight increases by a factor of ten, and it ceases aging.\n- The creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings.\n- Attack rolls against the c"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Gameplay",
+      "topic": "Adventuring",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Adventuring.md",
+      "preview": "For example, a creature with a Constitution of 14 can hold its breath for 3 minutes. If it starts suffocating, it has 2 rounds to reach air before it drops to 0 hit points."
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "Also, being raised from the dead reduces a creature's exhaustion level by 1.\n\n## Frightened\n\n- A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Spells",
+      "topic": "Freedom of Movement",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Freedom of Movement.md",
+      "preview": "For the duration, the target's movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target's speed nor cause the target to be paralyzed or restraine"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Monsters",
+      "topic": "Behir",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Behir.md",
+      "preview": "If the behir dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 15 feet of movement, exiting prone."
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Gameplay",
+      "topic": "Adventuring",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Adventuring.md",
+      "preview": "This number assumes short bursts of energetic movement in the midst of a life-threatening situation.\n\nThe following rules determine how far a character or monster can move in a minute, an hour, or a d"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Monsters",
+      "topic": "Ettercap",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Ettercap.md",
+      "preview": "*Hit:* The creature is restrained by webbing. As an action, the restrained creature can make a DC 11 Strength check, escaping from the webbing on a success. The effect also ends if the webbing is dest"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Gameplay",
+      "topic": "Adventuring",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Adventuring.md",
+      "preview": "The DC is 10 + 1 for each hour past 8 hours. On a failed saving throw, a character suffers one level of exhaustion (see appendix ##).\n\n***Mounts and Vehicles***. For short spans of time (up to an hour"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Monsters",
+      "topic": "Ettercap",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Ettercap.md",
+      "preview": "*Hit:* The creature is restrained by webbing. As an action, the restrained creature can make a DC 11 Strength check, escaping from the webbing on a success. The effect also ends if the webbing is dest"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2821,
+    "rag_completion": 3288,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 6109
+  },
+  "costs": {
+    "rag": 0.0009350300000000001,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0009350300000000001
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 9.66,
+    "total_s": 19.41
+  },
+  "answer": " The context does not provide enough information to determine the movement speed of a creature with exhaustion level 3 and restrained. The rules regarding exhaustion only specify that a creature suffering from exhaustion has its speed halved at level 2. No information is given about how exhaustion levels beyond 2 affect movement speed. Additionally, the creature being restrained would further reduce its movement speed, but the context does not provide the DC of the Strength check required to escape the restraint or the length of time the creature has been restrained, both of which could impact the creature's exhaustion level. Therefore, I cannot determine the creature's movement speed based on the provided context.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer is not relevant to the user query as it incorrectly states that there is not enough information to determine the movement speed, despite the rules clearly indicating that a creature with exhaustion level 3 has its speed halved and that being restrained reduces speed to 0, which takes precedence."
+    },
+    "context_relevancy": {
+      "score": 0.625,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context discusses the effects of exhaustion and various conditions, including the restrained condition. It specifically states that a restrained creature's speed becomes 0, which directly relates to the user's query about the movement speed of a creature that is both exhausted (level 3) and restrained. However, it does not explicitly mention how exhaustion level 3 affects movement speed in conjunction with being restrained. Therefore, while the context is relevant, it does not fully address the specific interaction between exhaustion level 3 and being restrained.\n\n   **Score: 1.5/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context provides information about the effects of exhaustion and the restrained condition, but it does not clarify how the two conditions interact. While it is clear that a restrained creature has a speed of 0, the context does not specify if exhaustion level 3 has any additional effects on movement speed beyond what is stated for being restrained. Thus, while the context is useful, it does not provide a complete answer to the query on its own.\n\n   **Score: 1/2**\n\n**Final Feedback:**\nThe retrieved context is relevant to the query as it discusses both exhaustion and the restrained condition. However, it lacks specific information on how these two conditions interact, particularly regarding the movement speed of a creature with exhaustion level 3. Therefore, while it provides a partial answer, it does not fully resolve the user's question.\n\n**Final Result: [RESULT] 2.5**"
+    }
+  }
+}

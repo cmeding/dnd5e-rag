@@ -1,0 +1,66 @@
+{
+  "query_id": "query_006",
+  "session_id": "93-kitchen-sink-Overnight-30q-v1-20260315-163650",
+  "timestamp": "2026-03-15T16:38:39.650361",
+  "query": {
+    "original": "Can a grappled creature cast spells?",
+    "used": "Can a creature that is grappled cast spells in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, a creature that is grappled has its speed reduced to 0 and cannot benefit from any bonuses to its speed. The grappled condition does not inherently prevent a creatur"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2042,
+    "rag_completion": 6090,
+    "meta_prompt": 3169,
+    "meta_completion": 249,
+    "total_calls": 4,
+    "total": 11550
+  },
+  "costs": {
+    "rag": 0.0013817200000000001,
+    "meta": 0.00062475,
+    "embed": 0.0,
+    "total": 0.00200647
+  },
+  "timings": {
+    "rag_s": 8.74,
+    "query_s": 10.74,
+    "total_s": 21.55
+  },
+  "answer": " Yes, a creature that is grappled in DnD 5e can cast spells as long as they can meet the spell's requirements, particularly regarding somatic components, and are not additionally restrained.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and fully correct, accurately explaining that a grappled creature can cast spells as long as they meet the spell's requirements and are not restrained."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query about whether a grappled creature can cast spells in DnD 5e. It explains the implications of the grappled condition on a creature's ability to cast spells, including the effects on movement and the requirements for casting spells, such as somatic components. This information is relevant and directly related to the user's question.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a comprehensive answer to the query. It explains that a grappled creature can cast spells as long as it meets the spell's requirements, particularly regarding somatic components. It also clarifies the distinction between being grappled and being restrained, which is crucial for understanding the limitations on casting spells. The information is sufficient to fully answer the question without needing additional context.\n\n   **Score: 2/2**\n\n**Feedback:** The retrieved context effectively matches the subject matter of the query and provides a complete answer regarding the ability of a grappled creature to cast spells in DnD 5e. It covers the necessary details about the grappled condition and its implications for spellcasting, making it a well-rounded response.\n\n[RESULT] 4.0"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "query_id": "query_003",
+  "session_id": "93-kitchen-sink-Overnight-30q-v1-20260315-163650",
+  "timestamp": "2026-03-15T16:37:42.851688",
+  "query": {
+    "original": "What damage type does Inflict Wounds deal?",
+    "used": "What is the damage type of the Inflict Wounds spell in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "The **Inflict Wounds** spell is a 1st-level necromancy spell in Dungeons & Dragons 5th Edition. It has a casting time of 1 action, a range of touch, and requires verbal and somatic components. Upon ca"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1483,
+    "rag_completion": 4484,
+    "meta_prompt": 2391,
+    "meta_completion": 182,
+    "total_calls": 4,
+    "total": 8540
+  },
+  "costs": {
+    "rag": 0.00101509,
+    "meta": 0.00046784999999999996,
+    "embed": 0.0,
+    "total": 0.0014829399999999999
+  },
+  "timings": {
+    "rag_s": 7.53,
+    "query_s": 8.53,
+    "total_s": 15.04
+  },
+  "answer": " The damage type of the Inflict Wounds spell in DnD 5e is necrotic.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly answers the user query with the exact information needed."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the user's query about the damage type of the Inflict Wounds spell in DnD 5e. It explicitly states that the spell deals \"3d10 necrotic damage\" and further clarifies that the damage type is \"necrotic.\" This information is relevant and directly answers the question posed.\n\n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the retrieved context provides a complete answer to the user's query. It not only identifies the damage type as necrotic but also provides additional relevant details about the spell, such as its level, casting time, and mechanics. However, the core of the query is fully answered with the information about the damage type alone, making the context sufficient for a complete response.\n\n   **Score: 2 points**\n\n**Final Feedback:** The retrieved context is highly relevant and provides a complete answer to the user's query regarding the damage type of the Inflict Wounds spell. The additional details enhance understanding but are not necessary for answering the specific question.\n\n[RESULT] 4.0"
+    }
+  }
+}

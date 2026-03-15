@@ -1,0 +1,98 @@
+{
+  "query_id": "query_017",
+  "session_id": "42-post-rerank-reorder-Overnight-30q-v1-20260315-170550",
+  "timestamp": "2026-03-15T17:09:10.294311",
+  "query": {
+    "original": "Can you use Action Surge to cast two leveled spells in one turn?",
+    "used": "Can you use Action Surge to cast two leveled spells in one turn?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 3.4982011318206787,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "### Action Surge\n\nStarting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bon"
+    },
+    {
+      "rank": 2,
+      "score": 0.15704812109470367,
+      "category": "Spells",
+      "topic": "Compulsion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Compulsion.md",
+      "preview": "### Compulsion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nCreatures of your choice that you can see wi"
+    },
+    {
+      "rank": 3,
+      "score": -4.530544281005859,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "# Combining Magical Effects\n\nThe effects of different spells add together while the durations of those spells overlap. The effects of the same spell cast multiple times don't combine, however. Instead"
+    },
+    {
+      "rank": 4,
+      "score": -1.766573190689087,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "If you have more than one spellcasting class, this table might give you spell slots of a level that is higher than the spells you know or can prepare. You can use those slots, but only to cast your lo"
+    },
+    {
+      "rank": 5,
+      "score": 2.1903204917907715,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "### Bonus Action\n\nA spell cast with a bonus action is especially swift. You must use a bonus action on your turn to cast the spell, provided that you haven't already taken a bonus action this turn. Yo"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1622,
+    "rag_completion": 1927,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 3549
+  },
+  "costs": {
+    "rag": 0.00054455,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00054455
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 6.91,
+    "total_s": 14.76
+  },
+  "answer": " No, you cannot use Action Surge to cast two leveled spells in one turn. With Action Surge, you gain an additional action, not an additional casting of a spell. You can use one of your actions to cast a spell and the other action granted by Action Surge for another action, such as attacking or using an ability. However, you cannot cast two leveled spells during the same turn using Action Surge.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 3.4982011318206787
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer is incorrect and directly contradicts the rules regarding Action Surge and spellcasting. It fails to acknowledge that Action Surge allows for the casting of two leveled spells in one turn, as long as one is not cast as a bonus action."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context discusses the Action Surge feature, which allows a character to take an additional action on their turn, and it also provides information about casting spells, including the rules for casting spells with different action types (action, bonus action). However, it does not directly address whether you can use Action Surge to cast two leveled spells in one turn. The relevant information about spellcasting rules is present, but it lacks a direct answer to the specific query regarding Action Surge and casting two leveled spells.\n\n   **Score: 1/2** (The context is somewhat relevant but does not directly answer the query.)\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does not provide a complete answer to the user's question. While it explains Action Surge and the rules for casting spells, it does not clarify the specific interaction between Action Surge and the casting of two leveled spells. The rules state that you can only cast one leveled spell per turn unless you have specific features or abilities that allow otherwise, but this is not explicitly mentioned in the retrieved context.\n\n   **Score: 0/2** (The context cannot be used to provide a full answer to the query.)\n\n**Final Feedback:**\nThe retrieved context provides some relevant information about Action Surge and spellcasting, but it fails to directly address the user's question about casting two leveled spells in one turn. The lack of explicit information regarding the interaction between Action Surge and spellcasting limits its usefulness in answering the query.\n\n[RESULT] 1.0"
+    }
+  }
+}

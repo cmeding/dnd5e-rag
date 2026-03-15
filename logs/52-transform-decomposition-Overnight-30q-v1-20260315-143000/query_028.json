@@ -1,0 +1,322 @@
+{
+  "query_id": "query_028",
+  "session_id": "52-transform-decomposition-Overnight-30q-v1-20260315-143000",
+  "timestamp": "2026-03-15T14:45:54.439005",
+  "query": {
+    "original": "Can a creature with a fly speed of 0 feet due to the restrained condition still hover?",
+    "used": "Can a creature with a fly speed of 0 feet due to the restrained condition still hover?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": null,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "Sub question: What does the restrained condition do to a creature's movement?\nResponse:  The restrained condition reduces a creature's speed to 0, preventing it from benefiting from any bonus to its s"
+    },
+    {
+      "rank": 2,
+      "score": null,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "Sub question: What are the rules for hovering in DnD 5e?\nResponse:  The context does not provide rules for hovering in DnD 5e. It only mentions that flying creatures can hover as a means to avoid fall"
+    },
+    {
+      "rank": 3,
+      "score": null,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "Sub question: Can a creature with a fly speed of 0 feet perform any movement actions?\nResponse:  A creature with a fly speed of 0 feet cannot perform any movement actions, including flying, as it is u"
+    },
+    {
+      "rank": 4,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Restrained\n\n- A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- Attack rolls against the creature have advantage, and the creature's attack rolls have dis"
+    },
+    {
+      "rank": 5,
+      "score": 0.01639344262295082,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Paralyzed\n\n- A paralyzed creature is incapacitated (see the condition) and can't move or speak.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the c"
+    },
+    {
+      "rank": 6,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Unconscious\n\n- An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings\n- The creature drops whatever it's holding and falls prone.\n- Th"
+    },
+    {
+      "rank": 7,
+      "score": 0.015873015873015872,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Stunned\n\n- A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rol"
+    },
+    {
+      "rank": 8,
+      "score": 0.015625,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Flying Movement\n\nFlying creatures enjoy many benefits of mobility, but they must also deal with the danger of falling. If a flying creature is knocked prone, has its speed reduced to 0, or is other"
+    },
+    {
+      "rank": 9,
+      "score": 0.015384615384615385,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Prone\n\n- A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.\n- The creature has disadvantage on attack rolls.\n- An attack roll against the creat"
+    },
+    {
+      "rank": 10,
+      "score": 0.015151515151515152,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Incapacitated\n\n- An incapacitated creature can't take actions or reactions."
+    },
+    {
+      "rank": 11,
+      "score": 0.014925373134328358,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Petrified\n\n- A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of t"
+    },
+    {
+      "rank": 12,
+      "score": 0.014705882352941176,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Frightened\n\n- A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\n- The creature can't willingly move closer to the sourc"
+    },
+    {
+      "rank": 13,
+      "score": 0.014492753623188406,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "### Danger Sense\n\nAt 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger.\n\nYou have advantage on Dexterity saving th"
+    },
+    {
+      "rank": 14,
+      "score": 0.016666666666666666,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Flying Movement\n\nFlying creatures enjoy many benefits of mobility, but they must also deal with the danger of falling. If a flying creature is knocked prone, has its speed reduced to 0, or is other"
+    },
+    {
+      "rank": 15,
+      "score": 0.01639344262295082,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### 5th Level\n\n- [[Animate Objects]]\n- [[Cloudkill]]\n- [[Cone of Cold]]\n- [[Creation]]\n- [[Dominate Person]]\n- [[Hold Monster]]\n- [[Insect Plague]]\n- [[Seeming]]\n- [[Telekinesis]]\n- [[Teleportation C"
+    },
+    {
+      "rank": 16,
+      "score": 0.016129032258064516,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### 5th Level\n\n- [[Animate Objects]]\n- [[Arcane Hand]]\n- [[Cloudkill]]\n- [[Cone of Cold]]\n- [[Conjure Elemental]]\n- [[Contact Other Plane]]\n- [[Creation]]\n- [[Dominate Person]]\n- [[Dream]]\n- [[Geas]]"
+    },
+    {
+      "rank": 17,
+      "score": 0.015873015873015872,
+      "category": "Gameplay",
+      "topic": "Adventuring",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Adventuring.md",
+      "preview": "Certain special mounts, such as a pegasus or griffon, or special vehicles, such as a *carpet of flying*, allow you to travel more swiftly.\n\n**Table- Travel Pace**\n\n**Distance Traveled Per ...**\n\n| Pac"
+    },
+    {
+      "rank": 18,
+      "score": 0.015625,
+      "category": "Monsters",
+      "topic": "Lich",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Lich.md",
+      "preview": "###### Actions\n\n***Paralyzing Touch***. *Melee Spell Attack:* +12 to hit, reach 5 ft., one creature. *Hit:* 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving throw or be par"
+    },
+    {
+      "rank": 19,
+      "score": 0.015384615384615385,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Being Prone\n\nCombatants often find themselves lying on the ground, either because they are knocked down or because they throw themselves down. In the game, they are prone, a condition described in "
+    },
+    {
+      "rank": 20,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "Teleport",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Teleport.md",
+      "preview": "### Teleport\n\n*7th-level conjuration*\n\n**Casting Time:** 1 action\n\n**Range:** 10 feet\n\n**Components:** V\n\n**Duration:** Instantaneous\n\nThis spell instantly transports you and up to eight willing creat"
+    },
+    {
+      "rank": 21,
+      "score": 0.014925373134328358,
+      "category": "Treasure",
+      "topic": "## Sentient Magic",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\## Sentient Magic.md",
+      "preview": "### Special Purpose\n\nYou can give a sentient item an objective it pursues, perhaps to the exclusion of all else. As long as the wielder's use of the item aligns with that special purpose, the item rem"
+    },
+    {
+      "rank": 22,
+      "score": 0.014705882352941176,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Your Turn\n\nOn your turn, you can **move** a distance up to your speed and **take one action**. You decide whether to move first or take your action first. Your speed- sometimes called your walking "
+    },
+    {
+      "rank": 23,
+      "score": 0.014492753623188406,
+      "category": "Spells",
+      "topic": "Confusion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Confusion.md",
+      "preview": "### Confusion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 90 feet\n\n**Components:** V, S, M (three nut shells)\n\n**Duration:** Concentration, up to 1 minute\n\nThis spell assaults and"
+    },
+    {
+      "rank": 24,
+      "score": 0.016666666666666666,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Flying Movement\n\nFlying creatures enjoy many benefits of mobility, but they must also deal with the danger of falling. If a flying creature is knocked prone, has its speed reduced to 0, or is other"
+    },
+    {
+      "rank": 25,
+      "score": 0.01639344262295082,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "### Fly\n\nA monster that has a flying speed can use all or part of its movement to fly. Some monsters have the ability to **hover**, which makes them hard to knock out of the air (as explained in the r"
+    },
+    {
+      "rank": 26,
+      "score": 0.016129032258064516,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "## Speed\n\nA monster's speed tells you how far it can move on its turn. For more information on speed, see the *Player's Handbook*.\n\nAll creatures have a walking speed, simply called the monster's spee"
+    },
+    {
+      "rank": 27,
+      "score": 0.015873015873015872,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Paralyzed\n\n- A paralyzed creature is incapacitated (see the condition) and can't move or speak.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the c"
+    },
+    {
+      "rank": 28,
+      "score": 0.015625,
+      "category": "Spells",
+      "topic": "Animate Objects",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Animate Objects.md",
+      "preview": "**Table- Animate Object Stats**\n\n| Size   | HP | AC | Attack                     | Str | Dex |\n|--------|----|----|----------------------------|-----|-----|\n| Tiny   | 20 | 18 | +8 to hit, 1d4 + 4 dam"
+    },
+    {
+      "rank": 29,
+      "score": 0.015384615384615385,
+      "category": "Monsters",
+      "topic": "Flying Snake (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Flying Snake (Creature).md",
+      "preview": "### Flying Snake\n\n*Tiny beast, unaligned*\n\n**Armor Class** 14\n\n**Hit Points** 5 (2d4)\n\n**Speed** 30 ft., fly 60 ft., swim 30 ft\n\n| STR    | DEX     | CON     | INT    | WIS     | CHA    |\n|--------|--"
+    },
+    {
+      "rank": 30,
+      "score": 0.015151515151515152,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Grappled\n\n- A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- The condition ends if the grappler is incapacitated (see the condition).\n- The condition also "
+    },
+    {
+      "rank": 31,
+      "score": 0.014925373134328358,
+      "category": "Spells",
+      "topic": "Animate Objects",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Animate Objects.md",
+      "preview": "### Animate Objects\n\n*5th-level transmutation*\n\n**Casting Time:** 1 action\n\n**Range:** 120 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nObjects come to life at your command"
+    },
+    {
+      "rank": 32,
+      "score": 0.014705882352941176,
+      "category": "Monsters",
+      "topic": "Frog (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Frog (Creature).md",
+      "preview": "### Frog\n\n*Tiny beast, unaligned*\n\n**Armor Class** 11\n\n**Hit Points** 1 (1d4-1)\n\n**Speed** 20 ft., swim 20 ft.\n\n| STR    | DEX     | CON    | INT    | WIS    | CHA    |\n|--------|---------|--------|--"
+    },
+    {
+      "rank": 33,
+      "score": 0.014492753623188406,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Restrained\n\n- A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- Attack rolls against the creature have advantage, and the creature's attack rolls have dis"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 9586,
+    "rag_completion": 11431,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 5,
+    "total": 21017
+  },
+  "costs": {
+    "rag": 0.0032263500000000002,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0032263500000000002
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 34.01,
+    "total_s": 55.79
+  },
+  "answer": " No, a creature with a fly speed of 0 feet due to the restrained condition cannot hover, as it is unable to move at all and therefore cannot maintain the hovering position in the air.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query and correctly states that a creature with a fly speed of 0 feet cannot hover. However, it oversimplifies the explanation by not addressing the hover trait and the distinction between being airborne and the effects of the restrained condition, which are important aspects of the rules."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "The evaluation of the context in relation to the user's query about whether a creature with a fly speed of 0 feet due to the restrained condition can still hover is accurate. \n\n1. **Does the retrieved context match the subject matter of the user's query?**\n   - The context does discuss the restrained condition and its effects on movement, which is relevant. However, it does not explicitly address the rules regarding hovering, which is crucial to the user's question. Therefore, while there is some relevant information, it does not fully encompass the user's query.\n\n   **Score: 1/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context explains that a creature with a fly speed of 0 cannot move, but it does not clarify whether a creature can hover under these conditions. Since hovering is not directly addressed, the context cannot be used exclusively to provide a full answer.\n\n   **Score: 0/2**\n\n**Final Feedback:**\nThe retrieved context partially matches the subject matter of the user's query by discussing the restrained condition and its impact on movement. However, it fails to provide a complete answer regarding the ability to hover, which is essential to the query. As a result, the overall relevance of the context is limited.\n\n**Final Result: [RESULT] 1.0**. \n\nGiven the new context provided does not include any additional information about hovering, the evaluation remains unchanged."
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "query_id": "query_011",
+  "session_id": "42-post-rerank-reorder-Overnight-30q-v1-20260315-170550",
+  "timestamp": "2026-03-15T17:07:46.849806",
+  "query": {
+    "original": "What happens to concentration spells when a caster falls unconscious?",
+    "used": "What happens to concentration spells when a caster falls unconscious?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": -4.154808044433594,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "### Concentration\n\nSome spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends.\n\nIf a spell must be maintained with concentratio"
+    },
+    {
+      "rank": 2,
+      "score": -6.685393333435059,
+      "category": "Spells",
+      "topic": "Compulsion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Compulsion.md",
+      "preview": "### Compulsion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nCreatures of your choice that you can see wi"
+    },
+    {
+      "rank": 3,
+      "score": -7.868544101715088,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "### Longer Casting Times\n\nCertain spells (including spells cast as rituals) require more time to cast: minutes or even hours. When you cast a spell with a casting time longer than a single action or r"
+    },
+    {
+      "rank": 4,
+      "score": -7.121158599853516,
+      "category": "Spells",
+      "topic": "Mislead",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Mislead.md",
+      "preview": "### Mislead\n\n*5th-level illusion*\n\n**Casting Time:** 1 action\n\n**Range:** Self\n\n**Components:** S\n\n**Duration:** Concentration, up to 1 hour\n\nYou become invisible at the same time that an illusory dou"
+    },
+    {
+      "rank": 5,
+      "score": -6.217584609985352,
+      "category": "Spells",
+      "topic": "Confusion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Confusion.md",
+      "preview": "### Confusion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 90 feet\n\n**Components:** V, S, M (three nut shells)\n\n**Duration:** Concentration, up to 1 minute\n\nThis spell assaults and"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2202,
+    "rag_completion": 2427,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 4629
+  },
+  "costs": {
+    "rag": 0.0007033499999999999,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0007033499999999999
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 3.94,
+    "total_s": 10.32
+  },
+  "answer": " When a caster falls unconscious, all of their active concentration spells end. (This information is not explicitly stated in the provided context, but it can be inferred from the general rule that if concentration is lost, the spell ends.)",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": -4.154808044433594
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and fully correct, accurately stating that concentration spells end when a caster falls unconscious. It also provides a clear explanation of the reasoning behind this conclusion, aligning well with the reference answer."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the subject matter of the user's query regarding concentration spells and what happens when a caster falls unconscious. It specifically states that a caster loses concentration on a spell if they are incapacitated, which includes falling unconscious. This is a key point that directly answers the query.\n\n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a complete answer to the query. It explains that concentration is lost if the caster is incapacitated or killed, which encompasses the scenario of falling unconscious. The information is clear and sufficient to fully address the user's question without needing additional context.\n\n   **Score: 2 points**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

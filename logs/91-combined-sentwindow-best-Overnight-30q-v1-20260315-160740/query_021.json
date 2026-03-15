@@ -1,0 +1,138 @@
+{
+  "query_id": "query_021",
+  "session_id": "91-combined-sentwindow-best-Overnight-30q-v1-20260315-160740",
+  "timestamp": "2026-03-15T16:18:15.793493",
+  "query": {
+    "original": "What is the casting time of the Wish spell?",
+    "used": "What is the casting time for the Wish spell in Dungeons & Dragons 5th Edition?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06666666666666667,
+      "category": "Spells",
+      "topic": "Wish",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Wish.md",
+      "preview": "### Wish\n\n*9th-level conjuration*\n\n**Casting Time:** 1 action\n\n**Range:** Self\n\n**Components:** V\n\n**Duration:** Instantaneous\n\n*Wish* is the mightiest spell a mortal creature can cast. "
+    },
+    {
+      "rank": 2,
+      "score": 0.04688263125763126,
+      "category": "Spells",
+      "topic": "Wish",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Wish.md",
+      "preview": "For example, wishing that a villain were dead might propel you forward in time to a period when that villain is no longer alive, effectively removing you from the game. "
+    },
+    {
+      "rank": 3,
+      "score": 0.03252247488101534,
+      "category": "Spells",
+      "topic": "Dream",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Dream.md",
+      "preview": "### Dream\n\n*5th-level illusion*\n\n**Casting Time:** 1 minute\n\n**Range:** Special\n\n**Components:** V, S, M (a handful of sand, a dab of ink, and a writing quill plucked from a sleeping bird)\n\n**Duration"
+    },
+    {
+      "rank": 4,
+      "score": 0.03252247488101534,
+      "category": "Spells",
+      "topic": "Wish",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Wish.md",
+      "preview": "- You grant up to ten creatures you can see immunity to a single spell or other magical effect for 8 hours. "
+    },
+    {
+      "rank": 5,
+      "score": 0.03252247488101534,
+      "category": "Spells",
+      "topic": "Wish",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Wish.md",
+      "preview": "After enduring that stress, each time you cast a spell until you finish a long rest, you take 1d10 necrotic damage per level of that spell. "
+    },
+    {
+      "rank": 6,
+      "score": 0.03200204813108039,
+      "category": "Spells",
+      "topic": "Wish",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Wish.md",
+      "preview": "Finally, there is a 33 percent chance that you are unable to cast *wish* ever again if you suffer this stress."
+    },
+    {
+      "rank": 7,
+      "score": 0.031009615384615385,
+      "category": "Spells",
+      "topic": "Wish",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Wish.md",
+      "preview": "The stress of casting this spell to produce any effect other than duplicating another spell weakens you. "
+    },
+    {
+      "rank": 8,
+      "score": 0.030309988518943745,
+      "category": "Treasure",
+      "topic": "Deck of Many Things",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Deck of Many Things.md",
+      "preview": "You are granted the ability to cast the *wish* spell 1d3 times.\n\n"
+    },
+    {
+      "rank": 9,
+      "score": 0.030303030303030304,
+      "category": "Treasure",
+      "topic": "Efreeti Bottle",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Efreeti Bottle.md",
+      "preview": "|\n| 91-100 | The efreeti can cast the wish spell three times for you. "
+    },
+    {
+      "rank": 10,
+      "score": 0.029631255487269532,
+      "category": "Treasure",
+      "topic": "Ring of Three Wishes",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Ring of Three Wishes.md",
+      "preview": "### Ring of Three Wishes\n\n*Ring, legendary*\n\nWhile wearing this ring, you can use an action to expend 1 of its 3 charges to cast the *wish* spell from it. "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1814,
+    "rag_completion": 2560,
+    "meta_prompt": 54,
+    "meta_completion": 19,
+    "total_calls": 3,
+    "total": 4447
+  },
+  "costs": {
+    "rag": 0.0006859400000000001,
+    "meta": 1.95e-05,
+    "embed": 0.0,
+    "total": 0.0007054400000000001
+  },
+  "timings": {
+    "rag_s": 16.38,
+    "query_s": 17.81,
+    "total_s": 22.49
+  },
+  "answer": " The casting time for the Wish spell in Dungeons & Dragons 5th Edition is 1 action.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06666666666666667
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly answers the user query with the exact information provided in the reference answer."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the user's query about the casting time for the Wish spell in Dungeons & Dragons 5th Edition. It clearly states that the casting time for the Wish spell is \"1 action,\" which is the specific information requested.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides all the necessary information to answer the query fully. The casting time is explicitly mentioned, and there are no additional details required to understand the answer. The context does not include extraneous information that would detract from the clarity of the answer.\n\n   **Score: 2/2**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

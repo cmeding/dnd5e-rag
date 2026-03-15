@@ -1,0 +1,51 @@
+{
+  "query_id": "query_025",
+  "session_id": "10-baseline-no-rag-Overnight-30q-v1-20260315-034305",
+  "timestamp": "2026-03-15T03:47:39.478051",
+  "query": {
+    "original": "Does the stunned condition prevent a creature from making saving throws?",
+    "used": "Does the stunned condition prevent a creature from making saving throws?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 286,
+    "rag_completion": 535,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 821
+  },
+  "costs": {
+    "rag": 0.00013311,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00013311
+  },
+  "timings": {
+    "rag_s": null,
+    "query_s": 4.94,
+    "total_s": 6.66
+  },
+  "answer": " No, the stunned condition does not prevent a creature from making saving throws. However, some effects, such as certain spells or abilities, may state that saving throws do not apply while a creature is stunned. It's essential to read the specific text of the effect causing the stunned condition to determine if saving throws are allowed or not.",
+  "refused": false,
+  "confidence": {
+    "passed": null,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer correctly states that the stunned condition does not prevent a creature from making saving throws and provides additional context about specific effects that may alter this. However, it could be misleading as it implies that there are effects that might prevent saving throws, which is not a general rule. Overall, it is relevant and mostly correct but slightly less clear than the reference answer."
+    },
+    "context_relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    }
+  }
+}

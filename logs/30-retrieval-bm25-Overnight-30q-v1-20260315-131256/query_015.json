@@ -1,0 +1,138 @@
+{
+  "query_id": "query_015",
+  "session_id": "30-retrieval-bm25-Overnight-30q-v1-20260315-131256",
+  "timestamp": "2026-03-15T13:15:33.489804",
+  "query": {
+    "original": "What conditions cause the Grappled condition to end?",
+    "used": "What conditions cause the Grappled condition to end?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.03333333333333333,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Grappled\n\n- A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- The condition ends if the grappler is incapacitated (see the condition).\n- The condition also "
+    },
+    {
+      "rank": 2,
+      "score": 0.03252247488101534,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Grappling\n\nWhen you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack act"
+    },
+    {
+      "rank": 3,
+      "score": 0.031544957774465976,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "# Conditions\n\nConditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. Most conditions, such as blind"
+    },
+    {
+      "rank": 4,
+      "score": 0.03036576949620428,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Stunned\n\n- A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rol"
+    },
+    {
+      "rank": 5,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Paralyzed\n\n- A paralyzed creature is incapacitated (see the condition) and can't move or speak.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the c"
+    },
+    {
+      "rank": 6,
+      "score": 0.015873015873015872,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Prone\n\n- A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.\n- The creature has disadvantage on attack rolls.\n- An attack roll against the creat"
+    },
+    {
+      "rank": 7,
+      "score": 0.015625,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Unconscious\n\n- An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings\n- The creature drops whatever it's holding and falls prone.\n- Th"
+    },
+    {
+      "rank": 8,
+      "score": 0.015625,
+      "category": "Spells",
+      "topic": "Imprisonment",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Imprisonment.md",
+      "preview": "The special component for this version of the spell is a miniature representation of the prison made from jade.\n\n***Minimus Containment***. The target shrinks to a height of 1 inch and is imprisoned i"
+    },
+    {
+      "rank": 9,
+      "score": 0.015384615384615385,
+      "category": "Characterizations",
+      "topic": "Feats",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Feats.md",
+      "preview": "## Grappler\n\n*Prerequisite: Strength 13 or higher*\n\nYou've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:\n\n- You have advantage on attack"
+    },
+    {
+      "rank": 10,
+      "score": 0.015384615384615385,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Exhaustion\n\nSome special abilities and environmental hazards, such as starvation and the long-term effects of freezing or scorching temperatures, can lead to a special condition called exhaustion. "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2842,
+    "rag_completion": 3027,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 5869
+  },
+  "costs": {
+    "rag": 0.0008877500000000001,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0008877500000000001
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 4.6,
+    "total_s": 10.44
+  },
+  "answer": " The Grappled condition ends if the grappler is incapacitated, or if an effect removes the grappled creature from the reach of the grappler or grappling effect.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.03333333333333333
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and matches the reference answer exactly, providing a clear and concise explanation of the conditions that cause the Grappled condition to end."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context directly addresses the conditions that cause the Grappled condition to end. It specifies that the condition ends if the grappler is incapacitated or if an effect removes the grappled creature from the reach of the grappler. This is precisely what the user is asking about.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a complete answer to the query. It outlines the specific conditions under which the Grappled condition ends without needing additional information. The details provided are sufficient for the user to understand the mechanics of the Grappled condition in DnD 5e.\n\n**Feedback Summary:**\nThe retrieved context is highly relevant and directly answers the user's query about the conditions that cause the Grappled condition to end. It provides clear and concise information that is sufficient to fully address the question.\n\n[RESULT] 4.0"
+    }
+  }
+}

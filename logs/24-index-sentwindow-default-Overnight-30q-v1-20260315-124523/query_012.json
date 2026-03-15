@@ -1,0 +1,138 @@
+{
+  "query_id": "query_012",
+  "session_id": "24-index-sentwindow-default-Overnight-30q-v1-20260315-124523",
+  "timestamp": "2026-03-15T12:47:23.530057",
+  "query": {
+    "original": "Can a Paladin under the Sanctuary spell use Divine Smite?",
+    "used": "Can a Paladin under the Sanctuary spell use Divine Smite?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "### Divine Smite\n\nStarting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. "
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "### Improved Divine Smite\n\nBy 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. "
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "If you also use your Divine Smite with an attack, you add this damage to the extra damage of your Divine Smite.\n\n"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "**Table- Oath of Devotion Spells**\n\n| Level | Paladin Spells                           |\n|-------|------------------------------------------|\n| 3rd   | protection from evil and good, sanctuary |\n| 5th"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "The paladin might spend an all- night vigil in prayer as a sign of penitence, or undertake a fast or similar act of self-denial. "
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "#### Channel Divinity\n\nYour oath allows you to channel divine energy to fuel magical effects. "
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "As an action, you present your holy symbol and speak a prayer censuring fiends and undead, using your Channel Divinity. "
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "### Spellcasting\n\nBy 2nd level, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does.\n\n"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "##### Purity of Spirit\n\nBeginning at 15th level, you are always under the effects of a *protection from evil and good* spell.\n\n"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Spells",
+      "topic": "Divine Favor",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Divine Favor.md",
+      "preview": "### Divine Favor\n\n*1st-level evocation*\n\n**Casting Time:** 1 bonus action\n\n**Range:** Self\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYour prayer empowers you with divine radi"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1325,
+    "rag_completion": 1540,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 2865
+  },
+  "costs": {
+    "rag": 0.00043835,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00043835
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 4.65,
+    "total_s": 11.76
+  },
+  "answer": " Yes, a Paladin under the Sanctuary spell can use Divine Smite as long as they hit a creature with a melee weapon attack and expend a spell slot to do so. The Sanctuary spell does not restrict the use of Divine Smite.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer is incorrect as it states that a Paladin can use Divine Smite while under the effects of the Sanctuary spell, which contradicts the rules. Sanctuary ends when the protected creature attacks, and using Divine Smite is considered an attack."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context provides information about Divine Smite, its mechanics, and the spells available to a Paladin, including the Sanctuary spell. However, it does not directly address the interaction between the Sanctuary spell and the use of Divine Smite. While it mentions the spells a Paladin can access, it lacks specific information on whether a Paladin can use Divine Smite while under the effects of Sanctuary. Therefore, the context is somewhat relevant but does not fully match the specific query.\n\n   **Score: 1/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does not provide a complete answer to the query regarding the interaction between Sanctuary and Divine Smite. It explains what Divine Smite is and lists spells available to Paladins, but it does not clarify whether the Sanctuary spell would prevent the use of Divine Smite or if it would allow it. Thus, the context cannot be used exclusively to answer the user's question.\n\n   **Score: 0/2**\n\n**Feedback Summary:**\nThe retrieved context partially matches the subject matter of the query by discussing Divine Smite and mentioning the Sanctuary spell, but it fails to provide a direct answer regarding their interaction. As such, it does not allow for a complete answer to the user's question.\n\n**Final Result: [RESULT] 1.0**"
+    }
+  }
+}

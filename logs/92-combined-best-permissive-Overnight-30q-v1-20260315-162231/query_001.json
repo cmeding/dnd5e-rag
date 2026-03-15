@@ -1,0 +1,138 @@
+{
+  "query_id": "query_001",
+  "session_id": "92-combined-best-permissive-Overnight-30q-v1-20260315-162231",
+  "timestamp": "2026-03-15T16:22:53.351066",
+  "query": {
+    "original": "What is the range of the Fireball spell?",
+    "used": "What is the range of the Fireball spell in Dungeons & Dragons 5th Edition?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06639344262295081,
+      "category": "Spells",
+      "topic": "Fireball",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Fireball.md",
+      "preview": "### Fireball\n\n*3rd-level evocation*\n\n**Casting Time:** 1 action\n\n**Range:** 150 feet\n\n**Components:** V, S, M (a tiny ball of bat guano and sulfur)\n\n**Duration:** Instantaneous\n\nA bright streak flashe"
+    },
+    {
+      "rank": 2,
+      "score": 0.04772107205905954,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### 7th Level\n\n- [[Delayed Blast Fireball]]\n- [[Etherealness]]\n- [[Finger of Death]]\n- [[Fire Storm]]\n- [[Plane Shift]]\n- [[Prismatic Spray]]\n- [[Reverse Gravity]]\n- [[Teleport]]"
+    },
+    {
+      "rank": 3,
+      "score": 0.04715356328259554,
+      "category": "Treasure",
+      "topic": "Wand of Fireballs",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Wand of Fireballs.md",
+      "preview": "### Wand of Fireballs\n\n*Wand, rare (requires attunement by a spellcaster)*\n\nThis wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the *fireball* s"
+    },
+    {
+      "rank": 4,
+      "score": 0.04701522850420374,
+      "category": "Treasure",
+      "topic": "Necklace of Fireballs",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Necklace of Fireballs.md",
+      "preview": "### Necklace of Fireballs\n\n*Wondrous item, rare*\n\nThis necklace has 1d6+3 beads hanging from it. You can use an action to detach a bead and throw it up to 60 feet away. When it reaches the end of its "
+    },
+    {
+      "rank": 5,
+      "score": 0.04598642976252085,
+      "category": "Spells",
+      "topic": "## Spell Lists",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists.md",
+      "preview": "#### 7th Level\n\n- Delayed Blast Fireball\n- Etherealness\n- Finger of Death\n- Fire Storm\n- Plane Shift\n- Prismatic Spray\n- Reverse Gravity\n- Teleport"
+    },
+    {
+      "rank": 6,
+      "score": 0.04551728464771943,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "## Spell Range\n\nThe target of a spell must be within the spell's range. For a spell like *magic missile*, the target is a creature. For a spell like *fireball*, the target is the point in space where "
+    },
+    {
+      "rank": 7,
+      "score": 0.04529114263053264,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### 7th Level\n\n- [[Arcane Sword]]\n- [[Delayed Blast Fireball]]\n- [[Etherealness]]\n- [[Finger of Death]]\n- [[Forcecage]]\n- [[Magnificent Mansion]]\n- [[Mirage Arcane]]\n- [[Plane Shift]]\n- [[Prismatic S"
+    },
+    {
+      "rank": 8,
+      "score": 0.030330882352941176,
+      "category": "Spells",
+      "topic": "Fire Bolt",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Fire Bolt.md",
+      "preview": "### Fire Bolt\n\n*Evocation cantrip*\n\n**Casting Time:** 1 action\n\n**Range:** 120 feet\n\n**Components:** V, S\n\n**Duration:** Instantaneous\n\nYou hurl a mote of fire at a creature or object within range. Ma"
+    },
+    {
+      "rank": 9,
+      "score": 0.030330882352941176,
+      "category": "Spells",
+      "topic": "Delayed Blast Fireball",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Delayed Blast Fireball.md",
+      "preview": "### Delayed Blast Fireball\n\n*7th-level evocation*\n\n**Casting Time:** 1 action\n\n**Range:** 150 feet\n\n**Components:** V, S, M (a tiny ball of bat guano and sulfur)\n\n**Duration:** Concentration, up to 1 "
+    },
+    {
+      "rank": 10,
+      "score": 0.030090497737556562,
+      "category": "Spells",
+      "topic": "## Spell Lists",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists.md",
+      "preview": "#### 7th Level\n\n- Arcane Sword\n- Delayed Blast Fireball\n- Etherealness\n- Finger of Death\n- Forcecage\n- Magnificent Mansion\n- Mirage Arcane\n- Plane Shift\n- Prismatic Spray\n- Project Image\n- Reverse Gra"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2937,
+    "rag_completion": 3592,
+    "meta_prompt": 54,
+    "meta_completion": 19,
+    "total_calls": 3,
+    "total": 6602
+  },
+  "costs": {
+    "rag": 0.00100555,
+    "meta": 1.95e-05,
+    "embed": 0.0,
+    "total": 0.00102505
+  },
+  "timings": {
+    "rag_s": 15.45,
+    "query_s": 16.15,
+    "total_s": 22.2
+  },
+  "answer": " The range of the Fireball spell in Dungeons & Dragons 5th Edition is 150 feet.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06639344262295081
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly addresses the user query by providing the exact range of the Fireball spell."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query about the Fireball spell in Dungeons & Dragons 5th Edition. It provides specific information about the spell, including its range of 150 feet, which is the exact information requested. The context also includes additional details about the spell's casting time, components, and effects, which are relevant to understanding the spell as a whole.\n\n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the retrieved context can be used to provide a complete answer to the user's query. The specific mention of the range of the Fireball spell (150 feet) is clearly stated, and no additional information is necessary to answer the question. While the context includes more details about the spell, the essential information regarding the range is fully covered.\n\n   **Score: 2 points**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

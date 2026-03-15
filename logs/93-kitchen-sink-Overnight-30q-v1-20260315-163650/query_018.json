@@ -1,0 +1,66 @@
+{
+  "query_id": "query_018",
+  "session_id": "93-kitchen-sink-Overnight-30q-v1-20260315-163650",
+  "timestamp": "2026-03-15T16:42:57.849410",
+  "query": {
+    "original": "Does Sneak Attack require the rogue to be hidden?",
+    "used": "Does a rogue need to be hidden to use Sneak Attack in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, a rogue does not need to be hidden to use their Sneak Attack feature, but there are specific conditions that must be met. \n\n1. **Sneak Attack Mechanics**: A rogue ca"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1820,
+    "rag_completion": 4904,
+    "meta_prompt": 2201,
+    "meta_completion": 274,
+    "total_calls": 4,
+    "total": 9199
+  },
+  "costs": {
+    "rag": 0.0011319600000000002,
+    "meta": 0.00049455,
+    "embed": 0.0,
+    "total": 0.0016265100000000003
+  },
+  "timings": {
+    "rag_s": 9.1,
+    "query_s": 14.23,
+    "total_s": 24.35
+  },
+  "answer": " No, a rogue does not need to be hidden to use Sneak Attack in DnD 5e. The conditions for using Sneak Attack include having advantage on the attack roll, using a finesse or ranged weapon, or having another enemy of the target within 5 feet that is not incapacitated and the rogue does not have disadvantage on the attack roll.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and mostly correct, accurately stating that a rogue does not need to be hidden to use Sneak Attack and outlining the conditions for its use. However, it could be slightly more concise and clearer in its explanation of the conditions."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the user's query about whether a rogue needs to be hidden to use Sneak Attack in DnD 5e. It clearly states that a rogue does not need to be hidden to use the Sneak Attack feature, while also explaining the conditions under which Sneak Attack can be used. This matches the subject matter of the query effectively.\n\n   Score: 2 points\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the retrieved context provides a comprehensive answer to the query. It explains that while being hidden can provide advantages, it is not a requirement for using Sneak Attack. The context includes the necessary mechanics and conditions for using Sneak Attack, making it sufficient to fully answer the user's question without needing additional information.\n\n   Score: 2 points\n\n**Feedback Summary:** The retrieved context is highly relevant and provides a complete answer to the user's query regarding the Sneak Attack feature of rogues in DnD 5e. It clarifies the conditions under which Sneak Attack can be used, confirming that hiding is not a requirement.\n\n[RESULT] 4.0"
+    }
+  }
+}

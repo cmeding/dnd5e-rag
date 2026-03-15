@@ -1,0 +1,66 @@
+{
+  "query_id": "query_001",
+  "session_id": "93-kitchen-sink-Overnight-30q-v1-20260315-163650",
+  "timestamp": "2026-03-15T16:37:07.897569",
+  "query": {
+    "original": "What is the range of the Fireball spell?",
+    "used": "What is the range of the Fireball spell in Dungeons & Dragons 5th Edition?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, the **Fireball** spell is a 3rd-level evocation with a range of **150 feet**. It requires **1 action** to cast and has the components of verbal (V), somatic (S), and"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1708,
+    "rag_completion": 5259,
+    "meta_prompt": 2788,
+    "meta_completion": 286,
+    "total_calls": 4,
+    "total": 10041
+  },
+  "costs": {
+    "rag": 0.00118709,
+    "meta": 0.0005898,
+    "embed": 0.0,
+    "total": 0.0017768900000000002
+  },
+  "timings": {
+    "rag_s": 9.29,
+    "query_s": 9.81,
+    "total_s": 17.74
+  },
+  "answer": " The range of the Fireball spell in Dungeons & Dragons 5th Edition is 150 feet.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly addresses the user query by providing the exact range of the Fireball spell."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the user's query about the range of the Fireball spell in Dungeons & Dragons 5th Edition. It clearly states that the range is **150 feet**, which is the specific information requested.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the retrieved context provides a complete answer to the user's query regarding the range of the Fireball spell. While it includes additional information about the spell's casting time, components, area of effect, and damage, the essential detail about the range is explicitly mentioned and can stand alone to answer the question.\n\n**Feedback:**  \nThe retrieved context is highly relevant to the query, as it not only provides the specific range of the Fireball spell but also offers additional context that enhances understanding of the spell's mechanics. The information is accurate and aligns perfectly with the rules of Dungeons & Dragons 5th Edition. The context is sufficient to fully answer the user's question without needing any further information.\n\n[RESULT] 4.0"
+    }
+  }
+}

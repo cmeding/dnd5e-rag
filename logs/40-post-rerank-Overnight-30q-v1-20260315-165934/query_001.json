@@ -1,0 +1,98 @@
+{
+  "query_id": "query_001",
+  "session_id": "40-post-rerank-Overnight-30q-v1-20260315-165934",
+  "timestamp": "2026-03-15T16:59:51.206441",
+  "query": {
+    "original": "What is the range of the Fireball spell?",
+    "used": "What is the range of the Fireball spell?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 3.769596576690674,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "## Spell Range\n\nThe target of a spell must be within the spell's range. For a spell like *magic missile*, the target is a creature. For a spell like *fireball*, the target is the point in space where "
+    },
+    {
+      "rank": 2,
+      "score": 3.34381103515625,
+      "category": "Spells",
+      "topic": "Fireball",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Fireball.md",
+      "preview": "### Fireball\n\n*3rd-level evocation*\n\n**Casting Time:** 1 action\n\n**Range:** 150 feet\n\n**Components:** V, S, M (a tiny ball of bat guano and sulfur)\n\n**Duration:** Instantaneous\n\nA bright streak flashe"
+    },
+    {
+      "rank": 3,
+      "score": 1.5007126331329346,
+      "category": "Spells",
+      "topic": "Delayed Blast Fireball",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Delayed Blast Fireball.md",
+      "preview": "### Delayed Blast Fireball\n\n*7th-level evocation*\n\n**Casting Time:** 1 action\n\n**Range:** 150 feet\n\n**Components:** V, S, M (a tiny ball of bat guano and sulfur)\n\n**Duration:** Concentration, up to 1 "
+    },
+    {
+      "rank": 4,
+      "score": -2.528688669204712,
+      "category": "Spells",
+      "topic": "## Spell Lists",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists.md",
+      "preview": "#### 7th Level\n\n- Delayed Blast Fireball\n- Etherealness\n- Finger of Death\n- Fire Storm\n- Plane Shift\n- Prismatic Spray\n- Reverse Gravity\n- Teleport"
+    },
+    {
+      "rank": 5,
+      "score": -2.724383592605591,
+      "category": "Treasure",
+      "topic": "Wand of Fireballs",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Wand of Fireballs.md",
+      "preview": "### Wand of Fireballs\n\n*Wand, rare (requires attunement by a spellcaster)*\n\nThis wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the *fireball* s"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1645,
+    "rag_completion": 1956,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 3601
+  },
+  "costs": {
+    "rag": 0.0005525899999999999,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0005525899999999999
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 7.97,
+    "total_s": 16.72
+  },
+  "answer": " The range of the Fireball spell is given in the context as not explicitly stated. However, we do know that the Wand of Fireballs allows you to cast the Fireball spell from it, so the range for the spell when cast from the wand must be within the reach of the wand-holder, which is typically 5 feet in DnD 5e. Therefore, the effective range of the Fireball spell when cast from the Wand of Fireballs is 5 feet.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 3.769596576690674
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer is not relevant to the user query as it incorrectly states the range of the Fireball spell and focuses on the Wand of Fireballs instead of providing the correct information about the spell itself."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query about the range of the Fireball spell. It explicitly states that the range of Fireball is 150 feet, which is the specific information requested by the user. The context also provides additional relevant details about the spell, such as its casting time, components, and effects, which further supports the main point regarding its range.\n\n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the retrieved context can be used to provide a complete answer to the user's query. The specific mention of the range (150 feet) is clearly stated, and while additional information about the spell is included, it does not detract from the answer. The user could extract the necessary information about the range without needing any further context or details.\n\n   **Score: 2 points**\n\n**Final Feedback:** The retrieved context is highly relevant and provides a complete answer to the query regarding the range of the Fireball spell. The information is clear and directly addresses the user's question without ambiguity.\n\n[RESULT] 4.0"
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "query_id": "query_006",
+  "session_id": "91-combined-sentwindow-best-Overnight-30q-v1-20260315-160740",
+  "timestamp": "2026-03-15T16:10:26.478232",
+  "query": {
+    "original": "Can a grappled creature cast spells?",
+    "used": "Can a creature that is grappled cast spells in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.03306010928961749,
+      "category": "Characterizations",
+      "topic": "Feats",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Feats.md",
+      "preview": "- You can use your action to try to pin a creature grappled by you. "
+    },
+    {
+      "rank": 2,
+      "score": 0.03306010928961749,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "Remember that you have disadvantage on a ranged attack roll if you are within 5 feet of a hostile creature that can see you and that isn't incapacitated.\n\n"
+    },
+    {
+      "rank": 3,
+      "score": 0.03225806451612903,
+      "category": "Spells",
+      "topic": "Arcane Hand",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Arcane Hand.md",
+      "preview": "The hand attempts to grapple a Huge or smaller creature within 5 feet of it. "
+    },
+    {
+      "rank": 4,
+      "score": 0.03205128205128205,
+      "category": "Monsters",
+      "topic": "Chain Devil (Devil)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Chain Devil (Devil).md",
+      "preview": "An animated chain can grapple one creature of its own but can't make attacks while grappling. "
+    },
+    {
+      "rank": 5,
+      "score": 0.031544957774465976,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Grappled\n\n- A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n"
+    },
+    {
+      "rank": 6,
+      "score": 0.030834914611005692,
+      "category": "Monsters",
+      "topic": "Ankheg",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Ankheg.md",
+      "preview": "Until this grapple ends, the ankheg can bite only the grappled creature and has advantage on attack rolls to do so.\n\n"
+    },
+    {
+      "rank": 7,
+      "score": 0.030798389007344232,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "Such spells can make enemies see the caster as a friend, force creatures to take a course of action, or even control another creature like a puppet.\n"
+    },
+    {
+      "rank": 8,
+      "score": 0.030798389007344232,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Cast a Spell\n\nSpellcasters such as wizards and clerics, as well as many monsters, have access to spells and can use them to great effect in combat. "
+    },
+    {
+      "rank": 9,
+      "score": 0.030776515151515152,
+      "category": "Classes",
+      "topic": "Sorcerer",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Sorcerer.md",
+      "preview": "#### Careful Spell\n\nWhen you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. "
+    },
+    {
+      "rank": 10,
+      "score": 0.03036576949620428,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "- The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect, such as when a creature is hurled away by the *thunder-wave* spell.\n\n"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1796,
+    "rag_completion": 2847,
+    "meta_prompt": 52,
+    "meta_completion": 17,
+    "total_calls": 3,
+    "total": 4712
+  },
+  "costs": {
+    "rag": 0.0007384900000000001,
+    "meta": 1.7999999999999997e-05,
+    "embed": 0.0,
+    "total": 0.0007564900000000001
+  },
+  "timings": {
+    "rag_s": 17.06,
+    "query_s": 27.79,
+    "total_s": 38.02
+  },
+  "answer": " A grappled creature can still cast spells in DnD 5e, as long as they have the necessary components and focus, and their hands are not restrained or otherwise incapable of performing the necessary gestures or material components. However, if the spell requires a ranged attack roll, the creature will have disadvantage due to being within 5 feet of a hostile creature that can see them, as stated in the Spellcasting rules. Additionally, if the spell description states that it targets a specific creature that is grappled, the spellcaster can target that creature even if they are not in melee range. For example, the Arcane Hand spell can be used to grapple a creature and then cast spells at range while maintaining the grapple.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.03306010928961749
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and mostly correct, explaining that a grappled creature can cast spells as long as they meet certain conditions. However, it introduces some unnecessary complexity regarding targeting and specific spells that may not be directly related to the original question about the grappled condition."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context does touch on the subject of grappling, as it includes definitions and effects of the grappled condition. However, it does not directly address whether a grappled creature can cast spells. The mention of spellcasting is vague and does not clarify the specific interaction between grappling and casting spells. Therefore, while there are relevant terms, the context does not fully match the query's focus on the ability to cast spells while grappled.\n\n   **Score: 1/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The context provided does not offer a complete answer to the question of whether a grappled creature can cast spells. It lacks specific information regarding the rules governing spellcasting while grappled. The mention of spellcasters and the effects of grappling does not clarify the interaction between these two mechanics. Thus, the context cannot be used exclusively to answer the query.\n\n   **Score: 0/2**\n\n**Final Feedback:** The retrieved context provides some relevant information about grappling but fails to directly address the query regarding the ability of a grappled creature to cast spells. It lacks the necessary details to form a complete answer, resulting in a low score.\n\n[RESULT] 1.0"
+    }
+  }
+}

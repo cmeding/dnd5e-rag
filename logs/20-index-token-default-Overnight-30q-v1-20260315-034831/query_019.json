@@ -1,0 +1,138 @@
+{
+  "query_id": "query_019",
+  "session_id": "20-index-token-default-Overnight-30q-v1-20260315-034831",
+  "timestamp": "2026-03-15T03:53:18.561596",
+  "query": {
+    "original": "Do you add your proficiency bonus to every saving throw?",
+    "used": "Do you add your proficiency bonus to every saving throw?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "monster has six ability scores (Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma) and corresponding modifiers. For more information on ability scores and how they're used in play,"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "once and multiply or divide it only once.\n\nBy the same token, if a feature or effect allows you to multiply your proficiency bonus when making an ability check that wouldn't normally benefit from your"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. If two favorable situations grant advantage, for example, you still roll only one additional d"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "|\n\nSometimes, the GM might ask for an ability check using a specific skill-for example, \"Make a Wisdom (Perception) check.\" At other times, a player might ask the GM if proficiency in a particular ski"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "can simply pool them together. For example, both the fighter and the paladin have a d10, so if you are a paladin 5/fighter 5, you have ten d10 Hit Dice. If your classes give you Hit Dice of different "
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "4-5   | -3       |\n| 6-7   | -2       |\n| 8-9   | -1       |\n| 10-11 | +0       |\n| 12-13 | +1       |\n| 14-15 | +2       |\n| 16-17 | +3       |\n| 18-19 | +4       |\n| 20-21 | +5       |\n| 22-23 | +6 "
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Equipment",
+      "topic": "Tools",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Tools.md",
+      "preview": "# Tools\n\nA tool helps you to do something you couldn't otherwise do, such as craft or repair an item, forge a document, or pick a lock. Your race, class, background, or feats give you proficiency with"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "Difficulty Class for a saving throw is determined by the effect that causes it. For example, the DC for a saving throw allowed by a spell is determined by the caster's spellcasting ability and profici"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "you can delight an audience with music, dance, acting, storytelling, or some other form of entertainment.\n\n***Persuasion***. When you attempt to influence someone or a group of people with tact, socia"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Characterizations",
+      "topic": "Beyond 1st Level",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Beyond 1st Level.md",
+      "preview": "# Beyond 1st Level\n\nAs your character goes on adventures and overcomes challenges, he or she gains experience, represented by experience points. A character who reaches a specified experience point to"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 5757,
+    "rag_completion": 6200,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 11957
+  },
+  "costs": {
+    "rag": 0.00181127,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00181127
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 7.07,
+    "total_s": 18.58
+  },
+  "answer": " Based on the new context provided, your proficiency bonus is added to ability checks you make using specific tools, not to saving throws. Therefore, the original answer does not apply to the current situation.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains incorrect information. It incorrectly states that the proficiency bonus does not apply to saving throws at all, which is misleading. The reference answer correctly clarifies that the proficiency bonus applies only to saving throws for which the creature has proficiency."
+    },
+    "context_relevancy": {
+      "score": null,
+      "passing": null,
+      "feedback": "Based on the provided context and the evaluation criteria, here is the refined evaluation:\n\n1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context discusses saving throws and proficiency bonuses in detail, which is directly relevant to the user's query about whether proficiency bonuses are added to every saving throw. It explains how saving throw bonuses are calculated, including the role of proficiency bonuses, which is pertinent to the question.\n\n   **Score: 2 points** (The context is highly relevant to the query.)\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context provides a comprehensive explanation of how saving throws work and the role of proficiency bonuses. It clarifies that proficiency bonuses are added to saving throws when applicable, but it does not explicitly state that proficiency bonuses are added to every saving throw. Therefore, while the context is informative, it does not fully answer the query on its own, as it lacks a definitive statement regarding the universality of adding proficiency bonuses to all saving throws.\n\n   **Score: 1 point** (The context is useful but does not provide a complete answer.)\n\n**Final Result: 3.0**\n\nSince the existing evaluation score is 3.0 and the new context does not provide a definitive answer to the query about the universality of proficiency bonuses on saving throws, the final result remains 3.0."
+    }
+  }
+}

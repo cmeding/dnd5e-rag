@@ -1,0 +1,138 @@
+{
+  "query_id": "query_010",
+  "session_id": "92-combined-best-permissive-Overnight-30q-v1-20260315-162231",
+  "timestamp": "2026-03-15T16:26:44.384476",
+  "query": {
+    "original": "Does being charmed prevent a creature from attacking non-charmers?",
+    "used": "Does the charmed condition in D&D 5e prevent a creature from attacking targets that are not its charmer?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06666666666666667,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Charmed\n\n- A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.\n- The charmer has advantage on any ability check to interact socially with th"
+    },
+    {
+      "rank": 2,
+      "score": 0.045284780578898225,
+      "category": "Monsters",
+      "topic": "Succubus-Incubus",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Succubus-Incubus.md",
+      "preview": "###### Actions\n\n***Claw (Fiend Form Only)***. *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6+3) slashing damage.\n\n***Charm***. One humanoid the fiend can see within 30 feet o"
+    },
+    {
+      "rank": 3,
+      "score": 0.03200204813108039,
+      "category": "Spells",
+      "topic": "Charm Person",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Charm Person.md",
+      "preview": "### Charm Person\n\n*1st-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S\n\n**Duration:** 1 hour\n\nYou attempt to charm a humanoid you can see within range. It must"
+    },
+    {
+      "rank": 4,
+      "score": 0.03131881575727918,
+      "category": "Spells",
+      "topic": "Protection from Evil and Good",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Protection from Evil and Good.md",
+      "preview": "### Protection from Evil and Good\n\n*1st-level abjuration*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S, M (holy water or powdered silver and iron, which the spell consumes)\n\n**D"
+    },
+    {
+      "rank": 5,
+      "score": 0.030776515151515152,
+      "category": "Monsters",
+      "topic": "Doppelganger",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Doppelganger.md",
+      "preview": "## Doppelganger\n\n*Medium monstrosity (shapechanger), neutral*\n\n**Armor Class** 14\n\n**Hit Points** 52 (8d8+16)\n\n**Speed** 30 ft.\n\n| STR     | DEX     | CON     | INT     | WIS     | CHA     |\n|--------"
+    },
+    {
+      "rank": 6,
+      "score": 0.030776515151515152,
+      "category": "Monsters",
+      "topic": "Dryad",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Dryad.md",
+      "preview": "###### Actions\n\n***Club***. *Melee Weapon Attack:* +2 to hit (+6 to hit with *shillelagh*), reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage, or 8 (1d8+4) bludgeoning damage with *shillelagh"
+    },
+    {
+      "rank": 7,
+      "score": 0.030309988518943745,
+      "category": "Monsters",
+      "topic": "Harpy",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Harpy.md",
+      "preview": "###### Actions\n\n***Multiattack***. The harpy makes two attacks: one with its claws and one with its club.\n\n***Claws.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 6 (2d4+1) slas"
+    },
+    {
+      "rank": 8,
+      "score": 0.029877369007803793,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Restrained\n\n- A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- Attack rolls against the creature have advantage, and the creature's attack rolls have dis"
+    },
+    {
+      "rank": 9,
+      "score": 0.029877369007803793,
+      "category": "Monsters",
+      "topic": "Vampire",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Vampire.md",
+      "preview": "###### Actions\n\n***Multiattack (Vampire Form Only)***. The vampire makes two attacks, only one of which can be a bite attack.\n\n***Unarmed Strike (Vampire Form Only)***. *Melee Weapon Attack:* +9 to hi"
+    },
+    {
+      "rank": 10,
+      "score": 0.01639344262295082,
+      "category": "Monsters",
+      "topic": "Night Hag",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Night Hag.md",
+      "preview": "###### Actions\n\n***Claws (Hag Form Only)***. *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13 (2d8+4) slashing damage.\n\n***Change Shape***. The hag magically polymorphs into a Smal"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 4073,
+    "rag_completion": 4872,
+    "meta_prompt": 58,
+    "meta_completion": 24,
+    "total_calls": 3,
+    "total": 9027
+  },
+  "costs": {
+    "rag": 0.00137371,
+    "meta": 2.31e-05,
+    "embed": 0.0,
+    "total": 0.00139681
+  },
+  "timings": {
+    "rag_s": 15.88,
+    "query_s": 18.09,
+    "total_s": 24.95
+  },
+  "answer": " No, the charmed condition in D&D 5e only prevents a creature from attacking or targeting the charmer with harmful abilities or magical effects. It does not affect the creature's actions towards other targets.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06666666666666667
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and relevant to the user query, accurately explaining the effects of the charmed condition in D&D 5e without any mistakes."
+    },
+    "context_relevancy": {
+      "score": 0.5,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context discusses the charmed condition in D&D 5e, specifically mentioning that a charmed creature cannot attack the charmer or target the charmer with harmful abilities or magical effects. However, it does not explicitly state whether the charmed condition prevents a creature from attacking targets that are not its charmer. This is an important distinction, as the query specifically asks about the behavior of a charmed creature towards targets other than the charmer.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - No, while the context provides some relevant information about the charmed condition, it does not fully answer the query. The context does not clarify whether a charmed creature can attack other targets that are not its charmer. Therefore, additional information or context would be needed to provide a complete answer to the user's question.\n\n**Feedback Summary:**\nThe retrieved context is partially relevant to the query as it discusses the charmed condition, but it lacks specific information regarding the behavior of a charmed creature towards targets other than its charmer. Thus, while it provides a foundation, it does not fully answer the question posed.\n\n[RESULT] 2.0"
+    }
+  }
+}

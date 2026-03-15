@@ -1,0 +1,51 @@
+{
+  "query_id": "query_022",
+  "session_id": "10-baseline-no-rag-Overnight-30q-v1-20260315-034305",
+  "timestamp": "2026-03-15T03:47:08.804733",
+  "query": {
+    "original": "What is the movement speed of a Giant Eagle?",
+    "used": "What is the movement speed of a Giant Eagle?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 279,
+    "rag_completion": 786,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 1065
+  },
+  "costs": {
+    "rag": 0.00018003,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00018003
+  },
+  "timings": {
+    "rag_s": null,
+    "query_s": 14.05,
+    "total_s": 15.49
+  },
+  "answer": " A giant eagle, as depicted in J.R.R. Tolkien's Middle-earth legendarium, is described as a large and powerful bird of prey. However, Tolkien does not provide an explicit measurement for their movement speed in his texts.\n\nIn the real world, eagles are known for their strong flying abilities, but their speeds vary between species. The fastest known eagle is the Philippine Eagle, which can reach speeds of up to 100 miles per hour (161 kilometers per hour) during a dive. However, in level flight, the average speed for an eagle is around 25-30 miles per hour (40-48 kilometers per hour).\n\nSince there is no definitive information from Tolkien's texts regarding the movement speed of a giant eagle, it is best to assume that they are faster than regular-sized eagles due to their larger size and strength. However, an exact speed has not been established.",
+  "refused": false,
+  "confidence": {
+    "passed": null,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer is not relevant to the user query about the movement speed of a Giant Eagle in DnD 5e, as it discusses eagles in general and references Tolkien's works instead of providing the specific information requested."
+    },
+    "context_relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    }
+  }
+}

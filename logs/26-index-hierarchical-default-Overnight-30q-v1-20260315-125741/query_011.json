@@ -1,0 +1,138 @@
+{
+  "query_id": "query_011",
+  "session_id": "26-index-hierarchical-default-Overnight-30q-v1-20260315-125741",
+  "timestamp": "2026-03-15T13:00:11.484728",
+  "query": {
+    "original": "What happens to concentration spells when a caster falls unconscious?",
+    "used": "What happens to concentration spells when a caster falls unconscious?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "** You lose concentration on a spell if you are incapacitated or if you die.\n\nThe GM might also decide that certain environmental phenomena, such as a wave crashing over you while you're on a storm-to"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "You can end concentration at any time (no action required).\n\nNormal activity, such as moving and attacking, doesn't interfere with concentration. The following factors can break concentration:\n\n- **Ca"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "If your concentration is broken, the spell dissipates without taking effect. For example, if you are concentrating on the *web* spell and ready *magic missile*, your *web* spell ends, and if you take "
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "You can end concentration at any time (no action required).\n\nNormal activity, such as moving and attacking, doesn't interfere with concentration. The following factors can break concentration:\n\n- **Ca"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "You can't concentrate on two spells at once.\n- **Taking damage.** Whenever you take damage while you are concentrating on a spell, you must make a Constitution saving throw to maintain your concentrat"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "When you cast a spell with a casting time longer than a single action or reaction, you must spend your action each turn casting the spell, and you must maintain your concentration while you do so (see"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "If you lose concentration, such a spell ends.\n\nIf a spell must be maintained with concentration, that fact appears in its Duration entry, and the spell specifies how long you can concentrate on it. Yo"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Classes",
+      "topic": "Sorcerer",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Sorcerer.md",
+      "preview": "For 1 minute or until you lose your concentration (as if you were casting a concentration spell), each hostile creature that starts its turn in this aura must succeed on a Wisdom saving throw or be ch"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration. If your concentration is broken, the spell dissipates without taking effect. For"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "The DC equals 10 or half the damage you take, whichever number is higher. If you take damage from multiple sources, such as an arrow and a dragon's breath, you make a separate saving throw for each so"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2279,
+    "rag_completion": 2496,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 4775
+  },
+  "costs": {
+    "rag": 0.00072493,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00072493
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 3.99,
+    "total_s": 10.91
+  },
+  "answer": " The context states that a caster loses concentration on a spell if they are incapacitated or if they die. Therefore, when a caster falls unconscious, they will lose concentration on any active concentration spells they have.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer accurately explains that concentration ends when a caster falls unconscious, aligning perfectly with the reference answer. It provides a clear and correct explanation of the mechanics involved."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query regarding what happens to concentration spells when a caster falls unconscious. It explicitly states that a caster loses concentration on a spell if they are incapacitated, which includes falling unconscious. This is a key point that directly answers the user's question.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a complete answer to the query. It clearly explains that falling unconscious (being incapacitated) results in losing concentration on spells. The additional information about other factors that can break concentration is relevant but not necessary for answering the specific question. Therefore, the context is sufficient to fully address the query.\n\n   **Score: 2/2**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

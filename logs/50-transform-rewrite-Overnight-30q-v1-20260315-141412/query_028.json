@@ -1,0 +1,138 @@
+{
+  "query_id": "query_028",
+  "session_id": "50-transform-rewrite-Overnight-30q-v1-20260315-141412",
+  "timestamp": "2026-03-15T14:20:43.903150",
+  "query": {
+    "original": "Can a creature with a fly speed of 0 feet due to the restrained condition still hover?",
+    "used": "Can a creature with a fly speed of 0 feet from the restrained condition still hover in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Flying Movement\n\nFlying creatures enjoy many benefits of mobility, but they must also deal with the danger of falling. If a flying creature is knocked prone, has its speed reduced to 0, or is other"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Restrained\n\n- A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- Attack rolls against the creature have advantage, and the creature's attack rolls have dis"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "### Fly\n\nA monster that has a flying speed can use all or part of its movement to fly. Some monsters have the ability to **hover**, which makes them hard to knock out of the air (as explained in the r"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Paralyzed\n\n- A paralyzed creature is incapacitated (see the condition) and can't move or speak.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the c"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Prone\n\n- A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.\n- The creature has disadvantage on attack rolls.\n- An attack roll against the creat"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Grappled\n\n- A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- The condition ends if the grappler is incapacitated (see the condition).\n- The condition also "
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Unconscious\n\n- An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings\n- The creature drops whatever it's holding and falls prone.\n- Th"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Spells",
+      "topic": "Telekinesis",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Telekinesis.md",
+      "preview": "### Telekinesis\n\n*5th-level transmutation*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 10 minutes\n\nYou gain the ability to move or manipul"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Monsters",
+      "topic": "Lich",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Lich.md",
+      "preview": "###### Actions\n\n***Paralyzing Touch***. *Melee Spell Attack:* +12 to hit, reach 5 ft., one creature. *Hit:* 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving throw or be par"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Monsters",
+      "topic": "Ghost",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Ghost.md",
+      "preview": "###### Actions\n\n***Withering Touch***. *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 17 (4d6+3) necrotic damage.\n\n***Etherealness***. The ghost enters the Ethereal Plane from the M"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2813,
+    "rag_completion": 3333,
+    "meta_prompt": 63,
+    "meta_completion": 25,
+    "total_calls": 2,
+    "total": 6234
+  },
+  "costs": {
+    "rag": 0.0009427000000000001,
+    "meta": 2.4449999999999998e-05,
+    "embed": 0.0,
+    "total": 0.0009671500000000001
+  },
+  "timings": {
+    "rag_s": 1.12,
+    "query_s": 7.61,
+    "total_s": 17.42
+  },
+  "answer": " I cannot find this in the provided rules if a creature with a fly speed of 0 feet from the restrained condition can still hover in DnD 5e. The context only mentions that flying creatures fall when they are knocked prone, have their speed reduced to 0, or are otherwise deprived of the ability to move, unless they have the ability to hover or are being held aloft by magic. It does not mention anything about the restrained condition specifically and whether it allows or denies the use of hovering ability.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains inaccuracies and does not directly address the question about whether a creature with a fly speed of 0 can hover. It also introduces unnecessary complexity by mentioning being knocked prone and magic, which are not directly related to the query."
+    },
+    "context_relevancy": {
+      "score": 0.5,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context does provide relevant information regarding flying movement and the restrained condition. It explains that a flying creature with a speed of 0 falls unless it has the ability to hover. However, it does not explicitly state whether a creature that is restrained can still hover if it has a fly speed of 0. The context mentions that a restrained creature's speed becomes 0, which implies that it cannot move, but it does not clarify the interaction between being restrained and the ability to hover. Therefore, while the context is related, it does not fully address the specific query about hovering while restrained.\n\n   **Score: 1/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The context does not provide a complete answer to the user's query. While it discusses the implications of having a speed of 0 and the concept of hovering, it lacks a definitive statement on whether a creature with a fly speed of 0 due to being restrained can still hover. The information provided is useful but insufficient to fully answer the question without additional clarification or rules from other sources.\n\n   **Score: 1/2**\n\n**Final Result:** [RESULT] 2.0"
+    }
+  }
+}

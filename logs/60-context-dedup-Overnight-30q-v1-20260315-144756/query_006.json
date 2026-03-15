@@ -1,0 +1,138 @@
+{
+  "query_id": "query_006",
+  "session_id": "60-context-dedup-Overnight-30q-v1-20260315-144756",
+  "timestamp": "2026-03-15T14:48:52.628885",
+  "query": {
+    "original": "Can a grappled creature cast spells?",
+    "used": "Can a grappled creature cast spells?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Cast a Spell\n\nSpellcasters such as wizards and clerics, as well as many monsters, have access to spells and can use them to great effect in combat. Each spell has a casting time, which specifies wh"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "### Innate Spellcasting\n\nA monster with the innate ability to cast spells has the Innate Spellcasting special trait. Unless noted otherwise, an innate spell of 1st level or higher is always cast at it"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Classes",
+      "topic": "Sorcerer",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Sorcerer.md",
+      "preview": "#### Careful Spell\n\nWhen you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point a"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Grappling\n\nWhen you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack act"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Grappled\n\n- A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- The condition ends if the grappler is incapacitated (see the condition).\n- The condition also "
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Spells",
+      "topic": "Arcane Hand",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Arcane Hand.md",
+      "preview": "***Grasping Hand***. The hand attempts to grapple a Huge or smaller creature within 5 feet of it. You use the hand's Strength score to resolve the grapple. If the target is Medium or smaller, you have"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "### Spellcasting\n\nA monster with the Spellcasting special trait has a spellcaster level and spell slots, which it uses to cast its spells of 1st level and higher (as explained in the *Player's Handboo"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Spells",
+      "topic": "Contact Other Plane",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Contact Other Plane.md",
+      "preview": "### Contact Other Plane\n\n*5th-level divination (ritual)*\n\n**Casting Time:** 1 minute\n\n**Range:** Self\n\n**Components:** V\n\n**Duration:** 1 minute\n\nYou mentally contact a demigod, the spirit of a long-d"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "# Rituals\n\nCertain spells have a special tag: ritual. Such a spell can be cast following the normal rules for spellcasting, or the spell can be cast as a ritual. The ritual version of a spell takes 10"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Spells",
+      "topic": "Confusion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Confusion.md",
+      "preview": "### Confusion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 90 feet\n\n**Components:** V, S, M (three nut shells)\n\n**Duration:** Concentration, up to 1 minute\n\nThis spell assaults and"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3719,
+    "rag_completion": 3899,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 7618
+  },
+  "costs": {
+    "rag": 0.0011499000000000001,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0011499000000000001
+  },
+  "timings": {
+    "rag_s": 0.05,
+    "query_s": 2.71,
+    "total_s": 10.17
+  },
+  "answer": " The context does not provide information on whether a grappled creature can cast spells or not. Therefore, I cannot find this in the provided rules.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer is not relevant to the user query as it incorrectly states that there is no information available about a grappled creature casting spells, while the reference answer clearly states that a grappled creature can indeed cast spells."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context discusses various aspects of spellcasting, including the mechanics of casting spells, the conditions under which spells can be cast, and details about grappling. However, it does not directly address whether a grappled creature can cast spells. While it provides information about grappling and spellcasting, it lacks a clear answer to the specific question about the ability of a grappled creature to cast spells. Therefore, the context is somewhat relevant but does not fully match the subject matter of the query.\n\n   **Score: 1/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does not provide a definitive answer regarding whether a grappled creature can cast spells. It mentions the conditions of grappling and the mechanics of spellcasting but does not clarify how these two interact. To fully answer the query, additional information would be needed, specifically regarding the rules governing spellcasting while grappled. Thus, the context cannot be used exclusively to provide a full answer to the user's query.\n\n   **Score: 0/2**\n\n**Final Feedback:**\nThe retrieved context provides some relevant information about grappling and spellcasting but fails to directly answer the user's question about whether a grappled creature can cast spells. The lack of a clear connection between the two subjects means that the context is insufficient for a complete answer.\n\n[RESULT] 1.0"
+    }
+  }
+}

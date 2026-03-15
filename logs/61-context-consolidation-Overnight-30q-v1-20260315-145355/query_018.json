@@ -1,0 +1,66 @@
+{
+  "query_id": "query_018",
+  "session_id": "61-context-consolidation-Overnight-30q-v1-20260315-145355",
+  "timestamp": "2026-03-15T14:58:26.110347",
+  "query": {
+    "original": "Does Sneak Attack require the rogue to be hidden?",
+    "used": "Does Sneak Attack require the rogue to be hidden?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "### Sneak Attack and Hiding in D&D 5E\n\n**Sneak Attack Mechanics:**\n- A rogue can deal an extra 1d6 damage once per turn to a creature they hit with an attack if they have advantage on the attack roll."
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1268,
+    "rag_completion": 3715,
+    "meta_prompt": 1762,
+    "meta_completion": 308,
+    "total_calls": 2,
+    "total": 7053
+  },
+  "costs": {
+    "rag": 0.00084533,
+    "meta": 0.00044909999999999997,
+    "embed": 0.0,
+    "total": 0.00129443
+  },
+  "timings": {
+    "rag_s": 6.7,
+    "query_s": 10.46,
+    "total_s": 19.02
+  },
+  "answer": " No, Sneak Attack does not require the rogue to be hidden. However, being hidden can provide advantage on the attack roll, which is one of the conditions for triggering Sneak Attack.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and mostly correct, accurately stating that being hidden is not a requirement for Sneak Attack. It also correctly mentions that being hidden can provide advantage, which is a valid point, but it could be slightly more concise."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context directly addresses the query about whether Sneak Attack requires the rogue to be hidden. It explains the mechanics of Sneak Attack and how being hidden can provide advantage on the attack roll, which is relevant to the query. The context clearly states that while being hidden is not a requirement for using Sneak Attack, it can enhance the chances of successfully triggering it. This directly aligns with the user's question.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a comprehensive answer to the query. It explains the conditions under which Sneak Attack can be used and clarifies that being hidden is not a requirement, but it can be beneficial. The information is sufficient to fully address the user's question without needing additional context or information.\n\n   **Score: 2/2**\n\n**Feedback Summary:**\nThe retrieved context is highly relevant to the user's query about Sneak Attack and hiding. It provides a clear and complete answer, explaining the mechanics involved and the relationship between being hidden and using Sneak Attack. The information is accurate and aligns well with the rules of D&D 5E.\n\n[RESULT] 4.0"
+    }
+  }
+}

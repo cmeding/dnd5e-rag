@@ -1,0 +1,138 @@
+{
+  "query_id": "query_001",
+  "session_id": "32-retrieval-fusion-3q-Overnight-30q-v1-20260315-133132",
+  "timestamp": "2026-03-15T13:31:47.007911",
+  "query": {
+    "original": "What is the range of the Fireball spell?",
+    "used": "What is the range of the Fireball spell?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.049189141547682,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### 7th Level\n\n- [[Delayed Blast Fireball]]\n- [[Etherealness]]\n- [[Finger of Death]]\n- [[Fire Storm]]\n- [[Plane Shift]]\n- [[Prismatic Spray]]\n- [[Reverse Gravity]]\n- [[Teleport]]"
+    },
+    {
+      "rank": 2,
+      "score": 0.04868510928961749,
+      "category": "Spells",
+      "topic": "Fireball",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Fireball.md",
+      "preview": "### Fireball\n\n*3rd-level evocation*\n\n**Casting Time:** 1 action\n\n**Range:** 150 feet\n\n**Components:** V, S, M (a tiny ball of bat guano and sulfur)\n\n**Duration:** Instantaneous\n\nA bright streak flashe"
+    },
+    {
+      "rank": 3,
+      "score": 0.04576028774533405,
+      "category": "Spells",
+      "topic": "## Spell Lists",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists.md",
+      "preview": "#### 7th Level\n\n- Delayed Blast Fireball\n- Etherealness\n- Finger of Death\n- Fire Storm\n- Plane Shift\n- Prismatic Spray\n- Reverse Gravity\n- Teleport"
+    },
+    {
+      "rank": 4,
+      "score": 0.04485852311939269,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### 7th Level\n\n- [[Arcane Sword]]\n- [[Delayed Blast Fireball]]\n- [[Etherealness]]\n- [[Finger of Death]]\n- [[Forcecage]]\n- [[Magnificent Mansion]]\n- [[Mirage Arcane]]\n- [[Plane Shift]]\n- [[Prismatic S"
+    },
+    {
+      "rank": 5,
+      "score": 0.032539682539682535,
+      "category": "Spells",
+      "topic": "Flaming Sphere",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Flaming Sphere.md",
+      "preview": "### Flaming Sphere\n\n*2nd-level conjuration*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S, M (a bit of tallow, a pinch of brimstone, and a dusting of powdered iron)\n\n**Duration"
+    },
+    {
+      "rank": 6,
+      "score": 0.030621785881252923,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "## Spell Range\n\nThe target of a spell must be within the spell's range. For a spell like *magic missile*, the target is a creature. For a spell like *fireball*, the target is the point in space where "
+    },
+    {
+      "rank": 7,
+      "score": 0.01639344262295082,
+      "category": "Spells",
+      "topic": "Teleport",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Teleport.md",
+      "preview": "### Teleport\n\n*7th-level conjuration*\n\n**Casting Time:** 1 action\n\n**Range:** 10 feet\n\n**Components:** V\n\n**Duration:** Instantaneous\n\nThis spell instantly transports you and up to eight willing creat"
+    },
+    {
+      "rank": 8,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "Find the Path",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Find the Path.md",
+      "preview": "### Find the Path\n\n*6th-level divination*\n\n**Casting Time:** 1 minute\n\n**Range:** Self\n\n**Components:** V, S, M (a set of divinatory tools- such as bones, ivory sticks, cards, teeth, or carved runes-w"
+    },
+    {
+      "rank": 9,
+      "score": 0.015625,
+      "category": "Classes",
+      "topic": "Sorcerer",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Sorcerer.md",
+      "preview": "#### Distant Spell\n\nWhen you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.\n\nWhen you cast a spell that has a range of touch, you c"
+    },
+    {
+      "rank": 10,
+      "score": 0.015625,
+      "category": "Classes",
+      "topic": "Sorcerer",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Sorcerer.md",
+      "preview": "#### Hit Points\n\n**Hit Dice:** 1d6 per sorcerer level\n\n**Hit Points at 1st Level:** 6 + your Constitution modifier\n\n**Hit Points at Higher Levels:** 1d6 (or 4) + your Constitution modifier per sorcere"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2905,
+    "rag_completion": 3207,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 6112
+  },
+  "costs": {
+    "rag": 0.00092888,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00092888
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 6.53,
+    "total_s": 14.52
+  },
+  "answer": " The range of the Fireball spell is 150 feet. However, a Sorcerer can use the Distant Spell metamagic ability to double the range, making it 300 feet.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.049189141547682
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer correctly states the base range of the Fireball spell as 150 feet, but it introduces an incorrect detail about the Distant Spell metamagic doubling the range, which is not applicable to Fireball. This mistake affects the overall accuracy of the answer."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context directly addresses the query about the range of the Fireball spell. It explicitly states that the range of Fireball is 150 feet, which is the specific information requested by the user.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a complete answer to the user's query. The relevant section clearly states the range of the Fireball spell without requiring additional information from other sources. The details surrounding the spell's casting time, components, and effects, while informative, are not necessary to answer the specific question about range.\n\n**Feedback Summary:**\nThe retrieved context is highly relevant and directly answers the user's query about the range of the Fireball spell. It provides the exact information needed without any ambiguity or need for further clarification. Therefore, both criteria are met fully.\n\n[RESULT] 4.0"
+    }
+  }
+}

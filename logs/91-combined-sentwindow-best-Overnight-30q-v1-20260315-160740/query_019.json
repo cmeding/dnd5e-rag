@@ -1,0 +1,138 @@
+{
+  "query_id": "query_019",
+  "session_id": "91-combined-sentwindow-best-Overnight-30q-v1-20260315-160740",
+  "timestamp": "2026-03-15T16:17:32.205067",
+  "query": {
+    "original": "Do you add your proficiency bonus to every saving throw?",
+    "used": "Do you add your proficiency bonus to all saving throws in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06612903225806452,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "For example, if two different rules say you can add your proficiency bonus to a Wisdom saving throw, you nevertheless add the bonus only once when you make the save.\n\n"
+    },
+    {
+      "rank": 2,
+      "score": 0.06532656778558418,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "As with skill proficiencies, proficiency in a saving throw lets a character add his or her proficiency bonus to saving throws made using a particular ability score. "
+    },
+    {
+      "rank": 3,
+      "score": 0.04764267990074442,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "In general, you don't multiply your proficiency bonus for attack rolls or saving throws. "
+    },
+    {
+      "rank": 4,
+      "score": 0.046511196246139225,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "A saving throw bonus is the sum of a monster's relevant ability modifier and its proficiency bonus, which is determined by the monster's challenge rating (as shown in the Proficiency Bonus by Challeng"
+    },
+    {
+      "rank": 5,
+      "score": 0.046451914098972924,
+      "category": "Races",
+      "topic": "Dragonborn",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Races\\Dragonborn.md",
+      "preview": "The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. "
+    },
+    {
+      "rank": 6,
+      "score": 0.031009615384615385,
+      "category": "Classes",
+      "topic": "Monk",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Monk.md",
+      "preview": "The saving throw DC for the spell equals 8 + your Wisdom modifier + your proficiency bonus.\n\n"
+    },
+    {
+      "rank": 7,
+      "score": 0.030090497737556562,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "*** You add your proficiency bonus to your attack roll when you attack using a weapon with which you have proficiency, as well as when you attack with a spell.\n\n"
+    },
+    {
+      "rank": 8,
+      "score": 0.029857397504456328,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "For example, the DC for a saving throw allowed by a spell is determined by the caster's spellcasting ability and proficiency bonus.\n\n"
+    },
+    {
+      "rank": 9,
+      "score": 0.029850746268656716,
+      "category": "Classes",
+      "topic": "Monk",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Monk.md",
+      "preview": "The saving throw DC is calculated as follows:\n\n**Ki save DC** = 8 + your proficiency bonus + your Wisdom modifier\n\n#### Flurry of Blows\n\nImmediately after you take the Attack action on your turn, you "
+    },
+    {
+      "rank": 10,
+      "score": 0.01639344262295082,
+      "category": "Equipment",
+      "topic": "Weapons",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Weapons.md",
+      "preview": "If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll.\n\n"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1850,
+    "rag_completion": 2566,
+    "meta_prompt": 55,
+    "meta_completion": 18,
+    "total_calls": 3,
+    "total": 4489
+  },
+  "costs": {
+    "rag": 0.00069104,
+    "meta": 1.9050000000000002e-05,
+    "embed": 0.0,
+    "total": 0.00071009
+  },
+  "timings": {
+    "rag_s": 15.62,
+    "query_s": 17.61,
+    "total_s": 25.94
+  },
+  "answer": " Only saving throws made using a particular ability score for which a character has proficiency add the proficiency bonus. (Refer to the context under \"Abilities\" topic.)",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06612903225806452
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and mostly correct, but it could be clearer in stating that proficiency bonus applies only to saving throws for which the character has proficiency, as determined by class or features. The reference to \"Abilities\" is somewhat vague and may not directly address the user's question."
+    },
+    "context_relevancy": {
+      "score": 0.625,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context does address the subject matter of the user's query regarding proficiency bonuses and saving throws in DnD 5e. It explains that proficiency in a saving throw allows a character to add their proficiency bonus to saving throws made with a specific ability score. However, it does not explicitly state that you add your proficiency bonus to all saving throws, which is the core of the user's question. Instead, it implies that proficiency bonuses apply only to certain saving throws based on proficiency. Therefore, while the context is relevant, it does not fully match the user's query.\n\n   **Score: 1.5/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The retrieved context cannot be used exclusively to provide a full answer to the user's query. While it provides some information about how proficiency bonuses work with saving throws, it does not clarify that proficiency bonuses are not added to all saving throws universally. The context suggests that proficiency bonuses apply only when a character is proficient in a specific saving throw, which means that not all saving throws will have the proficiency bonus added. Therefore, additional information would be needed to fully answer the user's question.\n\n   **Score: 1/2**\n\n**Final Feedback:** The retrieved context is partially relevant to the user's query about proficiency bonuses and saving throws in DnD 5e. It provides some insight into how proficiency bonuses work but does not fully address the user's question about whether they apply to all saving throws. As a result, the context is useful but incomplete.\n\n**[RESULT] 2.5**"
+    }
+  }
+}

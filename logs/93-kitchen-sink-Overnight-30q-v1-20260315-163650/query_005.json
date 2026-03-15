@@ -1,0 +1,66 @@
+{
+  "query_id": "query_005",
+  "session_id": "93-kitchen-sink-Overnight-30q-v1-20260315-163650",
+  "timestamp": "2026-03-15T16:38:18.094953",
+  "query": {
+    "original": "How many hit dice does a Fighter have?",
+    "used": "What is the number of hit dice for a Fighter class in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, a Fighter class has a hit die of 1d10 for each level in the class. At 1st level, a Fighter starts with hit points equal to 10 plus their Constitution modifier. For e"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1611,
+    "rag_completion": 3634,
+    "meta_prompt": 1240,
+    "meta_completion": 232,
+    "total_calls": 4,
+    "total": 6717
+  },
+  "costs": {
+    "rag": 0.0008676700000000001,
+    "meta": 0.0003252,
+    "embed": 0.0,
+    "total": 0.00119287
+  },
+  "timings": {
+    "rag_s": 8.0,
+    "query_s": 10.64,
+    "total_s": 18.86
+  },
+  "answer": " A Fighter class in DnD 5e has a hit die of 1d10 for each level in the class. Therefore, the total number of hit dice for a Fighter is equal to their Fighter levels.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and relevant, accurately stating that a Fighter uses a d10 as their hit die and explaining that the total number of hit dice corresponds to their levels in the class."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query about the number of hit dice for a Fighter class in DnD 5e. It specifies that a Fighter has a hit die of 1d10 for each level in the class and explains how hit points are calculated, which is relevant to understanding the hit dice mechanics for the Fighter class.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a complete answer to the query. It states that the number of hit dice a Fighter has is equal to their Fighter levels, which directly answers the question. Additionally, it includes relevant details about how hit points are calculated and the mechanics of using hit dice, which enhances the understanding of the Fighter's hit dice but is not strictly necessary to answer the query.\n\n   **Score: 2/2**\n\n**Feedback:** The retrieved context is highly relevant and provides a comprehensive answer to the user's query about the number of hit dice for a Fighter class in DnD 5e. It not only answers the question directly but also offers additional context that could be useful for a deeper understanding of the mechanics involved. \n\n[RESULT] 4.0"
+    }
+  }
+}

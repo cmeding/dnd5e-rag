@@ -1,0 +1,51 @@
+{
+  "query_id": "query_001",
+  "session_id": "10-baseline-no-rag-Overnight-30q-v1-20260315-034305",
+  "timestamp": "2026-03-15T03:43:22.412497",
+  "query": {
+    "original": "What is the range of the Fireball spell?",
+    "used": "What is the range of the Fireball spell?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 278,
+    "rag_completion": 773,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 1051
+  },
+  "costs": {
+    "rag": 0.00017745,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00017745
+  },
+  "timings": {
+    "rag_s": null,
+    "query_s": 14.27,
+    "total_s": 17.02
+  },
+  "answer": " The range of the Fireball spell in Dungeons & Dragons varies depending on the edition of the game. Here are the ranges for different editions:\n\n5th Edition: The Fireball spell creates a 20-foot radius sphere of fire centered on a point within range.\n\n4th Edition: The Fireball spell creates a burst of fire in a 10-foot radius, centered on a point within range.\n\n3.5 Edition: The Fireball spell creates a 2-foot radius sphere of fire that expands in a 15-foot radius.\n\n2nd Edition: The Fireball spell creates a 3-foot radius sphere of fire that expands in a 15-foot radius.\n\nIt's important to note that the range for the Fireball spell is typically given as a 60-foot line of sight, meaning the caster can place the fireball anywhere within that range. The area of effect is determined by where the fireball lands or is placed.",
+  "refused": false,
+  "confidence": {
+    "passed": null,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer provides some relevant information about the Fireball spell, but it contains multiple inaccuracies regarding the ranges and effects of the spell across different editions. Specifically, it incorrectly states the range as a \"60-foot line of sight\" instead of the correct 150 feet for 5th Edition. Additionally, the details about the radius and effects in other editions are not accurate. While it attempts to address the query, the inaccuracies significantly detract from its correctness."
+    },
+    "context_relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    }
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "query_id": "query_024",
+  "session_id": "35-retrieval-topk15-Overnight-30q-v1-20260315-135829",
+  "timestamp": "2026-03-15T14:04:29.609151",
+  "query": {
+    "original": "Can a deafened creature cast spells with verbal components?",
+    "used": "Can a deafened creature cast spells with verbal components?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "### Verbal (V)\n\nMost spells require the chanting of mystic words. The words themselves aren't the source of the spell's power; rather, the particular combination of sounds, with specific pitch and res"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Spells",
+      "topic": "Blindness-Deafness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Blindness-Deafness.md",
+      "preview": "### Blindness/Deafness\n\n*2nd-level necromancy*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V\n\n**Duration:** 1 minute\n\nYou can blind or deafen a foe. Choose one creature that you c"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Deafened\n\n- A deafened creature can't hear and automatically fails any ability check that requires hearing."
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "Tongues",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Tongues.md",
+      "preview": "### Tongues\n\n*3rd-level divination*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, M (a small clay model of a ziggurat)\n\n**Duration:** 1 hour\n\nThis spell grants the creature you tou"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Spells",
+      "topic": "Speak with Animals",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Speak with Animals.md",
+      "preview": "### Speak with Animals\n\n*1st-level divination (ritual)*\n\n**Casting Time:** 1 action\n\n**Range:** Self\n\n**Components:** V, S\n\n**Duration:** 10 minutes\n\nYou gain the ability to comprehend and verbally co"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Classes",
+      "topic": "Druid",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Druid.md",
+      "preview": "### Beast Spells\n\nBeginning at 18th level, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in "
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "### Innate Spellcasting\n\nA monster with the innate ability to cast spells has the Innate Spellcasting special trait. Unless noted otherwise, an innate spell of 1st level or higher is always cast at it"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### 2nd Level\n\n- [[Animal Messenger]]\n- [[Blindness-Deafness]]\n- [[Calm Emotions]]\n- [[Detect Thoughts]]\n- [[Enhance Ability]]\n- [[Enthrall]]\n- [[Heat Metal]]\n- [[Hold Person]]\n- [[Invisibility]]\n- ["
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Spells",
+      "topic": "Confusion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Confusion.md",
+      "preview": "### Confusion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 90 feet\n\n**Components:** V, S, M (three nut shells)\n\n**Duration:** Concentration, up to 1 minute\n\nThis spell assaults and"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Spells",
+      "topic": "Divine Word",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Divine Word.md",
+      "preview": "### Divine Word\n\n*7th-level evocation*\n\n**Casting Time:** 1 bonus action\n\n**Range:** 30 feet\n\n**Components:** V\n\n**Duration:** Instantaneous\n\nYou utter a divine word, imbued with the power that shaped"
+    },
+    {
+      "rank": 11,
+      "score": 0.014285714285714285,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "### Telepathy\n\nTelepathy is a magical ability that allows a monster to communicate mentally with another creature within a specified range. The contacted creature doesn't need to share a language with"
+    },
+    {
+      "rank": 12,
+      "score": 0.014084507042253521,
+      "category": "Spells",
+      "topic": "Silence",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Silence.md",
+      "preview": "### Silence\n\n*2nd-level illusion (ritual)*\n\n**Casting Time:** 1 action\n\n**Range:** 120 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 10 minutes\n\nFor the duration, no sound can be crea"
+    },
+    {
+      "rank": 13,
+      "score": 0.013888888888888888,
+      "category": "Classes",
+      "topic": "Druid",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Druid.md",
+      "preview": "### Archdruid\n\nAt 20th level, you can use your Wild Shape an unlimited number of times.\n\nAdditionally, you can ignore the verbal and somatic components of your druid spells, as well as any material co"
+    },
+    {
+      "rank": 14,
+      "score": 0.0136986301369863,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "### Somatic (S)\n\nSpellcasting gestures might include a forceful gesticulation or an intricate set of gestures. If a spell requires a somatic component, the caster must have free use of at least one ha"
+    },
+    {
+      "rank": 15,
+      "score": 0.013513513513513514,
+      "category": "Spells",
+      "topic": "## Spell Lists",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists.md",
+      "preview": "#### 2nd Level\n\n- Animal Messenger\n- Blindness/Deafness\n- Calm Emotions\n- Detect Thoughts\n- Enhance Ability\n- Enthrall\n- Heat Metal\n- Hold Person\n- Invisibility\n- Knock\n- Lesser Restoration\n- Locate A"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3568,
+    "rag_completion": 3808,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 7376
+  },
+  "costs": {
+    "rag": 0.001116,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.001116
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 4.31,
+    "total_s": 14.99
+  },
+  "answer": " A deafened creature cannot cast spells with verbal components because they cannot hear the mystic words required to set the threads of magic in motion. (Refer to the context under the header path \"/Casting a Spell/Components/\" for more information on verbal components.)",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains a significant mistake regarding the rules of casting spells with verbal components. It incorrectly states that a deafened creature cannot cast such spells, which contradicts the established rules."
+    },
+    "context_relevancy": {
+      "score": 0.75,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context discusses the concept of verbal components in spellcasting, specifically mentioning that a character who is deafened cannot hear and automatically fails any ability check that requires hearing. This is relevant to the query about whether a deafened creature can cast spells with verbal components, as it implies that being deafened affects the ability to perform verbal components.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Partially. While the context provides information about the effects of being deafened, it does not explicitly state that a deafened creature cannot cast spells with verbal components. However, it strongly implies that the inability to hear would hinder the ability to perform the necessary verbal components for such spells. Therefore, while it does not provide a definitive answer, it does offer enough information to infer that a deafened creature would likely be unable to cast spells requiring verbal components.\n\n**Feedback:**\nThe retrieved context is relevant to the query as it discusses the implications of being deafened in relation to spellcasting. However, it lacks a direct statement regarding the inability to cast spells with verbal components when deafened. This could lead to some ambiguity in the answer. A more explicit reference to the inability to cast spells with verbal components while deafened would enhance the clarity of the response.\n\nFinal result: [RESULT] 3.0"
+    }
+  }
+}

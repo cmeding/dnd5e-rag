@@ -1,0 +1,138 @@
+{
+  "query_id": "query_010",
+  "session_id": "23-index-sentences-markdown-Overnight-30q-v1-20260315-123915",
+  "timestamp": "2026-03-15T12:41:00.971921",
+  "query": {
+    "original": "Does being charmed prevent a creature from attacking non-charmers?",
+    "used": "Does being charmed prevent a creature from attacking non-charmers?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Charmed\n\n- A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.\n- The charmer has advantage on any ability check to interact socially with th"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Spells",
+      "topic": "Charm Person",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Charm Person.md",
+      "preview": "### Charm Person\n\n*1st-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S\n\n**Duration:** 1 hour\n\nYou attempt to charm a humanoid you can see within range. It must"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Spells",
+      "topic": "Protection from Evil and Good",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Protection from Evil and Good.md",
+      "preview": "### Protection from Evil and Good\n\n*1st-level abjuration*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S, M (holy water or powdered silver and iron, which the spell consumes)\n\n**D"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Treasure",
+      "topic": "## Sentient Magic",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\## Sentient Magic.md",
+      "preview": "### Conflict\n\nA sentient item has a will of its own, shaped by its personality and alignment. If its wielder acts in a manner opposed to the item's alignment or purpose, conflict can arise. When such "
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Spells",
+      "topic": "Calm Emotions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Calm Emotions.md",
+      "preview": "### Calm Emotions\n\n*2nd-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou attempt to suppress strong emotions i"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Treasure",
+      "topic": "Ring of Mind Shielding",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Ring of Mind Shielding.md",
+      "preview": "### Ring of Mind Shielding\n\n*Ring, uncommon (requires attunement)*\n\nWhile wearing this ring, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying,"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "Modify Memory",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Modify Memory.md",
+      "preview": "### Modify Memory\n\n*5th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou attempt to reshape another creature's"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Spells",
+      "topic": "Dominate Person",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Dominate Person.md",
+      "preview": "### Dominate Person\n\n*5th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou attempt to beguile a humanoid that "
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Monsters",
+      "topic": "Succubus-Incubus",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Succubus-Incubus.md",
+      "preview": "###### Actions\n\n***Claw (Fiend Form Only)***. *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6+3) slashing damage.\n\n***Charm***. One humanoid the fiend can see within 30 feet o"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Spells",
+      "topic": "Dominate Monster",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Dominate Monster.md",
+      "preview": "### Dominate Monster\n\n*8th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 hour\n\nYou attempt to beguile a creature that y"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3871,
+    "rag_completion": 4089,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 7960
+  },
+  "costs": {
+    "rag": 0.00120272,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00120272
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 4.0,
+    "total_s": 11.73
+  },
+  "answer": " Based on the context provided, a charmed creature cannot attack the charmer, but there is no mention of it preventing a charmed creature from attacking non-charmers. Therefore, a charmed creature can still attack non-charmers.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer accurately reflects the rules regarding the charmed condition, confirming that a charmed creature can attack non-charmers while also correctly stating that it cannot attack the charmer. It is clear and concise, matching the reference answer in both relevance and correctness."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context discusses the effects of being charmed, specifically mentioning that a charmed creature cannot attack the charmer or target the charmer with harmful abilities or magical effects. However, it does not explicitly address whether a charmed creature can attack non-charmers. Therefore, while there is relevant information about the limitations imposed on a charmed creature, it does not fully answer the user's query regarding attacks on non-charmers. \n   - **Score: 1/2 points** (The context is partially relevant but does not fully address the query.)\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does not provide a complete answer to the user's question. It lacks information about whether a charmed creature is free to attack non-charmers, which is the crux of the query. The context only specifies that a charmed creature cannot attack the charmer, leaving the question of its behavior towards non-charmers unanswered. Therefore, the retrieved context cannot be used exclusively to provide a full answer.\n   - **Score: 0/2 points** (The context does not provide a full answer to the query.)\n\n**Final Result:** [RESULT] 1.0"
+    }
+  }
+}

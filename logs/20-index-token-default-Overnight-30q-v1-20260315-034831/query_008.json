@@ -1,0 +1,138 @@
+{
+  "query_id": "query_008",
+  "session_id": "20-index-token-default-Overnight-30q-v1-20260315-034831",
+  "timestamp": "2026-03-15T03:50:12.215736",
+  "query": {
+    "original": "Can a restrained creature still make attack rolls?",
+    "used": "Can a restrained creature still make attack rolls?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "suspended, not neutralized.\n\n## Poisoned\n\n- A poisoned creature has disadvantage on attack rolls and ability checks.\n\n## Prone\n\n- A prone creature's only movement option is to crawl, unless it stands "
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Equipment",
+      "topic": "Weapons",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Weapons.md",
+      "preview": "You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted.\n\n***Net***. A Large or smaller creature hit by a "
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\n- The creature can't willingly move closer to the source of its fear.\n\n#"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "Craft a small or detailed object\n\n#### Attack Rolls and Damage\n\nYou add your Dexterity modifier to your attack roll and your damage roll when attacking with a ranged weapon, such as a sling or a longb"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you.\n\nIf the creature succeeds on its saving throw, you can't use this feature on that creature again"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "On a hit, you roll damage, unless the particular attack has rules that specify otherwise. Some attacks cause special effects in addition to or instead of damage.\n\nIf there's ever any question whether "
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "be consecutive; keep track of both until you collect three of a kind. The number of both is reset to zero when you regain any hit points or become stable.\n\n***Rolling 1 or 20***. When you make a death"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Monsters",
+      "topic": "Roper",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Roper.md",
+      "preview": "*Melee Weapon Attack:* +7 to hit, reach 50 ft., one creature. *Hit:* The target is grappled (escape DC 15). Until the grapple ends, the target is restrained and has disadvantage on Strength checks and"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Spells",
+      "topic": "Dominate Monster",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Dominate Monster.md",
+      "preview": "### Dominate Monster\n\n*8th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 hour\n\nYou attempt to beguile a creature that y"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Spells",
+      "topic": "Calm Emotions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Calm Emotions.md",
+      "preview": "### Calm Emotions\n\n*2nd-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou attempt to suppress strong emotions i"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 5473,
+    "rag_completion": 6096,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 11569
+  },
+  "costs": {
+    "rag": 0.00176027,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00176027
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 11.35,
+    "total_s": 18.06
+  },
+  "answer": " A restrained creature can still make attack rolls, but they have disadvantage on the attack rolls. However, if a creature is completely controlled by another creature using the \"Take Total and Precise Control\" option while the creature is restrained, then the controlled creature does not make any attack rolls during that time. The roper's ability to pull creatures towards it does not affect the creature's ability to make attack rolls.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant and correctly states that a restrained creature can make attack rolls with disadvantage. However, it introduces unnecessary complexity with the mention of \"Take Total and Precise Control,\" which is not a standard rule in D&D 5e, and the reference to the roper's ability is extraneous. This detracts from the clarity and focus of the answer."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context includes information about the \"restrained\" condition in DnD 5e, which directly relates to the user's query about whether a restrained creature can make attack rolls. The context specifies that a restrained creature has disadvantage on attack rolls, which is relevant to understanding the implications of being restrained.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a complete answer to the query. It clearly states that a restrained creature can still make attack rolls, but those rolls will be made with disadvantage. This directly addresses the user's question without needing additional information.\n\n**Feedback Summary:**\nThe retrieved context is highly relevant and directly answers the user's query about the attack rolls of a restrained creature. It provides a clear understanding of the mechanics involved, specifically mentioning the disadvantage on attack rolls. Therefore, the context is both matching and sufficient for a full answer.\n\n[RESULT] 4.0"
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "query_id": "query_005",
+  "session_id": "20-index-token-default-Overnight-30q-v1-20260315-034831",
+  "timestamp": "2026-03-15T03:49:16.297623",
+  "query": {
+    "original": "How many hit dice does a Fighter have?",
+    "used": "How many hit dice does a Fighter have?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "# Fighter\n\n### Class Features\n\nAs a fighter, you gain the following class features.\n\n#### Hit Points\n\n**Hit Dice:** 1d10 per fighter level\n\n**Hit Points at 1st Level:** 10 + your Constitution modifier"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "can simply pool them together. For example, both the fighter and the paladin have a d10, so if you are a paladin 5/fighter 5, you have ten d10 Hit Dice. If your classes give you Hit Dice of different "
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "(three uses) |\n| 18th  | +6                | Martial Archetype Feature                         |\n| 19th  | +6                | Ability Score Improvement                         |\n| 20th  | +6         "
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.\n\n#### Protection\n\nWhen a creature you can see attacks a target other than yo"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "|\n| Druid     | Wisdom 13                   |\n| Fighter   | Strength 13 or Dexterity 13 |\n| Monk      | Dexterity 13 and Wisdom 13  |\n| Paladin   | Strength 13 and Charisma 13 |\n| Ranger    | Dexterit"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "On a hit, you roll damage, unless the particular attack has rules that specify otherwise. Some attacks cause special effects in addition to or instead of damage.\n\nIf there's ever any question whether "
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "As normal, you can't increase an ability score above 20 using this feature.\n\n### Extra Attack\n\nBeginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on you"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "# Rogue\n\n### Class Features\n\nAs a rogue, you have the following class features.\n\n#### Hit Points\n\n**Hit Dice:** 1d8 per rogue level\n\n**Hit Points at 1st Level:** 8 + your Constitution modifier\n\n**Hit "
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "| +4                | Martial Archetype Feature                         |\n| 11th  | +4                | Extra Attack (2)                                  |\n| 12th  | +4                | Ability Score "
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "4-5   | -3       |\n| 6-7   | -2       |\n| 8-9   | -1       |\n| 10-11 | +0       |\n| 12-13 | +1       |\n| 14-15 | +2       |\n| 16-17 | +3       |\n| 18-19 | +4       |\n| 20-21 | +5       |\n| 22-23 | +6 "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 5577,
+    "rag_completion": 5842,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 11419
+  },
+  "costs": {
+    "rag": 0.00172345,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00172345
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 3.78,
+    "total_s": 14.05
+  },
+  "answer": " A Fighter has 10 hit dice, each of which rolls a d10 when determining hit points.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query about the Fighter's hit dice, but it contains a significant mistake regarding the number of hit dice. A Fighter does not have 10 hit dice; they have 1 hit die per level, rolling a d10."
+    },
+    "context_relevancy": {
+      "score": null,
+      "passing": null,
+      "feedback": "The evaluation of the existing response is accurate and aligns with the context provided. \n\n1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the context directly addresses the query regarding the Fighter class in Dungeons & Dragons 5th Edition, specifically stating that a Fighter has \"1d10 per fighter level\" as their Hit Dice.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a complete answer by clearly stating the number of Hit Dice a Fighter has (1d10) and explaining that this is per fighter level. No additional information is needed to fully answer the question.\n\n**Feedback Summary:**\nThe retrieved context is relevant and directly answers the user's query about the number of Hit Dice a Fighter has in D&D 5e. It is clear and concise, fulfilling both criteria completely.\n\nTherefore, the evaluation score remains **4.0**."
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "query_id": "query_013",
+  "session_id": "90-combined-best-guess-Overnight-30q-v1-20260315-155235",
+  "timestamp": "2026-03-15T15:58:24.456937",
+  "query": {
+    "original": "If a creature has exhaustion level 3 and is also restrained, what is its movement speed?",
+    "used": "What is the movement speed of a creature with exhaustion level 3 that is also restrained in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06297760210803688,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Restrained\n\n- A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- Attack rolls against the creature have advantage, and the creature's attack rolls have dis"
+    },
+    {
+      "rank": 2,
+      "score": 0.048915917503966164,
+      "category": "Spells",
+      "topic": "Freedom of Movement",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Freedom of Movement.md",
+      "preview": "### Freedom of Movement\n\n*4th-level abjuration*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S, M (a leather strap, bound around the arm or a similar appendage)\n\n**Duration:** 1 h"
+    },
+    {
+      "rank": 3,
+      "score": 0.03333333333333333,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Exhaustion\n\nSome special abilities and environmental hazards, such as starvation and the long-term effects of freezing or scorching temperatures, can lead to a special condition called exhaustion. "
+    },
+    {
+      "rank": 4,
+      "score": 0.032266458495966696,
+      "category": "Spells",
+      "topic": "Slow",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Slow.md",
+      "preview": "### Slow\n\n*3rd-level transmutation*\n\n**Casting Time:** 1 action\n\n**Range:** 120 feet\n\n**Components:** V, S, M (a drop of molasses)\n\n**Duration:** Concentration, up to 1 minute\n\nYou alter time around u"
+    },
+    {
+      "rank": 5,
+      "score": 0.031754032258064516,
+      "category": "Monsters",
+      "topic": "Wraith",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Wraith.md",
+      "preview": "## Wraith\n\n*Medium undead, neutral evil*\n\n**Armor Class** 13\n\n**Hit Points** 67 (9d8+27)\n\n**Speed** 0 ft., fly 60 ft. (hover)\n\n| STR    | DEX     | CON     | INT     | WIS     | CHA     |\n|--------|--"
+    },
+    {
+      "rank": 6,
+      "score": 0.03125763125763126,
+      "category": "Monsters",
+      "topic": "Ghost",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Ghost.md",
+      "preview": "## Ghost\n\n*Medium undead, any alignment*\n\n**Armor Class** 11\n\n**Hit Points** 45 (10d8)\n\n**Speed** 0 ft., fly 40 ft. (hover)\n\n| STR    | DEX     | CON     | INT     | WIS     | CHA     |\n|--------|----"
+    },
+    {
+      "rank": 7,
+      "score": 0.03125763125763126,
+      "category": "Monsters",
+      "topic": "Specter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Specter.md",
+      "preview": "## Specter\n\n*Medium undead, chaotic evil*\n\n**Armor Class** 12\n\n**Hit Points** 22 (5d8)\n\n**Speed** 0 ft., fly 50 ft. (hover)\n\n| STR    | DEX     | CON     | INT     | WIS     | CHA     |\n|--------|----"
+    },
+    {
+      "rank": 8,
+      "score": 0.031099324975891997,
+      "category": "Spells",
+      "topic": "Confusion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Confusion.md",
+      "preview": "### Confusion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 90 feet\n\n**Components:** V, S, M (three nut shells)\n\n**Duration:** Concentration, up to 1 minute\n\nThis spell assaults and"
+    },
+    {
+      "rank": 9,
+      "score": 0.030834914611005692,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "### Fast Movement\n\nStarting at 5th level, your speed increases by 10 feet while you aren't wearing heavy armor."
+    },
+    {
+      "rank": 10,
+      "score": 0.030536130536130537,
+      "category": "Spells",
+      "topic": "Haste",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Haste.md",
+      "preview": "### Haste\n\n*3rd-level transmutation*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S, M (a shaving of licorice root)\n\n**Duration:** Concentration, up to 1 minute\n\nChoose a willin"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 4092,
+    "rag_completion": 4817,
+    "meta_prompt": 63,
+    "meta_completion": 25,
+    "total_calls": 3,
+    "total": 8997
+  },
+  "costs": {
+    "rag": 0.00136535,
+    "meta": 2.4449999999999998e-05,
+    "embed": 0.0,
+    "total": 0.0013898
+  },
+  "timings": {
+    "rag_s": 14.53,
+    "query_s": 15.73,
+    "total_s": 25.76
+  },
+  "answer": " A creature with exhaustion level 3 has a speed of 0 due to the restrained condition. Therefore, its movement speed is not specified in the provided rules.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06297760210803688
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer correctly identifies that the restrained condition results in a speed of 0, which takes precedence over the effects of exhaustion level 3. However, it could be clearer by explicitly stating that exhaustion level 3 halves movement speed but is irrelevant in this case due to the restrained condition."
+    },
+    "context_relevancy": {
+      "score": 0.625,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context does address the relevant aspects of the query. It provides information about the effects of being restrained, which states that a restrained creature's speed becomes 0. Additionally, it includes details about exhaustion, specifically level 3, which imposes disadvantage on attack rolls and saving throws but does not directly affect speed. However, it also mentions that at level 5 exhaustion, a creature's speed is reduced to 0. Therefore, while the context does not explicitly state the combined effect of exhaustion level 3 and being restrained, it does provide relevant information about both conditions.\n\n   **Score: 1.5/2** (The context is relevant but lacks a direct answer to the specific combination of conditions.)\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The context cannot be used exclusively to provide a full answer to the user's query. While it explains the effects of being restrained (speed becomes 0) and the effects of exhaustion (level 3 does not affect speed, but level 5 does), it does not clarify how these two conditions interact when a creature is at exhaustion level 3 and also restrained. The user is looking for a specific answer regarding the movement speed under these combined conditions, which is not fully addressed in the context provided.\n\n   **Score: 1/2** (The context provides some relevant information but does not fully answer the query.)\n\n**Final Result:** [RESULT] 2.5"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "query_id": "query_017",
+  "session_id": "10-baseline-no-rag-Overnight-30q-v1-20260315-034305",
+  "timestamp": "2026-03-15T03:46:18.726282",
+  "query": {
+    "original": "Can you use Action Surge to cast two leveled spells in one turn?",
+    "used": "Can you use Action Surge to cast two leveled spells in one turn?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 284,
+    "rag_completion": 624,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 908
+  },
+  "costs": {
+    "rag": 0.0001498,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0001498
+  },
+  "timings": {
+    "rag_s": null,
+    "query_s": 8.03,
+    "total_s": 9.87
+  },
+  "answer": " No, using Action Surge does not allow you to cast two leveled spells as part of the same turn. Action Surge is a feature that gives you an additional action on your turn, which you can use to take an additional action, such as casting a spell, making an attack, or using an ability. However, each action or reaction you take during your turn, including those gained from Action Surge, can only be used to do one thing. So, if you want to cast two leveled spells in one turn, you would need to have two separate turns to do so.",
+  "refused": false,
+  "confidence": {
+    "passed": null,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer is incorrect and misleading, as it states that Action Surge does not allow casting two leveled spells in one turn, which contradicts the rules. The reference answer correctly explains that you can use Action Surge to cast two leveled spells as long as one is not cast with a bonus action."
+    },
+    "context_relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    }
+  }
+}

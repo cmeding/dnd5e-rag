@@ -1,0 +1,66 @@
+{
+  "query_id": "query_013",
+  "session_id": "61-context-consolidation-Overnight-30q-v1-20260315-145355",
+  "timestamp": "2026-03-15T14:57:00.965705",
+  "query": {
+    "original": "If a creature has exhaustion level 3 and is also restrained, what is its movement speed?",
+    "used": "If a creature has exhaustion level 3 and is also restrained, what is its movement speed?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "If a creature has exhaustion level 3 and is also restrained, its movement speed is 0. \n\n### Relevant Conditions:\n\n1. **Exhaustion Level 3**: \n   - The creature has disadvantage on attack rolls and sav"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1235,
+    "rag_completion": 4116,
+    "meta_prompt": 2347,
+    "meta_completion": 181,
+    "total_calls": 2,
+    "total": 7879
+  },
+  "costs": {
+    "rag": 0.00091789,
+    "meta": 0.00046065,
+    "embed": 0.0,
+    "total": 0.00137854
+  },
+  "timings": {
+    "rag_s": 4.11,
+    "query_s": 6.96,
+    "total_s": 13.9
+  },
+  "answer": " The creature's movement speed is 0. The restrained condition explicitly sets the creature's movement speed to 0, which takes precedence over the exhaustion effects.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly addresses the user query by explaining that the restrained condition sets the movement speed to 0, which takes precedence over the effects of exhaustion."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context directly addresses the query about a creature with exhaustion level 3 that is also restrained. It clearly states that the creature's movement speed is 0, which is the specific information requested in the query. This matches the subject matter perfectly.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the retrieved context provides a complete answer to the user's query. It not only states the movement speed but also implicitly explains why the speed is 0 by referencing the restrained condition. The context does not require additional information to understand the answer, making it sufficient on its own.\n\n### Feedback:\nThe retrieved context is highly relevant and directly answers the query regarding the movement speed of a creature with exhaustion level 3 that is also restrained. It succinctly provides the necessary information without ambiguity. The explanation of the restrained condition further reinforces the answer, ensuring clarity. Overall, the context is both relevant and sufficient to fully address the user's question.\n\n[RESULT] 4.0"
+    }
+  }
+}

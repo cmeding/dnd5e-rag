@@ -1,0 +1,138 @@
+{
+  "query_id": "query_023",
+  "session_id": "20-index-token-default-Overnight-30q-v1-20260315-034831",
+  "timestamp": "2026-03-15T03:54:10.921619",
+  "query": {
+    "original": "How many languages does a standard Human character speak at character creation?",
+    "used": "How many languages does a standard Human character speak at character creation?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Characterizations",
+      "topic": "Languages",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Languages.md",
+      "preview": "# Languages\n\nYour race indicates the languages your character can speak by default, and your background might give you access to one or more additional languages of your choice. Note these languages o"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Races",
+      "topic": "Human",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Races\\Human.md",
+      "preview": "# Human\n\n### Human Traits\n\nIt's hard to make generalizations about humans, but your human character has these traits.\n\n***Ability Score Increase***. Your ability scores each increase by 1.\n\n***Age***."
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Characterizations",
+      "topic": "Languages",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Languages.md",
+      "preview": "Language    | Typical Speakers    | Script    |\n|-------------|---------------------|-----------|\n| Abyssal     | Demons              | Infernal  |\n| Celestial   | Celestials          | Celestial |\n| "
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Characterizations",
+      "topic": "Backgrounds",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Backgrounds.md",
+      "preview": "# Backgrounds\n\nEvery story has a beginning. Your character's background reveals where you came from, how you became an adventurer, and your place in the world. Your fighter might have been a courageou"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Monsters",
+      "topic": "Commoner (NPC)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Commoner (NPC).md",
+      "preview": "### Commoner\n\n*Medium humanoid (any race), any alignment*\n\n**Armor Class** 10\n\n**Hit Points** 4 (1d8)\n\n**Speed** 30 ft.\n\n| STR     | DEX     | CON     | INT     | WIS     | CHA     |\n|---------|------"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Races",
+      "topic": "# Racial Traits",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Races\\# Racial Traits.md",
+      "preview": "# Racial Traits\n\nThe description of each race includes racial traits that are common to members of that race. The following entries appear among the traits of most races.\n\n## Ability Score Increase\n\nE"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Characterizations",
+      "topic": "Languages",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Languages.md",
+      "preview": "will tell you how you can earn inspiration in the game.\n\nYou either have inspiration or you don't - you can't stockpile multiple \"inspirations\" for later use.\n\n## Using Inspiration\n\nIf you have inspir"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "# MULTICLASSING\n\nMulticlassing allows you to gain levels in multiple classes. Doing so lets you mix the abilities of those classes to realize a character concept that might not be reflected in one of "
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Races",
+      "topic": "Elf",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Races\\Elf.md",
+      "preview": "hours of sleep.\n\n***Languages***. You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Treasure",
+      "topic": "Helm of Comprehending Languages",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Helm of Comprehending Languages.md",
+      "preview": "### Helm of Comprehending Languages\n\n*Wondrous item, uncommon*\n\nWhile wearing this helm, you can use an action to cast the *comprehend languages* spell from it at will."
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 4109,
+    "rag_completion": 4317,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 8426
+  },
+  "costs": {
+    "rag": 0.00127222,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00127222
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 3.07,
+    "total_s": 10.98
+  },
+  "answer": " A standard Human character speaks Common language at character creation, as indicated in the context under the \"Languages\" category. No explicit number of languages is mentioned for Humans in the context.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains inaccuracies. It correctly states that a standard Human speaks Common, but it fails to mention that Humans also speak one additional language of the player's choice, which is a crucial part of the answer."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context discusses the languages that a character can speak based on their race and background, specifically mentioning that a Human character can speak Common and one additional language of their choice. This directly addresses the user's query about how many languages a standard Human character speaks at character creation.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a complete answer to the query. It specifies that a Human character starts with the ability to speak Common and one extra language, which is the information the user is seeking. There is no need for additional context to answer the question fully.\n\n**Feedback Summary:**\nThe retrieved context is highly relevant and directly answers the user's query about the number of languages a standard Human character speaks at character creation. It provides clear and specific information that is sufficient to fully address the question.\n\n[RESULT] 4.0"
+    }
+  }
+}

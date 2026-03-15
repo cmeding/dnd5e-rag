@@ -1,0 +1,138 @@
+{
+  "query_id": "query_028",
+  "session_id": "70-prompt-strict-Overnight-30q-v1-20260315-150148",
+  "timestamp": "2026-03-15T15:07:23.809290",
+  "query": {
+    "original": "Can a creature with a fly speed of 0 feet due to the restrained condition still hover?",
+    "used": "Can a creature with a fly speed of 0 feet due to the restrained condition still hover?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Flying Movement\n\nFlying creatures enjoy many benefits of mobility, but they must also deal with the danger of falling. If a flying creature is knocked prone, has its speed reduced to 0, or is other"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Restrained\n\n- A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- Attack rolls against the creature have advantage, and the creature's attack rolls have dis"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "### Fly\n\nA monster that has a flying speed can use all or part of its movement to fly. Some monsters have the ability to **hover**, which makes them hard to knock out of the air (as explained in the r"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Paralyzed\n\n- A paralyzed creature is incapacitated (see the condition) and can't move or speak.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the c"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Grappled\n\n- A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- The condition ends if the grappler is incapacitated (see the condition).\n- The condition also "
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Prone\n\n- A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.\n- The creature has disadvantage on attack rolls.\n- An attack roll against the creat"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Unconscious\n\n- An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings\n- The creature drops whatever it's holding and falls prone.\n- Th"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Monsters",
+      "topic": "Ghost",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Ghost.md",
+      "preview": "###### Actions\n\n***Withering Touch***. *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 17 (4d6+3) necrotic damage.\n\n***Etherealness***. The ghost enters the Ethereal Plane from the M"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Monsters",
+      "topic": "Flying Sword (Animated Object)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Flying Sword (Animated Object).md",
+      "preview": "### Flying Sword (Animated Object)\n\n*Small construct, unaligned*\n\n**Armor Class** 17 (natural armor)\n\n**Hit Points** 17 (5d6)\n\n**Speed** 0 ft., fly 50 ft. (hover)\n\n| STR     | DEX     | CON     | INT "
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Stunned\n\n- A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rol"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2286,
+    "rag_completion": 2456,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 4742
+  },
+  "costs": {
+    "rag": 0.0007180999999999999,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0007180999999999999
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 2.58,
+    "total_s": 12.23
+  },
+  "answer": " I cannot find this in the provided rules if a creature with a fly speed of 0 feet due to the restrained condition can still hover.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer acknowledges the query but fails to provide a relevant or correct response. It does not address the mechanics of hovering or the implications of the restrained condition, which are crucial to answering the question."
+    },
+    "context_relevancy": {
+      "score": 0.5,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context does provide relevant information regarding flying movement and the restrained condition. It explains that a flying creature with a speed of 0 feet falls unless it can hover. However, it does not explicitly state whether a creature with a fly speed of 0 due to the restrained condition can still hover. The context mentions that some creatures have the ability to hover, but it does not clarify if being restrained affects that ability. Therefore, while the context is related, it does not fully address the specific question about hovering while restrained.\n\n   **Score: 1 point** (The context is somewhat relevant but lacks a direct answer to the query.)\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The context cannot be used exclusively to provide a full answer to the user's query. While it discusses flying movement and the effects of the restrained condition, it does not provide a definitive answer regarding the ability to hover when a creature's speed is reduced to 0 due to being restrained. The information is incomplete for answering the query fully, as it leaves out the specific interaction between the restrained condition and the ability to hover.\n\n   **Score: 1 point** (The context provides some relevant information but does not fully answer the query.)\n\n**Final Result:** [RESULT] 2.0"
+    }
+  }
+}

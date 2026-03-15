@@ -1,0 +1,138 @@
+{
+  "query_id": "query_026",
+  "session_id": "27-index-hierarchical-markdown-Overnight-30q-v1-20260315-130532",
+  "timestamp": "2026-03-15T13:11:32.132203",
+  "query": {
+    "original": "Can an incapacitated creature take reactions?",
+    "used": "Can an incapacitated creature take reactions?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Incapacitated\n\n- An incapacitated creature can't take actions or reactions.\n\n## Invisible\n\n- An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose "
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "It can't do so while incapacitated or otherwise unable to take actions. If surprised, it can't use one until after its first turn in the combat."
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Poisons",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Poisons.md",
+      "preview": "The poisoned creature is incapacitated.\n\n***Truth Serum (Ingested)***. A creature subjected to this poison must succeed on a DC 11 Constitution saving throw or become poisoned for 1 hour. The poisoned"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Treasure",
+      "topic": "Mace of Terror",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Mace of Terror.md",
+      "preview": "It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If it has nowhere it can move, the creature can use the Dodg"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "A creature suffers the effect of its current level of exhaustion as well as all lower levels. For example, a creature suffering level 2 exhaustion has its speed halved and has disadvantage on ability "
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "Its weight increases by a factor of ten, and it ceases aging.\n- The creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings.\n- Attack rolls against the c"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Treasure",
+      "topic": "Dust of Sneezing and Choking",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Dust of Sneezing and Choking.md",
+      "preview": "A creature affected in this way is incapacitated and suffocating. As long as it is conscious, a creature can repeat the saving throw at the end of each of its turns, ending the effect on it on a succe"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Treasure",
+      "topic": "Wand of Fear",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Wand of Fear.md",
+      "preview": "It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If it has nowhere it can move, the creature can use the Dodg"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Gamemastering",
+      "topic": "Poisons",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Poisons.md",
+      "preview": "This poison must be harvested from a dead or incapacitated crawler. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. The poisoned crea"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Classes",
+      "topic": "Cleric",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Cleric.md",
+      "preview": "It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge a"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2397,
+    "rag_completion": 2542,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 4939
+  },
+  "costs": {
+    "rag": 0.00074665,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00074665
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 1.66,
+    "total_s": 7.06
+  },
+  "answer": " Based on the context provided, an incapacitated creature cannot take reactions.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and fully correct, accurately stating that an incapacitated creature cannot take reactions, which aligns perfectly with the reference answer."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query regarding whether an incapacitated creature can take reactions. The context explicitly states that \"an incapacitated creature can't take actions or reactions,\" which is a clear and relevant answer to the question posed.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a complete answer to the query. It not only confirms that an incapacitated creature cannot take reactions but also reinforces this point by stating it in multiple instances. Therefore, the context is sufficient to fully answer the user's question without needing additional information.\n\n   **Score: 2/2**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "query_id": "query_014",
+  "session_id": "42-post-rerank-reorder-Overnight-30q-v1-20260315-170550",
+  "timestamp": "2026-03-15T17:08:28.442327",
+  "query": {
+    "original": "Can a paralyzed creature make death saving throws?",
+    "used": "Can a paralyzed creature make death saving throws?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 4.928504943847656,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "#### Stabilizing a Creature\n\nThe best way to save a creature with 0 hit points is to heal it. If healing is unavailable, the creature can at least be stabilized so that it isn't killed by a failed dea"
+    },
+    {
+      "rank": 2,
+      "score": -2.784609317779541,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Death Saving Throws\n\nWhenever you start your turn with 0 hit points, you must make a special saving throw, called a death saving throw, to determine whether you creep closer to death or hang onto "
+    },
+    {
+      "rank": 3,
+      "score": -4.344391345977783,
+      "category": "Treasure",
+      "topic": "Wand of Paralysis",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Wand of Paralysis.md",
+      "preview": "### Wand of Paralysis\n\n*Wand, rare (requires attunement by a spellcaster)*\n\nThis wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cause a thin blue ray to stre"
+    },
+    {
+      "rank": 4,
+      "score": -3.5218799114227295,
+      "category": "Monsters",
+      "topic": "Lich",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Lich.md",
+      "preview": "###### Actions\n\n***Paralyzing Touch***. *Melee Spell Attack:* +12 to hit, reach 5 ft., one creature. *Hit:* 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving throw or be par"
+    },
+    {
+      "rank": 5,
+      "score": 0.546260416507721,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Paralyzed\n\n- A paralyzed creature is incapacitated (see the condition) and can't move or speak.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the c"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1517,
+    "rag_completion": 1742,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 3259
+  },
+  "costs": {
+    "rag": 0.00049785,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00049785
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 4.37,
+    "total_s": 12.0
+  },
+  "answer": " Yes, a paralyzed creature can make death saving throws. The Paralyzed condition only affects a creature's ability to move or speak and grants advantage on attack rolls against it. It does not prevent a creature from making saving throws.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 4.928504943847656
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and mostly correct, but it lacks some detail about the specifics of the paralyzed condition and how it interacts with death saving throws, which could enhance clarity and completeness."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context does provide relevant information about death saving throws and the conditions under which they are made. However, it does not explicitly address whether a paralyzed creature can make death saving throws. The context discusses the mechanics of death saving throws and the effects of being paralyzed, but it does not directly answer the query regarding the interaction between paralysis and death saving throws. Therefore, while there is some relevant information, it does not fully match the specific subject matter of the user's query.\n\n   **Score: 1/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The context does not provide a complete answer to the user's query about whether a paralyzed creature can make death saving throws. While it explains the mechanics of death saving throws and the effects of paralysis, it does not clarify how these two interact. Thus, the retrieved context cannot be used exclusively to answer the query, as it lacks the necessary information to provide a definitive answer.\n\n   **Score: 0/2**\n\n**Final Feedback:** The retrieved context contains relevant information about death saving throws and the paralyzed condition, but it fails to directly address the user's specific question about the ability of a paralyzed creature to make death saving throws. As a result, it does not provide a complete answer to the query.\n\n[RESULT] 1.0"
+    }
+  }
+}

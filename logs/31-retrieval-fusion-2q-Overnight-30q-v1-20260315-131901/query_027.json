@@ -1,0 +1,138 @@
+{
+  "query_id": "query_027",
+  "session_id": "31-retrieval-fusion-2q-Overnight-30q-v1-20260315-131901",
+  "timestamp": "2026-03-15T13:29:51.859618",
+  "query": {
+    "original": "If a creature is immune to the frightened condition, can it still be charmed?",
+    "used": "If a creature is immune to the frightened condition, can it still be charmed?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.03306010928961749,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Frightened\n\n- A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\n- The creature can't willingly move closer to the sourc"
+    },
+    {
+      "rank": 2,
+      "score": 0.03159203980099502,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Charmed\n\n- A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.\n- The charmer has advantage on any ability check to interact socially with th"
+    },
+    {
+      "rank": 3,
+      "score": 0.030886196246139225,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "## Vulnerabilities, Resistances, and Immunities\n\nSome creatures have vulnerability, resistance, or immunity to certain types of damage. Particular creatures are even resistant or immune to damage from"
+    },
+    {
+      "rank": 4,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Stunned\n\n- A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rol"
+    },
+    {
+      "rank": 5,
+      "score": 0.016129032258064516,
+      "category": "Monsters",
+      "topic": "Swarm of Ravens (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Swarm of Ravens (Creature).md",
+      "preview": "### Swarm of Ravens\n\n*Medium swarm of Tiny beasts, unaligned*\n\n**Armor Class** 12\n\n**Hit Points** 24 (7d8-7)\n\n**Speed** 10 ft., fly 50 ft.\n\n| STR    | DEX     | CON    | INT    | WIS     | CHA    |\n|-"
+    },
+    {
+      "rank": 6,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "Calm Emotions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Calm Emotions.md",
+      "preview": "### Calm Emotions\n\n*2nd-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou attempt to suppress strong emotions i"
+    },
+    {
+      "rank": 7,
+      "score": 0.015873015873015872,
+      "category": "Monsters",
+      "topic": "Swarm of Insects (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Swarm of Insects (Creature).md",
+      "preview": "### Swarm of Insects\n\n*Medium swarm of Tiny beasts, unaligned*\n\n**Armor Class** 12 (natural armor)\n\n**Hit Points** 22 (5d8)\n\n**Speed** 20 ft., climb 20 ft.\n\n| STR    | DEX     | CON     | INT    | WIS"
+    },
+    {
+      "rank": 8,
+      "score": 0.015625,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "#### Mindless Rage\n\nBeginning at 6th level, you can't be charmed or frightened while raging. If you are charmed or frightened when you enter your rage, the effect is suspended for the duration of the "
+    },
+    {
+      "rank": 9,
+      "score": 0.015625,
+      "category": "Monsters",
+      "topic": "Swarm of Bats (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Swarm of Bats (Creature).md",
+      "preview": "### Swarm of Bats\n\n*Medium swarm of Tiny beasts, unaligned*\n\n**Armor Class** 12\n\n**Hit Points** 22 (5d8)\n\n**Speed** 0 ft., fly 30 ft.\n\n| STR    | DEX     | CON     | INT    | WIS     | CHA    |\n|-----"
+    },
+    {
+      "rank": 10,
+      "score": 0.015384615384615385,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Unconscious\n\n- An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings\n- The creature drops whatever it's holding and falls prone.\n- Th"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2654,
+    "rag_completion": 3249,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 5903
+  },
+  "costs": {
+    "rag": 0.0009092500000000001,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0009092500000000001
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 13.28,
+    "total_s": 21.36
+  },
+  "answer": " Yes, a creature that is immune to the frightened condition can still be charmed. The frightened and charmed conditions are separate from each other in the provided rules.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.03306010928961749
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly addresses the user query, providing clear and accurate information about the relationship between the frightened and charmed conditions."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context includes information about the frightened and charmed conditions, as well as details about certain creatures that are immune to these conditions. However, it does not directly address the specific question of whether a creature that is immune to the frightened condition can still be charmed. While it provides relevant definitions and examples, it lacks a direct answer to the query.\n\n   **Score: 1/2** (The context is somewhat relevant but does not directly answer the question.)\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does not provide a complete answer to the user's query. While it discusses the frightened and charmed conditions, it does not clarify the relationship between immunity to one condition and susceptibility to another. Therefore, it cannot be used exclusively to answer the question.\n\n   **Score: 0/2** (The context does not provide a full answer.)\n\n**Final Feedback:**\nThe retrieved context provides some relevant information about the frightened and charmed conditions, but it fails to directly address the user's question about the interaction between these conditions. As a result, it cannot be used to provide a complete answer. More specific information regarding the relationship between immunity to the frightened condition and the ability to be charmed is needed.\n\n**[RESULT] 1.0**"
+    }
+  }
+}

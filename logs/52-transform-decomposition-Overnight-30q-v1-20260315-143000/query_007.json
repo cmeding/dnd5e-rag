@@ -1,0 +1,320 @@
+{
+  "query_id": "query_007",
+  "session_id": "52-transform-decomposition-Overnight-30q-v1-20260315-143000",
+  "timestamp": "2026-03-15T14:32:29.892574",
+  "query": {
+    "original": "Can a frightened creature take the Dash action?",
+    "used": "Can a frightened creature take the Dash action?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": null,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "Sub question: What does the frightened condition do in DnD 5e?\nResponse:  A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight"
+    },
+    {
+      "rank": 2,
+      "score": null,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "Sub question: What actions can a creature take during its turn in DnD 5e?\nResponse:  A creature can take various actions during its turn in DnD 5e, including moving, making attacks, casting spells, an"
+    },
+    {
+      "rank": 3,
+      "score": null,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "Sub question: Are there any restrictions on actions for a frightened creature in DnD 5e?\nResponse:  Yes, a frightened creature has disadvantage on ability checks and attack rolls while the source of i"
+    },
+    {
+      "rank": 4,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Frightened\n\n- A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\n- The creature can't willingly move closer to the sourc"
+    },
+    {
+      "rank": 5,
+      "score": 0.01639344262295082,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Unconscious\n\n- An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings\n- The creature drops whatever it's holding and falls prone.\n- Th"
+    },
+    {
+      "rank": 6,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Madness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Madness.md",
+      "preview": "**Table- Madness Long-Term Effects**\n\n| d100   | Effect (lasts 1d10 \u00d7 10 hours)                                                                                                                         "
+    },
+    {
+      "rank": 7,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "Weird",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Weird.md",
+      "preview": "### Weird\n\n*9th-level illusion*\n\n**Casting Time:** 1 action\n\n**Range:** 120 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to one minute\n\nDrawing on the deepest fears of a group of creatu"
+    },
+    {
+      "rank": 8,
+      "score": 0.015625,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Paralyzed\n\n- A paralyzed creature is incapacitated (see the condition) and can't move or speak.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the c"
+    },
+    {
+      "rank": 9,
+      "score": 0.015384615384615385,
+      "category": "Spells",
+      "topic": "Confusion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Confusion.md",
+      "preview": "### Confusion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 90 feet\n\n**Components:** V, S, M (three nut shells)\n\n**Duration:** Concentration, up to 1 minute\n\nThis spell assaults and"
+    },
+    {
+      "rank": 10,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "Fear",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Fear.md",
+      "preview": "### Fear\n\n*3rd-level illusion*\n\n**Casting Time:** 1 action\n\n**Range:** Self (30-foot cone)\n\n**Components:** V, S, M (a white feather or the heart of a hen)\n\n**Duration:** Concentration, up to 1 minute"
+    },
+    {
+      "rank": 11,
+      "score": 0.014925373134328358,
+      "category": "Spells",
+      "topic": "Phantasmal Killer",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Phantasmal Killer.md",
+      "preview": "### Phantasmal Killer\n\n*4th-level illusion*\n\n**Casting Time:** 1 action\n\n**Range:** 120 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou tap into the nightmares of a creatu"
+    },
+    {
+      "rank": 12,
+      "score": 0.014705882352941176,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "### Danger Sense\n\nAt 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger.\n\nYou have advantage on Dexterity saving th"
+    },
+    {
+      "rank": 13,
+      "score": 0.014492753623188406,
+      "category": "Gamemastering",
+      "topic": "Madness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Madness.md",
+      "preview": "## Madness Effects\n\nMadness can be short-term, long-term, or indefinite. Most relatively mundane effects impose short-term madness, which lasts for just a few minutes. More horrific effects or cumulat"
+    },
+    {
+      "rank": 14,
+      "score": 0.016666666666666666,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "## Legendary Actions\n\nA legendary creature can take a certain number of special actions-called legendary actions-outside its turn. Only one legendary action option can be used at a time and only at th"
+    },
+    {
+      "rank": 15,
+      "score": 0.01639344262295082,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Other Activity on Your Turn\n\nYour turn can include a variety of flourishes that require neither your action nor your move.\n\nYou can communicate however you are able, through brief utterances and ge"
+    },
+    {
+      "rank": 16,
+      "score": 0.016129032258064516,
+      "category": "Classes",
+      "topic": "Cleric",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Cleric.md",
+      "preview": "#### Channel Divinity: Turn Undead\n\nAs an action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 30 feet of you must make a Wisdom sa"
+    },
+    {
+      "rank": 17,
+      "score": 0.015873015873015872,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "# Actions in Combat\n\nWhen you take your action on your turn, you can take one of the actions presented here, an action you gained from your class or a special feature, or an action that you improvise."
+    },
+    {
+      "rank": 18,
+      "score": 0.015625,
+      "category": "Spells",
+      "topic": "Confusion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Confusion.md",
+      "preview": "### Confusion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 90 feet\n\n**Components:** V, S, M (three nut shells)\n\n**Duration:** Concentration, up to 1 minute\n\nThis spell assaults and"
+    },
+    {
+      "rank": 19,
+      "score": 0.015384615384615385,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "### Lair Actions\n\nIf a legendary creature has lair actions, it can use them to harness the ambient magic in its lair. On initiative count 20 (losing all initiative ties), it can use one of its lair ac"
+    },
+    {
+      "rank": 20,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "True Polymorph",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\True Polymorph.md",
+      "preview": "The creature is limited in the actions it can perform by the nature of its new form, and it can't speak, cast spells, or take any other action that requires hands or speech, unless its new form is cap"
+    },
+    {
+      "rank": 21,
+      "score": 0.014925373134328358,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Your Turn\n\nOn your turn, you can **move** a distance up to your speed and **take one action**. You decide whether to move first or take your action first. Your speed- sometimes called your walking "
+    },
+    {
+      "rank": 22,
+      "score": 0.014705882352941176,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "# Legendary Creatures\n\nA legendary creature can do things that ordinary creatures can't. It can take special actions outside its turn, and it might exert magical influence for miles around.\n\nIf a crea"
+    },
+    {
+      "rank": 23,
+      "score": 0.014492753623188406,
+      "category": "Monsters",
+      "topic": "Lich",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Lich.md",
+      "preview": "###### Legendary Actions\n\nThe lich can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn."
+    },
+    {
+      "rank": 24,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Frightened\n\n- A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\n- The creature can't willingly move closer to the sourc"
+    },
+    {
+      "rank": 25,
+      "score": 0.01639344262295082,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Unconscious\n\n- An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings\n- The creature drops whatever it's holding and falls prone.\n- Th"
+    },
+    {
+      "rank": 26,
+      "score": 0.016129032258064516,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "#### Intimidating Presence\n\nBeginning at 10th level, you can use your action to frighten someone with your menacing presence. When you do so, choose one creature that you can see within 30 feet of you"
+    },
+    {
+      "rank": 27,
+      "score": 0.015873015873015872,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Paralyzed\n\n- A paralyzed creature is incapacitated (see the condition) and can't move or speak.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the c"
+    },
+    {
+      "rank": 28,
+      "score": 0.015625,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Stunned\n\n- A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rol"
+    },
+    {
+      "rank": 29,
+      "score": 0.015384615384615385,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "### Lair Actions\n\nIf a legendary creature has lair actions, it can use them to harness the ambient magic in its lair. On initiative count 20 (losing all initiative ties), it can use one of its lair ac"
+    },
+    {
+      "rank": 30,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "Fear",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Fear.md",
+      "preview": "### Fear\n\n*3rd-level illusion*\n\n**Casting Time:** 1 action\n\n**Range:** Self (30-foot cone)\n\n**Components:** V, S, M (a white feather or the heart of a hen)\n\n**Duration:** Concentration, up to 1 minute"
+    },
+    {
+      "rank": 31,
+      "score": 0.014925373134328358,
+      "category": "Spells",
+      "topic": "Confusion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Confusion.md",
+      "preview": "### Confusion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 90 feet\n\n**Components:** V, S, M (three nut shells)\n\n**Duration:** Concentration, up to 1 minute\n\nThis spell assaults and"
+    },
+    {
+      "rank": 32,
+      "score": 0.014705882352941176,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Incapacitated\n\n- An incapacitated creature can't take actions or reactions."
+    },
+    {
+      "rank": 33,
+      "score": 0.014492753623188406,
+      "category": "Spells",
+      "topic": "Hallow",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Hallow.md",
+      "preview": "### Hallow\n\n*5th-level evocation*\n\n**Casting Time:** 24 hours\n\n**Range:** Touch\n\n**Components:** V, S, M (herbs, oils, and incense worth at least 1,000 gp, which the spell consumes)\n\n**Duration:** Unt"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 11205,
+    "rag_completion": 12754,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 5,
+    "total": 23959
+  },
+  "costs": {
+    "rag": 0.00365581,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00365581
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 18.87,
+    "total_s": 42.87
+  },
+  "answer": " Based on the context provided, a frightened creature can still take actions including moving, but it has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight, and it can't willingly move closer to the source of its fear. The Dash action allows a creature to move an additional distance and gain extra benefits, but it doesn't specify whether a creature can use this action while frightened. Therefore, the rules as written do not explicitly state whether a frightened creature can or cannot take the Dash action. A Dungeon Master may rule on this based on the narrative and the specific situation in their game.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant and mostly correct, but it introduces unnecessary ambiguity by suggesting that the rules do not explicitly state whether a frightened creature can take the Dash action, which is incorrect. The reference answer clearly states that the frightened condition does not restrict actions, including Dash."
+    },
+    "context_relevancy": {
+      "error": "could not convert string to float: '4.0.'"
+    }
+  }
+}

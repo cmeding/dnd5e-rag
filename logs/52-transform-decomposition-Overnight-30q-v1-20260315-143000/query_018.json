@@ -1,0 +1,322 @@
+{
+  "query_id": "query_018",
+  "session_id": "52-transform-decomposition-Overnight-30q-v1-20260315-143000",
+  "timestamp": "2026-03-15T14:40:17.025650",
+  "query": {
+    "original": "Does Sneak Attack require the rogue to be hidden?",
+    "used": "Does Sneak Attack require the rogue to be hidden?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": null,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "Sub question: What are the requirements for a rogue to use Sneak Attack?\nResponse:  To use Sneak Attack, a rogue must be at 1st level or higher and must have advantage on the attack roll or another en"
+    },
+    {
+      "rank": 2,
+      "score": null,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "Sub question: Does being hidden affect the ability to use Sneak Attack?\nResponse:  To determine if being hidden affects the ability to use Sneak Attack, we need to consult the rules for Sneak Attack i"
+    },
+    {
+      "rank": 3,
+      "score": null,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "Sub question: What does the term 'hidden' mean in DnD 5e?\nResponse:  In DnD 5e, the term 'hidden' refers to something that is not easily perceived or discovered. It often involves making a Dexterity ("
+    },
+    {
+      "rank": 4,
+      "score": 0.016666666666666666,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "### Sneak Attack\n\nBeginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you h"
+    },
+    {
+      "rank": 5,
+      "score": 0.01639344262295082,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "#### Supreme Sneak\n\nStarting at 9th level, you have advantage on a Dexterity (Stealth) check if you move no more than half your speed on the same turn."
+    },
+    {
+      "rank": 6,
+      "score": 0.016129032258064516,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "#### Use Magic Device\n\nBy 13th level, you have learned enough about the workings of magic that you can improvise the use of items even when they are not intended for you. You ignore all class, race, a"
+    },
+    {
+      "rank": 7,
+      "score": 0.015873015873015872,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "#### Proficiencies\n\n**Armor:** Light armor\n\n**Weapons:** Simple weapons, hand crossbows, longswords, rapiers, shortswords\n\n**Tools:** Thieves' tools\n\n**Saving Throws:** Dexterity, Intelligence\n\n**Skil"
+    },
+    {
+      "rank": 8,
+      "score": 0.015625,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "#### Thief's Reflexes\n\nWhen you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first"
+    },
+    {
+      "rank": 9,
+      "score": 0.015384615384615385,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "### Elusive\n\nBeginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't incapacitated."
+    },
+    {
+      "rank": 10,
+      "score": 0.015151515151515152,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "#### Equipment\n\nYou start with the following equipment, in addition to the equipment granted by your background:\n\n- (*a*) a rapier or (*b*) a shortsword\n- (*a*) a shortbow and quiver of 20 arrows or ("
+    },
+    {
+      "rank": 11,
+      "score": 0.014925373134328358,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "### Thieves' Cant\n\nDuring your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creat"
+    },
+    {
+      "rank": 12,
+      "score": 0.014705882352941176,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "Sneak Attack, Thieves' Cant |\n| 2nd   | +2                | 1d6          | Cunning Action                         |\n| 3rd   | +2                | 2d6          | Roguish Archetype                      "
+    },
+    {
+      "rank": 13,
+      "score": 0.014492753623188406,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "### Expertise\n\nAt 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability chec"
+    },
+    {
+      "rank": 14,
+      "score": 0.016666666666666666,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Unseen Attackers and Targets\n\nCombatants often try to escape their foes' notice by hiding, casting the invisibility spell, or lurking in darkness.\n\nWhen you attack a target that you can't see, you "
+    },
+    {
+      "rank": 15,
+      "score": 0.01639344262295082,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Hide\n\nWhen you take the Hide action, you make a Dexterity (Stealth) check in an attempt to hide, following the rules for hiding. If you succeed, you gain certain benefits, as described in the \"Unse"
+    },
+    {
+      "rank": 16,
+      "score": 0.016129032258064516,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "#### Initiative\n\nAt the beginning of every combat, you roll initiative by making a Dexterity check. Initiative determines the order of creatures' turns in combat.\n\n> **Hiding**\n>\n>The DM decides when "
+    },
+    {
+      "rank": 17,
+      "score": 0.015873015873015872,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "### Sneak Attack\n\nBeginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you h"
+    },
+    {
+      "rank": 18,
+      "score": 0.015625,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Invisible\n\n- An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be dete"
+    },
+    {
+      "rank": 19,
+      "score": 0.015384615384615385,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Surprise\n\nA band of adventurers sneaks up on a bandit camp, springing from the trees to attack them. A gelatinous cube glides down a dungeon passage, unnoticed by the adventurers until the cube eng"
+    },
+    {
+      "rank": 20,
+      "score": 0.015151515151515152,
+      "category": "Treasure",
+      "topic": "Ring of Invisibility",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Ring of Invisibility.md",
+      "preview": "### Ring of Invisibility\n\n*Ring, legendary (requires attunement)*\n\nWhile wearing this ring, you can turn invisible as an action. Anything you are wearing or carrying is invisible with you. You remain "
+    },
+    {
+      "rank": 21,
+      "score": 0.014925373134328358,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "#### Charisma Checks\n\nA Charisma check might arise when you try to influence or entertain others, when you try to make an impression or tell a convincing lie, or when you are navigating a tricky socia"
+    },
+    {
+      "rank": 22,
+      "score": 0.014705882352941176,
+      "category": "Classes",
+      "topic": "Warlock",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Warlock.md",
+      "preview": "#### One with Shadows\n\n*Prerequisite: 5th level*\n\nWhen you are in an area of dim light or darkness, you can use your action to become invisible until you move or take an action or a reaction."
+    },
+    {
+      "rank": 23,
+      "score": 0.014492753623188406,
+      "category": "Races",
+      "topic": "Halfling",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Races\\Halfling.md",
+      "preview": "## Lightfoot\n\nAs a lightfoot halfling, you can easily hide from notice, even using other people as cover. You're inclined to be affable and get along well with others.\n\nLightfoots are more prone to wa"
+    },
+    {
+      "rank": 24,
+      "score": 0.016666666666666666,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "#### Initiative\n\nAt the beginning of every combat, you roll initiative by making a Dexterity check. Initiative determines the order of creatures' turns in combat.\n\n> **Hiding**\n>\n>The DM decides when "
+    },
+    {
+      "rank": 25,
+      "score": 0.01639344262295082,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Invisible\n\n- An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be dete"
+    },
+    {
+      "rank": 26,
+      "score": 0.016129032258064516,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Hide\n\nWhen you take the Hide action, you make a Dexterity (Stealth) check in an attempt to hide, following the rules for hiding. If you succeed, you gain certain benefits, as described in the \"Unse"
+    },
+    {
+      "rank": 27,
+      "score": 0.015873015873015872,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Unseen Attackers and Targets\n\nCombatants often try to escape their foes' notice by hiding, casting the invisibility spell, or lurking in darkness.\n\nWhen you attack a target that you can't see, you "
+    },
+    {
+      "rank": 28,
+      "score": 0.015625,
+      "category": "Spells",
+      "topic": "Confusion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Confusion.md",
+      "preview": "### Confusion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 90 feet\n\n**Components:** V, S, M (three nut shells)\n\n**Duration:** Concentration, up to 1 minute\n\nThis spell assaults and"
+    },
+    {
+      "rank": 29,
+      "score": 0.015384615384615385,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Surprise\n\nA band of adventurers sneaks up on a bandit camp, springing from the trees to attack them. A gelatinous cube glides down a dungeon passage, unnoticed by the adventurers until the cube eng"
+    },
+    {
+      "rank": 30,
+      "score": 0.015151515151515152,
+      "category": "Gamemastering",
+      "topic": "Traps",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Traps.md",
+      "preview": "### Detecting and Disabling a Trap\n\nUsually, some element of a trap is visible to careful inspection. Characters might notice an uneven flagstone that conceals a pressure plate, spot the gleam of ligh"
+    },
+    {
+      "rank": 31,
+      "score": 0.014925373134328358,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "## Passive Checks\n\nA passive check is a special kind of ability check that doesn't involve any die rolls. Such a check can represent the average result for a task done repeatedly, such as searching fo"
+    },
+    {
+      "rank": 32,
+      "score": 0.014705882352941176,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "### Thieves' Cant\n\nDuring your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creat"
+    },
+    {
+      "rank": 33,
+      "score": 0.014492753623188406,
+      "category": "Classes",
+      "topic": "Druid",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Druid.md",
+      "preview": "### Druidic\n\nYou know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. O"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 10234,
+    "rag_completion": 11629,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 5,
+    "total": 21863
+  },
+  "costs": {
+    "rag": 0.00333525,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00333525
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 15.35,
+    "total_s": 45.78
+  },
+  "answer": " I cannot find this in the provided rules. The context only mentions that there must be no enemies of the target that are incapacitated and that the rogue must not have disadvantage on the attack roll for the rogue to use Sneak Attack. It does not mention anything about the rogue being hidden.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains inaccuracies regarding the conditions for Sneak Attack. It correctly states that being hidden is not required, but it misrepresents the conditions by implying that there must be no enemies incapacitated, which is not a requirement for Sneak Attack."
+    },
+    "context_relevancy": {
+      "score": null,
+      "passing": null,
+      "feedback": "Based on the provided context and the evaluation criteria, the existing evaluation can be refined as follows:\n\n1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context does match the subject matter of the user's query regarding Sneak Attack and whether being hidden affects its use. The context provides information about the requirements for using Sneak Attack, including the conditions under which a rogue can deal extra damage. It also discusses the concept of being hidden, which is relevant to the query. However, it does not explicitly state that being hidden is a requirement for Sneak Attack, which is a key aspect of the user's question.\n\n   **Score: 1.5/2** - The context is relevant but lacks a direct answer to whether being hidden is necessary for Sneak Attack.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context provides a good amount of information about Sneak Attack and the conditions under which it can be used. However, it does not fully address the user's query about whether being hidden is a requirement. The response indicates that the rules for Sneak Attack need to be consulted, suggesting that the context alone does not provide a complete answer. Therefore, while it offers useful information, it cannot be used exclusively to answer the query.\n\n   **Score: 1/2** - The context provides useful information but does not fully answer the question about the necessity of being hidden for Sneak Attack.\n\n### Final Result\nGiven the additional context provided, which clarifies the mechanics of Sneak Attack and the conditions under which it can be used, the evaluation score can be adjusted. The context does not explicitly state that being hidden is a requirement for Sneak Attack, but it does clarify that advantage on the attack roll or having an enemy within 5 feet of the target is sufficient. Therefore, the final score should reflect that the context is informative but still lacks a direct answer to the specific query.\n\n**Final Result: 2.5** - The context is relevant and informative but does not fully answer the question about the necessity of being hidden for Sneak Attack."
+    }
+  }
+}

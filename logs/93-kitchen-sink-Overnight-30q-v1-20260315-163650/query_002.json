@@ -1,0 +1,66 @@
+{
+  "query_id": "query_002",
+  "session_id": "93-kitchen-sink-Overnight-30q-v1-20260315-163650",
+  "timestamp": "2026-03-15T16:37:27.813906",
+  "query": {
+    "original": "What is the Armor Class of an Aboleth?",
+    "used": "What is the Armor Class of an Aboleth in Dungeons & Dragons 5th Edition?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, the Armor Class (AC) of an Aboleth is 17, which is derived from its natural armor. The Aboleth is classified as a Large aberration and has a total of 135 hit points "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1556,
+    "rag_completion": 7371,
+    "meta_prompt": 5019,
+    "meta_completion": 358,
+    "total_calls": 4,
+    "total": 14304
+  },
+  "costs": {
+    "rag": 0.0015716500000000002,
+    "meta": 0.00096765,
+    "embed": 0.0,
+    "total": 0.0025393000000000004
+  },
+  "timings": {
+    "rag_s": 10.14,
+    "query_s": 11.5,
+    "total_s": 19.66
+  },
+  "answer": " The Armor Class (AC) of an Aboleth in Dungeons & Dragons 5th Edition is 17.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly answers the user query with the exact information provided in the reference answer."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the user's query by providing the Armor Class (AC) of an Aboleth in Dungeons & Dragons 5th Edition, stating that it is 17. Additionally, the context includes relevant information about the Aboleth's classification, hit points, and other statistics, which, while not directly asked for, provide a fuller picture of the creature. This context is relevant to understanding the Aboleth's capabilities in the game.\n\n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the retrieved context can be used to provide a complete answer to the user's query regarding the Armor Class of an Aboleth. The specific information about the AC being 17 is clearly stated, and while additional details about the creature's stats and abilities are included, they are not necessary to answer the question. The core information needed to respond to the query is present and sufficient.\n\n   **Score: 2 points**\n\n**Final Feedback:** The retrieved context is highly relevant and provides a complete answer to the user's query about the Armor Class of an Aboleth. The additional details enhance understanding but are not required to answer the question. \n\n[RESULT] 4.0"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "query_id": "query_011",
+  "session_id": "93-kitchen-sink-Overnight-30q-v1-20260315-163650",
+  "timestamp": "2026-03-15T16:40:15.040688",
+  "query": {
+    "original": "What happens to concentration spells when a caster falls unconscious?",
+    "used": "What are the effects on concentration spells when a caster becomes unconscious in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, concentration spells require the caster to maintain focus to keep their magic active. If a caster becomes unconscious, they are considered incapacitated, which means"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2343,
+    "rag_completion": 7004,
+    "meta_prompt": 3888,
+    "meta_completion": 179,
+    "total_calls": 4,
+    "total": 13414
+  },
+  "costs": {
+    "rag": 0.0015884900000000001,
+    "meta": 0.0006906,
+    "embed": 0.0,
+    "total": 0.00227909
+  },
+  "timings": {
+    "rag_s": 7.42,
+    "query_s": 8.19,
+    "total_s": 16.42
+  },
+  "answer": " The spell immediately ends when a caster becomes unconscious due to the incapacitated condition.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and fully correct, accurately stating that concentration ends when a caster becomes unconscious and mentioning the incapacitated condition, which is a key aspect of the rules."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query regarding the effects on concentration spells when a caster becomes unconscious in DnD 5e. It explains that an unconscious caster is incapacitated and cannot maintain concentration, leading to the immediate end of any concentration spells they were casting. This is precisely what the user is asking about.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the retrieved context provides a complete answer to the user's query. It clearly states the consequences of a caster becoming unconscious while concentrating on a spell, including the mechanics of concentration and the definition of incapacitation. The additional details about the effects of being unconscious, while not strictly necessary for answering the query, enhance the understanding of the situation and reinforce the main point.\n\n**Feedback Summary:**  \nThe retrieved context is highly relevant and provides a comprehensive answer to the query. It effectively explains the mechanics of concentration spells in relation to the unconscious condition, fulfilling the user's request for information.\n\n[RESULT] 4.0"
+    }
+  }
+}

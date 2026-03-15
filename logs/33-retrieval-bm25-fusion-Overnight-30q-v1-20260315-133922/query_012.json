@@ -1,0 +1,138 @@
+{
+  "query_id": "query_012",
+  "session_id": "33-retrieval-bm25-fusion-Overnight-30q-v1-20260315-133922",
+  "timestamp": "2026-03-15T13:44:11.662094",
+  "query": {
+    "original": "Can a Paladin under the Sanctuary spell use Divine Smite?",
+    "used": "Can a Paladin under the Sanctuary spell use Divine Smite?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06639344262295081,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "### Improved Divine Smite\n\nBy 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the"
+    },
+    {
+      "rank": 2,
+      "score": 0.06480614103564923,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "### Divine Smite\n\nStarting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The"
+    },
+    {
+      "rank": 3,
+      "score": 0.06239984388881913,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "| Improved Divine Smite                      | 4   | 3   | 3   | -   | -   |\n| 12th  | +4                | Ability Score Improvement                  | 4   | 3   | 3   | -   | -   |\n| 13th  | +5      "
+    },
+    {
+      "rank": 4,
+      "score": 0.060853403437358664,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "#### Oath Spells\n\nYou gain oath spells at the paladin levels listed.\n\n**Table- Oath of Devotion Spells**\n\n| Level | Paladin Spells                           |\n|-------|--------------------------------"
+    },
+    {
+      "rank": 5,
+      "score": 0.046451914098972924,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### 2nd Level\n\n- [[Aid]]\n- [[Branding Smite]]\n- [[Find Steed]]\n- [[Lesser Restoration]]\n- [[Locate Object]]\n- [[Magic Weapon]]\n- [[Protection from Poison]]\n- [[Zone of Truth]]"
+    },
+    {
+      "rank": 6,
+      "score": 0.04547511312217195,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "#### Channel Divinity\n\nYour oath allows you to channel divine energy to fuel magical effects. Each Channel Divinity option provided by your oath explains how to use it.\n\nWhen you use your Channel Divi"
+    },
+    {
+      "rank": 7,
+      "score": 0.03252247488101534,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "| -   |\n| 6th   | +3                | Aura of Protection                         | 4   | 2   | -   | -   | -   |\n| 7th   | +3                | Sacred Oath feature                        | 4   | 3   | "
+    },
+    {
+      "rank": 8,
+      "score": 0.0315136476426799,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "### Divine Sense\n\nThe presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detec"
+    },
+    {
+      "rank": 9,
+      "score": 0.03125,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "#### Equipment\n\nYou start with the following equipment, in addition to the equipment granted by your background:\n\n- (*a*) a martial weapon and a shield or (*b*) two martial weapons\n- (*a*) five javeli"
+    },
+    {
+      "rank": 10,
+      "score": 0.03055037313432836,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "#### Channel Divinity\n\nWhen you take this oath at 3rd level, you gain the following two Channel Divinity options.\n\n***Sacred Weapon***. As an action, you can imbue one weapon that you are holding with"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2928,
+    "rag_completion": 3607,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 6535
+  },
+  "costs": {
+    "rag": 0.00100741,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00100741
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 18.99,
+    "total_s": 26.72
+  },
+  "answer": " Yes, a Paladin under the Sanctuary spell can use Divine Smite. The Improved Divine Smite feature description in the context does not mention any restrictions related to spells or conditions that would prevent a Paladin from using Divine Smite.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06639344262295081
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer is incorrect and directly contradicts the reference answer, stating that a Paladin can use Divine Smite while under the Sanctuary spell, which is not true."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context provides information about the Paladin class features, specifically focusing on Divine Smite and Improved Divine Smite. However, it does not directly address the interaction between the Sanctuary spell and the use of Divine Smite. The query specifically asks whether a Paladin under the effects of the Sanctuary spell can use Divine Smite, which involves understanding how the Sanctuary spell affects actions in combat. Since the context does not mention Sanctuary or its effects on actions, it does not fully match the subject matter of the user's query. \n   - **Score: 1/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does not provide a complete answer to the query. While it explains how Divine Smite works, it does not clarify whether a Paladin can use Divine Smite while under the effects of the Sanctuary spell. To answer the query, one would need to know that Sanctuary prevents the target from being attacked, which would imply that the Paladin cannot make an attack (and thus cannot use Divine Smite) while under its effects. Therefore, the context cannot be used exclusively to provide a full answer to the user's query.\n   - **Score: 0/2**\n\n**Final Feedback:**\nThe retrieved context does not adequately address the user's query regarding the interaction between the Sanctuary spell and Divine Smite. While it provides relevant information about Divine Smite, it lacks the necessary details about the Sanctuary spell's effects on actions, which is crucial for answering the question. \n\n[RESULT] 1.0"
+    }
+  }
+}

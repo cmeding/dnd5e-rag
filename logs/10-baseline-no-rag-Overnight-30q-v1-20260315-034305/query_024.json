@@ -1,0 +1,51 @@
+{
+  "query_id": "query_024",
+  "session_id": "10-baseline-no-rag-Overnight-30q-v1-20260315-034305",
+  "timestamp": "2026-03-15T03:47:32.811282",
+  "query": {
+    "original": "Can a deafened creature cast spells with verbal components?",
+    "used": "Can a deafened creature cast spells with verbal components?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 283,
+    "rag_completion": 762,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 1045
+  },
+  "costs": {
+    "rag": 0.00017591000000000001,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00017591000000000001
+  },
+  "timings": {
+    "rag_s": null,
+    "query_s": 12.32,
+    "total_s": 14.51
+  },
+  "answer": " In most tabletop role-playing games, including Dungeons & Dragons, a creature that is completely deafened would not be able to cast spells with verbal components because they are unable to produce the necessary sounds. Verbal components are an essential part of many spells, and the rules typically require that the caster clearly articulate the words of the spell. However, some games or specific situations may allow for exceptions or accommodations, so it's always a good idea to check with your game master or consult the rules of your specific game system for clarification. Additionally, some spells may have non-verbal components or alternative ways to fulfill the verbal component, such as using a specific tool or making a specific gesture, which could potentially be used by a deafened creature.",
+  "refused": false,
+  "confidence": {
+    "passed": null,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains significant inaccuracies regarding the rules of Dungeons & Dragons. It incorrectly states that a deafened creature cannot cast spells with verbal components, which contradicts the official rules. While it does mention the possibility of exceptions, it fails to provide the correct interpretation of the rules, leading to a lower score."
+    },
+    "context_relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    }
+  }
+}

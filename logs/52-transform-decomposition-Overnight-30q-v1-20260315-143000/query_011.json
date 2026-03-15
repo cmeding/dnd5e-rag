@@ -1,0 +1,410 @@
+{
+  "query_id": "query_011",
+  "session_id": "52-transform-decomposition-Overnight-30q-v1-20260315-143000",
+  "timestamp": "2026-03-15T14:35:05.662930",
+  "query": {
+    "original": "What happens to concentration spells when a caster falls unconscious?",
+    "used": "What happens to concentration spells when a caster falls unconscious?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": null,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "Sub question: What are concentration spells in DnD 5e?\nResponse:  In DnD 5e, concentration spells are spells that require the caster to maintain focus in order to keep the magic active. These spells h"
+    },
+    {
+      "rank": 2,
+      "score": null,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "Sub question: What happens to concentration when a caster takes damage?\nResponse:  The context does not provide information on what happens to concentration when a caster takes damage. The provided ru"
+    },
+    {
+      "rank": 3,
+      "score": null,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "Sub question: What are the effects of a character falling unconscious in DnD 5e?\nResponse:  An unconscious character is incapacitated, can't move or speak, and is unaware of their surroundings. They d"
+    },
+    {
+      "rank": 4,
+      "score": null,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "Sub question: Are there any specific rules regarding concentration and unconsciousness?\nResponse:  The context does not provide any rules specifically regarding concentration and unconsciousness. Howe"
+    },
+    {
+      "rank": 5,
+      "score": 0.016666666666666666,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "### Concentration\n\nSome spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends.\n\nIf a spell must be maintained with concentratio"
+    },
+    {
+      "rank": 6,
+      "score": 0.01639344262295082,
+      "category": "Spells",
+      "topic": "Confusion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Confusion.md",
+      "preview": "### Confusion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 90 feet\n\n**Components:** V, S, M (three nut shells)\n\n**Duration:** Concentration, up to 1 minute\n\nThis spell assaults and"
+    },
+    {
+      "rank": 7,
+      "score": 0.016129032258064516,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### Cantrips (0 Level)\n\n- [[Chill Touch]]\n- [[Eldritch Blast]]\n- [[Mage Hand]]\n- [[Minor Illusion]]\n- [[Poison Spray]]\n- [[Prestidigitation]]\n- [[True Strike]]"
+    },
+    {
+      "rank": 8,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "Dominate Person",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Dominate Person.md",
+      "preview": "### Dominate Person\n\n*5th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou attempt to beguile a humanoid that "
+    },
+    {
+      "rank": 9,
+      "score": 0.015625,
+      "category": "Spells",
+      "topic": "Guidance",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Guidance.md",
+      "preview": "### Guidance\n\n*Divination cantrip*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou touch one willing creature. Once before the spe"
+    },
+    {
+      "rank": 10,
+      "score": 0.015384615384615385,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### Cantrips (0 Level)\n\n- [[Acid Splash]]\n- [[Chill Touch]]\n- [[Dancing Lights]]\n- [[Fire Bolt]]\n- [[Light]]\n- [[Mage Hand]]\n- [[Mending]]\n- [[Message]]\n- [[Minor Illusion]]\n- [[Poison Spray]]\n- [[Pr"
+    },
+    {
+      "rank": 11,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### 3rd Level\n\n- [[Blink]]\n- [[Clairvoyance]]\n- [[Counterspell]]\n- [[Daylight]]\n- [[Dispel Magic]]\n- [[Fear]]\n- [[Fireball]]\n- [[Fly]]\n- [[Gaseous Form]]\n- [[Haste]]\n- [[Hypnotic Pattern]]\n- [[Lightn"
+    },
+    {
+      "rank": 12,
+      "score": 0.014925373134328358,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### 6th Level\n\n- [[Circle of Death]]\n- [[Conjure Fey]]\n- [[Create Undead]]\n- [[Eyebite]]\n- [[Flesh to Stone]]\n- [[Mass Suggestion]]\n- [[True Seeing]]"
+    },
+    {
+      "rank": 13,
+      "score": 0.014705882352941176,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### Cantrips (0 Level)\n\n- [[Acid Splash]]\n- [[Chill Touch]]\n- [[Dancing Lights]]\n- [[Fire Bolt]]\n- [[Light]]\n- [[Mage Hand]]\n- [[Mending]]\n- [[Message]]\n- [[Minor Illusion]]\n- [[Poison Spray]]\n- [[Pr"
+    },
+    {
+      "rank": 14,
+      "score": 0.014492753623188406,
+      "category": "Spells",
+      "topic": "## Spell Lists",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists.md",
+      "preview": "#### Cantrips (0 Level)\n\n- Chill Touch\n- Eldritch Blast\n- Mage Hand\n- Minor Illusion\n- Poison Spray\n- Prestidigitation\n- True Strike"
+    },
+    {
+      "rank": 15,
+      "score": 0.016666666666666666,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "### Concentration\n\nSome spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends.\n\nIf a spell must be maintained with concentratio"
+    },
+    {
+      "rank": 16,
+      "score": 0.01639344262295082,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "### Longer Casting Times\n\nCertain spells (including spells cast as rituals) require more time to cast: minutes or even hours. When you cast a spell with a casting time longer than a single action or r"
+    },
+    {
+      "rank": 17,
+      "score": 0.016129032258064516,
+      "category": "Spells",
+      "topic": "Contingency",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Contingency.md",
+      "preview": "### Contingency\n\n*6th-level evocation*\n\n**Casting Time:** 10 minutes\n\n**Range:** Self\n\n**Components:** V, S, M (a statuette of yourself carved from ivory and decorated with gems worth at least 1,500 g"
+    },
+    {
+      "rank": 18,
+      "score": 0.015873015873015872,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Ready\n\nSometimes you want to get the jump on a foe or wait for a particular circumstance before you act. To do so, you can take the Ready action on your turn, which lets you act using your reaction"
+    },
+    {
+      "rank": 19,
+      "score": 0.015625,
+      "category": "Spells",
+      "topic": "Glyph of Warding",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Glyph of Warding.md",
+      "preview": "When you inscribe the glyph, choose *explosive runes* or a *spell glyph*.\n\n***Explosive Runes***. When triggered, the glyph erupts with magical energy in a 20-foot radius sphere centered on the glyph."
+    },
+    {
+      "rank": 20,
+      "score": 0.015384615384615385,
+      "category": "Spells",
+      "topic": "Shatter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Shatter.md",
+      "preview": "### Shatter\n\n*2nd-level evocation*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S, M (a chip of mica)\n\n**Duration:** Instantaneous\n\nA sudden loud ringing noise, painfully intens"
+    },
+    {
+      "rank": 21,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "Blur",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Blur.md",
+      "preview": "### Blur\n\n*2nd-level illusion*\n\n**Casting Time:** 1 action\n\n**Range:** Self\n\n**Components:** V\n\n**Duration:** Concentration, up to 1 minute\n\nYour body becomes blurred, shifting and wavering to all who"
+    },
+    {
+      "rank": 22,
+      "score": 0.014925373134328358,
+      "category": "Spells",
+      "topic": "Glyph of Warding",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Glyph of Warding.md",
+      "preview": "### Glyph of Warding\n\n*3rd-level abjuration*\n\n**Casting Time:** 1 hour\n\n**Range:** Touch\n\n**Components:** V, S, M (incense and powdered diamond worth at least 200 gp, which the spell consumes)\n\n**Dura"
+    },
+    {
+      "rank": 23,
+      "score": 0.014705882352941176,
+      "category": "Treasure",
+      "topic": "# Magic Items",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\# Magic Items.md",
+      "preview": "### Spells\n\nSome magic items allow the user to cast a spell from the item. The spell is cast at the lowest possible spell level, doesn\u2019t expend any of the user\u2019s spell slots, and requires no component"
+    },
+    {
+      "rank": 24,
+      "score": 0.014492753623188406,
+      "category": "Spells",
+      "topic": "Death Ward",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Death Ward.md",
+      "preview": "### Death Ward\n\n*4th-level abjuration*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S\n\n**Duration:** 8 hours\n\nYou touch a creature and grant it a measure of protection from death."
+    },
+    {
+      "rank": 25,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Unconscious\n\n- An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings\n- The creature drops whatever it's holding and falls prone.\n- Th"
+    },
+    {
+      "rank": 26,
+      "score": 0.01639344262295082,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Monsters and Death\n\nMost GMs have a monster die the instant it drops to 0 hit points, rather than having it fall unconscious and make death saving throws.\n\nMighty villains and special nonplayer ch"
+    },
+    {
+      "rank": 27,
+      "score": 0.016129032258064516,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Falling Unconscious\n\nIf damage reduces you to 0 hit points and fails to kill you, you fall unconscious (see appendix ##). This unconsciousness ends if you regain any hit points."
+    },
+    {
+      "rank": 28,
+      "score": 0.015873015873015872,
+      "category": "Gamemastering",
+      "topic": "Madness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Madness.md",
+      "preview": "## Madness Effects\n\nMadness can be short-term, long-term, or indefinite. Most relatively mundane effects impose short-term madness, which lasts for just a few minutes. More horrific effects or cumulat"
+    },
+    {
+      "rank": 29,
+      "score": 0.015625,
+      "category": "Gamemastering",
+      "topic": "Madness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Madness.md",
+      "preview": "**Table- Madness Long-Term Effects**\n\n| d100   | Effect (lasts 1d10 \u00d7 10 hours)                                                                                                                         "
+    },
+    {
+      "rank": 30,
+      "score": 0.015384615384615385,
+      "category": "Spells",
+      "topic": "Symbol",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Symbol.md",
+      "preview": "***Sleep***. Each target must make a Wisdom saving throw and falls unconscious for 10 minutes on a failed save. A creature awakens if it takes damage or if someone uses an action to shake or slap it a"
+    },
+    {
+      "rank": 31,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "Symbol",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Symbol.md",
+      "preview": "When you inscribe the glyph, choose one of the options below for its effect. Once triggered, the glyph glows, filling a 60-foot radius sphere with dim light for 10 minutes, after which time the spell "
+    },
+    {
+      "rank": 32,
+      "score": 0.014925373134328358,
+      "category": "Spells",
+      "topic": "Confusion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Confusion.md",
+      "preview": "### Confusion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 90 feet\n\n**Components:** V, S, M (three nut shells)\n\n**Duration:** Concentration, up to 1 minute\n\nThis spell assaults and"
+    },
+    {
+      "rank": 33,
+      "score": 0.014705882352941176,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Dropping to 0 Hit Points\n\nWhen you drop to 0 hit points, you either die outright or fall unconscious, as explained in the following sections."
+    },
+    {
+      "rank": 34,
+      "score": 0.014492753623188406,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Being Prone\n\nCombatants often find themselves lying on the ground, either because they are knocked down or because they throw themselves down. In the game, they are prone, a condition described in "
+    },
+    {
+      "rank": 35,
+      "score": 0.016666666666666666,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "### Concentration\n\nSome spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends.\n\nIf a spell must be maintained with concentratio"
+    },
+    {
+      "rank": 36,
+      "score": 0.01639344262295082,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Unconscious\n\n- An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings\n- The creature drops whatever it's holding and falls prone.\n- Th"
+    },
+    {
+      "rank": 37,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Madness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Madness.md",
+      "preview": "The confusion effect lasts for 1 minute.            |\n| 91-95  | The character loses the ability to speak.                                                                                              "
+    },
+    {
+      "rank": 38,
+      "score": 0.015873015873015872,
+      "category": "Gamemastering",
+      "topic": "Madness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Madness.md",
+      "preview": "**Table- Madness Long-Term Effects**\n\n| d100   | Effect (lasts 1d10 \u00d7 10 hours)                                                                                                                         "
+    },
+    {
+      "rank": 39,
+      "score": 0.015625,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Falling Unconscious\n\nIf damage reduces you to 0 hit points and fails to kill you, you fall unconscious (see appendix ##). This unconsciousness ends if you regain any hit points."
+    },
+    {
+      "rank": 40,
+      "score": 0.015384615384615385,
+      "category": "Classes",
+      "topic": "Monk",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Monk.md",
+      "preview": "### Stillness of Mind\n\nStarting at 7th level, you can use your action to end one effect on yourself that is causing you to be charmed or frightened."
+    },
+    {
+      "rank": 41,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "Detect Thoughts",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Detect Thoughts.md",
+      "preview": "### Detect Thoughts\n\n*2nd-level divination*\n\n**Casting Time:** 1 action\n\n**Range:** Self\n\n**Components:** V, S, M (a copper piece)\n\n**Duration:** Concentration, up to 1 minute\n\nFor the duration, you c"
+    },
+    {
+      "rank": 42,
+      "score": 0.014925373134328358,
+      "category": "Treasure",
+      "topic": "Tome of Clear Thought",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Tome of Clear Thought.md",
+      "preview": "### Tome of Clear Thought\n\n*Wondrous item, very rare*\n\nThis book contains memory and logic exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer study"
+    },
+    {
+      "rank": 43,
+      "score": 0.014705882352941176,
+      "category": "Spells",
+      "topic": "Eyebite",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Eyebite.md",
+      "preview": "### Eyebite\n\n*6th-level necromancy*\n\n**Casting Time:** 1 action\n\n**Range:** Self\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nFor the spell's duration, your eyes become an inky "
+    },
+    {
+      "rank": 44,
+      "score": 0.014492753623188406,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Exhaustion\n\nSome special abilities and environmental hazards, such as starvation and the long-term effects of freezing or scorching temperatures, can lead to a special condition called exhaustion. "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 16699,
+    "rag_completion": 18871,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 6,
+    "total": 35570
+  },
+  "costs": {
+    "rag": 0.005422379999999999,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.005422379999999999
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 18.44,
+    "total_s": 52.33
+  },
+  "answer": " The context does not provide a clear answer on what happens to concentration spells when a caster falls unconscious. However, we know that losing consciousness can break concentration on a spell. Therefore, if a caster falls unconscious while maintaining concentration on a spell, that spell would end. However, the context does not specify whether the caster can resume concentration on the spell once they regain consciousness or not.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query and correctly states that concentration ends when a caster falls unconscious. However, it introduces unnecessary ambiguity about resuming concentration, which is not part of the rules. This detracts from the clarity and correctness of the answer."
+    },
+    "context_relevancy": {
+      "score": 0.5,
+      "passing": null,
+      "feedback": "Based on the provided context and the evaluation criteria, the existing evaluation score of 2.0 is appropriate.\n\n1. **Does the retrieved context match the subject matter of the user's query?**\n   - The context does mention that being incapacitated (which includes falling unconscious) breaks concentration, but it does not explicitly state what happens to the concentration spell itself when the caster falls unconscious. Therefore, while it provides some relevant information, it does not fully address the user's query.\n\n   **Score: 1 point** (for partial relevance)\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does not provide a complete answer regarding the implications for concentration spells when a caster falls unconscious. It indicates that concentration is lost, but does not clarify the immediate effects on the spell or the process of regaining concentration. Thus, it cannot be used exclusively to provide a full answer.\n\n   **Score: 1 point** (for partial information)\n\n### Final Result\n[RESULT] 2.0\n\nIf the new context does not provide additional information that clarifies what happens to concentration spells when a caster falls unconscious, the score remains 2.0. If it does provide that information, the score could be adjusted accordingly. However, based on the current evaluation, the score of 2.0 is justified."
+    }
+  }
+}

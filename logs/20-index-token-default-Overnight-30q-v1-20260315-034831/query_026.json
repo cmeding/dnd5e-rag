@@ -1,0 +1,138 @@
+{
+  "query_id": "query_026",
+  "session_id": "20-index-token-default-Overnight-30q-v1-20260315-034831",
+  "timestamp": "2026-03-15T03:54:47.350390",
+  "query": {
+    "original": "Can an incapacitated creature take reactions?",
+    "used": "Can an incapacitated creature take reactions?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\n- The creature can't willingly move closer to the source of its fear.\n\n#"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "suspended, not neutralized.\n\n## Poisoned\n\n- A poisoned creature has disadvantage on attack rolls and ability checks.\n\n## Prone\n\n- A prone creature's only movement option is to crawl, unless it stands "
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Poisons",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Poisons.md",
+      "preview": "must succeed on a DC 13 Constitution saving throw or become poisoned for 24 hours. The poisoned creature is unconscious. The creature wakes up if it takes damage.\n\n***Pale Tincture (Ingested)***. A cr"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Gamemastering",
+      "topic": "Poisons",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Poisons.md",
+      "preview": "the start of each of its turns. On each successive failed save, the character takes 3 (1d6) poison damage. After three successful saves, the poison ends.\n\n***Crawler Mucus (Contact)***. This poison mu"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Treasure",
+      "topic": "Mirror of Life Trapping",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Mirror of Life Trapping.md",
+      "preview": "creature can then communicate normally.\n\nIn a similar way, you can use an action to speak a second command word and free one creature trapped in the mirror. The freed creature appears, along with its "
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Treasure",
+      "topic": "Mace of Terror",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Mace of Terror.md",
+      "preview": "### Mace of Terror\n\n*Weapon (mace), rare (requires attunement)*\n\nThis magic weapon has 3 charges. While holding it, you can use an action and expend 1 charge to release a wave of terror. Each creature"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "Contagion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Contagion.md",
+      "preview": "### Contagion\n\n*5th-level necromancy*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n**Component:** V, S\n\n**Duration:** 7 days\n\nYour touch inflicts disease. Make a melee spell attack against a creature"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Gamemastering",
+      "topic": "Madness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Madness.md",
+      "preview": "|\n|--------|------------------------------------------------------------------------------------------------------------------------------|\n| 01-20  | The character retreats into his or her mind and b"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "# Conditions\n\nConditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. Most conditions, such as blind"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "and other abilities let you take an additional action on your turn called a bonus action. The Cunning Action feature, for example, allows a rogue to take a bonus action. You can take a bonus action on"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 5810,
+    "rag_completion": 6247,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 12057
+  },
+  "costs": {
+    "rag": 0.0018260300000000002,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0018260300000000002
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 6.83,
+    "total_s": 12.8
+  },
+  "answer": " An incapacitated creature's ability to take reactions isn't explicitly stated in the provided rules. Therefore, it's best to repeat the original answer: The rules do not mention whether an incapacitated creature can take reactions.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains inaccuracies. It suggests that the rules do not mention the ability of an incapacitated creature to take reactions, which is incorrect. The reference answer clearly states that an incapacitated creature cannot take actions or reactions."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context includes a definition of the incapacitated condition, which states that \"an incapacitated creature can't take actions or reactions.\" This directly addresses the user's query about whether an incapacitated creature can take reactions.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a clear and direct answer to the query. The definition of the incapacitated condition explicitly states that such a creature cannot take reactions, which fully answers the question without needing additional information.\n\n**Feedback Summary:**\nThe retrieved context is highly relevant and directly answers the user's query about the capabilities of an incapacitated creature. The information is clear and sufficient to provide a complete answer.\n\n[RESULT] 4.0"
+    }
+  }
+}

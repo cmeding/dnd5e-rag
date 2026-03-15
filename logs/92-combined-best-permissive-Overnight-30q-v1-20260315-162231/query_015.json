@@ -1,0 +1,138 @@
+{
+  "query_id": "query_015",
+  "session_id": "92-combined-best-permissive-Overnight-30q-v1-20260315-162231",
+  "timestamp": "2026-03-15T16:29:05.517611",
+  "query": {
+    "original": "What conditions cause the Grappled condition to end?",
+    "used": "What actions or effects can end the Grappled condition in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06666666666666667,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Grappled\n\n- A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- The condition ends if the grappler is incapacitated (see the condition).\n- The condition also "
+    },
+    {
+      "rank": 2,
+      "score": 0.06557377049180328,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Grappling\n\nWhen you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack act"
+    },
+    {
+      "rank": 3,
+      "score": 0.05978389625372104,
+      "category": "Characterizations",
+      "topic": "Feats",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Feats.md",
+      "preview": "## Grappler\n\n*Prerequisite: Strength 13 or higher*\n\nYou've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:\n\n- You have advantage on attack"
+    },
+    {
+      "rank": 4,
+      "score": 0.03200204813108039,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Paralyzed\n\n- A paralyzed creature is incapacitated (see the condition) and can't move or speak.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the c"
+    },
+    {
+      "rank": 5,
+      "score": 0.03200204813108039,
+      "category": "Monsters",
+      "topic": "Chuul",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Chuul.md",
+      "preview": "###### Actions\n\n***Multiattack***. The chuul makes two pincer attacks. If the chuul is grappling a creature, the chuul can also use its tentacles once.\n\n***Pincer***. *Melee Weapon Attack:* +6 to hit,"
+    },
+    {
+      "rank": 6,
+      "score": 0.03149801587301587,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Unconscious\n\n- An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings\n- The creature drops whatever it's holding and falls prone.\n- Th"
+    },
+    {
+      "rank": 7,
+      "score": 0.03125,
+      "category": "Monsters",
+      "topic": "Giant Frog (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Giant Frog (Creature).md",
+      "preview": "###### Actions\n\n***Bite***. *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6+1) piercing damage, and the target is grappled (escape DC 11). Until this grapple ends, the target "
+    },
+    {
+      "rank": 8,
+      "score": 0.030536130536130537,
+      "category": "Monsters",
+      "topic": "Giant Toad (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Giant Toad (Creature).md",
+      "preview": "###### Actions\n\n***Bite***. *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (1d10+2) piercing damage plus 5 (1d10) poison damage, and the target is grappled (escape DC 13). Until t"
+    },
+    {
+      "rank": 9,
+      "score": 0.029877369007803793,
+      "category": "Spells",
+      "topic": "Confusion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Confusion.md",
+      "preview": "### Confusion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 90 feet\n\n**Components:** V, S, M (three nut shells)\n\n**Duration:** Concentration, up to 1 minute\n\nThis spell assaults and"
+    },
+    {
+      "rank": 10,
+      "score": 0.029857397504456328,
+      "category": "Monsters",
+      "topic": "Remorhaz",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Remorhaz.md",
+      "preview": "###### Actions\n\n***Bite***. *Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:* 40 (6d10+7) piercing damage plus 10 (3d6) fire damage. If the target is a creature, it is grappled (esca"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3709,
+    "rag_completion": 4567,
+    "meta_prompt": 54,
+    "meta_completion": 18,
+    "total_calls": 3,
+    "total": 8348
+  },
+  "costs": {
+    "rag": 0.00127572,
+    "meta": 1.89e-05,
+    "embed": 0.0,
+    "total": 0.00129462
+  },
+  "timings": {
+    "rag_s": 16.16,
+    "query_s": 22.53,
+    "total_s": 30.09
+  },
+  "answer": " The Grappled condition in DnD 5e can be ended by the following actions or effects:\n\n1. The grappler is incapacitated.\n2. An effect removes the grappled creature from the reach of the grappler or grappling effect. For example, a creature being hurled away by the Thunderwave spell.\n3. A swallowed creature escapes when the remorhaz takes 30 damage or more on a single turn or when the remorhaz dies.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06666666666666667
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant and mostly correct, but it includes an additional specific example about the remorhaz that is not part of the general rules for ending the grappled condition. This could lead to confusion, as it implies a specific scenario rather than a general rule."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the Grappled condition in DnD 5e. It provides specific details about how the condition can end, including the incapacitation of the grappler and effects that remove the grappled creature from the grappler's reach. This is precisely what the user is asking about.\n\n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a complete answer to the query regarding the actions or effects that can end the Grappled condition. It mentions that the condition ends if the grappler is incapacitated and also if an effect removes the grappled creature from the grappler's reach. This information is sufficient to fully answer the user's question without needing additional context.\n\n   **Score: 2 points**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

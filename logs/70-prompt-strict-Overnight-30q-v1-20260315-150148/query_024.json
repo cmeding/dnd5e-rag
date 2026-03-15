@@ -1,0 +1,138 @@
+{
+  "query_id": "query_024",
+  "session_id": "70-prompt-strict-Overnight-30q-v1-20260315-150148",
+  "timestamp": "2026-03-15T15:06:34.962950",
+  "query": {
+    "original": "Can a deafened creature cast spells with verbal components?",
+    "used": "Can a deafened creature cast spells with verbal components?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "### Verbal (V)\n\nMost spells require the chanting of mystic words. The words themselves aren't the source of the spell's power; rather, the particular combination of sounds, with specific pitch and res"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Spells",
+      "topic": "Blindness-Deafness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Blindness-Deafness.md",
+      "preview": "### Blindness/Deafness\n\n*2nd-level necromancy*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V\n\n**Duration:** 1 minute\n\nYou can blind or deafen a foe. Choose one creature that you c"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Deafened\n\n- A deafened creature can't hear and automatically fails any ability check that requires hearing."
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "Tongues",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Tongues.md",
+      "preview": "### Tongues\n\n*3rd-level divination*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, M (a small clay model of a ziggurat)\n\n**Duration:** 1 hour\n\nThis spell grants the creature you tou"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Spells",
+      "topic": "Speak with Animals",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Speak with Animals.md",
+      "preview": "### Speak with Animals\n\n*1st-level divination (ritual)*\n\n**Casting Time:** 1 action\n\n**Range:** Self\n\n**Components:** V, S\n\n**Duration:** 10 minutes\n\nYou gain the ability to comprehend and verbally co"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Classes",
+      "topic": "Druid",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Druid.md",
+      "preview": "### Beast Spells\n\nBeginning at 18th level, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in "
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "### Innate Spellcasting\n\nA monster with the innate ability to cast spells has the Innate Spellcasting special trait. Unless noted otherwise, an innate spell of 1st level or higher is always cast at it"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### 2nd Level\n\n- [[Animal Messenger]]\n- [[Blindness-Deafness]]\n- [[Calm Emotions]]\n- [[Detect Thoughts]]\n- [[Enhance Ability]]\n- [[Enthrall]]\n- [[Heat Metal]]\n- [[Hold Person]]\n- [[Invisibility]]\n- ["
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Spells",
+      "topic": "Confusion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Confusion.md",
+      "preview": "### Confusion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 90 feet\n\n**Components:** V, S, M (three nut shells)\n\n**Duration:** Concentration, up to 1 minute\n\nThis spell assaults and"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Spells",
+      "topic": "Divine Word",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Divine Word.md",
+      "preview": "### Divine Word\n\n*7th-level evocation*\n\n**Casting Time:** 1 bonus action\n\n**Range:** 30 feet\n\n**Components:** V\n\n**Duration:** Instantaneous\n\nYou utter a divine word, imbued with the power that shaped"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2651,
+    "rag_completion": 2812,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 5463
+  },
+  "costs": {
+    "rag": 0.0008258899999999999,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0008258899999999999
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 2.36,
+    "total_s": 12.09
+  },
+  "answer": " I cannot find this in the provided rules if a deafened creature is able to cast spells with verbal components.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer is not relevant to the user query as it does not provide any information regarding whether a deafened creature can cast spells with verbal components. Instead, it expresses uncertainty and fails to address the question directly."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context discusses the nature of verbal components in spellcasting, specifically mentioning that a character who is gagged or in an area of silence cannot cast spells with verbal components. It also defines the condition of being deafened, stating that a deafened creature cannot hear and automatically fails any ability check that requires hearing. However, it does not explicitly state whether a deafened creature can cast spells with verbal components. Therefore, while the context is related to the subject matter, it does not directly answer the query.\n\n   **Score: 1/2** (The context is relevant but does not fully address the query.)\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context provides some information about verbal components and the deafened condition, but it does not provide a definitive answer to whether a deafened creature can cast spells with verbal components. The user would need additional information to fully understand the implications of being deafened on spellcasting. Thus, the context cannot be used exclusively to provide a full answer.\n\n   **Score: 0/2** (The context does not provide a complete answer to the query.)\n\n**Final Feedback:**\nThe retrieved context is partially relevant to the query as it discusses verbal components and the deafened condition, but it fails to provide a clear answer regarding the ability of a deafened creature to cast spells with verbal components. Additional information would be necessary to fully address the user's question.\n\n[RESULT] 1.0"
+    }
+  }
+}

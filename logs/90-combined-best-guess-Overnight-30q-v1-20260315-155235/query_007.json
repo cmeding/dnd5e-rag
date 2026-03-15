@@ -1,0 +1,138 @@
+{
+  "query_id": "query_007",
+  "session_id": "90-combined-best-guess-Overnight-30q-v1-20260315-155235",
+  "timestamp": "2026-03-15T15:55:23.000921",
+  "query": {
+    "original": "Can a frightened creature take the Dash action?",
+    "used": "Can a creature affected by the frightened condition take the Dash action in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06452452301209573,
+      "category": "Spells",
+      "topic": "Fear",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Fear.md",
+      "preview": "### Fear\n\n*3rd-level illusion*\n\n**Casting Time:** 1 action\n\n**Range:** Self (30-foot cone)\n\n**Components:** V, S, M (a white feather or the heart of a hen)\n\n**Duration:** Concentration, up to 1 minute"
+    },
+    {
+      "rank": 2,
+      "score": 0.06310568744367492,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "## Actions\n\nWhen a monster takes its action, it can choose from the options in the Actions section of its stat block or use one of the actions available to all creatures, such as the Dash or Hide acti"
+    },
+    {
+      "rank": 3,
+      "score": 0.04868510928961749,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Frightened\n\n- A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\n- The creature can't willingly move closer to the sourc"
+    },
+    {
+      "rank": 4,
+      "score": 0.04550236900780379,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "#### Intimidating Presence\n\nBeginning at 10th level, you can use your action to frighten someone with your menacing presence. When you do so, choose one creature that you can see within 30 feet of you"
+    },
+    {
+      "rank": 5,
+      "score": 0.04501587087188492,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "### Cunning Action\n\nStarting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only "
+    },
+    {
+      "rank": 6,
+      "score": 0.03279569892473118,
+      "category": "Treasure",
+      "topic": "Mace of Terror",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Mace of Terror.md",
+      "preview": "### Mace of Terror\n\n*Weapon (mace), rare (requires attunement)*\n\nThis magic weapon has 3 charges. While holding it, you can use an action and expend 1 charge to release a wave of terror. Each creature"
+    },
+    {
+      "rank": 7,
+      "score": 0.032539682539682535,
+      "category": "Spells",
+      "topic": "Eyebite",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Eyebite.md",
+      "preview": "### Eyebite\n\n*6th-level necromancy*\n\n**Casting Time:** 1 action\n\n**Range:** Self\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nFor the spell's duration, your eyes become an inky "
+    },
+    {
+      "rank": 8,
+      "score": 0.03177805800756621,
+      "category": "Treasure",
+      "topic": "Wand of Fear",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Wand of Fear.md",
+      "preview": "### Wand of Fear\n\n*Wand, rare (requires attunement)*\n\nThis wand has 7 charges for the following properties. It regains 1d6+1 expended charges daily at dawn. If you expend the wand's last charge, roll "
+    },
+    {
+      "rank": 9,
+      "score": 0.031544957774465976,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Unconscious\n\n- An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings\n- The creature drops whatever it's holding and falls prone.\n- Th"
+    },
+    {
+      "rank": 10,
+      "score": 0.03149801587301587,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Dash\n\nWhen you take the Dash action, you gain extra movement for the current turn. The increase equals your speed, after applying any modifiers. With a speed of 30 feet, for example, you can move u"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3194,
+    "rag_completion": 3842,
+    "meta_prompt": 53,
+    "meta_completion": 20,
+    "total_calls": 3,
+    "total": 7109
+  },
+  "costs": {
+    "rag": 0.00108132,
+    "meta": 1.995e-05,
+    "embed": 0.0,
+    "total": 0.00110127
+  },
+  "timings": {
+    "rag_s": 8.47,
+    "query_s": 12.75,
+    "total_s": 20.75
+  },
+  "answer": " Yes, a creature affected by the frightened condition can take the Dash action in DnD 5e. The frightened condition states that the creature must take the Dash action and move away from the caster by the safest available route, but it does not restrict the creature from taking other actions during its turn, such as the Dash action.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06452452301209573
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant and correctly states that a creature can take the Dash action while frightened. However, it incorrectly claims that the frightened condition requires the creature to take the Dash action and move away from the source, which is not accurate. The condition only prevents moving closer to the source of fear, not mandating the Dash action."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context is relevant to the query about whether a creature affected by the frightened condition can take the Dash action in DnD 5e. The context includes specific details about the frightened condition, including the requirement that a frightened creature must take the Dash action and move away from the source of its fear. This directly addresses the user's question.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a comprehensive answer to the query. It explains that a frightened creature must take the Dash action to move away from the source of fear, which is a direct response to the question. The context also includes additional information about the frightened condition and how it interacts with actions, which further supports the answer. Therefore, the context is sufficient to fully answer the user's query without needing additional information.\n\n   **Score: 2/2**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

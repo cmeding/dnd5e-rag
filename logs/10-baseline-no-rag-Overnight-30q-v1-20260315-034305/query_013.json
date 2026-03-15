@@ -1,0 +1,51 @@
+{
+  "query_id": "query_013",
+  "session_id": "10-baseline-no-rag-Overnight-30q-v1-20260315-034305",
+  "timestamp": "2026-03-15T03:45:30.042444",
+  "query": {
+    "original": "If a creature has exhaustion level 3 and is also restrained, what is its movement speed?",
+    "used": "If a creature has exhaustion level 3 and is also restrained, what is its movement speed?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 290,
+    "rag_completion": 502,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 792
+  },
+  "costs": {
+    "rag": 0.00012728000000000001,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00012728000000000001
+  },
+  "timings": {
+    "rag_s": null,
+    "query_s": 4.63,
+    "total_s": 6.11
+  },
+  "answer": " A creature with exhaustion level 3 has its movement speed reduced to 0 squares (5 feet in DnD 5e) per turn. The restrained condition does not affect a creature's movement speed directly. Therefore, the creature's movement speed is 0 squares while it has exhaustion level 3.",
+  "refused": false,
+  "confidence": {
+    "passed": null,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains a significant mistake regarding the restrained condition. It incorrectly states that the restrained condition does not affect movement speed directly, which is not accurate. The correct interpretation is that the restrained condition reduces speed to 0, which takes precedence over the exhaustion effect."
+    },
+    "context_relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    }
+  }
+}

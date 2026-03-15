@@ -1,0 +1,130 @@
+{
+  "query_id": "query_025",
+  "session_id": "26-index-hierarchical-default-Overnight-30q-v1-20260315-125741",
+  "timestamp": "2026-03-15T13:03:38.799010",
+  "query": {
+    "original": "Does the stunned condition prevent a creature from making saving throws?",
+    "used": "Does the stunned condition prevent a creature from making saving throws?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "- Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.\n- The creature has disadvantage on Dexterity saving throws.\n\n## Stunned\n\n- A stunned creature is "
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the creature have advantage.\n\n## Unconscious\n\n- An unconscious creature is incapacitated (see the condit"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "Its weight increases by a factor of ten, and it ceases aging.\n- The creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings.\n- Attack rolls against the c"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "The Difficulty Class for a saving throw is determined by the effect that causes it. For example, the DC for a saving throw allowed by a spell is determined by the caster's spellcasting ability and pro"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the creature have advantage.\n- Any attack that hits the creature is a critical hit if the attacker is wi"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Spells",
+      "topic": "Contagion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Contagion.md",
+      "preview": "The creature has disadvantage on Constitution checks and Constitution saving throws. In addition, whenever the creature takes damage, it is stunned until the end of its next turn."
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Monsters",
+      "topic": "Sea Hag",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Sea Hag.md",
+      "preview": "If a creature's saving throw is successful or the effect ends for it, the creature is immune to the hag's Horrific Appearance for the next 24 hours.\n\nUnless the target is surprised or the revelation o"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "A **stable** creature doesn't make death saving throws, even though it has 0 hit points, but it does remain unconscious. The creature stops being stable, and must start making death saving throws agai"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Treasure",
+      "topic": "Dust of Sneezing and Choking",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Dust of Sneezing and Choking.md",
+      "preview": "A creature affected in this way is incapacitated and suffocating. As long as it is conscious, a creature can repeat the saving throw at the end of each of its turns, ending the effect on it on a succe"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1910,
+    "rag_completion": 2157,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 4067
+  },
+  "costs": {
+    "rag": 0.0006199300000000001,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0006199300000000001
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 4.5,
+    "total_s": 11.94
+  },
+  "answer": " Yes, the stunned condition states that a stunned creature automatically fails Strength and Dexterity saving throws (from the Conditions.md file). However, it does not explicitly mention other saving throws, so it's assumed that all saving throws are affected unless stated otherwise.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains significant inaccuracies. It incorrectly states that all saving throws are affected by the stunned condition, which is not true. The reference answer correctly clarifies that only Strength and Dexterity saving throws are automatically failed, while other types of saving throws are unaffected."
+    },
+    "context_relevancy": {
+      "score": 0.875,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context directly addresses the stunned condition and its effects on saving throws. It clearly states that a stunned creature automatically fails Strength and Dexterity saving throws, which is relevant to the user's query about whether the stunned condition prevents a creature from making saving throws.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides sufficient information to answer the query. It explicitly mentions that a stunned creature automatically fails certain saving throws, which implies that while the creature can still attempt saving throws, it will fail them automatically for Strength and Dexterity. However, it does not explicitly state that the creature cannot make saving throws at all, which could lead to some ambiguity. Therefore, while the context is mostly sufficient, it could be clearer.\n\n**Feedback Summary:**\nThe retrieved context is relevant and provides a substantial answer to the query regarding the stunned condition and saving throws. It clearly states that a stunned creature automatically fails certain saving throws, which is a critical part of the answer. However, it could be improved by explicitly stating that the creature can still attempt other types of saving throws, but will fail the specified ones. \n\nFinal Result: [RESULT] 3.5"
+    }
+  }
+}

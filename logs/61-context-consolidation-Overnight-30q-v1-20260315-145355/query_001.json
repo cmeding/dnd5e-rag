@@ -1,0 +1,66 @@
+{
+  "query_id": "query_001",
+  "session_id": "61-context-consolidation-Overnight-30q-v1-20260315-145355",
+  "timestamp": "2026-03-15T14:54:09.611005",
+  "query": {
+    "original": "What is the range of the Fireball spell?",
+    "used": "What is the range of the Fireball spell?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "The **Fireball** spell is a 3rd-level evocation spell with a range of **150 feet**. It requires an action to cast and has the following components: verbal (V), somatic (S), and material (M), specifica"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1048,
+    "rag_completion": 3217,
+    "meta_prompt": 1647,
+    "meta_completion": 263,
+    "total_calls": 2,
+    "total": 6175
+  },
+  "costs": {
+    "rag": 0.00072651,
+    "meta": 0.00040485,
+    "embed": 0.0,
+    "total": 0.00113136
+  },
+  "timings": {
+    "rag_s": 6.54,
+    "query_s": 8.58,
+    "total_s": 14.05
+  },
+  "answer": " The range of the Fireball spell is 150 feet.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly addresses the user query by providing the exact range of the Fireball spell without any errors or omissions."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the user's query about the range of the Fireball spell. It clearly states that the range is **150 feet**, which is the specific information requested. Additionally, it provides relevant details about the spell's mechanics, which further contextualizes the information.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the retrieved context provides a complete answer to the user's query regarding the range of the Fireball spell. The information is concise and directly answers the question without requiring additional context or information. While it includes extra details about the spell's effects and components, the core answer regarding the range is fully contained within the context.\n\n   **Score: 2/2**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

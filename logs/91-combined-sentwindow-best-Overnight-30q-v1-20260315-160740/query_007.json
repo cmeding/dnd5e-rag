@@ -1,0 +1,114 @@
+{
+  "query_id": "query_007",
+  "session_id": "91-combined-sentwindow-best-Overnight-30q-v1-20260315-160740",
+  "timestamp": "2026-03-15T16:10:58.245642",
+  "query": {
+    "original": "Can a frightened creature take the Dash action?",
+    "used": "Can a creature affected by the frightened condition use the Dash action in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06333725838023,
+      "category": "Spells",
+      "topic": "Eyebite",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Eyebite.md",
+      "preview": "On each of its turns, the frightened creature must take the Dash action and move away from you by the safest and shortest available route, unless there is nowhere to move. "
+    },
+    {
+      "rank": 2,
+      "score": 0.06161142976252085,
+      "category": "Classes",
+      "topic": "Cleric",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Cleric.md",
+      "preview": "For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. "
+    },
+    {
+      "rank": 3,
+      "score": 0.06133451954347477,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Frightened\n\n- A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\n"
+    },
+    {
+      "rank": 4,
+      "score": 0.04871794871794872,
+      "category": "Spells",
+      "topic": "Fear",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Fear.md",
+      "preview": "While frightened by this spell, a creature must take the Dash action and move away from you by the safest available route on each of its turns, unless there is nowhere to move. "
+    },
+    {
+      "rank": 5,
+      "score": 0.03279569892473118,
+      "category": "Monsters",
+      "topic": "Octopus (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Octopus (Creature).md",
+      "preview": "After releasing the ink, the octopus can use the Dash action as a bonus action."
+    },
+    {
+      "rank": 6,
+      "score": 0.03279569892473118,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "This action can be used only to take the Dash, Disengage, or Hide action.\n\n"
+    },
+    {
+      "rank": 7,
+      "score": 0.032266458495966696,
+      "category": "Spells",
+      "topic": "Haste",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Haste.md",
+      "preview": "That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.\n\n"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1569,
+    "rag_completion": 2500,
+    "meta_prompt": 53,
+    "meta_completion": 20,
+    "total_calls": 3,
+    "total": 4142
+  },
+  "costs": {
+    "rag": 0.00064759,
+    "meta": 1.995e-05,
+    "embed": 0.0,
+    "total": 0.00066754
+  },
+  "timings": {
+    "rag_s": 16.62,
+    "query_s": 23.11,
+    "total_s": 31.76
+  },
+  "answer": " Yes, a creature affected by the frightened condition can use the Dash action, as stated in the rules for the frightened condition and various spells that cause the condition. However, the specific action a creature can take on its turn while frightened might be restricted by other factors, such as the creature's class or the source of the fear. For example, a cleric or a creature under the effect of the Fear spell can only use the Dash action or try to escape from an effect that prevents it from moving.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06333725838023
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant and correctly states that a creature affected by the frightened condition can use the Dash action. However, it introduces unnecessary complexity by mentioning class restrictions and specific spells, which could lead to confusion. The reference answer is more concise and directly addresses the question without extraneous details."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the user's query about whether a creature affected by the frightened condition can use the Dash action in DnD 5e. The context clearly states that a frightened creature must take the Dash action and move away from the source of its fear, which is relevant to the question.\n\n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a complete answer to the query. It specifies that a frightened creature must take the Dash action on its turn and move away from the source of fear, which directly answers the question. However, it does not mention any other actions the creature can take beyond the Dash action, but since the query specifically asks about the Dash action, the provided information is sufficient.\n\n   **Score: 2 points**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

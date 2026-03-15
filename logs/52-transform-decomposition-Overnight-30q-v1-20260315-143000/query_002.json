@@ -1,0 +1,146 @@
+{
+  "query_id": "query_002",
+  "session_id": "52-transform-decomposition-Overnight-30q-v1-20260315-143000",
+  "timestamp": "2026-03-15T14:30:27.472804",
+  "query": {
+    "original": "What is the Armor Class of an Aboleth?",
+    "used": "What is the Armor Class of an Aboleth?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": null,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "Sub question: What is the Armor Class of an Aboleth\nResponse:  The Armor Class of an Aboleth is 17."
+    },
+    {
+      "rank": 2,
+      "score": 0.016666666666666666,
+      "category": "Monsters",
+      "topic": "Aboleth",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Aboleth.md",
+      "preview": "## Aboleth\n\n*Large aberration, lawful evil*\n\n**Armor Class** 17 (natural armor)\n\n**Hit Points** 135 (18d10+36)\n\n**Speed** 10 ft., swim 40 ft.\n\n| STR     | DEX    | CON     | INT     | WIS     | CHA   "
+    },
+    {
+      "rank": 3,
+      "score": 0.01639344262295082,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "## Armor Class\n\nA monster that wears armor or carries a shield has an Armor Class (AC) that takes its armor, shield, and Dexterity into account. Otherwise, a monster's AC is based on its Dexterity mod"
+    },
+    {
+      "rank": 4,
+      "score": 0.016129032258064516,
+      "category": "Equipment",
+      "topic": "Armor",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Armor.md",
+      "preview": "## Heavy Armor\n\nOf all the armor categories, heavy armor offers the best protection. These suits of armor cover the entire body and are designed to stop a wide range of attacks. Only proficient warrio"
+    },
+    {
+      "rank": 5,
+      "score": 0.015873015873015872,
+      "category": "Gamemastering",
+      "topic": "Objects",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Objects.md",
+      "preview": "## Statistics for Objects\n\nWhen time is a factor, you can assign an Armor Class and hit points to a destructible object. You can also give it immunities, resistances, and vulnerabilities to specific t"
+    },
+    {
+      "rank": 6,
+      "score": 0.015625,
+      "category": "Equipment",
+      "topic": "Armor",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Armor.md",
+      "preview": "## Medium Armor\n\nMedium armor offers more protection than light armor, but it also impairs movement more. If you wear medium armor, you add your Dexterity modifier, to a maximum of +2, to the base num"
+    },
+    {
+      "rank": 7,
+      "score": 0.015384615384615385,
+      "category": "Equipment",
+      "topic": "Armor",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Armor.md",
+      "preview": "# Armor\n\nFantasy gaming worlds are a vast tapestry made up of many different cultures, each with its own technology level. For this reason, adventurers have access to a variety of armor types, ranging"
+    },
+    {
+      "rank": 8,
+      "score": 0.015151515151515152,
+      "category": "Equipment",
+      "topic": "Armor",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Armor.md",
+      "preview": "## Light Armor\n\nMade from supple and thin materials, light armor favors agile adventurers since it offers some protection without sacrificing mobility. If you wear light armor, you add your Dexterity "
+    },
+    {
+      "rank": 9,
+      "score": 0.014925373134328358,
+      "category": "Monsters",
+      "topic": "Animated Armor (Animated Object)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Animated Armor (Animated Object).md",
+      "preview": "### Animated Armor (Animated Object)\n\n*Medium construct, unaligned*\n\n**Armor Class** 18 (natural armor)\n\n**Hit Points** 33 (6d8+6)\n\n**Speed** 25 ft.\n\n| STR     | DEX     | CON     | INT    | WIS    | "
+    },
+    {
+      "rank": 10,
+      "score": 0.014705882352941176,
+      "category": "Equipment",
+      "topic": "Armor",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Armor.md",
+      "preview": "|\n| Studded leather  | 45 gp    | 12 + Dex modifier         | -        | -            | 13 lb. |\n| **Medium Armor** |          |                           |          |              |        |\n| Hide  "
+    },
+    {
+      "rank": 11,
+      "score": 0.014492753623188406,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "#### Defense\n\nWhile you are wearing armor, you gain a +1 bonus to AC."
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 4965,
+    "rag_completion": 5402,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 3,
+    "total": 10367
+  },
+  "costs": {
+    "rag": 0.00157253,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00157253
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 5.28,
+    "total_s": 13.05
+  },
+  "answer": " The Armor Class of an Aboleth is 17.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly answers the user query with the exact information provided in the reference answer."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context directly addresses the query about the Armor Class of an Aboleth. The response clearly states that the Armor Class of an Aboleth is 17, which is corroborated by the detailed statistics provided in the context. This matches the subject matter perfectly.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the retrieved context provides a complete answer to the user's query. The response includes the specific Armor Class value (17) and also includes additional relevant information about the Aboleth, such as its size, type, and other statistics. However, the core answer to the query is fully contained within the response itself.\n\n**Feedback Summary:**\nThe response is accurate and directly answers the query regarding the Armor Class of an Aboleth. It provides the necessary information without any ambiguity. The additional context about the Aboleth enhances the understanding but is not required to answer the specific question.\n\n[RESULT] 4.0"
+    }
+  }
+}

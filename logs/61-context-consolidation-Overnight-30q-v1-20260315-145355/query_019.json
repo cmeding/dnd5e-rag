@@ -1,0 +1,66 @@
+{
+  "query_id": "query_019",
+  "session_id": "61-context-consolidation-Overnight-30q-v1-20260315-145355",
+  "timestamp": "2026-03-15T14:58:43.221643",
+  "query": {
+    "original": "Do you add your proficiency bonus to every saving throw?",
+    "used": "Do you add your proficiency bonus to every saving throw?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, you do not add your proficiency bonus to every saving throw. Instead, you only add your proficiency bonus to saving throws for which your character has proficiency. "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1273,
+    "rag_completion": 4031,
+    "meta_prompt": 2046,
+    "meta_completion": 277,
+    "total_calls": 2,
+    "total": 7627
+  },
+  "costs": {
+    "rag": 0.00090592,
+    "meta": 0.00047309999999999995,
+    "embed": 0.0,
+    "total": 0.00137902
+  },
+  "timings": {
+    "rag_s": 6.11,
+    "query_s": 9.53,
+    "total_s": 17.11
+  },
+  "answer": " I cannot find this in the provided rules that you add your proficiency bonus to every saving throw. Instead, you only add your proficiency bonus to saving throws for which your character has proficiency.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly addresses the user query, clearly stating that the proficiency bonus is only added to saving throws for which the character has proficiency. It aligns perfectly with the reference answer."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the user's query about whether the proficiency bonus is added to every saving throw. It clearly explains that the proficiency bonus is only added to saving throws for which the character has proficiency, which is the crux of the question.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a complete answer to the query. It explains the conditions under which the proficiency bonus is applied to saving throws, including the mechanics of rolling a saving throw and the implications of not having proficiency. The additional details about how proficiency is determined and the limitations on adding the bonus further clarify the answer.\n\n**Feedback:**  \nThe retrieved context is highly relevant and provides a thorough explanation of the rules regarding proficiency bonuses and saving throws in Dungeons & Dragons 5th Edition. It effectively answers the user's question and includes important nuances that enhance understanding. The information is accurate and aligns well with the rules of the game.\n\n[RESULT] 4.0"
+    }
+  }
+}

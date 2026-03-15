@@ -1,0 +1,51 @@
+{
+  "query_id": "query_029",
+  "session_id": "10-baseline-no-rag-Overnight-30q-v1-20260315-034305",
+  "timestamp": "2026-03-15T03:48:06.760450",
+  "query": {
+    "original": "Does a Barbarian lose their Rage bonus damage if they cast a spell while raging?",
+    "used": "Does a Barbarian lose their Rage bonus damage if they cast a spell while raging?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 288,
+    "rag_completion": 579,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 867
+  },
+  "costs": {
+    "rag": 0.00014169,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00014169
+  },
+  "timings": {
+    "rag_s": null,
+    "query_s": 7.2,
+    "total_s": 8.73
+  },
+  "answer": " Yes, a Barbarian does lose their Rage bonus damage when they cast a spell while Raging. According to the rules in the Player's Handbook (page 16), \"You can't cast a spell while Raging.\" Therefore, if a Barbarian tries to do so, they would forfeit their Rage damage bonus for that attack or weapon. However, they would still gain the other benefits of Raging, such as increased damage resistance and ability score improvements.",
+  "refused": false,
+  "confidence": {
+    "passed": null,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains a significant mistake. It incorrectly states that a Barbarian loses their Rage bonus damage when casting a spell, implying that they can cast spells while raging, which contradicts the rules. The reference answer correctly states that a Barbarian cannot cast spells at all while raging."
+    },
+    "context_relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    }
+  }
+}

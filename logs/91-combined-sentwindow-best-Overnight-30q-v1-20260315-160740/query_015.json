@@ -1,0 +1,138 @@
+{
+  "query_id": "query_015",
+  "session_id": "91-combined-sentwindow-best-Overnight-30q-v1-20260315-160740",
+  "timestamp": "2026-03-15T16:14:52.040577",
+  "query": {
+    "original": "What conditions cause the Grappled condition to end?",
+    "used": "What actions or effects can end the Grappled condition in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06639344262295081,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "- The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect, such as when a creature is hurled away by the *thunder-wave* spell.\n\n"
+    },
+    {
+      "rank": 2,
+      "score": 0.06530936012691697,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Grappled\n\n- A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n"
+    },
+    {
+      "rank": 3,
+      "score": 0.06359408793207541,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "- The condition ends if the grappler is incapacitated (see the condition).\n"
+    },
+    {
+      "rank": 4,
+      "score": 0.04623878536922015,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "If you succeed, you subject the target to the grappled condition (see appendix ##). "
+    },
+    {
+      "rank": 5,
+      "score": 0.031009615384615385,
+      "category": "Characterizations",
+      "topic": "Feats",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Feats.md",
+      "preview": "If you succeed, you and the creature are both restrained until the grapple ends."
+    },
+    {
+      "rank": 6,
+      "score": 0.029857397504456328,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "The condition specifies the things that end it, and you can release the target whenever you like (no action required).\n\n"
+    },
+    {
+      "rank": 7,
+      "score": 0.029857397504456328,
+      "category": "Monsters",
+      "topic": "Otyugh",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Otyugh.md",
+      "preview": "If the target is Medium or smaller, it is grappled (escape DC 13) and restrained until the grapple ends. "
+    },
+    {
+      "rank": 8,
+      "score": 0.029418126757516764,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "This unconsciousness ends if you regain any hit points.\n\n"
+    },
+    {
+      "rank": 9,
+      "score": 0.02919863597612958,
+      "category": "Monsters",
+      "topic": "Ankheg",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Ankheg.md",
+      "preview": "Until this grapple ends, the ankheg can bite only the grappled creature and has advantage on attack rolls to do so.\n\n"
+    },
+    {
+      "rank": 10,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "An effect that removes exhaustion reduces its level as specified in the effect's description, with all exhaustion effects ending if a creature's exhaustion level is reduced below 1.\n\n"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1759,
+    "rag_completion": 2775,
+    "meta_prompt": 54,
+    "meta_completion": 18,
+    "total_calls": 3,
+    "total": 4606
+  },
+  "costs": {
+    "rag": 0.0007207400000000001,
+    "meta": 1.89e-05,
+    "embed": 0.0,
+    "total": 0.0007396400000000001
+  },
+  "timings": {
+    "rag_s": 16.03,
+    "query_s": 27.75,
+    "total_s": 35.95
+  },
+  "answer": " The Grappled condition can be ended by the following actions or effects, according to the provided rules:\n\n1. The grappler is incapacitated.\n2. An effect removes the grappled creature from the reach of the grappler or grappling effect, such as being hurled away by the Thunderwave spell.\n3. The grappler releases the target (no action required).\n4. The target escapes the grapple with a successful DC 13 Strength (Athletics) check.\n5. The target is Medium or smaller and the grapple ends for other reasons, such as the grapple effect expiring or the grappler being killed.\n\nAdditionally, the exhaustion condition can reduce the level of exhaustion, which ends all exhaustion effects if the exhaustion level is reduced below 1. However, this does not directly end the Grappled condition.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06639344262295081
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant and provides a comprehensive list of actions and effects that can end the Grappled condition, but it contains inaccuracies regarding the specifics of escaping the grapple and the mention of exhaustion, which is unrelated to the grappled condition."
+    },
+    "context_relevancy": {
+      "score": 0.75,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context does match the subject matter of the user's query regarding the Grappled condition in DnD 5e. It provides specific details about how the Grappled condition can end, including the effects of the grappler being incapacitated and the removal of the grappled creature from the reach of the grappler. This directly addresses the user's question about what actions or effects can end the Grappled condition.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The retrieved context does provide relevant information about some of the ways the Grappled condition can end, but it does not cover all possible actions or effects that could end the condition. For example, it does not mention the possibility of the grappled creature escaping the grapple using the Escape action or any other specific spells or abilities that might also end the condition. Therefore, while the context is useful, it is not comprehensive enough to provide a full answer on its own.\n\n   **Score: 1/2**\n\n**Final Feedback:** The retrieved context is relevant and provides some correct information about the Grappled condition, but it lacks completeness in detailing all possible ways to end the condition. Additional information would be needed for a full answer.\n\n[RESULT] 3.0"
+    }
+  }
+}

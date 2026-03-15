@@ -1,0 +1,51 @@
+{
+  "query_id": "query_010",
+  "session_id": "10-baseline-no-rag-Overnight-30q-v1-20260315-034305",
+  "timestamp": "2026-03-15T03:45:02.851853",
+  "query": {
+    "original": "Does being charmed prevent a creature from attacking non-charmers?",
+    "used": "Does being charmed prevent a creature from attacking non-charmers?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 285,
+    "rag_completion": 999,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 1284
+  },
+  "costs": {
+    "rag": 0.00022116000000000003,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00022116000000000003
+  },
+  "timings": {
+    "rag_s": null,
+    "query_s": 17.37,
+    "total_s": 19.16
+  },
+  "answer": " Yes, being charmed can limit a creature's actions against targets other than the charmer. The specific effects of being charmed can vary depending on the source of the charm and the particular creature being charmed. However, in general, a charmed creature is likely to be unfriendly or even hostile towards non-charmers and may prefer to avoid attacking them.\n\nFor example, according to the Monster Manual (5th edition), a charmed creature can be made to be \"indifferent to other creatures or even to attack them\" on the charmer's command. However, the charmer must specifically command the creature to attack non-charmed creatures for this to happen. If no such command is given, the charmed creature is likely to avoid attacking non-charmed creatures and instead focus on remaining near and obeying the charmer.\n\nIt's important to note that being charmed does not necessarily make a creature friendly or harmless towards non-charmed creatures. A charmed creature can still be aggressive or even violent if provoked or if it perceives a threat to the charmer. Additionally, some sources of charm, such as certain magical spells or magical items, may have additional effects that could make a charmed creature more aggressive or dangerous towards non-charmed creatures.",
+  "refused": false,
+  "confidence": {
+    "passed": null,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains significant inaccuracies regarding the effects of the charmed condition. It incorrectly suggests that being charmed can limit a creature's actions against non-charmers and implies that a charmed creature may prefer to avoid attacking them, which contradicts the rules. The reference answer correctly states that the charmed condition only restricts actions against the charmer, making the generated answer misleading."
+    },
+    "context_relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "query_id": "query_013",
+  "session_id": "91-combined-sentwindow-best-Overnight-30q-v1-20260315-160740",
+  "timestamp": "2026-03-15T16:13:47.421863",
+  "query": {
+    "original": "If a creature has exhaustion level 3 and is also restrained, what is its movement speed?",
+    "used": "What is the movement speed of a creature with exhaustion level 3 that is also restrained in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06405333018236244,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Restrained\n\n- A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n"
+    },
+    {
+      "rank": 2,
+      "score": 0.04689826302729529,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "### Fast Movement\n\nStarting at 5th level, your speed increases by 10 feet while you aren't wearing heavy armor.\n\n"
+    },
+    {
+      "rank": 3,
+      "score": 0.03333333333333333,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "**Table- Exhaustion Effects**\n\n| Level | Effect                                         |\n|-------|------------------------------------------------|\n| 1     | Disadvantage on ability checks           "
+    },
+    {
+      "rank": 4,
+      "score": 0.03278688524590164,
+      "category": "Spells",
+      "topic": "Freedom of Movement",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Freedom of Movement.md",
+      "preview": "### Freedom of Movement\n\n*4th-level abjuration*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S, M (a leather strap, bound around the arm or a similar appendage)\n\n**Duration:** 1 h"
+    },
+    {
+      "rank": 5,
+      "score": 0.03278688524590164,
+      "category": "Spells",
+      "topic": "Freedom of Movement",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Freedom of Movement.md",
+      "preview": "For the duration, the target's movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target's speed nor cause the target to be paralyzed or restraine"
+    },
+    {
+      "rank": 6,
+      "score": 0.03229166666666666,
+      "category": "Gameplay",
+      "topic": "Adventuring",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Adventuring.md",
+      "preview": "For example, a creature with a Constitution of 14 can hold its breath for 3 minutes. "
+    },
+    {
+      "rank": 7,
+      "score": 0.031754032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "An effect that removes exhaustion reduces its level as specified in the effect's description, with all exhaustion effects ending if a creature's exhaustion level is reduced below 1.\n\n"
+    },
+    {
+      "rank": 8,
+      "score": 0.031746031746031744,
+      "category": "Spells",
+      "topic": "Compulsion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Compulsion.md",
+      "preview": "### Compulsion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nCreatures of your choice that you can see wi"
+    },
+    {
+      "rank": 9,
+      "score": 0.030776515151515152,
+      "category": "Spells",
+      "topic": "Slow",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Slow.md",
+      "preview": "### Slow\n\n*3rd-level transmutation*\n\n**Casting Time:** 1 action\n\n**Range:** 120 feet\n\n**Components:** V, S, M (a drop of molasses)\n\n**Duration:** Concentration, up to 1 minute\n\nYou alter time around u"
+    },
+    {
+      "rank": 10,
+      "score": 0.03007688828584351,
+      "category": "Spells",
+      "topic": "Freedom of Movement",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Freedom of Movement.md",
+      "preview": "The target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it grappled. "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2107,
+    "rag_completion": 2901,
+    "meta_prompt": 63,
+    "meta_completion": 25,
+    "total_calls": 3,
+    "total": 5096
+  },
+  "costs": {
+    "rag": 0.00078296,
+    "meta": 2.4449999999999998e-05,
+    "embed": 0.0,
+    "total": 0.0008074099999999999
+  },
+  "timings": {
+    "rag_s": 13.7,
+    "query_s": 18.14,
+    "total_s": 27.94
+  },
+  "answer": " The creature with exhaustion level 3 has its speed halved (Topic: Conditions, Table- Exhaustion Effects), and when restrained, its speed becomes 0 (Topic: Conditions, Restrained). Therefore, the movement speed of a creature with exhaustion level 3 that is also restrained is 0 in DnD 5e.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06405333018236244
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and relevant to the user query, accurately explaining how exhaustion level 3 and the restrained condition affect movement speed, ultimately concluding that the speed is 0."
+    },
+    "context_relevancy": {
+      "score": 0.75,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context does match the subject matter of the user's query. It provides relevant information about the effects of being restrained and the effects of exhaustion, specifically level 3 exhaustion. The context clearly states that a restrained creature's speed becomes 0, which directly answers part of the query regarding the movement speed of a creature that is both exhausted and restrained. Additionally, the table of exhaustion effects indicates that at level 3, a creature has disadvantage on attack rolls and saving throws, but it does not directly affect movement speed beyond what is stated for level 5 exhaustion.\n\n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The retrieved context does provide a significant portion of the answer, specifically that a restrained creature's speed is 0. However, it does not explicitly state how the exhaustion level interacts with the restrained condition beyond the fact that level 3 exhaustion does not reduce speed to 0 (that is level 5 exhaustion). Therefore, while the context is relevant and informative, it does not fully answer the query regarding the specific movement speed of a creature with exhaustion level 3 that is also restrained. The user may need additional clarification on how exhaustion levels interact with the restrained condition, particularly since the context does not mention that level 3 exhaustion affects speed.\n\n   **Score: 1 point**\n\n**Final Result:** [RESULT] 3.0"
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "query_id": "query_022",
+  "session_id": "91-combined-sentwindow-best-Overnight-30q-v1-20260315-160740",
+  "timestamp": "2026-03-15T16:18:39.885522",
+  "query": {
+    "original": "What is the movement speed of a Giant Eagle?",
+    "used": "What is the movement speed of a Giant Eagle in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06666666666666667,
+      "category": "Monsters",
+      "topic": "Giant Eagle (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Giant Eagle (Creature).md",
+      "preview": "### Giant Eagle\n\n*Large beast, neutral good*\n\n**Armor Class** 13\n\n**Hit Points** 26 (4d10+4)\n\n**Speed** 10 ft., fly 80 ft.\n\n"
+    },
+    {
+      "rank": 2,
+      "score": 0.04547574626865672,
+      "category": "Monsters",
+      "topic": "Giant Eagle (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Giant Eagle (Creature).md",
+      "preview": "###### Actions\n\n***Multiattack***. "
+    },
+    {
+      "rank": 3,
+      "score": 0.044563279857397504,
+      "category": "Monsters",
+      "topic": "Giant Eagle (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Giant Eagle (Creature).md",
+      "preview": "*Hit:* 6 (1d6+3) piercing damage.\n\n"
+    },
+    {
+      "rank": 4,
+      "score": 0.0443701226309922,
+      "category": "Monsters",
+      "topic": "Giant Eagle (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Giant Eagle (Creature).md",
+      "preview": "*Hit:* 10 (2d6+3) slashing damage.\n\n"
+    },
+    {
+      "rank": 5,
+      "score": 0.03278688524590164,
+      "category": "Monsters",
+      "topic": "Giant Eagle (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Giant Eagle (Creature).md",
+      "preview": "A mated pair of giant eagles typically has up to four eggs or young in their nest (treat the young as normal eagles)."
+    },
+    {
+      "rank": 6,
+      "score": 0.03225806451612903,
+      "category": "Monsters",
+      "topic": "Giant Eagle (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Giant Eagle (Creature).md",
+      "preview": "A **giant eagle** is a noble creature that speaks its own language and understands speech in the Common tongue. "
+    },
+    {
+      "rank": 7,
+      "score": 0.031746031746031744,
+      "category": "Monsters",
+      "topic": "Giant Eagle (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Giant Eagle (Creature).md",
+      "preview": "The eagle has advantage on Wisdom (Perception) checks that rely on sight.\n\n"
+    },
+    {
+      "rank": 8,
+      "score": 0.03125,
+      "category": "Monsters",
+      "topic": "Giant Eagle (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Giant Eagle (Creature).md",
+      "preview": "The eagle makes two attacks: one with its beak and one with its talons.\n\n"
+    },
+    {
+      "rank": 9,
+      "score": 0.030536130536130537,
+      "category": "Monsters",
+      "topic": "Giant Eagle (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Giant Eagle (Creature).md",
+      "preview": "***Beak***. "
+    },
+    {
+      "rank": 10,
+      "score": 0.030536130536130537,
+      "category": "Monsters",
+      "topic": "Giant Eagle (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Giant Eagle (Creature).md",
+      "preview": "***Talons***. "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1690,
+    "rag_completion": 2334,
+    "meta_prompt": 54,
+    "meta_completion": 17,
+    "total_calls": 3,
+    "total": 4095
+  },
+  "costs": {
+    "rag": 0.00062936,
+    "meta": 1.8299999999999998e-05,
+    "embed": 0.0,
+    "total": 0.00064766
+  },
+  "timings": {
+    "rag_s": 15.16,
+    "query_s": 17.1,
+    "total_s": 23.96
+  },
+  "answer": " The movement speed of a Giant Eagle in DnD 5e is 10 ft. on the ground and 80 ft. while flying.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06666666666666667
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly addresses the user query by providing both the walking and flying speeds of a Giant Eagle in DnD 5e."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the subject matter of the user's query by providing specific information about the Giant Eagle, including its movement speed. The context states that the Giant Eagle has a speed of \"10 ft., fly 80 ft.\", which is exactly what the user is asking for.\n\n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the retrieved context provides all the necessary information to fully answer the user's query regarding the movement speed of a Giant Eagle in DnD 5e. The context includes both the walking speed (10 ft.) and the flying speed (80 ft.), which are essential for a complete understanding of the creature's movement capabilities.\n\n   **Score: 2 points**\n\n**Final Feedback:** The retrieved context is highly relevant and provides a complete answer to the query about the movement speed of a Giant Eagle in DnD 5e. Both aspects of the evaluation criteria are met, resulting in a perfect score.\n\n[RESULT] 4.0"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "query_id": "query_002",
+  "session_id": "34-retrieval-topk5-Overnight-30q-v1-20260315-135222",
+  "timestamp": "2026-03-15T13:52:39.408407",
+  "query": {
+    "original": "What is the Armor Class of an Aboleth?",
+    "used": "What is the Armor Class of an Aboleth?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Monsters",
+      "topic": "Aboleth",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Aboleth.md",
+      "preview": "## Aboleth\n\n*Large aberration, lawful evil*\n\n**Armor Class** 17 (natural armor)\n\n**Hit Points** 135 (18d10+36)\n\n**Speed** 10 ft., swim 40 ft.\n\n| STR     | DEX    | CON     | INT     | WIS     | CHA   "
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "## Armor Class\n\nA monster that wears armor or carries a shield has an Armor Class (AC) that takes its armor, shield, and Dexterity into account. Otherwise, a monster's AC is based on its Dexterity mod"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Equipment",
+      "topic": "Armor",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Armor.md",
+      "preview": "## Heavy Armor\n\nOf all the armor categories, heavy armor offers the best protection. These suits of armor cover the entire body and are designed to stop a wide range of attacks. Only proficient warrio"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Equipment",
+      "topic": "Armor",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Armor.md",
+      "preview": "## Medium Armor\n\nMedium armor offers more protection than light armor, but it also impairs movement more. If you wear medium armor, you add your Dexterity modifier, to a maximum of +2, to the base num"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Gamemastering",
+      "topic": "Objects",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Objects.md",
+      "preview": "## Statistics for Objects\n\nWhen time is a factor, you can assign an Armor Class and hit points to a destructible object. You can also give it immunities, resistances, and vulnerabilities to specific t"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2329,
+    "rag_completion": 2460,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 4789
+  },
+  "costs": {
+    "rag": 0.00072359,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00072359
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 1.94,
+    "total_s": 7.93
+  },
+  "answer": " The Armor Class of an Aboleth is 17 (natural armor).",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly answers the user query with the same information as the reference answer."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context directly addresses the query about the Armor Class of an Aboleth. It explicitly states that the Armor Class of an Aboleth is 17 (natural armor), which is the specific information requested in the query.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a complete answer to the query. The relevant section clearly states the Armor Class of the Aboleth without requiring any additional information or context. The details about the Aboleth's other statistics, while informative, are not necessary to answer the specific question about Armor Class.\n\n**Feedback:**\nThe retrieved context is highly relevant and directly answers the user's query. It provides the exact information needed without any ambiguity. The context is sufficient on its own to fully address the question regarding the Armor Class of an Aboleth.\n\n[RESULT] 4.0"
+    }
+  }
+}

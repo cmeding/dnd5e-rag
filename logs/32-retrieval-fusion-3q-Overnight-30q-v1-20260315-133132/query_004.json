@@ -1,0 +1,138 @@
+{
+  "query_id": "query_004",
+  "session_id": "32-retrieval-fusion-3q-Overnight-30q-v1-20260315-133132",
+  "timestamp": "2026-03-15T13:32:21.209396",
+  "query": {
+    "original": "How long does the Haste spell last?",
+    "used": "How long does the Haste spell last?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.05,
+      "category": "Spells",
+      "topic": "Haste",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Haste.md",
+      "preview": "### Haste\n\n*3rd-level transmutation*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S, M (a shaving of licorice root)\n\n**Duration:** Concentration, up to 1 minute\n\nChoose a willin"
+    },
+    {
+      "rank": 2,
+      "score": 0.03278688524590164,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "## Duration\n\nA spell's duration is the length of time the spell persists. A duration can be expressed in rounds, minutes, hours, or even years. Some spells specify that their effects last until the sp"
+    },
+    {
+      "rank": 3,
+      "score": 0.031754032258064516,
+      "category": "Spells",
+      "topic": "Slow",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Slow.md",
+      "preview": "### Slow\n\n*3rd-level transmutation*\n\n**Casting Time:** 1 action\n\n**Range:** 120 feet\n\n**Components:** V, S, M (a drop of molasses)\n\n**Duration:** Concentration, up to 1 minute\n\nYou alter time around u"
+    },
+    {
+      "rank": 4,
+      "score": 0.031746031746031744,
+      "category": "Spells",
+      "topic": "Geas",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Geas.md",
+      "preview": "### Geas\n\n*5th-level enchantment*\n\n**Casting Time:** 1 minute\n\n**Range:** 60 feet\n\n**Components:** V\n\n**Duration:** 30 days\n\nYou place a magical command on a creature that you can see within range, fo"
+    },
+    {
+      "rank": 5,
+      "score": 0.03128054740957967,
+      "category": "Classes",
+      "topic": "Sorcerer",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Sorcerer.md",
+      "preview": "#### Extended Spell\n\nWhen you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours."
+    },
+    {
+      "rank": 6,
+      "score": 0.031099324975891997,
+      "category": "Spells",
+      "topic": "Compulsion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Compulsion.md",
+      "preview": "### Compulsion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nCreatures of your choice that you can see wi"
+    },
+    {
+      "rank": 7,
+      "score": 0.031054405392392875,
+      "category": "Spells",
+      "topic": "Modify Memory",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Modify Memory.md",
+      "preview": "### Modify Memory\n\n*5th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou attempt to reshape another creature's"
+    },
+    {
+      "rank": 8,
+      "score": 0.029857397504456328,
+      "category": "Spells",
+      "topic": "Planar Binding",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Planar Binding.md",
+      "preview": "### Planar Binding\n\n*5th-level abjuration*\n\n**Casting Time:** 1 hour\n\n**Range:** 60 feet\n\n**Components:** V, S, M (a jewel worth at least 1,000 gp, which the spell consumes)\n\n**Duration:** 24 hours\n\nW"
+    },
+    {
+      "rank": 9,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "Command",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Command.md",
+      "preview": "### Command\n\n*1st-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V\n\n**Duration:** 1 round\n\nYou speak a one-word command to a creature you can see within range. The"
+    },
+    {
+      "rank": 10,
+      "score": 0.015625,
+      "category": "Treasure",
+      "topic": "Tome of Understanding",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Tome of Understanding.md",
+      "preview": "### Tome of Understanding\n\n*Wondrous item, very rare*\n\nThis book contains intuition and insight exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3709,
+    "rag_completion": 3982,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 7691
+  },
+  "costs": {
+    "rag": 0.0011645700000000002,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0011645700000000002
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 5.25,
+    "total_s": 11.49
+  },
+  "answer": " The Haste spell lasts for a duration of concentration, up to 1 minute.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.05
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and fully correct, accurately stating the duration of the Haste spell and that it requires concentration."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the Haste spell, including its duration, which is specified as \"Concentration, up to 1 minute.\" This information is precisely what the user is asking about.\n\n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a complete answer to the user's query regarding the duration of the Haste spell. It includes all necessary details about the spell's effects and conditions, specifically focusing on the duration aspect. There is no need for additional information to answer the query fully.\n\n   **Score: 2 points**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

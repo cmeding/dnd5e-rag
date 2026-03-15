@@ -1,0 +1,138 @@
+{
+  "query_id": "query_022",
+  "session_id": "33-retrieval-bm25-fusion-Overnight-30q-v1-20260315-133922",
+  "timestamp": "2026-03-15T13:48:32.269842",
+  "query": {
+    "original": "What is the movement speed of a Giant Eagle?",
+    "used": "What is the movement speed of a Giant Eagle?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06639344262295083,
+      "category": "Monsters",
+      "topic": "Giant Eagle (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Giant Eagle (Creature).md",
+      "preview": "### Giant Eagle\n\n*Large beast, neutral good*\n\n**Armor Class** 13\n\n**Hit Points** 26 (4d10+4)\n\n**Speed** 10 ft., fly 80 ft.\n\n| STR     | DEX     | CON     | INT    | WIS     | CHA     |\n|---------|----"
+    },
+    {
+      "rank": 2,
+      "score": 0.06478893337698202,
+      "category": "Monsters",
+      "topic": "Giant Eagle (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Giant Eagle (Creature).md",
+      "preview": "###### Actions\n\n***Multiattack***. The eagle makes two attacks: one with its beak and one with its talons.\n\n***Beak***. *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6+3) pier"
+    },
+    {
+      "rank": 3,
+      "score": 0.0635386119257087,
+      "category": "Monsters",
+      "topic": "Eagle (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Eagle (Creature).md",
+      "preview": "### Eagle\n\n*Small beast, unaligned*\n\n**Armor Class** 12\n\n**Hit Points** 3 (1d6)\n\n**Speed** 10 ft., fly 60 ft.\n\n| STR    | DEX     | CON     | INT    | WIS     | CHA    |\n|--------|---------|---------|"
+    },
+    {
+      "rank": 4,
+      "score": 0.03306010928961749,
+      "category": "Gameplay",
+      "topic": "Adventuring",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Adventuring.md",
+      "preview": "Certain special mounts, such as a pegasus or griffon, or special vehicles, such as a *carpet of flying*, allow you to travel more swiftly.\n\n**Table- Travel Pace**\n\n**Distance Traveled Per ...**\n\n| Pac"
+    },
+    {
+      "rank": 5,
+      "score": 0.03149801587301587,
+      "category": "Monsters",
+      "topic": "Giant Vulture (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Giant Vulture (Creature).md",
+      "preview": "### Giant Vulture\n\n*Large beast, neutral evil*\n\n**Armor Class** 10\n\n**Hit Points** 22 (3d10+6)\n\n**Speed** 10 ft., fly 60 ft.\n\n| STR     | DEX     | CON     | INT    | WIS     | CHA    |\n|---------|---"
+    },
+    {
+      "rank": 6,
+      "score": 0.031024531024531024,
+      "category": "Monsters",
+      "topic": "Eagle (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Eagle (Creature).md",
+      "preview": "###### Actions\n\n***Talons***. *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4+2) slashing damage."
+    },
+    {
+      "rank": 7,
+      "score": 0.03055037313432836,
+      "category": "Monsters",
+      "topic": "Giant Owl (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Giant Owl (Creature).md",
+      "preview": "### Giant Owl\n\n*Large beast, neutral*\n\n**Armor Class** 12\n\n**Hit Points** 19 (3d10+3)\n\n**Speed** 5 ft., fly 60 ft.\n\n| STR     | DEX     | CON     | INT    | WIS     | CHA     |\n|---------|---------|--"
+    },
+    {
+      "rank": 8,
+      "score": 0.030536130536130537,
+      "category": "Monsters",
+      "topic": "Giant Crocodile (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Giant Crocodile (Creature).md",
+      "preview": "### Giant Crocodile\n\n*Huge beast, unaligned*\n\n**Armor Class** 14 (natural armor)\n\n**Hit Points** 85 (9d12+27)\n\n**Speed** 30 ft., swim 50 ft.\n\n| STR     | DEX    | CON     | INT    | WIS     | CHA    |"
+    },
+    {
+      "rank": 9,
+      "score": 0.030090497737556562,
+      "category": "Gameplay",
+      "topic": "Adventuring",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Adventuring.md",
+      "preview": "### Travel Pace\n\nWhile traveling, a group of adventurers can move at a normal, fast, or slow pace, as shown on the Travel Pace table. The table states how far the party can move in a period of time an"
+    },
+    {
+      "rank": 10,
+      "score": 0.029877369007803793,
+      "category": "Monsters",
+      "topic": "Giant Spider (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Giant Spider (Creature).md",
+      "preview": "### Giant Spider\n\n*Large beast, unaligned*\n\n**Armor Class** 14 (natural armor)\n\n**Hit Points** 26 (4d10+4)\n\n**Speed** 30 ft., climb 30 ft.\n\n| STR     | DEX     | CON     | INT    | WIS     | CHA    |\n"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3096,
+    "rag_completion": 3573,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 6669
+  },
+  "costs": {
+    "rag": 0.00101943,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00101943
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 24.47,
+    "total_s": 30.65
+  },
+  "answer": " The movement speed of a Giant Eagle is 10 ft. on the ground and 80 ft. in the air.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06639344262295083
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and relevant, providing the same information as the reference answer in a clear and concise manner."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context directly addresses the query about the movement speed of a Giant Eagle. It provides specific information stating that the Giant Eagle has a speed of 10 ft. and can fly at 80 ft. This is relevant and directly answers the question posed.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides all the necessary information to fully answer the query regarding the movement speed of a Giant Eagle. The details about its speed are clearly stated, and no additional information is required to understand the answer.\n\n**Feedback:**\nThe retrieved context is highly relevant to the query, as it not only matches the subject matter but also provides a complete answer regarding the movement speed of a Giant Eagle. The information is clear and concise, making it easy for the user to understand the answer without needing further clarification.\n\n[RESULT] 4.0"
+    }
+  }
+}

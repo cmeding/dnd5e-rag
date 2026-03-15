@@ -1,0 +1,66 @@
+{
+  "query_id": "query_010",
+  "session_id": "61-context-consolidation-Overnight-30q-v1-20260315-145355",
+  "timestamp": "2026-03-15T14:56:19.417784",
+  "query": {
+    "original": "Does being charmed prevent a creature from attacking non-charmers?",
+    "used": "Does being charmed prevent a creature from attacking non-charmers?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, a charmed creature is unable to attack its charmer or target the charmer with harmful abilities or magical effects. However, being charmed does not inherently preven"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1365,
+    "rag_completion": 4680,
+    "meta_prompt": 2701,
+    "meta_completion": 234,
+    "total_calls": 2,
+    "total": 8980
+  },
+  "costs": {
+    "rag": 0.00103935,
+    "meta": 0.0005455499999999999,
+    "embed": 0.0,
+    "total": 0.0015849
+  },
+  "timings": {
+    "rag_s": 9.1,
+    "query_s": 11.69,
+    "total_s": 18.14
+  },
+  "answer": " No, being charmed does not prevent a creature from attacking non-charmers. The charm effect only restricts actions directed at the charmer.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and fully correct, accurately reflecting the mechanics of the charmed condition as described in the reference answer."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query regarding whether being charmed prevents a creature from attacking non-charmers. It clearly states that a charmed creature cannot attack its charmer but is free to attack other targets. This directly answers the user's question and provides relevant information about the mechanics of charm effects in Dungeons & Dragons 5th Edition.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a complete answer to the query. It explains the limitations imposed by the charm effect and clarifies that the creature is not restricted from attacking non-charmers. The additional examples of spells that charm creatures further enhance the understanding of the mechanics involved, but the core answer is sufficiently covered without needing further information.\n\n**Feedback:** The response effectively matches the query and provides a comprehensive answer. It explains the mechanics of charm effects clearly and includes relevant examples that enhance understanding. The information is accurate and aligns well with the rules of Dungeons & Dragons 5th Edition.\n\n[RESULT] 4.0"
+    }
+  }
+}

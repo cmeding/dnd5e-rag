@@ -1,0 +1,130 @@
+{
+  "query_id": "query_028",
+  "session_id": "91-combined-sentwindow-best-Overnight-30q-v1-20260315-160740",
+  "timestamp": "2026-03-15T16:21:22.062906",
+  "query": {
+    "original": "Can a creature with a fly speed of 0 feet due to the restrained condition still hover?",
+    "used": "Can a creature with a fly speed of 0 feet from the restrained condition still hover in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06639344262295081,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Restrained\n\n- A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n"
+    },
+    {
+      "rank": 2,
+      "score": 0.04769119769119769,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "If a flying creature is knocked prone, has its speed reduced to 0, or is otherwise deprived of the ability to move, the creature falls, unless it has the ability to hover or it is being held aloft by "
+    },
+    {
+      "rank": 3,
+      "score": 0.04697234084890787,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "For example, if you have a speed of 30 and a flying speed of 60 because a wizard cast the *fly* spell on you, you could fly 20 feet, then walk 10 feet, and then leap into the air to fly 30 feet more.\n"
+    },
+    {
+      "rank": 4,
+      "score": 0.032266458495966696,
+      "category": "Treasure",
+      "topic": "Potion of Flying",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Potion of Flying.md",
+      "preview": "### Potion of Flying\n\n*Potion, very rare*\n\nWhen you drink this potion, you gain a flying speed equal to your walking speed for 1 hour and can hover. "
+    },
+    {
+      "rank": 5,
+      "score": 0.03200204813108039,
+      "category": "Spells",
+      "topic": "Animate Objects",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Animate Objects.md",
+      "preview": "Its speed is\n\n30 feet; if the object lacks legs or other appendages it can use for locomotion, it instead has a flying speed of 30 feet and can hover. "
+    },
+    {
+      "rank": 6,
+      "score": 0.01639344262295082,
+      "category": "Monsters",
+      "topic": "Vampire",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Vampire.md",
+      "preview": "It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. "
+    },
+    {
+      "rank": 7,
+      "score": 0.016129032258064516,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "Some monsters have the ability to **hover**, which makes them hard to knock out of the air (as explained in the rules on flying in the *Player's Handbook*). "
+    },
+    {
+      "rank": 8,
+      "score": 0.016129032258064516,
+      "category": "Classes",
+      "topic": "Wizard",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Wizard.md",
+      "preview": "#### Hit Points\n\n**Hit Dice:** 1d6 per wizard level\n\n**Hit Points at 1st Level:** 6 + your Constitution modifier\n\n**Hit Points at Higher Levels:** 1d6 (or 4) + your Constitution modifier per wizard le"
+    },
+    {
+      "rank": 9,
+      "score": 0.015625,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "If there's nowhere to move, the creature can use the Dodge action.\n\n"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2756,
+    "rag_completion": 3676,
+    "meta_prompt": 63,
+    "meta_completion": 25,
+    "total_calls": 3,
+    "total": 6520
+  },
+  "costs": {
+    "rag": 0.0010016,
+    "meta": 2.4449999999999998e-05,
+    "embed": 0.0,
+    "total": 0.0010260500000000001
+  },
+  "timings": {
+    "rag_s": 16.04,
+    "query_s": 21.99,
+    "total_s": 31.36
+  },
+  "answer": " I cannot find this in the provided rules whether a creature with a fly speed of 0 feet from the restrained condition can still hover or not. The rules only mention that a flying creature falls when its speed is reduced to 0 or it is deprived of the ability to move, unless it has the ability to hover or is being held aloft by magic. However, the rules do not specify whether the restrained condition affects a creature's ability to hover.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06639344262295081
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains inaccuracies and lacks clarity. It correctly identifies that a creature with a fly speed of 0 cannot move, but it fails to clearly state that the ability to hover depends on whether the creature has the hover trait, which is a key point in the reference answer."
+    },
+    "context_relevancy": {
+      "score": 0.625,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context does address the subject matter of the user's query regarding the restrained condition and its effects on a creature's ability to move, specifically in relation to flying. It mentions that a restrained creature's speed becomes 0 and cannot benefit from any speed bonuses. It also discusses the implications of being knocked prone or having speed reduced to 0 for flying creatures, including the ability to hover. This is relevant to the query about whether a creature with a fly speed of 0 can still hover. However, it does not explicitly state that a creature with a fly speed of 0 due to being restrained can hover, which is a key aspect of the query.\n\n   **Score: 1.5/2** - The context is mostly relevant but lacks a direct answer to the specific question about hovering while restrained.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The context provides important information about the restrained condition and the mechanics of flying, but it does not fully answer the query. While it indicates that a creature with a fly speed of 0 cannot move, it does not clarify whether a creature can still hover under those circumstances. The mention of hovering abilities is present, but it does not directly connect to the situation of being restrained. Therefore, while the context is useful, it cannot be used exclusively to provide a complete answer to the user's query.\n\n   **Score: 1/2** - The context provides some relevant information but does not fully answer the question regarding hovering while restrained.\n\n**Final Result:** [RESULT] 2.5"
+    }
+  }
+}

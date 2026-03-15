@@ -1,0 +1,138 @@
+{
+  "query_id": "query_002",
+  "session_id": "50-transform-rewrite-Overnight-30q-v1-20260315-141412",
+  "timestamp": "2026-03-15T14:14:34.644073",
+  "query": {
+    "original": "What is the Armor Class of an Aboleth?",
+    "used": "What is the Armor Class of an Aboleth in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Equipment",
+      "topic": "Armor",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Armor.md",
+      "preview": "# Armor\n\nFantasy gaming worlds are a vast tapestry made up of many different cultures, each with its own technology level. For this reason, adventurers have access to a variety of armor types, ranging"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "## Armor Class\n\nA monster that wears armor or carries a shield has an Armor Class (AC) that takes its armor, shield, and Dexterity into account. Otherwise, a monster's AC is based on its Dexterity mod"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Monsters",
+      "topic": "Aboleth",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Aboleth.md",
+      "preview": "## Aboleth\n\n*Large aberration, lawful evil*\n\n**Armor Class** 17 (natural armor)\n\n**Hit Points** 135 (18d10+36)\n\n**Speed** 10 ft., swim 40 ft.\n\n| STR     | DEX    | CON     | INT     | WIS     | CHA   "
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Monsters",
+      "topic": "Animated Armor (Animated Object)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Animated Armor (Animated Object).md",
+      "preview": "### Animated Armor (Animated Object)\n\n*Medium construct, unaligned*\n\n**Armor Class** 18 (natural armor)\n\n**Hit Points** 33 (6d8+6)\n\n**Speed** 25 ft.\n\n| STR     | DEX     | CON     | INT    | WIS    | "
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Spells",
+      "topic": "Mage Armor",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Mage Armor.md",
+      "preview": "### Mage Armor\n\n*1st-level abjuration*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S, M (a piece of cured leather)\n\n**Duration:** 8 hours\n\nYou touch a willing creature who isn't "
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Equipment",
+      "topic": "Armor",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Armor.md",
+      "preview": "## Heavy Armor\n\nOf all the armor categories, heavy armor offers the best protection. These suits of armor cover the entire body and are designed to stop a wide range of attacks. Only proficient warrio"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "### Unarmored Defense\n\nWhile you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit."
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Equipment",
+      "topic": "Armor",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Armor.md",
+      "preview": "## Light Armor\n\nMade from supple and thin materials, light armor favors agile adventurers since it offers some protection without sacrificing mobility. If you wear light armor, you add your Dexterity "
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Gamemastering",
+      "topic": "Objects",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Objects.md",
+      "preview": "## Statistics for Objects\n\nWhen time is a factor, you can assign an Armor Class and hit points to a destructible object. You can also give it immunities, resistances, and vulnerabilities to specific t"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Classes",
+      "topic": "Druid",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Druid.md",
+      "preview": "#### Equipment\n\nYou start with the following equipment, in addition to the equipment granted by your background:\n\n- (*a*) a wooden shield or (*b*) any simple weapon\n- (*a*) a scimitar or (*b*) any sim"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3819,
+    "rag_completion": 4096,
+    "meta_prompt": 55,
+    "meta_completion": 18,
+    "total_calls": 2,
+    "total": 7988
+  },
+  "costs": {
+    "rag": 0.0011983299999999998,
+    "meta": 1.9050000000000002e-05,
+    "embed": 0.0,
+    "total": 0.00121738
+  },
+  "timings": {
+    "rag_s": 0.86,
+    "query_s": 1.98,
+    "total_s": 11.08
+  },
+  "answer": " I cannot find the Armor Class of an Aboleth in the provided rules.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer is not relevant to the user query as it fails to provide the requested information about the Armor Class of an Aboleth in DnD 5e."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context includes specific information about the Armor Class of an Aboleth in DnD 5e. It states that the Aboleth has an Armor Class of 17 (natural armor), which directly answers the user's query.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a complete answer to the query regarding the Armor Class of an Aboleth. The relevant information is clearly stated without the need for additional context or information.\n\n**Feedback:**\nThe retrieved context is highly relevant and directly addresses the user's question about the Armor Class of an Aboleth. It provides the specific value needed (17) and clarifies that this is due to its natural armor. There are no extraneous details that detract from the answer, making it straightforward and complete.\n\nFinal result: [RESULT] 4.0"
+    }
+  }
+}

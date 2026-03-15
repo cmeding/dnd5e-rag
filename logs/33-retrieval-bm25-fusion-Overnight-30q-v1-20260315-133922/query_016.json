@@ -1,0 +1,138 @@
+{
+  "query_id": "query_016",
+  "session_id": "33-retrieval-bm25-fusion-Overnight-30q-v1-20260315-133922",
+  "timestamp": "2026-03-15T13:45:57.686055",
+  "query": {
+    "original": "Does a natural 20 on an attack roll automatically deal maximum damage?",
+    "used": "Does a natural 20 on an attack roll automatically deal maximum damage?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.04814747488101534,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Damage Rolls\n\nEach weapon, spell, and harmful monster ability specifies the damage it deals. You roll the damage die or dice, add any modifiers, and apply the damage to your target. Magic weapons,"
+    },
+    {
+      "rank": 2,
+      "score": 0.047619047619047616,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "# Making an Attack\n\nWhether you're striking with a melee weapon, firing a weapon at range, or making an attack roll as part of a spell, an attack has a simple structure.\n\n- **Choose a target**. Pick a"
+    },
+    {
+      "rank": 3,
+      "score": 0.03333333333333333,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Rolling 1 or 20\n\nSometimes fate blesses or curses a combatant, causing the novice to hit and the veteran to miss.\n\nIf the d20 roll for an attack is a 20, the attack hits regardless of any modifier"
+    },
+    {
+      "rank": 4,
+      "score": 0.03278688524590164,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "### Stroke of Luck\n\nAt 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail "
+    },
+    {
+      "rank": 5,
+      "score": 0.031754032258064516,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Attack Rolls\n\nWhen you make an attack, your attack roll determines whether the attack hits or misses. To make an attack roll, roll a d20 and add the appropriate modifiers. If the total of the roll "
+    },
+    {
+      "rank": 6,
+      "score": 0.031054405392392875,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Damage Types\n\nDifferent attacks, damaging spells, and other harmful effects deal different types of damage. Damage types have no rules of their own, but other rules, such as damage resistance, rel"
+    },
+    {
+      "rank": 7,
+      "score": 0.030536130536130537,
+      "category": "Equipment",
+      "topic": "Weapons",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Weapons.md",
+      "preview": "#### Special Weapons\n\nWeapons with special rules are described here.\n\n***Lance***. You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands "
+    },
+    {
+      "rank": 8,
+      "score": 0.030536130536130537,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Critical Hits\n\nWhen you score a critical hit, you get to roll extra dice for the attack's damage against the target. Roll all of the attack's damage dice twice and add them together. Then add any "
+    },
+    {
+      "rank": 9,
+      "score": 0.029411764705882353,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Death Saving Throws\n\nWhenever you start your turn with 0 hit points, you must make a special saving throw, called a death saving throw, to determine whether you creep closer to death or hang onto "
+    },
+    {
+      "rank": 10,
+      "score": 0.02919863597612958,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "# Underwater Combat\n\nWhen adventurers pursue sahuagin back to their undersea homes, fight off sharks in an ancient shipwreck, or find themselves in a flooded dungeon room, they must fight in a challen"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3631,
+    "rag_completion": 4350,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 7981
+  },
+  "costs": {
+    "rag": 0.00122591,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00122591
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 18.53,
+    "total_s": 25.88
+  },
+  "answer": " Yes, a natural 20 on an attack roll allows you to add your ability modifier (which is added to the damage) to the maximum damage specified for the weapon or spell.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.04814747488101534
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains a significant mistake by stating that a natural 20 allows for maximum damage, which is incorrect. It misrepresents the mechanics of critical hits in DnD 5e."
+    },
+    "context_relevancy": {
+      "score": 0.75,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context discusses critical hits, which are relevant to the user's query about whether a natural 20 on an attack roll automatically deals maximum damage. It explains that a natural 20 results in a critical hit, and it provides details on how damage is calculated for critical hits, including rolling extra dice for damage.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - No, while the context provides information about critical hits and how damage is calculated, it does not explicitly state that a natural 20 automatically deals maximum damage. Instead, it indicates that you roll extra damage dice for a critical hit, which implies that the damage is not automatically maximized but rather increased by rolling additional dice. Therefore, the context does not fully answer the query.\n\n**Feedback Summary:**\nThe retrieved context is relevant to the query as it discusses critical hits, which are directly related to rolling a natural 20. However, it does not provide a complete answer to the user's question about whether a natural 20 results in maximum damage, as it focuses on rolling extra dice instead. \n\nFinal Result: [RESULT] 3.0"
+    }
+  }
+}

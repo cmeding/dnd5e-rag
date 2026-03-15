@@ -1,0 +1,138 @@
+{
+  "query_id": "query_008",
+  "session_id": "32-retrieval-fusion-3q-Overnight-30q-v1-20260315-133132",
+  "timestamp": "2026-03-15T13:33:17.229175",
+  "query": {
+    "original": "Can a restrained creature still make attack rolls?",
+    "used": "Can a restrained creature still make attack rolls?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.04972677595628415,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Restrained\n\n- A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- Attack rolls against the creature have advantage, and the creature's attack rolls have dis"
+    },
+    {
+      "rank": 2,
+      "score": 0.03252247488101534,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Shoving a Creature\n\nUsing the Attack action, you can make a special melee attack to shove a creature, either to knock it prone or push it away from you. If you're able to make multiple attacks wit"
+    },
+    {
+      "rank": 3,
+      "score": 0.030798389007344232,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "# Making an Attack\n\nWhether you're striking with a melee weapon, firing a weapon at range, or making an attack roll as part of a spell, an attack has a simple structure.\n\n- **Choose a target**. Pick a"
+    },
+    {
+      "rank": 4,
+      "score": 0.03076923076923077,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "# Spell Attack Rolls\n\nSome spells require the caster to make an attack roll to determine whether the spell effect hits the intended target. Your attack bonus with a spell attack equals your spellcasti"
+    },
+    {
+      "rank": 5,
+      "score": 0.030330882352941176,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Attack Rolls\n\nWhen you make an attack, your attack roll determines whether the attack hits or misses. To make an attack roll, roll a d20 and add the appropriate modifiers. If the total of the roll "
+    },
+    {
+      "rank": 6,
+      "score": 0.029857397504456328,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Knocking a Creature Out\n\nSometimes an attacker wants to incapacitate a foe, rather than deal a killing blow. When an attacker reduces a creature to 0 hit points with a melee attack, the attacker ca"
+    },
+    {
+      "rank": 7,
+      "score": 0.016666666666666666,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "#### Opportunity Attacks\n\nIn a fight, everyone is constantly watching for a chance to strike an enemy who is fleeing or passing by. Such a strike is called an opportunity attack.\n\nYou can make an oppo"
+    },
+    {
+      "rank": 8,
+      "score": 0.01639344262295082,
+      "category": "Equipment",
+      "topic": "Weapons",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Weapons.md",
+      "preview": "#### Special Weapons\n\nWeapons with special rules are described here.\n\n***Lance***. You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands "
+    },
+    {
+      "rank": 9,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Paralyzed\n\n- A paralyzed creature is incapacitated (see the condition) and can't move or speak.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the c"
+    },
+    {
+      "rank": 10,
+      "score": 0.016129032258064516,
+      "category": "Spells",
+      "topic": "Confusion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Confusion.md",
+      "preview": "### Confusion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 90 feet\n\n**Components:** V, S, M (three nut shells)\n\n**Duration:** Concentration, up to 1 minute\n\nThis spell assaults and"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3411,
+    "rag_completion": 3838,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 7249
+  },
+  "costs": {
+    "rag": 0.00110443,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00110443
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 7.92,
+    "total_s": 15.06
+  },
+  "answer": " According to the provided context, a restrained creature has disadvantage on its attack rolls. Therefore, it can still make attack rolls, but they will have disadvantage.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.04972677595628415
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer correctly states that a restrained creature can still make attack rolls and that those rolls have disadvantage. However, it does not mention that attack rolls against the restrained creature have advantage, which is part of the complete understanding of the condition."
+    },
+    "context_relevancy": {
+      "score": 0.75,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context discusses the \"restrained\" condition in detail, which is directly relevant to the user's query about whether a restrained creature can make attack rolls. It specifically states that a restrained creature's attack rolls have disadvantage, which implies that they can still make attack rolls, albeit with a penalty.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Partially. While the context provides information about the disadvantage on attack rolls for a restrained creature, it does not explicitly state that a restrained creature can still make attack rolls. However, the implication is clear from the context provided. Therefore, while it does not fully answer the question in a straightforward manner, it does provide enough information to infer the answer.\n\n**Feedback Summary:**\nThe retrieved context is relevant to the query as it discusses the restrained condition, which is the focus of the user's question. However, it lacks a direct statement confirming that a restrained creature can still make attack rolls, which would have made the answer more complete. Thus, while the context is useful, it does not fully answer the question without some inference.\n\nFinal Result: [RESULT] 3.0"
+    }
+  }
+}

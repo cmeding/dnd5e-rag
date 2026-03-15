@@ -1,0 +1,51 @@
+{
+  "query_id": "query_021",
+  "session_id": "10-baseline-no-rag-Overnight-30q-v1-20260315-034305",
+  "timestamp": "2026-03-15T03:46:52.728547",
+  "query": {
+    "original": "What is the casting time of the Wish spell?",
+    "used": "What is the casting time of the Wish spell?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 279,
+    "rag_completion": 636,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 915
+  },
+  "costs": {
+    "rag": 0.00015152999999999998,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00015152999999999998
+  },
+  "timings": {
+    "rag_s": null,
+    "query_s": 8.5,
+    "total_s": 9.98
+  },
+  "answer": " The casting time for the Wish spell is not specified in the basic text of the spell in the Player's Handbook (5th edition Advanced Dungeons & Dragons). Instead, it states that \"You must present the DM with a description of the item or effect you desire, along with an indication of why you want it.\" The DM then determines the casting time, which can range from instantaneous to 1 hour or more, depending on the complexity and power of the wish. This is to give the DM flexibility in balancing the power of the wish spell within the context of their campaign.",
+  "refused": false,
+  "confidence": {
+    "passed": null,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query about the casting time of the Wish spell, but it contains significant inaccuracies. The casting time of the Wish spell is indeed 1 action, which is not mentioned in the generated answer. Instead, it incorrectly suggests that the casting time is not specified and can vary, which is misleading."
+    },
+    "context_relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    }
+  }
+}

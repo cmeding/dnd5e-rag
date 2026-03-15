@@ -1,0 +1,66 @@
+{
+  "query_id": "query_021",
+  "session_id": "93-kitchen-sink-Overnight-30q-v1-20260315-163650",
+  "timestamp": "2026-03-15T16:43:56.513184",
+  "query": {
+    "original": "What is the casting time of the Wish spell?",
+    "used": "What is the casting time for the Wish spell in Dungeons & Dragons 5th Edition?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, the *Wish* spell is a 9th-level conjuration with a casting time of **1 action**. It allows the caster to alter reality according to their desires by simply speaking "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2410,
+    "rag_completion": 7172,
+    "meta_prompt": 3976,
+    "meta_completion": 267,
+    "total_calls": 4,
+    "total": 13825
+  },
+  "costs": {
+    "rag": 0.0016277800000000001,
+    "meta": 0.0007566000000000001,
+    "embed": 0.0,
+    "total": 0.00238438
+  },
+  "timings": {
+    "rag_s": 10.54,
+    "query_s": 11.88,
+    "total_s": 18.5
+  },
+  "answer": " The casting time for the Wish spell in Dungeons & Dragons 5th Edition is 1 action.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly answers the user query with the same information as the reference answer."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the user's query about the casting time of the *Wish* spell in Dungeons & Dragons 5th Edition. It clearly states that the casting time is **1 action**, which is the specific information requested.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a complete answer to the user's query regarding the casting time of the *Wish* spell. While it includes additional information about the spell's effects and risks, the essential detail about the casting time is present and can stand alone to answer the question.\n\n**Feedback:**  \nThe retrieved context is highly relevant and directly answers the query about the casting time of the *Wish* spell. It provides the necessary information succinctly and accurately. The additional details about the spell's effects and potential risks, while not required to answer the query, enhance the understanding of the spell's context within the game. Therefore, the response is comprehensive and informative.\n\n[RESULT] 4.0"
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "query_id": "query_004",
+  "session_id": "33-retrieval-bm25-fusion-Overnight-30q-v1-20260315-133922",
+  "timestamp": "2026-03-15T13:40:57.511086",
+  "query": {
+    "original": "How long does the Haste spell last?",
+    "used": "How long does the Haste spell last?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06666666666666667,
+      "category": "Spells",
+      "topic": "Haste",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Haste.md",
+      "preview": "### Haste\n\n*3rd-level transmutation*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S, M (a shaving of licorice root)\n\n**Duration:** Concentration, up to 1 minute\n\nChoose a willin"
+    },
+    {
+      "rank": 2,
+      "score": 0.04692742126540875,
+      "category": "Spells",
+      "topic": "Modify Memory",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Modify Memory.md",
+      "preview": "### Modify Memory\n\n*5th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou attempt to reshape another creature's"
+    },
+    {
+      "rank": 3,
+      "score": 0.03278688524590164,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "## Duration\n\nA spell's duration is the length of time the spell persists. A duration can be expressed in rounds, minutes, hours, or even years. Some spells specify that their effects last until the sp"
+    },
+    {
+      "rank": 4,
+      "score": 0.031746031746031744,
+      "category": "Spells",
+      "topic": "Geas",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Geas.md",
+      "preview": "### Geas\n\n*5th-level enchantment*\n\n**Casting Time:** 1 minute\n\n**Range:** 60 feet\n\n**Components:** V\n\n**Duration:** 30 days\n\nYou place a magical command on a creature that you can see within range, fo"
+    },
+    {
+      "rank": 5,
+      "score": 0.03131881575727918,
+      "category": "Spells",
+      "topic": "## Spell Lists",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists.md",
+      "preview": "#### 3rd Level\n\n- Blink\n- Clairvoyance\n- Counterspell\n- Daylight\n- Dispel Magic\n- Fear\n- Fireball\n- Fly\n- Gaseous Form\n- Haste\n- Hypnotic Pattern\n- Lightning Bolt\n- Major Image\n- Protection from Energ"
+    },
+    {
+      "rank": 6,
+      "score": 0.03128054740957967,
+      "category": "Classes",
+      "topic": "Sorcerer",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Sorcerer.md",
+      "preview": "#### Extended Spell\n\nWhen you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours."
+    },
+    {
+      "rank": 7,
+      "score": 0.030621785881252923,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### 3rd Level\n\n- [[Blink]]\n- [[Clairvoyance]]\n- [[Counterspell]]\n- [[Daylight]]\n- [[Dispel Magic]]\n- [[Fear]]\n- [[Fireball]]\n- [[Fly]]\n- [[Gaseous Form]]\n- [[Haste]]\n- [[Hypnotic Pattern]]\n- [[Lightn"
+    },
+    {
+      "rank": 8,
+      "score": 0.029857397504456328,
+      "category": "Spells",
+      "topic": "Planar Binding",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Planar Binding.md",
+      "preview": "### Planar Binding\n\n*5th-level abjuration*\n\n**Casting Time:** 1 hour\n\n**Range:** 60 feet\n\n**Components:** V, S, M (a jewel worth at least 1,000 gp, which the spell consumes)\n\n**Duration:** 24 hours\n\nW"
+    },
+    {
+      "rank": 9,
+      "score": 0.01639344262295082,
+      "category": "Gamemastering",
+      "topic": "Traps",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Traps.md",
+      "preview": "## Traps in Play\n\nWhen adventurers come across a trap, you need to know how the trap is triggered and what it does, as well as the possibility for the characters to detect the trap and to disable or a"
+    },
+    {
+      "rank": 10,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Madness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Madness.md",
+      "preview": "## Madness Effects\n\nMadness can be short-term, long-term, or indefinite. Most relatively mundane effects impose short-term madness, which lasts for just a few minutes. More horrific effects or cumulat"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3617,
+    "rag_completion": 4183,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 7800
+  },
+  "costs": {
+    "rag": 0.00119264,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00119264
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 15.81,
+    "total_s": 20.87
+  },
+  "answer": " The Haste spell lasts for a duration of concentration, up to 1 minute. (From the provided context)",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06666666666666667
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and fully correct, accurately stating the duration of the Haste spell and that it requires concentration."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context includes information about the Haste spell, specifically its duration, which is \"Concentration, up to 1 minute.\" This directly answers the user's query about how long the Haste spell lasts.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a complete answer regarding the duration of the Haste spell without needing additional information. The relevant section clearly states the duration, making it sufficient to fully address the user's question.\n\n**Feedback Summary:**\nThe retrieved context is highly relevant and directly answers the query about the duration of the Haste spell. It provides all necessary details without requiring further information. Therefore, both criteria are met.\n\n[RESULT] 4.0"
+    }
+  }
+}

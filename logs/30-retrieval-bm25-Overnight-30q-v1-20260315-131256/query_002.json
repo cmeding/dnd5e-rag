@@ -1,0 +1,138 @@
+{
+  "query_id": "query_002",
+  "session_id": "30-retrieval-bm25-Overnight-30q-v1-20260315-131256",
+  "timestamp": "2026-03-15T13:13:13.610575",
+  "query": {
+    "original": "What is the Armor Class of an Aboleth?",
+    "used": "What is the Armor Class of an Aboleth?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.03333333333333333,
+      "category": "Monsters",
+      "topic": "Aboleth",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Aboleth.md",
+      "preview": "## Aboleth\n\n*Large aberration, lawful evil*\n\n**Armor Class** 17 (natural armor)\n\n**Hit Points** 135 (18d10+36)\n\n**Speed** 10 ft., swim 40 ft.\n\n| STR     | DEX    | CON     | INT     | WIS     | CHA   "
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "## Armor Class\n\nA monster that wears armor or carries a shield has an Armor Class (AC) that takes its armor, shield, and Dexterity into account. Otherwise, a monster's AC is based on its Dexterity mod"
+    },
+    {
+      "rank": 3,
+      "score": 0.01639344262295082,
+      "category": "Monsters",
+      "topic": "Aboleth",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Aboleth.md",
+      "preview": "###### Legendary Actions\n\nThe aboleth can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's tu"
+    },
+    {
+      "rank": 4,
+      "score": 0.016129032258064516,
+      "category": "Equipment",
+      "topic": "Armor",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Armor.md",
+      "preview": "## Heavy Armor\n\nOf all the armor categories, heavy armor offers the best protection. These suits of armor cover the entire body and are designed to stop a wide range of attacks. Only proficient warrio"
+    },
+    {
+      "rank": 5,
+      "score": 0.016129032258064516,
+      "category": "Monsters",
+      "topic": "Aboleth",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Aboleth.md",
+      "preview": "###### Actions\n\n***Multiattack***. The aboleth makes three tentacle attacks.\n\n***Tentacle***. *Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:* 12 (2d6+5) bludgeoning damage. If the t"
+    },
+    {
+      "rank": 6,
+      "score": 0.015873015873015872,
+      "category": "Equipment",
+      "topic": "Armor",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Armor.md",
+      "preview": "## Medium Armor\n\nMedium armor offers more protection than light armor, but it also impairs movement more. If you wear medium armor, you add your Dexterity modifier, to a maximum of +2, to the base num"
+    },
+    {
+      "rank": 7,
+      "score": 0.015873015873015872,
+      "category": "Treasure",
+      "topic": "Glamoured Studded Leather",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Glamoured Studded Leather.md",
+      "preview": "### Glamoured Studded Leather\n\n*Armor (studded leather), rare*\n\nWhile wearing this armor, you gain a +1 bonus to AC. You can also use a bonus action to speak the armor's command word and cause the arm"
+    },
+    {
+      "rank": 8,
+      "score": 0.015625,
+      "category": "Gamemastering",
+      "topic": "Objects",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Objects.md",
+      "preview": "## Statistics for Objects\n\nWhen time is a factor, you can assign an Armor Class and hit points to a destructible object. You can also give it immunities, resistances, and vulnerabilities to specific t"
+    },
+    {
+      "rank": 9,
+      "score": 0.015625,
+      "category": "Monsters",
+      "topic": "Homunculus",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Homunculus.md",
+      "preview": "## Homunculus\n\n*Tiny construct, neutral*\n\n**Armor Class** 13 (natural armor)\n\n**Hit Points** 5 (2d4)\n\n**Speed** 20 ft., fly 40 ft.\n\n| STR    | DEX     | CON     | INT     | WIS     | CHA    |\n|-------"
+    },
+    {
+      "rank": 10,
+      "score": 0.015384615384615385,
+      "category": "Equipment",
+      "topic": "Armor",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Armor.md",
+      "preview": "# Armor\n\nFantasy gaming worlds are a vast tapestry made up of many different cultures, each with its own technology level. For this reason, adventurers have access to a variety of armor types, ranging"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3897,
+    "rag_completion": 4034,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 7931
+  },
+  "costs": {
+    "rag": 0.00119513,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00119513
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 2.24,
+    "total_s": 7.82
+  },
+  "answer": " The Armor Class of an Aboleth is 17. (from the context provided)",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.03333333333333333
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly answers the user query regarding the Armor Class of an Aboleth, matching the reference answer perfectly."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context directly addresses the query by providing the Armor Class of an Aboleth, which is stated as 17 (natural armor). This is the specific information requested in the query.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a complete answer to the query. The Armor Class of the Aboleth is clearly stated without the need for additional information or context. The details surrounding the Aboleth's other statistics, while informative, are not necessary to answer the specific question about its Armor Class.\n\n**Feedback Summary:**\nThe retrieved context is highly relevant and directly answers the user's query about the Armor Class of an Aboleth. It provides the exact information needed without requiring further elaboration or context. Therefore, both criteria are met fully.\n\n[RESULT] 4.0"
+    }
+  }
+}

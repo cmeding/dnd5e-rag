@@ -1,0 +1,138 @@
+{
+  "query_id": "query_026",
+  "session_id": "30-retrieval-bm25-Overnight-30q-v1-20260315-131256",
+  "timestamp": "2026-03-15T13:17:53.616378",
+  "query": {
+    "original": "Can an incapacitated creature take reactions?",
+    "used": "Can an incapacitated creature take reactions?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.03333333333333333,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Incapacitated\n\n- An incapacitated creature can't take actions or reactions."
+    },
+    {
+      "rank": 2,
+      "score": 0.032018442622950824,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "# Reactions\n\nCertain special abilities, spells, and situations allow you to take a special action called a reaction. A reaction is an instant response to a trigger of some kind, which can occur on you"
+    },
+    {
+      "rank": 3,
+      "score": 0.028985507246376812,
+      "category": "Gamemastering",
+      "topic": "Poisons",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Poisons.md",
+      "preview": "***Torpor (Ingested)***. A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become poisoned for 4d6 hours. The poisoned creature is incapacitated.\n\n***Truth Serum"
+    },
+    {
+      "rank": 4,
+      "score": 0.01639344262295082,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Stunned\n\n- A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rol"
+    },
+    {
+      "rank": 5,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Paralyzed\n\n- A paralyzed creature is incapacitated (see the condition) and can't move or speak.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the c"
+    },
+    {
+      "rank": 6,
+      "score": 0.016129032258064516,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Ready\n\nSometimes you want to get the jump on a foe or wait for a particular circumstance before you act. To do so, you can take the Ready action on your turn, which lets you act using your reaction"
+    },
+    {
+      "rank": 7,
+      "score": 0.015873015873015872,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Unconscious\n\n- An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings\n- The creature drops whatever it's holding and falls prone.\n- Th"
+    },
+    {
+      "rank": 8,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "### Reactions\n\nSome spells can be cast as reactions. These spells take a fraction of a second to bring about and are cast in response to some event. If a spell can be cast as a reaction, the spell des"
+    },
+    {
+      "rank": 9,
+      "score": 0.015625,
+      "category": "Monsters",
+      "topic": "Gibbering Mouther",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Gibbering Mouther.md",
+      "preview": "## Gibbering Mouther\n\n*Medium aberration, neutral*\n\n**Armor Class** 9\n\n**Hit Points** 67 (9d8+27)\n\n**Speed** 10 ft., swim 10 ft.\n\n| STR     | DEX    | CON     | INT    | WIS     | CHA    |\n|---------|"
+    },
+    {
+      "rank": 10,
+      "score": 0.015384615384615385,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Petrified\n\n- A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of t"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2446,
+    "rag_completion": 2609,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 5055
+  },
+  "costs": {
+    "rag": 0.00076477,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00076477
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 2.3,
+    "total_s": 8.17
+  },
+  "answer": " An incapacitated creature cannot take reactions, as stated in the Conditions.md file under the Gamemastering topic.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.03333333333333333
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and fully correct, accurately stating that an incapacitated creature cannot take reactions and referencing the appropriate source for clarity."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context directly addresses the query regarding whether an incapacitated creature can take reactions. The context explicitly states that \"an incapacitated creature can't take actions or reactions,\" which is a clear and direct answer to the question posed.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a complete answer to the query. It succinctly explains the incapacitated condition and its implications on actions and reactions. There is no need for additional information to understand that an incapacitated creature cannot take reactions.\n\n**Feedback Summary:**\nThe retrieved context is highly relevant and directly answers the user's query. It provides a clear and concise explanation of the incapacitated condition, making it easy for the user to understand the limitations imposed on a creature in that state. The information is sufficient to fully address the question without requiring further elaboration.\n\n[RESULT] 4.0"
+    }
+  }
+}

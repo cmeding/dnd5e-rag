@@ -1,0 +1,138 @@
+{
+  "query_id": "query_030",
+  "session_id": "32-retrieval-fusion-3q-Overnight-30q-v1-20260315-133132",
+  "timestamp": "2026-03-15T13:39:15.738975",
+  "query": {
+    "original": "Can you cast a spell and also make a weapon attack in the same turn without any special features?",
+    "used": "Can you cast a spell and also make a weapon attack in the same turn without any special features?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.04821162444113264,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Other Activity on Your Turn\n\nYour turn can include a variety of flourishes that require neither your action nor your move.\n\nYou can communicate however you are able, through brief utterances and ge"
+    },
+    {
+      "rank": 2,
+      "score": 0.048164682539682535,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Two-Weapon Fighting\n\nWhen you take the Attack action and attack with a light melee weapon that you're holding in one hand, you can use a bonus action to attack with a different light melee weapon "
+    },
+    {
+      "rank": 3,
+      "score": 0.04765107388058208,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "# Making an Attack\n\nWhether you're striking with a melee weapon, firing a weapon at range, or making an attack roll as part of a spell, an attack has a simple structure.\n\n- **Choose a target**. Pick a"
+    },
+    {
+      "rank": 4,
+      "score": 0.032018442622950824,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Damage Rolls\n\nEach weapon, spell, and harmful monster ability specifies the damage it deals. You roll the damage die or dice, add any modifiers, and apply the damage to your target. Magic weapons,"
+    },
+    {
+      "rank": 5,
+      "score": 0.030776515151515152,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "#### Attack Rolls and Damage\n\nYou add your Strength modifier to your attack roll and your damage roll when attacking with a melee weapon such as a mace, a battleaxe, or a javelin. You use melee weapon"
+    },
+    {
+      "rank": 6,
+      "score": 0.029418126757516764,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "## Working Together\n\nSometimes two or more characters team up to attempt a task. The character who's leading the effort-or the one with the highest ability modifier-can make an ability check with adva"
+    },
+    {
+      "rank": 7,
+      "score": 0.016666666666666666,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "### Bonus Action\n\nA spell cast with a bonus action is especially swift. You must use a bonus action on your turn to cast the spell, provided that you haven't already taken a bonus action this turn. Yo"
+    },
+    {
+      "rank": 8,
+      "score": 0.016129032258064516,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "### Innate Spellcasting\n\nA monster with the innate ability to cast spells has the Innate Spellcasting special trait. Unless noted otherwise, an innate spell of 1st level or higher is always cast at it"
+    },
+    {
+      "rank": 9,
+      "score": 0.016129032258064516,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "## Contests\n\nSometimes one character's or monster's efforts are directly opposed to another's. This can occur when both of them are trying to do the same thing and only one can succeed, such as attemp"
+    },
+    {
+      "rank": 10,
+      "score": 0.016129032258064516,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Melee Attacks\n\nUsed in hand-to-hand combat, a melee attack allows you to attack a foe within your reach. A melee attack typically uses a handheld weapon such as a sword, a warhammer, or an axe. A t"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3296,
+    "rag_completion": 3831,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 7127
+  },
+  "costs": {
+    "rag": 0.00109045,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00109045
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 11.01,
+    "total_s": 20.77
+  },
+  "answer": " I cannot find this in the provided rules about making a weapon attack and casting a spell in the same turn without any special features. The rules only mention that during your turn, you can communicate, interact with one object or feature of the environment, and make an unarmed strike or a weapon attack, but they do not specify if you can do both a weapon attack and cast a spell in the same turn without any additional abilities or features.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.04821162444113264
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains inaccuracies and does not clearly state that you cannot cast a spell and make a weapon attack in the same turn without special features. It also introduces unnecessary complexity by mentioning unarmed strikes and interactions, which detracts from the clarity of the answer."
+    },
+    "context_relevancy": {
+      "score": 0.5,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context discusses various aspects of actions in combat, including making attacks, casting spells, and the use of bonus actions. However, it does not directly address the specific question of whether a character can cast a spell and make a weapon attack in the same turn without any special features. The relevant information about casting spells and making attacks is present, but it lacks a clear answer to the query.\n\n   **Score: 1/2** (The context is somewhat relevant but does not directly answer the question.)\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context provides information about actions, bonus actions, and the rules surrounding them, but it does not explicitly state the rules regarding casting a spell and making a weapon attack in the same turn without special features. The relevant rule is that you can cast a spell as an action and then make a weapon attack if the spell has a casting time of 1 action, but this is not clearly articulated in the retrieved context. Therefore, while some information is present, it cannot be used exclusively to provide a full answer.\n\n   **Score: 1/2** (The context provides some relevant information but does not fully answer the query.)\n\n**Final Result: [RESULT] 2.0**"
+    }
+  }
+}

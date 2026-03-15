@@ -1,0 +1,138 @@
+{
+  "query_id": "query_006",
+  "session_id": "24-index-sentwindow-default-Overnight-30q-v1-20260315-124523",
+  "timestamp": "2026-03-15T12:46:16.713672",
+  "query": {
+    "original": "Can a grappled creature cast spells?",
+    "used": "Can a grappled creature cast spells?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Characterizations",
+      "topic": "Feats",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Feats.md",
+      "preview": "- You can use your action to try to pin a creature grappled by you. "
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Cast a Spell\n\nSpellcasters such as wizards and clerics, as well as many monsters, have access to spells and can use them to great effect in combat. "
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "They might turn an enemy into a harmless creature, bolster the strength of an ally, make an object move at the caster's command, or enhance a creature's innate healing abilities to rapidly recover fro"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "Such spells can make enemies see the caster as a friend, force creatures to take a course of action, or even control another creature like a puppet.\n"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Monsters",
+      "topic": "Couatl",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Couatl.md",
+      "preview": "It can innately cast the following spells, requiring only verbal Components\n\nAt will: *detect evil and good*, *detect magic*, *detect thoughts*\n\n3/day each: *bless*, *create food and water*, *cure wou"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "Some spells can target only a creature (including you) that you touch. "
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "Remember that you have disadvantage on a ranged attack roll if you are within 5 feet of a hostile creature that can see you and that isn't incapacitated.\n\n"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Spells",
+      "topic": "Arcane Hand",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Arcane Hand.md",
+      "preview": "You use the hand's Strength score to resolve the grapple. "
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "Unless a spell has a perceptible effect, a creature might not know it was targeted by a spell at all. "
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "Some characters and monsters have special abilities that let them cast spells without using spell slots. "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1229,
+    "rag_completion": 1383,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 2612
+  },
+  "costs": {
+    "rag": 0.00039796000000000005,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00039796000000000005
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 2.23,
+    "total_s": 8.6
+  },
+  "answer": " The context does not provide information on whether a grappled creature can cast spells or not.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer is not relevant to the user query, as it incorrectly states that there is no information on the ability of a grappled creature to cast spells, while the reference answer clearly states that they can."
+    },
+    "context_relevancy": {
+      "score": 0.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context does not directly address the query about whether a grappled creature can cast spells. While it provides information about spellcasting in general, it does not specifically mention the conditions under which a grappled creature can or cannot cast spells. Therefore, it does not match the subject matter of the user's query.  \n   **Score: 0/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The context does not provide relevant information that could be used to answer the query about a grappled creature's ability to cast spells. It discusses spellcasting in general but lacks any specific details regarding the implications of being grappled on spellcasting. Thus, it cannot be used to provide a full answer to the user's query.  \n   **Score: 0/2**\n\n**Feedback:** The retrieved context fails to address the specific question about whether a grappled creature can cast spells. It provides general information about spellcasting but does not relate to the conditions imposed by grappling. For a more relevant response, the context should include rules or guidelines regarding the effects of grappling on a creature's ability to cast spells.\n\n[RESULT] 0.0"
+    }
+  }
+}

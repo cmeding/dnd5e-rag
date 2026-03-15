@@ -1,0 +1,138 @@
+{
+  "query_id": "query_009",
+  "session_id": "27-index-hierarchical-markdown-Overnight-30q-v1-20260315-130532",
+  "timestamp": "2026-03-15T13:07:47.142958",
+  "query": {
+    "original": "Does the invisible condition prevent a creature from casting spells?",
+    "used": "Does the invisible condition prevent a creature from casting spells?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Incapacitated\n\n- An incapacitated creature can't take actions or reactions.\n\n## Invisible\n\n- An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose "
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "A creature either has a condition or doesn't.\n\nThe following definitions specify what happens to a creature while it is subjected to a condition.\n\n## Blinded\n\n- A blinded creature can't see and automa"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": ">\n>You can't hide from a creature that can see you clearly, and you give away your position if you make noise, such as shouting a warning or knocking over a vase.\n>\n>An invisible creature can always t"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "Sequester",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Sequester.md",
+      "preview": "a willing creature or an object can be hidden away, safe from detection for the duration. When you cast the spell and touch the target, it becomes invisible and can't be targeted by divination spells "
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "# Conditions\n\nConditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. Most conditions, such as blind"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "# Conditions\n\nConditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. Most conditions, such as blind"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "Unless a spell has a perceptible effect, a creature might not know it was targeted by a spell at all. An effect like crackling lightning is obvious, but a more subtle effect, such as an attempt to rea"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "A creature suffers the effect of its current level of exhaustion as well as all lower levels. For example, a creature suffering level 2 exhaustion has its speed halved and has disadvantage on ability "
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Monsters",
+      "topic": "Sprite",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Sprite.md",
+      "preview": "***Invisibility***. The sprite magically turns invisible until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). Any equipment the sprite wears or carries "
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "# Conditions\n\nConditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. Most conditions, such as blind"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 4165,
+    "rag_completion": 4476,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 8641
+  },
+  "costs": {
+    "rag": 0.00130859,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00130859
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 6.09,
+    "total_s": 13.04
+  },
+  "answer": " Based on the provided context, no, the invisible condition does not prevent a creature from casting spells. The text states that an invisible creature is impossible to see without the aid of magic or a special sense, and any equipment the creature wears or carries is also invisible. However, there is no mention of any restrictions on the creature's ability to cast spells while under the invisible condition.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and relevant to the user query, accurately explaining that the invisible condition does not prevent spellcasting and providing additional context about the condition."
+    },
+    "context_relevancy": {
+      "score": 0.5,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context discusses the \"invisible\" condition in detail, explaining what it means for a creature to be invisible and how it affects the creature's interactions in the game. However, it does not explicitly address whether being invisible prevents a creature from casting spells. Therefore, while it is relevant to the topic of invisibility, it does not fully answer the specific query about spellcasting.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - No, the context does not provide a complete answer to the user's query. While it explains the mechanics of the invisible condition, it does not clarify whether a creature can cast spells while under the effect of invisibility. The information provided is insufficient to conclude definitively about spellcasting while invisible.\n\n**Feedback Summary:**\nThe retrieved context is relevant to the subject matter of invisibility but does not directly answer the question regarding spellcasting. It provides useful information about the condition but lacks the specific detail needed to fully address the user's query.\n\n[RESULT] 2.0"
+    }
+  }
+}

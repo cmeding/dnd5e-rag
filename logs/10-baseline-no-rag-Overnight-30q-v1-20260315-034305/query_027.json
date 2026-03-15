@@ -1,0 +1,51 @@
+{
+  "query_id": "query_027",
+  "session_id": "10-baseline-no-rag-Overnight-30q-v1-20260315-034305",
+  "timestamp": "2026-03-15T03:47:52.582437",
+  "query": {
+    "original": "If a creature is immune to the frightened condition, can it still be charmed?",
+    "used": "If a creature is immune to the frightened condition, can it still be charmed?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 287,
+    "rag_completion": 564,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 851
+  },
+  "costs": {
+    "rag": 0.00013873,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00013873
+  },
+  "timings": {
+    "rag_s": null,
+    "query_s": 5.32,
+    "total_s": 6.34
+  },
+  "answer": " Yes, a creature that is immune to the frightened condition can still be charmed. The frightened condition and the charmed condition are two distinct emotional states. Frightened creatures behave in fearful and evasive ways, while charmed creatures are generally friendly and obedient towards their charmer. Therefore, being immune to one condition does not necessarily mean being immune to the other.",
+  "refused": false,
+  "confidence": {
+    "passed": null,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and relevant to the user query, providing a clear explanation of the distinction between the frightened and charmed conditions."
+    },
+    "context_relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    }
+  }
+}

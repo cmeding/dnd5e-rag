@@ -1,0 +1,138 @@
+{
+  "query_id": "query_004",
+  "session_id": "91-combined-sentwindow-best-Overnight-30q-v1-20260315-160740",
+  "timestamp": "2026-03-15T16:09:28.231620",
+  "query": {
+    "original": "How long does the Haste spell last?",
+    "used": "What is the duration of the Haste spell in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06666666666666667,
+      "category": "Spells",
+      "topic": "Haste",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Haste.md",
+      "preview": "### Haste\n\n*3rd-level transmutation*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S, M (a shaving of licorice root)\n\n**Duration:** Concentration, up to 1 minute\n\nChoose a willin"
+    },
+    {
+      "rank": 2,
+      "score": 0.06228216228216228,
+      "category": "Spells",
+      "topic": "Haste",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Haste.md",
+      "preview": "Until the spell ends, the target's speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. "
+    },
+    {
+      "rank": 3,
+      "score": 0.03278688524590164,
+      "category": "Spells",
+      "topic": "Haste",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Haste.md",
+      "preview": "When the spell ends, the target can't move or take actions until after its next turn, as a wave of lethargy sweeps over it."
+    },
+    {
+      "rank": 4,
+      "score": 0.03252247488101534,
+      "category": "Spells",
+      "topic": "Compulsion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Compulsion.md",
+      "preview": "### Compulsion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nCreatures of your choice that you can see wi"
+    },
+    {
+      "rank": 5,
+      "score": 0.03252247488101534,
+      "category": "Spells",
+      "topic": "Bestow Curse",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Bestow Curse.md",
+      "preview": "If you use a spell slot of 5th level or higher, the duration is 8 hours. "
+    },
+    {
+      "rank": 6,
+      "score": 0.03225806451612903,
+      "category": "Spells",
+      "topic": "Haste",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Haste.md",
+      "preview": "That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.\n\n"
+    },
+    {
+      "rank": 7,
+      "score": 0.030776515151515152,
+      "category": "Spells",
+      "topic": "Find the Path",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Find the Path.md",
+      "preview": "For the duration, as long as you are on the same plane of existence as the destination, you know how far it is and in what direction it lies. "
+    },
+    {
+      "rank": 8,
+      "score": 0.03057889822595705,
+      "category": "Spells",
+      "topic": "Bestow Curse",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Bestow Curse.md",
+      "preview": "If you use a spell slot of 7th level or higher, the duration is 24 hours. "
+    },
+    {
+      "rank": 9,
+      "score": 0.03055037313432836,
+      "category": "Spells",
+      "topic": "Dominate Beast",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Dominate Beast.md",
+      "preview": "When you use a 6th-level spell slot, the duration is concentration, up to 1 hour. "
+    },
+    {
+      "rank": 10,
+      "score": 0.029857397504456328,
+      "category": "Spells",
+      "topic": "Dream",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Dream.md",
+      "preview": "### Dream\n\n*5th-level illusion*\n\n**Casting Time:** 1 minute\n\n**Range:** Special\n\n**Components:** V, S, M (a handful of sand, a dab of ink, and a writing quill plucked from a sleeping bird)\n\n**Duration"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1849,
+    "rag_completion": 2454,
+    "meta_prompt": 53,
+    "meta_completion": 17,
+    "total_calls": 3,
+    "total": 4373
+  },
+  "costs": {
+    "rag": 0.00066965,
+    "meta": 1.815e-05,
+    "embed": 0.0,
+    "total": 0.0006878
+  },
+  "timings": {
+    "rag_s": 12.82,
+    "query_s": 13.79,
+    "total_s": 21.73
+  },
+  "answer": " The duration of the Haste spell in DnD 5e is concentration, up to 1 minute.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06666666666666667
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and relevant, accurately stating the duration of the Haste spell and mentioning that it requires concentration."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context includes information specifically about the Haste spell, including its duration, which is the main focus of the user's query. The context clearly states that the duration of the Haste spell is \"Concentration, up to 1 minute.\" This directly answers the user's question.\n\n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides all the necessary information to fully answer the user's query regarding the duration of the Haste spell. The relevant details are clearly presented, and no additional information is needed to understand the duration of the spell. \n\n   **Score: 2 points**\n\n**Final Feedback:** The retrieved context is highly relevant and directly answers the user's query about the duration of the Haste spell in DnD 5e. It provides complete information without requiring any additional context.\n\n[RESULT] 4.0"
+    }
+  }
+}

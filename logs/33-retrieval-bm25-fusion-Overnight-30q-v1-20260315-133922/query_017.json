@@ -1,0 +1,138 @@
+{
+  "query_id": "query_017",
+  "session_id": "33-retrieval-bm25-fusion-Overnight-30q-v1-20260315-133922",
+  "timestamp": "2026-03-15T13:46:25.908704",
+  "query": {
+    "original": "Can you use Action Surge to cast two leveled spells in one turn?",
+    "used": "Can you use Action Surge to cast two leveled spells in one turn?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06612021857923497,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "### Action Surge\n\nStarting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bon"
+    },
+    {
+      "rank": 2,
+      "score": 0.03306010928961749,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "**Table- The Fighter**\n\n| Level | Proficiency Bonus | Features                                          |\n|-------|-------------------|---------------------------------------------------|\n| 1st   | +2"
+    },
+    {
+      "rank": 3,
+      "score": 0.03225806451612903,
+      "category": "Spells",
+      "topic": "Heal",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Heal.md",
+      "preview": "### Heal\n\n*6th-level evocation*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S\n\n**Duration:** Instantaneous\n\nChoose a creature that you can see within range. A surge of positive"
+    },
+    {
+      "rank": 4,
+      "score": 0.031544957774465976,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "### Bonus Action\n\nA spell cast with a bonus action is especially swift. You must use a bonus action on your turn to cast the spell, provided that you haven't already taken a bonus action this turn. Yo"
+    },
+    {
+      "rank": 5,
+      "score": 0.03149801587301587,
+      "category": "Spells",
+      "topic": "Create Undead",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Create Undead.md",
+      "preview": "### Create Undead\n\n*6th-level necromancy*\n\n**Casting Time:** 1 minute\n\n**Range:** 10 feet\n\n**Components:** V, S, M (one clay pot filled with grave dirt, one clay pot filled with brackish water, and on"
+    },
+    {
+      "rank": 6,
+      "score": 0.031024531024531024,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "If you have more than one spellcasting class, this table might give you spell slots of a level that is higher than the spells you know or can prepare. You can use those slots, but only to cast your lo"
+    },
+    {
+      "rank": 7,
+      "score": 0.03055037313432836,
+      "category": "Classes",
+      "topic": "Wizard",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Wizard.md",
+      "preview": "#### Learning Spells of 1st Level and Higher\n\nEach time you gain a wizard level, you can add two wizard spells of your choice to your spellbook for free. Each of these spells must be of a level for wh"
+    },
+    {
+      "rank": 8,
+      "score": 0.030330882352941176,
+      "category": "Classes",
+      "topic": "Sorcerer",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Sorcerer.md",
+      "preview": "#### Flexible Casting\n\nYou can use your sorcery points to gain additional spell slots, or sacrifice spell slots to gain additional sorcery points. You learn other ways to use your sorcery points as yo"
+    },
+    {
+      "rank": 9,
+      "score": 0.030117753623188408,
+      "category": "Spells",
+      "topic": "Slow",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Slow.md",
+      "preview": "### Slow\n\n*3rd-level transmutation*\n\n**Casting Time:** 1 action\n\n**Range:** 120 feet\n\n**Components:** V, S, M (a drop of molasses)\n\n**Duration:** Concentration, up to 1 minute\n\nYou alter time around u"
+    },
+    {
+      "rank": 10,
+      "score": 0.029877369007803793,
+      "category": "Spells",
+      "topic": "Conjure Woodland Beings",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Conjure Woodland Beings.md",
+      "preview": "### Conjure Woodland Beings\n\n*4th-level conjuration*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S, M (one holly berry per creature summoned)\n\n**Duration:** Concentration, up t"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3957,
+    "rag_completion": 4683,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 8640
+  },
+  "costs": {
+    "rag": 0.00132504,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00132504
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 20.42,
+    "total_s": 28.22
+  },
+  "answer": " I cannot find this in the provided rules that you can use Action Surge to cast two leveled spells in one turn. Action Surge only allows you to take one additional action on top of your regular action and a possible bonus action. Casting a spell is considered an action. Therefore, you can only cast one spell with Action Surge per turn.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06612021857923497
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains incorrect information regarding the use of Action Surge and casting leveled spells. It incorrectly states that you can only cast one spell with Action Surge, which contradicts the rules."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context provides information about the Action Surge feature, which is relevant to the user's query about using Action Surge to cast spells. However, it does not directly address the specific question of whether two leveled spells can be cast in one turn using Action Surge. The context does mention that Action Surge allows for an additional action, but it does not clarify the rules regarding casting spells, particularly the limitation on casting two leveled spells in one turn.\n\n   **Score: 1/2** (The context is somewhat relevant but lacks specific information about spell casting rules.)\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does not provide a complete answer to the user's query. While it explains what Action Surge does, it does not include the critical information about the rules governing spell casting, specifically the restriction that a character can only cast one leveled spell per turn unless they are using a bonus action to cast a cantrip. Therefore, the context cannot be used exclusively to answer the question.\n\n   **Score: 0/2** (The context does not provide enough information to fully answer the query.)\n\n**Final Result: [RESULT] 1.0**"
+    }
+  }
+}

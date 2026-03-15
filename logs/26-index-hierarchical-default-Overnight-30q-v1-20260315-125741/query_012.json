@@ -1,0 +1,138 @@
+{
+  "query_id": "query_012",
+  "session_id": "26-index-hierarchical-default-Overnight-30q-v1-20260315-125741",
+  "timestamp": "2026-03-15T13:00:36.976247",
+  "query": {
+    "original": "Can a Paladin under the Sanctuary spell use Divine Smite?",
+    "used": "Can a Paladin under the Sanctuary spell use Divine Smite?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "### Divine Smite\n\nStarting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "### Divine Smite\n\nStarting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "### Divine Smite\n\nStarting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage."
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "If you also use your Divine Smite with an attack, you add this damage to the extra damage of your Divine Smite.\n\n### Cleansing Touch\n\nBeginning at 14th level, you can use your action to end one spell "
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "When you use such an effect from this class, the DC equals your paladin spell save DC.\n\n### Ability Score Improvement\n\nWhen you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can i"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "At 18th level, the range of this aura increases to 30 feet.\n\n### Improved Divine Smite\n\nBy 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power wi"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "|     |     |     |     |     |\n\n### Divine Sense\n\nThe presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "#### Oath Spells\n\nYou gain oath spells at the paladin levels listed.\n\n**Table- Oath of Devotion Spells**\n\n| Level | Paladin Spells                           |\n|-------|--------------------------------"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "#### Defense\n\nWhile you are wearing armor, you gain a +1 bonus to AC.\n\n#### Dueling\n\nWhen you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with tha"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "***Turn the Unholy***. As an action, you present your holy symbol and speak a prayer censuring fiends and undead, using your Channel Divinity. Each fiend or undead that can see or hear you within 30 f"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 6525,
+    "rag_completion": 6941,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 13466
+  },
+  "costs": {
+    "rag": 0.00203654,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00203654
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 7.87,
+    "total_s": 25.49
+  },
+  "answer": " A Paladin under the influence of the Sanctuary spell can still utilize Divine Smite as long as they land a hit with a melee weapon attack against a creature. The Sanctuary spell does not impede the application of Divine Smite.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer is incorrect as it states that a Paladin can use Divine Smite while under the Sanctuary spell, which contradicts the rules. Sanctuary ends when the protected creature attacks, which includes using Divine Smite."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "To determine if the existing evaluation should be refined based on the new context provided, let's analyze the query regarding whether a Paladin under the Sanctuary spell can use Divine Smite.\n\n1. **Does the retrieved context match the subject matter of the user's query?**\n   - The context includes detailed information about the Paladin class and the mechanics of Divine Smite, which is relevant to the user's query. However, it still does not specifically address the interaction between the Sanctuary spell and the use of Divine Smite. Therefore, while the context is related to the Paladin and Divine Smite, it does not directly answer the query regarding the Sanctuary spell.\n\n   **Score: 1/2** (The context is somewhat relevant but lacks specific information about the interaction with Sanctuary.)\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does not provide a complete answer to the user's query. It explains how Divine Smite works but does not mention the effects of the Sanctuary spell or how it interacts with the Paladin's ability to use Divine Smite. Therefore, the context cannot be used exclusively to answer the query.\n\n   **Score: 0/2** (The context does not provide a full answer to the query.)\n\nGiven that the new context does not provide any additional information about the interaction between the Sanctuary spell and Divine Smite, the final evaluation score remains:\n\n**Final Result: [RESULT] 1.0**."
+    }
+  }
+}

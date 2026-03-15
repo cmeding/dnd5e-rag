@@ -1,0 +1,138 @@
+{
+  "query_id": "query_027",
+  "session_id": "21-index-token-markdown-Overnight-30q-v1-20260315-035603",
+  "timestamp": "2026-03-15T04:01:04.721308",
+  "query": {
+    "original": "If a creature is immune to the frightened condition, can it still be charmed?",
+    "used": "If a creature is immune to the frightened condition, can it still be charmed?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Charmed\n\n- A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.\n- The charmer has advantage on any ability check to interact socially with th"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Frightened\n\n- A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\n- The creature can't willingly move closer to the sourc"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Stunned\n\n- A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rol"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "Calm Emotions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Calm Emotions.md",
+      "preview": "### Calm Emotions\n\n*2nd-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou attempt to suppress strong emotions i"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "#### Mindless Rage\n\nBeginning at 6th level, you can't be charmed or frightened while raging. If you are charmed or frightened when you enter your rage, the effect is suspended for the duration of the "
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Unconscious\n\n- An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings\n- The creature drops whatever it's holding and falls prone.\n- Th"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "Hallow",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Hallow.md",
+      "preview": "created by spells of a lower level than the slot you used to cast this spell can't extinguish the light.\n\n***Energy Protection***. Affected creatures in the area have resistance to one damage type of "
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Spells",
+      "topic": "Antipathy-Sympathy",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Antipathy-Sympathy.md",
+      "preview": "### Antipathy/Sympathy\n\n*8th-level enchantment*\n\n**Casting Time:** 1 hour\n\n**Range:** 60 feet\n\n**Components:** V, S, M (either a lump of alum soaked in vinegar for the *antipathy* effect or a drop of "
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Spells",
+      "topic": "Protection from Evil and Good",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Protection from Evil and Good.md",
+      "preview": "### Protection from Evil and Good\n\n*1st-level abjuration*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S, M (holy water or powdered silver and iron, which the spell consumes)\n\n**D"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Classes",
+      "topic": "Druid",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Druid.md",
+      "preview": "#### Nature's Ward\n\nWhen you reach 10th level, you can't be charmed or frightened by elementals or fey, and you are immune to poison and disease."
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2515,
+    "rag_completion": 2732,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 5247
+  },
+  "costs": {
+    "rag": 0.0007957299999999999,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0007957299999999999
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 3.38,
+    "total_s": 11.98
+  },
+  "answer": " Based on the provided context, a creature that is immune to the frightened condition can still be charmed. The immunity to being frightened only applies to the frightened condition and does not affect the charmed condition.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly addresses the user query, providing clear and accurate information about the relationship between the frightened and charmed conditions."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context includes information about the \"Charmed\" and \"Frightened\" conditions, as well as spells that can affect these conditions. However, it does not directly address the specific question of whether a creature that is immune to the frightened condition can still be charmed. While it provides relevant definitions and mechanics for both conditions, it lacks a direct answer or clarification regarding the interaction between immunity to frightened and the ability to be charmed. Therefore, the context partially matches the subject matter but does not fully address the query.  \n   **Score: 1/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The context does not provide a complete answer to the user's query. While it discusses the definitions and effects of the charmed and frightened conditions, it does not clarify the relationship between the two conditions or whether immunity to one affects the other. The information provided could lead to further questions or require additional context to fully understand the interaction between being immune to frightened and the ability to be charmed. Thus, the context cannot be used exclusively to provide a full answer.  \n   **Score: 0/2**\n\n**Final Feedback:** The retrieved context provides some relevant information about the charmed and frightened conditions but fails to directly answer the user's question about the interaction between these two conditions. It lacks clarity on whether a creature immune to frightened can still be charmed, which is the crux of the query. Therefore, while there is some relevance, it does not suffice to provide a complete answer.\n\n[RESULT] 1.0"
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "query_id": "query_001",
+  "session_id": "91-combined-sentwindow-best-Overnight-30q-v1-20260315-160740",
+  "timestamp": "2026-03-15T16:08:07.534261",
+  "query": {
+    "original": "What is the range of the Fireball spell?",
+    "used": "What is the range of the Fireball spell in Dungeons & Dragons 5th Edition?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06639344262295081,
+      "category": "Spells",
+      "topic": "Fireball",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Fireball.md",
+      "preview": "### Fireball\n\n*3rd-level evocation*\n\n**Casting Time:** 1 action\n\n**Range:** 150 feet\n\n**Components:** V, S, M (a tiny ball of bat guano and sulfur)\n\n**Duration:** Instantaneous\n\nA bright streak flashe"
+    },
+    {
+      "rank": 2,
+      "score": 0.062259615384615385,
+      "category": "Spells",
+      "topic": "Delayed Blast Fireball",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Delayed Blast Fireball.md",
+      "preview": "The spell's base damage is 12d6. "
+    },
+    {
+      "rank": 3,
+      "score": 0.04569460390355913,
+      "category": "Spells",
+      "topic": "Delayed Blast Fireball",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Delayed Blast Fireball.md",
+      "preview": "***At Higher Levels***. "
+    },
+    {
+      "rank": 4,
+      "score": 0.03278688524590164,
+      "category": "Spells",
+      "topic": "Delayed Blast Fireball",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Delayed Blast Fireball.md",
+      "preview": "### Delayed Blast Fireball\n\n*7th-level evocation*\n\n**Casting Time:** 1 action\n\n**Range:** 150 feet\n\n**Components:** V, S, M (a tiny ball of bat guano and sulfur)\n\n**Duration:** Concentration, up to 1 "
+    },
+    {
+      "rank": 5,
+      "score": 0.032539682539682535,
+      "category": "Spells",
+      "topic": "Fireball",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Fireball.md",
+      "preview": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd."
+    },
+    {
+      "rank": 6,
+      "score": 0.031754032258064516,
+      "category": "Spells",
+      "topic": "Fire Bolt",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Fire Bolt.md",
+      "preview": "This spell's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10)."
+    },
+    {
+      "rank": 7,
+      "score": 0.031746031746031744,
+      "category": "Spells",
+      "topic": "Fireball",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Fireball.md",
+      "preview": "The fire spreads around corners. "
+    },
+    {
+      "rank": 8,
+      "score": 0.030798389007344232,
+      "category": "Classes",
+      "topic": "Wizard",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Wizard.md",
+      "preview": "#### Hit Points\n\n**Hit Dice:** 1d6 per wizard level\n\n**Hit Points at 1st Level:** 6 + your Constitution modifier\n\n**Hit Points at Higher Levels:** 1d6 (or 4) + your Constitution modifier per wizard le"
+    },
+    {
+      "rank": 9,
+      "score": 0.030621785881252923,
+      "category": "Spells",
+      "topic": "Fireball",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Fireball.md",
+      "preview": "Each creature in a 20-foot radius sphere centered on that point must make a Dexterity saving throw. "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2730,
+    "rag_completion": 3382,
+    "meta_prompt": 54,
+    "meta_completion": 19,
+    "total_calls": 3,
+    "total": 6185
+  },
+  "costs": {
+    "rag": 0.00094288,
+    "meta": 1.95e-05,
+    "embed": 0.0,
+    "total": 0.00096238
+  },
+  "timings": {
+    "rag_s": 16.58,
+    "query_s": 17.4,
+    "total_s": 26.78
+  },
+  "answer": " The range of the Fireball spell in Dungeons & Dragons 5th Edition is 150 feet.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06639344262295081
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly addresses the user query by providing the exact range of the Fireball spell."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context directly addresses the query about the Fireball spell in Dungeons & Dragons 5th Edition. It provides specific information about the spell, including its range, which is stated as \"150 feet.\" This is the exact information the user is seeking.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a complete answer to the user's query regarding the range of the Fireball spell. The relevant detail about the range is clearly stated, and no additional information is necessary to answer the question.\n\n**Feedback:**\nThe retrieved context is highly relevant and directly answers the query about the range of the Fireball spell. It includes all necessary details without extraneous information. The clarity and specificity of the context ensure that the user receives a complete and accurate answer.\n\n[RESULT] 4.0"
+    }
+  }
+}

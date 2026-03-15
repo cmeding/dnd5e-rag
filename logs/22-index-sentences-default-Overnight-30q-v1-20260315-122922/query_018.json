@@ -1,0 +1,138 @@
+{
+  "query_id": "query_018",
+  "session_id": "22-index-sentences-default-Overnight-30q-v1-20260315-122922",
+  "timestamp": "2026-03-15T12:35:34.881062",
+  "query": {
+    "original": "Does Sneak Attack require the rogue to be hidden?",
+    "used": "Does Sneak Attack require the rogue to be hidden?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "### Expertise\n\nAt 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability chec"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "### Elusive\n\nBeginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't incapacitated.\n\n### Stroke of "
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "Sneak Attack, Thieves' Cant |\n| 2nd   | +2                | 1d6          | Cunning Action                         |\n| 3rd   | +2                | 2d6          | Roguish Archetype                      "
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier.\n\n#### Supreme Sneak\n\nStarting at 9th level, you have advantage on a De"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "# Rogue\n\n### Class Features\n\nAs a rogue, you have the following class features.\n\n#### Hit Points\n\n**Hit Dice:** 1d8 per rogue level\n\n**Hit Points at 1st Level:** 8 + your Constitution modifier\n\n**Hit "
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "#### Initiative\n\nAt the beginning of every combat, you roll initiative by making a Dexterity check. Initiative determines the order of creatures' turns in combat.\n\n> **Hiding**\n>\n>The DM decides when "
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Unseen Attackers and Targets\n\nCombatants often try to escape their foes' notice by hiding, casting the invisibility spell, or lurking in darkness.\n\nWhen you attack a target that you can't see, you "
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "### Roguish Archetype\n\nAt 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities: Thief, Assassin, or Arcane Trickster, all detailed at the end of the class descri"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Gamemastering",
+      "topic": "Traps",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Traps.md",
+      "preview": "A trap's description specifies the checks and DCs needed to detect it, disable it, or both. A character actively looking for a trap can attempt a Wisdom (Perception) check against the trap's DC. You c"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Monsters",
+      "topic": "Cloaker",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Cloaker.md",
+      "preview": "## Cloaker\n\n*Large aberration, chaotic neutral*\n\n**Armor Class** 14 (natural armor)\n\n**Hit Points** 78 (12d10+12)\n\n**Speed** 10 ft., fly 40 ft.\n\n| STR     | DEX     | CON     | INT     | WIS     | CHA"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 6059,
+    "rag_completion": 6526,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 12585
+  },
+  "costs": {
+    "rag": 0.00190643,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00190643
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 8.98,
+    "total_s": 22.77
+  },
+  "answer": " In order to utilize Sneak Attack, the rogue must successfully hide from the creature they aim to assault, ensuring they have advantage on the attack roll before being detected. However, if the rogue makes noise or is discovered while approaching, they may lose the element of surprise and forfeit the opportunity for Sneak Attack.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains incorrect information. It incorrectly states that the rogue must hide to utilize Sneak Attack, which is not a requirement according to the rules."
+    },
+    "context_relevancy": {
+      "score": null,
+      "passing": null,
+      "feedback": "Based on the provided context and the evaluation criteria, the existing evaluation scores are appropriate. \n\n1. **Does the retrieved context match the subject matter of the user's query?**\n   - The context does discuss the Rogue class and the Sneak Attack feature, including the conditions under which it can be used. However, it does not explicitly state that being hidden is not a requirement for using Sneak Attack. Therefore, while the context is relevant, it does not fully address the specific query about the necessity of being hidden.\n\n   **Score: 1/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context provides some relevant information about Sneak Attack but does not definitively clarify the requirement of being hidden. It implies that being hidden can grant advantage, but it is not a strict requirement. Since the context does not explicitly state this, it cannot be used exclusively to provide a full answer.\n\n   **Score: 1/2**\n\n**Final Feedback:**\nThe retrieved context is partially relevant to the query about Sneak Attack and its requirements. It provides some information about how Sneak Attack functions but does not directly address whether being hidden is necessary. Therefore, while it contributes to understanding the feature, it does not fully answer the question.\n\nGiven this analysis, the final evaluation score remains **1.0**. The new context provided does not change the evaluation, as it does not explicitly clarify the requirement of being hidden for Sneak Attack."
+    }
+  }
+}

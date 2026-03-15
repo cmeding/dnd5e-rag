@@ -1,0 +1,51 @@
+{
+  "query_id": "query_028",
+  "session_id": "10-baseline-no-rag-Overnight-30q-v1-20260315-034305",
+  "timestamp": "2026-03-15T03:47:58.024224",
+  "query": {
+    "original": "Can a creature with a fly speed of 0 feet due to the restrained condition still hover?",
+    "used": "Can a creature with a fly speed of 0 feet due to the restrained condition still hover?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 290,
+    "rag_completion": 489,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 779
+  },
+  "costs": {
+    "rag": 0.00012481,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00012481
+  },
+  "timings": {
+    "rag_s": null,
+    "query_s": 3.73,
+    "total_s": 5.44
+  },
+  "answer": " No, a creature with a fly speed of 0 feet cannot hover, even if it is restrained. The ability to hover requires a positive fly speed. When a creature is restrained, it cannot perform any actions or reactions that require movement, including flying.",
+  "refused": false,
+  "confidence": {
+    "passed": null,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and mostly correct, but it slightly misrepresents the relationship between the restrained condition and the ability to hover. It correctly states that a creature with a fly speed of 0 cannot hover, but it could clarify that the ability to hover depends on whether the creature has the hover trait, which is not explicitly mentioned."
+    },
+    "context_relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    }
+  }
+}

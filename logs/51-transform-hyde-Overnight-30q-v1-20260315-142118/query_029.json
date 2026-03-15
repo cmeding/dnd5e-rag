@@ -1,0 +1,138 @@
+{
+  "query_id": "query_029",
+  "session_id": "51-transform-hyde-Overnight-30q-v1-20260315-142118",
+  "timestamp": "2026-03-15T14:29:32.433801",
+  "query": {
+    "original": "Does a Barbarian lose their Rage bonus damage if they cast a spell while raging?",
+    "used": "Does a Barbarian lose their Rage bonus damage if they cast a spell while raging?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "### Rage\n\nIn battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action.\n\nWhile raging, you gain the following benefits if you aren't wearing heavy armor:\n\n- You have"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "### Relentless Rage\n\nStarting at 11th level, your rage can keep you fighting despite grievous wounds. If you drop to 0 hit points while you're raging and don't die outright, you can make a DC 10 Const"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "#### Mindless Rage\n\nBeginning at 6th level, you can't be charmed or frightened while raging. If you are charmed or frightened when you enter your rage, the effect is suspended for the duration of the "
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "#### Frenzy\n\nStarting when you choose this path at 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus a"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "### Feral Instinct\n\nBy 7th level, your instincts are so honed that you have advantage on initiative rolls.\n\nAdditionally, if you are surprised at the beginning of combat and aren't incapacitated, you "
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "### Danger Sense\n\nAt 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger.\n\nYou have advantage on Dexterity saving th"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "### Reckless Attack\n\nStarting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack reckle"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "### Persistent Rage\n\nBeginning at 15th level, your rage is so fierce that it ends early only if you fall unconscious or if you choose to end it."
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Spells",
+      "topic": "Vicious Mockery",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Vicious Mockery.md",
+      "preview": "### Vicious Mockery\n\n*Enchantment cantrip*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V\n\n**Duration:** Instantaneous\n\nYou unleash a string of insults laced with subtle enchantmen"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Gamemastering",
+      "topic": "Madness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Madness.md",
+      "preview": "### Curing Madness\n\nA *calm emotions* spell can suppress the effects of madness, while a *lesser restoration* spell can rid a character of a short-term or long-term madness. Depending on the source of"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2379,
+    "rag_completion": 3440,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 5819
+  },
+  "costs": {
+    "rag": 0.00091529,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00091529
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 10.64,
+    "total_s": 19.55
+  },
+  "answer": " I cannot find this in the provided rules whether a Barbarian loses their Rage bonus damage if they cast a spell while raging. The rules text for the Barbarian's Rage ability does not mention anything about spellcasting or its interaction with the Rage bonus damage.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains inaccuracies. It incorrectly states that the rules do not mention spellcasting in relation to Rage, while the reference answer clearly states that a Barbarian cannot cast spells while raging. This misunderstanding leads to an incomplete and misleading response."
+    },
+    "context_relevancy": {
+      "score": 0.75,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context provides relevant information about the Barbarian's Rage feature, specifically stating that \"if you are able to cast spells, you can't cast them or concentrate on them while raging.\" This directly addresses the user's query about whether a Barbarian loses their Rage bonus damage if they cast a spell while raging. The context implies that casting spells is not possible while raging, which means the Barbarian would not be able to cast a spell and thus would not lose their Rage bonus damage in that scenario. Therefore, the context matches the subject matter of the user's query.\n\n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The context does provide a clear answer regarding the inability to cast spells while raging, which implies that the Barbarian cannot lose Rage bonus damage due to casting spells, as they cannot do so at all. However, it does not explicitly state that the Barbarian would lose the Rage bonus damage if they were to somehow cast a spell while raging, as the context focuses on the impossibility of casting spells during Rage. While the information is relevant and leads to a logical conclusion, it does not fully answer the query in a straightforward manner. Therefore, while the context is useful, it does not provide a complete answer on its own.\n\n   **Score: 1 point**\n\n**Final Result:** [RESULT] 3.0"
+    }
+  }
+}

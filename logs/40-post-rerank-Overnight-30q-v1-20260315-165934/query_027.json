@@ -1,0 +1,98 @@
+{
+  "query_id": "query_027",
+  "session_id": "40-post-rerank-Overnight-30q-v1-20260315-165934",
+  "timestamp": "2026-03-15T17:04:57.341907",
+  "query": {
+    "original": "If a creature is immune to the frightened condition, can it still be charmed?",
+    "used": "If a creature is immune to the frightened condition, can it still be charmed?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": -3.2888097763061523,
+      "category": "Classes",
+      "topic": "Druid",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Druid.md",
+      "preview": "#### Nature's Ward\n\nWhen you reach 10th level, you can't be charmed or frightened by elementals or fey, and you are immune to poison and disease."
+    },
+    {
+      "rank": 2,
+      "score": -4.230233192443848,
+      "category": "Spells",
+      "topic": "Antipathy-Sympathy",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Antipathy-Sympathy.md",
+      "preview": "### Antipathy/Sympathy\n\n*8th-level enchantment*\n\n**Casting Time:** 1 hour\n\n**Range:** 60 feet\n\n**Components:** V, S, M (either a lump of alum soaked in vinegar for the *antipathy* effect or a drop of "
+    },
+    {
+      "rank": 3,
+      "score": -4.341737747192383,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "#### Mindless Rage\n\nBeginning at 6th level, you can't be charmed or frightened while raging. If you are charmed or frightened when you enter your rage, the effect is suspended for the duration of the "
+    },
+    {
+      "rank": 4,
+      "score": -4.788414001464844,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Charmed\n\n- A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.\n- The charmer has advantage on any ability check to interact socially with th"
+    },
+    {
+      "rank": 5,
+      "score": -6.386996746063232,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Frightened\n\n- A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\n- The creature can't willingly move closer to the sourc"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1383,
+    "rag_completion": 1581,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 2964
+  },
+  "costs": {
+    "rag": 0.00045252,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00045252
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 3.89,
+    "total_s": 10.85
+  },
+  "answer": " Yes, a creature that is immune to the frightened condition can still be charmed. The immunity to frightened only affects the ability to be frightened, not the ability to be charmed.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": -3.2888097763061523
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly addresses the user query, providing clear and accurate information about the relationship between the frightened and charmed conditions."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context does touch on the concepts of being charmed and frightened, particularly in the sections about \"Nature's Ward\" and \"Mindless Rage.\" However, it does not directly address the specific question of whether a creature that is immune to the frightened condition can still be charmed. The context provides relevant information about the mechanics of charm and fear but does not explicitly answer the query.\n\n   **Score: 1/2** (The context is somewhat relevant but does not directly answer the question.)\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The context does not provide a complete answer to the user's query. While it explains the mechanics of being charmed and frightened, it does not clarify the relationship between immunity to one condition and susceptibility to the other. Therefore, the context cannot be used exclusively to answer the question.\n\n   **Score: 0/2** (The context does not provide a full answer to the query.)\n\n**Final Feedback:** The retrieved context provides some relevant information about the mechanics of charm and fear but fails to directly address the user's question regarding the interaction between immunity to the frightened condition and the ability to be charmed. As such, it does not serve as a complete answer.\n\n[RESULT] 1.0"
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "query_id": "query_028",
+  "session_id": "90-combined-best-guess-Overnight-30q-v1-20260315-155235",
+  "timestamp": "2026-03-15T16:06:06.539161",
+  "query": {
+    "original": "Can a creature with a fly speed of 0 feet due to the restrained condition still hover?",
+    "used": "Can a creature with a fly speed of 0 feet from the restrained condition still hover in D&D 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06585580821434867,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Restrained\n\n- A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- Attack rolls against the creature have advantage, and the creature's attack rolls have dis"
+    },
+    {
+      "rank": 2,
+      "score": 0.0474478480153437,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "### Fly\n\nA monster that has a flying speed can use all or part of its movement to fly. Some monsters have the ability to **hover**, which makes them hard to knock out of the air (as explained in the r"
+    },
+    {
+      "rank": 3,
+      "score": 0.032266458495966696,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Paralyzed\n\n- A paralyzed creature is incapacitated (see the condition) and can't move or speak.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the c"
+    },
+    {
+      "rank": 4,
+      "score": 0.03200204813108039,
+      "category": "Monsters",
+      "topic": "Air Elemental",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Air Elemental.md",
+      "preview": "### Air Elemental\n\n*Large elemental, neutral*\n\n**Armor Class** 15\n\n**Hit Points** 90 (12d10+24)\n\n**Speed** 0 ft., fly 90 ft. (hover)\n\n| STR     | DEX     | CON     | INT    | WIS     | CHA    |\n|-----"
+    },
+    {
+      "rank": 5,
+      "score": 0.030776515151515152,
+      "category": "Monsters",
+      "topic": "Ghost",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Ghost.md",
+      "preview": "## Ghost\n\n*Medium undead, any alignment*\n\n**Armor Class** 11\n\n**Hit Points** 45 (10d8)\n\n**Speed** 0 ft., fly 40 ft. (hover)\n\n| STR    | DEX     | CON     | INT     | WIS     | CHA     |\n|--------|----"
+    },
+    {
+      "rank": 6,
+      "score": 0.029418126757516764,
+      "category": "Monsters",
+      "topic": "Wraith",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Wraith.md",
+      "preview": "## Wraith\n\n*Medium undead, neutral evil*\n\n**Armor Class** 13\n\n**Hit Points** 67 (9d8+27)\n\n**Speed** 0 ft., fly 60 ft. (hover)\n\n| STR    | DEX     | CON     | INT     | WIS     | CHA     |\n|--------|--"
+    },
+    {
+      "rank": 7,
+      "score": 0.029411764705882353,
+      "category": "Monsters",
+      "topic": "Specter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Specter.md",
+      "preview": "## Specter\n\n*Medium undead, chaotic evil*\n\n**Armor Class** 12\n\n**Hit Points** 22 (5d8)\n\n**Speed** 0 ft., fly 50 ft. (hover)\n\n| STR    | DEX     | CON     | INT     | WIS     | CHA     |\n|--------|----"
+    },
+    {
+      "rank": 8,
+      "score": 0.016666666666666666,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Flying Movement\n\nFlying creatures enjoy many benefits of mobility, but they must also deal with the danger of falling. If a flying creature is knocked prone, has its speed reduced to 0, or is other"
+    },
+    {
+      "rank": 9,
+      "score": 0.016666666666666666,
+      "category": "Treasure",
+      "topic": "Broom of Flying",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Broom of Flying.md",
+      "preview": "### Broom of Flying\n\n*Wondrous item, uncommon*\n\nThis wooden broom, which weighs 3 pounds, functions like a mundane broom until you stand astride it and speak its command word. It then hovers beneath y"
+    },
+    {
+      "rank": 10,
+      "score": 0.01639344262295082,
+      "category": "Monsters",
+      "topic": "Will-o'-Wisp",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Will-o'-Wisp.md",
+      "preview": "## Will-o'-Wisp\n\n*Tiny undead, chaotic evil*\n\n**Armor Class** 19\n\n**Hit Points** 22 (9d4)\n\n**Speed** 0 ft., fly 50 ft. (hover)\n\n| STR    | DEX     | CON     | INT     | WIS     | CHA     |\n|--------|-"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3453,
+    "rag_completion": 4289,
+    "meta_prompt": 63,
+    "meta_completion": 24,
+    "total_calls": 3,
+    "total": 7829
+  },
+  "costs": {
+    "rag": 0.0011947400000000001,
+    "meta": 2.3849999999999997e-05,
+    "embed": 0.0,
+    "total": 0.00121859
+  },
+  "timings": {
+    "rag_s": 15.08,
+    "query_s": 19.7,
+    "total_s": 31.3
+  },
+  "answer": " I cannot find the rule in the provided context regarding a creature with a fly speed of 0 feet from the restrained condition and its ability to hover in D&D 5e. The context only mentions that a restrained creature's speed becomes 0 and it can't benefit from any bonus to its speed. It does not specify anything about flying or hovering abilities.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06585580821434867
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains inaccuracies and fails to address the specific question about hovering. It correctly notes that a restrained creature has a speed of 0, but it does not clarify the relationship between the hover trait and the ability to hover when speed is reduced to 0."
+    },
+    "context_relevancy": {
+      "score": 0.75,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context discusses the \"restrained\" condition, which directly relates to the user's query about whether a creature with a fly speed of 0 feet due to being restrained can still hover. The context also includes information about flying and hovering, which is relevant to the question.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Partially. While the context provides relevant information about the restrained condition and mentions hovering, it does not explicitly state whether a creature with a fly speed of 0 feet can hover. The rules imply that if a creature's speed is 0, it cannot move, which would include hovering unless it has a specific ability that allows it to do so despite being restrained. However, the context does not provide a definitive answer to the query.\n\n**Feedback Summary:**\nThe retrieved context is relevant to the query as it discusses the restrained condition and flying mechanics. However, it does not provide a complete answer to the question of whether a creature can hover with a fly speed of 0 feet while restrained. The user would need to infer from the information provided or consult additional sources for a definitive answer.\n\n[RESULT] 3.0"
+    }
+  }
+}

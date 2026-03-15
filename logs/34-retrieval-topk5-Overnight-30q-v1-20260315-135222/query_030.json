@@ -1,0 +1,98 @@
+{
+  "query_id": "query_030",
+  "session_id": "34-retrieval-topk5-Overnight-30q-v1-20260315-135222",
+  "timestamp": "2026-03-15T13:58:22.401159",
+  "query": {
+    "original": "Can you cast a spell and also make a weapon attack in the same turn without any special features?",
+    "used": "Can you cast a spell and also make a weapon attack in the same turn without any special features?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "### Bonus Action\n\nA spell cast with a bonus action is especially swift. You must use a bonus action on your turn to cast the spell, provided that you haven't already taken a bonus action this turn. Yo"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "# Making an Attack\n\nWhether you're striking with a melee weapon, firing a weapon at range, or making an attack roll as part of a spell, an attack has a simple structure.\n\n- **Choose a target**. Pick a"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "### Innate Spellcasting\n\nA monster with the innate ability to cast spells has the Innate Spellcasting special trait. Unless noted otherwise, an innate spell of 1st level or higher is always cast at it"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Two-Weapon Fighting\n\nWhen you take the Attack action and attack with a light melee weapon that you're holding in one hand, you can use a bonus action to attack with a different light melee weapon "
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Damage Rolls\n\nEach weapon, spell, and harmful monster ability specifies the damage it deals. You roll the damage die or dice, add any modifiers, and apply the damage to your target. Magic weapons,"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1543,
+    "rag_completion": 1887,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 3430
+  },
+  "costs": {
+    "rag": 0.00052826,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00052826
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 7.43,
+    "total_s": 15.15
+  },
+  "answer": " No, you cannot cast a spell and make a weapon attack in the same turn without any special features. The rules state that you can only make one attack roll during your turn (unless you have a feature that allows you to make multiple attack rolls, such as the Attack action or Two-Weapon Fighting). Casting a spell requires an action or a bonus action, and making a weapon attack also requires an action. Therefore, you cannot do both in the same turn with the standard rules.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and mostly correct, but it introduces some confusion by stating \"you can only make one attack roll during your turn,\" which is misleading. The reference answer correctly emphasizes that both actions (casting a spell and making a weapon attack) cannot be performed without special features, which is the main point of the query."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context discusses various aspects of casting spells and making weapon attacks, including the rules for casting spells as a bonus action and the structure of making an attack. However, it does not directly address the specific question of whether a spell can be cast and a weapon attack made in the same turn without any special features. The context provides relevant information about the mechanics of actions in combat but lacks a clear answer to the query.\n\n   **Score: 1/2** (The context is somewhat relevant but does not directly answer the question.)\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does not provide a complete answer to the user's query. While it explains the mechanics of casting spells and making attacks, it does not clarify the specific interaction between casting a spell and making a weapon attack in the same turn without special features. The user is looking for a definitive answer regarding the possibility of performing both actions, which is not fully addressed in the provided context.\n\n   **Score: 0/2** (The context cannot be used to provide a full answer to the query.)\n\n**Final Feedback:**\nThe retrieved context provides some relevant information about spellcasting and making attacks, but it fails to directly answer the user's question about the ability to cast a spell and make a weapon attack in the same turn without special features. The lack of a clear answer means that the context is insufficient for the user's needs.\n\n[RESULT] 1.0"
+    }
+  }
+}

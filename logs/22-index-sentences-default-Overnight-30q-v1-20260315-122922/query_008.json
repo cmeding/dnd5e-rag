@@ -1,0 +1,138 @@
+{
+  "query_id": "query_008",
+  "session_id": "22-index-sentences-default-Overnight-30q-v1-20260315-122922",
+  "timestamp": "2026-03-15T12:31:11.803178",
+  "query": {
+    "original": "Can a restrained creature still make attack rolls?",
+    "used": "Can a restrained creature still make attack rolls?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "Beginning at 6th level, you can't be charmed or frightened while raging. If you are charmed or frightened when you enter your rage, the effect is suspended for the duration of the rage.\n\n#### Intimida"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Petrified\n\n- A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of t"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "If there's ever any question whether something you're doing counts as an attack, the rule is simple: if you're making an attack roll, you're making an attack.\n\n## Attack Rolls\n\nWhen you make an attack"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Equipment",
+      "topic": "Weapons",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Weapons.md",
+      "preview": "Weapons with special rules are described here.\n\n***Lance***. You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "# Conditions\n\nConditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. Most conditions, such as blind"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "If an already exhausted creature suffers another effect that causes exhaustion, its current level of exhaustion increases by the amount specified in the effect's description.\n\nA creature suffers the e"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "Using the Attack action, you can make a special melee attack to shove a creature, either to knock it prone or push it away from you. If you're able to make multiple attacks with the Attack action, thi"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Monsters",
+      "topic": "Roper",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Roper.md",
+      "preview": "***Bite***. *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 22 (4d8+4) piercing damage.\n\n***Tendril***. *Melee Weapon Attack:* +7 to hit, reach 50 ft., one creature. *Hit:* The targe"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Monsters",
+      "topic": "Ettercap",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Ettercap.md",
+      "preview": "***Claws.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (2d4+2) slashing damage.\n\n***Web (Recharge 5-6)***. *Ranged Weapon Attack:* +4 to hit, range 30/60 ft., one Large or sm"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Monsters",
+      "topic": "Lich",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Lich.md",
+      "preview": "**Cantrip**. The lich casts a cantrip.\n\n**Paralyzing Touch (Costs 2 Actions)**. The lich uses its Paralyzing Touch.\n\n**Frightening Gaze (Costs 2 Actions)**. The lich fixes its gaze on one creature it "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 5723,
+    "rag_completion": 6283,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 12006
+  },
+  "costs": {
+    "rag": 0.0018233,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0018233
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 10.8,
+    "total_s": 19.46
+  },
+  "answer": " A restrained creature can still make attack rolls, but it may have reduced effectiveness due to the condition. However, when the new context involves a creature being reduced below 1 level, this information does not directly apply. Therefore, the original answer is repeated.\n\nA restrained creature can still make attack rolls, but it is impeded and has disadvantage on attack rolls due to being restrained.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant and correctly states that a restrained creature can make attack rolls and has disadvantage on them. However, it introduces unnecessary and confusing information about \"being reduced below 1 level,\" which is not relevant to the question and detracts from the clarity of the answer."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context does not directly address the user's query about whether a restrained creature can make attack rolls. While it does provide information about the restrained condition, including that a restrained creature has disadvantage on attack rolls, it does not explicitly state whether they can still make attack rolls at all. Therefore, the context is partially relevant but does not fully answer the question.\n\n   **Score: 1/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does mention that a restrained creature has disadvantage on attack rolls, which implies that they can still make attack rolls, but it does not explicitly confirm this. The information provided is insufficient to fully answer the query without additional context or clarification. Thus, while it can be used to infer an answer, it cannot be used exclusively to provide a complete answer.\n\n   **Score: 1/2**\n\n**Final Feedback:**\nThe retrieved context partially matches the subject matter of the user's query by discussing the restrained condition, but it does not explicitly confirm whether a restrained creature can make attack rolls. It provides some relevant information but lacks clarity needed for a complete answer. Therefore, the overall score reflects the partial relevance and the inability to provide a full answer.\n\n[RESULT] 1.0"
+    }
+  }
+}

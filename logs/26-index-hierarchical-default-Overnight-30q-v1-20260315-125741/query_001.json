@@ -1,0 +1,114 @@
+{
+  "query_id": "query_001",
+  "session_id": "26-index-hierarchical-default-Overnight-30q-v1-20260315-125741",
+  "timestamp": "2026-03-15T12:57:50.196387",
+  "query": {
+    "original": "What is the range of the Fireball spell?",
+    "used": "What is the range of the Fireball spell?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Spells",
+      "topic": "Fireball",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Fireball.md",
+      "preview": "### Fireball\n\n*3rd-level evocation*\n\n**Casting Time:** 1 action\n\n**Range:** 150 feet\n\n**Components:** V, S,"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Spells",
+      "topic": "Fireball",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Fireball.md",
+      "preview": "### Fireball\n\n*3rd-level evocation*\n\n**Casting Time:** 1 action\n\n**Range:** 150 feet\n\n**Components:** V, S, M (a tiny ball of bat guano and sulfur)\n\n**Duration:** Instantaneous\n\nA bright streak flashe"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Spells",
+      "topic": "Flaming Sphere",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Flaming Sphere.md",
+      "preview": "### Flaming Sphere\n\n*2nd-level conjuration*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S, M (a bit of tallow, a pinch of brimstone, and a dusting of powdered iron)\n\n**Duration"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "Flaming Sphere",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Flaming Sphere.md",
+      "preview": "### Flaming Sphere\n\n*2nd-level conjuration*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S, M (a bit of tallow, a pinch of brimstone, and a dusting of powdered iron)\n\n**Duration"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Spells",
+      "topic": "Delayed Blast Fireball",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Delayed Blast Fireball.md",
+      "preview": "Each creature in a 20-foot radius sphere centered on that point must make a Dexterity saving throw. A creature takes fire damage equal to the total accumulated damage on a failed save, or half as much"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Spells",
+      "topic": "Fireball",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Fireball.md",
+      "preview": "***At Higher Levels***. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd."
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Treasure",
+      "topic": "Necklace of Fireballs",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Necklace of Fireballs.md",
+      "preview": "### Necklace of Fireballs\n\n*Wondrous item, rare*\n\nThis necklace has 1d6+3 beads hanging from it. You can use an action to detach a bead and throw it up to 60 feet away. When it reaches the end of its "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1547,
+    "rag_completion": 1676,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 3223
+  },
+  "costs": {
+    "rag": 0.00048861,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00048861
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 2.42,
+    "total_s": 8.31
+  },
+  "answer": " The range of the Fireball spell is 150 feet.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly answers the user query about the range of the Fireball spell."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query about the range of the Fireball spell. It clearly states that the range of Fireball is 150 feet, which is the specific information requested by the user. The context also provides additional details about the spell, such as its casting time, components, and effects, which are relevant to understanding the spell but not necessary for answering the specific question about range.\n\n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides all the necessary information to answer the user's query about the range of the Fireball spell. The relevant section explicitly states the range as 150 feet, which is sufficient to fully answer the question without needing any additional information. While the extra details about the spell are informative, they are not required to answer the specific query.\n\n   **Score: 2 points**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

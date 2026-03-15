@@ -1,0 +1,98 @@
+{
+  "query_id": "query_006",
+  "session_id": "40-post-rerank-Overnight-30q-v1-20260315-165934",
+  "timestamp": "2026-03-15T17:00:43.915650",
+  "query": {
+    "original": "Can a grappled creature cast spells?",
+    "used": "Can a grappled creature cast spells?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 2.1648149490356445,
+      "category": "Spells",
+      "topic": "Arcane Hand",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Arcane Hand.md",
+      "preview": "***Grasping Hand***. The hand attempts to grapple a Huge or smaller creature within 5 feet of it. You use the hand's Strength score to resolve the grapple. If the target is Medium or smaller, you have"
+    },
+    {
+      "rank": 2,
+      "score": 0.5121378898620605,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Grappled\n\n- A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- The condition ends if the grappler is incapacitated (see the condition).\n- The condition also "
+    },
+    {
+      "rank": 3,
+      "score": -1.569801688194275,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Grappling\n\nWhen you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack act"
+    },
+    {
+      "rank": 4,
+      "score": -3.343881130218506,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "# Rituals\n\nCertain spells have a special tag: ritual. Such a spell can be cast following the normal rules for spellcasting, or the spell can be cast as a ritual. The ritual version of a spell takes 10"
+    },
+    {
+      "rank": 5,
+      "score": -4.528526782989502,
+      "category": "Spells",
+      "topic": "Confusion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Confusion.md",
+      "preview": "### Confusion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 90 feet\n\n**Components:** V, S, M (three nut shells)\n\n**Duration:** Concentration, up to 1 minute\n\nThis spell assaults and"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2528,
+    "rag_completion": 2758,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 5286
+  },
+  "costs": {
+    "rag": 0.0008021,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0008021
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 4.62,
+    "total_s": 12.49
+  },
+  "answer": " I cannot find this in the provided rules if a grappled creature is able to cast spells or not. The rules only mention that a grappled creature can make a Wisdom saving throw at the end of each of its turns to end the effect of the Arcane Hand spell.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 2.1648149490356445
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query about whether a grappled creature can cast spells, but it incorrectly states that the rules do not clarify this. The reference answer correctly states that a grappled creature can cast spells, which the generated answer fails to acknowledge."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context discusses the mechanics of grappling in D&D 5e, including the effects of the grappled condition on a creature's speed and actions. However, it does not explicitly address whether a grappled creature can cast spells. While it provides relevant information about the grappled condition, it lacks a direct answer to the query regarding spellcasting while grappled. Therefore, the context is partially relevant but does not fully match the subject matter of the user's query.\n\n   **Score: 1/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does not provide a complete answer to the question of whether a grappled creature can cast spells. While it outlines the limitations imposed by the grappled condition, it does not clarify the specific rules regarding spellcasting under such conditions. Therefore, the retrieved context cannot be used exclusively to provide a full answer to the user's query.\n\n   **Score: 0/2**\n\n**Final Feedback:**\nThe retrieved context provides some relevant information about grappling and the grappled condition, but it does not directly answer the user's question about spellcasting while grappled. The absence of explicit rules regarding spellcasting in the context of being grappled means that the context is insufficient to fully address the query.\n\n**Final Result: [RESULT] 1.0**"
+    }
+  }
+}

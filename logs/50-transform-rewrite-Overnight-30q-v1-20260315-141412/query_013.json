@@ -1,0 +1,138 @@
+{
+  "query_id": "query_013",
+  "session_id": "50-transform-rewrite-Overnight-30q-v1-20260315-141412",
+  "timestamp": "2026-03-15T14:16:58.028386",
+  "query": {
+    "original": "If a creature has exhaustion level 3 and is also restrained, what is its movement speed?",
+    "used": "What is the movement speed of a creature with exhaustion level 3 that is also restrained in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Restrained\n\n- A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- Attack rolls against the creature have advantage, and the creature's attack rolls have dis"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Spells",
+      "topic": "Slow",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Slow.md",
+      "preview": "### Slow\n\n*3rd-level transmutation*\n\n**Casting Time:** 1 action\n\n**Range:** 120 feet\n\n**Components:** V, S, M (a drop of molasses)\n\n**Duration:** Concentration, up to 1 minute\n\nYou alter time around u"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Spells",
+      "topic": "Freedom of Movement",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Freedom of Movement.md",
+      "preview": "### Freedom of Movement\n\n*4th-level abjuration*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S, M (a leather strap, bound around the arm or a similar appendage)\n\n**Duration:** 1 h"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "Dominate Person",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Dominate Person.md",
+      "preview": "### Dominate Person\n\n*5th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou attempt to beguile a humanoid that "
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Spells",
+      "topic": "Hold Monster",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Hold Monster.md",
+      "preview": "### Hold Monster\n\n*5th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 90 feet\n\n**Components:** V, S, M (a small, straight piece of iron)\n\n**Duration:** Concentration, up to 1 minute\n\nChoos"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Unconscious\n\n- An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings\n- The creature drops whatever it's holding and falls prone.\n- Th"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "Haste",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Haste.md",
+      "preview": "### Haste\n\n*3rd-level transmutation*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S, M (a shaving of licorice root)\n\n**Duration:** Concentration, up to 1 minute\n\nChoose a willin"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Gameplay",
+      "topic": "Adventuring",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Adventuring.md",
+      "preview": "## Suffocating\n\nA creature can hold its breath for a number of minutes equal to 1 + its Constitution modifier (minimum of 30 seconds).\n\nWhen a creature runs out of breath or is choking, it can survive"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Spells",
+      "topic": "Confusion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Confusion.md",
+      "preview": "### Confusion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 90 feet\n\n**Components:** V, S, M (three nut shells)\n\n**Duration:** Concentration, up to 1 minute\n\nThis spell assaults and"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Spells",
+      "topic": "Dominate Monster",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Dominate Monster.md",
+      "preview": "### Dominate Monster\n\n*8th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 hour\n\nYou attempt to beguile a creature that y"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3770,
+    "rag_completion": 4187,
+    "meta_prompt": 63,
+    "meta_completion": 25,
+    "total_calls": 2,
+    "total": 8045
+  },
+  "costs": {
+    "rag": 0.0012102299999999999,
+    "meta": 2.4449999999999998e-05,
+    "embed": 0.0,
+    "total": 0.00123468
+  },
+  "timings": {
+    "rag_s": 1.06,
+    "query_s": 5.67,
+    "total_s": 15.17
+  },
+  "answer": " A creature with exhaustion level 3 has no movement speed due to the exhaustion condition. When a creature is restrained, its speed becomes 0, and it can't benefit from any bonus to its speed. Therefore, a creature with exhaustion level 3 that is also restrained has no movement speed in DnD 5e.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and mostly correct, but it inaccurately states that exhaustion level 3 alone results in no movement speed, when it actually halves the speed. However, it correctly identifies that the restrained condition sets speed to 0, which takes precedence."
+    },
+    "context_relevancy": {
+      "score": 0.5,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context does provide relevant information regarding the \"restrained\" condition, which directly affects the movement speed of a creature. It states that a restrained creature's speed becomes 0, which is crucial for answering the query about movement speed under exhaustion level 3. However, the context does not mention exhaustion specifically, nor does it detail how exhaustion levels interact with movement speed. Therefore, while it partially matches the subject matter, it does not fully address the query regarding the combination of exhaustion and restraint.\n\n   **Score: 1 out of 2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The context alone cannot provide a full answer to the user's query. While it clearly states that a restrained creature's speed is 0, it does not address how exhaustion level 3 affects movement speed. In D&D 5e, exhaustion does reduce movement speed, but the specifics of how it interacts with being restrained are not covered in the provided context. Therefore, additional information would be needed to fully answer the query.\n\n   **Score: 1 out of 2**\n\n**Final Result:** [RESULT] 2.0"
+    }
+  }
+}

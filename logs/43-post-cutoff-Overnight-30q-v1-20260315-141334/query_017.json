@@ -1,0 +1,57 @@
+{
+  "query_id": "query_017",
+  "session_id": "43-post-cutoff-Overnight-30q-v1-20260315-141334",
+  "timestamp": "2026-03-15T14:13:52.702064",
+  "query": {
+    "original": "Can you use Action Surge to cast two leveled spells in one turn?",
+    "used": "Can you use Action Surge to cast two leveled spells in one turn?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 0,
+    "rag_completion": 0,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 0,
+    "total": 0
+  },
+  "costs": {
+    "rag": 0.0,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 0.04,
+    "total_s": 0.91
+  },
+  "answer": "Empty Response",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "Empty Response"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "Empty Response"
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer does not provide any information relevant to the user query, making it completely unhelpful."
+    },
+    "context_relevancy": {
+      "score": null,
+      "passing": null,
+      "feedback": "Empty Response"
+    }
+  }
+}

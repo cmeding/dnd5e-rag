@@ -1,0 +1,138 @@
+{
+  "query_id": "query_009",
+  "session_id": "20-index-token-default-Overnight-30q-v1-20260315-034831",
+  "timestamp": "2026-03-15T03:50:21.119209",
+  "query": {
+    "original": "Does the invisible condition prevent a creature from casting spells?",
+    "used": "Does the invisible condition prevent a creature from casting spells?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\n- The creature can't willingly move closer to the source of its fear.\n\n#"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "# Conditions\n\nConditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. Most conditions, such as blind"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Spells",
+      "topic": "Invisibility",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Invisibility.md",
+      "preview": "### Invisibility\n\n*2nd-level illusion*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S, M (an eyelash encased in gum arabic)\n\n**Duration:** Concentration, up to 1 hour\n\nA creature "
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "the druid, for example, have such a feature. The caster must also have the spell prepared or on his or her list of spells known, unless the character's ritual feature specifies otherwise, as the wizar"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Spells",
+      "topic": "See Invisibility",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\See Invisibility.md",
+      "preview": "### See Invisibility\n\n*2nd-level divination*\n\n**Casting Time:** 1 action\n\n**Range:** Self\n\n**Components:** V, S, M (a pinch of talc and a small sprinkling of powdered silver)\n\n**Duration:** 1 hour\n\nFo"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Spells",
+      "topic": "Hallow",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Hallow.md",
+      "preview": "of a lower level than the slot you used to cast this spell can't extinguish the light.\n\n***Energy Protection***. Affected creatures in the area have resistance to one damage type of your choice, excep"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "Silence",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Silence.md",
+      "preview": "### Silence\n\n*2nd-level illusion (ritual)*\n\n**Casting Time:** 1 action\n\n**Range:** 120 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 10 minutes\n\nFor the duration, no sound can be crea"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Spells",
+      "topic": "Silent Image",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Silent Image.md",
+      "preview": "### Silent Image\n\n*1st-level illusion*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S, M (a bit of fleece)\n\n**Duration:** Concentration, up to 10 minutes\n\nYou create the image o"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "suspended, not neutralized.\n\n## Poisoned\n\n- A poisoned creature has disadvantage on attack rolls and ability checks.\n\n## Prone\n\n- A prone creature's only movement option is to crawl, unless it stands "
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "# SPELLCASTING\n\nMagic permeates fantasy gaming worlds and often appears in the form of a spell.\n\nThis chapter provides the rules for casting spells. Different character classes have distinctive ways o"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 4254,
+    "rag_completion": 4418,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 8672
+  },
+  "costs": {
+    "rag": 0.00130736,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00130736
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 2.26,
+    "total_s": 8.63
+  },
+  "answer": " I cannot find this in the provided rules about the invisible condition affecting a creature's ability to cast spells.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but does not provide a clear and correct response. It acknowledges the lack of information but fails to directly answer the question about whether the invisible condition affects spellcasting, which is a key aspect of the query."
+    },
+    "context_relevancy": {
+      "score": 0.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context does not directly address the user's query about whether the invisible condition prevents a creature from casting spells. While it provides information about the invisible condition, it does not clarify how this condition interacts with spellcasting. Therefore, it does not match the subject matter of the query.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context provided does not contain sufficient information to answer the query about the invisible condition and spellcasting. It lacks any mention of the rules regarding spellcasting while under the influence of the invisible condition. Thus, it cannot be used to provide a full answer to the user's query.\n\n**Feedback Summary:**\nThe retrieved context fails to address the user's specific question regarding the interaction between the invisible condition and spellcasting. It does not provide relevant information that could lead to a complete answer. Therefore, both criteria are not met.\n\nFinal result: [RESULT] 0.0"
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "query_id": "query_021",
+  "session_id": "31-retrieval-fusion-2q-Overnight-30q-v1-20260315-131901",
+  "timestamp": "2026-03-15T13:27:31.519056",
+  "query": {
+    "original": "What is the casting time of the Wish spell?",
+    "used": "What is the casting time of the Wish spell?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.03333333333333333,
+      "category": "Spells",
+      "topic": "Wish",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Wish.md",
+      "preview": "### Wish\n\n*9th-level conjuration*\n\n**Casting Time:** 1 action\n\n**Range:** Self\n\n**Components:** V\n\n**Duration:** Instantaneous\n\n*Wish* is the mightiest spell a mortal creature can cast. By simply spea"
+    },
+    {
+      "rank": 2,
+      "score": 0.03278688524590164,
+      "category": "Spells",
+      "topic": "Wish",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Wish.md",
+      "preview": "You might be able to achieve something beyond the scope of the above examples. State your wish to the GM as precisely as possible. The GM has great latitude in ruling what occurs in such an instance; "
+    },
+    {
+      "rank": 3,
+      "score": 0.03225806451612903,
+      "category": "Spells",
+      "topic": "Divination",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Divination.md",
+      "preview": "### Divination\n\n*4th-level divination (ritual)*\n\n**Casting Time:** 1 action\n\n**Range:** Self\n\n**Components:** V, S, M (incense and a sacrificial offering appropriate to your religion, together worth a"
+    },
+    {
+      "rank": 4,
+      "score": 0.031024531024531024,
+      "category": "Spells",
+      "topic": "Identify",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Identify.md",
+      "preview": "### Identify\n\n*1st-level divination (ritual)*\n\n**Casting Time:** 1 minute\n\n**Range:** Touch\n\n**Components:** V, S, M (a pearl worth at least 100 gp and an owl feather)\n\n**Duration:** Instantaneous\n\nYo"
+    },
+    {
+      "rank": 5,
+      "score": 0.031009615384615385,
+      "category": "Spells",
+      "topic": "Commune",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Commune.md",
+      "preview": "### Commune\n\n*5th-level divination (ritual)*\n\n**Casting Time:** 1 minute\n\n**Range:** Self\n\n**Components:** V, S, M (incense and a vial of holy or unholy water)\n\n**Duration:** 1 minute\n\nYou contact you"
+    },
+    {
+      "rank": 6,
+      "score": 0.030776515151515152,
+      "category": "Spells",
+      "topic": "Planar Binding",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Planar Binding.md",
+      "preview": "### Planar Binding\n\n*5th-level abjuration*\n\n**Casting Time:** 1 hour\n\n**Range:** 60 feet\n\n**Components:** V, S, M (a jewel worth at least 1,000 gp, which the spell consumes)\n\n**Duration:** 24 hours\n\nW"
+    },
+    {
+      "rank": 7,
+      "score": 0.03057889822595705,
+      "category": "Spells",
+      "topic": "Suggestion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Suggestion.md",
+      "preview": "### Suggestion\n\n*2nd-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, M (a snake's tongue and either a bit of honeycomb or a drop of sweet oil)\n\n**Duration:** Con"
+    },
+    {
+      "rank": 8,
+      "score": 0.015384615384615385,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "### Longer Casting Times\n\nCertain spells (including spells cast as rituals) require more time to cast: minutes or even hours. When you cast a spell with a casting time longer than a single action or r"
+    },
+    {
+      "rank": 9,
+      "score": 0.014925373134328358,
+      "category": "Spells",
+      "topic": "Sequester",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Sequester.md",
+      "preview": "### Sequester\n\n*7th-level transmutation*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S, M (a powder composed of diamond, emerald, ruby, and sapphire dust worth at least 5,000 gp,"
+    },
+    {
+      "rank": 10,
+      "score": 0.014925373134328358,
+      "category": "Spells",
+      "topic": "Geas",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Geas.md",
+      "preview": "### Geas\n\n*5th-level enchantment*\n\n**Casting Time:** 1 minute\n\n**Range:** 60 feet\n\n**Components:** V\n\n**Duration:** 30 days\n\nYou place a magical command on a creature that you can see within range, fo"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 4085,
+    "rag_completion": 4654,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 8739
+  },
+  "costs": {
+    "rag": 0.00133361,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00133361
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 15.72,
+    "total_s": 22.22
+  },
+  "answer": " The casting time of the Wish spell is 1 action.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.03333333333333333
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and matches the reference answer exactly, providing the accurate casting time of the Wish spell."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the user's query about the casting time of the Wish spell. It clearly states that the casting time is \"1 action,\" which is the specific information requested.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides all the necessary information to answer the query fully. The casting time of the Wish spell is explicitly mentioned, and no additional information is required to understand this aspect of the spell. The additional details about the spell's effects and mechanics, while informative, are not necessary to answer the specific question about casting time.\n\n   **Score: 2/2**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

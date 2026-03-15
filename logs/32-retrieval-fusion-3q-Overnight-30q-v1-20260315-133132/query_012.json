@@ -1,0 +1,138 @@
+{
+  "query_id": "query_012",
+  "session_id": "32-retrieval-fusion-3q-Overnight-30q-v1-20260315-133132",
+  "timestamp": "2026-03-15T13:34:20.387708",
+  "query": {
+    "original": "Can a Paladin under the Sanctuary spell use Divine Smite?",
+    "used": "Can a Paladin under the Sanctuary spell use Divine Smite?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.04972677595628415,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "### Divine Smite\n\nStarting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The"
+    },
+    {
+      "rank": 2,
+      "score": 0.04945355191256831,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "### Improved Divine Smite\n\nBy 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the"
+    },
+    {
+      "rank": 3,
+      "score": 0.04788306451612903,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "### Divine Sense\n\nThe presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detec"
+    },
+    {
+      "rank": 4,
+      "score": 0.04787506400409626,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### 2nd Level\n\n- [[Aid]]\n- [[Branding Smite]]\n- [[Find Steed]]\n- [[Lesser Restoration]]\n- [[Locate Object]]\n- [[Magic Weapon]]\n- [[Protection from Poison]]\n- [[Zone of Truth]]"
+    },
+    {
+      "rank": 5,
+      "score": 0.046634615384615385,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "#### Channel Divinity\n\nWhen you take this oath at 3rd level, you gain the following two Channel Divinity options.\n\n***Sacred Weapon***. As an action, you can imbue one weapon that you are holding with"
+    },
+    {
+      "rank": 6,
+      "score": 0.04618300439195962,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "#### Oath Spells\n\nYou gain oath spells at the paladin levels listed.\n\n**Table- Oath of Devotion Spells**\n\n| Level | Paladin Spells                           |\n|-------|--------------------------------"
+    },
+    {
+      "rank": 7,
+      "score": 0.04435015112764473,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "#### Holy Nimbus\n\nAt 20th level, as an action, you can emanate an aura of sunlight. For 1 minute, bright light shines from you in a 30-foot radius, and dim light shines 30 feet beyond that.\n\nWhenever "
+    },
+    {
+      "rank": 8,
+      "score": 0.04434349989184512,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### 1st Level\n\n- [[Bless]]\n- [[Command]]\n- [[Cure Wounds]]\n- [[Detect Evil and Good]]\n- [[Detect Magic]]\n- [[Detect Poison and Disease]]\n- [[Divine Favor]]\n- [[Heroism]]\n- [[Protection from Evil and "
+    },
+    {
+      "rank": 9,
+      "score": 0.02964426877470356,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "#### Preparing and Casting Spells\n\nThe Paladin table shows how many spell slots you have to cast your paladin spells. To cast one of your paladin spells of 1st level or higher, you must expend a slot "
+    },
+    {
+      "rank": 10,
+      "score": 0.015384615384615385,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "| Improved Divine Smite                      | 4   | 3   | 3   | -   | -   |\n| 12th  | +4                | Ability Score Improvement                  | 4   | 3   | 3   | -   | -   |\n| 13th  | +5      "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3114,
+    "rag_completion": 3487,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 6601
+  },
+  "costs": {
+    "rag": 0.00100507,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00100507
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 7.79,
+    "total_s": 17.2
+  },
+  "answer": " Based on the provided context, there is no restriction stated in the rules that prevent a Paladin under the Sanctuary spell from using Divine Smite. Therefore, the answer is: 'Yes, a Paladin under the Sanctuary spell can use Divine Smite.'",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.04972677595628415
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer is incorrect and directly contradicts the established rules regarding the interaction between the Sanctuary spell and Divine Smite. It fails to acknowledge that using Divine Smite as part of an attack would end the Sanctuary spell, making it irrelevant to the user's query."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context provides detailed information about the Paladin's Divine Smite ability, including how it works and its mechanics. However, it does not specifically address the interaction between the Sanctuary spell and the use of Divine Smite. The query is about whether a Paladin can use Divine Smite while under the effects of the Sanctuary spell, which is not directly covered in the context provided. Therefore, while the context is relevant to the Paladin's abilities, it does not fully match the specific subject matter of the query.\n\n   **Score: 1/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does not provide a complete answer to the query regarding the interaction between the Sanctuary spell and Divine Smite. The Sanctuary spell protects a creature from being attacked, and it has specific rules about what happens when the protected creature attacks. Since the context does not mention the Sanctuary spell or its effects, it cannot be used exclusively to answer the user's question. Additional information about the Sanctuary spell and its interaction with attacks would be necessary to provide a full answer.\n\n   **Score: 0/2**\n\n**Final Feedback:**\nThe retrieved context provides useful information about Divine Smite but fails to address the specific interaction with the Sanctuary spell, which is crucial for answering the user's query. Therefore, while there is some relevance, it does not suffice to provide a complete answer.\n\n**Final Result: [RESULT] 1.0**"
+    }
+  }
+}

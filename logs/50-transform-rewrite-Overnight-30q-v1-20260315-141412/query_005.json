@@ -1,0 +1,138 @@
+{
+  "query_id": "query_005",
+  "session_id": "50-transform-rewrite-Overnight-30q-v1-20260315-141412",
+  "timestamp": "2026-03-15T14:15:03.964218",
+  "query": {
+    "original": "How many hit dice does a Fighter have?",
+    "used": "What is the number of hit dice for a Fighter class in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "#### Hit Points\n\n**Hit Dice:** 1d10 per fighter level\n\n**Hit Points at 1st Level:** 10 + your Constitution modifier\n\n**Hit Points at Higher Levels:** 1d10 (or 6) + your Constitution modifier per fight"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "## Hit Points and Hit Dice\n\nYou gain the hit points from your new class as described for levels after 1st. You gain the 1st-level hit points for a class only when you are a 1st-level character.\n\nYou a"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Classes",
+      "topic": "Cleric",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Cleric.md",
+      "preview": "#### Hit Points\n\n**Hit Dice:** 1d8 per cleric level\n\n**Hit Points at 1st Level:** 8 + your Constitution modifier\n\n**Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per cleric le"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "#### Hit Points\n\n**Hit Dice:** 1d10 per paladin level\n\n**Hit Points at 1st Level:** 10 + your Constitution modifier\n\n**Hit Points at Higher Levels:** 1d10 (or 6) + your Constitution modifier per palad"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "#### Superior Critical\n\nStarting at 15th level, your weapon attacks score a critical hit on a roll of 18-20."
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Classes",
+      "topic": "Sorcerer",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Sorcerer.md",
+      "preview": "#### Hit Points\n\n**Hit Dice:** 1d6 per sorcerer level\n\n**Hit Points at 1st Level:** 6 + your Constitution modifier\n\n**Hit Points at Higher Levels:** 1d6 (or 4) + your Constitution modifier per sorcere"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "#### Hit Points\n\n**Hit Dice:** 1d8 per rogue level\n\n**Hit Points at 1st Level:** 8 + your Constitution modifier\n\n**Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per rogue leve"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Classes",
+      "topic": "Bard",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Bard.md",
+      "preview": "#### Hit Points\n\n**Hit Dice:** 1d8 per bard level\n\n**Hit Points at 1st Level:** 8 + your Constitution modifier\n\n**Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per bard level "
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Classes",
+      "topic": "Monk",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Monk.md",
+      "preview": "#### Hit Points\n\n**Hit Dice:** 1d8 per monk level\n\n**Hit Points at 1st Level:** 8 + your Constitution modifier\n\n**Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per monk level "
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "#### Hit Points\n\n**Hit Dice:** 1d12 per barbarian level\n\n**Hit Points at 1st Level:** 12 + your Constitution modifier\n\n**Hit Points at Higher Levels:** 1d12 (or 7) + your Constitution modifier per bar"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1859,
+    "rag_completion": 2127,
+    "meta_prompt": 53,
+    "meta_completion": 19,
+    "total_calls": 2,
+    "total": 4058
+  },
+  "costs": {
+    "rag": 0.00060862,
+    "meta": 1.9350000000000003e-05,
+    "embed": 0.0,
+    "total": 0.00062797
+  },
+  "timings": {
+    "rag_s": 1.01,
+    "query_s": 2.62,
+    "total_s": 10.02
+  },
+  "answer": " A Fighter in DnD 5e has 1d10 Hit Dice.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and relevant, accurately stating that a Fighter uses a d10 as their hit die, which aligns perfectly with the reference answer."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query about the Fighter class in DnD 5e by stating that the Fighter has a hit die of 1d10 per fighter level. This is the specific information requested in the query.\n\n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a complete answer to the query. It specifies the hit die for the Fighter class (1d10) and includes additional relevant information about hit points at different levels, which, while not necessary for answering the query, adds context to the understanding of how hit dice work for the Fighter class. However, the core answer to the query is fully contained within the context.\n\n   **Score: 2 points**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

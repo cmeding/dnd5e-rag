@@ -1,0 +1,122 @@
+{
+  "query_id": "query_011",
+  "session_id": "91-combined-sentwindow-best-Overnight-30q-v1-20260315-160740",
+  "timestamp": "2026-03-15T16:12:43.008273",
+  "query": {
+    "original": "What happens to concentration spells when a caster falls unconscious?",
+    "used": "What are the effects on concentration spells when a caster becomes unconscious in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.03333333333333333,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "** You lose concentration on a spell if you are incapacitated or if you die.\n\n"
+    },
+    {
+      "rank": 2,
+      "score": 0.03229166666666666,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "Repeated practice has fixed the spell in the caster's mind and infused the caster with the magic needed to produce the effect over and over. "
+    },
+    {
+      "rank": 3,
+      "score": 0.032266458495966696,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "** You lose concentration on a spell if you cast another spell that requires concentration. "
+    },
+    {
+      "rank": 4,
+      "score": 0.03225806451612903,
+      "category": "Classes",
+      "topic": "Sorcerer",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Sorcerer.md",
+      "preview": "For 1 minute or until you lose your concentration (as if you were casting a concentration spell), each hostile creature that starts its turn in this aura must succeed on a Wisdom saving throw or be ch"
+    },
+    {
+      "rank": 5,
+      "score": 0.031818181818181815,
+      "category": "Monsters",
+      "topic": "Rug of Smothering (Animated Object)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Rug of Smothering (Animated Object).md",
+      "preview": "If targeted by *dispel magic*, the rug must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute.\n\n"
+    },
+    {
+      "rank": 6,
+      "score": 0.031099324975891997,
+      "category": "Spells",
+      "topic": "Compulsion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Compulsion.md",
+      "preview": "### Compulsion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nCreatures of your choice that you can see wi"
+    },
+    {
+      "rank": 7,
+      "score": 0.030886196246139225,
+      "category": "Treasure",
+      "topic": "Ring of Spell Turning",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Ring of Spell Turning.md",
+      "preview": "In addition, if you roll a 20 for the save and the spell is 7th level or lower, the spell has no effect on you and instead targets the caster, using the slot level, spell save DC, attack bonus, and sp"
+    },
+    {
+      "rank": 8,
+      "score": 0.030798389007344232,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "Normal activity, such as moving and attacking, doesn't interfere with concentration. "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1763,
+    "rag_completion": 2646,
+    "meta_prompt": 55,
+    "meta_completion": 20,
+    "total_calls": 3,
+    "total": 4484
+  },
+  "costs": {
+    "rag": 0.00069667,
+    "meta": 2.025e-05,
+    "embed": 0.0,
+    "total": 0.00071692
+  },
+  "timings": {
+    "rag_s": 18.64,
+    "query_s": 21.1,
+    "total_s": 30.52
+  },
+  "answer": " The provided rules state that a caster loses concentration on a spell if they become incapacitated or if they die. Therefore, when a caster becomes unconscious, all of their active concentration spells end.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.03333333333333333
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer accurately reflects the rules regarding concentration spells in DnD 5e, stating that concentration ends when a caster becomes unconscious. It is relevant, correct, and provides a clear explanation."
+    },
+    "context_relevancy": {
+      "score": 0.625,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context does address the subject matter of the user's query regarding concentration spells and the effects of becoming unconscious. It specifically states that a caster loses concentration on a spell if they are incapacitated, which includes becoming unconscious. This directly answers the user's question about the effects on concentration spells when a caster becomes unconscious. However, the context also includes additional information about concentration spells and other unrelated spells, which may dilute the focus on the specific query.\n\n   **Score: 1.5/2** - The context is relevant but includes extraneous information that could distract from the main point.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context provides a clear answer regarding the loss of concentration when a caster becomes unconscious. However, it does not elaborate on any additional effects or implications of losing concentration beyond the basic fact. While it does provide the necessary information to answer the query, it lacks depth and does not fully explore the consequences or mechanics involved in losing concentration, such as what happens to the spell or its effects on the battlefield.\n\n   **Score: 1/2** - The context provides a partial answer but does not fully explore the implications or additional details that could enhance understanding.\n\n**Final Result: [RESULT] 2.5**"
+    }
+  }
+}

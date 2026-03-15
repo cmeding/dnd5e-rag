@@ -1,0 +1,138 @@
+{
+  "query_id": "query_025",
+  "session_id": "22-index-sentences-default-Overnight-30q-v1-20260315-122922",
+  "timestamp": "2026-03-15T12:37:13.068557",
+  "query": {
+    "original": "Does the stunned condition prevent a creature from making saving throws?",
+    "used": "Does the stunned condition prevent a creature from making saving throws?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "If an already exhausted creature suffers another effect that causes exhaustion, its current level of exhaustion increases by the amount specified in the effect's description.\n\nA creature suffers the e"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Petrified\n\n- A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of t"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "# Conditions\n\nConditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. Most conditions, such as blind"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "Antipathy-Sympathy",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Antipathy-Sympathy.md",
+      "preview": "If the target damages or otherwise harms an affected creature, the affected creature can make a Wisdom saving throw to end the effect, as described below.\n\n***Ending the Effect***. If an affected crea"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "***Other Charisma Checks***. The GM might call for a Charisma check when you try to accomplish tasks like the following:\n\n- Find the best person to talk to for news, rumors, and gossip\n- Blend into a "
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "Roll a d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success or failure has no effect by itself. On your third success, you become stable (see below). On your third failure, yo"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "### Climb\n\nA monster that has a climbing speed can use all or part of its movement to move on vertical surfaces. The monster doesn't need to spend extra movement to climb.\n\n### Fly\n\nA monster that has"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "When a creature receives healing of any kind, hit points regained are added to its current hit points. A creature's hit points can't exceed its hit point maximum, so any hit points regained in excess "
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Spells",
+      "topic": "Power Word Stun",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Power Word Stun.md",
+      "preview": "### Power Word Stun\n\n*8th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V\n\n**Duration:** Instantaneous\n\nYou speak a word of power that can overwhelm the mind of o"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Spells",
+      "topic": "Sunburst",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Sunburst.md",
+      "preview": "### Sunburst\n\n*8th-level evocation*\n\n**Casting Time:** 1 action\n\n**Range:** 150 feet\n\n**Components:** V, S, M (fire and a piece of sunstone)\n\n**Duration:** Instantaneous\n\nBrilliant sunlight flashes in"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 5636,
+    "rag_completion": 6074,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 11710
+  },
+  "costs": {
+    "rag": 0.0017740200000000003,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0017740200000000003
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 6.92,
+    "total_s": 13.82
+  },
+  "answer": " The stunned condition does not inherently prevent a creature from making saving throws. However, certain spells, such as Power Word Stun, may cause a stunned creature to have disadvantage on saving throws or require them to make additional saving throws to end the stunned condition.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant and correctly states that the stunned condition does not prevent saving throws. However, it introduces unnecessary complexity by mentioning specific spells and their effects, which could lead to confusion. It lacks the clarity and completeness of the reference answer."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context does not match the subject matter of the user's query. The query specifically asks about the stunned condition and its effect on saving throws, while the context provided discusses exhaustion and other conditions like frightened, grappled, and incapacitated. Although the context includes a section on the stunned condition, it does not directly address the question of whether the stunned condition prevents a creature from making saving throws.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The retrieved context cannot be used exclusively to provide a full answer to the user's query. While it does mention the stunned condition, it does not explicitly state that the stunned condition prevents a creature from making saving throws. The relevant information about the stunned condition is present, but it is not clearly articulated in relation to the specific question asked.\n\n**Final Result:**\nThe context is partially relevant but does not fully answer the query. Therefore, I would assign a score of 1 out of 4.\n\n[RESULT] 1.0"
+    }
+  }
+}

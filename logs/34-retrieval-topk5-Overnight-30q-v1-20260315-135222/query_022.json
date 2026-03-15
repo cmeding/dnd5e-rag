@@ -1,0 +1,98 @@
+{
+  "query_id": "query_022",
+  "session_id": "34-retrieval-topk5-Overnight-30q-v1-20260315-135222",
+  "timestamp": "2026-03-15T13:56:27.189380",
+  "query": {
+    "original": "What is the movement speed of a Giant Eagle?",
+    "used": "What is the movement speed of a Giant Eagle?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Monsters",
+      "topic": "Giant Eagle (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Giant Eagle (Creature).md",
+      "preview": "### Giant Eagle\n\n*Large beast, neutral good*\n\n**Armor Class** 13\n\n**Hit Points** 26 (4d10+4)\n\n**Speed** 10 ft., fly 80 ft.\n\n| STR     | DEX     | CON     | INT    | WIS     | CHA     |\n|---------|----"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Monsters",
+      "topic": "Giant Eagle (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Giant Eagle (Creature).md",
+      "preview": "###### Actions\n\n***Multiattack***. The eagle makes two attacks: one with its beak and one with its talons.\n\n***Beak***. *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6+3) pier"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Monsters",
+      "topic": "Eagle (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Eagle (Creature).md",
+      "preview": "### Eagle\n\n*Small beast, unaligned*\n\n**Armor Class** 12\n\n**Hit Points** 3 (1d6)\n\n**Speed** 10 ft., fly 60 ft.\n\n| STR    | DEX     | CON     | INT    | WIS     | CHA    |\n|--------|---------|---------|"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Monsters",
+      "topic": "Giant Vulture (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Giant Vulture (Creature).md",
+      "preview": "### Giant Vulture\n\n*Large beast, neutral evil*\n\n**Armor Class** 10\n\n**Hit Points** 22 (3d10+6)\n\n**Speed** 10 ft., fly 60 ft.\n\n| STR     | DEX     | CON     | INT    | WIS     | CHA    |\n|---------|---"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Monsters",
+      "topic": "Giant Owl (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Giant Owl (Creature).md",
+      "preview": "### Giant Owl\n\n*Large beast, neutral*\n\n**Armor Class** 12\n\n**Hit Points** 19 (3d10+3)\n\n**Speed** 5 ft., fly 60 ft.\n\n| STR     | DEX     | CON     | INT    | WIS     | CHA     |\n|---------|---------|--"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1496,
+    "rag_completion": 1644,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 3140
+  },
+  "costs": {
+    "rag": 0.00047692000000000003,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00047692000000000003
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 3.83,
+    "total_s": 9.41
+  },
+  "answer": " The movement speed of a Giant Eagle is 10 ft. on the ground and 80 ft. in the air.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and relevant, providing the same information as the reference answer in a clear and concise manner."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query about the movement speed of a Giant Eagle. It provides specific information stating that the Giant Eagle has a speed of 10 ft. and can fly at 80 ft. This is exactly what the user is asking for.\n\n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides all the necessary information to fully answer the query regarding the movement speed of a Giant Eagle. The details about its speed are clearly stated, and no additional information is needed to understand the answer.\n\n   **Score: 2 points**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "query_id": "query_017",
+  "session_id": "91-combined-sentwindow-best-Overnight-30q-v1-20260315-160740",
+  "timestamp": "2026-03-15T16:16:38.971798",
+  "query": {
+    "original": "Can you use Action Surge to cast two leveled spells in one turn?",
+    "used": "Can Action Surge be used to cast two leveled spells in a single turn in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.04866871479774705,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "### Action Surge\n\nStarting at 2nd level, you can push yourself beyond your normal limits for a moment. "
+    },
+    {
+      "rank": 2,
+      "score": 0.03177805800756621,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "#### Hit Points\n\n**Hit Dice:** 1d10 per fighter level\n\n**Hit Points at 1st Level:** 10 + your Constitution modifier\n\n**Hit Points at Higher Levels:** 1d10 (or 6) + your Constitution modifier per fight"
+    },
+    {
+      "rank": 3,
+      "score": 0.016666666666666666,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "You can't cast another spell during the same turn, except for a cantrip with a casting time of 1 action.\n\n"
+    },
+    {
+      "rank": 4,
+      "score": 0.016666666666666666,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "When you cast a spell with a casting time longer than a single action or reaction, you must spend your action each turn casting the spell, and you must maintain your concentration while you do so (see"
+    },
+    {
+      "rank": 5,
+      "score": 0.016666666666666666,
+      "category": "Spells",
+      "topic": "## Spell Lists",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists.md",
+      "preview": "# SPELL LISTS\n\n## Bard Spells\n\n#### Cantrips (0 Level)\n\n- Dancing Lights\n- Light\n- Mage Hand\n- Mending\n- Message\n- Minor Illusion\n- Prestidigitation\n- True Strike\n- Vicious Mockery\n\n#### 1st Level\n\n- "
+    },
+    {
+      "rank": 6,
+      "score": 0.01639344262295082,
+      "category": "Classes",
+      "topic": "Sorcerer",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Sorcerer.md",
+      "preview": "As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level.\n\n"
+    },
+    {
+      "rank": 7,
+      "score": 0.01639344262295082,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "## Casting Time\n\nMost spells require a single action to cast, but some spells require a bonus action, a reaction, or much more time to cast.\n\n"
+    },
+    {
+      "rank": 8,
+      "score": 0.01639344262295082,
+      "category": "Classes",
+      "topic": "Sorcerer",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Sorcerer.md",
+      "preview": "#### Hit Points\n\n**Hit Dice:** 1d6 per sorcerer level\n\n**Hit Points at 1st Level:** 6 + your Constitution modifier\n\n**Hit Points at Higher Levels:** 1d6 (or 4) + your Constitution modifier per sorcere"
+    },
+    {
+      "rank": 9,
+      "score": 0.016129032258064516,
+      "category": "Classes",
+      "topic": "Sorcerer",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Sorcerer.md",
+      "preview": "You can transform unexpended sorcery points into one spell slot as a bonus action on your turn. "
+    },
+    {
+      "rank": 10,
+      "score": 0.016129032258064516,
+      "category": "Spells",
+      "topic": "Animate Objects",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Animate Objects.md",
+      "preview": "If you cast this spell using a spell slot of 6th level or higher, you can animate two additional objects for each slot level above 5th."
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 8814,
+    "rag_completion": 10018,
+    "meta_prompt": 59,
+    "meta_completion": 23,
+    "total_calls": 5,
+    "total": 18914
+  },
+  "costs": {
+    "rag": 0.0028729600000000004,
+    "meta": 2.265e-05,
+    "embed": 0.0,
+    "total": 0.0028956100000000003
+  },
+  "timings": {
+    "rag_s": 16.54,
+    "query_s": 26.72,
+    "total_s": 67.55
+  },
+  "answer": " The Action Surge ability does not allow you to cast multiple leveled spells during the same turn using sorcery points or any other means as a Sorcerer.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.04866871479774705
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "The existing answer is NO, and it is correct. The Action Surge ability allows a fighter to take one additional action on their turn, but it does not change the rules regarding the casting of spells. In D&D 5e, you can only cast one leveled spell per turn unless you have a specific ability that allows you to do otherwise (such as the Sorcerer's Quickened Spell metamagic, which allows you to cast a spell as a bonus action).\n\nThe additional context provided does not change the fundamental rule that you cannot cast two leveled spells in a single turn. Therefore, the refined answer remains NO."
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer is not relevant to the user query as it incorrectly states that Action Surge does not allow casting multiple leveled spells, which contradicts the mechanics of the ability."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "The evaluation of the context in relation to the user's query about whether Action Surge can be used to cast two leveled spells in a single turn is accurate.\n\n1. **Does the retrieved context match the subject matter of the user's query?**\n   - The context discusses Action Surge, which is relevant to the action economy in D&D, but it does not address the specific question about casting two leveled spells in a single turn. The rules regarding spellcasting limitations are not mentioned, making the context insufficient to answer the query directly.\n\n   **Score: 1/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context lacks information about the rules governing spellcasting, specifically the limitation that a character can only cast one leveled spell per turn unless they have specific features that allow otherwise. Therefore, it cannot provide a full answer to the user's query.\n\n   **Score: 0/2**\n\n**Final Feedback:**\nThe retrieved context does not adequately address the user's question about the use of Action Surge for casting two leveled spells in a single turn. It provides some information about Action Surge but lacks the necessary details regarding spellcasting rules.\n\n**Final Result: [RESULT] 1.0** \n\nGiven the additional context provided does not include any relevant information about spellcasting rules, the evaluation remains unchanged."
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "query_id": "query_027",
+  "session_id": "90-combined-best-guess-Overnight-30q-v1-20260315-155235",
+  "timestamp": "2026-03-15T16:05:34.954590",
+  "query": {
+    "original": "If a creature is immune to the frightened condition, can it still be charmed?",
+    "used": "If a creature is immune to the frightened condition, does it remain susceptible to the charmed condition in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06379650063051703,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Charmed\n\n- A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.\n- The charmer has advantage on any ability check to interact socially with th"
+    },
+    {
+      "rank": 2,
+      "score": 0.06364332185227707,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Frightened\n\n- A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\n- The creature can't willingly move closer to the sourc"
+    },
+    {
+      "rank": 3,
+      "score": 0.031746031746031744,
+      "category": "Monsters",
+      "topic": "Lemure (Devil)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Lemure (Devil).md",
+      "preview": "### Lemure (Devil)\n\n*Medium fiend (devil), lawful evil*\n\n**Armor Class** 7\n\n**Hit Points** 13 (3d8)\n\n**Speed** 15 ft.\n\n| STR     | DEX    | CON     | INT    | WIS     | CHA    |\n|---------|--------|--"
+    },
+    {
+      "rank": 4,
+      "score": 0.03131881575727918,
+      "category": "Monsters",
+      "topic": "Mummy",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Mummy.md",
+      "preview": "### Mummy\n\n*Medium undead, lawful evil*\n\n**Armor Class** 11 (natural armor)\n\n**Hit Points** 58 (9d8+18)\n\n**Speed** 20 ft.\n\n| STR     | DEX    | CON     | INT    | WIS     | CHA     |\n|---------|------"
+    },
+    {
+      "rank": 5,
+      "score": 0.03128054740957967,
+      "category": "Spells",
+      "topic": "Contagion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Contagion.md",
+      "preview": "### Contagion\n\n*5th-level necromancy*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n**Component:** V, S\n\n**Duration:** 7 days\n\nYour touch inflicts disease. Make a melee spell attack against a creature"
+    },
+    {
+      "rank": 6,
+      "score": 0.030834914611005692,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Unconscious\n\n- An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings\n- The creature drops whatever it's holding and falls prone.\n- Th"
+    },
+    {
+      "rank": 7,
+      "score": 0.03076923076923077,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "## Vulnerabilities, Resistances, and Immunities\n\nSome creatures have vulnerability, resistance, or immunity to certain types of damage. Particular creatures are even resistant or immune to damage from"
+    },
+    {
+      "rank": 8,
+      "score": 0.030621785881252923,
+      "category": "Treasure",
+      "topic": "Deck of Many Things",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Deck of Many Things.md",
+      "preview": "#### Avatar of Death\n\n*Medium undead, neutral evil*\n\n**Armor Class** 20\n\n**Hit Points** half the hit point maximum of its summoner\n\n**Speed** 60 ft., fly 60 ft. (hover)\n\n| STR     | DEX     | CON     "
+    },
+    {
+      "rank": 9,
+      "score": 0.029850746268656716,
+      "category": "Classes",
+      "topic": "Druid",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Druid.md",
+      "preview": "#### Nature's Ward\n\nWhen you reach 10th level, you can't be charmed or frightened by elementals or fey, and you are immune to poison and disease."
+    },
+    {
+      "rank": 10,
+      "score": 0.016666666666666666,
+      "category": "Monsters",
+      "topic": "Animated Armor (Animated Object)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Animated Armor (Animated Object).md",
+      "preview": "### Animated Armor (Animated Object)\n\n*Medium construct, unaligned*\n\n**Armor Class** 18 (natural armor)\n\n**Hit Points** 33 (6d8+6)\n\n**Speed** 25 ft.\n\n| STR     | DEX     | CON     | INT    | WIS    | "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3315,
+    "rag_completion": 4284,
+    "meta_prompt": 61,
+    "meta_completion": 27,
+    "total_calls": 3,
+    "total": 7687
+  },
+  "costs": {
+    "rag": 0.00117861,
+    "meta": 2.5349999999999996e-05,
+    "embed": 0.0,
+    "total": 0.00120396
+  },
+  "timings": {
+    "rag_s": 17.39,
+    "query_s": 23.15,
+    "total_s": 35.82
+  },
+  "answer": " Based on the provided context, a creature that is immune to the frightened condition is not explicitly stated to be immune or susceptible to the charmed condition. Therefore, the charmed condition's effects on the creature would need to be determined by the specific creature's description or abilities. In this case, there is no information given about the creature's immunities or susceptibilities to the charmed condition.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06379650063051703
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query and correctly states that immunity to frightened does not imply immunity to charmed. However, it could be clearer and more concise, as it introduces unnecessary complexity by discussing the need for specific creature descriptions without directly affirming the separation of the two conditions."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context provides information about the charmed and frightened conditions, including definitions and effects. However, it does not directly address the relationship between immunity to the frightened condition and susceptibility to the charmed condition. While it mentions that certain creatures are immune to both conditions, it does not clarify whether immunity to one affects susceptibility to the other. Therefore, the context is partially relevant but does not fully match the specific query.\n\n   **Score: 1/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does not provide a complete answer to the user's query. It lacks specific information regarding the interaction between the frightened and charmed conditions, particularly in the context of immunity. The user is asking for a specific relationship between these two conditions, and the provided context does not sufficiently address this. Thus, it cannot be used exclusively to answer the query.\n\n   **Score: 0/2**\n\n**Final Feedback:**\nThe retrieved context partially matches the subject matter of the query by discussing the charmed and frightened conditions, but it does not provide a complete answer regarding the interaction between immunity to one condition and susceptibility to the other. Therefore, while some relevant information is present, it is insufficient to fully address the user's question.\n\n[RESULT] 1.0"
+    }
+  }
+}

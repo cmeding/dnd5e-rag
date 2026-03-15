@@ -1,0 +1,138 @@
+{
+  "query_id": "query_009",
+  "session_id": "91-combined-sentwindow-best-Overnight-30q-v1-20260315-160740",
+  "timestamp": "2026-03-15T16:11:53.238558",
+  "query": {
+    "original": "Does the invisible condition prevent a creature from casting spells?",
+    "used": "Does the invisible condition affect a creature's ability to cast spells in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.04972677595628415,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Invisible\n\n- An invisible creature is impossible to see without the aid of magic or a special sense. "
+    },
+    {
+      "rank": 2,
+      "score": 0.046943815757279184,
+      "category": "Spells",
+      "topic": "See Invisibility",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\See Invisibility.md",
+      "preview": "### See Invisibility\n\n*2nd-level divination*\n\n**Casting Time:** 1 action\n\n**Range:** Self\n\n**Components:** V, S, M (a pinch of talc and a small sprinkling of powdered silver)\n\n**Duration:** 1 hour\n\nFo"
+    },
+    {
+      "rank": 3,
+      "score": 0.04675716440422323,
+      "category": "Spells",
+      "topic": "Invisibility",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Invisibility.md",
+      "preview": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+    },
+    {
+      "rank": 4,
+      "score": 0.04434349989184512,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": ">\n>An invisible creature can always try to hide. "
+    },
+    {
+      "rank": 5,
+      "score": 0.03225806451612903,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "Unless a spell has a perceptible effect, a creature might not know it was targeted by a spell at all. "
+    },
+    {
+      "rank": 6,
+      "score": 0.031818181818181815,
+      "category": "Treasure",
+      "topic": "Dust of Disappearance",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Dust of Disappearance.md",
+      "preview": "If a creature affected by the dust attacks or casts a spell, the invisibility ends for that creature."
+    },
+    {
+      "rank": 7,
+      "score": 0.031754032258064516,
+      "category": "Spells",
+      "topic": "Invisibility",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Invisibility.md",
+      "preview": "### Invisibility\n\n*2nd-level illusion*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S, M (an eyelash encased in gum arabic)\n\n**Duration:** Concentration, up to 1 hour\n\nA creature "
+    },
+    {
+      "rank": 8,
+      "score": 0.031746031746031744,
+      "category": "Spells",
+      "topic": "Greater Invisibility",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Greater Invisibility.md",
+      "preview": "### Greater Invisibility\n\n*4th-level illusion*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou or a creature you touch becomes inv"
+    },
+    {
+      "rank": 9,
+      "score": 0.031009615384615385,
+      "category": "Spells",
+      "topic": "Invisibility",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Invisibility.md",
+      "preview": "The spell ends for a target that attacks or casts a spell.\n\n"
+    },
+    {
+      "rank": 10,
+      "score": 0.029411764705882353,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": ">\n>You can't hide from a creature that can see you clearly, and you give away your position if you make noise, such as shouting a warning or knocking over a vase.\n"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1893,
+    "rag_completion": 2723,
+    "meta_prompt": 55,
+    "meta_completion": 20,
+    "total_calls": 3,
+    "total": 4691
+  },
+  "costs": {
+    "rag": 0.0007256000000000001,
+    "meta": 2.025e-05,
+    "embed": 0.0,
+    "total": 0.00074585
+  },
+  "timings": {
+    "rag_s": 17.14,
+    "query_s": 19.59,
+    "total_s": 28.06
+  },
+  "answer": " Yes, the invisible condition states that if an invisible creature attacks or casts a spell, the invisibility ends for that creature. (Refer to the context from the Invisibility spell.)",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.04972677595628415
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains a significant mistake regarding the effects of the invisible condition on spellcasting. It incorrectly states that casting a spell ends invisibility, which is not true according to the rules."
+    },
+    "context_relevancy": {
+      "score": 0.875,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context does match the subject matter of the user's query regarding the invisible condition and its effects on a creature's ability to cast spells in DnD 5e. The context provides information about the invisibility condition, including how it interacts with actions like attacking or casting spells. Specifically, it mentions that \"the spell ends for a target that attacks or casts a spell,\" which directly addresses the query about whether invisibility affects spellcasting.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The retrieved context can be used to provide a full answer to the user's query, as it clearly states that casting a spell ends the invisibility effect. However, it does not explicitly state whether the act of casting a spell while invisible has any additional effects on the spell itself or the caster's ability to cast it. While the context is sufficient to answer the question about the invisibility condition ending when a spell is cast, it does not provide a comprehensive understanding of any potential limitations or nuances regarding spellcasting while invisible. Therefore, while it is mostly complete, it lacks some depth.\n\n   **Score: 1.5/2**\n\n**Final Result:** [RESULT] 3.5"
+    }
+  }
+}

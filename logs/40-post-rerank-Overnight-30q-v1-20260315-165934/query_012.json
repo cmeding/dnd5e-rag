@@ -1,0 +1,98 @@
+{
+  "query_id": "query_012",
+  "session_id": "40-post-rerank-Overnight-30q-v1-20260315-165934",
+  "timestamp": "2026-03-15T17:01:55.582965",
+  "query": {
+    "original": "Can a Paladin under the Sanctuary spell use Divine Smite?",
+    "used": "Can a Paladin under the Sanctuary spell use Divine Smite?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 3.2559995651245117,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "### Divine Smite\n\nStarting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The"
+    },
+    {
+      "rank": 2,
+      "score": 2.8831522464752197,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "### Improved Divine Smite\n\nBy 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the"
+    },
+    {
+      "rank": 3,
+      "score": -1.1631419658660889,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "#### Channel Divinity\n\nYour oath allows you to channel divine energy to fuel magical effects. Each Channel Divinity option provided by your oath explains how to use it.\n\nWhen you use your Channel Divi"
+    },
+    {
+      "rank": 4,
+      "score": -3.5971219539642334,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "### Divine Sense\n\nThe presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detec"
+    },
+    {
+      "rank": 5,
+      "score": -3.9190969467163086,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "#### Channel Divinity\n\nWhen you take this oath at 3rd level, you gain the following two Channel Divinity options.\n\n***Sacred Weapon***. As an action, you can imbue one weapon that you are holding with"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1548,
+    "rag_completion": 1763,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 3311
+  },
+  "costs": {
+    "rag": 0.0005052500000000001,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0005052500000000001
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 4.95,
+    "total_s": 14.11
+  },
+  "answer": " Yes, a Paladin under the Sanctuary spell can use Divine Smite as long as they hit a creature with a melee weapon attack and expend a spell slot to do so. The Sanctuary spell does not restrict the use of Divine Smite.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 3.2559995651245117
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer is incorrect as it states that a Paladin can use Divine Smite while under the effects of the Sanctuary spell, which contradicts the rules. Sanctuary ends when the protected creature attacks, which includes using Divine Smite."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context primarily discusses the mechanics of Divine Smite, including its activation and effects, as well as related features like Improved Divine Smite and Channel Divinity. However, it does not directly address the interaction between the Sanctuary spell and the use of Divine Smite. The query specifically asks whether a Paladin can use Divine Smite while under the effects of the Sanctuary spell, which is not covered in the provided context. Therefore, while the context is relevant to the Paladin's abilities, it does not match the specific subject matter of the query regarding the Sanctuary spell.\n\n   **Score: 1/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The context does not provide a complete answer to the user's query about the interaction between the Sanctuary spell and Divine Smite. While it explains how Divine Smite works, it lacks information on the Sanctuary spell's effects, specifically that it prevents attacks against the target unless the spell is broken. Therefore, the context cannot be used exclusively to answer the query, as it does not address the necessary details regarding the Sanctuary spell.\n\n   **Score: 0/2**\n\n**Final Feedback:** The retrieved context provides useful information about Divine Smite but fails to address the specific interaction with the Sanctuary spell, which is crucial for answering the user's query. As a result, the context is only partially relevant and does not provide a complete answer.\n\n[RESULT] 1.0"
+    }
+  }
+}

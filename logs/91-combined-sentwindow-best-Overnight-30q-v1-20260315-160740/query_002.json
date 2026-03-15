@@ -1,0 +1,138 @@
+{
+  "query_id": "query_002",
+  "session_id": "91-combined-sentwindow-best-Overnight-30q-v1-20260315-160740",
+  "timestamp": "2026-03-15T16:08:37.437432",
+  "query": {
+    "original": "What is the Armor Class of an Aboleth?",
+    "used": "What is the Armor Class of an Aboleth in Dungeons & Dragons 5th Edition?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06666666666666667,
+      "category": "Monsters",
+      "topic": "Aboleth",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Aboleth.md",
+      "preview": "## Aboleth\n\n*Large aberration, lawful evil*\n\n**Armor Class** 17 (natural armor)\n\n**Hit Points** 135 (18d10+36)\n\n**Speed** 10 ft., swim 40 ft.\n\n"
+    },
+    {
+      "rank": 2,
+      "score": 0.03252247488101534,
+      "category": "Monsters",
+      "topic": "Aboleth",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Aboleth.md",
+      "preview": "If a creature communicates telepathically with the aboleth, the aboleth learns the creature's greatest desires if the aboleth can see the creature.\n\n"
+    },
+    {
+      "rank": 3,
+      "score": 0.032018442622950824,
+      "category": "Equipment",
+      "topic": "Armor",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Armor.md",
+      "preview": "**Table- Armor**\n\n| Armor            | Cost     | Armor Class (AC)          | Strength | Stealth      | Weight |\n|------------------|----------|---------------------------|----------|--------------|--"
+    },
+    {
+      "rank": 4,
+      "score": 0.03149801587301587,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "#### Defense\n\nWhile you are wearing armor, you gain a +1 bonus to AC.\n\n"
+    },
+    {
+      "rank": 5,
+      "score": 0.03125763125763126,
+      "category": "Monsters",
+      "topic": "Aboleth",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Aboleth.md",
+      "preview": "The aboleth makes a Wisdom (Perception) check.\n\n"
+    },
+    {
+      "rank": 6,
+      "score": 0.031054405392392875,
+      "category": "Gamemastering",
+      "topic": "Objects",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Objects.md",
+      "preview": "**Table- Object's Armor Class**\n\n| Substance           | AC |\n|---------------------|----|\n| Cloth, paper, rope  | 11 |\n| Crystal, glass, ice | 13 |\n| Wood, bone          | 15 |\n| Stone               "
+    },
+    {
+      "rank": 7,
+      "score": 0.030834914611005692,
+      "category": "Equipment",
+      "topic": "Armor",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Armor.md",
+      "preview": "***Armor Class (AC)***. "
+    },
+    {
+      "rank": 8,
+      "score": 0.030834914611005692,
+      "category": "Monsters",
+      "topic": "Aboleth",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Aboleth.md",
+      "preview": "The aboleth makes three tentacle attacks.\n\n"
+    },
+    {
+      "rank": 9,
+      "score": 0.030776515151515152,
+      "category": "Monsters",
+      "topic": "Aboleth",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Aboleth.md",
+      "preview": "The aboleth makes one tail attack.\n\n"
+    },
+    {
+      "rank": 10,
+      "score": 0.030309988518943745,
+      "category": "Monsters",
+      "topic": "Aboleth",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Aboleth.md",
+      "preview": "The aboleth can breathe air and water.\n\n"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1791,
+    "rag_completion": 2470,
+    "meta_prompt": 55,
+    "meta_completion": 20,
+    "total_calls": 3,
+    "total": 4336
+  },
+  "costs": {
+    "rag": 0.00066631,
+    "meta": 2.025e-05,
+    "embed": 0.0,
+    "total": 0.00068656
+  },
+  "timings": {
+    "rag_s": 15.87,
+    "query_s": 17.19,
+    "total_s": 29.9
+  },
+  "answer": " The Armor Class of an Aboleth is 17. (From the context provided in the Monsters > Aboleth file.)",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06666666666666667
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly answers the user query about the Armor Class of an Aboleth in Dungeons & Dragons 5th Edition. It provides the correct value and additional context, which enhances the response without detracting from its accuracy."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context directly addresses the query about the Armor Class of an Aboleth in Dungeons & Dragons 5th Edition. It explicitly states that the Armor Class is 17 (natural armor), which is the specific information requested.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides all the necessary information to answer the query fully. The Armor Class of the Aboleth is clearly stated without any need for additional information or context. \n\nOverall, the retrieved context is highly relevant and sufficient to answer the user's query.\n\nFinal result: [RESULT] 4.0"
+    }
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "query_id": "query_025",
+  "session_id": "52-transform-decomposition-Overnight-30q-v1-20260315-143000",
+  "timestamp": "2026-03-15T14:43:48.011183",
+  "query": {
+    "original": "Does the stunned condition prevent a creature from making saving throws?",
+    "used": "Does the stunned condition prevent a creature from making saving throws?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": null,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "Sub question: What are the effects of the stunned condition?\nResponse:  A stunned creature is incapacitated and unable to act effectively. It is unaware of its surroundings and cannot move or speak cl"
+    },
+    {
+      "rank": 2,
+      "score": null,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "Sub question: Does the stunned condition specify anything about saving throws?\nResponse:  Yes, the stunned condition specifies that a stunned creature automatically fails Strength and Dexterity saving"
+    },
+    {
+      "rank": 3,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Stunned\n\n- A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rol"
+    },
+    {
+      "rank": 4,
+      "score": 0.01639344262295082,
+      "category": "Gamemastering",
+      "topic": "Madness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Madness.md",
+      "preview": "**Table- Madness Long-Term Effects**\n\n| d100   | Effect (lasts 1d10 \u00d7 10 hours)                                                                                                                         "
+    },
+    {
+      "rank": 5,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Madness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Madness.md",
+      "preview": "## Madness Effects\n\nMadness can be short-term, long-term, or indefinite. Most relatively mundane effects impose short-term madness, which lasts for just a few minutes. More horrific effects or cumulat"
+    },
+    {
+      "rank": 6,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "Power Word Stun",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Power Word Stun.md",
+      "preview": "### Power Word Stun\n\n*8th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V\n\n**Duration:** Instantaneous\n\nYou speak a word of power that can overwhelm the mind of o"
+    },
+    {
+      "rank": 7,
+      "score": 0.015625,
+      "category": "Gamemastering",
+      "topic": "Madness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Madness.md",
+      "preview": "The confusion effect lasts for 1 minute.            |\n| 91-95  | The character loses the ability to speak.                                                                                              "
+    },
+    {
+      "rank": 8,
+      "score": 0.015384615384615385,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "# Conditions\n\nConditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. Most conditions, such as blind"
+    },
+    {
+      "rank": 9,
+      "score": 0.015151515151515152,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Exhaustion\n\nSome special abilities and environmental hazards, such as starvation and the long-term effects of freezing or scorching temperatures, can lead to a special condition called exhaustion. "
+    },
+    {
+      "rank": 10,
+      "score": 0.014925373134328358,
+      "category": "Gamemastering",
+      "topic": "Traps",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Traps.md",
+      "preview": "### Trap Effects\n\nThe effects of traps can range from inconvenient to deadly, making use of elements such as arrows, spikes, blades, poison, toxic gas, blasts of fire, and deep pits. The deadliest tra"
+    },
+    {
+      "rank": 11,
+      "score": 0.014705882352941176,
+      "category": "Spells",
+      "topic": "Modify Memory",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Modify Memory.md",
+      "preview": "### Modify Memory\n\n*5th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou attempt to reshape another creature's"
+    },
+    {
+      "rank": 12,
+      "score": 0.014492753623188406,
+      "category": "Spells",
+      "topic": "Shocking Grasp",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Shocking Grasp.md",
+      "preview": "### Shocking Grasp\n\n*Evocation cantrip*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S\n\n**Duration:** Instantaneous\n\nLightning springs from your hand to deliver a shock to a creat"
+    },
+    {
+      "rank": 13,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Stunned\n\n- A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rol"
+    },
+    {
+      "rank": 14,
+      "score": 0.01639344262295082,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "## Saving Throws\n\nThe Saving Throws entry is reserved for creatures that are adept at resisting certain kinds of effects. For example, a creature that isn't easily charmed or frightened might gain a b"
+    },
+    {
+      "rank": 15,
+      "score": 0.016129032258064516,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "# Saving Throws\n\nA saving throw-also called a save-represents an attempt to resist a spell, a trap, a poison, a disease, or a similar threat. You don't normally decide to make a saving throw; you are "
+    },
+    {
+      "rank": 16,
+      "score": 0.015873015873015872,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "### Indomitable\n\nBeginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature again until you finish a long rest.\n\nYou c"
+    },
+    {
+      "rank": 17,
+      "score": 0.015625,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Death Saving Throws\n\nWhenever you start your turn with 0 hit points, you must make a special saving throw, called a death saving throw, to determine whether you creep closer to death or hang onto "
+    },
+    {
+      "rank": 18,
+      "score": 0.015384615384615385,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "# Spell Saving Throws\n\nMany spells specify that a target can make a saving throw to avoid some or all of a spell's effects. The spell specifies the ability that the target uses for the save and what h"
+    },
+    {
+      "rank": 19,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "Sunburst",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Sunburst.md",
+      "preview": "### Sunburst\n\n*8th-level evocation*\n\n**Casting Time:** 1 action\n\n**Range:** 150 feet\n\n**Components:** V, S, M (fire and a piece of sunstone)\n\n**Duration:** Instantaneous\n\nBrilliant sunlight flashes in"
+    },
+    {
+      "rank": 20,
+      "score": 0.014925373134328358,
+      "category": "Classes",
+      "topic": "Monk",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Monk.md",
+      "preview": "### Stunning Strike\n\nStarting at 5th level, you can interfere with the flow of ki in an opponent's body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a"
+    },
+    {
+      "rank": 21,
+      "score": 0.014705882352941176,
+      "category": "Spells",
+      "topic": "Symbol",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Symbol.md",
+      "preview": "***Sleep***. Each target must make a Wisdom saving throw and falls unconscious for 10 minutes on a failed save. A creature awakens if it takes damage or if someone uses an action to shake or slap it a"
+    },
+    {
+      "rank": 22,
+      "score": 0.014492753623188406,
+      "category": "Treasure",
+      "topic": "Ring of Evasion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Ring of Evasion.md",
+      "preview": "### Ring of Evasion\n\n*Ring, rare (requires attunement)*\n\nThis ring has 3 charges, and it regains 1d3 expended charges daily at dawn. When you fail a Dexterity saving throw while wearing it, you can us"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 10305,
+    "rag_completion": 11698,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 6,
+    "total": 22003
+  },
+  "costs": {
+    "rag": 0.0033561700000000003,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0033561700000000003
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 19.3,
+    "total_s": 34.36
+  },
+  "answer": " No, the stunned condition does not prevent a creature from making saving throws. It only specifies that a stunned creature automatically fails Strength and Dexterity saving throws.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and mostly correct, accurately stating that the stunned condition does not prevent saving throws. However, it lacks the detail that attack rolls against a stunned creature have advantage and does not mention that saving throws of other types are unaffected, which is included in the reference answer."
+    },
+    "context_relevancy": {
+      "score": null,
+      "passing": null,
+      "feedback": "The existing evaluation score of 3.0 is appropriate based on the provided context."
+    }
+  }
+}

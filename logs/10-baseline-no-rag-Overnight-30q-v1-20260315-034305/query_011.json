@@ -1,0 +1,51 @@
+{
+  "query_id": "query_011",
+  "session_id": "10-baseline-no-rag-Overnight-30q-v1-20260315-034305",
+  "timestamp": "2026-03-15T03:45:15.550413",
+  "query": {
+    "original": "What happens to concentration spells when a caster falls unconscious?",
+    "used": "What happens to concentration spells when a caster falls unconscious?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 285,
+    "rag_completion": 782,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 1067
+  },
+  "costs": {
+    "rag": 0.00017993000000000002,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00017993000000000002
+  },
+  "timings": {
+    "rag_s": null,
+    "query_s": 11.02,
+    "total_s": 12.65
+  },
+  "answer": " When a concentration spell is cast, the caster is required to maintain concentration on the spell as a continuous effort. If the caster becomes unconscious or is unable to concentrate for any reason, the spell ends.\n\nFor example, if a character is casting a Fireball spell as a concentration spell and then becomes unconscious, the Fireball spell will immediately dissipate without being cast. Similarly, if a character is maintaining a Wall of Force or a Shield spell and then becomes unconscious, those spells will also end.\n\nIt's important to note that the spell ending does not harm the caster or anyone else in the area, it simply ceases to exist. However, the loss of a concentration spell can have significant consequences, especially in combat situations or when the spell is being used to provide ongoing support or protection.",
+  "refused": false,
+  "confidence": {
+    "passed": null,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and mostly correct, explaining that concentration ends when a caster becomes unconscious. However, it introduces an example of Fireball, which is not a concentration spell, leading to a minor inaccuracy. Overall, it provides a thorough explanation of the implications of losing concentration spells."
+    },
+    "context_relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    }
+  }
+}

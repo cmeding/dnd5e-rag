@@ -1,0 +1,66 @@
+{
+  "query_id": "query_011",
+  "session_id": "61-context-consolidation-Overnight-30q-v1-20260315-145355",
+  "timestamp": "2026-03-15T14:56:31.752180",
+  "query": {
+    "original": "What happens to concentration spells when a caster falls unconscious?",
+    "used": "What happens to concentration spells when a caster falls unconscious?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, concentration spells require the caster to maintain focus to keep their magic active. If a caster falls unconscious, they are considered incapacitated, which means t"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1461,
+    "rag_completion": 3932,
+    "meta_prompt": 1934,
+    "meta_completion": 174,
+    "total_calls": 2,
+    "total": 7501
+  },
+  "costs": {
+    "rag": 0.00090779,
+    "meta": 0.0003945,
+    "embed": 0.0,
+    "total": 0.00130229
+  },
+  "timings": {
+    "rag_s": 3.99,
+    "query_s": 5.95,
+    "total_s": 12.33
+  },
+  "answer": " All concentration spells the caster was maintaining immediately end when they fall unconscious.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly addresses the user query, providing the same information as the reference answer in a clear and concise manner."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query about what happens to concentration spells when a caster falls unconscious. It explains the mechanics of concentration in Dungeons & Dragons 5th Edition, specifically noting that falling unconscious results in the loss of concentration on spells. This is relevant and directly answers the user's question.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a complete answer to the query. It not only states that concentration is lost when a caster falls unconscious but also elaborates on the reasons behind this, including the definition of incapacitation and the mechanics of concentration spells. The information is comprehensive enough to fully inform the user about the consequences of a caster falling unconscious regarding their concentration spells.\n\n   **Score: 2/2**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

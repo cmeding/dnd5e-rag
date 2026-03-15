@@ -1,0 +1,98 @@
+{
+  "query_id": "query_008",
+  "session_id": "34-retrieval-topk5-Overnight-30q-v1-20260315-135222",
+  "timestamp": "2026-03-15T13:53:41.620590",
+  "query": {
+    "original": "Can a restrained creature still make attack rolls?",
+    "used": "Can a restrained creature still make attack rolls?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Restrained\n\n- A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- Attack rolls against the creature have advantage, and the creature's attack rolls have dis"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Shoving a Creature\n\nUsing the Attack action, you can make a special melee attack to shove a creature, either to knock it prone or push it away from you. If you're able to make multiple attacks wit"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Paralyzed\n\n- A paralyzed creature is incapacitated (see the condition) and can't move or speak.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the c"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "#### Stabilizing a Creature\n\nThe best way to save a creature with 0 hit points is to heal it. If healing is unavailable, the creature can at least be stabilized so that it isn't killed by a failed dea"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Attack Rolls\n\nWhen you make an attack, your attack roll determines whether the attack hits or misses. To make an attack roll, roll a d20 and add the appropriate modifiers. If the total of the roll "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1299,
+    "rag_completion": 1500,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 2799
+  },
+  "costs": {
+    "rag": 0.00042789,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00042789
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 3.79,
+    "total_s": 11.01
+  },
+  "answer": " Yes, a restrained creature can still make attack rolls, but they have disadvantage on their attack rolls due to the condition. (Refer to the \"Restrained\" section in the Conditions file.)",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and fully correct, accurately stating that a restrained creature can make attack rolls with disadvantage, and it also references the appropriate source for further information."
+    },
+    "context_relevancy": {
+      "score": 0.625,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context discusses the condition of being \"restrained,\" which is directly relevant to the user's query about whether a restrained creature can make attack rolls. It specifically states that a restrained creature's attack rolls have disadvantage, which is pertinent information regarding the ability to make attack rolls while under that condition. However, it does not explicitly state whether a restrained creature can make attack rolls at all, only that they have disadvantage on them. Therefore, while the context is relevant, it does not fully address the query.\n\n   **Score: 1.5/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context provides some information about the effects of being restrained, particularly regarding attack rolls having disadvantage. However, it does not clarify whether a restrained creature can still make attack rolls at all, which is the crux of the user's question. Thus, while the context is informative, it does not provide a complete answer to the query on its own. Additional information would be needed to fully answer the question.\n\n   **Score: 1/2**\n\n**Final Feedback:**\nThe retrieved context is relevant to the query as it discusses the restrained condition, but it does not fully answer the question of whether a restrained creature can make attack rolls. It only mentions the disadvantage on those rolls. Therefore, while it provides useful information, it lacks completeness. \n\n**Final Result: [RESULT] 2.5**"
+    }
+  }
+}

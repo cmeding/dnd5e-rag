@@ -1,0 +1,138 @@
+{
+  "query_id": "query_016",
+  "session_id": "90-combined-best-guess-Overnight-30q-v1-20260315-155235",
+  "timestamp": "2026-03-15T15:59:55.388113",
+  "query": {
+    "original": "Does a natural 20 on an attack roll automatically deal maximum damage?",
+    "used": "Does rolling a natural 20 on an attack roll in DnD 5e automatically result in maximum damage?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.048958333333333326,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Rolling 1 or 20\n\nSometimes fate blesses or curses a combatant, causing the novice to hit and the veteran to miss.\n\nIf the d20 roll for an attack is a 20, the attack hits regardless of any modifier"
+    },
+    {
+      "rank": 2,
+      "score": 0.047245564892623715,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Death Saving Throws\n\nWhenever you start your turn with 0 hit points, you must make a special saving throw, called a death saving throw, to determine whether you creep closer to death or hang onto "
+    },
+    {
+      "rank": 3,
+      "score": 0.03278688524590164,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "### Stroke of Luck\n\nAt 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail "
+    },
+    {
+      "rank": 4,
+      "score": 0.03229166666666666,
+      "category": "Characterizations",
+      "topic": "Beyond 1st Level",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Beyond 1st Level.md",
+      "preview": "# Beyond 1st Level\n\nAs your character goes on adventures and overcomes challenges, he or she gains experience, represented by experience points. A character who reaches a specified experience point to"
+    },
+    {
+      "rank": 5,
+      "score": 0.03225806451612903,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Damage Rolls\n\nEach weapon, spell, and harmful monster ability specifies the damage it deals. You roll the damage die or dice, add any modifiers, and apply the damage to your target. Magic weapons,"
+    },
+    {
+      "rank": 6,
+      "score": 0.03177805800756621,
+      "category": "Treasure",
+      "topic": "Mace of Smiting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Mace of Smiting.md",
+      "preview": "### Mace of Smiting\n\n*Weapon (mace), rare*\n\nYou gain a +1 bonus to attack and damage rolls made with this magic weapon. The bonus increases to +3 when you use the mace to attack a construct.\n\nWhen you"
+    },
+    {
+      "rank": 7,
+      "score": 0.03125763125763126,
+      "category": "Treasure",
+      "topic": "Vicious Weapon",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Vicious Weapon.md",
+      "preview": "### Vicious Weapon\n\n*Weapon (any), rare*\n\nWhen you roll a 20 on your attack roll with this magic weapon, your critical hit deals an extra 2d6 damage of the weapon's type."
+    },
+    {
+      "rank": 8,
+      "score": 0.031024531024531024,
+      "category": "Treasure",
+      "topic": "Sword of Sharpness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Sword of Sharpness.md",
+      "preview": "### Sword of Sharpness\n\n*Weapon (any sword that deals slashing damage), very rare (requires attunement)*\n\nWhen you attack an object with this magic sword and hit, maximize your weapon damage dice agai"
+    },
+    {
+      "rank": 9,
+      "score": 0.03057889822595705,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Attack Rolls\n\nWhen you make an attack, your attack roll determines whether the attack hits or misses. To make an attack roll, roll a d20 and add the appropriate modifiers. If the total of the roll "
+    },
+    {
+      "rank": 10,
+      "score": 0.02964426877470356,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "# Making an Attack\n\nWhether you're striking with a melee weapon, firing a weapon at range, or making an attack roll as part of a spell, an attack has a simple structure.\n\n- **Choose a target**. Pick a"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3372,
+    "rag_completion": 4291,
+    "meta_prompt": 58,
+    "meta_completion": 23,
+    "total_calls": 3,
+    "total": 7744
+  },
+  "costs": {
+    "rag": 0.00118621,
+    "meta": 2.2499999999999998e-05,
+    "embed": 0.0,
+    "total": 0.00120871
+  },
+  "timings": {
+    "rag_s": 19.97,
+    "query_s": 24.49,
+    "total_s": 33.07
+  },
+  "answer": " A natural 20 on an attack roll in DnD 5e results in a critical hit, which means the attack hits regardless of the target's AC, but it does not necessarily mean maximum damage. The damage rolled is determined separately and can be modified by various factors, such as the weapon's damage die, bonus damage from abilities, or resistance/immunity of the target.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.048958333333333326
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and fully correct, accurately explaining that a natural 20 results in a critical hit but does not automatically result in maximum damage. It also includes additional context about how damage is calculated, which enhances the answer's completeness."
+    },
+    "context_relevancy": {
+      "score": 0.5,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context does address the subject matter of the user's query to some extent. It explains that rolling a natural 20 on an attack roll results in a critical hit, which means the attack hits regardless of modifiers or the target's AC. However, it does not explicitly state that a natural 20 automatically results in maximum damage. Instead, it mentions that critical hits allow for rolling additional damage dice, which can lead to higher damage but does not guarantee maximum damage. Therefore, while the context is relevant, it does not fully answer the query.\n\n   **Score: 1 point**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The retrieved context cannot be used exclusively to provide a full answer to the user's query. While it provides some information about critical hits and the mechanics of rolling a natural 20, it lacks a clear statement regarding maximum damage. The context does mention that certain magic weapons provide additional damage on a critical hit, but it does not generalize this to all attacks. Thus, the context is insufficient to fully answer the question about whether a natural 20 results in maximum damage.\n\n   **Score: 1 point**\n\n**Final Result:** [RESULT] 2.0"
+    }
+  }
+}

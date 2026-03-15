@@ -1,0 +1,138 @@
+{
+  "query_id": "query_007",
+  "session_id": "22-index-sentences-default-Overnight-30q-v1-20260315-122922",
+  "timestamp": "2026-03-15T12:30:52.338075",
+  "query": {
+    "original": "Can a frightened creature take the Dash action?",
+    "used": "Can a frightened creature take the Dash action?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "Beginning at 6th level, you can't be charmed or frightened while raging. If you are charmed or frightened when you enter your rage, the effect is suspended for the duration of the rage.\n\n#### Intimida"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Spells",
+      "topic": "Fear",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Fear.md",
+      "preview": "### Fear\n\n*3rd-level illusion*\n\n**Casting Time:** 1 action\n\n**Range:** Self (30-foot cone)\n\n**Components:** V, S, M (a white feather or the heart of a hen)\n\n**Duration:** Concentration, up to 1 minute"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "If an already exhausted creature suffers another effect that causes exhaustion, its current level of exhaustion increases by the amount specified in the effect's description.\n\nA creature suffers the e"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Treasure",
+      "topic": "Mace of Terror",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Mace of Terror.md",
+      "preview": "### Mace of Terror\n\n*Weapon (mace), rare (requires attunement)*\n\nThis magic weapon has 3 charges. While holding it, you can use an action and expend 1 charge to release a wave of terror. Each creature"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Monsters",
+      "topic": "Ape (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Ape (Creature).md",
+      "preview": "### Ape\n\n*Medium beast, unaligned*\n\n**Armor Class** 12\n\n**Hit Points** 19 (3d8+6)\n\n**Speed** 30 ft., climb 30 ft.\n\n| STR     | DEX     | CON     | INT    | WIS     | CHA    |\n|---------|---------|----"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Monsters",
+      "topic": "Bat (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Bat (Creature).md",
+      "preview": "### Bat\n\n*Tiny beast, unaligned*\n\n**Armor Class** 12\n\n**Hit Points** 1 (1d4-1)\n\n**Speed** 5 ft., fly 30 ft.\n\n| STR    | DEX     | CON    | INT    | WIS     | CHA    |\n|--------|---------|--------|----"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Treasure",
+      "topic": "Wand of Fear",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Wand of Fear.md",
+      "preview": "### Wand of Fear\n\n*Wand, rare (requires attunement)*\n\nThis wand has 7 charges for the following properties. It regains 1d6+1 expended charges daily at dawn. If you expend the wand's last charge, roll "
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Monsters",
+      "topic": "Swarm of Bats (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Swarm of Bats (Creature).md",
+      "preview": "### Swarm of Bats\n\n*Medium swarm of Tiny beasts, unaligned*\n\n**Armor Class** 12\n\n**Hit Points** 22 (5d8)\n\n**Speed** 0 ft., fly 30 ft.\n\n| STR    | DEX     | CON     | INT    | WIS     | CHA    |\n|-----"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Monsters",
+      "topic": "Rhinoceros (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Rhinoceros (Creature).md",
+      "preview": "### Rhinoceros\n\n*Large beast, unaligned*\n\n**Armor Class** 11 (natural armor)\n\n**Hit Points** 45 (6d10+12)\n\n**Speed** 40 ft.\n\n| STR     | DEX    | CON     | INT    | WIS     | CHA    |\n|---------|-----"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3596,
+    "rag_completion": 3895,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 7491
+  },
+  "costs": {
+    "rag": 0.00113561,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00113561
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 5.68,
+    "total_s": 13.68
+  },
+  "answer": " The context does not provide enough information to determine if a frightened creature can take the Dash action or not. The rules for the Dash action can be found in the Player's Handbook, but there is no mention of the effect of being frightened on this action specifically in the provided context. Therefore, I cannot answer this question definitively based on the given context alone.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains significant inaccuracies. It incorrectly states that there is not enough information to determine if a frightened creature can take the Dash action, while the reference answer clearly explains that the frightened condition does not restrict actions, only movement towards the source of fear."
+    },
+    "context_relevancy": {
+      "score": 0.5,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context discusses various aspects of the frightened condition, including how a frightened creature behaves and the effects of certain spells and abilities that can cause fear. However, it does not directly address whether a frightened creature can take the Dash action. The context mentions that a frightened creature must take the Dash action and move away from the source of its fear when affected by the *Fear* spell, but it does not clarify if a frightened creature can take the Dash action in general outside of that specific context. Therefore, while there is relevant information about the frightened condition, it does not fully answer the query regarding the Dash action in a broader sense.\n\n   **Score: 1 point** (for partial relevance)\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does not provide a complete answer to the query. While it mentions that a frightened creature must take the Dash action when affected by the *Fear* spell, it does not clarify if this applies to all situations where a creature is frightened. The context lacks a definitive statement about the general rules regarding the Dash action for frightened creatures, which is necessary to fully answer the user's question. Therefore, the context cannot be used exclusively to provide a full answer.\n\n   **Score: 1 point** (for partial usefulness)\n\n**Final Result: [RESULT] 2.0**"
+    }
+  }
+}

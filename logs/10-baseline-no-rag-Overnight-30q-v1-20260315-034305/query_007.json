@@ -1,0 +1,51 @@
+{
+  "query_id": "query_007",
+  "session_id": "10-baseline-no-rag-Overnight-30q-v1-20260315-034305",
+  "timestamp": "2026-03-15T03:44:28.139963",
+  "query": {
+    "original": "Can a frightened creature take the Dash action?",
+    "used": "Can a frightened creature take the Dash action?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 280,
+    "rag_completion": 724,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 1004
+  },
+  "costs": {
+    "rag": 0.00016836,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00016836
+  },
+  "timings": {
+    "rag_s": null,
+    "query_s": 10.6,
+    "total_s": 12.65
+  },
+  "answer": " Yes, a frightened creature can take the Dash action, but only if it isn't preventing it from doing so due to the effects of the fear condition. The fear condition, which can be caused by certain abilities or spells, includes the condition that the creature must make a Wisdom saving throw at the end of each of its turns or be frightened until the source of the fear is removed. One of the effects of being frightened is that the creature has disadvantage on ability checks and on attack rolls that use Dexterity and Wisdom. However, the Dash action itself does not require an ability check or a saving throw, so a frightened creature can still use this action if it is able to move and has no other reason preventing it from doing so.",
+  "refused": false,
+  "confidence": {
+    "passed": null,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and mostly correct, accurately stating that a frightened creature can take the Dash action. However, it introduces some unnecessary complexity regarding the effects of the fear condition that could lead to confusion, particularly about the Wisdom saving throw, which is not directly related to the ability to take the Dash action."
+    },
+    "context_relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    }
+  }
+}

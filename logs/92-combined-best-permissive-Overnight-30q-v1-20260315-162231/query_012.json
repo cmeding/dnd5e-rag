@@ -1,0 +1,138 @@
+{
+  "query_id": "query_012",
+  "session_id": "92-combined-best-permissive-Overnight-30q-v1-20260315-162231",
+  "timestamp": "2026-03-15T16:27:46.256946",
+  "query": {
+    "original": "Can a Paladin under the Sanctuary spell use Divine Smite?",
+    "used": "Can a Paladin cast Divine Smite while affected by the Sanctuary spell in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06612021857923497,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "### Improved Divine Smite\n\nBy 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the"
+    },
+    {
+      "rank": 2,
+      "score": 0.0648313492063492,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "### Divine Smite\n\nStarting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The"
+    },
+    {
+      "rank": 3,
+      "score": 0.06038687680478726,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "#### Oath Spells\n\nYou gain oath spells at the paladin levels listed.\n\n**Table- Oath of Devotion Spells**\n\n| Level | Paladin Spells                           |\n|-------|--------------------------------"
+    },
+    {
+      "rank": 4,
+      "score": 0.04599076949620428,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "#### Channel Divinity\n\nWhen you take this oath at 3rd level, you gain the following two Channel Divinity options.\n\n***Sacred Weapon***. As an action, you can imbue one weapon that you are holding with"
+    },
+    {
+      "rank": 5,
+      "score": 0.032266458495966696,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "| -   |\n| 6th   | +3                | Aura of Protection                         | 4   | 2   | -   | -   | -   |\n| 7th   | +3                | Sacred Oath feature                        | 4   | 3   | "
+    },
+    {
+      "rank": 6,
+      "score": 0.03225806451612903,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "### Divine Sense\n\nThe presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detec"
+    },
+    {
+      "rank": 7,
+      "score": 0.03225806451612903,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "| Improved Divine Smite                      | 4   | 3   | 3   | -   | -   |\n| 12th  | +4                | Ability Score Improvement                  | 4   | 3   | 3   | -   | -   |\n| 13th  | +5      "
+    },
+    {
+      "rank": 8,
+      "score": 0.031099324975891997,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "#### Channel Divinity\n\nYour oath allows you to channel divine energy to fuel magical effects. Each Channel Divinity option provided by your oath explains how to use it.\n\nWhen you use your Channel Divi"
+    },
+    {
+      "rank": 9,
+      "score": 0.031009615384615385,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "#### Equipment\n\nYou start with the following equipment, in addition to the equipment granted by your background:\n\n- (*a*) a martial weapon and a shield or (*b*) two martial weapons\n- (*a*) five javeli"
+    },
+    {
+      "rank": 10,
+      "score": 0.030776515151515152,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### 2nd Level\n\n- [[Aid]]\n- [[Branding Smite]]\n- [[Find Steed]]\n- [[Lesser Restoration]]\n- [[Locate Object]]\n- [[Magic Weapon]]\n- [[Protection from Poison]]\n- [[Zone of Truth]]"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3175,
+    "rag_completion": 4079,
+    "meta_prompt": 57,
+    "meta_completion": 22,
+    "total_calls": 3,
+    "total": 7333
+  },
+  "costs": {
+    "rag": 0.00112426,
+    "meta": 2.175e-05,
+    "embed": 0.0,
+    "total": 0.00114601
+  },
+  "timings": {
+    "rag_s": 21.1,
+    "query_s": 24.38,
+    "total_s": 32.94
+  },
+  "answer": " Based on the provided context, there is no explicit rule stating that the Paladin's Divine Smite ability is affected by the Sanctuary spell. Therefore, a Paladin can still use their Divine Smite ability while under the effect of the Sanctuary spell.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06612021857923497
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains a significant mistake. It incorrectly states that a Paladin can use Divine Smite while affected by the Sanctuary spell, which contradicts the rules regarding how Sanctuary functions."
+    },
+    "context_relevancy": {
+      "score": 0.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context provides detailed information about the Paladin class features, specifically focusing on Divine Smite and Improved Divine Smite. However, it does not address the interaction between Divine Smite and the Sanctuary spell. The query specifically asks whether a Paladin can cast Divine Smite while affected by the Sanctuary spell, which is not covered in the provided context. Therefore, the context does not match the subject matter of the user's query.\n   - **Score: 0 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Since the context does not mention the Sanctuary spell or its effects on the ability to cast Divine Smite, it cannot be used to provide a full answer to the user's query. The interaction between these two elements is crucial to answering the question, and without that information, the context is insufficient.\n   - **Score: 0 points**\n\n**Feedback Summary:**\nThe retrieved context fails to address the specific interaction between the Divine Smite ability and the Sanctuary spell, which is the crux of the user's query. As a result, it does not provide relevant information to answer the question posed.\n\n[RESULT] 0.0"
+    }
+  }
+}

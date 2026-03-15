@@ -1,0 +1,66 @@
+{
+  "query_id": "query_004",
+  "session_id": "61-context-consolidation-Overnight-30q-v1-20260315-145355",
+  "timestamp": "2026-03-15T14:54:47.655771",
+  "query": {
+    "original": "How long does the Haste spell last?",
+    "used": "How long does the Haste spell last?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "The **Haste** spell is a 3rd-level transmutation spell with a casting time of 1 action and a range of 30 feet. It requires verbal, somatic, and material components (a shaving of licorice root). The sp"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1169,
+    "rag_completion": 3809,
+    "meta_prompt": 2189,
+    "meta_completion": 191,
+    "total_calls": 2,
+    "total": 7358
+  },
+  "costs": {
+    "rag": 0.0008523000000000001,
+    "meta": 0.00044295,
+    "embed": 0.0,
+    "total": 0.00129525
+  },
+  "timings": {
+    "rag_s": 4.67,
+    "query_s": 6.39,
+    "total_s": 13.06
+  },
+  "answer": " The Haste spell lasts for up to 1 minute while the caster maintains concentration.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and relevant, providing the same information as the reference answer in a clear and concise manner."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the user's query about the duration of the Haste spell. It clearly states that the spell lasts for \"Concentration, up to 1 minute,\" which is the specific information requested.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the retrieved context provides a complete answer to the user's query regarding the duration of the Haste spell. It includes the necessary details about the spell's duration and the requirement for concentration, which is essential for understanding how long the spell lasts.\n\n**Feedback:**  \nThe retrieved context is highly relevant and provides a full answer to the query. It not only states the duration but also includes additional information about the spell's effects and requirements, which enhances the understanding of the spell without deviating from the main question. The clarity and completeness of the information make it an excellent match for the user's inquiry.\n\n[RESULT] 4.0"
+    }
+  }
+}

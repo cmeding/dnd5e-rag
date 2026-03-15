@@ -1,0 +1,66 @@
+{
+  "query_id": "query_005",
+  "session_id": "61-context-consolidation-Overnight-30q-v1-20260315-145355",
+  "timestamp": "2026-03-15T14:55:01.696018",
+  "query": {
+    "original": "How many hit dice does a Fighter have?",
+    "used": "How many hit dice does a Fighter have?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, a Fighter has a Hit Die of 1d10 per Fighter level. At 1st level, a Fighter starts with hit points equal to 10 plus their Constitution modifier. For each level gained"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1003,
+    "rag_completion": 2598,
+    "meta_prompt": 1092,
+    "meta_completion": 179,
+    "total_calls": 2,
+    "total": 4872
+  },
+  "costs": {
+    "rag": 0.00060395,
+    "meta": 0.0002712,
+    "embed": 0.0,
+    "total": 0.00087515
+  },
+  "timings": {
+    "rag_s": 3.39,
+    "query_s": 7.89,
+    "total_s": 14.04
+  },
+  "answer": " A Fighter has hit dice equal to 1d10 per Fighter level. Therefore, the number of hit dice a Fighter has is determined by the number of Fighter levels they have. For example, a 5th level Fighter would have 5d10 hit dice.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and provides a clear explanation of how hit dice for a Fighter are determined, including an example that enhances understanding."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query about how many hit dice a Fighter has in Dungeons & Dragons 5th Edition. It specifies that a Fighter has a Hit Die of 1d10 per Fighter level, which is the core information needed to answer the question. This part of the context is relevant and directly related to the query.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a complete answer to the question regarding the number of hit dice a Fighter has. It explains that a Fighter has a Hit Die of 1d10 for each level, which is sufficient to answer the query. While additional information about hit points and multiclassing is included, it does not detract from the main answer and can be considered supplementary. Therefore, the context can stand alone in providing a full answer.\n\n   **Score: 2/2**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

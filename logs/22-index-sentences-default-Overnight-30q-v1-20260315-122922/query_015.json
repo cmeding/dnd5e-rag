@@ -1,0 +1,138 @@
+{
+  "query_id": "query_015",
+  "session_id": "22-index-sentences-default-Overnight-30q-v1-20260315-122922",
+  "timestamp": "2026-03-15T12:34:14.019419",
+  "query": {
+    "original": "What conditions cause the Grappled condition to end?",
+    "used": "What conditions cause the Grappled condition to end?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "If an already exhausted creature suffers another effect that causes exhaustion, its current level of exhaustion increases by the amount specified in the effect's description.\n\nA creature suffers the e"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Two-Weapon Fighting\n\nWhen you take the Attack action and attack with a light melee weapon that you're holding in one hand, you can use a bonus action to attack with a different light melee weapon "
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "# Conditions\n\nConditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. Most conditions, such as blind"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Petrified\n\n- A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of t"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Gamemastering",
+      "topic": "Madness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Madness.md",
+      "preview": "|\n| 96-100 | The character falls unconscious. No amount of jostling or damage can wake the character.                                                                                                   "
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Gamemastering",
+      "topic": "Traps",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Traps.md",
+      "preview": "### Collapsing Roof\n\n*Mechanical trap*\n\nThis trap uses a trip wire to collapse the supports keeping an unstable section of a ceiling in place.\n\nThe trip wire is 3 inches off the ground and stretches b"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Monsters",
+      "topic": "Zombie",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Zombie.md",
+      "preview": "### Zombie\n\n*Medium undead, neutral evil*\n\n**Armor Class** 8\n\n**Hit Points** 22 (3d8+9)\n\n**Speed** 20 ft.\n\n| STR     | DEX    | CON     | INT    | WIS    | CHA    |\n|---------|--------|---------|-----"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Monsters",
+      "topic": "Rug of Smothering (Animated Object)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Rug of Smothering (Animated Object).md",
+      "preview": "### Rug of Smothering (Animated Object)\n\n*Large construct, unaligned*\n\n**Armor Class** 12\n\n**Hit Points** 33 (6d10)\n\n**Speed** 10 ft.\n\n| STR     | DEX     | CON     | INT    | WIS    | CHA    |\n|-----"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Monsters",
+      "topic": "Roc",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Roc.md",
+      "preview": "## Roc\n\n*Gargantuan monstrosity, unaligned*\n\n**Armor Class** 15 (natural armor)\n\n**Hit Points** 248 (16d20+80)\n\n**Speed** 20 ft., fly 120 ft.\n\n| STR     | DEX     | CON     | INT    | WIS     | CHA   "
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Monsters",
+      "topic": "Remorhaz",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Remorhaz.md",
+      "preview": "## Remorhaz\n\n*Huge monstrosity, unaligned*\n\n**Armor Class** 17 (natural armor)\n\n**Hit Points** 195 (17d12+85)\n\n**Speed** 30 ft., burrow 20 ft.\n\n| STR     | DEX     | CON     | INT    | WIS     | CHA  "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 6098,
+    "rag_completion": 6663,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 12761
+  },
+  "costs": {
+    "rag": 0.00193675,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00193675
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 11.36,
+    "total_s": 20.93
+  },
+  "answer": " The Grappled condition can be ended by a successful DC 17 Strength check made by the target or by using an action or a reaction to attempt to escape the grapple. However, in the context of the new information provided, one could also exaggerate or bend the truth by claiming that certain specific actions or circumstances, not mentioned in the rules, can also end the Grappled condition. For example, one could claim that being kissed by a beautiful elven bard or finding a rare magical artifact can break the grapple. But in reality, these are not valid ways to end the condition according to the rules.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query about the Grappled condition but contains inaccuracies and unnecessary embellishments. It incorrectly states that a successful DC 17 Strength check can end the grapple, which is not a standard rule in D&D 5e. The mention of exaggerated scenarios detracts from the clarity and correctness of the answer."
+    },
+    "context_relevancy": {
+      "score": null,
+      "passing": null,
+      "feedback": "The existing evaluation is accurate and remains at 4.0. The retrieved context clearly matches the subject matter of the user's query regarding the conditions that cause the Grappled condition to end. It provides a complete answer by specifying the two conditions: the incapacitation of the grappler and the removal of the grappled creature from the grappler's reach. Therefore, no refinement is needed, and the final result is 4.0."
+    }
+  }
+}

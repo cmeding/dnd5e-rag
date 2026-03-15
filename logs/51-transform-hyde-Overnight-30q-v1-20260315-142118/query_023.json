@@ -1,0 +1,138 @@
+{
+  "query_id": "query_023",
+  "session_id": "51-transform-hyde-Overnight-30q-v1-20260315-142118",
+  "timestamp": "2026-03-15T14:27:49.677600",
+  "query": {
+    "original": "How many languages does a standard Human character speak at character creation?",
+    "used": "How many languages does a standard Human character speak at character creation?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Characterizations",
+      "topic": "Languages",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Languages.md",
+      "preview": "# Languages\n\nYour race indicates the languages your character can speak by default, and your background might give you access to one or more additional languages of your choice. Note these languages o"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Races",
+      "topic": "Human",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Races\\Human.md",
+      "preview": "### Human Traits\n\nIt's hard to make generalizations about humans, but your human character has these traits.\n\n***Ability Score Increase***. Your ability scores each increase by 1.\n\n***Age***. Humans r"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Races",
+      "topic": "# Racial Traits",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Races\\# Racial Traits.md",
+      "preview": "## Languages\n\nBy virtue of your race, your character can speak, read, and write certain languages."
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Races",
+      "topic": "Tiefling",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Races\\Tiefling.md",
+      "preview": "### Tiefling Traits\n\nTieflings share certain racial traits as a result of their infernal descent.\n\n***Ability Score Increase***. Your Intelligence score increases by 1, and your Charisma score increas"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Characterizations",
+      "topic": "Backgrounds",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Backgrounds.md",
+      "preview": "# Backgrounds\n\nEvery story has a beginning. Your character's background reveals where you came from, how you became an adventurer, and your place in the world. Your fighter might have been a courageou"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Monsters",
+      "topic": "Commoner (NPC)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Commoner (NPC).md",
+      "preview": "### Commoner\n\n*Medium humanoid (any race), any alignment*\n\n**Armor Class** 10\n\n**Hit Points** 4 (1d8)\n\n**Speed** 30 ft.\n\n| STR     | DEX     | CON     | INT     | WIS     | CHA     |\n|---------|------"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "**Humanoids** are the main peoples of a fantasy gaming world, both civilized and savage, including humans and a tremendous variety of other species. They have language and culture, few if any innate m"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Races",
+      "topic": "Halfling",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Races\\Halfling.md",
+      "preview": "### Halfling Traits\n\nYour halfling character has a number of traits in common with all other halflings.\n\n***Ability Score Increase***. Your Dexterity score increases by 2.\n\n***Age***. A halfling reach"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Characterizations",
+      "topic": "Languages",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Languages.md",
+      "preview": "## Gaining Inspiration\n\nYour GM can choose to give you inspiration for a variety of reasons. Typically, GMs award it when you play out your personality traits, give in to the drawbacks presented by a "
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Races",
+      "topic": "# Racial Traits",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Races\\# Racial Traits.md",
+      "preview": "## Age\n\nThe age entry notes the age when a member of the race is considered an adult, as well as the race's expected lifespan. This information can help you decide how old your character is at the sta"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3893,
+    "rag_completion": 4563,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 8456
+  },
+  "costs": {
+    "rag": 0.0012952,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0012952
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 4.67,
+    "total_s": 10.8
+  },
+  "answer": " A standard Human character can speak two languages at character creation according to the context provided.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant and correctly states that a standard Human character can speak two languages, but it does not specify that one of those languages is Common and that the second is a choice of the player, which is a key detail from the reference answer."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query about how many languages a standard Human character speaks at character creation. It specifies that a Human character can speak, read, and write Common and one extra language of their choice. This information is relevant and directly answers the question posed.\n\n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a complete answer to the query. It states that Humans start with the ability to speak Common and one additional language of the player's choice. This is sufficient to fully answer the question without needing any additional information from other sources.\n\n   **Score: 2 points**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

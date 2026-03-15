@@ -1,0 +1,138 @@
+{
+  "query_id": "query_010",
+  "session_id": "20-index-token-default-Overnight-30q-v1-20260315-034831",
+  "timestamp": "2026-03-15T03:50:35.036566",
+  "query": {
+    "original": "Does being charmed prevent a creature from attacking non-charmers?",
+    "used": "Does being charmed prevent a creature from attacking non-charmers?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Spells",
+      "topic": "Charm Person",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Charm Person.md",
+      "preview": "### Charm Person\n\n*1st-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S\n\n**Duration:** 1 hour\n\nYou attempt to charm a humanoid you can see within range. It must"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Spells",
+      "topic": "Protection from Evil and Good",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Protection from Evil and Good.md",
+      "preview": "### Protection from Evil and Good\n\n*1st-level abjuration*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S, M (holy water or powdered silver and iron, which the spell consumes)\n\n**D"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "# Conditions\n\nConditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. Most conditions, such as blind"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "Modify Memory",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Modify Memory.md",
+      "preview": "### Modify Memory\n\n*5th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou attempt to reshape another creature's"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Treasure",
+      "topic": "## Sentient Magic",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\## Sentient Magic.md",
+      "preview": "The item insists on being carried or worn at all times.\n- The item demands that its wielder dispose of anything the item finds repugnant.\n- The item demands that its wielder pursue the item's goals to"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Spells",
+      "topic": "Calm Emotions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Calm Emotions.md",
+      "preview": "### Calm Emotions\n\n*2nd-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou attempt to suppress strong emotions i"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Monsters",
+      "topic": "Dryad",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Dryad.md",
+      "preview": "ft., one target. *Hit:* 2 (1d4) bludgeoning damage, or 8 (1d8+4) bludgeoning damage with *shillelagh*.\n\n***Fey Charm***. The dryad targets one humanoid or beast that she can see within 30 feet of her."
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Monsters",
+      "topic": "Succubus-Incubus",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Succubus-Incubus.md",
+      "preview": "6 (1d6+3) slashing damage.\n\n***Charm***. One humanoid the fiend can see within 30 feet of it must succeed on a DC 15 Wisdom saving throw or be magically charmed for 1 day. The charmed target obeys the"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Treasure",
+      "topic": "Ring of Mind Shielding",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Ring of Mind Shielding.md",
+      "preview": "### Ring of Mind Shielding\n\n*Ring, uncommon (requires attunement)*\n\nWhile wearing this ring, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying,"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "contact at any time. The contact is broken as soon as the two creatures are no longer within range of each other or if the telepathic monster contacts a different creature within range. A telepathic m"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 4098,
+    "rag_completion": 4387,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 8485
+  },
+  "costs": {
+    "rag": 0.00128431,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00128431
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 5.52,
+    "total_s": 13.92
+  },
+  "answer": " The Charm Person spell description does not explicitly state that a charmed creature is unable to attack non-charmers. However, the charmed creature regards the caster as a friendly acquaintance, so it may choose to prioritize not attacking its charmer or their companions. Ultimately, the behavior of a charmed creature is up to the discretion of the player or the GM.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query and correctly states that a charmed creature is not explicitly prevented from attacking non-charmers. However, it introduces unnecessary ambiguity by suggesting that the behavior is up to the discretion of the player or GM, which could mislead the reader about the rules."
+    },
+    "context_relevancy": {
+      "score": 0.75,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context includes information about the \"Charmed\" condition, specifically stating that a charmed creature cannot attack the charmer or target the charmer with harmful abilities or magical effects. This directly addresses the user's query about whether being charmed prevents a creature from attacking non-charmers. However, it does not explicitly state that a charmed creature can attack non-charmers, which is an important aspect of the query.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - No, while the context provides relevant information about the charmed condition, it does not fully answer the query. The context does not clarify that a charmed creature is free to attack non-charmers, which is a crucial part of the user's question. Therefore, additional information or context would be needed to provide a complete answer.\n\n**Feedback Summary:**\nThe retrieved context is relevant to the query as it discusses the effects of the charmed condition, but it does not fully answer the question regarding whether a charmed creature can attack non-charmers. The lack of explicit information about attacking non-charmers means that the context is incomplete for a full answer.\n\nFinal Result: [RESULT] 3.0"
+    }
+  }
+}

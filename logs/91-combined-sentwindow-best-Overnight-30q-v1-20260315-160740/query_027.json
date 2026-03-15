@@ -1,0 +1,130 @@
+{
+  "query_id": "query_027",
+  "session_id": "91-combined-sentwindow-best-Overnight-30q-v1-20260315-160740",
+  "timestamp": "2026-03-15T16:20:50.668637",
+  "query": {
+    "original": "If a creature is immune to the frightened condition, can it still be charmed?",
+    "used": "If a creature is immune to the frightened condition, does it retain vulnerability to the charmed condition in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06612021857923497,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Frightened\n\n- A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\n"
+    },
+    {
+      "rank": 2,
+      "score": 0.06443265830922533,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Charmed\n\n- A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.\n"
+    },
+    {
+      "rank": 3,
+      "score": 0.03225806451612903,
+      "category": "Monsters",
+      "topic": "Mummy",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Mummy.md",
+      "preview": "| STR     | DEX    | CON     | INT    | WIS     | CHA     |\n|---------|--------|---------|--------|---------|---------|\n| 16 (+3) | 8 (-1) | 15 (+2) | 6 (-2) | 10 (+0) | 12 (+1) |\n\n**Saving Throws** W"
+    },
+    {
+      "rank": 4,
+      "score": 0.03200204813108039,
+      "category": "Classes",
+      "topic": "Bard",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Bard.md",
+      "preview": "The creature is immune if it can't hear you or if it's immune to being charmed.\n\n"
+    },
+    {
+      "rank": 5,
+      "score": 0.031746031746031744,
+      "category": "Monsters",
+      "topic": "Black Pudding (Ooze)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Black Pudding (Ooze).md",
+      "preview": "| STR     | DEX    | CON     | INT    | WIS    | CHA    |\n|---------|--------|---------|--------|--------|--------|\n| 16 (+3) | 5 (-3) | 16 (+3) | 1 (-5) | 6 (-2) | 1 (-5) |\n\n**Damage Immunities** aci"
+    },
+    {
+      "rank": 6,
+      "score": 0.03125,
+      "category": "Monsters",
+      "topic": "Ochre Jelly (Ooze)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Ochre Jelly (Ooze).md",
+      "preview": "| STR     | DEX    | CON     | INT    | WIS    | CHA    |\n|---------|--------|---------|--------|--------|--------|\n| 15 (+2) | 6 (-2) | 14 (+2) | 2 (-4) | 6 (-2) | 1 (-5) |\n\n**Damage Resistances** ac"
+    },
+    {
+      "rank": 7,
+      "score": 0.03076923076923077,
+      "category": "Monsters",
+      "topic": "Gelatinous Cube (Ooze)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Gelatinous Cube (Ooze).md",
+      "preview": "| STR     | DEX    | CON     | INT    | WIS    | CHA    |\n|---------|--------|---------|--------|--------|--------|\n| 14 (+2) | 3 (-4) | 20 (+5) | 1 (-5) | 6 (-2) | 1 (-5) |\n\n**Condition Immunities** "
+    },
+    {
+      "rank": 8,
+      "score": 0.030303030303030304,
+      "category": "Monsters",
+      "topic": "Rug of Smothering (Animated Object)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Rug of Smothering (Animated Object).md",
+      "preview": "| STR     | DEX     | CON     | INT    | WIS    | CHA    |\n|---------|---------|---------|--------|--------|--------|\n| 17 (+3) | 14 (+2) | 10 (+0) | 1 (-5) | 3 (-4) | 1 (-5) |\n\n**Damage Immunities** "
+    },
+    {
+      "rank": 9,
+      "score": 0.029877369007803793,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "- The creature can't willingly move closer to the source of its fear.\n\n"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2093,
+    "rag_completion": 3064,
+    "meta_prompt": 61,
+    "meta_completion": 27,
+    "total_calls": 3,
+    "total": 5245
+  },
+  "costs": {
+    "rag": 0.00081239,
+    "meta": 2.5349999999999996e-05,
+    "embed": 0.0,
+    "total": 0.00083774
+  },
+  "timings": {
+    "rag_s": 16.84,
+    "query_s": 21.91,
+    "total_s": 29.29
+  },
+  "answer": " Based on the provided context, a creature being immune to the frightened condition does not necessarily mean it is also immune to the charmed condition. The two conditions are distinct and have separate immunities listed for different creatures. Therefore, the answer is: 'I cannot determine this from the provided rules alone.' However, some creatures, like the mummy, are immune to both frightened and charmed conditions.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06612021857923497
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant and correctly states that immunity to the frightened condition does not imply immunity to the charmed condition. However, it introduces unnecessary uncertainty by stating \"I cannot determine this from the provided rules alone,\" which is misleading since the rules do clarify the distinction. The mention of the mummy as an example is also somewhat tangential and does not directly address the user's question about the relationship between the two conditions."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context provides definitions and details about the \"frightened\" and \"charmed\" conditions in DnD 5e. However, it does not directly address the relationship between immunity to the frightened condition and vulnerability to the charmed condition. The query specifically asks whether a creature that is immune to being frightened retains vulnerability to being charmed, which is not explicitly covered in the context provided. Therefore, while the context is related to the conditions mentioned, it does not fully match the subject matter of the user's query.\n   - **Score: 1/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does not provide a complete answer to the user's query. It lacks information on how immunity to one condition (frightened) affects the status of another condition (charmed). The context does mention that a creature can be immune to multiple conditions, but it does not clarify the interaction between these specific conditions. Thus, the context cannot be used exclusively to answer the query.\n   - **Score: 0/2**\n\n**Final Feedback:**\nThe retrieved context partially matches the subject matter of the user's query by discussing the frightened and charmed conditions, but it does not provide a direct answer to the question about the relationship between immunity to frightened and vulnerability to charmed. Additionally, the context cannot be used exclusively to answer the query, as it lacks the necessary information to do so.\n\n**Final Result: [RESULT] 1.0**"
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "query_id": "query_012",
+  "session_id": "80-mode-refine-Overnight-30q-v1-20260315-152031",
+  "timestamp": "2026-03-15T15:29:51.199026",
+  "query": {
+    "original": "Can a Paladin under the Sanctuary spell use Divine Smite?",
+    "used": "Can a Paladin under the Sanctuary spell use Divine Smite?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "### Improved Divine Smite\n\nBy 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "### Divine Smite\n\nStarting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "### Divine Sense\n\nThe presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detec"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### 2nd Level\n\n- [[Aid]]\n- [[Branding Smite]]\n- [[Find Steed]]\n- [[Lesser Restoration]]\n- [[Locate Object]]\n- [[Magic Weapon]]\n- [[Protection from Poison]]\n- [[Zone of Truth]]"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "#### Channel Divinity\n\nWhen you take this oath at 3rd level, you gain the following two Channel Divinity options.\n\n***Sacred Weapon***. As an action, you can imbue one weapon that you are holding with"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "| Improved Divine Smite                      | 4   | 3   | 3   | -   | -   |\n| 12th  | +4                | Ability Score Improvement                  | 4   | 3   | 3   | -   | -   |\n| 13th  | +5      "
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "#### Holy Nimbus\n\nAt 20th level, as an action, you can emanate an aura of sunlight. For 1 minute, bright light shines from you in a 30-foot radius, and dim light shines 30 feet beyond that.\n\nWhenever "
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "#### Oath Spells\n\nYou gain oath spells at the paladin levels listed.\n\n**Table- Oath of Devotion Spells**\n\n| Level | Paladin Spells                           |\n|-------|--------------------------------"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "#### Channel Divinity\n\nYour oath allows you to channel divine energy to fuel magical effects. Each Channel Divinity option provided by your oath explains how to use it.\n\nWhen you use your Channel Divi"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### 1st Level\n\n- [[Bless]]\n- [[Command]]\n- [[Cure Wounds]]\n- [[Detect Evil and Good]]\n- [[Detect Magic]]\n- [[Detect Poison and Disease]]\n- [[Divine Favor]]\n- [[Heroism]]\n- [[Protection from Evil and "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 7207,
+    "rag_completion": 9416,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 10,
+    "total": 16623
+  },
+  "costs": {
+    "rag": 0.0025818100000000004,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0025818100000000004
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 41.88,
+    "total_s": 50.48
+  },
+  "answer": " The Paladin's Divine Smite ability is independent of their Channel Divinity and spells like Sanctuary. Consequently, a Paladin affected by the Sanctuary spell can still employ Divine Smite.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains a significant mistake regarding the interaction between Divine Smite and the Sanctuary spell. It incorrectly states that a Paladin can use Divine Smite while under the effects of Sanctuary, which contradicts the rules."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context provides detailed information about the Paladin class features, specifically focusing on Divine Smite and Improved Divine Smite. However, it does not mention the Sanctuary spell or how it interacts with Divine Smite. The query specifically asks about the interaction between a Paladin under the Sanctuary spell and the use of Divine Smite, which is not addressed in the context provided. Therefore, while the context is relevant to Paladin abilities, it does not directly match the subject matter of the user's query regarding the Sanctuary spell.\n\n   **Score: 1/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does not provide a complete answer to the user's query about whether a Paladin under the Sanctuary spell can use Divine Smite. It lacks any information about the Sanctuary spell's effects or restrictions, which are crucial to answering the question. Thus, the context cannot be used exclusively to provide a full answer to the user's query.\n\n   **Score: 0/2**\n\n**Final Feedback:**\nThe retrieved context contains relevant information about the Paladin's abilities, particularly Divine Smite, but fails to address the specific interaction with the Sanctuary spell, which is the crux of the user's query. As a result, it does not provide a complete answer and lacks the necessary details to fully respond to the question.\n\n**Final Result: [RESULT] 1.0**"
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "query_id": "query_008",
+  "session_id": "33-retrieval-bm25-fusion-Overnight-30q-v1-20260315-133922",
+  "timestamp": "2026-03-15T13:42:32.419247",
+  "query": {
+    "original": "Can a restrained creature still make attack rolls?",
+    "used": "Can a restrained creature still make attack rolls?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06666666666666667,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Restrained\n\n- A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- Attack rolls against the creature have advantage, and the creature's attack rolls have dis"
+    },
+    {
+      "rank": 2,
+      "score": 0.032266458495966696,
+      "category": "Treasure",
+      "topic": "Iron Bands of Binding",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Iron Bands of Binding.md",
+      "preview": "### Iron Bands of Binding\n\n*Wondrous item, rare*\n\nThis rusty iron sphere measures 3 inches in diameter and weighs 1 pound. You can use an action to speak the command word and throw the sphere at a Hug"
+    },
+    {
+      "rank": 3,
+      "score": 0.031544957774465976,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "# Making an Attack\n\nWhether you're striking with a melee weapon, firing a weapon at range, or making an attack roll as part of a spell, an attack has a simple structure.\n\n- **Choose a target**. Pick a"
+    },
+    {
+      "rank": 4,
+      "score": 0.03128054740957967,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "# Proficiency Bonus\n\nCharacters have a proficiency bonus determined by level. Monsters also have this bonus, which is incorporated in their stat blocks. The bonus is used in the rules on ability check"
+    },
+    {
+      "rank": 5,
+      "score": 0.030798389007344232,
+      "category": "Characterizations",
+      "topic": "Feats",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Feats.md",
+      "preview": "## Grappler\n\n*Prerequisite: Strength 13 or higher*\n\nYou've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:\n\n- You have advantage on attack"
+    },
+    {
+      "rank": 6,
+      "score": 0.030330882352941176,
+      "category": "Monsters",
+      "topic": "Giant Frog (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Giant Frog (Creature).md",
+      "preview": "###### Actions\n\n***Bite***. *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6+1) piercing damage, and the target is grappled (escape DC 11). Until this grapple ends, the target "
+    },
+    {
+      "rank": 7,
+      "score": 0.029877369007803793,
+      "category": "Monsters",
+      "topic": "Djinni (Genie)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Djinni (Genie).md",
+      "preview": "###### Actions\n\n***Multiattack***. The djinni makes three scimitar attacks.\n\n***Scimitar***. *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 12 (2d6+5) slashing damage plus 3 (1d6) l"
+    },
+    {
+      "rank": 8,
+      "score": 0.01639344262295082,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Shoving a Creature\n\nUsing the Attack action, you can make a special melee attack to shove a creature, either to knock it prone or push it away from you. If you're able to make multiple attacks wit"
+    },
+    {
+      "rank": 9,
+      "score": 0.01639344262295082,
+      "category": "Equipment",
+      "topic": "Weapons",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Weapons.md",
+      "preview": "#### Special Weapons\n\nWeapons with special rules are described here.\n\n***Lance***. You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands "
+    },
+    {
+      "rank": 10,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Paralyzed\n\n- A paralyzed creature is incapacitated (see the condition) and can't move or speak.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the c"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3546,
+    "rag_completion": 4174,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 7720
+  },
+  "costs": {
+    "rag": 0.00118312,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00118312
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 15.26,
+    "total_s": 26.4
+  },
+  "answer": " No, a restrained creature has disadvantage on its attack rolls. (Refer to the Conditions.md file under the \"Restrained\" header.)",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06666666666666667
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains a significant mistake. It incorrectly states that a restrained creature cannot make attack rolls, while the reference answer correctly states that they can but with disadvantage."
+    },
+    "context_relevancy": {
+      "score": 0.75,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context discusses the \"Restrained\" condition in detail, which is directly relevant to the user's query about whether a restrained creature can make attack rolls. It specifically states that a restrained creature's attack rolls have disadvantage, which is pertinent information for understanding the implications of being restrained.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Partially. While the context provides information about the disadvantage on attack rolls for a restrained creature, it does not explicitly state whether a restrained creature can make attack rolls at all. The context implies that they can still make attack rolls but does not confirm it outright. Therefore, while it provides useful information, it does not fully answer the query on its own.\n\n**Feedback:**\nThe retrieved context is relevant to the query as it addresses the \"Restrained\" condition, which is the focus of the user's question. However, it lacks a definitive statement regarding the ability of a restrained creature to make attack rolls, which is a crucial part of the user's inquiry. Thus, while the context is informative, it does not provide a complete answer.\n\nFinal result: [RESULT] 3.0"
+    }
+  }
+}

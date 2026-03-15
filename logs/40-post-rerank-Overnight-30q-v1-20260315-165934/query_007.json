@@ -1,0 +1,98 @@
+{
+  "query_id": "query_007",
+  "session_id": "40-post-rerank-Overnight-30q-v1-20260315-165934",
+  "timestamp": "2026-03-15T17:00:57.227736",
+  "query": {
+    "original": "Can a frightened creature take the Dash action?",
+    "used": "Can a frightened creature take the Dash action?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 3.0188710689544678,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "#### Intimidating Presence\n\nBeginning at 10th level, you can use your action to frighten someone with your menacing presence. When you do so, choose one creature that you can see within 30 feet of you"
+    },
+    {
+      "rank": 2,
+      "score": -1.9677791595458984,
+      "category": "Spells",
+      "topic": "Fear",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Fear.md",
+      "preview": "### Fear\n\n*3rd-level illusion*\n\n**Casting Time:** 1 action\n\n**Range:** Self (30-foot cone)\n\n**Components:** V, S, M (a white feather or the heart of a hen)\n\n**Duration:** Concentration, up to 1 minute"
+    },
+    {
+      "rank": 3,
+      "score": -2.9526538848876953,
+      "category": "Treasure",
+      "topic": "Mace of Terror",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Mace of Terror.md",
+      "preview": "### Mace of Terror\n\n*Weapon (mace), rare (requires attunement)*\n\nThis magic weapon has 3 charges. While holding it, you can use an action and expend 1 charge to release a wave of terror. Each creature"
+    },
+    {
+      "rank": 4,
+      "score": -4.369630813598633,
+      "category": "Monsters",
+      "topic": "Ghost",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Ghost.md",
+      "preview": "###### Actions\n\n***Withering Touch***. *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 17 (4d6+3) necrotic damage.\n\n***Etherealness***. The ghost enters the Ethereal Plane from the M"
+    },
+    {
+      "rank": 5,
+      "score": -5.3673014640808105,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Frightened\n\n- A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\n- The creature can't willingly move closer to the sourc"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1782,
+    "rag_completion": 2000,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 3782
+  },
+  "costs": {
+    "rag": 0.00057602,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00057602
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 3.82,
+    "total_s": 13.31
+  },
+  "answer": " A frightened creature can still take the Dash action, but it will have disadvantage on the attack rolls made during the move due to the Frightened condition. However, it cannot willingly move closer to the source of its fear.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 3.0188710689544678
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant and correctly states that a frightened creature can take the Dash action and cannot move closer to the source of fear. However, it incorrectly states that the creature will have disadvantage on attack rolls made during the move, which is not a requirement of the Dash action itself. This mistake affects the overall accuracy of the answer."
+    },
+    "context_relevancy": {
+      "score": 0.75,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context does provide relevant information regarding the frightened condition in D&D 5e, specifically how it affects a creature's actions. The context mentions that a frightened creature must take the Dash action and move away from the source of its fear when affected by the \"Fear\" spell and the \"Mace of Terror.\" This directly relates to the user's query about whether a frightened creature can take the Dash action. Therefore, the context matches the subject matter of the user's query.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The context does provide a clear answer to the query: a frightened creature can take the Dash action, as indicated by the effects of the \"Fear\" spell and the \"Mace of Terror.\" However, it is important to note that the context does not explicitly state that a frightened creature can take the Dash action freely; it specifies that they must move away from the source of fear. While the context is informative, it does not fully encompass all scenarios regarding the Dash action and the frightened condition, as it focuses on specific spells and effects. Therefore, while it provides a significant portion of the answer, it does not cover all aspects of the question.\n\n   **Score: 1/2**\n\n**Final Result:** [RESULT] 3.0"
+    }
+  }
+}

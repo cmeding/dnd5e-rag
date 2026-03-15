@@ -1,0 +1,138 @@
+{
+  "query_id": "query_003",
+  "session_id": "70-prompt-strict-Overnight-30q-v1-20260315-150148",
+  "timestamp": "2026-03-15T15:02:20.561873",
+  "query": {
+    "original": "What damage type does Inflict Wounds deal?",
+    "used": "What damage type does Inflict Wounds deal?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Spells",
+      "topic": "Inflict Wounds",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Inflict Wounds.md",
+      "preview": "### Inflict Wounds\n\n*1st-level necromancy*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S\n\n**Duration:** Instantaneous\n\nMake a melee spell attack against a creature you can reach."
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Damage Types\n\nDifferent attacks, damaging spells, and other harmful effects deal different types of damage. Damage types have no rules of their own, but other rules, such as damage resistance, rel"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Treasure",
+      "topic": "Sword of Wounding",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Sword of Wounding.md",
+      "preview": "### Sword of Wounding\n\n*Weapon (any sword), rare (requires attunement)*\n\nHit points lost to this weapon's damage can be regained only through a short or long rest, rather than by regeneration, magic, "
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Treasure",
+      "topic": "Periapt of Wound Closure",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Periapt of Wound Closure.md",
+      "preview": "### Periapt of Wound Closure\n\n*Wondrous item, uncommon (requires attunement)*\n\nWhile you wear this pendant, you stabilize whenever you are dying at the start of your turn. In addition, whenever you ro"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Damage Resistance and Vulnerability\n\nSome creatures and objects are exceedingly difficult or unusually easy to hurt with certain types of damage.\n\nIf a creature or an object has **resistance** to "
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Gamemastering",
+      "topic": "Objects",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Objects.md",
+      "preview": "## Statistics for Objects\n\nWhen time is a factor, you can assign an Armor Class and hit points to a destructible object. You can also give it immunities, resistances, and vulnerabilities to specific t"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Classes",
+      "topic": "Warlock",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Warlock.md",
+      "preview": "#### Fiendish Resilience\n\nStarting at 10th level, you can choose one damage type when you finish a short or long rest. You gain resistance to that damage type until you choose a different one with thi"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Spells",
+      "topic": "Cure Wounds",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Cure Wounds.md",
+      "preview": "### Cure Wounds\n\n*1st-level evocation*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S\n\n**Duration:** Instantaneous\n\nA creature you touch regains a number of hit points equal to 1d"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Damage Rolls\n\nEach weapon, spell, and harmful monster ability specifies the damage it deals. You roll the damage die or dice, add any modifiers, and apply the damage to your target. Magic weapons,"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Treasure",
+      "topic": "Armor of Vulnerability",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Armor of Vulnerability.md",
+      "preview": "### Armor of Vulnerability\n\n*Armor (plate), rare (requires attunement)*\n\nWhile wearing this armor, you have resistance to one of the following damage types: bludgeoning, piercing, or slashing. The GM "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3021,
+    "rag_completion": 3199,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 6220
+  },
+  "costs": {
+    "rag": 0.00094012,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00094012
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 3.54,
+    "total_s": 11.27
+  },
+  "answer": " Inflict Wounds deals necrotic damage. (I cannot find this in the provided rules, but the context states that Inflict Wounds deals necrotic damage.)",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly answers the user query by stating that Inflict Wounds deals necrotic damage. The additional note about not finding it in the provided rules does not detract from the correctness of the main answer."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query about the damage type of the spell \"Inflict Wounds.\" It specifies that the spell deals \"3d10 necrotic damage\" upon a successful hit. This information is relevant and directly answers the user's question.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a complete answer to the query. It clearly states the damage type associated with \"Inflict Wounds\" without needing additional information from other sources. The details about the spell's casting time, range, and components, while not necessary for answering the specific question, do not detract from the clarity of the answer regarding the damage type.\n\n   **Score: 2/2**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

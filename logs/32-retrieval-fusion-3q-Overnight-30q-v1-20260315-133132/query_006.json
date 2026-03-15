@@ -1,0 +1,138 @@
+{
+  "query_id": "query_006",
+  "session_id": "32-retrieval-fusion-3q-Overnight-30q-v1-20260315-133132",
+  "timestamp": "2026-03-15T13:32:46.457288",
+  "query": {
+    "original": "Can a grappled creature cast spells?",
+    "used": "Can a grappled creature cast spells?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.04895833333333333,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Cast a Spell\n\nSpellcasters such as wizards and clerics, as well as many monsters, have access to spells and can use them to great effect in combat. Each spell has a casting time, which specifies wh"
+    },
+    {
+      "rank": 2,
+      "score": 0.04893312516263336,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Grappling\n\nWhen you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack act"
+    },
+    {
+      "rank": 3,
+      "score": 0.047643442622950824,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Grappled\n\n- A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- The condition ends if the grappler is incapacitated (see the condition).\n- The condition also "
+    },
+    {
+      "rank": 4,
+      "score": 0.04741797364748185,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "### Innate Spellcasting\n\nA monster with the innate ability to cast spells has the Innate Spellcasting special trait. Unless noted otherwise, an innate spell of 1st level or higher is always cast at it"
+    },
+    {
+      "rank": 5,
+      "score": 0.04689826302729529,
+      "category": "Spells",
+      "topic": "Arcane Hand",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Arcane Hand.md",
+      "preview": "***Grasping Hand***. The hand attempts to grapple a Huge or smaller creature within 5 feet of it. You use the hand's Strength score to resolve the grapple. If the target is Medium or smaller, you have"
+    },
+    {
+      "rank": 6,
+      "score": 0.04391088038070517,
+      "category": "Spells",
+      "topic": "Confusion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Confusion.md",
+      "preview": "### Confusion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 90 feet\n\n**Components:** V, S, M (three nut shells)\n\n**Duration:** Concentration, up to 1 minute\n\nThis spell assaults and"
+    },
+    {
+      "rank": 7,
+      "score": 0.016129032258064516,
+      "category": "Classes",
+      "topic": "Sorcerer",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Sorcerer.md",
+      "preview": "#### Careful Spell\n\nWhen you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point a"
+    },
+    {
+      "rank": 8,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Paralyzed\n\n- A paralyzed creature is incapacitated (see the condition) and can't move or speak.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the c"
+    },
+    {
+      "rank": 9,
+      "score": 0.015873015873015872,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "### Melee and Ranged Attacks\n\nThe most common actions that a monster will take in combat are melee and ranged attacks. These can be spell attacks or weapon attacks, where the \"weapon\" might be a manuf"
+    },
+    {
+      "rank": 10,
+      "score": 0.015384615384615385,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Melee Attacks\n\nUsed in hand-to-hand combat, a melee attack allows you to attack a foe within your reach. A melee attack typically uses a handheld weapon such as a sword, a warhammer, or an axe. A t"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3777,
+    "rag_completion": 4174,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 7951
+  },
+  "costs": {
+    "rag": 0.00120853,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00120853
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 7.83,
+    "total_s": 14.85
+  },
+  "answer": " I cannot find this in the provided rules if a grappled creature is able to cast spells or not. The context only mentions that spellcasters can cast spells during combat and that some spells have a melee component, but it does not specify any restrictions on casting spells based on being grappled.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.04895833333333333
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains inaccuracies. It incorrectly states that the rules do not specify whether a grappled creature can cast spells, while the reference answer clearly indicates that there are no restrictions on spellcasting for grappled creatures."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context discusses grappling and the mechanics of casting spells, but it does not directly address whether a grappled creature can cast spells. While it provides relevant information about grappling and spellcasting, it lacks a clear answer to the specific question posed in the query. Therefore, the context is partially relevant but does not fully match the subject matter of the user's query.\n\n   **Score: 1/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does not provide a definitive answer regarding whether a grappled creature can cast spells. It mentions the conditions of grappling and the mechanics of casting spells, but it does not clarify if being grappled imposes any restrictions on spellcasting. Thus, while the context contains useful information, it cannot be used exclusively to provide a full answer to the user's query.\n\n   **Score: 1/2**\n\n**Final Feedback:**\nThe retrieved context provides some relevant information about grappling and spellcasting but fails to directly answer the question of whether a grappled creature can cast spells. The lack of a clear statement regarding the interaction between grappling and spellcasting limits its usefulness in answering the query. \n\n**Final Result:** [RESULT] 1.0"
+    }
+  }
+}

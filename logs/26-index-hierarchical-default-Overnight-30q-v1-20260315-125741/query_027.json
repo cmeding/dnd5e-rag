@@ -1,0 +1,138 @@
+{
+  "query_id": "query_027",
+  "session_id": "26-index-hierarchical-default-Overnight-30q-v1-20260315-125741",
+  "timestamp": "2026-03-15T13:03:58.930016",
+  "query": {
+    "original": "If a creature is immune to the frightened condition, can it still be charmed?",
+    "used": "If a creature is immune to the frightened condition, can it still be charmed?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Spells",
+      "topic": "Hallow",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Hallow.md",
+      "preview": "Any creature charmed, frightened, or possessed by such a creature is no longer charmed, frightened, or possessed upon entering the area. You can exclude one or more of those types of creatures from th"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "- The charmer has advantage on any ability check to interact socially with the creature.\n\n## Deafened\n\n- A deafened creature can't hear and automatically fails any ability check that requires hearing."
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "- Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.\n\n## Charmed\n\n- A charmed creature can't attack the charmer or target the charmer with harmful abi"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "Calm Emotions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Calm Emotions.md",
+      "preview": "You can suppress any effect causing a target to be charmed or frightened. When this spell ends, any suppressed effect resumes, provided that its duration has not expired in the meantime.\n\nAlternativel"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "# Conditions\n\nConditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. Most conditions, such as blind"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "# Conditions\n\nConditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. Most conditions, such as blind"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "Protection from Evil and Good",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Protection from Evil and Good.md",
+      "preview": "Creatures of those types have disadvantage on attack rolls against the target. The target also can't be charmed, frightened, or possessed by them. If the target is already charmed, frightened, or poss"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Classes",
+      "topic": "Bard",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Bard.md",
+      "preview": "The creature is immune if it can't hear you or if it's immune to being charmed.\n\n#### Additional Magical Secrets\n\nAt 6th level, you learn two spells of your choice from any class."
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Monsters",
+      "topic": "Homunculus",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Homunculus.md",
+      "preview": "Immunities** charmed, poisoned\n\n**Senses** darkvision 60 ft., passive Perception 10\n\n**Languages** understands the languages of its creator but can't speak\n\n**Challenge** 0 (10 XP)\n\n***Telepathic Bond"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Classes",
+      "topic": "Bard",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Bard.md",
+      "preview": "You can choose to use this feature after the creature makes its roll, but before the GM determines whether the attack roll or ability check succeeds or fails, or before the creature deals its damage. "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3635,
+    "rag_completion": 3928,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 7563
+  },
+  "costs": {
+    "rag": 0.00114617,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00114617
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 5.47,
+    "total_s": 12.55
+  },
+  "answer": " Based on the context provided, a creature that is immune to the frightened condition can still be charmed. The \"Hallow\" spell's effect on removing the frightened condition only applies to creatures that are charmed, frightened, or possessed by the creature casting the spell. The immunity to being frightened does not affect the creature's susceptibility to being charmed.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and mostly correct, explaining that a creature immune to the frightened condition can still be charmed. However, it introduces unnecessary information about the \"Hallow\" spell, which is not directly related to the user's question, slightly detracting from its clarity."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context discusses various conditions, including charmed and frightened, and mentions that a creature can be immune to these conditions. However, it does not directly address the specific question of whether a creature that is immune to the frightened condition can still be charmed. The context provides some relevant information about the charmed condition but lacks a clear answer to the query. Therefore, I would rate this a **1 out of 2** for relevance.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The context does not provide a definitive answer to the user's question about the relationship between immunity to the frightened condition and the ability to be charmed. While it discusses the conditions and mentions immunities, it does not clarify whether immunity to one condition affects the other. Thus, it cannot be used exclusively to provide a full answer. I would rate this a **0 out of 2** for completeness.\n\n**Final Result:** [RESULT] 1.0"
+    }
+  }
+}

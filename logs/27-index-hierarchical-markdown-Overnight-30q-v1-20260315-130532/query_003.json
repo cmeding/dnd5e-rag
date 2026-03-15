@@ -1,0 +1,122 @@
+{
+  "query_id": "query_003",
+  "session_id": "27-index-hierarchical-markdown-Overnight-30q-v1-20260315-130532",
+  "timestamp": "2026-03-15T13:06:14.746000",
+  "query": {
+    "original": "What damage type does Inflict Wounds deal?",
+    "used": "What damage type does Inflict Wounds deal?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Spells",
+      "topic": "Inflict Wounds",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Inflict Wounds.md",
+      "preview": "On a hit, the target takes 3d10 necrotic damage.\n\n***At Higher Levels***. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Spells",
+      "topic": "Inflict Wounds",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Inflict Wounds.md",
+      "preview": "### Inflict Wounds\n\n*1st-level necromancy*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S\n\n**Duration:** Instantaneous\n\nMake a melee spell attack against a creature you can reach."
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Spells",
+      "topic": "Inflict Wounds",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Inflict Wounds.md",
+      "preview": "### Inflict Wounds\n\n*1st-level necromancy*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S\n\n**Duration:** Instantaneous\n\nMake a melee spell attack against a creature you can reach."
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Treasure",
+      "topic": "Sword of Wounding",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Sword of Wounding.md",
+      "preview": "Once per turn, when you hit a creature with an attack using this magic weapon, you can wound the target."
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "The damage types follow, with examples to help a GM assign a damage type to a new effect.\n\n***Acid***. The corrosive spray of a black dragon's breath and the dissolving enzymes secreted by a black pud"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Treasure",
+      "topic": "Sword of Wounding",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Sword of Wounding.md",
+      "preview": "### Sword of Wounding\n\n*Weapon (any sword), rare (requires attunement)*\n\nHit points lost to this weapon's damage can be regained only through a short or long rest, rather than by regeneration, magic, "
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Treasure",
+      "topic": "Sword of Wounding",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Sword of Wounding.md",
+      "preview": "### Sword of Wounding\n\n*Weapon (any sword), rare (requires attunement)*\n\nHit points lost to this weapon's damage can be regained only through a short or long rest, rather than by regeneration, magic, "
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Treasure",
+      "topic": "Sword of Wounding",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Sword of Wounding.md",
+      "preview": "Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success."
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1397,
+    "rag_completion": 1522,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 2919
+  },
+  "costs": {
+    "rag": 0.00044285,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00044285
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 1.69,
+    "total_s": 7.38
+  },
+  "answer": " Inflict Wounds deals necrotic damage.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and matches the reference answer exactly, providing the precise information requested by the user."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query about the damage type dealt by the spell \"Inflict Wounds.\" It clearly states that the target takes \"3d10 necrotic damage\" upon a successful hit. This information is relevant and directly answers the question regarding the damage type.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a complete answer to the query. It specifies the damage type (necrotic) and the amount of damage (3d10), which is all that is needed to fully respond to the question. There are no additional details required to understand the damage type of the spell.\n\n   **Score: 2/2**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

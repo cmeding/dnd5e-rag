@@ -1,0 +1,138 @@
+{
+  "query_id": "query_019",
+  "session_id": "92-combined-best-permissive-Overnight-30q-v1-20260315-162231",
+  "timestamp": "2026-03-15T16:31:07.126615",
+  "query": {
+    "original": "Do you add your proficiency bonus to every saving throw?",
+    "used": "Do you add your proficiency bonus to all saving throws in D&D 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06612021857923497,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "# Proficiency Bonus\n\nCharacters have a proficiency bonus determined by level. Monsters also have this bonus, which is incorporated in their stat blocks. The bonus is used in the rules on ability check"
+    },
+    {
+      "rank": 2,
+      "score": 0.06478053939714437,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "# Saving Throws\n\nA saving throw-also called a save-represents an attempt to resist a spell, a trap, a poison, a disease, or a similar threat. You don't normally decide to make a saving throw; you are "
+    },
+    {
+      "rank": 3,
+      "score": 0.04972677595628415,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "## Saving Throws\n\nThe Saving Throws entry is reserved for creatures that are adept at resisting certain kinds of effects. For example, a creature that isn't easily charmed or frightened might gain a b"
+    },
+    {
+      "rank": 4,
+      "score": 0.04762704813108039,
+      "category": "Classes",
+      "topic": "Bard",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Bard.md",
+      "preview": "### Jack of All Trades\n\nStarting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus."
+    },
+    {
+      "rank": 5,
+      "score": 0.04569460390355913,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "# Spell Saving Throws\n\nMany spells specify that a target can make a saving throw to avoid some or all of a spell's effects. The spell specifies the ability that the target uses for the save and what h"
+    },
+    {
+      "rank": 6,
+      "score": 0.045284780578898225,
+      "category": "Classes",
+      "topic": "Warlock",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Warlock.md",
+      "preview": "#### Spellcasting Ability\n\nCharisma is your spellcasting ability for your warlock spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Chari"
+    },
+    {
+      "rank": 7,
+      "score": 0.04456964190903192,
+      "category": "Classes",
+      "topic": "Wizard",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Wizard.md",
+      "preview": "#### Spellcasting Ability\n\nIntelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a "
+    },
+    {
+      "rank": 8,
+      "score": 0.03007688828584351,
+      "category": "Classes",
+      "topic": "Druid",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Druid.md",
+      "preview": "### Spellcasting Ability\n\nWisdom is your spellcasting ability for your druid spells, since your magic draws upon your devotion and attunement to nature. You use your Wisdom whenever a spell refers to "
+    },
+    {
+      "rank": 9,
+      "score": 0.015873015873015872,
+      "category": "Equipment",
+      "topic": "Weapons",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Weapons.md",
+      "preview": "## Weapon Proficiency\n\nYour race, class, and feats can grant you proficiency with certain weapons or categories of weapons. The two categories are **simple** and **martial**. Most people can use simpl"
+    },
+    {
+      "rank": 10,
+      "score": 0.015873015873015872,
+      "category": "Classes",
+      "topic": "Warlock",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Warlock.md",
+      "preview": "#### Hit Points\n\n**Hit Dice:** 1d8 per warlock level\n\n**Hit Points at 1st Level:** 8 + your Constitution modifier\n\n**Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per warlock "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3485,
+    "rag_completion": 4314,
+    "meta_prompt": 55,
+    "meta_completion": 17,
+    "total_calls": 3,
+    "total": 7871
+  },
+  "costs": {
+    "rag": 0.00120301,
+    "meta": 1.845e-05,
+    "embed": 0.0,
+    "total": 0.00122146
+  },
+  "timings": {
+    "rag_s": 15.17,
+    "query_s": 18.49,
+    "total_s": 25.91
+  },
+  "answer": " No, you only add your proficiency bonus to saving throws when specifically stated in the rules. The context provided mentions that proficiency bonus can be added to ability checks, saving throws, and attack rolls, but it does not indicate that proficiency bonus is automatically added to all saving throws.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06612021857923497
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and correctly explains that the proficiency bonus is only added to saving throws for which the character has proficiency. However, it could be more concise and clearer in stating that proficiency is determined by class or features, which is a key part of the reference answer."
+    },
+    "context_relevancy": {
+      "score": 0.75,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context discusses proficiency bonuses in relation to saving throws. It explains that characters can add their proficiency bonus to saving throws for which they are proficient. This directly addresses the user's query about whether proficiency bonuses are added to all saving throws in D&D 5e.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Partially. While the context provides relevant information about proficiency bonuses and saving throws, it does not explicitly state that proficiency bonuses are not added to all saving throws. It implies that only saving throws for which a character has proficiency will have the bonus added. Therefore, while the context is informative, it does not fully answer the query without additional clarification.\n\n**Feedback Summary:**\nThe retrieved context is relevant and provides a good foundation for understanding how proficiency bonuses work with saving throws. However, it lacks a clear statement that proficiency bonuses are only added to saving throws for which a character is proficient, which is crucial for fully answering the user's question.\n\n[RESULT] 3.0"
+    }
+  }
+}

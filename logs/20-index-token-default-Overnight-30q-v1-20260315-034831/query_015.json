@@ -1,0 +1,138 @@
+{
+  "query_id": "query_015",
+  "session_id": "20-index-token-default-Overnight-30q-v1-20260315-034831",
+  "timestamp": "2026-03-15T03:51:46.825737",
+  "query": {
+    "original": "What conditions cause the Grappled condition to end?",
+    "used": "What conditions cause the Grappled condition to end?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "|\n| 2     | Speed halved                                   |\n| 3     | Disadvantage on attack rolls and saving throws |\n| 4     | Hit point maximum halved                       |\n| 5     | Speed reduc"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "suspended, not neutralized.\n\n## Poisoned\n\n- A poisoned creature has disadvantage on attack rolls and ability checks.\n\n## Prone\n\n- A prone creature's only movement option is to crawl, unless it stands "
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\n- The creature can't willingly move closer to the source of its fear.\n\n#"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "enemy.\n\n### Two-Weapon Fighting\n\nWhen you take the Attack action and attack with a light melee weapon that you're holding in one hand, you can use a bonus action to attack with a different light melee"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "# Conditions\n\nConditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. Most conditions, such as blind"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Monsters",
+      "topic": "Water Elemental",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Water Elemental.md",
+      "preview": "Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. If the saving throw is successful, the target is pushed out of the elemental's space.\n\nThe elementa"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Gamemastering",
+      "topic": "Madness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Madness.md",
+      "preview": "|\n\n**Table- Madness Long-Term Effects**\n\n| d100   | Effect (lasts 1d10 \u00d7 10 hours)                                                                                                                      "
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "with such an attack, it doesn't need to make an additional ability check to determine whether the grapple succeeds, unless the attack says otherwise.*\n\n*A creature grappled by the monster can use its "
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Gamemastering",
+      "topic": "Madness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Madness.md",
+      "preview": "|\n|--------|------------------------------------------------------------------------------------------------------------------------------|\n| 01-20  | The character retreats into his or her mind and b"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you.\n\nIf the creature succeeds on its saving throw, you can't use this feature on that creature again"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 4434,
+    "rag_completion": 4594,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 9028
+  },
+  "costs": {
+    "rag": 0.0013606,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0013606
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 2.12,
+    "total_s": 9.3
+  },
+  "answer": " The provided context does not contain information about conditions that cause the Grappled condition to end.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer is not relevant to the user query as it fails to provide any information about the conditions that cause the Grappled condition to end, which is the main focus of the question."
+    },
+    "context_relevancy": {
+      "score": 0.75,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context does include information about the Grappled condition, specifically mentioning that \"the condition ends if the grappler is incapacitated\" and \"if an effect removes the grappled creature from the reach of the grappler or grappling effect.\" This directly addresses the user's query about the conditions that cause the Grappled condition to end. Therefore, the context is relevant to the subject matter of the query.\n   - **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does provide specific conditions under which the Grappled condition ends, which is what the user is asking for. However, it does not provide a comprehensive list of all possible conditions that could end the Grappled condition, such as the possibility of the grappled creature escaping or being freed by another effect. While it does give some relevant information, it does not fully encompass all scenarios that could apply. Thus, while it is useful, it is not entirely sufficient to provide a complete answer.\n   - **Score: 1 point**\n\n**Final Feedback:**\nThe retrieved context is relevant and provides some specific conditions that cause the Grappled condition to end. However, it does not cover all possible scenarios, which means it cannot be used exclusively to provide a full answer to the user's query.\n\n**Final Result:** [RESULT] 3.0"
+    }
+  }
+}

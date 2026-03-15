@@ -1,0 +1,51 @@
+{
+  "query_id": "query_002",
+  "session_id": "10-baseline-no-rag-Overnight-30q-v1-20260315-034305",
+  "timestamp": "2026-03-15T03:43:30.462827",
+  "query": {
+    "original": "What is the Armor Class of an Aboleth?",
+    "used": "What is the Armor Class of an Aboleth?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 278,
+    "rag_completion": 552,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 830
+  },
+  "costs": {
+    "rag": 0.00013546,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00013546
+  },
+  "timings": {
+    "rag_s": null,
+    "query_s": 6.43,
+    "total_s": 8.05
+  },
+  "answer": " An Aboleth is a type of monstrous aquatic creature from the Monster Manual in the Dungeons & Dragons role-playing game. Its Armor Class (AC) is listed as 13 in the Monster Manual (5th Edition). This value represents the creature's ability to resist damage from physical attacks. However, keep in mind that an Aboleth has other abilities and resistances that can further affect its overall defense.",
+  "refused": false,
+  "confidence": {
+    "passed": null,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer provides some relevant information about the Aboleth but incorrectly states its Armor Class as 13 instead of the correct value of 17. While it offers additional context about the creature, the primary query regarding the Armor Class is answered incorrectly, leading to a lower score."
+    },
+    "context_relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    }
+  }
+}

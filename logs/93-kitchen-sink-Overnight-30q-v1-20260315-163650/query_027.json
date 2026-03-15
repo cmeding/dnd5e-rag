@@ -1,0 +1,66 @@
+{
+  "query_id": "query_027",
+  "session_id": "93-kitchen-sink-Overnight-30q-v1-20260315-163650",
+  "timestamp": "2026-03-15T16:45:58.370306",
+  "query": {
+    "original": "If a creature is immune to the frightened condition, can it still be charmed?",
+    "used": "If a creature is immune to the frightened condition, does it retain vulnerability to the charmed condition in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, creatures can have various immunities to conditions, including the frightened and charmed conditions. If a creature is immune to the frightened condition, it does no"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1925,
+    "rag_completion": 6236,
+    "meta_prompt": 3341,
+    "meta_completion": 242,
+    "total_calls": 4,
+    "total": 11744
+  },
+  "costs": {
+    "rag": 0.00139659,
+    "meta": 0.00064635,
+    "embed": 0.0,
+    "total": 0.00204294
+  },
+  "timings": {
+    "rag_s": 13.76,
+    "query_s": 16.65,
+    "total_s": 26.02
+  },
+  "answer": " Based on the context provided, a creature's immunity to the frightened condition does not automatically grant it immunity to the charmed condition. Each condition is treated independently, so a creature can be immune to one condition while still being vulnerable to another.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and relevant to the user query, accurately explaining that immunity to the frightened condition does not affect immunity to the charmed condition, and clarifying that each condition is treated independently."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the user's query about the relationship between immunity to the frightened condition and vulnerability to the charmed condition in DnD 5e. It explains that immunity to one condition does not imply immunity to another, which is the crux of the user's question. This relevance is clear and well-articulated.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a comprehensive answer to the user's question. It explains that each condition is treated independently and gives examples to illustrate the point. The information is sufficient to conclude that a creature can be immune to the frightened condition while still being vulnerable to the charmed condition. There is no need for additional information to fully understand the answer.\n\n   **Score: 2/2**\n\n**Feedback:** The retrieved context is highly relevant and provides a complete answer to the user's query. It effectively clarifies the independence of the frightened and charmed conditions in DnD 5e, ensuring that the user understands that immunity to one does not affect the other. The examples included further enhance the clarity of the explanation.\n\n[RESULT] 4.0"
+    }
+  }
+}

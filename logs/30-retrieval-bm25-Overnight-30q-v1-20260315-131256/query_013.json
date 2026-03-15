@@ -1,0 +1,138 @@
+{
+  "query_id": "query_013",
+  "session_id": "30-retrieval-bm25-Overnight-30q-v1-20260315-131256",
+  "timestamp": "2026-03-15T13:15:10.626042",
+  "query": {
+    "original": "If a creature has exhaustion level 3 and is also restrained, what is its movement speed?",
+    "used": "If a creature has exhaustion level 3 and is also restrained, what is its movement speed?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.03279569892473118,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Exhaustion\n\nSome special abilities and environmental hazards, such as starvation and the long-term effects of freezing or scorching temperatures, can lead to a special condition called exhaustion. "
+    },
+    {
+      "rank": 2,
+      "score": 0.032539682539682535,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Restrained\n\n- A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- Attack rolls against the creature have advantage, and the creature's attack rolls have dis"
+    },
+    {
+      "rank": 3,
+      "score": 0.032266458495966696,
+      "category": "Spells",
+      "topic": "Freedom of Movement",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Freedom of Movement.md",
+      "preview": "### Freedom of Movement\n\n*4th-level abjuration*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S, M (a leather strap, bound around the arm or a similar appendage)\n\n**Duration:** 1 h"
+    },
+    {
+      "rank": 4,
+      "score": 0.01639344262295082,
+      "category": "Gameplay",
+      "topic": "Adventuring",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Adventuring.md",
+      "preview": "## Suffocating\n\nA creature can hold its breath for a number of minutes equal to 1 + its Constitution modifier (minimum of 30 seconds).\n\nWhen a creature runs out of breath or is choking, it can survive"
+    },
+    {
+      "rank": 5,
+      "score": 0.016129032258064516,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Flying Movement\n\nFlying creatures enjoy many benefits of mobility, but they must also deal with the danger of falling. If a flying creature is knocked prone, has its speed reduced to 0, or is other"
+    },
+    {
+      "rank": 6,
+      "score": 0.015625,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Unconscious\n\n- An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings\n- The creature drops whatever it's holding and falls prone.\n- Th"
+    },
+    {
+      "rank": 7,
+      "score": 0.015625,
+      "category": "Monsters",
+      "topic": "Wraith",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Wraith.md",
+      "preview": "## Wraith\n\n*Medium undead, neutral evil*\n\n**Armor Class** 13\n\n**Hit Points** 67 (9d8+27)\n\n**Speed** 0 ft., fly 60 ft. (hover)\n\n| STR    | DEX     | CON     | INT     | WIS     | CHA     |\n|--------|--"
+    },
+    {
+      "rank": 8,
+      "score": 0.015384615384615385,
+      "category": "Spells",
+      "topic": "Slow",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Slow.md",
+      "preview": "### Slow\n\n*3rd-level transmutation*\n\n**Casting Time:** 1 action\n\n**Range:** 120 feet\n\n**Components:** V, S, M (a drop of molasses)\n\n**Duration:** Concentration, up to 1 minute\n\nYou alter time around u"
+    },
+    {
+      "rank": 9,
+      "score": 0.015384615384615385,
+      "category": "Monsters",
+      "topic": "Specter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Specter.md",
+      "preview": "## Specter\n\n*Medium undead, chaotic evil*\n\n**Armor Class** 12\n\n**Hit Points** 22 (5d8)\n\n**Speed** 0 ft., fly 50 ft. (hover)\n\n| STR    | DEX     | CON     | INT     | WIS     | CHA     |\n|--------|----"
+    },
+    {
+      "rank": 10,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "Haste",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Haste.md",
+      "preview": "### Haste\n\n*3rd-level transmutation*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S, M (a shaving of licorice root)\n\n**Duration:** Concentration, up to 1 minute\n\nChoose a willin"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2958,
+    "rag_completion": 3245,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 6203
+  },
+  "costs": {
+    "rag": 0.00094193,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00094193
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 5.88,
+    "total_s": 13.18
+  },
+  "answer": " I cannot find the rules in the provided context regarding a creature's movement speed when it has exhaustion level 3 and is also restrained. The context only mentions that exhaustion affects attack rolls and Wisdom (Perception) checks that rely on sight. The Haste spell description does not mention exhaustion or being restrained in relation to movement speed.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.03279569892473118
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer is not relevant to the user query as it fails to address the specific question about the effects of exhaustion level 3 and the restrained condition on movement speed. Instead, it incorrectly states that the context does not provide relevant information, which is misleading."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context provides relevant information about both exhaustion and the restrained condition. It details the effects of exhaustion levels, particularly level 3, which includes disadvantage on attack rolls and saving throws, and it also explains that a restrained creature's speed becomes 0. This directly relates to the user's query about the movement speed of a creature with exhaustion level 3 that is also restrained.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context can be used to provide a full answer. The information indicates that a creature with exhaustion level 3 has a speed of 0 due to being restrained. The context clearly states that a restrained creature's speed is 0, which overrides the effects of exhaustion regarding movement speed. Therefore, the context is sufficient to answer the query completely.\n\n**Feedback Summary:**\nThe retrieved context is highly relevant and provides a comprehensive answer to the user's question. It effectively combines the effects of both exhaustion and the restrained condition, leading to a clear conclusion about the creature's movement speed.\n\n[RESULT] 4.0"
+    }
+  }
+}

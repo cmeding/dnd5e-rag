@@ -1,0 +1,66 @@
+{
+  "query_id": "query_008",
+  "session_id": "93-kitchen-sink-Overnight-30q-v1-20260315-163650",
+  "timestamp": "2026-03-15T16:39:15.032159",
+  "query": {
+    "original": "Can a restrained creature still make attack rolls?",
+    "used": "Do restrained creatures have disadvantage on attack rolls in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, a restrained creature has specific limitations and disadvantages. The key points regarding restrained creatures are as follows:\n\n- A restrained creature's speed beco"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1825,
+    "rag_completion": 4466,
+    "meta_prompt": 1971,
+    "meta_completion": 119,
+    "total_calls": 4,
+    "total": 8381
+  },
+  "costs": {
+    "rag": 0.00104929,
+    "meta": 0.00036705,
+    "embed": 0.0,
+    "total": 0.00141634
+  },
+  "timings": {
+    "rag_s": 7.04,
+    "query_s": 8.5,
+    "total_s": 15.44
+  },
+  "answer": " Yes, according to the context provided, a restrained creature does have disadvantage on its attack rolls in DnD 5e.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and correctly states that restrained creatures have disadvantage on attack rolls, but it lacks the additional detail that attack rolls against restrained creatures have advantage, which is part of the complete understanding of the condition."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query about whether restrained creatures have disadvantage on attack rolls in DnD 5e. It clearly states that a restrained creature's attack rolls have disadvantage, which is the specific information requested.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a complete answer to the query. It not only confirms that restrained creatures have disadvantage on their attack rolls but also includes relevant details about the effects of being restrained, such as the advantage on attack rolls against them and the impact on their speed and Dexterity saving throws. This additional information enhances the understanding of the mechanics involved but is not strictly necessary to answer the query.\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

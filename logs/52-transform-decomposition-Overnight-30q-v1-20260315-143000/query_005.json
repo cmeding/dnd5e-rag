@@ -1,0 +1,234 @@
+{
+  "query_id": "query_005",
+  "session_id": "52-transform-decomposition-Overnight-30q-v1-20260315-143000",
+  "timestamp": "2026-03-15T14:31:06.232576",
+  "query": {
+    "original": "How many hit dice does a Fighter have?",
+    "used": "How many hit dice does a Fighter have?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": null,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "Sub question: What is the hit die for a Fighter in DnD 5e\nResponse:  The hit die for a Fighter in DnD 5e is 1d10."
+    },
+    {
+      "rank": 2,
+      "score": null,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "Sub question: How many levels does a Fighter have in DnD 5e\nResponse:  I cannot determine the number of levels a specific Fighter character has from the provided rules context."
+    },
+    {
+      "rank": 3,
+      "score": 0.016666666666666666,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "#### Hit Points\n\n**Hit Dice:** 1d10 per fighter level\n\n**Hit Points at 1st Level:** 10 + your Constitution modifier\n\n**Hit Points at Higher Levels:** 1d10 (or 6) + your Constitution modifier per fight"
+    },
+    {
+      "rank": 4,
+      "score": 0.01639344262295082,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "#### Great Weapon Fighting\n\nWhen you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, ev"
+    },
+    {
+      "rank": 5,
+      "score": 0.016129032258064516,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Rolling 1 or 20\n\nSometimes fate blesses or curses a combatant, causing the novice to hit and the veteran to miss.\n\nIf the d20 roll for an attack is a 20, the attack hits regardless of any modifier"
+    },
+    {
+      "rank": 6,
+      "score": 0.015873015873015872,
+      "category": "Classes",
+      "topic": "Cleric",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Cleric.md",
+      "preview": "#### Hit Points\n\n**Hit Dice:** 1d8 per cleric level\n\n**Hit Points at 1st Level:** 8 + your Constitution modifier\n\n**Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per cleric le"
+    },
+    {
+      "rank": 7,
+      "score": 0.015625,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "## Hit Points\n\nA monster usually dies or is destroyed when it drops to 0 hit points. For more on hit points, see the *Player's Handbook*.\n\nA monster's hit points are presented both as a die expression"
+    },
+    {
+      "rank": 8,
+      "score": 0.015384615384615385,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "## Hit Points and Hit Dice\n\nYou gain the hit points from your new class as described for levels after 1st. You gain the 1st-level hit points for a class only when you are a 1st-level character.\n\nYou a"
+    },
+    {
+      "rank": 9,
+      "score": 0.015151515151515152,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Death Saving Throws\n\nWhenever you start your turn with 0 hit points, you must make a special saving throw, called a death saving throw, to determine whether you creep closer to death or hang onto "
+    },
+    {
+      "rank": 10,
+      "score": 0.014925373134328358,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "### Brutal Critical\n\nBeginning at 9th level, you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.\n\nThis increases to two additional d"
+    },
+    {
+      "rank": 11,
+      "score": 0.014705882352941176,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Monsters and Death\n\nMost GMs have a monster die the instant it drops to 0 hit points, rather than having it fall unconscious and make death saving throws.\n\nMighty villains and special nonplayer ch"
+    },
+    {
+      "rank": 12,
+      "score": 0.014492753623188406,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "#### Great Weapon Fighting\n\nWhen you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. Th"
+    },
+    {
+      "rank": 13,
+      "score": 0.016666666666666666,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "#### Hit Points\n\n**Hit Dice:** 1d10 per fighter level\n\n**Hit Points at 1st Level:** 10 + your Constitution modifier\n\n**Hit Points at Higher Levels:** 1d10 (or 6) + your Constitution modifier per fight"
+    },
+    {
+      "rank": 14,
+      "score": 0.01639344262295082,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "**Table- The Fighter**\n\n| Level | Proficiency Bonus | Features                                          |\n|-------|-------------------|---------------------------------------------------|\n| 1st   | +2"
+    },
+    {
+      "rank": 15,
+      "score": 0.016129032258064516,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "### Extra Attack\n\nBeginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.\n\nThe number of attacks increases to three when you reach 11th level i"
+    },
+    {
+      "rank": 16,
+      "score": 0.015873015873015872,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "### Ability Score Improvement\n\nWhen you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two abilit"
+    },
+    {
+      "rank": 17,
+      "score": 0.015625,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "#### Superior Critical\n\nStarting at 15th level, your weapon attacks score a critical hit on a roll of 18-20."
+    },
+    {
+      "rank": 18,
+      "score": 0.015384615384615385,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "## Hit Points and Hit Dice\n\nYou gain the hit points from your new class as described for levels after 1st. You gain the 1st-level hit points for a class only when you are a 1st-level character.\n\nYou a"
+    },
+    {
+      "rank": 19,
+      "score": 0.015151515151515152,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "#### Improved Critical\n\nBeginning when you choose this archetype at 3rd level, your weapon attacks score a critical hit on a roll of 19 or 20."
+    },
+    {
+      "rank": 20,
+      "score": 0.014925373134328358,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "## Experience Points\n\nThe experience point cost to gain a level is always based on your total character level, as shown in the Character Advancement table, not your level in a particular class. So, if"
+    },
+    {
+      "rank": 21,
+      "score": 0.014705882352941176,
+      "category": "Characterizations",
+      "topic": "Beyond 1st Level",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Beyond 1st Level.md",
+      "preview": "# Beyond 1st Level\n\nAs your character goes on adventures and overcomes challenges, he or she gains experience, represented by experience points. A character who reaches a specified experience point to"
+    },
+    {
+      "rank": 22,
+      "score": 0.014492753623188406,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "#### Proficiencies\n\n**Armor:** All armor, shields\n\n**Weapons:** Simple weapons, martial weapons\n\n**Tools:** None\n\n**Saving Throws:** Strength, Constitution\n\n**Skills:** Choose two skills from Acrobati"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 5886,
+    "rag_completion": 6571,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 4,
+    "total": 12457
+  },
+  "costs": {
+    "rag": 0.00189595,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00189595
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 7.13,
+    "total_s": 15.12
+  },
+  "answer": " A Fighter in DnD 5e has one hit die, which is a 1d10 hit die.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and mostly correct, as it states that a Fighter uses a d10 as their hit die. However, it inaccurately states that a Fighter has \"one hit die,\" which could be misleading since they have multiple hit dice equal to their level."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context directly addresses the query about the hit dice for a Fighter in DnD 5e. The context states that the hit die for a Fighter is 1d10 per fighter level, which is the specific information requested in the query.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a complete answer to the query. The response clearly states that the hit die for a Fighter is 1d10, which is sufficient to answer the question without needing additional information.\n\n**Feedback Summary:**\nThe retrieved context is highly relevant and directly answers the user's query about the hit dice for a Fighter in DnD 5e. The information is clear and complete, making it easy for the user to understand the answer.\n\n[RESULT] 4.0"
+    }
+  }
+}

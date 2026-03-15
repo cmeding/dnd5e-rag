@@ -1,0 +1,98 @@
+{
+  "query_id": "query_026",
+  "session_id": "42-post-rerank-reorder-Overnight-30q-v1-20260315-170550",
+  "timestamp": "2026-03-15T17:10:49.648158",
+  "query": {
+    "original": "Can an incapacitated creature take reactions?",
+    "used": "Can an incapacitated creature take reactions?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.7417210340499878,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Incapacitated\n\n- An incapacitated creature can't take actions or reactions."
+    },
+    {
+      "rank": 2,
+      "score": -4.313494682312012,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Unconscious\n\n- An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings\n- The creature drops whatever it's holding and falls prone.\n- Th"
+    },
+    {
+      "rank": 3,
+      "score": -5.172931671142578,
+      "category": "Gamemastering",
+      "topic": "Poisons",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Poisons.md",
+      "preview": "***Torpor (Ingested)***. A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become poisoned for 4d6 hours. The poisoned creature is incapacitated.\n\n***Truth Serum"
+    },
+    {
+      "rank": 4,
+      "score": -5.125344276428223,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Stunned\n\n- A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rol"
+    },
+    {
+      "rank": 5,
+      "score": -4.034836769104004,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Petrified\n\n- A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of t"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1226,
+    "rag_completion": 1379,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 2605
+  },
+  "costs": {
+    "rag": 0.00039687,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00039687
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 2.4,
+    "total_s": 9.56
+  },
+  "answer": " An incapacitated creature cannot take reactions. (Reference: Conditions.md, Incapacitated)",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.7417210340499878
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly addresses the user query, matching the reference answer in both content and clarity."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context directly addresses the query regarding the incapacitated condition in D&D 5e. It clearly states that \"an incapacitated creature can't take actions or reactions,\" which is the core of the user's question. This context is relevant and provides a definitive answer to whether an incapacitated creature can take reactions.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provided is sufficient to fully answer the user's query. The statement about incapacitated creatures not being able to take actions or reactions is clear and conclusive. There is no need for additional information to understand the implications of the incapacitated condition in relation to taking reactions.\n\n**Feedback:**\nThe retrieved context is highly relevant and directly answers the user's question about the incapacitated condition in D&D 5e. It provides a clear and concise explanation that is sufficient to understand the limitations imposed by this condition. The information is accurate and aligns perfectly with the rules of the game.\n\n[RESULT] 4.0"
+    }
+  }
+}

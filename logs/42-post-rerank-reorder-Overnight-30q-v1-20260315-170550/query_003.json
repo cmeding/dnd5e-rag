@@ -1,0 +1,98 @@
+{
+  "query_id": "query_003",
+  "session_id": "42-post-rerank-reorder-Overnight-30q-v1-20260315-170550",
+  "timestamp": "2026-03-15T17:06:21.196328",
+  "query": {
+    "original": "What damage type does Inflict Wounds deal?",
+    "used": "What damage type does Inflict Wounds deal?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 3.3771913051605225,
+      "category": "Spells",
+      "topic": "Inflict Wounds",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Inflict Wounds.md",
+      "preview": "### Inflict Wounds\n\n*1st-level necromancy*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S\n\n**Duration:** Instantaneous\n\nMake a melee spell attack against a creature you can reach."
+    },
+    {
+      "rank": 2,
+      "score": -2.9254684448242188,
+      "category": "Treasure",
+      "topic": "Sword of Wounding",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Sword of Wounding.md",
+      "preview": "### Sword of Wounding\n\n*Weapon (any sword), rare (requires attunement)*\n\nHit points lost to this weapon's damage can be regained only through a short or long rest, rather than by regeneration, magic, "
+    },
+    {
+      "rank": 3,
+      "score": -6.6333818435668945,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Damage Rolls\n\nEach weapon, spell, and harmful monster ability specifies the damage it deals. You roll the damage die or dice, add any modifiers, and apply the damage to your target. Magic weapons,"
+    },
+    {
+      "rank": 4,
+      "score": -5.707184791564941,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Damage Resistance and Vulnerability\n\nSome creatures and objects are exceedingly difficult or unusually easy to hurt with certain types of damage.\n\nIf a creature or an object has **resistance** to "
+    },
+    {
+      "rank": 5,
+      "score": 0.2106163650751114,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Damage Types\n\nDifferent attacks, damaging spells, and other harmful effects deal different types of damage. Damage types have no rules of their own, but other rules, such as damage resistance, rel"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1926,
+    "rag_completion": 2050,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 3976
+  },
+  "costs": {
+    "rag": 0.00060136,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00060136
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 2.2,
+    "total_s": 8.69
+  },
+  "answer": " Inflict Wounds deals necrotic damage.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 3.3771913051605225
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and matches the reference answer exactly, providing the precise information requested by the user."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query about the damage type dealt by the spell *Inflict Wounds*. It specifies that the spell deals \"3d10 necrotic damage\" upon a successful hit. This information is relevant and directly answers the user's question.\n\n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a complete answer to the query. It clearly states the damage type (necrotic) and the amount of damage dealt (3d10) without needing additional information from other sources. The context is sufficient to fully answer the question.\n\n   **Score: 2 points**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

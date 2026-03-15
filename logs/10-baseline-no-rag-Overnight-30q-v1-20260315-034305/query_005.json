@@ -1,0 +1,51 @@
+{
+  "query_id": "query_005",
+  "session_id": "10-baseline-no-rag-Overnight-30q-v1-20260315-034305",
+  "timestamp": "2026-03-15T03:43:58.627094",
+  "query": {
+    "original": "How many hit dice does a Fighter have?",
+    "used": "How many hit dice does a Fighter have?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 278,
+    "rag_completion": 576,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 854
+  },
+  "costs": {
+    "rag": 0.00014002,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00014002
+  },
+  "timings": {
+    "rag_s": null,
+    "query_s": 7.05,
+    "total_s": 8.34
+  },
+  "answer": " A Fighter character class in most editions of the Dungeons & Dragons role-playing game typically has d10 hit dice. This means that when a Fighter gains a new level, they can roll a ten-sided die and add their Constitution modifier to determine the number of hit points they gain. For example, if a Fighter has a Constitution score of 16, they would roll a d10 and add 6 (the Constitution modifier) to determine their hit points for that level.",
+  "refused": false,
+  "confidence": {
+    "passed": null,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and correctly states that a Fighter uses a d10 as their hit die. It also provides additional context about how hit points are calculated, which is informative, but it is slightly more detailed than necessary for the original question."
+    },
+    "context_relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    }
+  }
+}

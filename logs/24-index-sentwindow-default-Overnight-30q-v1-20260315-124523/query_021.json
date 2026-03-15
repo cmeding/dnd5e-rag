@@ -1,0 +1,138 @@
+{
+  "query_id": "query_021",
+  "session_id": "24-index-sentwindow-default-Overnight-30q-v1-20260315-124523",
+  "timestamp": "2026-03-15T12:49:13.618429",
+  "query": {
+    "original": "What is the casting time of the Wish spell?",
+    "used": "What is the casting time of the Wish spell?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Spells",
+      "topic": "Wish",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Wish.md",
+      "preview": "### Wish\n\n*9th-level conjuration*\n\n**Casting Time:** 1 action\n\n**Range:** Self\n\n**Components:** V\n\n**Duration:** Instantaneous\n\n*Wish* is the mightiest spell a mortal creature can cast. "
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Spells",
+      "topic": "Wish",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Wish.md",
+      "preview": "- You grant up to ten creatures you can see immunity to a single spell or other magical effect for 8 hours. "
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Spells",
+      "topic": "Dream",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Dream.md",
+      "preview": "### Dream\n\n*5th-level illusion*\n\n**Casting Time:** 1 minute\n\n**Range:** Special\n\n**Components:** V, S, M (a handful of sand, a dab of ink, and a writing quill plucked from a sleeping bird)\n\n**Duration"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "Foresight",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Foresight.md",
+      "preview": "### Foresight\n\n*9th-level divination*\n\n**Casting Time:** 1 minute\n\n**Range:** Touch\n\n**Components:** V, S, M (a hummingbird feather)\n\n**Duration:** 8 hours\n\nYou touch a willing creature and bestow a l"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Spells",
+      "topic": "Identify",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Identify.md",
+      "preview": "### Identify\n\n*1st-level divination (ritual)*\n\n**Casting Time:** 1 minute\n\n**Range:** Touch\n\n**Components:** V, S, M (a pearl worth at least 100 gp and an owl feather)\n\n**Duration:** Instantaneous\n\nYo"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Spells",
+      "topic": "Wish",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Wish.md",
+      "preview": "In addition, your Strength drops to 3, if it isn't 3 or lower already, for 2d4 days. "
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "### Longer Casting Times\n\nCertain spells (including spells cast as rituals) require more time to cast: minutes or even hours. "
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Spells",
+      "topic": "Suggestion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Suggestion.md",
+      "preview": "### Suggestion\n\n*2nd-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, M (a snake's tongue and either a bit of honeycomb or a drop of sweet oil)\n\n**Duration:** Con"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Spells",
+      "topic": "Magic Jar",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Magic Jar.md",
+      "preview": "### Magic Jar\n\n*6th-level necromancy*\n\n**Casting Time:** 1 minute\n\n**Range:** Self\n\n**Components:** V, S, M (a gem, crystal, reliquary, or some other ornamental container worth at least 500 gp)\n\n**Dur"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Spells",
+      "topic": "Prayer of Healing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Prayer of Healing.md",
+      "preview": "### Prayer of Healing\n\n*2nd-level evocation*\n\n**Casting Time:** 10 minutes\n\n**Range:** 30 feet\n\n**Components:** V\n\n**Duration:** Instantaneous\n\nUp to six creatures of your choice that you can see with"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1451,
+    "rag_completion": 1581,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 3032
+  },
+  "costs": {
+    "rag": 0.00046,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00046
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 2.13,
+    "total_s": 7.11
+  },
+  "answer": " The casting time of the Wish spell is 1 action.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and matches the reference answer exactly, providing the accurate casting time of the Wish spell."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context includes the relevant information about the *Wish* spell, specifically stating its casting time as \"1 action.\" This directly answers the user's query regarding the casting time of the *Wish* spell.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a complete answer to the user's query. The information about the casting time is clearly stated and does not require additional context or information from other sources to understand the answer.\n\n**Feedback:**\nThe retrieved context is highly relevant and directly addresses the user's question about the casting time of the *Wish* spell. It provides the necessary detail without any ambiguity. Since the context is both relevant and sufficient to answer the query fully, it scores well on both criteria.\n\n[RESULT] 4.0"
+    }
+  }
+}

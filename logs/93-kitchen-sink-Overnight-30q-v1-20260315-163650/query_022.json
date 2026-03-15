@@ -1,0 +1,66 @@
+{
+  "query_id": "query_022",
+  "session_id": "93-kitchen-sink-Overnight-30q-v1-20260315-163650",
+  "timestamp": "2026-03-15T16:44:19.375564",
+  "query": {
+    "original": "What is the movement speed of a Giant Eagle?",
+    "used": "What is the movement speed of a Giant Eagle in Dungeons & Dragons 5th Edition?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, a Giant Eagle has a movement speed of 10 feet on the ground and 80 feet when flying. It is classified as a Large beast with an Armor Class of 13 and 26 hit points (4"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1407,
+    "rag_completion": 4901,
+    "meta_prompt": 2807,
+    "meta_completion": 187,
+    "total_calls": 4,
+    "total": 9302
+  },
+  "costs": {
+    "rag": 0.00108596,
+    "meta": 0.00053325,
+    "embed": 0.0,
+    "total": 0.0016192099999999998
+  },
+  "timings": {
+    "rag_s": 7.86,
+    "query_s": 9.5,
+    "total_s": 22.86
+  },
+  "answer": " A Giant Eagle in Dungeons & Dragons 5th Edition has a movement speed of 10 feet on the ground and 80 feet when flying.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and matches the reference answer in both content and clarity, providing the walking and flying speeds of a Giant Eagle accurately."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query about the movement speed of a Giant Eagle in Dungeons & Dragons 5th Edition. It provides specific details about both the ground speed (10 feet) and flying speed (80 feet) of the Giant Eagle, which is the primary information requested in the query. Therefore, this part of the context is highly relevant.\n\n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the retrieved context contains all the necessary information to fully answer the user's query regarding the movement speed of a Giant Eagle. It specifies both the ground and flying speeds, which are the key components of the question. While additional information about the Giant Eagle's characteristics is included, it does not detract from the ability to answer the query. Thus, the context can stand alone in providing a complete answer.\n\n   **Score: 2 points**\n\n**Feedback:** The retrieved context is highly relevant and provides a complete answer to the user's query about the movement speed of a Giant Eagle in Dungeons & Dragons 5th Edition. It includes both the ground and flying speeds, which are essential to the question. The additional details about the Giant Eagle's characteristics enhance the context but are not necessary for answering the query.\n\n[RESULT] 4.0"
+    }
+  }
+}

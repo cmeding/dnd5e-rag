@@ -1,0 +1,98 @@
+{
+  "query_id": "query_002",
+  "session_id": "42-post-rerank-reorder-Overnight-30q-v1-20260315-170550",
+  "timestamp": "2026-03-15T17:06:12.504944",
+  "query": {
+    "original": "What is the Armor Class of an Aboleth?",
+    "used": "What is the Armor Class of an Aboleth?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 3.010453224182129,
+      "category": "Monsters",
+      "topic": "Aboleth",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Aboleth.md",
+      "preview": "## Aboleth\n\n*Large aberration, lawful evil*\n\n**Armor Class** 17 (natural armor)\n\n**Hit Points** 135 (18d10+36)\n\n**Speed** 10 ft., swim 40 ft.\n\n| STR     | DEX    | CON     | INT     | WIS     | CHA   "
+    },
+    {
+      "rank": 2,
+      "score": -3.639939069747925,
+      "category": "Gamemastering",
+      "topic": "Objects",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Objects.md",
+      "preview": "## Statistics for Objects\n\nWhen time is a factor, you can assign an Armor Class and hit points to a destructible object. You can also give it immunities, resistances, and vulnerabilities to specific t"
+    },
+    {
+      "rank": 3,
+      "score": -4.231507301330566,
+      "category": "Equipment",
+      "topic": "Armor",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Armor.md",
+      "preview": "## Medium Armor\n\nMedium armor offers more protection than light armor, but it also impairs movement more. If you wear medium armor, you add your Dexterity modifier, to a maximum of +2, to the base num"
+    },
+    {
+      "rank": 4,
+      "score": -3.780923366546631,
+      "category": "Equipment",
+      "topic": "Armor",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Armor.md",
+      "preview": "# Armor\n\nFantasy gaming worlds are a vast tapestry made up of many different cultures, each with its own technology level. For this reason, adventurers have access to a variety of armor types, ranging"
+    },
+    {
+      "rank": 5,
+      "score": -3.430459976196289,
+      "category": "Equipment",
+      "topic": "Armor",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Armor.md",
+      "preview": "## Light Armor\n\nMade from supple and thin materials, light armor favors agile adventurers since it offers some protection without sacrificing mobility. If you wear light armor, you add your Dexterity "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2397,
+    "rag_completion": 2659,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 5056
+  },
+  "costs": {
+    "rag": 0.00076888,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00076888
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 5.75,
+    "total_s": 12.49
+  },
+  "answer": " The Armor Class of an Aboleth is 17 (natural armor). It is not affected by wearing or wielding shields or light armor as stated in the context for the Aboleth and there is no information provided in the context about the Aboleth wearing any specific armor. Therefore, the base Armor Class of 17 remains unchanged.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 3.010453224182129
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and relevant, providing the exact Armor Class of an Aboleth along with additional context that clarifies the nature of its Armor Class."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context directly addresses the query by providing the Armor Class of an Aboleth, which is stated as 17 (natural armor). This is the specific information requested in the query.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a complete answer to the query. The Armor Class of the Aboleth is clearly stated without the need for additional information or context. The details about the Aboleth's other statistics, while informative, are not necessary to answer the specific question about Armor Class.\n\n**Feedback Summary:**\nThe retrieved context is highly relevant and directly answers the user's query about the Armor Class of an Aboleth. It provides the exact information needed without requiring further elaboration. Therefore, both criteria are met fully.\n\n[RESULT] 4.0"
+    }
+  }
+}

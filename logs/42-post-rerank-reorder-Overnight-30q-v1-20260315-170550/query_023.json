@@ -1,0 +1,98 @@
+{
+  "query_id": "query_023",
+  "session_id": "42-post-rerank-reorder-Overnight-30q-v1-20260315-170550",
+  "timestamp": "2026-03-15T17:10:08.296050",
+  "query": {
+    "original": "How many languages does a standard Human character speak at character creation?",
+    "used": "How many languages does a standard Human character speak at character creation?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": -1.3714230060577393,
+      "category": "Characterizations",
+      "topic": "Languages",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Languages.md",
+      "preview": "# Languages\n\nYour race indicates the languages your character can speak by default, and your background might give you access to one or more additional languages of your choice. Note these languages o"
+    },
+    {
+      "rank": 2,
+      "score": -7.096766948699951,
+      "category": "Gamemastering",
+      "topic": "Madness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Madness.md",
+      "preview": "The confusion effect lasts for 1 minute.            |\n| 91-95  | The character loses the ability to speak.                                                                                              "
+    },
+    {
+      "rank": 3,
+      "score": -9.954610824584961,
+      "category": "Races",
+      "topic": "# Racial Traits",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Races\\# Racial Traits.md",
+      "preview": "## Languages\n\nBy virtue of your race, your character can speak, read, and write certain languages."
+    },
+    {
+      "rank": 4,
+      "score": -8.900053977966309,
+      "category": "Characterizations",
+      "topic": "Languages",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Languages.md",
+      "preview": "## Gaining Inspiration\n\nYour GM can choose to give you inspiration for a variety of reasons. Typically, GMs award it when you play out your personality traits, give in to the drawbacks presented by a "
+    },
+    {
+      "rank": 5,
+      "score": -5.186629295349121,
+      "category": "Races",
+      "topic": "Human",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Races\\Human.md",
+      "preview": "### Human Traits\n\nIt's hard to make generalizations about humans, but your human character has these traits.\n\n***Ability Score Increase***. Your ability scores each increase by 1.\n\n***Age***. Humans r"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2329,
+    "rag_completion": 2494,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 4823
+  },
+  "costs": {
+    "rag": 0.0007300500000000001,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0007300500000000001
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 2.45,
+    "total_s": 8.56
+  },
+  "answer": " A standard Human character can speak two languages at character creation: Common and one extra language of their choice.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": -1.3714230060577393
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and relevant, accurately stating that a standard Human speaks Common and one additional language of the player's choice."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context is relevant to the query about how many languages a standard Human character speaks at character creation. It specifically mentions that humans can speak, read, and write Common and one extra language of the player's choice. This directly answers the user's question regarding the number of languages a Human character can speak.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a complete answer to the query. It states that a Human character starts with the ability to speak Common and one additional language of the player's choice, which sums up to two languages in total. The information is clear and sufficient to fully address the question without needing additional context.\n\n   **Score: 2/2**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "query_id": "query_012",
+  "session_id": "52-transform-decomposition-Overnight-30q-v1-20260315-143000",
+  "timestamp": "2026-03-15T14:36:00.446541",
+  "query": {
+    "original": "Can a Paladin under the Sanctuary spell use Divine Smite?",
+    "used": "Can a Paladin under the Sanctuary spell use Divine Smite?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": null,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "Sub question: What does the Sanctuary spell do?\nResponse:  The Sanctuary spell wards a creature within range against attack. Any creature who targets the warded creature with an attack or a harmful sp"
+    },
+    {
+      "rank": 2,
+      "score": null,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "Sub question: What are the rules for using Divine Smite?\nResponse:  According to the context provided, Divine Smite is a Paladin feature that can be used when making a melee weapon attack. When this a"
+    },
+    {
+      "rank": 3,
+      "score": null,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "Sub question: Are there any restrictions on attacking while under the effects of the Sanctuary spell?\nResponse:  Creatures targeting a warded creature under the effects of the Sanctuary spell must mak"
+    },
+    {
+      "rank": 4,
+      "score": 0.016666666666666666,
+      "category": "Spells",
+      "topic": "Sanctuary",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Sanctuary.md",
+      "preview": "### Sanctuary\n\n*1st-level abjuration*\n\n**Casting Time:** 1 bonus action\n\n**Range:** 30 feet\n\n**Components:** V, S, M (a small silver mirror)\n\n**Duration:** 1 minute\n\nYou ward a creature within range a"
+    },
+    {
+      "rank": 5,
+      "score": 0.01639344262295082,
+      "category": "Spells",
+      "topic": "Word of Recall",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Word of Recall.md",
+      "preview": "### Word of Recall\n\n*6th-level conjuration*\n\n**Casting Time:** 1 action\n\n**Range:** 5 feet\n\n**Components:** V\n\n**Duration:** Instantaneous\n\nYou and up to five willing creatures within 5 feet of you in"
+    },
+    {
+      "rank": 6,
+      "score": 0.016129032258064516,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### 2nd Level\n\n- [[Aid]]\n- [[Augury]]\n- [[Blindness-Deafness]]\n- [[Calm Emotions]]\n- [[Continual Flame]]\n- [[Enhance Ability]]\n- [[Find Traps]]\n- [[Gentle Repose]]\n- [[Hold Person]]\n- [[Lesser Restor"
+    },
+    {
+      "rank": 7,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "Guards and Wards",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Guards and Wards.md",
+      "preview": "### Guards and Wards\n\n*6th-level abjuration*\n\n**Casting Time:** 10 minutes\n\n**Range:** Touch\n\n**Components:** V, S, M (burning incense, a small measure of brimstone and oil, a knotted string, a small "
+    },
+    {
+      "rank": 8,
+      "score": 0.015625,
+      "category": "Classes",
+      "topic": "Monk",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Monk.md",
+      "preview": "#### Tranquility\n\nBeginning at 11th level, you can enter a special meditation that surrounds you with an aura of peace. At the end of a long rest, you gain the effect of a *sanctuary* spell that lasts"
+    },
+    {
+      "rank": 9,
+      "score": 0.015384615384615385,
+      "category": "Spells",
+      "topic": "Imprisonment",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Imprisonment.md",
+      "preview": "### Imprisonment\n\n*9th-level abjuration*\n\n**Casting Time:** 1 minute\n\n**Range:** 30 feet\n\n**Components:** V, S, M (a vellum depiction or a carved statuette in the likeness of the target, and a special"
+    },
+    {
+      "rank": 10,
+      "score": 0.015151515151515152,
+      "category": "Characterizations",
+      "topic": "Backgrounds",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Backgrounds.md",
+      "preview": "### Feature: Shelter of the Faithful\n\nAs an acolyte, you command the respect of those who share your faith, and you can perform the religious ceremonies of your deity. You and your adventuring compani"
+    },
+    {
+      "rank": 11,
+      "score": 0.014925373134328358,
+      "category": "Spells",
+      "topic": "Detect Thoughts",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Detect Thoughts.md",
+      "preview": "### Detect Thoughts\n\n*2nd-level divination*\n\n**Casting Time:** 1 action\n\n**Range:** Self\n\n**Components:** V, S, M (a copper piece)\n\n**Duration:** Concentration, up to 1 minute\n\nFor the duration, you c"
+    },
+    {
+      "rank": 12,
+      "score": 0.014705882352941176,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### 1st Level\n\n- [[Alarm]]\n- [[Burning Hands]]\n- [[Charm Person]]\n- [[Color Spray]]\n- [[Comprehend Languages]]\n- [[Detect Magic]]\n- [[Disguise Self]]\n- [[Expeditious Retreat]]\n- [[False Life]]\n- [[Fe"
+    },
+    {
+      "rank": 13,
+      "score": 0.014492753623188406,
+      "category": "Treasure",
+      "topic": "Deck of Many Things",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Deck of Many Things.md",
+      "preview": "###### Actions\n\n***Reaping Scythe***. The avatar sweeps its spectral scythe through a creature within 5 feet of it, dealing 7 (1d8+3) slashing damage plus 4 (1d8) necrotic damage.\n\n***Star***. Increas"
+    },
+    {
+      "rank": 14,
+      "score": 0.016666666666666666,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "### Improved Divine Smite\n\nBy 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the"
+    },
+    {
+      "rank": 15,
+      "score": 0.01639344262295082,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "| Improved Divine Smite                      | 4   | 3   | 3   | -   | -   |\n| 12th  | +4                | Ability Score Improvement                  | 4   | 3   | 3   | -   | -   |\n| 13th  | +5      "
+    },
+    {
+      "rank": 16,
+      "score": 0.016129032258064516,
+      "category": "Characterizations",
+      "topic": "Backgrounds",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Backgrounds.md",
+      "preview": "## Acolyte\n\nYou have spent your life in the service of a temple to a specific god or pantheon of gods. You act as an intermediary between the realm of the holy and the mortal world, performing sacred "
+    },
+    {
+      "rank": 17,
+      "score": 0.015873015873015872,
+      "category": "Gamemastering",
+      "topic": "Pantheons",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Pantheons.md",
+      "preview": "**Table- Egyptian Deities**\n\n| Deity                                          | Alignment | Suggested Domains        | Symbol                               |\n|-----------------------------------------"
+    },
+    {
+      "rank": 18,
+      "score": 0.015625,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### 2nd Level\n\n- [[Aid]]\n- [[Branding Smite]]\n- [[Find Steed]]\n- [[Lesser Restoration]]\n- [[Locate Object]]\n- [[Magic Weapon]]\n- [[Protection from Poison]]\n- [[Zone of Truth]]"
+    },
+    {
+      "rank": 19,
+      "score": 0.015384615384615385,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "| -   |\n| 6th   | +3                | Aura of Protection                         | 4   | 2   | -   | -   | -   |\n| 7th   | +3                | Sacred Oath feature                        | 4   | 3   | "
+    },
+    {
+      "rank": 20,
+      "score": 0.015151515151515152,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "### Divine Smite\n\nStarting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The"
+    },
+    {
+      "rank": 21,
+      "score": 0.014925373134328358,
+      "category": "Characterizations",
+      "topic": "Backgrounds",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Backgrounds.md",
+      "preview": "(Good)                                  |\n| 3      | **Change**. We must help bring about the changes the gods are constantly working in the world. (Chaotic)                   |\n| 4      | **Power**. "
+    },
+    {
+      "rank": 22,
+      "score": 0.014705882352941176,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "#### Equipment\n\nYou start with the following equipment, in addition to the equipment granted by your background:\n\n- (*a*) a martial weapon and a shield or (*b*) two martial weapons\n- (*a*) five javeli"
+    },
+    {
+      "rank": 23,
+      "score": 0.014492753623188406,
+      "category": "Spells",
+      "topic": "## Spell Lists",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists.md",
+      "preview": "#### 2nd Level\n\n- Aid\n- Branding Smite\n- Find Steed\n- Lesser Restoration\n- Locate Object\n- Magic Weapon\n- Protection from Poison\n- Zone of Truth"
+    },
+    {
+      "rank": 24,
+      "score": 0.016666666666666666,
+      "category": "Spells",
+      "topic": "Sanctuary",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Sanctuary.md",
+      "preview": "### Sanctuary\n\n*1st-level abjuration*\n\n**Casting Time:** 1 bonus action\n\n**Range:** 30 feet\n\n**Components:** V, S, M (a small silver mirror)\n\n**Duration:** 1 minute\n\nYou ward a creature within range a"
+    },
+    {
+      "rank": 25,
+      "score": 0.01639344262295082,
+      "category": "Spells",
+      "topic": "Protection from Evil and Good",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Protection from Evil and Good.md",
+      "preview": "### Protection from Evil and Good\n\n*1st-level abjuration*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S, M (holy water or powdered silver and iron, which the spell consumes)\n\n**D"
+    },
+    {
+      "rank": 26,
+      "score": 0.016129032258064516,
+      "category": "Spells",
+      "topic": "Hallow",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Hallow.md",
+      "preview": "### Hallow\n\n*5th-level evocation*\n\n**Casting Time:** 24 hours\n\n**Range:** Touch\n\n**Components:** V, S, M (herbs, oils, and incense worth at least 1,000 gp, which the spell consumes)\n\n**Duration:** Unt"
+    },
+    {
+      "rank": 27,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "Word of Recall",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Word of Recall.md",
+      "preview": "### Word of Recall\n\n*6th-level conjuration*\n\n**Casting Time:** 1 action\n\n**Range:** 5 feet\n\n**Components:** V\n\n**Duration:** Instantaneous\n\nYou and up to five willing creatures within 5 feet of you in"
+    },
+    {
+      "rank": 28,
+      "score": 0.015625,
+      "category": "Spells",
+      "topic": "Hallow",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Hallow.md",
+      "preview": "***Daylight***. Bright light fills the area. Magical darkness created by spells of a lower level than the slot you used to cast this spell can't extinguish the light.\n\n***Energy Protection***. Affecte"
+    },
+    {
+      "rank": 29,
+      "score": 0.015384615384615385,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Unseen Attackers and Targets\n\nCombatants often try to escape their foes' notice by hiding, casting the invisibility spell, or lurking in darkness.\n\nWhen you attack a target that you can't see, you "
+    },
+    {
+      "rank": 30,
+      "score": 0.015151515151515152,
+      "category": "Classes",
+      "topic": "Paladin",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Paladin.md",
+      "preview": "#### Protection\n\nWhen a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a s"
+    },
+    {
+      "rank": 31,
+      "score": 0.014925373134328358,
+      "category": "Spells",
+      "topic": "Guards and Wards",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Guards and Wards.md",
+      "preview": "### Guards and Wards\n\n*6th-level abjuration*\n\n**Casting Time:** 10 minutes\n\n**Range:** Touch\n\n**Components:** V, S, M (burning incense, a small measure of brimstone and oil, a knotted string, a small "
+    },
+    {
+      "rank": 32,
+      "score": 0.014705882352941176,
+      "category": "Spells",
+      "topic": "Protection from Energy",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Protection from Energy.md",
+      "preview": "### Protection from Energy\n\n*3rd-level abjuration*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 hour\n\nFor the duration, the willing creatur"
+    },
+    {
+      "rank": 33,
+      "score": 0.014492753623188406,
+      "category": "Spells",
+      "topic": "Forbiddance",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Forbiddance.md",
+      "preview": "### Forbiddance\n\n*6th-level abjuration (ritual)*\n\n**Casting Time:** 10 minutes\n\n**Range:** Touch\n\n**Components:** V, S, M (a sprinkling of holy water, rare incense, and powdered ruby worth at least 1,"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 11904,
+    "rag_completion": 13492,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 5,
+    "total": 25396
+  },
+  "costs": {
+    "rag": 0.00387292,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00387292
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 16.17,
+    "total_s": 54.78
+  },
+  "answer": " Yes, a Paladin under the effects of the Sanctuary spell can use Divine Smite as long as they meet the other requirements for using the feature, such as making a melee weapon attack. The Sanctuary spell does not restrict the Paladin's ability to use Divine Smite.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer is incorrect and directly contradicts the reference answer. It states that a Paladin can use Divine Smite while under the Sanctuary spell, which is not true, as using Divine Smite ends the Sanctuary effect."
+    },
+    "context_relevancy": {
+      "score": 0.875,
+      "passing": null,
+      "feedback": "Based on the provided context and the evaluation criteria, here is the refined evaluation:\n\n1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context does indeed provide relevant information about both the Sanctuary spell and Divine Smite, which are central to the user's query regarding whether a Paladin under the Sanctuary spell can use Divine Smite. The context explains the effects of the Sanctuary spell and the rules for using Divine Smite, clarifying that the Sanctuary spell does not restrict the warded creature from attacking. Therefore, the context matches the subject matter of the user's query well.\n\n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context provides sufficient information to answer the user's query. It explains that the Sanctuary spell does not prevent the warded creature from making attacks, which implies that a Paladin can indeed use Divine Smite while under the effects of the Sanctuary spell. However, while the context is comprehensive, it does not explicitly state that Divine Smite can be used in this situation, which could lead to some ambiguity. Nevertheless, the information provided is adequate to infer the answer.\n\n   **Score: 1.5 points**\n\n### Final Result\n[RESULT] 3.5\n\nSince the existing evaluation was 3.5 and the new context does not provide additional clarity or information that would raise the score to 4.0, the final result remains 3.5."
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "query_id": "query_014",
+  "session_id": "32-retrieval-fusion-3q-Overnight-30q-v1-20260315-133132",
+  "timestamp": "2026-03-15T13:35:01.772781",
+  "query": {
+    "original": "Can a paralyzed creature make death saving throws?",
+    "used": "Can a paralyzed creature make death saving throws?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.04972677595628415,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Paralyzed\n\n- A paralyzed creature is incapacitated (see the condition) and can't move or speak.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the c"
+    },
+    {
+      "rank": 2,
+      "score": 0.04866871479774705,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Death Saving Throws\n\nWhenever you start your turn with 0 hit points, you must make a special saving throw, called a death saving throw, to determine whether you creep closer to death or hang onto "
+    },
+    {
+      "rank": 3,
+      "score": 0.04839549075403121,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "#### Stabilizing a Creature\n\nThe best way to save a creature with 0 hit points is to heal it. If healing is unavailable, the creature can at least be stabilized so that it isn't killed by a failed dea"
+    },
+    {
+      "rank": 4,
+      "score": 0.04814747488101534,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Unconscious\n\n- An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings\n- The creature drops whatever it's holding and falls prone.\n- Th"
+    },
+    {
+      "rank": 5,
+      "score": 0.04548239750445633,
+      "category": "Monsters",
+      "topic": "Lich",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Lich.md",
+      "preview": "###### Actions\n\n***Paralyzing Touch***. *Melee Spell Attack:* +12 to hit, reach 5 ft., one creature. *Hit:* 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving throw or be par"
+    },
+    {
+      "rank": 6,
+      "score": 0.03149801587301587,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "# Saving Throws\n\nA saving throw-also called a save-represents an attempt to resist a spell, a trap, a poison, a disease, or a similar threat. You don't normally decide to make a saving throw; you are "
+    },
+    {
+      "rank": 7,
+      "score": 0.030090497737556562,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "## Saving Throws\n\nThe Saving Throws entry is reserved for creatures that are adept at resisting certain kinds of effects. For example, a creature that isn't easily charmed or frightened might gain a b"
+    },
+    {
+      "rank": 8,
+      "score": 0.03007688828584351,
+      "category": "Monsters",
+      "topic": "Death Dog (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Death Dog (Creature).md",
+      "preview": "###### Actions\n\n***Multiattack***. The dog makes two bite attacks.\n\n***Bite***. *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6+2) piercing damage. If the target is a creature"
+    },
+    {
+      "rank": 9,
+      "score": 0.029418126757516764,
+      "category": "Spells",
+      "topic": "Symbol",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Symbol.md",
+      "preview": "When you inscribe the glyph, choose one of the options below for its effect. Once triggered, the glyph glows, filling a 60-foot radius sphere with dim light for 10 minutes, after which time the spell "
+    },
+    {
+      "rank": 10,
+      "score": 0.015384615384615385,
+      "category": "Treasure",
+      "topic": "Wand of Paralysis",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Wand of Paralysis.md",
+      "preview": "### Wand of Paralysis\n\n*Wand, rare (requires attunement by a spellcaster)*\n\nThis wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cause a thin blue ray to stre"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3727,
+    "rag_completion": 4074,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 7801
+  },
+  "costs": {
+    "rag": 0.00118403,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00118403
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 6.33,
+    "total_s": 13.72
+  },
+  "answer": " Based on the provided context, a paralyzed creature can still make death saving throws as they are not explicitly stated to be incapable of doing so in the Conditions description.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.04972677595628415
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and correctly states that a paralyzed creature can make death saving throws, but it lacks some detail and clarity found in the reference answer regarding the mechanics of death saving throws and the implications of being incapacitated."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context provides information about the paralyzed condition and death saving throws, which are directly relevant to the user's query about whether a paralyzed creature can make death saving throws. The context explains that a paralyzed creature is incapacitated, which implies limitations on its actions, but it does not explicitly state whether this affects the ability to make death saving throws. Therefore, while the context is related, it does not fully address the specific question.\n\n   **Score: 1/2** (The context is relevant but lacks a direct answer to the query.)\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The context does not provide a complete answer to the user's question. While it discusses the mechanics of being paralyzed and the rules surrounding death saving throws, it does not clarify whether a paralyzed creature can or cannot make death saving throws. The information is incomplete for answering the query definitively, as it leaves out the crucial detail regarding the interaction between paralysis and death saving throws.\n\n   **Score: 0/2** (The context does not provide a full answer to the query.)\n\n**Final Result:** [RESULT] 1.0"
+    }
+  }
+}

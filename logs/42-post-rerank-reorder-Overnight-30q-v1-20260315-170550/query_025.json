@@ -1,0 +1,98 @@
+{
+  "query_id": "query_025",
+  "session_id": "42-post-rerank-reorder-Overnight-30q-v1-20260315-170550",
+  "timestamp": "2026-03-15T17:10:40.083779",
+  "query": {
+    "original": "Does the stunned condition prevent a creature from making saving throws?",
+    "used": "Does the stunned condition prevent a creature from making saving throws?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 3.4039618968963623,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Stunned\n\n- A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rol"
+    },
+    {
+      "rank": 2,
+      "score": -2.0427355766296387,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "# Saving Throws\n\nA saving throw-also called a save-represents an attempt to resist a spell, a trap, a poison, a disease, or a similar threat. You don't normally decide to make a saving throw; you are "
+    },
+    {
+      "rank": 3,
+      "score": -4.725055694580078,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Unconscious\n\n- An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings\n- The creature drops whatever it's holding and falls prone.\n- Th"
+    },
+    {
+      "rank": 4,
+      "score": -3.6009669303894043,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "## Saving Throws\n\nThe Saving Throws entry is reserved for creatures that are adept at resisting certain kinds of effects. For example, a creature that isn't easily charmed or frightened might gain a b"
+    },
+    {
+      "rank": 5,
+      "score": -0.768956184387207,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "#### Stabilizing a Creature\n\nThe best way to save a creature with 0 hit points is to heal it. If healing is unavailable, the creature can at least be stabilized so that it isn't killed by a failed dea"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1865,
+    "rag_completion": 2150,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 4015
+  },
+  "costs": {
+    "rag": 0.00061365,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00061365
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 5.72,
+    "total_s": 13.6
+  },
+  "answer": " Yes, according to the provided rules for the stunned condition, a stunned creature automatically fails Strength and Dexterity saving throws, but it does not explicitly state that they cannot make saving throws at all. However, since they automatically fail, it can be inferred that they have disadvantage on all saving throws, including Wisdom saving throws.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 3.4039618968963623
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains inaccuracies. It incorrectly states that a stunned creature has disadvantage on all saving throws, which is not true; the stunned condition only affects Strength and Dexterity saving throws by causing automatic failure, while other saving throws are unaffected."
+    },
+    "context_relevancy": {
+      "score": 0.625,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context directly addresses the stunned condition and its effects on saving throws. It specifically states that a stunned creature automatically fails Strength and Dexterity saving throws, which is relevant to the user's query about whether the stunned condition prevents a creature from making saving throws. However, it does not explicitly state that the creature cannot make saving throws at all, only that it fails certain types of saving throws.\n\n   **Score: 1.5/2** (The context is relevant but lacks a complete explanation regarding all saving throws.)\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context provides partial information about the stunned condition and its effects on saving throws, but it does not fully answer the query. While it mentions that a stunned creature automatically fails certain saving throws, it does not clarify whether the creature is entirely prevented from making any saving throws or if it can still attempt them but automatically fails. Therefore, while the context is useful, it does not provide a complete answer on its own.\n\n   **Score: 1/2** (The context is useful but does not fully answer the question regarding all saving throws.)\n\n**Final Result: [RESULT] 2.5**"
+    }
+  }
+}

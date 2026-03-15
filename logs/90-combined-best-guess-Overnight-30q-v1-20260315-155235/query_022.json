@@ -1,0 +1,130 @@
+{
+  "query_id": "query_022",
+  "session_id": "90-combined-best-guess-Overnight-30q-v1-20260315-155235",
+  "timestamp": "2026-03-15T16:03:00.322571",
+  "query": {
+    "original": "What is the movement speed of a Giant Eagle?",
+    "used": "What is the movement speed of a Giant Eagle in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06666666666666667,
+      "category": "Monsters",
+      "topic": "Giant Eagle (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Giant Eagle (Creature).md",
+      "preview": "### Giant Eagle\n\n*Large beast, neutral good*\n\n**Armor Class** 13\n\n**Hit Points** 26 (4d10+4)\n\n**Speed** 10 ft., fly 80 ft.\n\n| STR     | DEX     | CON     | INT    | WIS     | CHA     |\n|---------|----"
+    },
+    {
+      "rank": 2,
+      "score": 0.06451612903225806,
+      "category": "Monsters",
+      "topic": "Eagle (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Eagle (Creature).md",
+      "preview": "### Eagle\n\n*Small beast, unaligned*\n\n**Armor Class** 12\n\n**Hit Points** 3 (1d6)\n\n**Speed** 10 ft., fly 60 ft.\n\n| STR    | DEX     | CON     | INT    | WIS     | CHA    |\n|--------|---------|---------|"
+    },
+    {
+      "rank": 3,
+      "score": 0.04918032786885246,
+      "category": "Monsters",
+      "topic": "Giant Eagle (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Giant Eagle (Creature).md",
+      "preview": "###### Actions\n\n***Multiattack***. The eagle makes two attacks: one with its beak and one with its talons.\n\n***Beak***. *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6+3) pier"
+    },
+    {
+      "rank": 4,
+      "score": 0.04713064713064713,
+      "category": "Monsters",
+      "topic": "Eagle (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Eagle (Creature).md",
+      "preview": "###### Actions\n\n***Talons***. *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4+2) slashing damage."
+    },
+    {
+      "rank": 5,
+      "score": 0.044583251360744966,
+      "category": "Monsters",
+      "topic": "Hill Giant (Giant)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Hill Giant (Giant).md",
+      "preview": "### Hill Giant\n\n*Huge giant, chaotic evil*\n\n**Armor Class** 13 (natural armor)\n\n**Hit Points** 105 (10d12+40)\n\n**Speed** 40 ft.\n\n| STR     | DEX    | CON     | INT    | WIS    | CHA    |\n|---------|--"
+    },
+    {
+      "rank": 6,
+      "score": 0.03125,
+      "category": "Treasure",
+      "topic": "Eyes of the Eagle",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Eyes of the Eagle.md",
+      "preview": "### Eyes of the Eagle\n\n*Wondrous item, uncommon (requires attunement)*\n\nThese crystal lenses fit over the eyes. While wearing them, you have advantage on Wisdom (Perception) checks that rely on sight."
+    },
+    {
+      "rank": 7,
+      "score": 0.030798389007344232,
+      "category": "Monsters",
+      "topic": "Giant Owl (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Giant Owl (Creature).md",
+      "preview": "### Giant Owl\n\n*Large beast, neutral*\n\n**Armor Class** 12\n\n**Hit Points** 19 (3d10+3)\n\n**Speed** 5 ft., fly 60 ft.\n\n| STR     | DEX     | CON     | INT    | WIS     | CHA     |\n|---------|---------|--"
+    },
+    {
+      "rank": 8,
+      "score": 0.03076923076923077,
+      "category": "Monsters",
+      "topic": "Giant Spider (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Giant Spider (Creature).md",
+      "preview": "### Giant Spider\n\n*Large beast, unaligned*\n\n**Armor Class** 14 (natural armor)\n\n**Hit Points** 26 (4d10+4)\n\n**Speed** 30 ft., climb 30 ft.\n\n| STR     | DEX     | CON     | INT    | WIS     | CHA    |\n"
+    },
+    {
+      "rank": 9,
+      "score": 0.029850746268656716,
+      "category": "Spells",
+      "topic": "Giant Insect",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Giant Insect.md",
+      "preview": "### Giant Insect\n\n*4th-level transmutation*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 10 minutes\n\nYou transform up to ten centipedes, th"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2775,
+    "rag_completion": 3402,
+    "meta_prompt": 54,
+    "meta_completion": 17,
+    "total_calls": 3,
+    "total": 6248
+  },
+  "costs": {
+    "rag": 0.00095163,
+    "meta": 1.8299999999999998e-05,
+    "embed": 0.0,
+    "total": 0.0009699299999999999
+  },
+  "timings": {
+    "rag_s": 14.95,
+    "query_s": 16.61,
+    "total_s": 26.21
+  },
+  "answer": " The movement speed of a Giant Eagle in DnD 5e is 10 ft. on the ground and 80 ft. while flying.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06666666666666667
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and matches the reference answer in both content and clarity, providing the walking and flying speeds of a Giant Eagle accurately."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context includes information about the Giant Eagle, specifically its movement speed, which is the primary focus of the user's query. The context states that the Giant Eagle has a speed of 10 ft. and can fly at 80 ft., directly answering the question.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides all the necessary information to fully answer the user's query regarding the movement speed of a Giant Eagle. The details about its walking and flying speeds are clearly stated, making it sufficient to address the question without needing additional information.\n\n**Feedback:**\nThe retrieved context is highly relevant and directly answers the query about the movement speed of a Giant Eagle in DnD 5e. It provides both the walking speed and flying speed, which are essential for a complete understanding of the creature's mobility. The information is clear and specific, making it easy for the user to find the answer they are looking for.\n\n[RESULT] 4.0"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "query_id": "query_005",
+  "session_id": "40-post-rerank-Overnight-30q-v1-20260315-165934",
+  "timestamp": "2026-03-15T17:00:31.402147",
+  "query": {
+    "original": "How many hit dice does a Fighter have?",
+    "used": "How many hit dice does a Fighter have?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": -0.6330395936965942,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "## Hit Points and Hit Dice\n\nYou gain the hit points from your new class as described for levels after 1st. You gain the 1st-level hit points for a class only when you are a 1st-level character.\n\nYou a"
+    },
+    {
+      "rank": 2,
+      "score": -1.7717535495758057,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "#### Hit Points\n\n**Hit Dice:** 1d10 per fighter level\n\n**Hit Points at 1st Level:** 10 + your Constitution modifier\n\n**Hit Points at Higher Levels:** 1d10 (or 6) + your Constitution modifier per fight"
+    },
+    {
+      "rank": 3,
+      "score": -7.038197040557861,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "#### Improved Critical\n\nBeginning when you choose this archetype at 3rd level, your weapon attacks score a critical hit on a roll of 19 or 20."
+    },
+    {
+      "rank": 4,
+      "score": -7.300306797027588,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "#### Superior Critical\n\nStarting at 15th level, your weapon attacks score a critical hit on a roll of 18-20."
+    },
+    {
+      "rank": 5,
+      "score": -8.843339920043945,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "**Table- The Fighter**\n\n| Level | Proficiency Bonus | Features                                          |\n|-------|-------------------|---------------------------------------------------|\n| 1st   | +2"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1474,
+    "rag_completion": 1649,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 3123
+  },
+  "costs": {
+    "rag": 0.00047545000000000004,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00047545000000000004
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 3.32,
+    "total_s": 10.54
+  },
+  "answer": " A Fighter has 1d10 Hit Dice per fighter level. Therefore, the total number of Hit Dice a Fighter has depends on their character level.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": -0.6330395936965942
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and relevant, accurately explaining that a Fighter has a d10 hit die per level and clarifying that the total number of hit dice depends on the character's level."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context directly addresses the query about the Fighter's hit dice. It specifies that a Fighter has a hit die of 1d10 per fighter level, which is the exact information requested.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a complete answer to the query. It clearly states that the Fighter has a hit die of 1d10 for each level, which is sufficient to answer the question without needing additional information.\n\n**Feedback:**\nThe retrieved context is highly relevant and directly answers the user's query about the number of hit dice a Fighter has. It provides the necessary detail that a Fighter has a hit die of 1d10 per level, which is the core of the question. There are no extraneous details that detract from the answer, and the information is clear and concise.\n\n[RESULT] 4.0"
+    }
+  }
+}

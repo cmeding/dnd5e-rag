@@ -1,0 +1,138 @@
+{
+  "query_id": "query_008",
+  "session_id": "26-index-hierarchical-default-Overnight-30q-v1-20260315-125741",
+  "timestamp": "2026-03-15T12:59:35.946618",
+  "query": {
+    "original": "Can a restrained creature still make attack rolls?",
+    "used": "Can a restrained creature still make attack rolls?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "- The creature has disadvantage on attack rolls.\n- An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.\n\n## "
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "- Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.\n- The creature has disadvantage on Dexterity saving throws.\n\n## Stunned\n\n- A stunned creature is "
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "Its weight increases by a factor of ten, and it ceases aging.\n- The creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings.\n- Attack rolls against the c"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Monsters",
+      "topic": "Ettercap",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Ettercap.md",
+      "preview": "*Hit:* The creature is restrained by webbing. As an action, the restrained creature can make a DC 11 Strength check, escaping from the webbing on a success. The effect also ends if the webbing is dest"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "If the creature succeeds on its saving throw, you can't use this feature on that creature again for 24 hours.\n\n#### Retaliation\n\nStarting at 14th level, when you take damage from a creature that is wi"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Monsters",
+      "topic": "Ettercap",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Ettercap.md",
+      "preview": "*Hit:* The creature is restrained by webbing. As an action, the restrained creature can make a DC 11 Strength check, escaping from the webbing on a success. The effect also ends if the webbing is dest"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Equipment",
+      "topic": "Weapons",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Weapons.md",
+      "preview": "Also, a lance requires two hands to wield when you aren't mounted.\n\n***Net***. A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are forml"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Shoving a Creature\n\nUsing the Attack action, you can make a special melee attack to shove a creature, either to knock it prone or push it away from you. If you're able to make multiple attacks wit"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "A **stable** creature doesn't make death saving throws, even though it has 0 hit points, but it does remain unconscious. The creature stops being stable, and must start making death saving throws agai"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the creature have advantage.\n\n## Unconscious\n\n- An unconscious creature is incapacitated (see the condit"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2458,
+    "rag_completion": 2684,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 5142
+  },
+  "costs": {
+    "rag": 0.00078034,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00078034
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 3.99,
+    "total_s": 10.03
+  },
+  "answer": " I cannot find this information in the provided rules about whether a restrained creature can still make attack rolls or not. The rules only state that a restrained creature's speed becomes 0 and it can't benefit from any bonus to its speed.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer is not relevant to the user query as it fails to address whether a restrained creature can make attack rolls and instead focuses on other aspects of the restrained condition."
+    },
+    "context_relevancy": {
+      "score": 0.75,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context directly addresses the query about whether a restrained creature can make attack rolls. It specifies that a restrained creature has disadvantage on attack rolls, which is relevant to understanding the implications of being restrained in combat.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Partially. While the context provides information about the disadvantage on attack rolls for a restrained creature, it does not explicitly state whether the creature can still make attack rolls at all. The context implies that the creature can still make attack rolls but with disadvantage, which is an important distinction. Therefore, while it provides useful information, it does not fully answer the query without the implication that the creature can still attempt the rolls.\n\n**Feedback Summary:**\nThe retrieved context is relevant and provides important information regarding the attack rolls of a restrained creature. However, it lacks a clear statement confirming that the creature can still make attack rolls, which is crucial for a complete answer. Thus, while the context is useful, it does not fully satisfy the query.\n\nFinal Result: [RESULT] 3.0"
+    }
+  }
+}

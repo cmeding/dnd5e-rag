@@ -1,0 +1,138 @@
+{
+  "query_id": "query_001",
+  "session_id": "BASE-sentence_window-default-index-build-20260314-222747",
+  "timestamp": "2026-03-14T22:28:01.926086",
+  "query": {
+    "original": "Can a grappled Creature cast Spells?",
+    "used": "Can a grappled Creature cast Spells?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Characterizations",
+      "topic": "Feats",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Feats.md",
+      "preview": "If your Strength is reduced below 13 somehow-perhaps by a withering curse-you can't benefit from the Grappler feat until your Strength is restored.\n\n ## Grappler\n\n*Prerequisite: Strength 13 or higher*"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "With this action, you make one melee or ranged attack.  See the \"Making an Attack\" section for the rules that govern attacks.\n\n Certain features, such as the Extra Attack feature of the fighter, allow"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "Such spells can grant an extra reserve of life force, drain the life energy from another creature, create the undead, or even bring the dead back to life.\n >\n>Creating the undead through the use of ne"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "Some conjurations create objects or effects out of nothing.\n >\n>**Divination** spells reveal information, whether in the form of secrets long forgotten, glimpses of the future, the locations of hidden"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Monsters",
+      "topic": "Couatl",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Couatl.md",
+      "preview": "| STR     | DEX     | CON     | INT     | WIS     | CHA     |\n|---------|---------|---------|---------|---------|---------|\n| 16 (+3) | 20 (+5) | 17 (+3) | 18 (+4) | 20 (+5) | 18 (+4) |\n\n**Saving Thro"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "For a spell like *magic missile*, the target is a creature.  For a spell like *fireball*, the target is the point in space where the ball of fire erupts.\n\n Most spells have ranges expressed in feet.  "
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "# Spell Attack Rolls\n\nSome spells require the caster to make an attack roll to determine whether the spell effect hits the intended target.  Your attack bonus with a spell attack equals your spellcast"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Spells",
+      "topic": "Arcane Hand",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Arcane Hand.md",
+      "preview": "The hand moves with the target to remain within 5 feet of it.\n\n ***Grasping Hand***.  The hand attempts to grapple a Huge or smaller creature within 5 feet of it.  You use the hand's Strength score to"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "The GM might also decide that certain environmental phenomena, such as a wave crashing over you while you're on a storm-tossed ship, require you to succeed on a DC 10 Constitution saving throw to main"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "A 1st-level spell fits into a slot of any size, but a 9th-level spell fits only in a 9th-level slot.  So when Umara casts *magic missile*, a 1st-level spell, she spends one of her four 1st-level slots"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2835,
+    "rag_completion": 3108,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 5943
+  },
+  "costs": {
+    "rag": 0.00090237,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00090237
+  },
+  "timings": {
+    "rag_s": 0.04,
+    "query_s": 5.42,
+    "total_s": 13.5
+  },
+  "answer": " I cannot find in the provided rules if a grappled creature can cast spells or not. The rules only mention that a character with the Grappler feat has advantages in attacking and pinning a grappled creature. The rules about spellcasting do not mention anything about being grappled affecting the ability to cast spells.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains inaccuracies. It incorrectly states that the rules do not mention anything about being grappled affecting spellcasting, while the reference answer clearly states that a grappled creature can cast spells."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context discusses the Grappler feat and the general mechanics of casting spells in D&D 5e. However, it does not directly address whether a grappled creature can cast spells. While it provides information about grappling and spellcasting, it lacks a clear answer to the specific question about the ability of a grappled creature to cast spells. Therefore, the context is somewhat relevant but does not directly match the query.\n   - **Score: 1 point**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does not provide a definitive answer to the question of whether a grappled creature can cast spells. It discusses the mechanics of grappling and spellcasting but does not clarify the interaction between these two mechanics. Thus, it cannot be used exclusively to provide a full answer to the user's query.\n   - **Score: 0 points**\n\n**Feedback Summary:**\nThe retrieved context provides some relevant information about grappling and spellcasting but fails to directly answer the user's query regarding whether a grappled creature can cast spells. The lack of a clear answer means that the context cannot be used exclusively to address the question.\n\n[RESULT] 1.0"
+    }
+  }
+}

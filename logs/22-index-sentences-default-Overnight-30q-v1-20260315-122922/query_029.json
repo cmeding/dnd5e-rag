@@ -1,0 +1,138 @@
+{
+  "query_id": "query_029",
+  "session_id": "22-index-sentences-default-Overnight-30q-v1-20260315-122922",
+  "timestamp": "2026-03-15T12:38:37.960543",
+  "query": {
+    "original": "Does a Barbarian lose their Rage bonus damage if they cast a spell while raging?",
+    "used": "Does a Barbarian lose their Rage bonus damage if they cast a spell while raging?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "### Rage\n\nIn battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action.\n\nWhile raging, you gain the following benefits if you aren't wearing heavy armor:\n\n- You have"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "Beginning at 6th level, you can't be charmed or frightened while raging. If you are charmed or frightened when you enter your rage, the effect is suspended for the duration of the rage.\n\n#### Intimida"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be blinded, deafened, or incapacitated.\n\n### Primal Path\n\nAt 3"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.\n\n### Persistent Rage\n\nBeginning at 15th level, your rage is so fierce "
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "Fast Movement   | 3         | +2          |\n| 6th   | +3                | Path feature                  | 4         | +2          |\n| 7th   | +3                | Feral Instinct                | 4     "
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Gamemastering",
+      "topic": "Madness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Madness.md",
+      "preview": "### Curing Madness\n\nA *calm emotions* spell can suppress the effects of madness, while a *lesser restoration* spell can rid a character of a short-term or long-term madness. Depending on the source of"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "# Barbarian\n\n### Class Features\n\nAs a barbarian, you gain the following class features.\n\n#### Hit Points\n\n**Hit Dice:** 1d12 per barbarian level\n\n**Hit Points at 1st Level:** 12 + your Constitution mo"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Spells",
+      "topic": "Calm Emotions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Calm Emotions.md",
+      "preview": "### Calm Emotions\n\n*2nd-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou attempt to suppress strong emotions i"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Gamemastering",
+      "topic": "Madness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Madness.md",
+      "preview": "# Madness\n\nIn a typical campaign, characters aren't driven mad by the horrors they face and the carnage they inflict day after day, but sometimes the stress of being an adventurer can be too much to b"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Spells",
+      "topic": "Vicious Mockery",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Vicious Mockery.md",
+      "preview": "### Vicious Mockery\n\n*Enchantment cantrip*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V\n\n**Duration:** Instantaneous\n\nYou unleash a string of insults laced with subtle enchantmen"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 4925,
+    "rag_completion": 5305,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 10230
+  },
+  "costs": {
+    "rag": 0.0015497000000000002,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0015497000000000002
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 6.14,
+    "total_s": 13.51
+  },
+  "answer": " The Barbarian's Rage feature and spellcasting do not directly interact, so the answer to whether a Barbarian loses their Rage bonus damage when casting a spell while Raging remains undefined in the provided rules.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains inaccuracies. It incorrectly states that the interaction between Rage and spellcasting is undefined, while the rules clearly state that a Barbarian cannot cast spells while raging. This misunderstanding leads to a misleading conclusion."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context directly addresses the query about whether a Barbarian loses their Rage bonus damage if they cast a spell while raging. The context states, \"If you are able to cast spells, you can't cast them or concentrate on them while raging.\" This implies that a Barbarian cannot cast spells while raging, which means they cannot lose their Rage bonus damage due to casting spells, as they simply cannot do so.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a complete answer to the query. It clearly states that a Barbarian cannot cast spells while raging, which means the question of losing Rage bonus damage due to casting spells is moot. The information is sufficient to conclude that a Barbarian does not lose Rage bonus damage from casting spells because they cannot cast spells at all while in a state of Rage.\n\n**Feedback Summary:**\nThe retrieved context is highly relevant and directly answers the user's query. It provides clear information about the interaction between a Barbarian's Rage and spellcasting, confirming that a Barbarian cannot cast spells while raging, thus they do not lose Rage bonus damage from casting spells.\n\n[RESULT] 4.0"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "query_id": "query_002",
+  "session_id": "61-context-consolidation-Overnight-30q-v1-20260315-145355",
+  "timestamp": "2026-03-15T14:54:23.117433",
+  "query": {
+    "original": "What is the Armor Class of an Aboleth?",
+    "used": "What is the Armor Class of an Aboleth?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "The Armor Class (AC) of an Aboleth, a Large aberration with a lawful evil alignment, is 17, which is derived from its natural armor. The Aboleth has 135 hit points and a movement speed of 10 feet on l"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1150,
+    "rag_completion": 4577,
+    "meta_prompt": 2951,
+    "meta_completion": 221,
+    "total_calls": 2,
+    "total": 8899
+  },
+  "costs": {
+    "rag": 0.00099613,
+    "meta": 0.00057525,
+    "embed": 0.0,
+    "total": 0.00157138
+  },
+  "timings": {
+    "rag_s": 4.83,
+    "query_s": 6.37,
+    "total_s": 13.5
+  },
+  "answer": " The Armor Class of an Aboleth is 17.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly answers the user query with the exact information provided in the reference answer."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the user's query about the Armor Class of an Aboleth. It provides the specific value of the Armor Class (17) and explains that it is derived from the creature's natural armor. Additionally, it includes relevant details about the Aboleth's characteristics, which are pertinent to understanding its defenses.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the retrieved context can be used to provide a full answer to the user's query. It gives the exact Armor Class of the Aboleth and explains how that value is determined. While it includes additional information about the Aboleth's hit points, movement speed, and abilities, this extra context does not detract from the main answer regarding the Armor Class. The essential information needed to answer the query is present and complete.\n\n   **Score: 2/2**\n\n**Final Feedback:** The retrieved context is highly relevant and provides a complete answer to the query about the Armor Class of an Aboleth. It not only states the AC but also explains its source, which enhances the understanding of the creature's defenses. The additional details about the Aboleth's characteristics are informative but not necessary for answering the specific question.\n\n[RESULT] 4.0"
+    }
+  }
+}

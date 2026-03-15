@@ -1,0 +1,138 @@
+{
+  "query_id": "query_003",
+  "session_id": "92-combined-best-permissive-Overnight-30q-v1-20260315-162231",
+  "timestamp": "2026-03-15T16:23:39.596036",
+  "query": {
+    "original": "What damage type does Inflict Wounds deal?",
+    "used": "What is the damage type of the Inflict Wounds spell in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06666666666666667,
+      "category": "Spells",
+      "topic": "Inflict Wounds",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Inflict Wounds.md",
+      "preview": "### Inflict Wounds\n\n*1st-level necromancy*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S\n\n**Duration:** Instantaneous\n\nMake a melee spell attack against a creature you can reach."
+    },
+    {
+      "rank": 2,
+      "score": 0.06403688524590165,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Damage Types\n\nDifferent attacks, damaging spells, and other harmful effects deal different types of damage. Damage types have no rules of their own, but other rules, such as damage resistance, rel"
+    },
+    {
+      "rank": 3,
+      "score": 0.04740957966764418,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### 1st Level\n\n- [[Bane]]\n- [[Bless]]\n- [[Command]]\n- [[Create or Destroy Water]]\n- [[Cure Wounds]]\n- [[Detect Evil and Good]]\n- [[Detect Magic]]\n- [[Detect Poison and Disease]]\n- [[Guiding Bolt]]\n- "
+    },
+    {
+      "rank": 4,
+      "score": 0.045454545454545456,
+      "category": "Treasure",
+      "topic": "Sword of Wounding",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Sword of Wounding.md",
+      "preview": "### Sword of Wounding\n\n*Weapon (any sword), rare (requires attunement)*\n\nHit points lost to this weapon's damage can be regained only through a short or long rest, rather than by regeneration, magic, "
+    },
+    {
+      "rank": 5,
+      "score": 0.03278688524590164,
+      "category": "Spells",
+      "topic": "## Spell Lists",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists.md",
+      "preview": "#### 1st Level\n\n- Bane\n- Bless\n- Command\n- Create or Destroy Water\n- Cure Wounds\n- Detect Evil and Good\n- Detect Magic\n- Detect Poison and Disease\n- Guiding Bolt\n- Healing Word\n- Inflict Wounds\n- Prot"
+    },
+    {
+      "rank": 6,
+      "score": 0.031754032258064516,
+      "category": "Spells",
+      "topic": "Cure Wounds",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Cure Wounds.md",
+      "preview": "### Cure Wounds\n\n*1st-level evocation*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S\n\n**Duration:** Instantaneous\n\nA creature you touch regains a number of hit points equal to 1d"
+    },
+    {
+      "rank": 7,
+      "score": 0.031754032258064516,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### 5th Level\n\n- [[Commune]]\n- [[Contagion]]\n- [[Dispel Evil and Good]]\n- [[Flame Strike]]\n- [[Geas]]\n- [[Greater Restoration]]\n- [[Hallow]]\n- [[Insect Plague]]\n- [[Legend Lore]]\n- [[Mass Cure Wounds"
+    },
+    {
+      "rank": 8,
+      "score": 0.031746031746031744,
+      "category": "Gamemastering",
+      "topic": "Madness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Madness.md",
+      "preview": "## Going Mad\n\nVarious magical effects can inflict madness on an otherwise stable mind. Certain spells, such as *contact other plane* and *symbol*, can cause insanity, and you can use the madness rules"
+    },
+    {
+      "rank": 9,
+      "score": 0.030798389007344232,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Damage Rolls\n\nEach weapon, spell, and harmful monster ability specifies the damage it deals. You roll the damage die or dice, add any modifiers, and apply the damage to your target. Magic weapons,"
+    },
+    {
+      "rank": 10,
+      "score": 0.03076923076923077,
+      "category": "Monsters",
+      "topic": "Cult Fanatic (NPC)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Cult Fanatic (NPC).md",
+      "preview": "### Cult Fanatic\n\n*Medium humanoid (any race), any non-good alignment*\n\n**Armor Class** 13 (leather armor)\n\n**Hit Points** 33 (6d8 + 6)\n\n**Speed** 30 ft.\n\n| STR     | DEX     | CON     | INT     | WIS"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3250,
+    "rag_completion": 3921,
+    "meta_prompt": 54,
+    "meta_completion": 20,
+    "total_calls": 3,
+    "total": 7245
+  },
+  "costs": {
+    "rag": 0.00110249,
+    "meta": 2.01e-05,
+    "embed": 0.0,
+    "total": 0.0011225900000000001
+  },
+  "timings": {
+    "rag_s": 15.37,
+    "query_s": 16.54,
+    "total_s": 21.78
+  },
+  "answer": " The Inflict Wounds spell in DnD 5e deals necrotic damage.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06666666666666667
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly answers the user query with the same information as the reference answer."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context directly addresses the Inflict Wounds spell, including its level, casting time, range, components, duration, and most importantly, the damage type it deals, which is necrotic damage. This information is precisely what the user is asking about.\n\n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a complete answer to the user's query. It specifies that Inflict Wounds deals \"3d10 necrotic damage\" on a hit, which fully answers the question regarding the damage type of the spell. There is no need for additional information from other sources to understand the damage type.\n\n   **Score: 2 points**\n\n**Final Feedback:**\nThe retrieved context is highly relevant and provides a complete answer to the query about the damage type of the Inflict Wounds spell. It includes all necessary details without requiring further information.\n\n[RESULT] 4.0"
+    }
+  }
+}

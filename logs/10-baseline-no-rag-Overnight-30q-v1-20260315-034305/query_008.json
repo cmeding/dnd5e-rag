@@ -1,0 +1,51 @@
+{
+  "query_id": "query_008",
+  "session_id": "10-baseline-no-rag-Overnight-30q-v1-20260315-034305",
+  "timestamp": "2026-03-15T03:44:36.536733",
+  "query": {
+    "original": "Can a restrained creature still make attack rolls?",
+    "used": "Can a restrained creature still make attack rolls?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 281,
+    "rag_completion": 623,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 904
+  },
+  "costs": {
+    "rag": 0.00014928,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00014928
+  },
+  "timings": {
+    "rag_s": null,
+    "query_s": 7.17,
+    "total_s": 8.39
+  },
+  "answer": " Yes, a restrained creature can still make attack rolls, but they may have disadvantage on the attack roll due to being restrained. The condition \"restrained\" does not prevent a creature from making melee attacks or ranged attacks, but it can limit their ability to defend themselves or move freely, which could impact their combat effectiveness. Additionally, some creatures or abilities may grant advantage on attack rolls against a restrained creature, so the specific circumstances of the encounter should be taken into account.",
+  "refused": false,
+  "confidence": {
+    "passed": null,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and fully correct, accurately explaining that a restrained creature can make attack rolls, the disadvantage they face, and the advantage attackers may have against them. It also provides additional context about the implications of the restrained condition, enhancing the completeness of the response."
+    },
+    "context_relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    }
+  }
+}

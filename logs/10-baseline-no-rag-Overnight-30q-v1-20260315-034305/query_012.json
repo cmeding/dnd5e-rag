@@ -1,0 +1,51 @@
+{
+  "query_id": "query_012",
+  "session_id": "10-baseline-no-rag-Overnight-30q-v1-20260315-034305",
+  "timestamp": "2026-03-15T03:45:23.927300",
+  "query": {
+    "original": "Can a Paladin under the Sanctuary spell use Divine Smite?",
+    "used": "Can a Paladin under the Sanctuary spell use Divine Smite?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 282,
+    "rag_completion": 582,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 864
+  },
+  "costs": {
+    "rag": 0.00014160000000000003,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00014160000000000003
+  },
+  "timings": {
+    "rag_s": null,
+    "query_s": 6.76,
+    "total_s": 8.38
+  },
+  "answer": " Yes, a Paladin under the effects of the Sanctuary spell can still use Divine Smite. The Sanctuary spell creates a protective barrier around the Paladin and their allies within a 20-foot radius, preventing hostile creatures from entering or attacking them without making a successful Will save. It does not restrict the Paladin's ability to use their class features, such as Divine Smite, when engaging in melee combat with the permitted creatures.",
+  "refused": false,
+  "confidence": {
+    "passed": null,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer is incorrect and misleading. It states that a Paladin can use Divine Smite while under the Sanctuary spell, which contradicts the rules. Sanctuary ends when the protected creature attacks or casts a spell that affects an enemy, which includes using Divine Smite. Additionally, the description of the Sanctuary spell is inaccurate, as it does not involve a Will save."
+    },
+    "context_relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    }
+  }
+}

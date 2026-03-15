@@ -1,0 +1,98 @@
+{
+  "query_id": "query_018",
+  "session_id": "34-retrieval-topk5-Overnight-30q-v1-20260315-135222",
+  "timestamp": "2026-03-15T13:55:41.633807",
+  "query": {
+    "original": "Does Sneak Attack require the rogue to be hidden?",
+    "used": "Does Sneak Attack require the rogue to be hidden?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "### Sneak Attack\n\nBeginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you h"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Unseen Attackers and Targets\n\nCombatants often try to escape their foes' notice by hiding, casting the invisibility spell, or lurking in darkness.\n\nWhen you attack a target that you can't see, you "
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "### Thieves' Cant\n\nDuring your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creat"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "#### Supreme Sneak\n\nStarting at 9th level, you have advantage on a Dexterity (Stealth) check if you move no more than half your speed on the same turn."
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "### Elusive\n\nBeginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't incapacitated."
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1268,
+    "rag_completion": 1547,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 2815
+  },
+  "costs": {
+    "rag": 0.00043341000000000007,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00043341000000000007
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 5.74,
+    "total_s": 13.98
+  },
+  "answer": " No, Sneak Attack does not require the rogue to be hidden. The condition for Sneak Attack to be used is having advantage on the attack roll or certain conditions met with another enemy of the target. Being hidden is a separate condition that grants advantage on attack rolls against hidden targets, but it is not a requirement for Sneak Attack.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and relevant to the user query, accurately explaining that being hidden is not a requirement for Sneak Attack and detailing the conditions under which it can be used."
+    },
+    "context_relevancy": {
+      "score": 0.625,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context does match the subject matter of the user's query regarding Sneak Attack and whether it requires the rogue to be hidden. The context provides information about how Sneak Attack works, including the conditions under which it can be used, such as having advantage on the attack roll or the presence of an enemy within 5 feet of the target. Additionally, it discusses the concept of unseen attackers and targets, which is relevant to the idea of being hidden. However, it does not explicitly state that being hidden is a requirement for Sneak Attack, which is a key aspect of the query. Therefore, while the context is relevant, it does not fully address the specific question.\n\n   **Score: 1.5/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The retrieved context cannot be used exclusively to provide a full answer to the user's query. While it contains relevant information about Sneak Attack and the mechanics of attacking unseen targets, it does not directly answer whether being hidden is a requirement for Sneak Attack. The context implies that being hidden can provide advantages, but it does not clarify that it is not a strict requirement. Therefore, additional information or clarification would be needed to fully answer the query.\n\n   **Score: 1/2**\n\n**Final Result:** [RESULT] 2.5"
+    }
+  }
+}

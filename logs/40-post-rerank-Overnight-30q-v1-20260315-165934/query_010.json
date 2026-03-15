@@ -1,0 +1,98 @@
+{
+  "query_id": "query_010",
+  "session_id": "40-post-rerank-Overnight-30q-v1-20260315-165934",
+  "timestamp": "2026-03-15T17:01:30.903839",
+  "query": {
+    "original": "Does being charmed prevent a creature from attacking non-charmers?",
+    "used": "Does being charmed prevent a creature from attacking non-charmers?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 4.704529285430908,
+      "category": "Spells",
+      "topic": "Modify Memory",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Modify Memory.md",
+      "preview": "### Modify Memory\n\n*5th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou attempt to reshape another creature's"
+    },
+    {
+      "rank": 2,
+      "score": 2.9980692863464355,
+      "category": "Spells",
+      "topic": "Dominate Person",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Dominate Person.md",
+      "preview": "### Dominate Person\n\n*5th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou attempt to beguile a humanoid that "
+    },
+    {
+      "rank": 3,
+      "score": 2.6541576385498047,
+      "category": "Spells",
+      "topic": "Dominate Monster",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Dominate Monster.md",
+      "preview": "### Dominate Monster\n\n*8th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 hour\n\nYou attempt to beguile a creature that y"
+    },
+    {
+      "rank": 4,
+      "score": 0.5160236358642578,
+      "category": "Monsters",
+      "topic": "Succubus-Incubus",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Succubus-Incubus.md",
+      "preview": "###### Actions\n\n***Claw (Fiend Form Only)***. *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6+3) slashing damage.\n\n***Charm***. One humanoid the fiend can see within 30 feet o"
+    },
+    {
+      "rank": 5,
+      "score": 0.24691694974899292,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Charmed\n\n- A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.\n- The charmer has advantage on any ability check to interact socially with th"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2408,
+    "rag_completion": 2580,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 4988
+  },
+  "costs": {
+    "rag": 0.00075508,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00075508
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 2.97,
+    "total_s": 11.32
+  },
+  "answer": " Yes, being charmed prevents a creature from attacking the charmer, but it does not restrict the creature from attacking non-charmers.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 4.704529285430908
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer correctly states that being charmed prevents a creature from attacking the charmer but clarifies that it does not restrict attacks on non-charmers. However, the phrasing could be slightly clearer, as it initially suggests a \"yes\" answer before providing the correct information."
+    },
+    "context_relevancy": {
+      "score": 0.75,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context includes information about various spells that charm creatures, specifically \"Modify Memory,\" \"Dominate Person,\" and \"Dominate Monster.\" It also includes a definition of the \"Charmed\" condition, which states that a charmed creature cannot attack the charmer or target the charmer with harmful abilities or magical effects. This directly addresses the user's query about whether being charmed prevents a creature from attacking non-charmers. Therefore, the context is relevant to the subject matter of the query.  \n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The context provides a clear definition of the \"Charmed\" condition, specifically stating that a charmed creature cannot attack the charmer. However, it does not explicitly state whether a charmed creature can attack non-charmers. While it implies that the charmed creature is focused on the charmer and may not attack them, it does not clarify the behavior towards non-charmers. Thus, while the context is relevant, it does not fully answer the user's query on its own. Additional information or clarification would be needed to provide a complete answer.  \n   **Score: 1 point**\n\n**Final Result:** [RESULT] 3.0"
+    }
+  }
+}

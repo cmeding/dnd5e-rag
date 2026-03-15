@@ -1,0 +1,138 @@
+{
+  "query_id": "query_030",
+  "session_id": "24-index-sentwindow-default-Overnight-30q-v1-20260315-124523",
+  "timestamp": "2026-03-15T12:51:05.890897",
+  "query": {
+    "original": "Can you cast a spell and also make a weapon attack in the same turn without any special features?",
+    "used": "Can you cast a spell and also make a weapon attack in the same turn without any special features?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "You can't cast another spell during the same turn, except for a cantrip with a casting time of 1 action.\n\n"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "You must use a bonus action on your turn to cast the spell, provided that you haven't already taken a bonus action this turn. "
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Classes",
+      "topic": "Sorcerer",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Sorcerer.md",
+      "preview": "You can transform unexpended sorcery points into one spell slot as a bonus action on your turn. "
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "You can take a bonus action only when a special ability, spell, or other feature of the game states that you can do something as a bonus action. "
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Classes",
+      "topic": "Monk",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Monk.md",
+      "preview": "For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn.\n\n"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "Some characters and monsters have special abilities that let them cast spells without using spell slots. "
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "For example, if two clerics cast *bless* on the same target, that character gains the spell's benefit only once; he or she doesn't get to roll two bonus dice."
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "You can take only one bonus action on your turn, so you must choose which bonus action to use when you have more than one available.\n\n"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Classes",
+      "topic": "Warlock",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Warlock.md",
+      "preview": "You can cast your arcanum spell once without expending a spell slot. "
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Classes",
+      "topic": "Sorcerer",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Sorcerer.md",
+      "preview": "You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.\n\n"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1180,
+    "rag_completion": 1445,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 2625
+  },
+  "costs": {
+    "rag": 0.00040435000000000004,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00040435000000000004
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 5.33,
+    "total_s": 13.52
+  },
+  "answer": " No, according to the provided rules, you cannot cast a spell and make a weapon attack in the same turn without any special features. The rules state that you can't cast another spell during the same turn, except for a cantrip with a casting time of 1 action, and taking the Attack action requires a separate action.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and mostly correct, but it introduces some unnecessary complexity regarding casting a cantrip. The core information about not being able to cast a spell and make a weapon attack in the same turn without special features is accurate."
+    },
+    "context_relevancy": {
+      "score": 0.5,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context partially matches the subject matter of the user's query. It discusses the rules surrounding casting spells and taking actions in a turn, which is relevant to the question of whether a spell can be cast and a weapon attack can be made in the same turn. However, it does not directly address the specific scenario of casting a spell and making a weapon attack without any special features, which is the crux of the query. Therefore, while there is relevant information, it does not fully answer the question.\n\n   **Score: 1 point**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The retrieved context cannot be used exclusively to provide a full answer to the user's query. While it contains relevant information about casting spells and taking actions, it lacks a clear statement regarding the ability to make a weapon attack after casting a spell without any special features. The context does not explicitly confirm or deny the possibility of performing both actions in the same turn under the conditions specified in the query. Thus, it does not provide a complete answer.\n\n   **Score: 1 point**\n\n**Final Feedback:** The retrieved context provides some relevant information about the rules of spellcasting and actions in combat, but it does not directly answer the user's question about the specific scenario of casting a spell and making a weapon attack without special features. More explicit information regarding the interaction of these actions is needed for a complete answer.\n\n[RESULT] 2.0"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "query_id": "query_004",
+  "session_id": "10-baseline-no-rag-Overnight-30q-v1-20260315-034305",
+  "timestamp": "2026-03-15T03:43:50.103561",
+  "query": {
+    "original": "How long does the Haste spell last?",
+    "used": "How long does the Haste spell last?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 277,
+    "rag_completion": 639,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 916
+  },
+  "costs": {
+    "rag": 0.00015188000000000002,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00015188000000000002
+  },
+  "timings": {
+    "rag_s": null,
+    "query_s": 11.09,
+    "total_s": 13.22
+  },
+  "answer": " The duration of the Haste spell depends on the level of the spell being cast. Here are the durations for different levels:\n\n* Haste (1st level): 1 minute\n* Haste (2nd level): 1 minute\n* Haste (3rd level): 10 minutes\n* Haste (4th level): 1 hour\n* Haste (5th level): 8 hours\n* Haste (6th level): 24 hours\n\nThe Haste spell grants the target advantage on Dexterity ability checks and saving throws, as well as increasing their base walking speed by 30 feet for the duration. It can also be used to grant an additional attack per round to the target for the duration.",
+  "refused": false,
+  "confidence": {
+    "passed": null,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer provides incorrect information about the duration of the Haste spell, stating that it varies by spell level, which is not true. Haste lasts for 1 minute and requires concentration, regardless of the caster's level. While it includes some relevant details about the spell's effects, the inaccuracies significantly detract from its overall correctness."
+    },
+    "context_relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    }
+  }
+}

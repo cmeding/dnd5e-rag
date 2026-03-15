@@ -1,0 +1,138 @@
+{
+  "query_id": "query_019",
+  "session_id": "22-index-sentences-default-Overnight-30q-v1-20260315-122922",
+  "timestamp": "2026-03-15T12:35:47.835746",
+  "query": {
+    "original": "Do you add your proficiency bonus to every saving throw?",
+    "used": "Do you add your proficiency bonus to every saving throw?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "By the same token, if a feature or effect allows you to multiply your proficiency bonus when making an ability check that wouldn't normally benefit from your proficiency bonus, you still don't add the"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "***Other Charisma Checks***. The GM might call for a Charisma check when you try to accomplish tasks like the following:\n\n- Find the best person to talk to for news, rumors, and gossip\n- Blend into a "
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. If two favorable situations grant advantage, for example,"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "## Proficiency Bonus\n\nYour proficiency bonus is always based on your total character level, as shown in the Character Advancement table in chapter 1, not your level in a particular class. For example,"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "### Climb\n\nA monster that has a climbing speed can use all or part of its movement to move on vertical surfaces. The monster doesn't need to spend extra movement to climb.\n\n### Fly\n\nA monster that has"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "The skills related to each ability score are shown in the following list. (No skills are related to Constitution.) See an ability's description in the later sections of this section for examples of ho"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "#### Remarkable Athlete\n\nStarting at 7th level, you can add half your proficiency bonus (round up) to any Strength, Dexterity, or Constitution check you make that doesn't already use your proficiency "
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Equipment",
+      "topic": "Tools",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Tools.md",
+      "preview": "# Tools\n\nA tool helps you to do something you couldn't otherwise do, such as craft or repair an item, forge a document, or pick a lock. Your race, class, background, or feats give you proficiency with"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "**Table- Ability Scores and Modifiers**\n\n| Score | Modifier |\n|-------|----------|\n| 1     | -5       |\n| 2-3   | -4       |\n| 4-5   | -3       |\n| 6-7   | -2       |\n| 8-9   | -1       |\n| 10-11 | +0"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Treasure",
+      "topic": "Ring of Protection",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Ring of Protection.md",
+      "preview": "### Ring of Protection\n\n*Ring, rare (requires attunement)*\n\nYou gain a +1 bonus to AC and saving throws while wearing this ring."
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 5619,
+    "rag_completion": 6012,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 11631
+  },
+  "costs": {
+    "rag": 0.00176037,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00176037
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 6.23,
+    "total_s": 12.95
+  },
+  "answer": " The Ring of Protection grants a constant +1 bonus to AC and saving throws, but it does not mention anything about adding the proficiency bonus to saving throws.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer is not relevant to the user query about proficiency bonuses and saving throws, as it discusses the Ring of Protection instead."
+    },
+    "context_relevancy": {
+      "score": 0.75,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context discusses saving throws and proficiency bonuses, which are directly relevant to the user's query about whether proficiency bonuses are added to every saving throw. It explains how saving throws work, including when a character can add their proficiency bonus based on their class and the specific saving throw being made. Therefore, the context does match the subject matter of the user's query.\n\n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - While the context provides relevant information about saving throws and proficiency bonuses, it does not explicitly state that you do not add your proficiency bonus to every saving throw. It implies that proficiency bonuses are only added when a character is proficient in the saving throw being made. However, it does not clarify that proficiency bonuses are not added to saving throws if the character is not proficient. Thus, while the context is informative, it does not fully answer the query on its own.\n\n   **Score: 1 point**\n\n**Final Result: [RESULT] 3.0**"
+    }
+  }
+}

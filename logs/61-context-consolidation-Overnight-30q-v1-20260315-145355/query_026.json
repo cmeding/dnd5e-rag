@@ -1,0 +1,66 @@
+{
+  "query_id": "query_026",
+  "session_id": "61-context-consolidation-Overnight-30q-v1-20260315-145355",
+  "timestamp": "2026-03-15T15:00:32.127980",
+  "query": {
+    "original": "Can an incapacitated creature take reactions?",
+    "used": "Can an incapacitated creature take reactions?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, an incapacitated creature cannot take actions or reactions. This condition applies to several other states, including being stunned, paralyzed, unconscious, or petri"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1283,
+    "rag_completion": 3106,
+    "meta_prompt": 1173,
+    "meta_completion": 282,
+    "total_calls": 2,
+    "total": 5844
+  },
+  "costs": {
+    "rag": 0.00073127,
+    "meta": 0.00034515,
+    "embed": 0.0,
+    "total": 0.00107642
+  },
+  "timings": {
+    "rag_s": 6.65,
+    "query_s": 8.39,
+    "total_s": 15.21
+  },
+  "answer": " An incapacitated creature cannot take reactions. (Based on the provided context)",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly addresses the user query, matching the reference answer in both content and clarity."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query about whether an incapacitated creature can take reactions. It clearly states that an incapacitated creature cannot take actions or reactions, which is the core of the user's question. The additional details about various conditions that cause incapacitation further reinforce the answer and provide a comprehensive understanding of the topic.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a complete answer to the query. It explicitly states that an incapacitated creature cannot take reactions and supports this with relevant information about the incapacitated condition and its related states. The explanation is thorough enough that no additional information is needed to fully understand the answer.\n\n   **Score: 2/2**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

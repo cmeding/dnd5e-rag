@@ -1,0 +1,66 @@
+{
+  "query_id": "query_012",
+  "session_id": "93-kitchen-sink-Overnight-30q-v1-20260315-163650",
+  "timestamp": "2026-03-15T16:40:38.381050",
+  "query": {
+    "original": "Can a Paladin under the Sanctuary spell use Divine Smite?",
+    "used": "Can a Paladin cast Divine Smite while affected by the Sanctuary spell in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, a Paladin can cast Divine Smite while affected by the Sanctuary spell, but there are important mechanics to consider.\n\n**Sanctuary Spell**: This 1st-level abjuration"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1726,
+    "rag_completion": 5230,
+    "meta_prompt": 2557,
+    "meta_completion": 320,
+    "total_calls": 4,
+    "total": 9833
+  },
+  "costs": {
+    "rag": 0.0011835600000000002,
+    "meta": 0.00057555,
+    "embed": 0.0,
+    "total": 0.0017591100000000001
+  },
+  "timings": {
+    "rag_s": 12.9,
+    "query_s": 15.51,
+    "total_s": 23.12
+  },
+  "answer": " Yes, a Paladin can cast Divine Smite while affected by the Sanctuary spell in DnD 5e. However, doing so will cause the Sanctuary spell to end immediately after the attack is made.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains a significant mistake regarding the mechanics of the Sanctuary spell and Divine Smite. It incorrectly states that a Paladin can use Divine Smite while under the effects of Sanctuary, which contradicts the rules."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query about whether a Paladin can cast Divine Smite while affected by the Sanctuary spell. It explains the mechanics of both the Sanctuary spell and Divine Smite, and it clarifies the interaction between the two, which is the core of the user's question.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a complete answer to the query. It explains that while a Paladin can use Divine Smite while under the effects of Sanctuary, doing so will end the Sanctuary spell. This information is sufficient to fully answer the user's question without needing additional context.\n\n**Feedback Summary:** The retrieved context is highly relevant and provides a comprehensive answer to the query. It effectively explains the mechanics involved and the consequences of using Divine Smite while under the effects of Sanctuary. \n\n[RESULT] 4.0"
+    }
+  }
+}

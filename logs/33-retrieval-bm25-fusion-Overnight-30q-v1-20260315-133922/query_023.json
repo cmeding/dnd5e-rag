@@ -1,0 +1,138 @@
+{
+  "query_id": "query_023",
+  "session_id": "33-retrieval-bm25-fusion-Overnight-30q-v1-20260315-133922",
+  "timestamp": "2026-03-15T13:48:53.746189",
+  "query": {
+    "original": "How many languages does a standard Human character speak at character creation?",
+    "used": "How many languages does a standard Human character speak at character creation?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06666666666666667,
+      "category": "Characterizations",
+      "topic": "Languages",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Languages.md",
+      "preview": "# Languages\n\nYour race indicates the languages your character can speak by default, and your background might give you access to one or more additional languages of your choice. Note these languages o"
+    },
+    {
+      "rank": 2,
+      "score": 0.048915917503966164,
+      "category": "Races",
+      "topic": "Human",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Races\\Human.md",
+      "preview": "### Human Traits\n\nIt's hard to make generalizations about humans, but your human character has these traits.\n\n***Ability Score Increase***. Your ability scores each increase by 1.\n\n***Age***. Humans r"
+    },
+    {
+      "rank": 3,
+      "score": 0.03125,
+      "category": "Monsters",
+      "topic": "Skeleton",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Skeleton.md",
+      "preview": "### Skeleton\n\n*Medium undead, lawful evil*\n\n**Armor Class** 13 (armor scraps)\n\n**Hit Points** 13 (2d8+4)\n\n**Speed** 30 ft.\n\n| STR     | DEX     | CON     | INT    | WIS    | CHA    |\n|---------|------"
+    },
+    {
+      "rank": 4,
+      "score": 0.030886196246139225,
+      "category": "Races",
+      "topic": "Elf",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Races\\Elf.md",
+      "preview": "After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.\n\n***Languages***. You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonatio"
+    },
+    {
+      "rank": 5,
+      "score": 0.030621785881252923,
+      "category": "Classes",
+      "topic": "Bard",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Bard.md",
+      "preview": "#### Equipment\n\nYou start with the following equipment, in addition to the equipment granted by your background:\n\n- (*a*) a rapier, (*b*) a longsword, or (*c*) any simple weapon\n- (*a*) a diplomat's p"
+    },
+    {
+      "rank": 6,
+      "score": 0.03057889822595705,
+      "category": "Monsters",
+      "topic": "Commoner (NPC)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Commoner (NPC).md",
+      "preview": "### Commoner\n\n*Medium humanoid (any race), any alignment*\n\n**Armor Class** 10\n\n**Hit Points** 4 (1d8)\n\n**Speed** 30 ft.\n\n| STR     | DEX     | CON     | INT     | WIS     | CHA     |\n|---------|------"
+    },
+    {
+      "rank": 7,
+      "score": 0.030303030303030304,
+      "category": "Gamemastering",
+      "topic": "Madness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Madness.md",
+      "preview": "The confusion effect lasts for 1 minute.            |\n| 91-95  | The character loses the ability to speak.                                                                                              "
+    },
+    {
+      "rank": 8,
+      "score": 0.03007688828584351,
+      "category": "Gameplay",
+      "topic": "Adventuring",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Adventuring.md",
+      "preview": "## Short Rest\n\nA short rest is a period of downtime, at least 1 hour long, during which a character does nothing more strenuous than eating, drinking, reading, and tending to wounds.\n\nA character can "
+    },
+    {
+      "rank": 9,
+      "score": 0.01639344262295082,
+      "category": "Monsters",
+      "topic": "Sprite",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Sprite.md",
+      "preview": "## Sprite\n\n*Tiny fey, neutral good*\n\n**Armor Class** 15 (leather armor)\n\n**Hit Points** 2 (1d4)\n\n**Speed** 10 ft., fly 40 ft.\n\n| STR    | DEX     | CON     | INT     | WIS     | CHA     |\n|--------|--"
+    },
+    {
+      "rank": 10,
+      "score": 0.016129032258064516,
+      "category": "Races",
+      "topic": "# Racial Traits",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Races\\# Racial Traits.md",
+      "preview": "## Languages\n\nBy virtue of your race, your character can speak, read, and write certain languages."
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3791,
+    "rag_completion": 4454,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 8245
+  },
+  "costs": {
+    "rag": 0.00126327,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00126327
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 14.64,
+    "total_s": 21.44
+  },
+  "answer": " A standard Human character can speak two languages at character creation according to the context provided. However, the Sprite in the given context is a fey creature and speaks Common, Elvish, and Sylvan languages by default.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06666666666666667
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query about how many languages a standard Human character speaks, but it contains incorrect information regarding the number of languages and introduces unrelated information about a Sprite, which is not relevant to the question."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context discusses languages that characters can speak at character creation, specifically mentioning that humans can speak Common and one additional language of their choice. This directly addresses the user's query about how many languages a standard Human character speaks at character creation.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a complete answer to the query. It specifies that a standard Human character speaks Common and one extra language, which totals two languages. The information is clear and directly relevant to the question asked.\n\n**Feedback Summary:**\nThe retrieved context is highly relevant and provides a complete answer to the user's query about the number of languages a standard Human character speaks at character creation. It includes specific details about the languages available to humans, fulfilling the requirements of the query.\n\n[RESULT] 4.0"
+    }
+  }
+}

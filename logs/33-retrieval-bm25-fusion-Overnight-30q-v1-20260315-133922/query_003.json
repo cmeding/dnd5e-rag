@@ -1,0 +1,138 @@
+{
+  "query_id": "query_003",
+  "session_id": "33-retrieval-bm25-fusion-Overnight-30q-v1-20260315-133922",
+  "timestamp": "2026-03-15T13:40:36.635175",
+  "query": {
+    "original": "What damage type does Inflict Wounds deal?",
+    "used": "What damage type does Inflict Wounds deal?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06666666666666667,
+      "category": "Spells",
+      "topic": "Inflict Wounds",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Inflict Wounds.md",
+      "preview": "### Inflict Wounds\n\n*1st-level necromancy*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S\n\n**Duration:** Instantaneous\n\nMake a melee spell attack against a creature you can reach."
+    },
+    {
+      "rank": 2,
+      "score": 0.04918032786885246,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Damage Types\n\nDifferent attacks, damaging spells, and other harmful effects deal different types of damage. Damage types have no rules of their own, but other rules, such as damage resistance, rel"
+    },
+    {
+      "rank": 3,
+      "score": 0.045934988518943745,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Damage Resistance and Vulnerability\n\nSome creatures and objects are exceedingly difficult or unusually easy to hurt with certain types of damage.\n\nIf a creature or an object has **resistance** to "
+    },
+    {
+      "rank": 4,
+      "score": 0.03225806451612903,
+      "category": "Treasure",
+      "topic": "Sword of Wounding",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Sword of Wounding.md",
+      "preview": "### Sword of Wounding\n\n*Weapon (any sword), rare (requires attunement)*\n\nHit points lost to this weapon's damage can be regained only through a short or long rest, rather than by regeneration, magic, "
+    },
+    {
+      "rank": 5,
+      "score": 0.03200204813108039,
+      "category": "Spells",
+      "topic": "## Spell Lists",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists.md",
+      "preview": "#### 1st Level\n\n- Bane\n- Bless\n- Command\n- Create or Destroy Water\n- Cure Wounds\n- Detect Evil and Good\n- Detect Magic\n- Detect Poison and Disease\n- Guiding Bolt\n- Healing Word\n- Inflict Wounds\n- Prot"
+    },
+    {
+      "rank": 6,
+      "score": 0.03149801587301587,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### 1st Level\n\n- [[Bane]]\n- [[Bless]]\n- [[Command]]\n- [[Create or Destroy Water]]\n- [[Cure Wounds]]\n- [[Detect Evil and Good]]\n- [[Detect Magic]]\n- [[Detect Poison and Disease]]\n- [[Guiding Bolt]]\n- "
+    },
+    {
+      "rank": 7,
+      "score": 0.031009615384615385,
+      "category": "Gamemastering",
+      "topic": "Objects",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Objects.md",
+      "preview": "## Statistics for Objects\n\nWhen time is a factor, you can assign an Armor Class and hit points to a destructible object. You can also give it immunities, resistances, and vulnerabilities to specific t"
+    },
+    {
+      "rank": 8,
+      "score": 0.030090497737556562,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Damage Rolls\n\nEach weapon, spell, and harmful monster ability specifies the damage it deals. You roll the damage die or dice, add any modifiers, and apply the damage to your target. Magic weapons,"
+    },
+    {
+      "rank": 9,
+      "score": 0.029631255487269532,
+      "category": "Spells",
+      "topic": "Cure Wounds",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Cure Wounds.md",
+      "preview": "### Cure Wounds\n\n*1st-level evocation*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S\n\n**Duration:** Instantaneous\n\nA creature you touch regains a number of hit points equal to 1d"
+    },
+    {
+      "rank": 10,
+      "score": 0.01639344262295082,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "## Using Each Ability\n\nEvery task that a character or monster might attempt in the game is covered by one of the six abilities. This section explains in more detail what those abilities mean and the w"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3298,
+    "rag_completion": 3938,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 7236
+  },
+  "costs": {
+    "rag": 0.001111,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.001111
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 16.08,
+    "total_s": 23.05
+  },
+  "answer": " Inflict Wounds deals necrotic damage.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06666666666666667
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and matches the reference answer exactly, providing the precise information requested by the user."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context directly addresses the query about the damage type of the spell \"Inflict Wounds.\" It specifies that the spell deals \"3d10 necrotic damage,\" which is the exact information requested. Therefore, this part of the context is highly relevant to the query.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a complete answer to the query. It clearly states the damage type associated with \"Inflict Wounds\" without needing additional information from other sources. The relevant section about the spell includes all necessary details to answer the question fully.\n\n**Feedback Summary:**\nThe retrieved context is entirely relevant to the query, as it provides the specific damage type associated with the spell \"Inflict Wounds.\" It also offers a complete answer without requiring further information. Both criteria are met, leading to a full score.\n\n[RESULT] 4.0"
+    }
+  }
+}

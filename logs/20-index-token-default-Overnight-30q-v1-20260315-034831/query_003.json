@@ -1,0 +1,138 @@
+{
+  "query_id": "query_003",
+  "session_id": "20-index-token-default-Overnight-30q-v1-20260315-034831",
+  "timestamp": "2026-03-15T03:48:54.621629",
+  "query": {
+    "original": "What damage type does Inflict Wounds deal?",
+    "used": "What damage type does Inflict Wounds deal?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Spells",
+      "topic": "Inflict Wounds",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Inflict Wounds.md",
+      "preview": "### Inflict Wounds\n\n*1st-level necromancy*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S\n\n**Duration:** Instantaneous\n\nMake a melee spell attack against a creature you can reach."
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "abilities such as a mind flayer's psionic blast deal psychic damage.\n\n***Radiant***. Radiant damage, dealt by a cleric's *flame strike* spell or an angel's smiting weapon, sears the flesh like fire an"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Treasure",
+      "topic": "Sword of Wounding",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Sword of Wounding.md",
+      "preview": "### Sword of Wounding\n\n*Weapon (any sword), rare (requires attunement)*\n\nHit points lost to this weapon's damage can be regained only through a short or long rest, rather than by regeneration, magic, "
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "them together. Then add any relevant modifiers as normal. To speed up play, you can roll all the damage dice at once.\n\nFor example, if you score a critical hit with a dagger, roll 2d4 for the damage, "
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Treasure",
+      "topic": "Periapt of Wound Closure",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Periapt of Wound Closure.md",
+      "preview": "### Periapt of Wound Closure\n\n*Wondrous item, uncommon (requires attunement)*\n\nWhile you wear this pendant, you stabilize whenever you are dying at the start of your turn. In addition, whenever you ro"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Spells",
+      "topic": "Cure Wounds",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Cure Wounds.md",
+      "preview": "### Cure Wounds\n\n*1st-level evocation*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S\n\n**Duration:** Instantaneous\n\nA creature you touch regains a number of hit points equal to 1d"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Equipment",
+      "topic": "Gear",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Gear.md",
+      "preview": "oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn.\n\n***Poison, Basic***. You can use "
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Gamemastering",
+      "topic": "Objects",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Objects.md",
+      "preview": "# Objects\n\nWhen characters need to saw through ropes, shatter a window, or smash a vampire's coffin, the only hard and fast rule is this: given enough time and the right tools, characters can destroy "
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Treasure",
+      "topic": "Armor of Resistance",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Armor of Resistance.md",
+      "preview": "### Armor of Resistance\n\n*Armor (light, medium, or heavy), rare (requires attunement)*\n\nYou have resistance to one type of damage while you wear this armor. The GM chooses the type or determines it ra"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "an obstacle.\n\n## Damage and Healing\n\nInjury and the risk of death are constant companions of those who explore fantasy gaming worlds. The thrust of a sword, a well-placed arrow, or a blast of flame fr"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 4007,
+    "rag_completion": 4131,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 8138
+  },
+  "costs": {
+    "rag": 0.00122566,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00122566
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 1.43,
+    "total_s": 7.1
+  },
+  "answer": " Inflict Wounds deals necrotic damage.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and matches the reference answer exactly, providing the precise information requested by the user."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context directly addresses the query about the damage type of the spell \"Inflict Wounds.\" It specifies that the spell deals \"3d10 necrotic damage,\" which is the exact information requested. Therefore, this part of the context is highly relevant to the query.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a complete answer to the query. It clearly states the damage type associated with \"Inflict Wounds\" without needing additional information from other sources. The relevant section is concise and directly answers the question.\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "query_id": "query_019",
+  "session_id": "10-baseline-no-rag-Overnight-30q-v1-20260315-034305",
+  "timestamp": "2026-03-15T03:46:33.019924",
+  "query": {
+    "original": "Do you add your proficiency bonus to every saving throw?",
+    "used": "Do you add your proficiency bonus to every saving throw?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 282,
+    "rag_completion": 543,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 825
+  },
+  "costs": {
+    "rag": 0.00013419,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00013419
+  },
+  "timings": {
+    "rag_s": null,
+    "query_s": 5.48,
+    "total_s": 6.86
+  },
+  "answer": " No, a proficiency bonus is added only to saving throws for abilities that a character is proficient in. For example, if a character is proficient in Perception, they would add their proficiency bonus to saving throws made to Perceive hidden objects or to avoid being surprised. If a character is not proficient in a saving throw, they do not add their proficiency bonus.",
+  "refused": false,
+  "confidence": {
+    "passed": null,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and mostly correct, explaining that the proficiency bonus applies only to saving throws for which a character is proficient. However, it introduces an example that is somewhat misleading, as Perception is not a saving throw but a skill check. This could confuse readers about the context of saving throws."
+    },
+    "context_relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    }
+  }
+}

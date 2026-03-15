@@ -1,0 +1,138 @@
+{
+  "query_id": "query_011",
+  "session_id": "33-retrieval-bm25-fusion-Overnight-30q-v1-20260315-133922",
+  "timestamp": "2026-03-15T13:43:44.934983",
+  "query": {
+    "original": "What happens to concentration spells when a caster falls unconscious?",
+    "used": "What happens to concentration spells when a caster falls unconscious?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.04694381575727918,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "### Longer Casting Times\n\nCertain spells (including spells cast as rituals) require more time to cast: minutes or even hours. When you cast a spell with a casting time longer than a single action or r"
+    },
+    {
+      "rank": 2,
+      "score": 0.03333333333333333,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "### Concentration\n\nSome spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends.\n\nIf a spell must be maintained with concentratio"
+    },
+    {
+      "rank": 3,
+      "score": 0.03205128205128205,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Falling Unconscious\n\nIf damage reduces you to 0 hit points and fails to kill you, you fall unconscious (see appendix ##). This unconsciousness ends if you regain any hit points."
+    },
+    {
+      "rank": 4,
+      "score": 0.031754032258064516,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Ready\n\nSometimes you want to get the jump on a foe or wait for a particular circumstance before you act. To do so, you can take the Ready action on your turn, which lets you act using your reaction"
+    },
+    {
+      "rank": 5,
+      "score": 0.0315136476426799,
+      "category": "Spells",
+      "topic": "Confusion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Confusion.md",
+      "preview": "### Confusion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 90 feet\n\n**Components:** V, S, M (three nut shells)\n\n**Duration:** Concentration, up to 1 minute\n\nThis spell assaults and"
+    },
+    {
+      "rank": 6,
+      "score": 0.031024531024531024,
+      "category": "Spells",
+      "topic": "Compulsion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Compulsion.md",
+      "preview": "### Compulsion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nCreatures of your choice that you can see wi"
+    },
+    {
+      "rank": 7,
+      "score": 0.029411764705882353,
+      "category": "Spells",
+      "topic": "Blur",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Blur.md",
+      "preview": "### Blur\n\n*2nd-level illusion*\n\n**Casting Time:** 1 action\n\n**Range:** Self\n\n**Components:** V\n\n**Duration:** Concentration, up to 1 minute\n\nYour body becomes blurred, shifting and wavering to all who"
+    },
+    {
+      "rank": 8,
+      "score": 0.028985507246376812,
+      "category": "Spells",
+      "topic": "Mislead",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Mislead.md",
+      "preview": "### Mislead\n\n*5th-level illusion*\n\n**Casting Time:** 1 action\n\n**Range:** Self\n\n**Components:** S\n\n**Duration:** Concentration, up to 1 hour\n\nYou become invisible at the same time that an illusory dou"
+    },
+    {
+      "rank": 9,
+      "score": 0.016666666666666666,
+      "category": "Treasure",
+      "topic": "Potion of Diminution",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Potion of Diminution.md",
+      "preview": "### Potion of Diminution\n\n*Potion, rare*\n\nWhen you drink this potion, you gain the \"reduce\" effect of the *enlarge/reduce* spell for 1d4 hours (no concentration required). The red in the potion's liqu"
+    },
+    {
+      "rank": 10,
+      "score": 0.01639344262295082,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Unconscious\n\n- An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings\n- The creature drops whatever it's holding and falls prone.\n- Th"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3470,
+    "rag_completion": 4295,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 7765
+  },
+  "costs": {
+    "rag": 0.00119775,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00119775
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 19.54,
+    "total_s": 25.29
+  },
+  "answer": " When a caster falls unconscious, any concentration spells they have active are no longer maintained and thus end. (Refer to the context on spellcasting for the requirement of maintaining concentration for longer casting times.) However, the caster does not expend the spell slot used for casting the concentration spell when it ends due to unconsciousness. (The context does not provide information on whether the potion described affects concentration or not.)",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.04694381575727918
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer correctly explains that concentration spells end when a caster falls unconscious and adds relevant details about spell slots and context, but it includes unnecessary information about potions that is not directly related to the query."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context discusses concentration spells and the conditions under which concentration can be broken, including the specific mention that a caster loses concentration if they are incapacitated or killed. Falling unconscious is a form of incapacitation, which directly relates to the user's query about what happens to concentration spells when a caster falls unconscious. This context is relevant and provides the necessary information to answer the query.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a complete answer to the user's query. It clearly states that if a caster falls unconscious, they lose concentration on any spells they are maintaining. This information is sufficient to fully address the question without needing additional context or information.\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

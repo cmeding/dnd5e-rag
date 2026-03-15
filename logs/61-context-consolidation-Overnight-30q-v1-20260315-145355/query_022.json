@@ -1,0 +1,66 @@
+{
+  "query_id": "query_022",
+  "session_id": "61-context-consolidation-Overnight-30q-v1-20260315-145355",
+  "timestamp": "2026-03-15T14:59:25.717233",
+  "query": {
+    "original": "What is the movement speed of a Giant Eagle?",
+    "used": "What is the movement speed of a Giant Eagle?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "The movement speed of a Giant Eagle in Dungeons & Dragons 5th Edition is 10 feet on the ground and 80 feet while flying. This large beast has an Armor Class of 13, 26 hit points, and possesses the Kee"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 554,
+    "rag_completion": 2786,
+    "meta_prompt": 1865,
+    "meta_completion": 107,
+    "total_calls": 2,
+    "total": 5312
+  },
+  "costs": {
+    "rag": 0.00059028,
+    "meta": 0.00034395,
+    "embed": 0.0,
+    "total": 0.00093423
+  },
+  "timings": {
+    "rag_s": 2.52,
+    "query_s": 4.87,
+    "total_s": 11.33
+  },
+  "answer": " The movement speed of a Giant Eagle on the ground is 10 feet, and while flying it is 80 feet.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly addresses the user query by providing both the walking and flying speeds of a Giant Eagle, matching the reference answer perfectly."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the user's query about the movement speed of a Giant Eagle. It provides specific details about the ground and flying speeds, which is the primary focus of the question. Therefore, this part of the context is highly relevant.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a complete answer to the user's query regarding the movement speed of a Giant Eagle. While it includes additional information about the creature's Armor Class, hit points, abilities, and other characteristics, the essential information about movement speed is clearly stated and sufficient to answer the question. The extra details, while not necessary for the query, do not detract from the completeness of the answer.\n\n   **Score: 2/2**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

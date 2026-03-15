@@ -1,0 +1,138 @@
+{
+  "query_id": "query_028",
+  "session_id": "22-index-sentences-default-Overnight-30q-v1-20260315-122922",
+  "timestamp": "2026-03-15T12:38:24.443568",
+  "query": {
+    "original": "Can a creature with a fly speed of 0 feet due to the restrained condition still hover?",
+    "used": "Can a creature with a fly speed of 0 feet due to the restrained condition still hover?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "To move while prone, you must **crawl** or use magic such as teleportation. Every foot of movement while crawling costs 1 extra foot. Crawling 1 foot in difficult terrain, therefore, costs 3 feet of m"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "When you take a reaction, you can't take another one until the start of your next turn. If the reaction interrupts another creature's turn, that creature can continue its turn right after the reaction"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "### Climb\n\nA monster that has a climbing speed can use all or part of its movement to move on vertical surfaces. The monster doesn't need to spend extra movement to climb.\n\n### Fly\n\nA monster that has"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Gameplay",
+      "topic": "Adventuring",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Adventuring.md",
+      "preview": "### Jumping\n\nYour Strength determines how far you can jump.\n\n***Long Jump***. When you make a long jump, you cover a number of feet up to your Strength score if you move at least 10 feet on foot immed"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "If an already exhausted creature suffers another effect that causes exhaustion, its current level of exhaustion increases by the amount specified in the effect's description.\n\nA creature suffers the e"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Petrified\n\n- A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of t"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Monsters",
+      "topic": "Ghost",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Ghost.md",
+      "preview": "***Horrifying Visage***. Each non-undead creature within 60 feet of the ghost that can see it must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. If the save fails by 5 or more,"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Monsters",
+      "topic": "Flying Sword (Animated Object)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Flying Sword (Animated Object).md",
+      "preview": "### Flying Sword (Animated Object)\n\n*Small construct, unaligned*\n\n**Armor Class** 17 (natural armor)\n\n**Hit Points** 17 (5d6)\n\n**Speed** 0 ft., fly 50 ft. (hover)\n\n| STR     | DEX     | CON     | INT "
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Monsters",
+      "topic": "Hawk (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Hawk (Creature).md",
+      "preview": "### Hawk\n\n*Tiny beast, unaligned*\n\n**Armor Class** 13\n\n**Hit Points** 1 (1d4-1)\n\n**Speed** 10 ft., fly 60 ft.\n\n| STR    | DEX     | CON    | INT    | WIS     | CHA    |\n|--------|---------|--------|--"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Monsters",
+      "topic": "Vulture (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Vulture (Creature).md",
+      "preview": "### Vulture\n\n*Medium beast, unaligned*\n\n**Armor Class** 10\n\n**Hit Points** 5 (1d8+1)\n\n**Speed** 10 ft., fly 50 ft.\n\n| STR    | DEX     | CON     | INT    | WIS     | CHA    |\n|--------|---------|-----"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 5665,
+    "rag_completion": 6195,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 11860
+  },
+  "costs": {
+    "rag": 0.0018002,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0018002
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 10.66,
+    "total_s": 29.4
+  },
+  "answer": " A construct like the Flying Sword (Animated Object) does not have the ability to be restrained or have its fly speed affected in the given context. Therefore, the question regarding a creature with a fly speed of 0 feet due to a condition and its ability to hover does not apply to this specific monster.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "The existing answer is NO, and based on the provided context, the information regarding the Flying Sword (Animated Object) not being able to be restrained or having its fly speed affected is indeed present. Therefore, the question about a creature with a fly speed of 0 feet due to a condition and its ability to hover does not apply to this specific monster.\n\nThus, the refined answer is: **YES**."
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "The existing answer is NO, and the context provided does not change that. The response discusses a specific construct (the Flying Sword) and its inability to be restrained, which is not relevant to the question about a creature with a fly speed of 0 feet due to the restrained condition. The question is about whether a creature can hover when its fly speed is 0, and the answer remains NO because a creature with a fly speed of 0 cannot hover. \n\nTherefore, the answer is still NO."
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains significant inaccuracies. It incorrectly focuses on a specific construct and does not address the general rules regarding hovering and the restrained condition, which are central to the user's question."
+    },
+    "context_relevancy": {
+      "score": 0.125,
+      "passing": null,
+      "feedback": "To evaluate the query regarding whether a creature with a fly speed of 0 feet due to the restrained condition can still hover, we need to consider the rules for flying and the effects of the restrained condition.\n\n1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context does not directly address the user's query about whether a creature with a fly speed of 0 feet due to the restrained condition can still hover. The context provided discusses various movement rules, including flying and the effects of being prone or restrained, but it does not specifically mention the interaction between the restrained condition and the ability to hover. Therefore, while there are relevant elements regarding flying and movement, the context does not directly answer the query.\n\n   **Score: 1/2** (The context is somewhat related but does not provide a direct answer.)\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The retrieved context cannot be used to provide a full answer to the user's query. It lacks specific information about the interaction between the restrained condition and hovering. The relevant rules about flying and hovering are mentioned, but without a clear statement regarding the implications of having a fly speed of 0 due to being restrained, the context is insufficient to fully answer the question.\n\n   **Score: 0/2** (The context does not provide enough information to answer the query.)\n\n**Final Feedback:**\nThe retrieved context does touch on relevant topics such as flying and movement conditions, but it fails to directly address the specific question about hovering while restrained. The absence of a clear connection to the query means that the context cannot be used to provide a complete answer.\n\n**Final Result: [RESULT] 0.5**. \n\nIn summary, the existing evaluation is accurate as the context does not provide the necessary information to fully answer the query."
+    }
+  }
+}

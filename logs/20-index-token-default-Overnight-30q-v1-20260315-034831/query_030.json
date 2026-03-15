@@ -1,0 +1,138 @@
+{
+  "query_id": "query_030",
+  "session_id": "20-index-token-default-Overnight-30q-v1-20260315-034831",
+  "timestamp": "2026-03-15T03:55:57.091916",
+  "query": {
+    "original": "Can you cast a spell and also make a weapon attack in the same turn without any special features?",
+    "used": "Can you cast a spell and also make a weapon attack in the same turn without any special features?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "and other abilities let you take an additional action on your turn called a bonus action. The Cunning Action feature, for example, allows a rogue to take a bonus action. You can take a bonus action on"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "pull the lever that opens it,\" and \"If the goblin steps next to me, I move away.\"\n\nWhen the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger. Re"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "|\n\n# Class Features\n\nWhen you gain a new level in a class, you get its features for that level. You don't, however, receive the class's starting equipment, and a few features have additional rules whe"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "special abilities that let them cast spells without using spell slots. For example, a monk who follows the Way of the Four Elements, a warlock who chooses certain eldritch invocations, and a pit fiend"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "slots, but only to cast your lower-level spells. If a lower-level spell that you cast, like *burning hands*, has an enhanced effect when cast using a higher-level slot, you can use the enhanced effect"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "# SPELLCASTING\n\nMagic permeates fantasy gaming worlds and often appears in the form of a spell.\n\nThis chapter provides the rules for casting spells. Different character classes have distinctive ways o"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "there, and it has disadvantage on attack rolls and Dexterity saving throws. Attack rolls against the creature have advantage while it's in the smaller space.\n\n# Actions in Combat\n\nWhen you take your a"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "the spell slot to do so. For example, a drow mage with the 3rd-level *lightning bolt* spell can cast it as a 5th-level spell by using one of its 5th-level greater or lesser threat than suggested by it"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.\n\n#### Protection\n\nWhen a creature you can see attacks a target other than yo"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "On a hit, you roll damage, unless the particular attack has rules that specify otherwise. Some attacks cause special effects in addition to or instead of damage.\n\nIf there's ever any question whether "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 6925,
+    "rag_completion": 7454,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 14379
+  },
+  "costs": {
+    "rag": 0.0021780099999999998,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0021780099999999998
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 9.67,
+    "total_s": 23.19
+  },
+  "answer": " In the given context, you cannot perform both a weapon attack and cast a spell as part of the same action. However, under certain circumstances, you might be able to take an extra action to execute one of these tasks, but doing so would still mean taking two actions during your turn.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query and correctly states that you cannot perform both actions in the same turn without special features. However, it introduces some ambiguity regarding \"extra action\" which could mislead the reader, as it does not clarify that you cannot take an extra action without specific features."
+    },
+    "context_relevancy": {
+      "score": null,
+      "passing": null,
+      "feedback": "Based on the provided context and the evaluation criteria, the scores given are appropriate. \n\n1. **Does the retrieved context match the subject matter of the user's query?**\n   - The context does discuss actions in combat, including spellcasting and weapon attacks, but it does not specifically address the question of whether a character can cast a spell and make a weapon attack in the same turn without any special features. Therefore, the score of 1/2 is justified.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Since the context does not provide a complete answer to the query regarding the ability to cast a spell and make a weapon attack in the same turn without special features, the score of 0/2 is also appropriate.\n\nGiven that the existing evaluation is already at 1.0 and the new context does not provide additional information that directly answers the query, the final result remains **1.0**. \n\nTo clarify the original question: In D&D 5e, a character can cast a spell and make a weapon attack in the same turn if the spell is a bonus action and the attack is made as part of the action (or vice versa). However, without special features or specific spells that allow for this, a character typically cannot do both in the same turn."
+    }
+  }
+}

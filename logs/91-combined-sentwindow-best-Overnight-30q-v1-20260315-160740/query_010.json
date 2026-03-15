@@ -1,0 +1,130 @@
+{
+  "query_id": "query_010",
+  "session_id": "91-combined-sentwindow-best-Overnight-30q-v1-20260315-160740",
+  "timestamp": "2026-03-15T16:12:12.490954",
+  "query": {
+    "original": "Does being charmed prevent a creature from attacking non-charmers?",
+    "used": "Does the charmed condition in D&D 5e prevent a creature from attacking targets that are not its charmer?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06666666666666667,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Charmed\n\n- A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.\n"
+    },
+    {
+      "rank": 2,
+      "score": 0.048915917503966164,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "- The charmer has advantage on any ability check to interact socially with the creature.\n\n"
+    },
+    {
+      "rank": 3,
+      "score": 0.029857397504456328,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "- Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.\n\n"
+    },
+    {
+      "rank": 4,
+      "score": 0.029850746268656716,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "- Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage.\n\n"
+    },
+    {
+      "rank": 5,
+      "score": 0.01639344262295082,
+      "category": "Spells",
+      "topic": "Protection from Evil and Good",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Protection from Evil and Good.md",
+      "preview": "The target also can't be charmed, frightened, or possessed by them. "
+    },
+    {
+      "rank": 6,
+      "score": 0.01639344262295082,
+      "category": "Spells",
+      "topic": "Awaken",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Awaken.md",
+      "preview": "When the charmed condition ends, the awakened creature chooses whether to remain friendly to you, based on how you treated it while it was charmed."
+    },
+    {
+      "rank": 7,
+      "score": 0.016129032258064516,
+      "category": "Monsters",
+      "topic": "Night Hag",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Night Hag.md",
+      "preview": "A *protection from evil and good* spell cast on the target prevents this contact, as does a *magic circle*. "
+    },
+    {
+      "rank": 8,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "- Attack rolls against the creature have advantage.\n"
+    },
+    {
+      "rank": 9,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "# Conditions\n\nConditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1716,
+    "rag_completion": 2361,
+    "meta_prompt": 58,
+    "meta_completion": 24,
+    "total_calls": 3,
+    "total": 4159
+  },
+  "costs": {
+    "rag": 0.00063735,
+    "meta": 2.31e-05,
+    "embed": 0.0,
+    "total": 0.0006604499999999999
+  },
+  "timings": {
+    "rag_s": 9.01,
+    "query_s": 11.66,
+    "total_s": 19.25
+  },
+  "answer": " Yes, a charmed creature cannot attack the charmer or target the charmer with harmful abilities or magical effects (as stated in the provided context). However, it does not restrict the charmed creature from attacking other targets.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06666666666666667
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer correctly explains that a charmed creature cannot attack the charmer and clarifies that it can attack other targets, aligning well with the reference answer. However, the initial \"Yes\" creates a slight confusion, as it implies a restriction that does not exist."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context does address the charmed condition in D&D 5e, specifically mentioning that a charmed creature cannot attack the charmer or target the charmer with harmful abilities or magical effects. However, it does not explicitly state whether the charmed condition prevents the creature from attacking targets that are not its charmer. Therefore, while the context is relevant to the charmed condition, it does not fully answer the user's query regarding attacks on non-charmers.\n\n   **Score: 1/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The context provided does not offer a complete answer to the user's question. It only specifies that the charmed creature cannot attack the charmer, but it does not clarify the creature's ability to attack other targets. Thus, while the context is informative about the charmed condition, it cannot be used exclusively to answer the query fully.\n\n   **Score: 1/2**\n\n**Final Feedback:** The retrieved context provides some relevant information about the charmed condition but lacks a direct answer to whether a charmed creature can attack targets that are not its charmer. Therefore, it partially matches the subject matter but does not provide a complete answer.\n\n[RESULT] 1.0"
+    }
+  }
+}

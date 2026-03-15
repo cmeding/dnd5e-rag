@@ -1,0 +1,138 @@
+{
+  "query_id": "query_019",
+  "session_id": "30-retrieval-bm25-Overnight-30q-v1-20260315-131256",
+  "timestamp": "2026-03-15T13:16:26.943196",
+  "query": {
+    "original": "Do you add your proficiency bonus to every saving throw?",
+    "used": "Do you add your proficiency bonus to every saving throw?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.03333333333333333,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "# Proficiency Bonus\n\nCharacters have a proficiency bonus determined by level. Monsters also have this bonus, which is incorporated in their stat blocks. The bonus is used in the rules on ability check"
+    },
+    {
+      "rank": 2,
+      "score": 0.03252247488101534,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "# Saving Throws\n\nA saving throw-also called a save-represents an attempt to resist a spell, a trap, a poison, a disease, or a similar threat. You don't normally decide to make a saving throw; you are "
+    },
+    {
+      "rank": 3,
+      "score": 0.03125763125763126,
+      "category": "Classes",
+      "topic": "Bard",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Bard.md",
+      "preview": "### Jack of All Trades\n\nStarting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus."
+    },
+    {
+      "rank": 4,
+      "score": 0.03007688828584351,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "#### Remarkable Athlete\n\nStarting at 7th level, you can add half your proficiency bonus (round up) to any Strength, Dexterity, or Constitution check you make that doesn't already use your proficiency "
+    },
+    {
+      "rank": 5,
+      "score": 0.02919863597612958,
+      "category": "Equipment",
+      "topic": "Tools",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Tools.md",
+      "preview": "# Tools\n\nA tool helps you to do something you couldn't otherwise do, such as craft or repair an item, forge a document, or pick a lock. Your race, class, background, or feats give you proficiency with"
+    },
+    {
+      "rank": 6,
+      "score": 0.01639344262295082,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "## Saving Throws\n\nThe Saving Throws entry is reserved for creatures that are adept at resisting certain kinds of effects. For example, a creature that isn't easily charmed or frightened might gain a b"
+    },
+    {
+      "rank": 7,
+      "score": 0.016129032258064516,
+      "category": "Equipment",
+      "topic": "Weapons",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Weapons.md",
+      "preview": "## Weapon Proficiency\n\nYour race, class, and feats can grant you proficiency with certain weapons or categories of weapons. The two categories are **simple** and **martial**. Most people can use simpl"
+    },
+    {
+      "rank": 8,
+      "score": 0.015873015873015872,
+      "category": "Equipment",
+      "topic": "Tools",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Tools.md",
+      "preview": "***Musical Instrument***. Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficie"
+    },
+    {
+      "rank": 9,
+      "score": 0.015625,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "### Indomitable\n\nBeginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature again until you finish a long rest.\n\nYou c"
+    },
+    {
+      "rank": 10,
+      "score": 0.015625,
+      "category": "Equipment",
+      "topic": "Tools",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Tools.md",
+      "preview": "|\n| Vehicles (land or water)  | *     | *      |\n|                           |       |        |\n\n\\* See the \"Mounts and Vehicles\" section.\n\n***Artisan's Tools***. These special tools include the items"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3751,
+    "rag_completion": 4040,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 7791
+  },
+  "costs": {
+    "rag": 0.0011802100000000001,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0011802100000000001
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 5.74,
+    "total_s": 13.87
+  },
+  "answer": " No, you add your proficiency bonus to a saving throw only when specifically stated in the rules that you can do so. In the provided context, there are certain abilities and kits that allow you to add your proficiency bonus to specific saving throws. However, it's important to note that you cannot add your proficiency bonus to a single saving throw more than once.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.03333333333333333
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant and correctly states that the proficiency bonus is not added to every saving throw, but it introduces unnecessary complexity by mentioning \"abilities and kits\" without clearly explaining them. It also includes a somewhat misleading statement about not adding the proficiency bonus to a single saving throw more than once, which could confuse the reader."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context discusses proficiency bonuses and saving throws, which are directly relevant to the user's query about whether proficiency bonuses are added to every saving throw. The context explains how proficiency bonuses apply to saving throws and clarifies that a character can add their proficiency bonus to saving throws for which they have proficiency.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides sufficient information to answer the query. It explains that proficiency bonuses can be added to saving throws if the character is proficient in that saving throw. It also mentions that the proficiency bonus cannot be added more than once to a single saving throw, which is relevant to understanding the application of the proficiency bonus.\n\n**Feedback Summary:**\nThe retrieved context is highly relevant to the query, as it directly addresses the application of proficiency bonuses to saving throws. It provides a clear explanation of when and how proficiency bonuses can be applied, making it possible to answer the user's question fully based on the information provided.\n\n[RESULT] 4.0"
+    }
+  }
+}

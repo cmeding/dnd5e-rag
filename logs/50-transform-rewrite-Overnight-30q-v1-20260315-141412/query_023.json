@@ -1,0 +1,138 @@
+{
+  "query_id": "query_023",
+  "session_id": "50-transform-rewrite-Overnight-30q-v1-20260315-141412",
+  "timestamp": "2026-03-15T14:19:31.523071",
+  "query": {
+    "original": "How many languages does a standard Human character speak at character creation?",
+    "used": "How many languages does a standard Human character know at 1st level in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Characterizations",
+      "topic": "Languages",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Languages.md",
+      "preview": "# Languages\n\nYour race indicates the languages your character can speak by default, and your background might give you access to one or more additional languages of your choice. Note these languages o"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Races",
+      "topic": "Human",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Races\\Human.md",
+      "preview": "### Human Traits\n\nIt's hard to make generalizations about humans, but your human character has these traits.\n\n***Ability Score Increase***. Your ability scores each increase by 1.\n\n***Age***. Humans r"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Characterizations",
+      "topic": "Beyond 1st Level",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Beyond 1st Level.md",
+      "preview": "# Beyond 1st Level\n\nAs your character goes on adventures and overcomes challenges, he or she gains experience, represented by experience points. A character who reaches a specified experience point to"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "## Proficiencies\n\nWhen you gain your first level in a class other than your initial class, you gain only some of new class's starting proficiencies, as shown in the Multiclassing Proficiencies table.\n"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Spells",
+      "topic": "Comprehend Languages",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Comprehend Languages.md",
+      "preview": "### Comprehend Languages\n\n*1st-level divination (ritual)*\n\n**Casting Time:** 1 action\n\n**Range:** Self\n\n**Components:** V, S, M (a pinch of soot and salt)\n\n**Duration:** 1 hour\n\nFor the duration, you "
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Classes",
+      "topic": "Druid",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Druid.md",
+      "preview": "#### Equipment\n\nYou start with the following equipment, in addition to the equipment granted by your background:\n\n- (*a*) a wooden shield or (*b*) any simple weapon\n- (*a*) a scimitar or (*b*) any sim"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Monsters",
+      "topic": "Druid (NPC)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Druid (NPC).md",
+      "preview": "### Druid\n\n*Medium humanoid (any race), any alignment*\n\n**Armor Class** 11 (16 with *barkskin*)\n\n**Hit Points** 27 (5d8 + 5)\n\n**Speed** 30 ft.\n\n| STR     | DEX     | CON     | INT     | WIS     | CHA "
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Classes",
+      "topic": "Bard",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Bard.md",
+      "preview": "#### Equipment\n\nYou start with the following equipment, in addition to the equipment granted by your background:\n\n- (*a*) a rapier, (*b*) a longsword, or (*c*) any simple weapon\n- (*a*) a diplomat's p"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "## Spellcasting\n\nYour capacity for spellcasting depends partly on your combined levels in all your spellcasting classes and partly on your individual levels in those classes. Once you have the Spellca"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "## Spell Level\n\nEvery spell has a level from 0 to 9. A spell's level is a general indicator of how powerful it is, with the lowly (but still impressive) *magic missile* at 1st level and the earth-shak"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 5115,
+    "rag_completion": 5759,
+    "meta_prompt": 57,
+    "meta_completion": 22,
+    "total_calls": 3,
+    "total": 10953
+  },
+  "costs": {
+    "rag": 0.00165686,
+    "meta": 2.175e-05,
+    "embed": 0.0,
+    "total": 0.00167861
+  },
+  "timings": {
+    "rag_s": 1.12,
+    "query_s": 9.69,
+    "total_s": 19.02
+  },
+  "answer": " A Human character knows two languages at 1st level in DnD 5e, regardless of their proficiency or class, as humans have no default languages specified in the Languages section. They can select any two languages from the Standard Languages table or common languages in their campaign.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains inaccuracies. It states that a Human character knows two languages, which is incorrect; a standard Human knows Common and one additional language of the player's choice, totaling two languages, but the phrasing could lead to confusion about the default language."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context discusses the languages that a Human character can speak in DnD 5e. It specifically mentions that a Human character can speak, read, and write Common and one additional language of their choice. This directly addresses the user's query about how many languages a standard Human character knows at 1st level.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a complete answer to the user's query. It states that a standard Human character knows two languages at 1st level: Common and one additional language of the player's choice. There is no need for additional information to answer the question fully.\n\n**Feedback Summary:**\nThe retrieved context is highly relevant and directly answers the user's query about the number of languages a standard Human character knows at 1st level in DnD 5e. It provides all necessary details without requiring further information.\n\n[RESULT] 4.0"
+    }
+  }
+}

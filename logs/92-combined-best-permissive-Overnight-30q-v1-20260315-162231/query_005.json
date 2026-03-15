@@ -1,0 +1,130 @@
+{
+  "query_id": "query_005",
+  "session_id": "92-combined-best-permissive-Overnight-30q-v1-20260315-162231",
+  "timestamp": "2026-03-15T16:24:25.003069",
+  "query": {
+    "original": "How many hit dice does a Fighter have?",
+    "used": "What is the number of hit dice for a Fighter class in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06639344262295081,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "## Hit Points and Hit Dice\n\nYou gain the hit points from your new class as described for levels after 1st. You gain the 1st-level hit points for a class only when you are a 1st-level character.\n\nYou a"
+    },
+    {
+      "rank": 2,
+      "score": 0.06507855191256831,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "#### Hit Points\n\n**Hit Dice:** 1d10 per fighter level\n\n**Hit Points at 1st Level:** 10 + your Constitution modifier\n\n**Hit Points at Higher Levels:** 1d10 (or 6) + your Constitution modifier per fight"
+    },
+    {
+      "rank": 3,
+      "score": 0.045715497737556565,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "#### Superior Critical\n\nStarting at 15th level, your weapon attacks score a critical hit on a roll of 18-20."
+    },
+    {
+      "rank": 4,
+      "score": 0.03225806451612903,
+      "category": "Classes",
+      "topic": "Cleric",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Cleric.md",
+      "preview": "#### Hit Points\n\n**Hit Dice:** 1d8 per cleric level\n\n**Hit Points at 1st Level:** 8 + your Constitution modifier\n\n**Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per cleric le"
+    },
+    {
+      "rank": 5,
+      "score": 0.03131881575727918,
+      "category": "Gameplay",
+      "topic": "Adventuring",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Adventuring.md",
+      "preview": "## Short Rest\n\nA short rest is a period of downtime, at least 1 hour long, during which a character does nothing more strenuous than eating, drinking, reading, and tending to wounds.\n\nA character can "
+    },
+    {
+      "rank": 6,
+      "score": 0.03125763125763126,
+      "category": "Classes",
+      "topic": "Sorcerer",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Sorcerer.md",
+      "preview": "#### Hit Points\n\n**Hit Dice:** 1d6 per sorcerer level\n\n**Hit Points at 1st Level:** 6 + your Constitution modifier\n\n**Hit Points at Higher Levels:** 1d6 (or 4) + your Constitution modifier per sorcere"
+    },
+    {
+      "rank": 7,
+      "score": 0.03125763125763126,
+      "category": "Gameplay",
+      "topic": "Adventuring",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Adventuring.md",
+      "preview": "## Long Rest\n\nA long rest is a period of extended downtime, at least 8 hours long, during which a character sleeps for at least 6 hours and performs no more than 2 hours of light activity, such as rea"
+    },
+    {
+      "rank": 8,
+      "score": 0.030621785881252923,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "### Extra Attack\n\nBeginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.\n\nThe number of attacks increases to three when you reach 11th level i"
+    },
+    {
+      "rank": 9,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Objects",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Objects.md",
+      "preview": "# Objects\n\nWhen characters need to saw through ropes, shatter a window, or smash a vampire's coffin, the only hard and fast rule is this: given enough time and the right tools, characters can destroy "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2470,
+    "rag_completion": 3222,
+    "meta_prompt": 53,
+    "meta_completion": 19,
+    "total_calls": 3,
+    "total": 5764
+  },
+  "costs": {
+    "rag": 0.0008838800000000001,
+    "meta": 1.9350000000000003e-05,
+    "embed": 0.0,
+    "total": 0.0009032300000000001
+  },
+  "timings": {
+    "rag_s": 15.18,
+    "query_s": 18.66,
+    "total_s": 25.16
+  },
+  "answer": " A Fighter in DnD 5e has hit dice of d10 type. Therefore, the number of hit dice for a Fighter class depends on the number of levels invested in the Fighter class. For example, a Fighter 5 character would have 5 d10 hit dice.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06639344262295081
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer correctly identifies that a Fighter uses a d10 as their hit die and explains how the number of hit dice corresponds to the character's level in the Fighter class. However, it could be more concise by omitting the example, which is not strictly necessary to answer the query."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query about the Fighter class's hit dice in DnD 5e. It specifies that the Fighter class has a hit die of 1d10 per fighter level, which is the exact information requested. Therefore, this part of the context is highly relevant.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a complete answer to the query. It states that the Fighter class has a hit die of 1d10, which is sufficient to answer the question without needing additional information. The context does not include extraneous details that would detract from the clarity of the answer.\n\n   **Score: 2/2**\n\n**Final Feedback:** The retrieved context is entirely relevant and provides a complete answer to the user's query regarding the number of hit dice for a Fighter class in DnD 5e. The information is clear and directly addresses the question without any ambiguity.\n\n[RESULT] 4.0"
+    }
+  }
+}

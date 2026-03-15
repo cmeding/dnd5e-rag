@@ -1,0 +1,138 @@
+{
+  "query_id": "query_027",
+  "session_id": "92-combined-best-permissive-Overnight-30q-v1-20260315-162231",
+  "timestamp": "2026-03-15T16:35:01.683245",
+  "query": {
+    "original": "If a creature is immune to the frightened condition, can it still be charmed?",
+    "used": "Can a creature immune to the frightened condition still be affected by the charmed condition in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.045715497737556565,
+      "category": "Monsters",
+      "topic": "Swarm of Ravens (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Swarm of Ravens (Creature).md",
+      "preview": "### Swarm of Ravens\n\n*Medium swarm of Tiny beasts, unaligned*\n\n**Armor Class** 12\n\n**Hit Points** 24 (7d8-7)\n\n**Speed** 10 ft., fly 50 ft.\n\n| STR    | DEX     | CON    | INT    | WIS     | CHA    |\n|-"
+    },
+    {
+      "rank": 2,
+      "score": 0.03333333333333333,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Charmed\n\n- A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.\n- The charmer has advantage on any ability check to interact socially with th"
+    },
+    {
+      "rank": 3,
+      "score": 0.03278688524590164,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Frightened\n\n- A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\n- The creature can't willingly move closer to the sourc"
+    },
+    {
+      "rank": 4,
+      "score": 0.03225806451612903,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "#### Mindless Rage\n\nBeginning at 6th level, you can't be charmed or frightened while raging. If you are charmed or frightened when you enter your rage, the effect is suspended for the duration of the "
+    },
+    {
+      "rank": 5,
+      "score": 0.0315136476426799,
+      "category": "Monsters",
+      "topic": "Ghost",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Ghost.md",
+      "preview": "###### Actions\n\n***Withering Touch***. *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 17 (4d6+3) necrotic damage.\n\n***Etherealness***. The ghost enters the Ethereal Plane from the M"
+    },
+    {
+      "rank": 6,
+      "score": 0.03149801587301587,
+      "category": "Spells",
+      "topic": "Hallow",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Hallow.md",
+      "preview": "### Hallow\n\n*5th-level evocation*\n\n**Casting Time:** 24 hours\n\n**Range:** Touch\n\n**Components:** V, S, M (herbs, oils, and incense worth at least 1,000 gp, which the spell consumes)\n\n**Duration:** Unt"
+    },
+    {
+      "rank": 7,
+      "score": 0.030776515151515152,
+      "category": "Monsters",
+      "topic": "Lemure (Devil)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Lemure (Devil).md",
+      "preview": "### Lemure (Devil)\n\n*Medium fiend (devil), lawful evil*\n\n**Armor Class** 7\n\n**Hit Points** 13 (3d8)\n\n**Speed** 15 ft.\n\n| STR     | DEX    | CON     | INT    | WIS     | CHA    |\n|---------|--------|--"
+    },
+    {
+      "rank": 8,
+      "score": 0.030776515151515152,
+      "category": "Treasure",
+      "topic": "Deck of Many Things",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Deck of Many Things.md",
+      "preview": "#### Avatar of Death\n\n*Medium undead, neutral evil*\n\n**Armor Class** 20\n\n**Hit Points** half the hit point maximum of its summoner\n\n**Speed** 60 ft., fly 60 ft. (hover)\n\n| STR     | DEX     | CON     "
+    },
+    {
+      "rank": 9,
+      "score": 0.02919863597612958,
+      "category": "Monsters",
+      "topic": "Swarm of Insects (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Swarm of Insects (Creature).md",
+      "preview": "### Swarm of Insects\n\n*Medium swarm of Tiny beasts, unaligned*\n\n**Armor Class** 12 (natural armor)\n\n**Hit Points** 22 (5d8)\n\n**Speed** 20 ft., climb 20 ft.\n\n| STR    | DEX     | CON     | INT    | WIS"
+    },
+    {
+      "rank": 10,
+      "score": 0.016666666666666666,
+      "category": "Monsters",
+      "topic": "Ghoul",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Ghoul.md",
+      "preview": "### Ghoul\n\n*Medium undead, chaotic evil*\n\n**Armor Class** 12\n\n**Hit Points** 22 (5d8)\n\n**Speed** 30 ft.\n\n| STR     | DEX     | CON     | INT    | WIS     | CHA    |\n|---------|---------|---------|----"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3600,
+    "rag_completion": 4742,
+    "meta_prompt": 61,
+    "meta_completion": 24,
+    "total_calls": 3,
+    "total": 8427
+  },
+  "costs": {
+    "rag": 0.0012969799999999999,
+    "meta": 2.3549999999999996e-05,
+    "embed": 0.0,
+    "total": 0.0013205299999999999
+  },
+  "timings": {
+    "rag_s": 13.47,
+    "query_s": 25.82,
+    "total_s": 34.4
+  },
+  "answer": " Based on the context provided, the Swarm of Ravens is immune to the frightened condition but there is no mention of its immunity or vulnerability to the charmed condition. Therefore, the rules do not explicitly state whether a creature immune to the frightened condition can still be affected by the charmed condition or not. However, in general, being immune to one condition does not automatically mean being immune to all conditions. Different conditions have their own unique properties and mechanics. In this case, the Swarm of Ravens is a swarm of Tiny beasts and does not have the capacity to be charmed in the same way that a sentient creature can be. Therefore, it is unlikely that the Swarm of Ravens can be affected by the charmed condition at all, regardless of its immunity to the frightened condition.\n\nAs for the Ghoul, it is a Medium undead creature and its condition immunities include charmed. Therefore, a Ghoul is immune to the charmed condition.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.045715497737556565
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains inaccuracies and unnecessary details. It incorrectly focuses on the Swarm of Ravens and Ghoul, which are not directly related to the general question about immunity to frightened and charmed conditions. The core concept that immunity to one condition does not imply immunity to another is mentioned, but the answer is convoluted and does not clearly affirm that a creature immune to frightened can still be affected by charmed."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context provides information about various creatures and their condition immunities, including the \"Swarm of Ravens,\" which is immune to both the charmed and frightened conditions. However, it does not directly address the specific question of whether a creature immune to the frightened condition can still be affected by the charmed condition. While it does mention that certain creatures are immune to both conditions, it does not provide a definitive answer to the query. Therefore, the context is somewhat relevant but does not fully match the subject matter of the user's query.\n\n   **Score: 1/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does not provide a complete answer to the user's query. While it mentions that some creatures are immune to the charmed condition, it does not clarify the relationship between immunity to the frightened condition and susceptibility to the charmed condition. The user is asking for a specific interaction between these two conditions, which is not addressed in the context provided. Thus, the context cannot be used exclusively to answer the query.\n\n   **Score: 0/2**\n\n**Final Feedback:**\nThe retrieved context contains relevant information about condition immunities but fails to directly answer the user's question regarding the interaction between the frightened and charmed conditions. It lacks the necessary details to provide a complete answer, which diminishes its usefulness in this case.\n\n**Final Result: [RESULT] 1.0**"
+    }
+  }
+}

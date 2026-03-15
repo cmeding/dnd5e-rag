@@ -1,0 +1,98 @@
+{
+  "query_id": "query_019",
+  "session_id": "40-post-rerank-Overnight-30q-v1-20260315-165934",
+  "timestamp": "2026-03-15T17:03:34.395332",
+  "query": {
+    "original": "Do you add your proficiency bonus to every saving throw?",
+    "used": "Do you add your proficiency bonus to every saving throw?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 2.858720064163208,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "# Proficiency Bonus\n\nCharacters have a proficiency bonus determined by level. Monsters also have this bonus, which is incorporated in their stat blocks. The bonus is used in the rules on ability check"
+    },
+    {
+      "rank": 2,
+      "score": -0.3602064251899719,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "# Spell Saving Throws\n\nMany spells specify that a target can make a saving throw to avoid some or all of a spell's effects. The spell specifies the ability that the target uses for the save and what h"
+    },
+    {
+      "rank": 3,
+      "score": -1.009333848953247,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "## Saving Throws\n\nThe Saving Throws entry is reserved for creatures that are adept at resisting certain kinds of effects. For example, a creature that isn't easily charmed or frightened might gain a b"
+    },
+    {
+      "rank": 4,
+      "score": -1.7709054946899414,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "# Saving Throws\n\nA saving throw-also called a save-represents an attempt to resist a spell, a trap, a poison, a disease, or a similar threat. You don't normally decide to make a saving throw; you are "
+    },
+    {
+      "rank": 5,
+      "score": -2.821467876434326,
+      "category": "Classes",
+      "topic": "Bard",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Bard.md",
+      "preview": "### Jack of All Trades\n\nStarting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus."
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2023,
+    "rag_completion": 2379,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 4402
+  },
+  "costs": {
+    "rag": 0.0006745400000000001,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0006745400000000001
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 7.26,
+    "total_s": 15.62
+  },
+  "answer": " No, not every saving throw includes your proficiency bonus. Some saving throws allow for the addition of proficiency bonuses, while others do not. The context indicates that the proficiency bonus can be added to saving throws made using certain ability scores, and some monsters have saving throw proficiencies as well. However, the Jack of All Trades feature for the Bard class only applies to ability checks and not saving throws. Therefore, the proficiency bonus is not added to every saving throw.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 2.858720064163208
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and mostly correct, explaining that proficiency bonuses are not added to every saving throw and providing additional context about the Bard's Jack of All Trades feature. However, it could be more concise and focused on the core answer without the extra details."
+    },
+    "context_relevancy": {
+      "score": 0.75,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context discusses proficiency bonuses in relation to saving throws, which directly addresses the user's query about whether proficiency bonuses are added to every saving throw. It explains that proficiency bonuses can be added to saving throws if the character is proficient in that saving throw, but not to every saving throw universally. This is relevant to the user's question.\n\n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context provides a comprehensive explanation of how proficiency bonuses work with saving throws, including the conditions under which they apply. However, it does not explicitly state that you do not add your proficiency bonus to every saving throw, which is a crucial part of the answer. While the information is relevant and informative, it lacks a clear, direct answer to the user's question. Therefore, while it can be used to inform the answer, it does not provide a complete answer on its own.\n\n   **Score: 1 point**\n\n**Final Feedback:**\nThe retrieved context is highly relevant to the query about proficiency bonuses and saving throws. It provides a solid foundation of information regarding how proficiency bonuses apply, but it lacks a direct statement that clarifies that proficiency bonuses are not added to every saving throw. Thus, while it is useful, it does not fully answer the question on its own.\n\n**[RESULT] 3.0**"
+    }
+  }
+}

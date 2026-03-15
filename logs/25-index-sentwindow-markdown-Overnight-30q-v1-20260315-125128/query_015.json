@@ -1,0 +1,138 @@
+{
+  "query_id": "query_015",
+  "session_id": "25-index-sentwindow-markdown-Overnight-30q-v1-20260315-125128",
+  "timestamp": "2026-03-15T12:54:01.376470",
+  "query": {
+    "original": "What conditions cause the Grappled condition to end?",
+    "used": "What conditions cause the Grappled condition to end?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "- The condition ends if the grappler is incapacitated (see the condition).\n"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "- The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect, such as when a creature is hurled away by the *thunder-wave* spell.\n\n"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Grappled\n\n- A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "If you succeed, you subject the target to the grappled condition (see appendix ##). "
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Monsters",
+      "topic": "Couatl",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Couatl.md",
+      "preview": "Until this grapple ends, the target is restrained, and the couatl can't constrict another target.\n\n"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Monsters",
+      "topic": "Roc",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Roc.md",
+      "preview": "Until this grapple ends, the target is restrained, and the roc can't use its talons on another target."
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Characterizations",
+      "topic": "Feats",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Feats.md",
+      "preview": "If you succeed, you and the creature are both restrained until the grapple ends."
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Monsters",
+      "topic": "Kraken",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Kraken.md",
+      "preview": "Until this grapple ends, the target is restrained. "
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "A condition lasts either until it is countered (the prone condition is countered by standing up, for example) or for a duration specified by the effect that imposed the condition.\n\n"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Monsters",
+      "topic": "Roper",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Roper.md",
+      "preview": "Until the grapple ends, the target is restrained and has disadvantage on Strength checks and Strength saving throws, and the roper can't use the same tendril on another target.\n\n"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1158,
+    "rag_completion": 1388,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 2546
+  },
+  "costs": {
+    "rag": 0.0003911,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0003911
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 4.61,
+    "total_s": 10.82
+  },
+  "answer": " The Grappled condition ends when the grappler is incapacitated, or when an effect removes the grappled creature from the reach of the grappler or grappling effect. (Refer to the provided rules in the Conditions.md file under Gamemastering topic.)",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and fully correct, accurately stating the conditions under which the Grappled condition ends, and it includes a reference to the rules for further clarification."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the conditions that cause the Grappled condition to end. It specifies that the condition ends if the grappler is incapacitated or if an effect removes the grappled creature from the reach of the grappler. This information is relevant and directly answers the user's query about the conditions that terminate the Grappled condition.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the retrieved context provides a complete answer to the user's query. It outlines the specific conditions under which the Grappled condition ends without needing additional information. The details provided are sufficient to understand the mechanics of the Grappled condition in DnD 5e.\n\n**Feedback:**  \nThe retrieved context is highly relevant to the query, as it directly addresses the conditions that cause the Grappled condition to end. It provides clear and concise information that fully answers the user's question. There are no extraneous details that detract from the main point, and the context is specific to the Grappled condition, making it a strong match for the query.\n\n[RESULT] 4.0"
+    }
+  }
+}

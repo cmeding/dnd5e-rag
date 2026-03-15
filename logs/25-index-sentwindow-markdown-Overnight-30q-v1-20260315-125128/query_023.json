@@ -1,0 +1,138 @@
+{
+  "query_id": "query_023",
+  "session_id": "25-index-sentwindow-markdown-Overnight-30q-v1-20260315-125128",
+  "timestamp": "2026-03-15T12:55:43.667478",
+  "query": {
+    "original": "How many languages does a standard Human character speak at character creation?",
+    "used": "How many languages does a standard Human character speak at character creation?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Characterizations",
+      "topic": "Languages",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Languages.md",
+      "preview": "**Table- Standard Languages**\n\n| Language | Typical Speakers | Script   |\n|----------|------------------|----------|\n| Common   | Humans           | Common   |\n| Dwarvish | Dwarves          | Dwarvish"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Characterizations",
+      "topic": "Languages",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Languages.md",
+      "preview": "# Languages\n\nYour race indicates the languages your character can speak by default, and your background might give you access to one or more additional languages of your choice. "
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Races",
+      "topic": "Human",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Races\\Human.md",
+      "preview": "You can speak, read, and write Common and one extra language of your choice. "
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Monsters",
+      "topic": "Oni",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Oni.md",
+      "preview": "| STR     | DEX     | CON     | INT     | WIS     | CHA     |\n|---------|---------|---------|---------|---------|---------|\n| 19 (+4) | 11 (+0) | 16 (+3) | 14 (+2) | 12 (+1) | 15 (+2) |\n\n**Saving Thro"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Monsters",
+      "topic": "Chimera",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Chimera.md",
+      "preview": "| STR     | DEX     | CON     | INT    | WIS     | CHA     |\n|---------|---------|---------|--------|---------|---------|\n| 19 (+4) | 11 (+0) | 19 (+4) | 3 (-4) | 14 (+2) | 10 (+0) |\n\n**Skills** Perce"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Characterizations",
+      "topic": "Languages",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Languages.md",
+      "preview": "Choose your languages from the Standard Languages table, or choose one that is common in your campaign. "
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Characterizations",
+      "topic": "Languages",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Languages.md",
+      "preview": "Additionally, if you have inspiration, you can reward another player for good roleplaying, clever thinking, or simply doing something exciting in the game. "
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Races",
+      "topic": "Human",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Races\\Human.md",
+      "preview": "# Human\n\n### Human Traits\n\nIt's hard to make generalizations about humans, but your human character has these traits.\n\n"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Characterizations",
+      "topic": "Languages",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Languages.md",
+      "preview": "When another player character does something that really contributes to the story in a fun and interesting way, you can give up your inspiration to give that character inspiration."
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Races",
+      "topic": "# Racial Traits",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Races\\# Racial Traits.md",
+      "preview": "## Languages\n\nBy virtue of your race, your character can speak, read, and write certain languages.\n\n"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1649,
+    "rag_completion": 1827,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 3476
+  },
+  "costs": {
+    "rag": 0.00052852,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00052852
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 2.86,
+    "total_s": 9.21
+  },
+  "answer": " A standard Human character can speak, read, and write Common language at character creation, according to the information provided in the context.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant as it addresses the language spoken by a standard Human character, but it fails to mention the additional language option that is part of the reference answer."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context includes information about languages that characters can speak at character creation, specifically mentioning that a human character can speak Common and one additional language of their choice. This directly addresses the user's query about how many languages a standard Human character speaks at character creation.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a complete answer to the query. It states that a Human character speaks Common and one extra language, which totals two languages. The information is clear and directly relevant to the question asked.\n\n**Feedback Summary:**\nThe retrieved context is highly relevant and provides a complete answer to the user's query regarding the number of languages a standard Human character speaks at character creation. The information is specific and directly addresses the question without requiring additional context.\n\n[RESULT] 4.0"
+    }
+  }
+}

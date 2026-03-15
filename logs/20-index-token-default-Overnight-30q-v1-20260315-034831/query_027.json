@@ -1,0 +1,138 @@
+{
+  "query_id": "query_027",
+  "session_id": "20-index-token-default-Overnight-30q-v1-20260315-034831",
+  "timestamp": "2026-03-15T03:55:03.843195",
+  "query": {
+    "original": "If a creature is immune to the frightened condition, can it still be charmed?",
+    "used": "If a creature is immune to the frightened condition, can it still be charmed?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\n- The creature can't willingly move closer to the source of its fear.\n\n#"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "# Conditions\n\nConditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. Most conditions, such as blind"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "suspended, not neutralized.\n\n## Poisoned\n\n- A poisoned creature has disadvantage on attack rolls and ability checks.\n\n## Prone\n\n- A prone creature's only movement option is to crawl, unless it stands "
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "Hallow",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Hallow.md",
+      "preview": "of a lower level than the slot you used to cast this spell can't extinguish the light.\n\n***Energy Protection***. Affected creatures in the area have resistance to one damage type of your choice, excep"
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Spells",
+      "topic": "Calm Emotions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Calm Emotions.md",
+      "preview": "### Calm Emotions\n\n*2nd-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou attempt to suppress strong emotions i"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Gamemastering",
+      "topic": "Madness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Madness.md",
+      "preview": "41-45  | The character experiences a powerful delusion. Choose a potion. The character imagines that he or she is under its effects.                                                                    "
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Treasure",
+      "topic": "Deck of Many Things",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Deck of Many Things.md",
+      "preview": "Immunities** charmed, frightened, paralyzed, petrified, poisoned, unconscious\n\n**Senses** darkvision 60 ft., truesight 60 ft., passive Perception 13\n\n**Languages** all languages known to its summoner\n"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Spells",
+      "topic": "Antipathy-Sympathy",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Antipathy-Sympathy.md",
+      "preview": "### Antipathy/Sympathy\n\n*8th-level enchantment*\n\n**Casting Time:** 1 hour\n\n**Range:** 60 feet\n\n**Components:** V, S, M (either a lump of alum soaked in vinegar for the *antipathy* effect or a drop of "
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "this effect, indicating that the radius of its blindsight defines the maximum range of its perception.\n\n### Darkvision\n\nA monster with darkvision can see in the dark within a specific radius. The mons"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Monsters",
+      "topic": "Dryad",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Dryad.md",
+      "preview": "ft., one target. *Hit:* 2 (1d4) bludgeoning damage, or 8 (1d8+4) bludgeoning damage with *shillelagh*.\n\n***Fey Charm***. The dryad targets one humanoid or beast that she can see within 30 feet of her."
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 5814,
+    "rag_completion": 6419,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 12233
+  },
+  "costs": {
+    "rag": 0.00185915,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00185915
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 10.65,
+    "total_s": 16.49
+  },
+  "answer": " The charmed condition and the frightened condition are separate in DnD 5e rules. A creature's immunity to the frightened condition does not influence its susceptibility to being charmed.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and relevant to the user query, accurately explaining that immunity to the frightened condition does not affect a creature's susceptibility to being charmed."
+    },
+    "context_relevancy": {
+      "score": 0.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context does not directly address the user's query about whether a creature immune to the frightened condition can still be charmed. The context provided discusses various conditions, including frightened, charmed, and others, but it does not specifically mention the interaction between immunity to the frightened condition and the ability to be charmed. Therefore, while it provides some relevant information about conditions, it does not match the specific subject matter of the query.\n\n   **Score: 0 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Since the context does not address the query about the relationship between immunity to the frightened condition and the ability to be charmed, it cannot be used to provide a full answer. The user is looking for a specific interaction between two conditions, and the context fails to provide that information. \n\n   **Score: 0 points**\n\n**Final Feedback:**\nThe retrieved context is not relevant to the user's query as it does not provide any information about the interaction between being immune to the frightened condition and the ability to be charmed. The context discusses various conditions but does not answer the specific question posed. Therefore, it cannot be used to provide a full answer.\n\n[RESULT] 0.0"
+    }
+  }
+}

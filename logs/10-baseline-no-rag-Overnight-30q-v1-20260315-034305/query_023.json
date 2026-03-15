@@ -1,0 +1,51 @@
+{
+  "query_id": "query_023",
+  "session_id": "10-baseline-no-rag-Overnight-30q-v1-20260315-034305",
+  "timestamp": "2026-03-15T03:47:18.302422",
+  "query": {
+    "original": "How many languages does a standard Human character speak at character creation?",
+    "used": "How many languages does a standard Human character speak at character creation?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 288,
+    "rag_completion": 686,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 974
+  },
+  "costs": {
+    "rag": 0.00016202,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00016202
+  },
+  "timings": {
+    "rag_s": null,
+    "query_s": 7.86,
+    "total_s": 9.44
+  },
+  "answer": " In most role-playing games, including tabletop RPGs and video games, there is no standard answer to how many languages a human character speaks at character creation. The number of languages a character knows is typically determined by the specific rules of the game system being used and the decisions made by the player or the game master. Some games may allow a character to know one or more languages by default, while others may require the player to spend experience points or other resources to learn new languages. Ultimately, the number of languages a character speaks is up to the player's preference and the story they want to tell.",
+  "refused": false,
+  "confidence": {
+    "passed": null,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer is not relevant to the user query about how many languages a standard Human character speaks at character creation in DnD 5e. Instead, it provides a general discussion about language rules in various role-playing games, which does not address the specific question asked."
+    },
+    "context_relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    }
+  }
+}

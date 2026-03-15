@@ -1,0 +1,66 @@
+{
+  "query_id": "query_023",
+  "session_id": "61-context-consolidation-Overnight-30q-v1-20260315-145355",
+  "timestamp": "2026-03-15T14:59:41.071618",
+  "query": {
+    "original": "How many languages does a standard Human character speak at character creation?",
+    "used": "How many languages does a standard Human character speak at character creation?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, a standard Human character speaks, reads, and writes two languages at character creation. This includes the Common language, which is typical for Humans, and one add"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1239,
+    "rag_completion": 4177,
+    "meta_prompt": 2417,
+    "meta_completion": 116,
+    "total_calls": 2,
+    "total": 7949
+  },
+  "costs": {
+    "rag": 0.0009299200000000001,
+    "meta": 0.00043214999999999996,
+    "embed": 0.0,
+    "total": 0.00136207
+  },
+  "timings": {
+    "rag_s": 2.83,
+    "query_s": 6.44,
+    "total_s": 15.35
+  },
+  "answer": " A standard Human character speaks two languages at character creation. One of these languages is Common, and the other can be chosen by the player from the Standard Languages table or with the DM's permission from languages common in the campaign setting.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and mostly correct, as it accurately states that a standard Human speaks Common and one additional language of the player's choice. However, it could be slightly more concise, but it does not contain any significant errors."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query regarding how many languages a standard Human character speaks at character creation. It specifies that a Human character speaks two languages, including Common and one additional language of the player's choice. This information is relevant and directly answers the question posed.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the retrieved context provides a complete answer to the user's query. It not only states the number of languages (two) but also explains the specifics of what those languages are (Common and one additional language) and the conditions under which the additional language can be chosen. While it mentions that a character's background may provide access to more languages, this information is supplementary and does not detract from the primary answer.\n\n**Feedback:** The context is highly relevant and provides a clear and complete answer to the query. It effectively communicates the necessary details about language selection for a standard Human character in Dungeons & Dragons 5th Edition. The additional information about backgrounds is useful but not essential for answering the main question.\n\n[RESULT] 4.0"
+    }
+  }
+}

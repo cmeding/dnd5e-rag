@@ -1,0 +1,138 @@
+{
+  "query_id": "query_005",
+  "session_id": "22-index-sentences-default-Overnight-30q-v1-20260315-122922",
+  "timestamp": "2026-03-15T12:30:14.120155",
+  "query": {
+    "original": "How many hit dice does a Fighter have?",
+    "used": "How many hit dice does a Fighter have?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "# Fighter\n\n### Class Features\n\nAs a fighter, you gain the following class features.\n\n#### Hit Points\n\n**Hit Dice:** 1d10 per fighter level\n\n**Hit Points at 1st Level:** 10 + your Constitution modifier"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "**Table- The Fighter**\n\n| Level | Proficiency Bonus | Features                                          |\n|-------|-------------------|---------------------------------------------------|\n| 1st   | +2"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "**Table- Multiclassing Prerequisites**\n\n| Class     | Ability Score Min.          |\n|-----------|-----------------------------|\n| Barbarian | Strength 13                 |\n| Bard      | Charisma 13   "
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "#### Remarkable Athlete\n\nStarting at 7th level, you can add half your proficiency bonus (round up) to any Strength, Dexterity, or Constitution check you make that doesn't already use your proficiency "
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "#### Archery\n\nYou gain a +2 bonus to attack rolls you make with ranged weapons.\n\n#### Defense\n\nWhile you are wearing armor, you gain a +1 bonus to AC.\n\n#### Dueling\n\nWhen you are wielding a melee weap"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "**Table- Ability Scores and Modifiers**\n\n| Score | Modifier |\n|-------|----------|\n| 1     | -5       |\n| 2-3   | -4       |\n| 4-5   | -3       |\n| 6-7   | -2       |\n| 8-9   | -1       |\n| 10-11 | +0"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "# Rogue\n\n### Class Features\n\nAs a rogue, you have the following class features.\n\n#### Hit Points\n\n**Hit Dice:** 1d8 per rogue level\n\n**Hit Points at 1st Level:** 8 + your Constitution modifier\n\n**Hit "
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "If there's ever any question whether something you're doing counts as an attack, the rule is simple: if you're making an attack roll, you're making an attack.\n\n## Attack Rolls\n\nWhen you make an attack"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Monsters",
+      "topic": "Veteran (NPC)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Veteran (NPC).md",
+      "preview": "### Veteran\n\n*Medium humanoid (any race), any alignment*\n\n**Armor Class** 17 (splint)\n\n**Hit Points** 58 (9d8 + 18)\n\n**Speed** 30 ft.\n\n| STR     | DEX     | CON     | INT     | WIS     | CHA     |\n|--"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Classes",
+      "topic": "Cleric",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Cleric.md",
+      "preview": "# Cleric\n\n### Class Features\n\nAs a cleric, you gain the following class features.\n\n#### Hit Points\n\n**Hit Dice:** 1d8 per cleric level\n\n**Hit Points at 1st Level:** 8 + your Constitution modifier\n\n**H"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 5368,
+    "rag_completion": 5606,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 10974
+  },
+  "costs": {
+    "rag": 0.00165562,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00165562
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 3.07,
+    "total_s": 13.29
+  },
+  "answer": " A Fighter has 10 hit dice.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer is not relevant to the user query as it incorrectly states that a Fighter has 10 hit dice instead of the correct information about the type of hit die used, which is a d10."
+    },
+    "context_relevancy": {
+      "score": null,
+      "passing": null,
+      "feedback": "The evaluation of the existing context and response is accurate. The retrieved context indeed matches the subject matter of the user's query regarding the Fighter class in Dungeons & Dragons 5th Edition, specifically addressing the number of Hit Dice a Fighter has. It clearly states that a Fighter has \"1d10 per fighter level,\" which directly answers the question.\n\nAdditionally, the context provides a complete answer without the need for further information, confirming that the evaluation score of 4.0 is appropriate. The feedback highlights the clarity and relevance of the information, reinforcing the correctness of the evaluation.\n\nTherefore, the final evaluation remains **4.0**."
+    }
+  }
+}

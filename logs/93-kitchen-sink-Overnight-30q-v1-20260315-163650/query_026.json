@@ -1,0 +1,66 @@
+{
+  "query_id": "query_026",
+  "session_id": "93-kitchen-sink-Overnight-30q-v1-20260315-163650",
+  "timestamp": "2026-03-15T16:45:31.662967",
+  "query": {
+    "original": "Can an incapacitated creature take reactions?",
+    "used": "Can an incapacitated creature perform reactions in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, an incapacitated creature cannot take actions or reactions. This includes any special actions that would typically be classified as reactions, such as opportunity at"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2067,
+    "rag_completion": 5451,
+    "meta_prompt": 2621,
+    "meta_completion": 195,
+    "total_calls": 4,
+    "total": 10334
+  },
+  "costs": {
+    "rag": 0.00126306,
+    "meta": 0.00051015,
+    "embed": 0.0,
+    "total": 0.00177321
+  },
+  "timings": {
+    "rag_s": 7.67,
+    "query_s": 8.83,
+    "total_s": 16.68
+  },
+  "answer": " An incapacitated creature cannot perform reactions in DnD 5e, as stated in the context.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and fully correct, accurately stating that an incapacitated creature cannot perform reactions in DnD 5e."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query regarding whether an incapacitated creature can perform reactions in D&D 5e. It clearly states that an incapacitated creature cannot take actions or reactions, which is the core of the user's question. The context also elaborates on related conditions that similarly restrict actions and reactions, providing a comprehensive understanding of the topic.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the retrieved context is sufficient to provide a full answer to the user's query. It explicitly states that an incapacitated creature cannot perform reactions and supports this with additional information about related conditions and effects. This makes the context not only relevant but also complete in answering the question.\n\n**Feedback:** The retrieved context is highly relevant and directly answers the query about the capabilities of an incapacitated creature in D&D 5e. It provides a clear and concise explanation, along with additional context that enhances understanding. The information is accurate and aligns well with the rules of the game.\n\n[RESULT] 4.0"
+    }
+  }
+}

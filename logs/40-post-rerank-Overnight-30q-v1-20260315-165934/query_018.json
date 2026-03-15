@@ -1,0 +1,98 @@
+{
+  "query_id": "query_018",
+  "session_id": "40-post-rerank-Overnight-30q-v1-20260315-165934",
+  "timestamp": "2026-03-15T17:03:18.775825",
+  "query": {
+    "original": "Does Sneak Attack require the rogue to be hidden?",
+    "used": "Does Sneak Attack require the rogue to be hidden?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 2.6865596771240234,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "### Sneak Attack\n\nBeginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you h"
+    },
+    {
+      "rank": 2,
+      "score": -2.386782646179199,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "Sneak Attack, Thieves' Cant |\n| 2nd   | +2                | 1d6          | Cunning Action                         |\n| 3rd   | +2                | 2d6          | Roguish Archetype                      "
+    },
+    {
+      "rank": 3,
+      "score": -6.309743404388428,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "#### Equipment\n\nYou start with the following equipment, in addition to the equipment granted by your background:\n\n- (*a*) a rapier or (*b*) a shortsword\n- (*a*) a shortbow and quiver of 20 arrows or ("
+    },
+    {
+      "rank": 4,
+      "score": -6.422900199890137,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "#### Supreme Sneak\n\nStarting at 9th level, you have advantage on a Dexterity (Stealth) check if you move no more than half your speed on the same turn."
+    },
+    {
+      "rank": 5,
+      "score": -6.638558387756348,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "### Elusive\n\nBeginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't incapacitated."
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1518,
+    "rag_completion": 1735,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 3253
+  },
+  "costs": {
+    "rag": 0.0004966300000000001,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0004966300000000001
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 4.79,
+    "total_s": 13.95
+  },
+  "answer": " No, Sneak Attack does not require the rogue to be hidden. The condition for Sneak Attack to be used is having advantage on the attack roll or another enemy of the target being within 5 feet of it and not incapacitated.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 2.6865596771240234
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly addresses the user query, providing the necessary conditions for Sneak Attack without requiring the rogue to be hidden. It matches the reference answer in content and clarity."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context provides detailed information about the Sneak Attack feature of the rogue class in Dungeons & Dragons 5th Edition. However, it does not explicitly address whether the rogue needs to be hidden to use Sneak Attack. The context mentions that you can deal extra damage if you have advantage on the attack roll or if another enemy of the target is within 5 feet, but it does not clarify the relationship between being hidden and using Sneak Attack. Therefore, while the context is relevant to the topic of Sneak Attack, it does not directly answer the user's query.  \n   **Score: 1/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The context does not provide a complete answer to the user's query about whether being hidden is a requirement for Sneak Attack. It discusses the conditions under which Sneak Attack can be applied but does not mention the necessity of being hidden. Therefore, the context cannot be used exclusively to provide a full answer to the user's query.  \n   **Score: 0/2**\n\n**Final Feedback:** The retrieved context is partially relevant as it discusses the Sneak Attack feature, but it fails to directly answer the specific question about the requirement of being hidden. As such, it does not provide a complete answer and lacks the necessary information to fully address the user's query.\n\n[RESULT] 1.0"
+    }
+  }
+}

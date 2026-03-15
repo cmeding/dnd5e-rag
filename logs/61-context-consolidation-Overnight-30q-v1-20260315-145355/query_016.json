@@ -1,0 +1,66 @@
+{
+  "query_id": "query_016",
+  "session_id": "61-context-consolidation-Overnight-30q-v1-20260315-145355",
+  "timestamp": "2026-03-15T14:57:49.864691",
+  "query": {
+    "original": "Does a natural 20 on an attack roll automatically deal maximum damage?",
+    "used": "Does a natural 20 on an attack roll automatically deal maximum damage?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, rolling a natural 20 on an attack roll results in a critical hit, which means the attack hits regardless of the target's Armor Class (AC) or any modifiers. When a cr"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1181,
+    "rag_completion": 3742,
+    "meta_prompt": 1931,
+    "meta_completion": 246,
+    "total_calls": 2,
+    "total": 7100
+  },
+  "costs": {
+    "rag": 0.0008408900000000001,
+    "meta": 0.00043725,
+    "embed": 0.0,
+    "total": 0.00127814
+  },
+  "timings": {
+    "rag_s": 4.73,
+    "query_s": 8.48,
+    "total_s": 15.59
+  },
+  "answer": " I cannot find this in the provided rules. A natural 20 on an attack roll results in a critical hit, which allows for the rolling of additional damage dice, but it does not automatically deal maximum damage.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and mostly correct, accurately stating that a natural 20 results in a critical hit and allows for rolling additional damage dice. However, it could be more concise and directly state that it does not automatically deal maximum damage without the preamble about not finding it in the rules."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query regarding whether a natural 20 on an attack roll automatically deals maximum damage. It explains the mechanics of a critical hit in Dungeons & Dragons 5th Edition, clarifying that while a natural 20 results in a critical hit, it does not mean that maximum damage is dealt. This directly answers the user's question.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a complete and clear explanation of the rules surrounding a natural 20 and critical hits. It details how damage is calculated during a critical hit and explicitly states that maximum damage is not automatically applied. Therefore, the context is sufficient to fully answer the user's query without needing additional information.\n\n   **Score: 2/2**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

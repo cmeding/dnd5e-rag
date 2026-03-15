@@ -1,0 +1,138 @@
+{
+  "query_id": "query_005",
+  "session_id": "91-combined-sentwindow-best-Overnight-30q-v1-20260315-160740",
+  "timestamp": "2026-03-15T16:09:48.453862",
+  "query": {
+    "original": "How many hit dice does a Fighter have?",
+    "used": "What is the number of hit dice for a Fighter class in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06587301587301586,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "For example, both the fighter and the paladin have a d10, so if you are a paladin 5/fighter 5, you have ten d10 Hit Dice. "
+    },
+    {
+      "rank": 2,
+      "score": 0.04764267990074442,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "If you are a paladin 5/cleric 5, for example, you have five d10 Hit Dice and five d8 Hit Dice.\n\n"
+    },
+    {
+      "rank": 3,
+      "score": 0.04678442028985507,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class.\n\n"
+    },
+    {
+      "rank": 4,
+      "score": 0.03278688524590164,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "#### Hit Points\n\n**Hit Dice:** 1d10 per fighter level\n\n**Hit Points at 1st Level:** 10 + your Constitution modifier\n\n**Hit Points at Higher Levels:** 1d10 (or 6) + your Constitution modifier per fight"
+    },
+    {
+      "rank": 5,
+      "score": 0.03252247488101534,
+      "category": "Gameplay",
+      "topic": "Adventuring",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Adventuring.md",
+      "preview": "The character also regains spent Hit Dice, up to a number of dice equal to half of the character's total number of them (minimum of one die). "
+    },
+    {
+      "rank": 6,
+      "score": 0.03177805800756621,
+      "category": "Gameplay",
+      "topic": "Adventuring",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Adventuring.md",
+      "preview": "A character can spend one or more Hit Dice at the end of a short rest, up to the character's maximum number of Hit Dice, which is equal to the character's level. "
+    },
+    {
+      "rank": 7,
+      "score": 0.03149801587301587,
+      "category": "Gameplay",
+      "topic": "Adventuring",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Adventuring.md",
+      "preview": "For example, if a character has eight Hit Dice, he or she can regain four spent Hit Dice upon finishing a long rest.\n\n"
+    },
+    {
+      "rank": 8,
+      "score": 0.03125763125763126,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "For example, a cleric with a maximum of 12 hit points currently has 6 hit points. "
+    },
+    {
+      "rank": 9,
+      "score": 0.03055037313432836,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "You don't gain this benefit if you have 0 hit points."
+    },
+    {
+      "rank": 10,
+      "score": 0.030536130536130537,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2474,
+    "rag_completion": 3035,
+    "meta_prompt": 53,
+    "meta_completion": 19,
+    "total_calls": 3,
+    "total": 5581
+  },
+  "costs": {
+    "rag": 0.00084879,
+    "meta": 1.9350000000000003e-05,
+    "embed": 0.0,
+    "total": 0.00086814
+  },
+  "timings": {
+    "rag_s": 9.61,
+    "query_s": 11.27,
+    "total_s": 20.22
+  },
+  "answer": " A Fighter in DnD 5e has a d10 Hit Die. (From the context in the Fighter.md file under the Classes category.)",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06587301587301586
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and relevant, accurately stating that a Fighter uses a d10 as their hit die in DnD 5e."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context directly addresses the query about the Fighter class in DnD 5e. It specifies that the Fighter has a Hit Die of 1d10 per fighter level, which is the exact information requested. This part of the context is relevant and matches the subject matter perfectly.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a complete answer to the query. It states that the Fighter class has a Hit Die of 1d10, which is sufficient to answer the question regarding the number of hit dice for a Fighter class in DnD 5e. There is no need for additional information to understand this aspect of the Fighter class.\n\n**Feedback Summary:**\nThe retrieved context is highly relevant and provides a complete answer to the user's query about the number of hit dice for a Fighter class in DnD 5e. Both criteria are met, and the information is clear and concise.\n\n[RESULT] 4.0"
+    }
+  }
+}

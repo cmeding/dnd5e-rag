@@ -1,0 +1,138 @@
+{
+  "query_id": "query_028",
+  "session_id": "32-retrieval-fusion-3q-Overnight-30q-v1-20260315-133132",
+  "timestamp": "2026-03-15T13:38:36.552895",
+  "query": {
+    "original": "Can a creature with a fly speed of 0 feet due to the restrained condition still hover?",
+    "used": "Can a creature with a fly speed of 0 feet due to the restrained condition still hover?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.04972677595628415,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Flying Movement\n\nFlying creatures enjoy many benefits of mobility, but they must also deal with the danger of falling. If a flying creature is knocked prone, has its speed reduced to 0, or is other"
+    },
+    {
+      "rank": 2,
+      "score": 0.049189141547682,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "### Fly\n\nA monster that has a flying speed can use all or part of its movement to fly. Some monsters have the ability to **hover**, which makes them hard to knock out of the air (as explained in the r"
+    },
+    {
+      "rank": 3,
+      "score": 0.047371031746031744,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Paralyzed\n\n- A paralyzed creature is incapacitated (see the condition) and can't move or speak.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the c"
+    },
+    {
+      "rank": 4,
+      "score": 0.03252247488101534,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Restrained\n\n- A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- Attack rolls against the creature have advantage, and the creature's attack rolls have dis"
+    },
+    {
+      "rank": 5,
+      "score": 0.0315136476426799,
+      "category": "Monsters",
+      "topic": "Hawk (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Hawk (Creature).md",
+      "preview": "### Hawk\n\n*Tiny beast, unaligned*\n\n**Armor Class** 13\n\n**Hit Points** 1 (1d4-1)\n\n**Speed** 10 ft., fly 60 ft.\n\n| STR    | DEX     | CON    | INT    | WIS     | CHA    |\n|--------|---------|--------|--"
+    },
+    {
+      "rank": 6,
+      "score": 0.03125,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Grappled\n\n- A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- The condition ends if the grappler is incapacitated (see the condition).\n- The condition also "
+    },
+    {
+      "rank": 7,
+      "score": 0.03057889822595705,
+      "category": "Monsters",
+      "topic": "Bat (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Bat (Creature).md",
+      "preview": "### Bat\n\n*Tiny beast, unaligned*\n\n**Armor Class** 12\n\n**Hit Points** 1 (1d4-1)\n\n**Speed** 5 ft., fly 30 ft.\n\n| STR    | DEX     | CON    | INT    | WIS     | CHA    |\n|--------|---------|--------|----"
+    },
+    {
+      "rank": 8,
+      "score": 0.029857397504456328,
+      "category": "Monsters",
+      "topic": "Flying Sword (Animated Object)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Flying Sword (Animated Object).md",
+      "preview": "### Flying Sword (Animated Object)\n\n*Small construct, unaligned*\n\n**Armor Class** 17 (natural armor)\n\n**Hit Points** 17 (5d6)\n\n**Speed** 0 ft., fly 50 ft. (hover)\n\n| STR     | DEX     | CON     | INT "
+    },
+    {
+      "rank": 9,
+      "score": 0.029850746268656716,
+      "category": "Monsters",
+      "topic": "Ghost",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Ghost.md",
+      "preview": "###### Actions\n\n***Withering Touch***. *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 17 (4d6+3) necrotic damage.\n\n***Etherealness***. The ghost enters the Ethereal Plane from the M"
+    },
+    {
+      "rank": 10,
+      "score": 0.02964426877470356,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Unconscious\n\n- An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings\n- The creature drops whatever it's holding and falls prone.\n- Th"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2775,
+    "rag_completion": 3252,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 6027
+  },
+  "costs": {
+    "rag": 0.0009231300000000001,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0009231300000000001
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 10.42,
+    "total_s": 17.15
+  },
+  "answer": " I cannot find this in the provided rules if a creature with a fly speed of 0 feet due to the restrained condition can still hover. The rules only mention that a flying creature falls if it is knocked prone, has its speed reduced to 0, or is otherwise deprived of the ability to move, unless it has the ability to hover or is being held aloft by magic. The restrained condition does not explicitly grant or deny the ability to hover.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.04972677595628415
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query and discusses the relationship between the restrained condition and hovering, but it contains inaccuracies regarding the rules. It suggests uncertainty about the ability to hover, while the reference answer clearly states that the ability to hover depends on the hover trait, not the restrained condition."
+    },
+    "context_relevancy": {
+      "score": 0.75,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context discusses flying movement, the effects of various conditions (including restrained), and specific creatures with flying abilities. It mentions that a flying creature with a speed of 0 falls unless it can hover. This is relevant to the query about whether a creature with a fly speed of 0 due to the restrained condition can still hover. The context provides information about the mechanics of flying and hovering, which directly relates to the user's question.  \n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   While the context provides relevant information about flying and the effects of being restrained, it does not explicitly state whether a creature with a fly speed of 0 due to the restrained condition can still hover. The context implies that a creature that has the ability to hover can do so even if its speed is reduced to 0, but it does not clarify if the restrained condition negates this ability. Therefore, while the context is helpful, it does not provide a definitive answer to the query on its own. Additional information or clarification would be needed to fully answer the question.  \n   **Score: 1 point**\n\n**Final Result:** [RESULT] 3.0"
+    }
+  }
+}

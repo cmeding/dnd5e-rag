@@ -1,0 +1,130 @@
+{
+  "query_id": "query_008",
+  "session_id": "91-combined-sentwindow-best-Overnight-30q-v1-20260315-160740",
+  "timestamp": "2026-03-15T16:11:25.179184",
+  "query": {
+    "original": "Can a restrained creature still make attack rolls?",
+    "used": "Do restrained creatures have disadvantage on attack rolls in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06120068410720997,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "- Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage.\n\n"
+    },
+    {
+      "rank": 2,
+      "score": 0.03229166666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "- Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.\n\n"
+    },
+    {
+      "rank": 3,
+      "score": 0.03125763125763126,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Restrained\n\n- A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n"
+    },
+    {
+      "rank": 4,
+      "score": 0.03115942028985507,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.\n\n"
+    },
+    {
+      "rank": 5,
+      "score": 0.031009615384615385,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "- The creature has disadvantage on attack rolls.\n"
+    },
+    {
+      "rank": 6,
+      "score": 0.03036576949620428,
+      "category": "Equipment",
+      "topic": "Weapons",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Weapons.md",
+      "preview": "Small creatures have disadvantage on attack rolls with heavy weapons. "
+    },
+    {
+      "rank": 7,
+      "score": 0.03007688828584351,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "#### Protection\n\nWhen a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. "
+    },
+    {
+      "rank": 8,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "- Attack rolls against the creature have advantage.\n"
+    },
+    {
+      "rank": 9,
+      "score": 0.016666666666666666,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "The bonus is used in the rules on ability checks, saving throws, and attack rolls.\n\n"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1676,
+    "rag_completion": 2421,
+    "meta_prompt": 53,
+    "meta_completion": 16,
+    "total_calls": 3,
+    "total": 4166
+  },
+  "costs": {
+    "rag": 0.00064435,
+    "meta": 1.755e-05,
+    "embed": 0.0,
+    "total": 0.0006619
+  },
+  "timings": {
+    "rag_s": 14.79,
+    "query_s": 16.96,
+    "total_s": 26.89
+  },
+  "answer": " The context provided does not mention anything about restrained creatures having disadvantage on attack rolls in DnD 5e. Therefore, the answer is: I cannot find this in the provided rules.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06120068410720997
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer is not relevant to the user query as it incorrectly states that the information about restrained creatures is not available, while the reference answer clearly confirms that they do have disadvantage on attack rolls."
+    },
+    "context_relevancy": {
+      "score": 0.5,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context does partially match the subject matter of the user's query regarding whether restrained creatures have disadvantage on attack rolls. The context mentions that \"the creature has disadvantage on attack rolls,\" which directly addresses the query. However, it does not explicitly state that this disadvantage is due to being restrained, which is a crucial aspect of the user's question. Therefore, while there is relevant information, it lacks clarity and specificity regarding the condition of being restrained.\n\n   **Score: 1 out of 2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The retrieved context cannot be used exclusively to provide a full answer to the user's query. While it mentions that a creature has disadvantage on attack rolls, it does not clarify that this disadvantage is specifically for restrained creatures. Additionally, the context includes conflicting statements about attack rolls having advantage or disadvantage, which could confuse the reader. Therefore, the information is insufficient to fully answer the query without additional context or clarification.\n\n   **Score: 1 out of 2**\n\n**Final Feedback:** The retrieved context contains relevant information but lacks clarity and specificity regarding the disadvantage on attack rolls for restrained creatures. It does not provide a complete answer to the user's query, as it does not explicitly connect the disadvantage to the condition of being restrained. \n\n[RESULT] 2.0"
+    }
+  }
+}

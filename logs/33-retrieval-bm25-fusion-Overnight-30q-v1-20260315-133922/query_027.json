@@ -1,0 +1,138 @@
+{
+  "query_id": "query_027",
+  "session_id": "33-retrieval-bm25-fusion-Overnight-30q-v1-20260315-133922",
+  "timestamp": "2026-03-15T13:50:44.250524",
+  "query": {
+    "original": "If a creature is immune to the frightened condition, can it still be charmed?",
+    "used": "If a creature is immune to the frightened condition, can it still be charmed?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06437892504689667,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Frightened\n\n- A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\n- The creature can't willingly move closer to the sourc"
+    },
+    {
+      "rank": 2,
+      "score": 0.06341022161917684,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Charmed\n\n- A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.\n- The charmer has advantage on any ability check to interact socially with th"
+    },
+    {
+      "rank": 3,
+      "score": 0.04715356328259554,
+      "category": "Monsters",
+      "topic": "Swarm of Ravens (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Swarm of Ravens (Creature).md",
+      "preview": "### Swarm of Ravens\n\n*Medium swarm of Tiny beasts, unaligned*\n\n**Armor Class** 12\n\n**Hit Points** 24 (7d8-7)\n\n**Speed** 10 ft., fly 50 ft.\n\n| STR    | DEX     | CON    | INT    | WIS     | CHA    |\n|-"
+    },
+    {
+      "rank": 4,
+      "score": 0.04618300439195962,
+      "category": "Monsters",
+      "topic": "Swarm of Insects (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Swarm of Insects (Creature).md",
+      "preview": "### Swarm of Insects\n\n*Medium swarm of Tiny beasts, unaligned*\n\n**Armor Class** 12 (natural armor)\n\n**Hit Points** 22 (5d8)\n\n**Speed** 20 ft., climb 20 ft.\n\n| STR    | DEX     | CON     | INT    | WIS"
+    },
+    {
+      "rank": 5,
+      "score": 0.032018442622950824,
+      "category": "Treasure",
+      "topic": "Deck of Many Things",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Deck of Many Things.md",
+      "preview": "#### Avatar of Death\n\n*Medium undead, neutral evil*\n\n**Armor Class** 20\n\n**Hit Points** half the hit point maximum of its summoner\n\n**Speed** 60 ft., fly 60 ft. (hover)\n\n| STR     | DEX     | CON     "
+    },
+    {
+      "rank": 6,
+      "score": 0.0315136476426799,
+      "category": "Monsters",
+      "topic": "Lemure (Devil)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Lemure (Devil).md",
+      "preview": "### Lemure (Devil)\n\n*Medium fiend (devil), lawful evil*\n\n**Armor Class** 7\n\n**Hit Points** 13 (3d8)\n\n**Speed** 15 ft.\n\n| STR     | DEX    | CON     | INT    | WIS     | CHA    |\n|---------|--------|--"
+    },
+    {
+      "rank": 7,
+      "score": 0.030886196246139225,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "## Vulnerabilities, Resistances, and Immunities\n\nSome creatures have vulnerability, resistance, or immunity to certain types of damage. Particular creatures are even resistant or immune to damage from"
+    },
+    {
+      "rank": 8,
+      "score": 0.03036576949620428,
+      "category": "Monsters",
+      "topic": "Mummy",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Mummy.md",
+      "preview": "### Mummy\n\n*Medium undead, lawful evil*\n\n**Armor Class** 11 (natural armor)\n\n**Hit Points** 58 (9d8+18)\n\n**Speed** 20 ft.\n\n| STR     | DEX    | CON     | INT    | WIS     | CHA     |\n|---------|------"
+    },
+    {
+      "rank": 9,
+      "score": 0.02919863597612958,
+      "category": "Monsters",
+      "topic": "Swarm of Poisonous Snakes (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Swarm of Poisonous Snakes (Creature).md",
+      "preview": "### Swarm of Poisonous Snakes\n\n*Medium swarm of Tiny beasts, unaligned*\n\n**Armor Class** 14\n\n**Hit Points** 36 (8d8)\n\n**Speed** 30 ft., swim 30 ft.\n\n| STR    | DEX     | CON     | INT    | WIS     | C"
+    },
+    {
+      "rank": 10,
+      "score": 0.016666666666666666,
+      "category": "Classes",
+      "topic": "Monk",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Monk.md",
+      "preview": "### Stillness of Mind\n\nStarting at 7th level, you can use your action to end one effect on yourself that is causing you to be charmed or frightened."
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2810,
+    "rag_completion": 3418,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 6228
+  },
+  "costs": {
+    "rag": 0.00095852,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00095852
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 14.1,
+    "total_s": 22.28
+  },
+  "answer": " Yes, a creature that is immune to the frightened condition can still be charmed. The immunity to the frightened condition only applies to that specific condition, not to the charmed condition.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06437892504689667
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and relevant to the user query, accurately explaining that immunity to the frightened condition does not affect a creature's susceptibility to being charmed."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context includes definitions and descriptions of the \"frightened\" and \"charmed\" conditions, as well as examples of creatures that are immune to these conditions. This is relevant to the user's query about whether a creature immune to the frightened condition can still be charmed. However, the context does not explicitly address the interaction between these two conditions or provide a definitive answer to the query. Therefore, while the context is related, it does not fully match the specific question being asked.\n\n   **Score: 1/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does not provide a complete answer to the user's query. While it discusses the conditions of being frightened and charmed, it does not clarify whether immunity to one condition affects the other. The user is looking for a specific interaction between the two conditions, which is not directly addressed in the provided context. Thus, the context cannot be used exclusively to answer the query.\n\n   **Score: 0/2**\n\n**Final Feedback:**\nThe retrieved context provides some relevant information about the frightened and charmed conditions, but it lacks the specific interaction needed to answer the user's question. The absence of a direct answer regarding the relationship between immunity to frightened and the ability to be charmed means that the context is insufficient for a complete response.\n\n**Final Result: [RESULT] 1.0**"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "query_id": "query_014",
+  "session_id": "10-baseline-no-rag-Overnight-30q-v1-20260315-034305",
+  "timestamp": "2026-03-15T03:45:37.000411",
+  "query": {
+    "original": "Can a paralyzed creature make death saving throws?",
+    "used": "Can a paralyzed creature make death saving throws?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 281,
+    "rag_completion": 543,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 824
+  },
+  "costs": {
+    "rag": 0.00013408,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00013408
+  },
+  "timings": {
+    "rag_s": null,
+    "query_s": 5.1,
+    "total_s": 6.96
+  },
+  "answer": " Yes, a paralyzed creature can still make death saving throws. The condition of paralysis only affects a creature's ability to take actions and reactions, including making attacks or using abilities. It does not prevent a creature from making death saving throws when necessary. However, if a creature is both paralyzed and unconscious, it does not make death saving throws.",
+  "refused": false,
+  "confidence": {
+    "passed": null,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and mostly correct, explaining that a paralyzed creature can make death saving throws and clarifying the effects of paralysis. However, it could be improved by explicitly stating that death saving throws are not considered actions and that the creature makes them automatically at the start of its turn, which is a key detail in the reference answer."
+    },
+    "context_relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    }
+  }
+}

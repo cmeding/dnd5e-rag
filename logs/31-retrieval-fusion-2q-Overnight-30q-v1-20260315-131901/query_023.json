@@ -1,0 +1,138 @@
+{
+  "query_id": "query_023",
+  "session_id": "31-retrieval-fusion-2q-Overnight-30q-v1-20260315-131901",
+  "timestamp": "2026-03-15T13:28:11.677954",
+  "query": {
+    "original": "How many languages does a standard Human character speak at character creation?",
+    "used": "How many languages does a standard Human character speak at character creation?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.03333333333333333,
+      "category": "Characterizations",
+      "topic": "Languages",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Languages.md",
+      "preview": "# Languages\n\nYour race indicates the languages your character can speak by default, and your background might give you access to one or more additional languages of your choice. Note these languages o"
+    },
+    {
+      "rank": 2,
+      "score": 0.03125,
+      "category": "Monsters",
+      "topic": "Skeleton",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Skeleton.md",
+      "preview": "### Skeleton\n\n*Medium undead, lawful evil*\n\n**Armor Class** 13 (armor scraps)\n\n**Hit Points** 13 (2d8+4)\n\n**Speed** 30 ft.\n\n| STR     | DEX     | CON     | INT    | WIS    | CHA    |\n|---------|------"
+    },
+    {
+      "rank": 3,
+      "score": 0.030621785881252923,
+      "category": "Classes",
+      "topic": "Bard",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Bard.md",
+      "preview": "#### Equipment\n\nYou start with the following equipment, in addition to the equipment granted by your background:\n\n- (*a*) a rapier, (*b*) a longsword, or (*c*) any simple weapon\n- (*a*) a diplomat's p"
+    },
+    {
+      "rank": 4,
+      "score": 0.03057889822595705,
+      "category": "Monsters",
+      "topic": "Commoner (NPC)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Commoner (NPC).md",
+      "preview": "### Commoner\n\n*Medium humanoid (any race), any alignment*\n\n**Armor Class** 10\n\n**Hit Points** 4 (1d8)\n\n**Speed** 30 ft.\n\n| STR     | DEX     | CON     | INT     | WIS     | CHA     |\n|---------|------"
+    },
+    {
+      "rank": 5,
+      "score": 0.030303030303030304,
+      "category": "Gamemastering",
+      "topic": "Madness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Madness.md",
+      "preview": "The confusion effect lasts for 1 minute.            |\n| 91-95  | The character loses the ability to speak.                                                                                              "
+    },
+    {
+      "rank": 6,
+      "score": 0.01639344262295082,
+      "category": "Races",
+      "topic": "Human",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Races\\Human.md",
+      "preview": "### Human Traits\n\nIt's hard to make generalizations about humans, but your human character has these traits.\n\n***Ability Score Increase***. Your ability scores each increase by 1.\n\n***Age***. Humans r"
+    },
+    {
+      "rank": 7,
+      "score": 0.01639344262295082,
+      "category": "Monsters",
+      "topic": "Sprite",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Sprite.md",
+      "preview": "## Sprite\n\n*Tiny fey, neutral good*\n\n**Armor Class** 15 (leather armor)\n\n**Hit Points** 2 (1d4)\n\n**Speed** 10 ft., fly 40 ft.\n\n| STR    | DEX     | CON     | INT     | WIS     | CHA     |\n|--------|--"
+    },
+    {
+      "rank": 8,
+      "score": 0.016129032258064516,
+      "category": "Races",
+      "topic": "# Racial Traits",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Races\\# Racial Traits.md",
+      "preview": "## Languages\n\nBy virtue of your race, your character can speak, read, and write certain languages."
+    },
+    {
+      "rank": 9,
+      "score": 0.015873015873015872,
+      "category": "Classes",
+      "topic": "Druid",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Druid.md",
+      "preview": "#### Equipment\n\nYou start with the following equipment, in addition to the equipment granted by your background:\n\n- (*a*) a wooden shield or (*b*) any simple weapon\n- (*a*) a scimitar or (*b*) any sim"
+    },
+    {
+      "rank": 10,
+      "score": 0.015384615384615385,
+      "category": "Characterizations",
+      "topic": "Languages",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Languages.md",
+      "preview": "## Gaining Inspiration\n\nYour GM can choose to give you inspiration for a variety of reasons. Typically, GMs award it when you play out your personality traits, give in to the drawbacks presented by a "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3921,
+    "rag_completion": 4530,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 8451
+  },
+  "costs": {
+    "rag": 0.0012920100000000001,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0012920100000000001
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 12.9,
+    "total_s": 19.96
+  },
+  "answer": " A standard Human character speaks two languages at character creation according to the context provided.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.03333333333333333
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains a mistake regarding the number of languages a standard Human speaks at character creation. A standard Human speaks Common and one additional language, totaling two, but the phrasing could lead to confusion about the specifics."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context discusses languages that characters can speak based on their race and background, which directly relates to the query about how many languages a standard Human character speaks at character creation. It specifically mentions that Humans can speak Common and one additional language of their choice.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a complete answer to the query. It states that a standard Human character speaks Common and one extra language, which is sufficient to fully address the question.\n\n**Feedback:**\nThe retrieved context is relevant and directly answers the query regarding the number of languages a standard Human character speaks at character creation. It clearly states that Humans can speak Common and one additional language, which is the essential information needed to respond to the user's question. The context is comprehensive enough to provide a full answer without needing additional information.\n\n[RESULT] 4.0"
+    }
+  }
+}

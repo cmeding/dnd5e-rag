@@ -1,0 +1,66 @@
+{
+  "query_id": "query_003",
+  "session_id": "61-context-consolidation-Overnight-30q-v1-20260315-145355",
+  "timestamp": "2026-03-15T14:54:34.598054",
+  "query": {
+    "original": "What damage type does Inflict Wounds deal?",
+    "used": "What damage type does Inflict Wounds deal?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "**Inflict Wounds** is a 1st-level necromancy spell that requires a melee spell attack against a target within reach. On a successful hit, the target takes **3d10 necrotic damage**. The damage increase"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1001,
+    "rag_completion": 3366,
+    "meta_prompt": 2047,
+    "meta_completion": 104,
+    "total_calls": 2,
+    "total": 6518
+  },
+  "costs": {
+    "rag": 0.00074965,
+    "meta": 0.00036945,
+    "embed": 0.0,
+    "total": 0.0011191
+  },
+  "timings": {
+    "rag_s": 2.42,
+    "query_s": 3.73,
+    "total_s": 11.48
+  },
+  "answer": " Inflict Wounds deals necrotic damage.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and matches the reference answer exactly, providing the precise information requested by the user."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the user's query about the damage type dealt by the Inflict Wounds spell. It specifies that the spell deals \"3d10 necrotic damage,\" which is the exact information the user is seeking. Therefore, this part of the context is highly relevant to the query.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the retrieved context provides a complete answer to the user's query. It not only identifies the damage type (necrotic) but also includes details about the spell's mechanics, such as the damage amount and how it scales with higher spell slots. While the additional information about necrotic damage is useful, the core answer to the query is fully contained within the context provided.\n\n**Feedback Summary:** The retrieved context is highly relevant and provides a complete answer to the user's query regarding the damage type of the Inflict Wounds spell. Both questions are answered affirmatively, indicating that the context is appropriate and sufficient.\n\n[RESULT] 4.0"
+    }
+  }
+}

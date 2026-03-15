@@ -1,0 +1,98 @@
+{
+  "query_id": "query_009",
+  "session_id": "42-post-rerank-reorder-Overnight-30q-v1-20260315-170550",
+  "timestamp": "2026-03-15T17:07:24.596832",
+  "query": {
+    "original": "Does the invisible condition prevent a creature from casting spells?",
+    "used": "Does the invisible condition prevent a creature from casting spells?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.3577660918235779,
+      "category": "Spells",
+      "topic": "Invisibility",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Invisibility.md",
+      "preview": "### Invisibility\n\n*2nd-level illusion*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S, M (an eyelash encased in gum arabic)\n\n**Duration:** Concentration, up to 1 hour\n\nA creature "
+    },
+    {
+      "rank": 2,
+      "score": -4.284688949584961,
+      "category": "Spells",
+      "topic": "Silent Image",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Silent Image.md",
+      "preview": "### Silent Image\n\n*1st-level illusion*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S, M (a bit of fleece)\n\n**Duration:** Concentration, up to 10 minutes\n\nYou create the image o"
+    },
+    {
+      "rank": 3,
+      "score": -5.225183963775635,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "# Conditions\n\nConditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. Most conditions, such as blind"
+    },
+    {
+      "rank": 4,
+      "score": -5.030193328857422,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Invisible\n\n- An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be dete"
+    },
+    {
+      "rank": 5,
+      "score": -1.6402277946472168,
+      "category": "Spells",
+      "topic": "See Invisibility",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\See Invisibility.md",
+      "preview": "### See Invisibility\n\n*2nd-level divination*\n\n**Casting Time:** 1 action\n\n**Range:** Self\n\n**Components:** V, S, M (a pinch of talc and a small sprinkling of powdered silver)\n\n**Duration:** 1 hour\n\nFo"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1505,
+    "rag_completion": 1705,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 3210
+  },
+  "costs": {
+    "rag": 0.0004895,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0004895
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 3.22,
+    "total_s": 11.16
+  },
+  "answer": " A creature that is under the invisible condition can still cast spells. The invisible condition only affects the creature's visibility and does not restrict its ability to cast spells.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.3577660918235779
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and relevant to the user query, accurately explaining that the invisible condition does not prevent a creature from casting spells."
+    },
+    "context_relevancy": {
+      "score": 0.875,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context does match the subject matter of the user's query. It provides information about the \"invisible\" condition, including its effects on a creature's visibility and how it interacts with attacks and spellcasting. Specifically, it mentions that a creature becomes invisible and that the spell ends for a target that attacks or casts a spell, which directly addresses the user's question about whether the invisible condition prevents a creature from casting spells.\n\n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The context does provide a substantial answer to the query, explaining that the invisible condition does not allow a creature to remain invisible if it casts a spell. However, it does not explicitly state that the invisible condition itself prevents spellcasting; rather, it indicates that casting a spell ends the invisibility. While the context is relevant and informative, it could be clearer in directly answering the question. Therefore, while it can be used to answer the query, it may not be fully comprehensive without additional clarification.\n\n   **Score: 1.5 points**\n\n**Final Result:** [RESULT] 3.5"
+    }
+  }
+}

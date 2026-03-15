@@ -1,0 +1,51 @@
+{
+  "query_id": "query_009",
+  "session_id": "10-baseline-no-rag-Overnight-30q-v1-20260315-034305",
+  "timestamp": "2026-03-15T03:44:43.639921",
+  "query": {
+    "original": "Does the invisible condition prevent a creature from casting spells?",
+    "used": "Does the invisible condition prevent a creature from casting spells?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 285,
+    "rag_completion": 552,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 837
+  },
+  "costs": {
+    "rag": 0.00013623,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00013623
+  },
+  "timings": {
+    "rag_s": null,
+    "query_s": 5.99,
+    "total_s": 7.1
+  },
+  "answer": " The \"invisible\" condition in most role-playing games, including Dungeons & Dragons, does not prevent a creature from casting spells. The condition only affects the creature's visibility and perception for other creatures. A creature with the invisible condition can still perform actions, including casting spells, as long as they have the necessary components and ability to do so.",
+  "refused": false,
+  "confidence": {
+    "passed": null,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and relevant to the user query, accurately explaining that the invisible condition does not prevent spellcasting and providing additional context about the condition's effects."
+    },
+    "context_relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    }
+  }
+}

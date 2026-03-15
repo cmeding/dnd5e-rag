@@ -1,0 +1,51 @@
+{
+  "query_id": "query_020",
+  "session_id": "10-baseline-no-rag-Overnight-30q-v1-20260315-034305",
+  "timestamp": "2026-03-15T03:46:42.742274",
+  "query": {
+    "original": "Can a Druid wear metal armor?",
+    "used": "Can a Druid wear metal armor?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 275,
+    "rag_completion": 645,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 920
+  },
+  "costs": {
+    "rag": 0.0001528,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0001528
+  },
+  "timings": {
+    "rag_s": null,
+    "query_s": 8.0,
+    "total_s": 9.72
+  },
+  "answer": " No, Druids cannot wear metal armor in most editions of Dungeons & Dragons. Druids are a class that relies on their connection to nature and their ability to cast spells that are often enhanced by their wild shape or other natural abilities. Wearing metal armor would interfere with these abilities, as metal armor is made from non-organic materials and is not in harmony with nature. Instead, Druids typically wear leather or chain mail armor for protection. Some homebrew or alternate rules may allow Druids to wear metal armor, but this is not the standard rule in official D&D games.",
+  "refused": false,
+  "confidence": {
+    "passed": null,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query and provides a good explanation of the Druid's relationship with metal armor. However, it contains inaccuracies regarding the armor types Druids typically wear, as they can wear hide armor and do not typically wear chain mail. Additionally, it implies a stricter interpretation of the rules than is present in the official rules, which state that while Druids traditionally avoid metal armor, there is no mechanical penalty for doing so."
+    },
+    "context_relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    }
+  }
+}

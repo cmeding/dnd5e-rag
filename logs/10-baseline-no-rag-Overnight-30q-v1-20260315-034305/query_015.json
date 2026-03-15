@@ -1,0 +1,51 @@
+{
+  "query_id": "query_015",
+  "session_id": "10-baseline-no-rag-Overnight-30q-v1-20260315-034305",
+  "timestamp": "2026-03-15T03:46:02.250031",
+  "query": {
+    "original": "What conditions cause the Grappled condition to end?",
+    "used": "What conditions cause the Grappled condition to end?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 281,
+    "rag_completion": 1073,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 1354
+  },
+  "costs": {
+    "rag": 0.00023477999999999997,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00023477999999999997
+  },
+  "timings": {
+    "rag_s": null,
+    "query_s": 23.28,
+    "total_s": 24.62
+  },
+  "answer": " The Grappled condition in Dungeons & Dragons ends under the following circumstances:\n\n1. The grappler lets go of the target: This is the most common way for the Grappled condition to end. Once the grappler releases the target, the condition ends.\n2. The target escapes: If the target successfully makes a Strength (Athletics) or Dexterity (Acrobatics) check against the grappler's Strength (Athletics) check, they can escape the grapple. The DC for this check depends on the size and strength of the grappler.\n3. The target is incapacitated: If the target is incapacitated (unconscious, paralyzed, or stunned), the Grappled condition ends.\n4. The target is no longer there: If the target is moved more than 5 feet away from the grappler or is otherwise out of reach, the Grappled condition ends.\n5. The grappler is incapacitated or dead: If the grappler is incapacitated or dies, the Grappled condition ends for all targets they are grappling.\n6. The grapple is broken by an outside force: If an outside force, such as another creature or an environmental effect, breaks the grapple, the Grappled condition ends for all targets involved.\n\nIt's important to note that the Grappled condition can also be imposed on a creature as a result of certain abilities or spells, and the conditions for its ending may vary depending on the source of the grapple. Always refer to the specific ability or spell description for details.",
+  "refused": false,
+  "confidence": {
+    "passed": null,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and provides a comprehensive list of conditions that can end the Grappled condition, including some that are not mentioned in the reference answer. However, it introduces some unnecessary complexity and details that may not be directly relevant to the core question, slightly affecting its conciseness."
+    },
+    "context_relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    }
+  }
+}

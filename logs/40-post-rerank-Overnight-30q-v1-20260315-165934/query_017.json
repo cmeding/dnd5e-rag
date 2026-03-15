@@ -1,0 +1,98 @@
+{
+  "query_id": "query_017",
+  "session_id": "40-post-rerank-Overnight-30q-v1-20260315-165934",
+  "timestamp": "2026-03-15T17:03:04.698732",
+  "query": {
+    "original": "Can you use Action Surge to cast two leveled spells in one turn?",
+    "used": "Can you use Action Surge to cast two leveled spells in one turn?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 3.4982011318206787,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "### Action Surge\n\nStarting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bon"
+    },
+    {
+      "rank": 2,
+      "score": 2.1903204917907715,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "### Bonus Action\n\nA spell cast with a bonus action is especially swift. You must use a bonus action on your turn to cast the spell, provided that you haven't already taken a bonus action this turn. Yo"
+    },
+    {
+      "rank": 3,
+      "score": 0.15704812109470367,
+      "category": "Spells",
+      "topic": "Compulsion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Compulsion.md",
+      "preview": "### Compulsion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nCreatures of your choice that you can see wi"
+    },
+    {
+      "rank": 4,
+      "score": -1.766573190689087,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "If you have more than one spellcasting class, this table might give you spell slots of a level that is higher than the spells you know or can prepare. You can use those slots, but only to cast your lo"
+    },
+    {
+      "rank": 5,
+      "score": -4.530544281005859,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "# Combining Magical Effects\n\nThe effects of different spells add together while the durations of those spells overlap. The effects of the same spell cast multiple times don't combine, however. Instead"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1622,
+    "rag_completion": 1913,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 3535
+  },
+  "costs": {
+    "rag": 0.00054189,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00054189
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 5.98,
+    "total_s": 14.27
+  },
+  "answer": " Based on the provided context, no, you cannot use Action Surge to cast two leveled spells in one turn. The Action Surge ability only allows you to take an additional action on top of your regular action, not an additional casting of a spell. Additionally, the Bonus Action spell casting rule states that you can only cast one spell with a bonus action during your turn.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 3.4982011318206787
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains incorrect information regarding the use of Action Surge and spell casting. It incorrectly states that you cannot cast two leveled spells in one turn when using Action Surge, which contradicts the rules."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context discusses the Action Surge feature, which allows a character to take an additional action on their turn, and it also explains the rules regarding casting spells, particularly the limitations on casting spells with a bonus action. However, it does not directly address whether Action Surge can be used to cast two leveled spells in one turn. The context provides relevant information about actions and spellcasting, but it does not explicitly answer the query about the specific interaction between Action Surge and casting leveled spells.\n\n   **Score: 1/2** (The context is somewhat relevant but does not directly answer the query.)\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The context does not provide a complete answer to the user's question. While it explains Action Surge and the rules for casting spells, it lacks the specific information needed to determine if two leveled spells can be cast in one turn using Action Surge. The rules state that you cannot cast two leveled spells in one turn unless one of them is a cantrip, which is not mentioned in the retrieved context. Therefore, the context cannot be used exclusively to provide a full answer.\n\n   **Score: 0/2** (The context does not provide a full answer to the query.)\n\n**Final Result:** [RESULT] 1.0"
+    }
+  }
+}

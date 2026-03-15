@@ -1,0 +1,51 @@
+{
+  "query_id": "query_018",
+  "session_id": "10-baseline-no-rag-Overnight-30q-v1-20260315-034305",
+  "timestamp": "2026-03-15T03:46:26.155799",
+  "query": {
+    "original": "Does Sneak Attack require the rogue to be hidden?",
+    "used": "Does Sneak Attack require the rogue to be hidden?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 280,
+    "rag_completion": 550,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 830
+  },
+  "costs": {
+    "rag": 0.0001353,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0001353
+  },
+  "timings": {
+    "rag_s": null,
+    "query_s": 5.87,
+    "total_s": 7.43
+  },
+  "answer": " No, Sneak Attack is not strictly dependent on the rogue being hidden from the enemy. The rogue only needs to have advantage on the attack roll, which can be achieved through various means such as being unseen or having a companion or ally create a distraction. However, hiding does grant an additional benefit to Sneak Attack by allowing the rogue to roll an additional dice for damage.",
+  "refused": false,
+  "confidence": {
+    "passed": null,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer correctly states that being hidden is not a requirement for Sneak Attack and explains the conditions under which it can be used. However, it inaccurately suggests that hiding grants an additional benefit of rolling an additional die for damage, which is not a rule in D&D 5e. This slight inaccuracy prevents a perfect score."
+    },
+    "context_relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    }
+  }
+}

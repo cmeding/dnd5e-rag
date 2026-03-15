@@ -1,0 +1,138 @@
+{
+  "query_id": "query_026",
+  "session_id": "22-index-sentences-default-Overnight-30q-v1-20260315-122922",
+  "timestamp": "2026-03-15T12:37:36.624469",
+  "query": {
+    "original": "Can an incapacitated creature take reactions?",
+    "used": "Can an incapacitated creature take reactions?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "If an already exhausted creature suffers another effect that causes exhaustion, its current level of exhaustion increases by the amount specified in the effect's description.\n\nA creature suffers the e"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Petrified\n\n- A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of t"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Poisons",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Poisons.md",
+      "preview": "***Oil of Taggit (Contact)***. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or become poisoned for 24 hours. The poisoned creature is unconscious. The creature"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Gamemastering",
+      "topic": "Poisons",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Poisons.md",
+      "preview": "***Crawler Mucus (Contact)***. This poison must be harvested from a dead or incapacitated crawler. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be poisoned "
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "Mighty villains and special nonplayer characters are common exceptions; the GM might have them fall unconscious and follow the same rules as player characters.\n\n## Knocking a Creature Out\n\nSometimes a"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Treasure",
+      "topic": "Mace of Terror",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Mace of Terror.md",
+      "preview": "### Mace of Terror\n\n*Weapon (mace), rare (requires attunement)*\n\nThis magic weapon has 3 charges. While holding it, you can use an action and expend 1 charge to release a wave of terror. Each creature"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "Contagion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Contagion.md",
+      "preview": "### Contagion\n\n*5th-level necromancy*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n**Component:** V, S\n\n**Duration:** 7 days\n\nYour touch inflicts disease. Make a melee spell attack against a creature"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "# Conditions\n\nConditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. Most conditions, such as blind"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Treasure",
+      "topic": "Dust of Sneezing and Choking",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Dust of Sneezing and Choking.md",
+      "preview": "### Dust of Sneezing and Choking\n\n*Wondrous item, uncommon*\n\nFound in a small container, this powder resembles very fine sand. It appears to be *dust of disappearance*, and an *identify* spell reveals"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Treasure",
+      "topic": "Helm of Telepathy",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Helm of Telepathy.md",
+      "preview": "### Helm of Telepathy\n\n*Wondrous item, uncommon (requires attunement)*\n\nWhile wearing this helm, you can use an action to cast the *detect thoughts* spell (save DC 13) from it. As long as you maintain"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 6025,
+    "rag_completion": 6601,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 12626
+  },
+  "costs": {
+    "rag": 0.0019169400000000002,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0019169400000000002
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 10.64,
+    "total_s": 23.55
+  },
+  "answer": " An incapacitated creature's ability to take reactions depends on the source of the incapacitation and not specifically on the exhaustion condition. The rules regarding reactions for incapacitated creatures should be determined by the condition or effect that caused the incapacitation.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "The existing answer is NO, and based on the provided context, the response does not accurately reflect the rules regarding incapacitated creatures. An incapacitated creature cannot take reactions, regardless of the source of the incapacitation. Therefore, the refined answer should remain NO."
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer is not relevant to the user query as it incorrectly suggests that the ability to take reactions depends on the source of incapacitation, which contradicts the established rules. The reference answer clearly states that an incapacitated creature cannot take actions or reactions, which is the correct information."
+    },
+    "context_relevancy": {
+      "score": null,
+      "passing": null,
+      "feedback": "The evaluation of the query and response regarding whether an incapacitated creature can take reactions is accurate. \n\n1. **Does the retrieved context match the subject matter of the user's query?**\n   - The context clearly states that \"an incapacitated creature can't take actions or reactions,\" which directly answers the user's question. Therefore, the context is indeed relevant to the subject matter of the query.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context provides a direct answer to the query, confirming that an incapacitated creature cannot take reactions. However, it lacks additional information that could provide a deeper understanding of the incapacitated condition and its implications in gameplay. While it answers the question sufficiently, it does not offer further context or examples that could enhance understanding.\n\n   **Score: 1/2**\n\nGiven this evaluation, the final result remains **3.0**. \n\nIf the existing evaluation was already 4.0, it would still be 4.0. However, since the context does not provide additional depth or examples, the score of 3.0 is appropriate."
+    }
+  }
+}

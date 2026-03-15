@@ -1,0 +1,66 @@
+{
+  "query_id": "query_008",
+  "session_id": "61-context-consolidation-Overnight-30q-v1-20260315-145355",
+  "timestamp": "2026-03-15T14:55:47.929591",
+  "query": {
+    "original": "Can a restrained creature still make attack rolls?",
+    "used": "Can a restrained creature still make attack rolls?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, a restrained creature can still make attack rolls, but those rolls are made with disadvantage. The restrained condition also affects the creature's speed, which beco"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1235,
+    "rag_completion": 2838,
+    "meta_prompt": 986,
+    "meta_completion": 263,
+    "total_calls": 2,
+    "total": 5322
+  },
+  "costs": {
+    "rag": 0.0006750699999999999,
+    "meta": 0.0003057,
+    "embed": 0.0,
+    "total": 0.00098077
+  },
+  "timings": {
+    "rag_s": 6.29,
+    "query_s": 8.45,
+    "total_s": 15.97
+  },
+  "answer": " Yes, a restrained creature can still make attack rolls, but they do so with disadvantage.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and fully correct, accurately stating that a restrained creature can make attack rolls with disadvantage, which aligns perfectly with the reference answer."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context directly addresses the user's query about whether a restrained creature can make attack rolls. It clearly states that a restrained creature can still make attack rolls, but those rolls are made with disadvantage. This directly answers the question posed in the query.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the retrieved context provides a complete answer to the user's query. It explains not only that a restrained creature can make attack rolls but also the implications of being restrained, such as the disadvantage on those rolls and the advantage that attackers have against the restrained creature. The additional information about other conditions (paralyzed, stunned, prone, unconscious) is relevant but not necessary for answering the specific query about the restrained condition.\n\n**Feedback Summary:**\nThe retrieved context is highly relevant and provides a full answer to the user's query. It effectively explains the mechanics of attack rolls for a restrained creature, including the disadvantage imposed on those rolls and the advantage for attackers. The additional details about other conditions, while informative, do not detract from the clarity of the answer regarding the restrained condition.\n\n[RESULT] 4.0"
+    }
+  }
+}

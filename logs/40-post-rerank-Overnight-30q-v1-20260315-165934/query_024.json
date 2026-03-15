@@ -1,0 +1,98 @@
+{
+  "query_id": "query_024",
+  "session_id": "40-post-rerank-Overnight-30q-v1-20260315-165934",
+  "timestamp": "2026-03-15T17:04:27.918539",
+  "query": {
+    "original": "Can a deafened creature cast spells with verbal components?",
+    "used": "Can a deafened creature cast spells with verbal components?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.8706876635551453,
+      "category": "Spells",
+      "topic": "Divine Word",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Divine Word.md",
+      "preview": "### Divine Word\n\n*7th-level evocation*\n\n**Casting Time:** 1 bonus action\n\n**Range:** 30 feet\n\n**Components:** V\n\n**Duration:** Instantaneous\n\nYou utter a divine word, imbued with the power that shaped"
+    },
+    {
+      "rank": 2,
+      "score": 0.2838711440563202,
+      "category": "Spells",
+      "topic": "Blindness-Deafness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Blindness-Deafness.md",
+      "preview": "### Blindness/Deafness\n\n*2nd-level necromancy*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V\n\n**Duration:** 1 minute\n\nYou can blind or deafen a foe. Choose one creature that you c"
+    },
+    {
+      "rank": 3,
+      "score": -1.888140082359314,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "### Verbal (V)\n\nMost spells require the chanting of mystic words. The words themselves aren't the source of the spell's power; rather, the particular combination of sounds, with specific pitch and res"
+    },
+    {
+      "rank": 4,
+      "score": -2.87368106842041,
+      "category": "Spells",
+      "topic": "Confusion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Confusion.md",
+      "preview": "### Confusion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 90 feet\n\n**Components:** V, S, M (three nut shells)\n\n**Duration:** Concentration, up to 1 minute\n\nThis spell assaults and"
+    },
+    {
+      "rank": 5,
+      "score": -4.034520149230957,
+      "category": "Spells",
+      "topic": "Speak with Animals",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Speak with Animals.md",
+      "preview": "### Speak with Animals\n\n*1st-level divination (ritual)*\n\n**Casting Time:** 1 action\n\n**Range:** Self\n\n**Components:** V, S\n\n**Duration:** 10 minutes\n\nYou gain the ability to comprehend and verbally co"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1921,
+    "rag_completion": 2219,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 4140
+  },
+  "costs": {
+    "rag": 0.00063292,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00063292
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 6.41,
+    "total_s": 14.2
+  },
+  "answer": " I cannot find this in the provided rules if a deafened creature is able to cast spells with verbal components. The Divine Word spell description only mentions that a deafened creature is affected by it and suffers the deafened condition for a certain duration. It does not provide any information about the ability of a deafened creature to perform verbal components for casting spells.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 0.8706876635551453
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer is not relevant to the user query as it fails to address whether a deafened creature can cast spells with verbal components, instead focusing on the Divine Word spell without providing a clear answer."
+    },
+    "context_relevancy": {
+      "score": 0.5,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The context provided includes information about spells with verbal components, specifically mentioning that a character who is gagged or in an area of silence cannot cast spells with verbal components. However, it does not directly address the specific situation of a deafened creature casting spells. While it implies that the ability to hear is important for casting spells with verbal components, it does not explicitly state whether a deafened creature can or cannot cast such spells. Therefore, the context is somewhat relevant but not fully aligned with the query.\n\n   **Score: 1 point**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does not provide a definitive answer to the query about whether a deafened creature can cast spells with verbal components. It discusses the importance of sound in casting spells but does not clarify the implications of being deafened specifically. Thus, while it offers some relevant information, it cannot be used exclusively to provide a full answer to the user's query.\n\n   **Score: 1 point**\n\n**Final Feedback:**\nThe retrieved context partially matches the subject matter of the user's query by discussing verbal components and the conditions under which they can be cast. However, it lacks a direct answer regarding the specific case of a deafened creature. Therefore, while it provides some useful information, it does not fully address the query.\n\n[RESULT] 2.0"
+    }
+  }
+}

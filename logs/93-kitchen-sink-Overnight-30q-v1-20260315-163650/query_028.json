@@ -1,0 +1,66 @@
+{
+  "query_id": "query_028",
+  "session_id": "93-kitchen-sink-Overnight-30q-v1-20260315-163650",
+  "timestamp": "2026-03-15T16:46:20.562697",
+  "query": {
+    "original": "Can a creature with a fly speed of 0 feet due to the restrained condition still hover?",
+    "used": "Can a creature with a fly speed of 0 feet from the restrained condition still hover in D&D 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, a creature with a fly speed of 0 feet due to the restrained condition cannot hover. The restrained condition specifically states that a restrained creature's speed b"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1534,
+    "rag_completion": 4921,
+    "meta_prompt": 2553,
+    "meta_completion": 187,
+    "total_calls": 4,
+    "total": 9195
+  },
+  "costs": {
+    "rag": 0.00110373,
+    "meta": 0.00049515,
+    "embed": 0.0,
+    "total": 0.00159888
+  },
+  "timings": {
+    "rag_s": 8.55,
+    "query_s": 12.8,
+    "total_s": 21.91
+  },
+  "answer": " I cannot find this in the provided rules that a creature with a fly speed of 0 feet from the restrained condition can still hover in D&D 5e. The restrained condition explicitly states that the creature's speed becomes 0, and it cannot benefit from any bonuses to its speed, making it unable to move or fly, including hovering.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains inaccuracies regarding the rules of hovering. It incorrectly states that a creature with a fly speed of 0 cannot hover, while the reference answer clarifies that the ability to hover depends on whether the creature has the hover trait, not solely on the speed reduction from the restrained condition."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the user's query about whether a creature with a fly speed of 0 feet due to the restrained condition can still hover. It explains the implications of the restrained condition on movement and specifically mentions that a creature with a speed of 0 cannot hover.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the retrieved context provides a complete answer to the user's question. It clearly states that a creature with a fly speed of 0 feet due to the restrained condition cannot hover, and it elaborates on the mechanics of movement and the effects of the restrained condition. The explanation is thorough and does not require additional information to understand the answer.\n\n**Feedback:**  \nThe retrieved context is highly relevant and directly answers the query. It effectively explains the mechanics of the restrained condition and its impact on a creature's ability to hover. The information is clear, concise, and fully addresses the user's question without leaving any ambiguity. \n\n[RESULT] 4.0"
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "query_id": "query_014",
+  "session_id": "30-retrieval-bm25-Overnight-30q-v1-20260315-131256",
+  "timestamp": "2026-03-15T13:15:23.029249",
+  "query": {
+    "original": "Can a paralyzed creature make death saving throws?",
+    "used": "Can a paralyzed creature make death saving throws?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.03306010928961749,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "#### Stabilizing a Creature\n\nThe best way to save a creature with 0 hit points is to heal it. If healing is unavailable, the creature can at least be stabilized so that it isn't killed by a failed dea"
+    },
+    {
+      "rank": 2,
+      "score": 0.031746031746031744,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "### Death Saving Throws\n\nWhenever you start your turn with 0 hit points, you must make a special saving throw, called a death saving throw, to determine whether you creep closer to death or hang onto "
+    },
+    {
+      "rank": 3,
+      "score": 0.03115942028985507,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Paralyzed\n\n- A paralyzed creature is incapacitated (see the condition) and can't move or speak.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the c"
+    },
+    {
+      "rank": 4,
+      "score": 0.01639344262295082,
+      "category": "Monsters",
+      "topic": "Death Dog (Creature)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Death Dog (Creature).md",
+      "preview": "###### Actions\n\n***Multiattack***. The dog makes two bite attacks.\n\n***Bite***. *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6+2) piercing damage. If the target is a creature"
+    },
+    {
+      "rank": 5,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Unconscious\n\n- An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings\n- The creature drops whatever it's holding and falls prone.\n- Th"
+    },
+    {
+      "rank": 6,
+      "score": 0.016129032258064516,
+      "category": "Monsters",
+      "topic": "Wyrmling Silver Dragon (Metallic)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Wyrmling Silver Dragon (Metallic).md",
+      "preview": "###### Actions\n\n***Bite***. *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9 (1d10+4) piercing damage.\n\n***Breath Weapons (Recharge 5-6)***. The dragon uses one of the following bre"
+    },
+    {
+      "rank": 7,
+      "score": 0.015625,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "# Saving Throws\n\nA saving throw-also called a save-represents an attempt to resist a spell, a trap, a poison, a disease, or a similar threat. You don't normally decide to make a saving throw; you are "
+    },
+    {
+      "rank": 8,
+      "score": 0.015625,
+      "category": "Monsters",
+      "topic": "Young Silver Dragon (Metallic)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Young Silver Dragon (Metallic).md",
+      "preview": "###### Actions\n\n***Multiattack***. The dragon makes three attacks: one with its bite and two with its claws.\n\n***Bite***. *Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:* 17 (2d10+6"
+    },
+    {
+      "rank": 9,
+      "score": 0.015384615384615385,
+      "category": "Treasure",
+      "topic": "Wand of Paralysis",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Wand of Paralysis.md",
+      "preview": "### Wand of Paralysis\n\n*Wand, rare (requires attunement by a spellcaster)*\n\nThis wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cause a thin blue ray to stre"
+    },
+    {
+      "rank": 10,
+      "score": 0.015384615384615385,
+      "category": "Monsters",
+      "topic": "Adult Silver Dragon (Metallic)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Adult Silver Dragon (Metallic).md",
+      "preview": "###### Actions\n\n***Multiattack***. The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.\n\n***Bite***. *Melee Weapon Attack:* +13 to hit, rea"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3217,
+    "rag_completion": 3443,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 6660
+  },
+  "costs": {
+    "rag": 0.00100804,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00100804
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 4.19,
+    "total_s": 12.37
+  },
+  "answer": " Yes, a paralyzed creature can still make death saving throws, as the text states that \"A stable creature doesn't make death saving throws, even though it has 0 hit points,\" not that it cannot make death saving throws under any circumstance.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.03306010928961749
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query and correctly states that a paralyzed creature can make death saving throws. However, it misquotes the rules by implying that the text states something it does not, which could lead to confusion. The explanation lacks clarity regarding the distinction between being stable and making death saving throws."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context discusses death saving throws and the condition of being paralyzed. It explains how death saving throws work, including the conditions under which a creature makes these throws and the implications of being stable or unconscious. However, it does not explicitly address whether a paralyzed creature can make death saving throws. While it provides relevant information about the mechanics of death saving throws and the paralyzed condition, it does not directly answer the query. Therefore, I would assign 1 point for partial relevance.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does not provide a complete answer to the query about whether a paralyzed creature can make death saving throws. It lacks a definitive statement regarding the interaction between paralysis and the ability to make death saving throws. Thus, while it contains relevant information, it cannot be used exclusively to answer the question. I would assign 0 points for this criterion.\n\n**Final Feedback:**\nThe retrieved context contains relevant information about death saving throws and the paralyzed condition, but it does not directly answer the user's question. The absence of a clear statement regarding the ability of a paralyzed creature to make death saving throws limits its usefulness in providing a complete answer.\n\n[RESULT] 1.0"
+    }
+  }
+}

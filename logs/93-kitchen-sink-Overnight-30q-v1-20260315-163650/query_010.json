@@ -1,0 +1,66 @@
+{
+  "query_id": "query_010",
+  "session_id": "93-kitchen-sink-Overnight-30q-v1-20260315-163650",
+  "timestamp": "2026-03-15T16:39:58.616347",
+  "query": {
+    "original": "Does being charmed prevent a creature from attacking non-charmers?",
+    "used": "Does the charmed condition in D&D 5e prevent a creature from attacking targets that are not its charmer?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, the charmed condition affects a creature's behavior towards its charmer. Specifically, a charmed creature cannot attack the charmer or target them with harmful abili"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1862,
+    "rag_completion": 6668,
+    "meta_prompt": 3955,
+    "meta_completion": 235,
+    "total_calls": 4,
+    "total": 12720
+  },
+  "costs": {
+    "rag": 0.0014717400000000002,
+    "meta": 0.00073425,
+    "embed": 0.0,
+    "total": 0.00220599
+  },
+  "timings": {
+    "rag_s": 9.91,
+    "query_s": 11.47,
+    "total_s": 18.9
+  },
+  "answer": " Based on the context provided, no, the charmed condition in D&D 5e does not prevent a creature from attacking targets that are not its charmer.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and fully correct, accurately reflecting the rules regarding the charmed condition in D&D 5e."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the user's query about the charmed condition in D&D 5e. It explains how the charmed condition affects a creature's behavior towards its charmer and clarifies that while a charmed creature cannot attack its charmer, it is free to attack other targets. This directly matches the subject matter of the query.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the retrieved context provides a complete and clear answer to the user's question. It explains the limitations of the charmed condition and explicitly states that a charmed creature can attack targets that are not its charmer. The information is comprehensive enough to fully address the query without needing additional context or information.\n\n   **Score: 2/2**\n\n**Final Feedback:** The retrieved context is highly relevant and provides a complete answer to the user's query regarding the charmed condition in D&D 5e. It effectively clarifies the limitations imposed by the condition and confirms that a charmed creature can still attack other targets. \n\n[RESULT] 4.0"
+    }
+  }
+}

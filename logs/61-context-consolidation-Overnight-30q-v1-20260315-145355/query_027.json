@@ -1,0 +1,66 @@
+{
+  "query_id": "query_027",
+  "session_id": "61-context-consolidation-Overnight-30q-v1-20260315-145355",
+  "timestamp": "2026-03-15T15:00:47.492130",
+  "query": {
+    "original": "If a creature is immune to the frightened condition, can it still be charmed?",
+    "used": "If a creature is immune to the frightened condition, can it still be charmed?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, a creature's immunity to the frightened condition does not inherently affect its susceptibility to being charmed. The charmed condition and the frightened condition "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1252,
+    "rag_completion": 3229,
+    "meta_prompt": 1308,
+    "meta_completion": 244,
+    "total_calls": 2,
+    "total": 6033
+  },
+  "costs": {
+    "rag": 0.0007512300000000001,
+    "meta": 0.0003426,
+    "embed": 0.0,
+    "total": 0.00109383
+  },
+  "timings": {
+    "rag_s": 5.0,
+    "query_s": 7.92,
+    "total_s": 15.36
+  },
+  "answer": " Yes, a creature that is immune to the frightened condition can still be charmed. The immunity to the frightened condition does not inherently affect its susceptibility to being charmed.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly addresses the user query, providing clear and accurate information about the relationship between the frightened and charmed conditions."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the user's query about whether a creature immune to the frightened condition can still be charmed. It explains that the frightened and charmed conditions are distinct and that immunity to one does not imply immunity to the other. This is relevant and provides a clear understanding of the relationship between the two conditions.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a complete answer to the query. It not only states that a creature immune to the frightened condition can still be charmed but also elaborates on the definitions of both conditions and mentions specific abilities and spells that can grant immunity to charm. This additional information enhances the understanding of the topic and confirms the answer.\n\n**Feedback:** The response effectively matches the query's subject matter and provides a comprehensive answer. It clarifies the distinction between the frightened and charmed conditions and includes relevant examples that support the explanation. The information is accurate and aligns with the rules of Dungeons & Dragons 5th Edition.\n\n[RESULT] 4.0"
+    }
+  }
+}

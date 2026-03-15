@@ -1,0 +1,66 @@
+{
+  "query_id": "query_013",
+  "session_id": "93-kitchen-sink-Overnight-30q-v1-20260315-163650",
+  "timestamp": "2026-03-15T16:40:56.003076",
+  "query": {
+    "original": "If a creature has exhaustion level 3 and is also restrained, what is its movement speed?",
+    "used": "What is the movement speed of a creature with exhaustion level 3 that is also restrained in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, a creature with a level of exhaustion and the restrained condition experiences specific effects on its movement and capabilities.\n\n1. **Exhaustion Effects**: Exhaust"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2180,
+    "rag_completion": 6487,
+    "meta_prompt": 3493,
+    "meta_completion": 241,
+    "total_calls": 4,
+    "total": 12401
+  },
+  "costs": {
+    "rag": 0.00147233,
+    "meta": 0.00066855,
+    "embed": 0.0,
+    "total": 0.00214088
+  },
+  "timings": {
+    "rag_s": 8.92,
+    "query_s": 10.15,
+    "total_s": 17.62
+  },
+  "answer": " The movement speed of a creature with exhaustion level 3 that is also restrained in DnD 5e is 0.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly addresses the user query by stating that the movement speed is 0, which is consistent with the effects of both exhaustion level 3 and the restrained condition."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query regarding the movement speed of a creature with exhaustion level 3 that is also restrained. It explains both the effects of exhaustion and the restrained condition, which are crucial to understanding the creature's movement capabilities. The context provides relevant information about how these two conditions interact, specifically stating that the restrained condition results in a speed of 0, which is the core of the user's question.\n\n   Score: 2 points\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the retrieved context provides a complete answer to the user's query. It clearly states that a creature with level 3 exhaustion that is also restrained has a movement speed of 0. The explanation includes the necessary details about how the effects of exhaustion do not alter the outcome when the restrained condition is applied, thus fully addressing the question without needing additional information.\n\n   Score: 2 points\n\n**Feedback:** The response effectively covers the user's query by detailing the relevant effects of both exhaustion and the restrained condition. It clearly concludes that the movement speed is 0, which is the answer sought by the user. The explanation is thorough and logically structured, making it easy to understand how the two conditions interact.\n\nFinal Result: [RESULT] 4.0"
+    }
+  }
+}

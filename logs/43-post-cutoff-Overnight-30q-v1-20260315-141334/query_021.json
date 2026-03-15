@@ -1,0 +1,57 @@
+{
+  "query_id": "query_021",
+  "session_id": "43-post-cutoff-Overnight-30q-v1-20260315-141334",
+  "timestamp": "2026-03-15T14:13:56.906858",
+  "query": {
+    "original": "What is the casting time of the Wish spell?",
+    "used": "What is the casting time of the Wish spell?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 0,
+    "rag_completion": 0,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 0,
+    "total": 0
+  },
+  "costs": {
+    "rag": 0.0,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 0.05,
+    "total_s": 1.23
+  },
+  "answer": "Empty Response",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "Empty Response"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "Empty Response"
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer does not provide any information regarding the casting time of the Wish spell, making it completely irrelevant to the user query."
+    },
+    "context_relevancy": {
+      "score": null,
+      "passing": null,
+      "feedback": "Empty Response"
+    }
+  }
+}

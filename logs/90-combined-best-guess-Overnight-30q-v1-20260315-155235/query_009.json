@@ -1,0 +1,138 @@
+{
+  "query_id": "query_009",
+  "session_id": "90-combined-best-guess-Overnight-30q-v1-20260315-155235",
+  "timestamp": "2026-03-15T15:56:17.065294",
+  "query": {
+    "original": "Does the invisible condition prevent a creature from casting spells?",
+    "used": "Does the invisible condition affect a creature's ability to cast spells in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.04946236559139784,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Invisible\n\n- An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be dete"
+    },
+    {
+      "rank": 2,
+      "score": 0.04767628205128205,
+      "category": "Spells",
+      "topic": "Invisibility",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Invisibility.md",
+      "preview": "### Invisibility\n\n*2nd-level illusion*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S, M (an eyelash encased in gum arabic)\n\n**Duration:** Concentration, up to 1 hour\n\nA creature "
+    },
+    {
+      "rank": 3,
+      "score": 0.047492767598842814,
+      "category": "Spells",
+      "topic": "See Invisibility",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\See Invisibility.md",
+      "preview": "### See Invisibility\n\n*2nd-level divination*\n\n**Casting Time:** 1 action\n\n**Range:** Self\n\n**Components:** V, S, M (a pinch of talc and a small sprinkling of powdered silver)\n\n**Duration:** 1 hour\n\nFo"
+    },
+    {
+      "rank": 4,
+      "score": 0.032018442622950824,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "# Conditions\n\nConditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. Most conditions, such as blind"
+    },
+    {
+      "rank": 5,
+      "score": 0.031754032258064516,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "#### Initiative\n\nAt the beginning of every combat, you roll initiative by making a Dexterity check. Initiative determines the order of creatures' turns in combat.\n\n> **Hiding**\n>\n>The DM decides when "
+    },
+    {
+      "rank": 6,
+      "score": 0.03115942028985507,
+      "category": "Spells",
+      "topic": "Faerie Fire",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Faerie Fire.md",
+      "preview": "### Faerie Fire\n\n*1st-level evocation*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V\n\n**Duration:** Concentration, up to 1 minute\n\nEach object in a 20-foot cube within range is ou"
+    },
+    {
+      "rank": 7,
+      "score": 0.030834914611005692,
+      "category": "Spells",
+      "topic": "Greater Invisibility",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Greater Invisibility.md",
+      "preview": "### Greater Invisibility\n\n*4th-level illusion*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou or a creature you touch becomes inv"
+    },
+    {
+      "rank": 8,
+      "score": 0.029850746268656716,
+      "category": "Spells",
+      "topic": "Hallow",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Hallow.md",
+      "preview": "### Hallow\n\n*5th-level evocation*\n\n**Casting Time:** 24 hours\n\n**Range:** Touch\n\n**Components:** V, S, M (herbs, oils, and incense worth at least 1,000 gp, which the spell consumes)\n\n**Duration:** Unt"
+    },
+    {
+      "rank": 9,
+      "score": 0.01639344262295082,
+      "category": "Treasure",
+      "topic": "Dust of Disappearance",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Dust of Disappearance.md",
+      "preview": "### Dust of Disappearance\n\n*Wondrous item, uncommon*\n\nFound in a small packet, this powder resembles very fine sand. There is enough of it for one use. When you use an action to throw the dust into th"
+    },
+    {
+      "rank": 10,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Paralyzed\n\n- A paralyzed creature is incapacitated (see the condition) and can't move or speak.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the c"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3512,
+    "rag_completion": 4353,
+    "meta_prompt": 55,
+    "meta_completion": 20,
+    "total_calls": 3,
+    "total": 7940
+  },
+  "costs": {
+    "rag": 0.00121339,
+    "meta": 2.025e-05,
+    "embed": 0.0,
+    "total": 0.00123364
+  },
+  "timings": {
+    "rag_s": 17.12,
+    "query_s": 19.46,
+    "total_s": 29.09
+  },
+  "answer": " The invisible condition description in the context does not mention anything about a creature's ability to cast spells while being invisible. Therefore, the invisible condition does not affect a creature's ability to cast spells in DnD 5e.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.04946236559139784
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and fully correct, accurately stating that the invisible condition does not affect a creature's ability to cast spells in DnD 5e. It also correctly references the lack of restrictions on spellcasting while invisible."
+    },
+    "context_relevancy": {
+      "score": 0.875,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context provides a detailed explanation of the invisible condition in DnD 5e, including how it affects a creature's visibility and interactions in combat. It mentions that an invisible creature is impossible to see without magic or special senses and that attack rolls against the creature have disadvantage. However, it also states that the spell ends for a target that attacks or casts a spell. This directly relates to the user's query about whether the invisible condition affects a creature's ability to cast spells. Therefore, the context does match the subject matter of the user's query.  \n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The context does provide relevant information regarding the invisible condition and its implications for casting spells. It clearly states that the invisibility effect ends if the creature attacks or casts a spell, which directly answers the user's question. However, while the context is comprehensive, it does not explicitly summarize the overall impact of the invisible condition on spellcasting in a single statement. Thus, while it can be used to answer the question, it may require some synthesis by the user to fully understand the implications.  \n   **Score: 1.5 points**\n\n**Final Result:** [RESULT] 3.5"
+    }
+  }
+}

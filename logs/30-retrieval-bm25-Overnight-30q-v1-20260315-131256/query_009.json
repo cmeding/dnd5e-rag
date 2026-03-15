@@ -1,0 +1,138 @@
+{
+  "query_id": "query_009",
+  "session_id": "30-retrieval-bm25-Overnight-30q-v1-20260315-131256",
+  "timestamp": "2026-03-15T13:14:23.672635",
+  "query": {
+    "original": "Does the invisible condition prevent a creature from casting spells?",
+    "used": "Does the invisible condition prevent a creature from casting spells?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.03306010928961749,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Invisible\n\n- An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be dete"
+    },
+    {
+      "rank": 2,
+      "score": 0.032266458495966696,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "# Conditions\n\nConditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. Most conditions, such as blind"
+    },
+    {
+      "rank": 3,
+      "score": 0.031009615384615385,
+      "category": "Spells",
+      "topic": "Invisibility",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Invisibility.md",
+      "preview": "### Invisibility\n\n*2nd-level illusion*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S, M (an eyelash encased in gum arabic)\n\n**Duration:** Concentration, up to 1 hour\n\nA creature "
+    },
+    {
+      "rank": 4,
+      "score": 0.029857397504456328,
+      "category": "Spells",
+      "topic": "See Invisibility",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\See Invisibility.md",
+      "preview": "### See Invisibility\n\n*2nd-level divination*\n\n**Casting Time:** 1 action\n\n**Range:** Self\n\n**Components:** V, S, M (a pinch of talc and a small sprinkling of powdered silver)\n\n**Duration:** 1 hour\n\nFo"
+    },
+    {
+      "rank": 5,
+      "score": 0.016666666666666666,
+      "category": "Spells",
+      "topic": "Sequester",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Sequester.md",
+      "preview": "### Sequester\n\n*7th-level transmutation*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S, M (a powder composed of diamond, emerald, ruby, and sapphire dust worth at least 5,000 gp,"
+    },
+    {
+      "rank": 6,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Paralyzed\n\n- A paralyzed creature is incapacitated (see the condition) and can't move or speak.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the c"
+    },
+    {
+      "rank": 7,
+      "score": 0.016129032258064516,
+      "category": "Spells",
+      "topic": "Forcecage",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Forcecage.md",
+      "preview": "### Forcecage\n\n*7th-level evocation*\n\n**Casting Time:** 1 action\n\n**Range:** 100 feet\n\n**Components:** V, S, M (ruby dust worth 1,500 gp)\n\n**Duration:** 1 hour\n\nAn immobile, invisible, cube-shaped pri"
+    },
+    {
+      "rank": 8,
+      "score": 0.015873015873015872,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Blinded\n\n- A blinded creature can't see and automatically fails any ability check that requires sight.\n- Attack rolls against the creature have advantage, and the creature's attack rolls have disad"
+    },
+    {
+      "rank": 9,
+      "score": 0.015625,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Stunned\n\n- A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rol"
+    },
+    {
+      "rank": 10,
+      "score": 0.015384615384615385,
+      "category": "Spells",
+      "topic": "Greater Invisibility",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Greater Invisibility.md",
+      "preview": "### Greater Invisibility\n\n*4th-level illusion*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou or a creature you touch becomes inv"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2357,
+    "rag_completion": 2521,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 4878
+  },
+  "costs": {
+    "rag": 0.00073826,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00073826
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 2.15,
+    "total_s": 10.87
+  },
+  "answer": " I cannot find this in the provided rules about the Invisible condition affecting a creature's ability to cast spells.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.03306010928961749
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but does not provide a clear and correct response. It acknowledges the lack of information but fails to directly answer the question about whether the invisible condition affects spellcasting, which is a key aspect of the query."
+    },
+    "context_relevancy": {
+      "score": 0.875,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context provides information about the invisible condition and its effects, including details about the spell \"Invisibility\" and how it interacts with actions like attacking or casting spells. This is directly relevant to the user's query about whether the invisible condition prevents a creature from casting spells. The context explains that a creature becomes invisible and that the spell ends if the target attacks or casts a spell, which is crucial to answering the query.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The context does provide sufficient information to answer the query. It states that the spell \"Invisibility\" ends when a creature casts a spell, implying that while a creature is invisible, it cannot cast spells without losing that invisibility. However, it does not explicitly state that the invisible condition itself prevents spellcasting; it focuses on the mechanics of the \"Invisibility\" spell. Therefore, while the context is relevant and informative, it does not fully clarify the broader implications of the invisible condition outside of the spell's specific mechanics.\n\n   **Score: 1.5/2**\n\n**Feedback Summary:** The retrieved context is highly relevant to the query, providing essential information about the interaction between invisibility and spellcasting. However, it could be clearer in addressing the broader implications of the invisible condition itself, rather than focusing solely on the spell mechanics. \n\n**Final Result:** [RESULT] 3.5"
+    }
+  }
+}

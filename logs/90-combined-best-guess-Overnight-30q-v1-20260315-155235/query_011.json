@@ -1,0 +1,138 @@
+{
+  "query_id": "query_011",
+  "session_id": "90-combined-best-guess-Overnight-30q-v1-20260315-155235",
+  "timestamp": "2026-03-15T15:57:23.016333",
+  "query": {
+    "original": "What happens to concentration spells when a caster falls unconscious?",
+    "used": "What are the effects on concentration spells when a caster becomes unconscious in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.046459914611005695,
+      "category": "Spells",
+      "topic": "Eyebite",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Eyebite.md",
+      "preview": "### Eyebite\n\n*6th-level necromancy*\n\n**Casting Time:** 1 action\n\n**Range:** Self\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nFor the spell's duration, your eyes become an inky "
+    },
+    {
+      "rank": 2,
+      "score": 0.03333333333333333,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "### Concentration\n\nSome spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends.\n\nIf a spell must be maintained with concentratio"
+    },
+    {
+      "rank": 3,
+      "score": 0.03279569892473118,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "# Cantrips\n\nA cantrip is a spell that can be cast at will, without using a spell slot and without being prepared in advance. Repeated practice has fixed the spell in the caster's mind and infused the "
+    },
+    {
+      "rank": 4,
+      "score": 0.03177805800756621,
+      "category": "Spells",
+      "topic": "Confusion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Confusion.md",
+      "preview": "### Confusion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 90 feet\n\n**Components:** V, S, M (three nut shells)\n\n**Duration:** Concentration, up to 1 minute\n\nThis spell assaults and"
+    },
+    {
+      "rank": 5,
+      "score": 0.03177805800756621,
+      "category": "Treasure",
+      "topic": "Ring of Spell Turning",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Ring of Spell Turning.md",
+      "preview": "### Ring of Spell Turning\n\n*Ring, legendary (requires attunement)*\n\nWhile wearing this ring, you have advantage on saving throws against any spell that targets only you (not in an area of effect). In "
+    },
+    {
+      "rank": 6,
+      "score": 0.03159203980099502,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "# Rituals\n\nCertain spells have a special tag: ritual. Such a spell can be cast following the normal rules for spellcasting, or the spell can be cast as a ritual. The ritual version of a spell takes 10"
+    },
+    {
+      "rank": 7,
+      "score": 0.031024531024531024,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Unconscious\n\n- An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings\n- The creature drops whatever it's holding and falls prone.\n- Th"
+    },
+    {
+      "rank": 8,
+      "score": 0.030536130536130537,
+      "category": "Spells",
+      "topic": "Calm Emotions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Calm Emotions.md",
+      "preview": "### Calm Emotions\n\n*2nd-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou attempt to suppress strong emotions i"
+    },
+    {
+      "rank": 9,
+      "score": 0.029631255487269532,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "Such spells can make enemies see the caster as a friend, force creatures to take a course of action, or even control another creature like a puppet.\n>\n>**Evocation** spells manipulate magical energy t"
+    },
+    {
+      "rank": 10,
+      "score": 0.02919863597612958,
+      "category": "Spells",
+      "topic": "Sleep",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Sleep.md",
+      "preview": "### Sleep\n\n*1st-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 90 feet\n\n**Components:** V, S, M (a pinch of fine sand, rose petals, or a cricket)\n\n**Duration:** 1 minute\n\nThis spell sends "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 4539,
+    "rag_completion": 5501,
+    "meta_prompt": 55,
+    "meta_completion": 20,
+    "total_calls": 3,
+    "total": 10115
+  },
+  "costs": {
+    "rag": 0.00154448,
+    "meta": 2.025e-05,
+    "embed": 0.0,
+    "total": 0.00156473
+  },
+  "timings": {
+    "rag_s": 17.17,
+    "query_s": 20.75,
+    "total_s": 31.04
+  },
+  "answer": " In the context provided, there is no information about the effects on concentration spells when a caster becomes unconscious. The provided text only discusses the effects of the \"Eyebite\" spell on other creatures when the caster becomes unconscious or when those creatures take damage. Therefore, I cannot find this in the provided rules.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.046459914611005695
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer is not relevant to the user query as it fails to address the effects on concentration spells when a caster becomes unconscious, instead discussing unrelated aspects of a specific spell."
+    },
+    "context_relevancy": {
+      "score": 0.75,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context includes information about concentration spells and the effects of being unconscious. It specifically states that a caster loses concentration on a spell if they are incapacitated or killed, which directly addresses the query about the effects on concentration spells when a caster becomes unconscious. Therefore, the context is relevant to the subject matter of the user's query.\n\n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context provides a clear explanation of how concentration is maintained and what happens when a caster becomes unconscious. It states that being incapacitated (which includes being unconscious) causes the caster to lose concentration on any spells they are maintaining. However, while it provides the necessary information regarding concentration, it does not elaborate on the implications of losing concentration on specific spells or the effects of those spells once concentration is lost. Thus, while it is informative, it does not provide a complete answer on its own.\n\n   **Score: 1 point**\n\n**Final Feedback:**\nThe retrieved context effectively addresses the query about the effects on concentration spells when a caster becomes unconscious by explaining the rules surrounding concentration. However, it lacks additional details that could provide a more comprehensive answer regarding the specific consequences for spells that were being concentrated on. \n\n**Final Result: [RESULT] 3.0**"
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "query_id": "query_028",
+  "session_id": "92-combined-best-permissive-Overnight-30q-v1-20260315-162231",
+  "timestamp": "2026-03-15T16:35:32.301384",
+  "query": {
+    "original": "Can a creature with a fly speed of 0 feet due to the restrained condition still hover?",
+    "used": "Can a creature with a fly speed of 0 feet from the restrained condition hover in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06403612252369524,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "### Fly\n\nA monster that has a flying speed can use all or part of its movement to fly. Some monsters have the ability to **hover**, which makes them hard to knock out of the air (as explained in the r"
+    },
+    {
+      "rank": 2,
+      "score": 0.04945355191256831,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Restrained\n\n- A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- Attack rolls against the creature have advantage, and the creature's attack rolls have dis"
+    },
+    {
+      "rank": 3,
+      "score": 0.04895833333333333,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Flying Movement\n\nFlying creatures enjoy many benefits of mobility, but they must also deal with the danger of falling. If a flying creature is knocked prone, has its speed reduced to 0, or is other"
+    },
+    {
+      "rank": 4,
+      "score": 0.03229166666666666,
+      "category": "Treasure",
+      "topic": "Broom of Flying",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Broom of Flying.md",
+      "preview": "### Broom of Flying\n\n*Wondrous item, uncommon*\n\nThis wooden broom, which weighs 3 pounds, functions like a mundane broom until you stand astride it and speak its command word. It then hovers beneath y"
+    },
+    {
+      "rank": 5,
+      "score": 0.03200204813108039,
+      "category": "Treasure",
+      "topic": "Dancing Sword",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Dancing Sword.md",
+      "preview": "### Dancing Sword\n\n*Weapon (any sword), very rare (requires attunement)*\n\nYou can use a bonus action to toss this magic sword into the air and speak the command word. When you do so, the sword begins "
+    },
+    {
+      "rank": 6,
+      "score": 0.031746031746031744,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Paralyzed\n\n- A paralyzed creature is incapacitated (see the condition) and can't move or speak.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the c"
+    },
+    {
+      "rank": 7,
+      "score": 0.030536130536130537,
+      "category": "Monsters",
+      "topic": "Flying Sword (Animated Object)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Flying Sword (Animated Object).md",
+      "preview": "### Flying Sword (Animated Object)\n\n*Small construct, unaligned*\n\n**Armor Class** 17 (natural armor)\n\n**Hit Points** 17 (5d6)\n\n**Speed** 0 ft., fly 50 ft. (hover)\n\n| STR     | DEX     | CON     | INT "
+    },
+    {
+      "rank": 8,
+      "score": 0.03036576949620428,
+      "category": "Treasure",
+      "topic": "Carpet of Flying",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Carpet of Flying.md",
+      "preview": "### Carpet of Flying\n\n*Wondrous item, very rare*\n\nYou can speak the carpet's command word as an action to make the carpet hover and fly. It moves according to your spoken directions, provided that you"
+    },
+    {
+      "rank": 9,
+      "score": 0.030330882352941176,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Grappled\n\n- A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- The condition ends if the grappler is incapacitated (see the condition).\n- The condition also "
+    },
+    {
+      "rank": 10,
+      "score": 0.030303030303030304,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Unconscious\n\n- An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings\n- The creature drops whatever it's holding and falls prone.\n- Th"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2963,
+    "rag_completion": 3823,
+    "meta_prompt": 63,
+    "meta_completion": 24,
+    "total_calls": 3,
+    "total": 6873
+  },
+  "costs": {
+    "rag": 0.0010523,
+    "meta": 2.3849999999999997e-05,
+    "embed": 0.0,
+    "total": 0.00107615
+  },
+  "timings": {
+    "rag_s": 18.75,
+    "query_s": 21.36,
+    "total_s": 30.58
+  },
+  "answer": " No, a creature cannot hover if it has a fly speed of 0 feet. Additionally, being restrained means the creature's speed is 0, so it cannot fly even if it normally has a fly speed.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06403612252369524
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query and correctly states that a creature with a fly speed of 0 feet cannot hover. However, it lacks the nuance regarding the hover trait and the distinction between being airborne and the effects of the restrained condition, which are important for a complete understanding of the rules."
+    },
+    "context_relevancy": {
+      "score": 0.75,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context provides relevant information about the flying speed, the restrained condition, and the mechanics of hovering. It explains that a creature with a flying speed can hover unless its speed is reduced to 0, which directly relates to the user's query about whether a creature with a fly speed of 0 feet due to being restrained can hover. Therefore, the context does match the subject matter of the query.\n\n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context explains that a restrained creature's speed becomes 0 and that it cannot benefit from any bonus to its speed. It also mentions that a flying creature falls if its speed is reduced to 0 unless it has the ability to hover. However, it does not explicitly state whether a creature that is restrained can still hover if it has the ability to do so. While the context provides a strong foundation for understanding the mechanics, it lacks a definitive answer to the user's specific question about hovering while restrained. Therefore, while the context is useful, it does not provide a complete answer on its own.\n\n   **Score: 1 point**\n\n**Final Feedback:**\nThe retrieved context is relevant and provides a good amount of information regarding flying and the restrained condition. However, it does not fully answer the user's query about whether a creature with a fly speed of 0 can hover while restrained. A more explicit statement regarding the interaction between the restrained condition and the ability to hover would be necessary for a complete answer.\n\n**Final Result: [RESULT] 3.0**"
+    }
+  }
+}

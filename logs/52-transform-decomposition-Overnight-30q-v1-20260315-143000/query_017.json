@@ -1,0 +1,408 @@
+{
+  "query_id": "query_017",
+  "session_id": "52-transform-decomposition-Overnight-30q-v1-20260315-143000",
+  "timestamp": "2026-03-15T14:39:31.238809",
+  "query": {
+    "original": "Can you use Action Surge to cast two leveled spells in one turn?",
+    "used": "Can you use Action Surge to cast two leveled spells in one turn?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": null,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "Sub question: What is Action Surge and how does it work?\nResponse:  Action Surge is a feature of the Fighter class in DnD 5e. It allows a Fighter to take one additional action on top of their regular "
+    },
+    {
+      "rank": 2,
+      "score": null,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "Sub question: What are the rules for casting spells in one turn?\nResponse:  A character can only cast one spell during one turn using a standard action or an action point, except for a cantrip with a "
+    },
+    {
+      "rank": 3,
+      "score": null,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "Sub question: Are there any limitations on using Action Surge for spellcasting?\nResponse:  The context provided does not mention any limitations on using Action Surge for spellcasting with the Compuls"
+    },
+    {
+      "rank": 4,
+      "score": null,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "Sub question: What are the requirements for casting leveled spells?\nResponse:  To cast a leveled spell, a character must have a spell slot of the required level or higher. Additionally, the character "
+    },
+    {
+      "rank": 5,
+      "score": 0.016666666666666666,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "### Action Surge\n\nStarting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bon"
+    },
+    {
+      "rank": 6,
+      "score": 0.01639344262295082,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Ready\n\nSometimes you want to get the jump on a foe or wait for a particular circumstance before you act. To do so, you can take the Ready action on your turn, which lets you act using your reaction"
+    },
+    {
+      "rank": 7,
+      "score": 0.016129032258064516,
+      "category": "Spells",
+      "topic": "Shocking Grasp",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Shocking Grasp.md",
+      "preview": "### Shocking Grasp\n\n*Evocation cantrip*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S\n\n**Duration:** Instantaneous\n\nLightning springs from your hand to deliver a shock to a creat"
+    },
+    {
+      "rank": 8,
+      "score": 0.015873015873015872,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Help\n\nYou can lend your aid to another creature in the completion of a task. When you take the Help action, the creature you aid gains advantage on the next ability check it makes to perform the ta"
+    },
+    {
+      "rank": 9,
+      "score": 0.015625,
+      "category": "Classes",
+      "topic": "Monk",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Monk.md",
+      "preview": "#### Patient Defense\n\nYou can spend 1 ki point to take the Dodge action as a bonus action on your turn."
+    },
+    {
+      "rank": 10,
+      "score": 0.015384615384615385,
+      "category": "Monsters",
+      "topic": "Air Elemental",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Air Elemental.md",
+      "preview": "###### Actions\n\n***Multiattack***. The elemental makes two slam attacks.\n\n***Slam***. *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 14 (2d8+5) bludgeoning damage.\n\n***Whirlwind (Re"
+    },
+    {
+      "rank": 11,
+      "score": 0.015151515151515152,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Disengage\n\nIf you take the Disengage action, your movement doesn't provoke opportunity attacks for the rest of the turn."
+    },
+    {
+      "rank": 12,
+      "score": 0.014925373134328358,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "# Actions in Combat\n\nWhen you take your action on your turn, you can take one of the actions presented here, an action you gained from your class or a special feature, or an action that you improvise."
+    },
+    {
+      "rank": 13,
+      "score": 0.014705882352941176,
+      "category": "Monsters",
+      "topic": "Lich",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Lich.md",
+      "preview": "###### Actions\n\n***Paralyzing Touch***. *Melee Spell Attack:* +12 to hit, reach 5 ft., one creature. *Hit:* 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving throw or be par"
+    },
+    {
+      "rank": 14,
+      "score": 0.014492753623188406,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "## Dodge\n\nWhen you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and "
+    },
+    {
+      "rank": 15,
+      "score": 0.016666666666666666,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "### Bonus Action\n\nA spell cast with a bonus action is especially swift. You must use a bonus action on your turn to cast the spell, provided that you haven't already taken a bonus action this turn. Yo"
+    },
+    {
+      "rank": 16,
+      "score": 0.01639344262295082,
+      "category": "Classes",
+      "topic": "Sorcerer",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Sorcerer.md",
+      "preview": "#### Careful Spell\n\nWhen you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point a"
+    },
+    {
+      "rank": 17,
+      "score": 0.016129032258064516,
+      "category": "Spells",
+      "topic": "Confusion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Confusion.md",
+      "preview": "### Confusion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 90 feet\n\n**Components:** V, S, M (three nut shells)\n\n**Duration:** Concentration, up to 1 minute\n\nThis spell assaults and"
+    },
+    {
+      "rank": 18,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "# SPELLCASTING\n\nMagic permeates fantasy gaming worlds and often appears in the form of a spell.\n\nThis chapter provides the rules for casting spells. Different character classes have distinctive ways o"
+    },
+    {
+      "rank": 19,
+      "score": 0.015625,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "# Rituals\n\nCertain spells have a special tag: ritual. Such a spell can be cast following the normal rules for spellcasting, or the spell can be cast as a ritual. The ritual version of a spell takes 10"
+    },
+    {
+      "rank": 20,
+      "score": 0.015384615384615385,
+      "category": "Classes",
+      "topic": "Sorcerer",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Sorcerer.md",
+      "preview": "#### Flexible Casting\n\nYou can use your sorcery points to gain additional spell slots, or sacrifice spell slots to gain additional sorcery points. You learn other ways to use your sorcery points as yo"
+    },
+    {
+      "rank": 21,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "Wish",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Wish.md",
+      "preview": "### Wish\n\n*9th-level conjuration*\n\n**Casting Time:** 1 action\n\n**Range:** Self\n\n**Components:** V\n\n**Duration:** Instantaneous\n\n*Wish* is the mightiest spell a mortal creature can cast. By simply spea"
+    },
+    {
+      "rank": 22,
+      "score": 0.014925373134328358,
+      "category": "Classes",
+      "topic": "Warlock",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Warlock.md",
+      "preview": "#### Pact of the Chain\n\nYou learn the *find familiar* spell and can cast it as a ritual. The spell doesn't count against your number of spells known.\n\nWhen you cast the spell, you can choose one of th"
+    },
+    {
+      "rank": 23,
+      "score": 0.014705882352941176,
+      "category": "Classes",
+      "topic": "Wizard",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Wizard.md",
+      "preview": "#### Preparing and Casting Spells\n\nThe Wizard table shows how many spell slots you have to cast your wizard spells of 1st level and higher. To cast one of these spells, you must expend a slot of the s"
+    },
+    {
+      "rank": 24,
+      "score": 0.014492753623188406,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "### Longer Casting Times\n\nCertain spells (including spells cast as rituals) require more time to cast: minutes or even hours. When you cast a spell with a casting time longer than a single action or r"
+    },
+    {
+      "rank": 25,
+      "score": 0.016666666666666666,
+      "category": "Spells",
+      "topic": "Compulsion",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Compulsion.md",
+      "preview": "### Compulsion\n\n*4th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nCreatures of your choice that you can see wi"
+    },
+    {
+      "rank": 26,
+      "score": 0.01639344262295082,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "If you have more than one spellcasting class, this table might give you spell slots of a level that is higher than the spells you know or can prepare. You can use those slots, but only to cast your lo"
+    },
+    {
+      "rank": 27,
+      "score": 0.016129032258064516,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### 5th Level\n\n- [[Animate Objects]]\n- [[Awaken]]\n- [[Dominate Person]]\n- [[Dream]]\n- [[Geas]]\n- [[Greater Restoration]]\n- [[Hold Monster]]\n- [[Legend Lore]]\n- [[Mass Cure Wounds]]\n- [[Mislead]]\n- [["
+    },
+    {
+      "rank": 28,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### 2nd Level\n\n- [[Alter Self]]\n- [[Blindness-Deafness]]\n- [[Blur]]\n- [[Darkness]]\n- [[Darkvision]]\n- [[Detect Thoughts]]\n- [[Enhance Ability]]\n- [[Enlarge-Reduce]]\n- [[Gust of Wind]]\n- [[Hold Person"
+    },
+    {
+      "rank": 29,
+      "score": 0.015625,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### 1st Level\n\n- [[Burning Hands]]\n- [[Charm Person]]\n- [[Color Spray]]\n- [[Comprehend Languages]]\n- [[Detect Magic]]\n- [[Disguise Self]]\n- [[Expeditious Retreat]]\n- [[False Life]]\n- [[Feather Fall]]"
+    },
+    {
+      "rank": 30,
+      "score": 0.015384615384615385,
+      "category": "Spells",
+      "topic": "Dominate Person",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Dominate Person.md",
+      "preview": "### Dominate Person\n\n*5th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou attempt to beguile a humanoid that "
+    },
+    {
+      "rank": 31,
+      "score": 0.015151515151515152,
+      "category": "Monsters",
+      "topic": "Mage (NPC)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Mage (NPC).md",
+      "preview": "### Mage\n\n*Medium humanoid (any race), any alignment*\n\n**Armor Class** 12 (15 with *mage armor*)\n\n**Hit Points** 40 (9d8)\n\n**Speed** 30 ft.\n\n| STR    | DEX     | CON     | INT     | WIS     | CHA     "
+    },
+    {
+      "rank": 32,
+      "score": 0.014925373134328358,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "### Action Surge\n\nStarting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bon"
+    },
+    {
+      "rank": 33,
+      "score": 0.014705882352941176,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### 3rd Level\n\n- [[Animate Dead]]\n- [[Bestow Curse]]\n- [[Blink]]\n- [[Clairvoyance]]\n- [[Counterspell]]\n- [[Dispel Magic]]\n- [[Fear]]\n- [[Fireball]]\n- [[Fly]]\n- [[Gaseous Form]]\n- [[Glyph of Warding]]"
+    },
+    {
+      "rank": 34,
+      "score": 0.014492753623188406,
+      "category": "Spells",
+      "topic": "## Spell Lists (Wikilinked)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\## Spell Lists (Wikilinked).md",
+      "preview": "#### 5th Level\n\n- [[Animate Objects]]\n- [[Cloudkill]]\n- [[Cone of Cold]]\n- [[Creation]]\n- [[Dominate Person]]\n- [[Hold Monster]]\n- [[Insect Plague]]\n- [[Seeming]]\n- [[Telekinesis]]\n- [[Teleportation C"
+    },
+    {
+      "rank": 35,
+      "score": 0.016666666666666666,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "## Spell Level\n\nEvery spell has a level from 0 to 9. A spell's level is a general indicator of how powerful it is, with the lowly (but still impressive) *magic missile* at 1st level and the earth-shak"
+    },
+    {
+      "rank": 36,
+      "score": 0.01639344262295082,
+      "category": "Classes",
+      "topic": "Wizard",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Wizard.md",
+      "preview": "### Spell Mastery\n\nAt 18th level, you have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level wizard spell and a 2nd-level wizard spell that are in your spell"
+    },
+    {
+      "rank": 37,
+      "score": 0.016129032258064516,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "## Spellcasting\n\nYour capacity for spellcasting depends partly on your combined levels in all your spellcasting classes and partly on your individual levels in those classes. Once you have the Spellca"
+    },
+    {
+      "rank": 38,
+      "score": 0.015873015873015872,
+      "category": "Classes",
+      "topic": "Wizard",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Wizard.md",
+      "preview": "#### Preparing and Casting Spells\n\nThe Wizard table shows how many spell slots you have to cast your wizard spells of 1st level and higher. To cast one of these spells, you must expend a slot of the s"
+    },
+    {
+      "rank": 39,
+      "score": 0.015625,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "If you have more than one spellcasting class, this table might give you spell slots of a level that is higher than the spells you know or can prepare. You can use those slots, but only to cast your lo"
+    },
+    {
+      "rank": 40,
+      "score": 0.015384615384615385,
+      "category": "Classes",
+      "topic": "Druid",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Druid.md",
+      "preview": "#### Preparing and Casting Spells\n\nThe Druid table shows how many spell slots you have to cast your druid spells of 1st level and higher. To cast one of these druid spells, you must expend a slot of t"
+    },
+    {
+      "rank": 41,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "## Components\n\nA spell's components are the physical requirements you must meet in order to cast it. Each spell's description indicates whether it requires verbal (V), somatic (S), or material (M) com"
+    },
+    {
+      "rank": 42,
+      "score": 0.014925373134328358,
+      "category": "Treasure",
+      "topic": "# Magic Items",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\# Magic Items.md",
+      "preview": "### Spells\n\nSome magic items allow the user to cast a spell from the item. The spell is cast at the lowest possible spell level, doesn\u2019t expend any of the user\u2019s spell slots, and requires no component"
+    },
+    {
+      "rank": 43,
+      "score": 0.014705882352941176,
+      "category": "Spells",
+      "topic": "Identify",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Identify.md",
+      "preview": "### Identify\n\n*1st-level divination (ritual)*\n\n**Casting Time:** 1 minute\n\n**Range:** Touch\n\n**Components:** V, S, M (a pearl worth at least 100 gp and an owl feather)\n\n**Duration:** Instantaneous\n\nYo"
+    },
+    {
+      "rank": 44,
+      "score": 0.014492753623188406,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "### Casting a Spell at a Higher Level\n\nWhen a spellcaster casts a spell using a slot that is of a higher level than the spell, the spell assumes the higher level for that casting. For instance, if Uma"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 13856,
+    "rag_completion": 16152,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 6,
+    "total": 30008
+  },
+  "costs": {
+    "rag": 0.00459304,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00459304
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 26.97,
+    "total_s": 50.51
+  },
+  "answer": " Based on the context provided, no, a character cannot use Action Surge to cast two leveled spells in one turn. The Action Surge feature allows a Fighter to take one additional action on top of their regular action, but it does not specify that this additional action can be used to cast two leveled spells. Additionally, the rules state that a character can only cast one spell during one turn using a standard action or an action point, except for a cantrip with a casting time of 1 action. Therefore, even with Action Surge, a character can only cast one leveled spell per turn.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 1.0,
+      "passing": false,
+      "feedback": "The generated answer is incorrect and misrepresents the rules regarding Action Surge and spellcasting. It states that a character cannot cast two leveled spells in one turn, which contradicts the reference answer and the actual rules."
+    },
+    "context_relevancy": {
+      "error": "could not convert string to float: '2.5.'"
+    }
+  }
+}

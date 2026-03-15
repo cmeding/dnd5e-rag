@@ -1,0 +1,51 @@
+{
+  "query_id": "query_003",
+  "session_id": "10-baseline-no-rag-Overnight-30q-v1-20260315-034305",
+  "timestamp": "2026-03-15T03:43:36.120745",
+  "query": {
+    "original": "What damage type does Inflict Wounds deal?",
+    "used": "What damage type does Inflict Wounds deal?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 279,
+    "rag_completion": 495,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 774
+  },
+  "costs": {
+    "rag": 0.00012474,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00012474
+  },
+  "timings": {
+    "rag_s": null,
+    "query_s": 4.77,
+    "total_s": 5.64
+  },
+  "answer": " Inflict Wounds is a spell or ability that deals necrotic damage to a target. Necrotic damage is a type of damage that often represents decay, disease, or injury that depletes the life force of a living creature. It is typically associated with undead creatures and necromancy magic.",
+  "refused": false,
+  "confidence": {
+    "passed": null,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and provides additional context about necrotic damage, enhancing the user's understanding without deviating from the main point."
+    },
+    "context_relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    }
+  }
+}

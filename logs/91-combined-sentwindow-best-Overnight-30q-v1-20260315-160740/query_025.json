@@ -1,0 +1,138 @@
+{
+  "query_id": "query_025",
+  "session_id": "91-combined-sentwindow-best-Overnight-30q-v1-20260315-160740",
+  "timestamp": "2026-03-15T16:20:00.177968",
+  "query": {
+    "original": "Does the stunned condition prevent a creature from making saving throws?",
+    "used": "Does the stunned condition in DnD 5e affect a creature's ability to make saving throws?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06259936316685885,
+      "category": "Spells",
+      "topic": "Power Word Stun",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Power Word Stun.md",
+      "preview": "The stunned target must make a Constitution saving throw at the end of each of its turns. "
+    },
+    {
+      "rank": 2,
+      "score": 0.04842069892473118,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "A **stable** creature doesn't make death saving throws, even though it has 0 hit points, but it does remain unconscious. "
+    },
+    {
+      "rank": 3,
+      "score": 0.04798548242394585,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": "A saving throw can be modified by a situational bonus or penalty and can be affected by advantage and disadvantage, as determined by the GM.\n\n"
+    },
+    {
+      "rank": 4,
+      "score": 0.03306010928961749,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Stunned\n\n- A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly.\n"
+    },
+    {
+      "rank": 5,
+      "score": 0.031754032258064516,
+      "category": "Monsters",
+      "topic": "Pseudodragon",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Pseudodragon.md",
+      "preview": "If the saving throw fails by 5 or more, the target falls unconscious for the same duration, or until it takes damage or another creature uses an action to shake it awake."
+    },
+    {
+      "rank": 6,
+      "score": 0.031754032258064516,
+      "category": "Spells",
+      "topic": "Antipathy-Sympathy",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Antipathy-Sympathy.md",
+      "preview": "If the target damages or otherwise harms an affected creature, the affected creature can make a Wisdom saving throw to end the effect, as described below.\n\n"
+    },
+    {
+      "rank": 7,
+      "score": 0.03149801587301587,
+      "category": "Spells",
+      "topic": "Enthrall",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Enthrall.md",
+      "preview": "Any creature that can't be charmed succeeds on this saving throw automatically, and if you or your companions are fighting a creature, it has advantage on the save. "
+    },
+    {
+      "rank": 8,
+      "score": 0.03125763125763126,
+      "category": "Monsters",
+      "topic": "Sprite",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Sprite.md",
+      "preview": "If its saving throw result is 5 or lower, the poisoned target falls unconscious for the same duration, or until it takes damage or another creature takes an action to shake it awake.\n\n"
+    },
+    {
+      "rank": 9,
+      "score": 0.030798389007344232,
+      "category": "Spells",
+      "topic": "Symbol",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Symbol.md",
+      "preview": "Each target must make a Wisdom saving throw and becomes stunned for 1 minute on a failed save."
+    },
+    {
+      "rank": 10,
+      "score": 0.030309988518943745,
+      "category": "Gamemastering",
+      "topic": "Poisons",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Poisons.md",
+      "preview": "If the saving throw fails by 5 or more, the creature is also unconscious while poisoned in this way. "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1826,
+    "rag_completion": 2566,
+    "meta_prompt": 56,
+    "meta_completion": 21,
+    "total_calls": 3,
+    "total": 4469
+  },
+  "costs": {
+    "rag": 0.0006884,
+    "meta": 2.1e-05,
+    "embed": 0.0,
+    "total": 0.0007094
+  },
+  "timings": {
+    "rag_s": 14.38,
+    "query_s": 16.54,
+    "total_s": 23.38
+  },
+  "answer": " A stunned creature is incapacitated and can't move or speak clearly, but it does not affect the creature's ability to make saving throws, unless specifically stated in the effect causing the stunned condition.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06259936316685885
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and mostly correct, accurately stating that the stunned condition does not affect a creature's ability to make saving throws. However, it could be clearer by explicitly mentioning that a stunned creature automatically fails Strength and Dexterity saving throws, which is a key detail in the reference answer."
+    },
+    "context_relevancy": {
+      "score": 0.625,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context does address the stunned condition in DnD 5e, specifically mentioning that a stunned creature must make a Constitution saving throw at the end of each of its turns. This directly relates to the user's query about whether the stunned condition affects a creature's ability to make saving throws. However, the context does not explicitly state how the stunned condition impacts the ability to make saving throws in general, only that a saving throw is required at the end of the turn. Therefore, while it is relevant, it does not fully encompass the user's question.\n\n   **Score: 1.5/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The context provides some information about the saving throw a stunned creature must make, but it does not fully answer the query regarding the overall impact of the stunned condition on all saving throws. The user is asking if the stunned condition affects a creature's ability to make saving throws in general, and the context does not clarify whether the stunned condition imposes any penalties or limitations on other types of saving throws beyond the Constitution saving throw mentioned. Therefore, while it provides partial information, it cannot be used exclusively to provide a complete answer.\n\n   **Score: 1/2**\n\n**Final Feedback:** The retrieved context is relevant to the query as it discusses the stunned condition and its relation to saving throws, but it does not fully answer the question regarding the overall impact on saving throws. The context is partially informative but lacks completeness.\n\n[RESULT] 2.5"
+    }
+  }
+}

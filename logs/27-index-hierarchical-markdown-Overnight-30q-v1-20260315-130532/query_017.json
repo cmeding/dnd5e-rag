@@ -1,0 +1,138 @@
+{
+  "query_id": "query_017",
+  "session_id": "27-index-hierarchical-markdown-Overnight-30q-v1-20260315-130532",
+  "timestamp": "2026-03-15T13:09:47.508562",
+  "query": {
+    "original": "Can you use Action Surge to cast two leveled spells in one turn?",
+    "used": "Can you use Action Surge to cast two leveled spells in one turn?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Classes",
+      "topic": "Wizard",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Wizard.md",
+      "preview": "When you cast an evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 + the spell's level. The chosen creatures automatically succeed on their savi"
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "You can't concentrate on two spells at once.\n- **Taking damage.** Whenever you take damage while you are concentrating on a spell, you must make a Constitution saving throw to maintain your concentrat"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Classes",
+      "topic": "Fighter",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Fighter.md",
+      "preview": "On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level. Once you use this feature, you must finish a short or long rest before you can use it again.\n\n### Acti"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "You can't cast another spell during the same turn, except for a cantrip with a casting time of 1 action.\n\n### Reactions\n\nSome spells can be cast as reactions. These spells take a fraction of a second "
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Spells",
+      "topic": "Slow",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Slow.md",
+      "preview": "On its turn, it can use either an action or a bonus action, not both. Regardless of the creature's abilities or magic items, it can't make more than one melee or ranged attack during its turn.\n\nIf the"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "Similarly, a spellcasting focus, such as a holy symbol, can be used only for the spells from the class associated with that focus.\n\nIf a cantrip of yours increases in power at higher levels, the incre"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Classes",
+      "topic": "Sorcerer",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Sorcerer.md",
+      "preview": "You gain two of the following Metamagic options of your choice. You gain another one at 10th and 17th level.\n\nYou can use only one Metamagic option on a spell when you cast it, unless otherwise noted."
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "You gain additional uses only when you reach a class level that explicitly grants them to you. For example, if you are a cleric 6/paladin 4, you can use Channel Divinity twice between rests because yo"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "You can use those slots, but only to cast your lower-level spells. If a lower-level spell that you cast, like *burning hands*, has an enhanced effect when cast using a higher-level slot, you can use t"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Classes",
+      "topic": "Sorcerer",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Sorcerer.md",
+      "preview": "|\n\n***Converting a Spell Slot to Sorcery Points***. As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level.\n\n### Metamagic\n\nAt 3rd "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2720,
+    "rag_completion": 3074,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 5794
+  },
+  "costs": {
+    "rag": 0.00088326,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00088326
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 8.48,
+    "total_s": 17.07
+  },
+  "answer": " I cannot find this in the provided rules about Action Surge or casting spells with multiple levels in one turn. However, a Wizard can cast multiple spells during one turn using their Action Surge, but each spell must have a different casting time and cannot be an evocation spell that affects other creatures. A Sorcerer, on the other hand, can convert a spell slot to sorcery points and then use those points to cast another spell as a bonus action, effectively casting two spells in one turn.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is somewhat relevant as it discusses Action Surge and casting spells, but it contains inaccuracies and misinterpretations regarding the rules. It incorrectly states that a Wizard cannot cast two leveled spells with Action Surge and introduces unnecessary limitations that are not part of the rules. Additionally, the mention of Sorcerers and converting spell slots to sorcery points is not directly related to the user's question about Action Surge."
+    },
+    "context_relevancy": {
+      "score": 0.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context does not directly address the user's query about using Action Surge to cast two leveled spells in one turn. Instead, it provides information about spellcasting mechanics, spell effects, and features related to spellcasting, but it does not specifically mention Action Surge or the limitations on casting spells during a turn. Therefore, the context is not relevant to the specific question asked.\n\n   **Score: 0 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Since the context does not address the query about Action Surge and its interaction with spellcasting, it cannot be used to provide a full answer. The user is asking about a specific interaction between a class feature (Action Surge) and spellcasting, which is not covered in the provided context. Thus, it fails to provide any relevant information that could lead to a complete answer.\n\n   **Score: 0 points**\n\n**Final Feedback:**\nThe retrieved context fails to match the subject matter of the user's query and does not provide any relevant information that could be used to answer the question about using Action Surge to cast two leveled spells in one turn. The context is focused on spell effects and mechanics but does not address the specific interaction of Action Surge with spellcasting.\n\n[RESULT] 0.0"
+    }
+  }
+}

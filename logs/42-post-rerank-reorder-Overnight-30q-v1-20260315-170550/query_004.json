@@ -1,0 +1,98 @@
+{
+  "query_id": "query_004",
+  "session_id": "42-post-rerank-reorder-Overnight-30q-v1-20260315-170550",
+  "timestamp": "2026-03-15T17:06:29.367282",
+  "query": {
+    "original": "How long does the Haste spell last?",
+    "used": "How long does the Haste spell last?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": -1.1630003452301025,
+      "category": "Spells",
+      "topic": "Haste",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Haste.md",
+      "preview": "### Haste\n\n*3rd-level transmutation*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S, M (a shaving of licorice root)\n\n**Duration:** Concentration, up to 1 minute\n\nChoose a willin"
+    },
+    {
+      "rank": 2,
+      "score": -4.338667869567871,
+      "category": "Spells",
+      "topic": "Bestow Curse",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Bestow Curse.md",
+      "preview": "### Bestow Curse\n\n*3rd-level necromancy*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou touch a creature, and that creature must "
+    },
+    {
+      "rank": 3,
+      "score": -4.881280899047852,
+      "category": "Spells",
+      "topic": "Geas",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Geas.md",
+      "preview": "### Geas\n\n*5th-level enchantment*\n\n**Casting Time:** 1 minute\n\n**Range:** 60 feet\n\n**Components:** V\n\n**Duration:** 30 days\n\nYou place a magical command on a creature that you can see within range, fo"
+    },
+    {
+      "rank": 4,
+      "score": -4.362711429595947,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "## Duration\n\nA spell's duration is the length of time the spell persists. A duration can be expressed in rounds, minutes, hours, or even years. Some spells specify that their effects last until the sp"
+    },
+    {
+      "rank": 5,
+      "score": -4.266754627227783,
+      "category": "Spells",
+      "topic": "Modify Memory",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Modify Memory.md",
+      "preview": "### Modify Memory\n\n*5th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou attempt to reshape another creature's"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2072,
+    "rag_completion": 2211,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 4283
+  },
+  "costs": {
+    "rag": 0.00064801,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00064801
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 2.12,
+    "total_s": 8.17
+  },
+  "answer": " The Haste spell lasts for a duration of concentration, up to 1 minute.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": -1.1630003452301025
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and fully correct, accurately stating the duration of the Haste spell and that it requires concentration."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context includes information about the Haste spell, specifically its duration, which is \"Concentration, up to 1 minute.\" This directly answers the user's query about how long the Haste spell lasts.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the context provides a complete answer regarding the duration of the Haste spell without needing additional information. The relevant details are clearly stated, making it sufficient to fully address the user's question.\n\n**Feedback Summary:**\nThe retrieved context is highly relevant and directly answers the user's query about the duration of the Haste spell. It provides all necessary information without requiring further elaboration or context. Therefore, both criteria are met fully.\n\n[RESULT] 4.0"
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "query_id": "query_026",
+  "session_id": "91-combined-sentwindow-best-Overnight-30q-v1-20260315-160740",
+  "timestamp": "2026-03-15T16:20:21.380119",
+  "query": {
+    "original": "Can an incapacitated creature take reactions?",
+    "used": "Can an incapacitated creature perform reactions in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06666666666666667,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Incapacitated\n\n- An incapacitated creature can't take actions or reactions.\n\n"
+    },
+    {
+      "rank": 2,
+      "score": 0.04639423076923077,
+      "category": "Gamemastering",
+      "topic": "Poisons",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Poisons.md",
+      "preview": "The poisoned creature is incapacitated.\n\n"
+    },
+    {
+      "rank": 3,
+      "score": 0.04623878536922015,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Stunned\n\n- A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly.\n"
+    },
+    {
+      "rank": 4,
+      "score": 0.03252247488101534,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Unconscious\n\n- An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings\n- The creature drops whatever it's holding and falls prone.\n"
+    },
+    {
+      "rank": 5,
+      "score": 0.03252247488101534,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "- The creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings.\n"
+    },
+    {
+      "rank": 6,
+      "score": 0.03252247488101534,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "If the reaction interrupts another creature's turn, that creature can continue its turn right after the reaction.\n\n"
+    },
+    {
+      "rank": 7,
+      "score": 0.03149801587301587,
+      "category": "Spells",
+      "topic": "Dominate Person",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Dominate Person.md",
+      "preview": "During this time you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.\n\n"
+    },
+    {
+      "rank": 8,
+      "score": 0.03055037313432836,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Paralyzed\n\n- A paralyzed creature is incapacitated (see the condition) and can't move or speak.\n"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1624,
+    "rag_completion": 2314,
+    "meta_prompt": 52,
+    "meta_completion": 15,
+    "total_calls": 3,
+    "total": 4005
+  },
+  "costs": {
+    "rag": 0.0006183,
+    "meta": 1.6800000000000002e-05,
+    "embed": 0.0,
+    "total": 0.0006351
+  },
+  "timings": {
+    "rag_s": 14.8,
+    "query_s": 15.87,
+    "total_s": 21.2
+  },
+  "answer": " An incapacitated creature, as described in the provided rules, cannot perform actions or reactions.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06666666666666667
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and directly addresses the user query, accurately stating that an incapacitated creature cannot perform actions or reactions."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query about whether an incapacitated creature can perform reactions in DnD 5e. The context clearly states that \"an incapacitated creature can't take actions or reactions,\" which is the core of the user's question. This provides a definitive answer to the query.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the retrieved context is sufficient to provide a full answer to the user's query. It explicitly states that an incapacitated creature cannot perform reactions, which directly answers the question without needing additional information. The context is clear and concise, making it easy to understand.\n\n**Feedback Summary:**  \nThe retrieved context is highly relevant and directly answers the user's query about the capabilities of an incapacitated creature in DnD 5e. It provides a complete answer without requiring further elaboration or additional sources.\n\n[RESULT] 4.0"
+    }
+  }
+}

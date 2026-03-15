@@ -1,0 +1,51 @@
+{
+  "query_id": "query_016",
+  "session_id": "10-baseline-no-rag-Overnight-30q-v1-20260315-034305",
+  "timestamp": "2026-03-15T03:46:08.857581",
+  "query": {
+    "original": "Does a natural 20 on an attack roll automatically deal maximum damage?",
+    "used": "Does a natural 20 on an attack roll automatically deal maximum damage?"
+  },
+  "retrieved_nodes": [],
+  "tokens": {
+    "rag_prompt": 286,
+    "rag_completion": 539,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 825
+  },
+  "costs": {
+    "rag": 0.00013387000000000002,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00013387000000000002
+  },
+  "timings": {
+    "rag_s": null,
+    "query_s": 5.32,
+    "total_s": 6.6
+  },
+  "answer": " In most editions of Dungeons & Dragons, a natural 20 on an attack roll does not automatically mean that the maximum damage is dealt. However, some weapons, spells, or special abilities may specify that a natural 20 hit deals maximum damage. It's essential to consult the specific rules of your game to determine how damage is calculated in your campaign.",
+  "refused": false,
+  "confidence": {
+    "passed": null,
+    "best_score": null
+  },
+  "evaluation": {
+    "faithfulness": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant and mostly correct, but it introduces unnecessary complexity by mentioning other editions and specific cases without clearly stating that a natural 20 does not automatically deal maximum damage in the current edition (5e). It could be more concise and focused on the question asked."
+    },
+    "context_relevancy": {
+      "error": "'CompletionResponse' object has no attribute 'response'"
+    }
+  }
+}

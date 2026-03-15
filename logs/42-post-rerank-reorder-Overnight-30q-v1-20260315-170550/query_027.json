@@ -1,0 +1,98 @@
+{
+  "query_id": "query_027",
+  "session_id": "42-post-rerank-reorder-Overnight-30q-v1-20260315-170550",
+  "timestamp": "2026-03-15T17:11:05.992226",
+  "query": {
+    "original": "If a creature is immune to the frightened condition, can it still be charmed?",
+    "used": "If a creature is immune to the frightened condition, can it still be charmed?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": -3.2888097763061523,
+      "category": "Classes",
+      "topic": "Druid",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Druid.md",
+      "preview": "#### Nature's Ward\n\nWhen you reach 10th level, you can't be charmed or frightened by elementals or fey, and you are immune to poison and disease."
+    },
+    {
+      "rank": 2,
+      "score": -4.341737747192383,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "#### Mindless Rage\n\nBeginning at 6th level, you can't be charmed or frightened while raging. If you are charmed or frightened when you enter your rage, the effect is suspended for the duration of the "
+    },
+    {
+      "rank": 3,
+      "score": -6.386996746063232,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Frightened\n\n- A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\n- The creature can't willingly move closer to the sourc"
+    },
+    {
+      "rank": 4,
+      "score": -4.788414001464844,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Charmed\n\n- A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.\n- The charmer has advantage on any ability check to interact socially with th"
+    },
+    {
+      "rank": 5,
+      "score": -4.230233192443848,
+      "category": "Spells",
+      "topic": "Antipathy-Sympathy",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Antipathy-Sympathy.md",
+      "preview": "### Antipathy/Sympathy\n\n*8th-level enchantment*\n\n**Casting Time:** 1 hour\n\n**Range:** 60 feet\n\n**Components:** V, S, M (either a lump of alum soaked in vinegar for the *antipathy* effect or a drop of "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1383,
+    "rag_completion": 1710,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 3093
+  },
+  "costs": {
+    "rag": 0.00047703,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00047703
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 7.43,
+    "total_s": 16.34
+  },
+  "answer": " Based on the provided rules, a creature that is immune to the frightened condition can still be charmed. The rules for the Druid's Nature's Ward ability and the Barbarian's Path of the Berserker's Mindless Rage ability only grant immunity to the frightened condition, not to the charmed condition. Therefore, a creature that is immune to being frightened can still be charmed and subjected to the effects of the Antipathy/Sympathy spell.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": -3.2888097763061523
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and correctly states that a creature immune to the frightened condition can still be charmed. It provides additional context about specific abilities, which is informative, but the mention of the Antipathy/Sympathy spell, while relevant, is somewhat extraneous to the core question. Overall, it is accurate and well-explained."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context does provide relevant information regarding the conditions of being charmed and frightened, specifically mentioning abilities and spells that relate to these conditions. However, it does not directly address the specific question of whether a creature that is immune to the frightened condition can still be charmed. The context discusses immunity to being charmed or frightened in certain scenarios but does not clarify the relationship between these two conditions in the context of immunity. Therefore, while there is some relevant information, it does not fully match the subject matter of the user's query.\n\n   **Score: 1/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The context does not provide a complete answer to the user's query. While it discusses the frightened and charmed conditions, it does not explicitly state whether immunity to one condition affects the other. The information provided is insufficient to conclude definitively whether a creature immune to being frightened can still be charmed. Additional rules or clarifications from the Player's Handbook or other official sources would be necessary to fully answer the question.\n\n   **Score: 0/2**\n\n**Final Feedback:** The retrieved context contains some relevant information about the frightened and charmed conditions but fails to directly answer the user's query regarding the interaction between these two conditions. It lacks the necessary clarity to provide a complete answer, resulting in a low score.\n\n[RESULT] 1.0"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "query_id": "query_017",
+  "session_id": "61-context-consolidation-Overnight-30q-v1-20260315-145355",
+  "timestamp": "2026-03-15T14:58:07.048804",
+  "query": {
+    "original": "Can you use Action Surge to cast two leveled spells in one turn?",
+    "used": "Can you use Action Surge to cast two leveled spells in one turn?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, the Action Surge feature allows a character to take one additional action on their turn, in addition to their regular action and any bonus action. However, once Acti"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1165,
+    "rag_completion": 3359,
+    "meta_prompt": 1501,
+    "meta_completion": 290,
+    "total_calls": 2,
+    "total": 6315
+  },
+  "costs": {
+    "rag": 0.00076636,
+    "meta": 0.00039914999999999997,
+    "embed": 0.0,
+    "total": 0.00116551
+  },
+  "timings": {
+    "rag_s": 5.12,
+    "query_s": 9.94,
+    "total_s": 17.18
+  },
+  "answer": " I cannot find this in the provided rules. The rules state that when using Action Surge to take an additional action, you can only cast one leveled spell (with a casting time of 1 action) and one bonus action spell, but not two leveled spells in the same turn.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains incorrect information regarding the use of Action Surge and casting leveled spells. It misinterprets the rules, leading to a misunderstanding of what is allowed."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the user's query about whether Action Surge can be used to cast two leveled spells in one turn. It explains the mechanics of Action Surge and the rules regarding spell casting, particularly the limitations on casting spells with a bonus action. This is relevant to the question being asked.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a comprehensive answer to the query. It explains that while Action Surge allows for an additional action, the rules governing spell casting prevent the casting of two leveled spells in one turn. It also mentions the possibility of casting a bonus action spell alongside a leveled spell, which adds depth to the answer. The information is sufficient to fully address the user's question without needing additional context.\n\n   **Score: 2/2**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

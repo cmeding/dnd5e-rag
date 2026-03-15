@@ -1,0 +1,66 @@
+{
+  "query_id": "query_007",
+  "session_id": "61-context-consolidation-Overnight-30q-v1-20260315-145355",
+  "timestamp": "2026-03-15T14:55:31.954888",
+  "query": {
+    "original": "Can a frightened creature take the Dash action?",
+    "used": "Can a frightened creature take the Dash action?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, a frightened creature experiences specific limitations. It has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight, "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 994,
+    "rag_completion": 3470,
+    "meta_prompt": 1930,
+    "meta_completion": 201,
+    "total_calls": 2,
+    "total": 6595
+  },
+  "costs": {
+    "rag": 0.00076864,
+    "meta": 0.0004101,
+    "embed": 0.0,
+    "total": 0.00117874
+  },
+  "timings": {
+    "rag_s": 4.72,
+    "query_s": 7.8,
+    "total_s": 14.92
+  },
+  "answer": " Yes, a frightened creature can take the Dash action, but it must move away from the source of its fear while doing so.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and mostly correct, as it states that a frightened creature can take the Dash action. However, it inaccurately implies that the creature must move away from the source of fear while dashing, which is not a requirement of the frightened condition. The reference answer clarifies that the creature cannot move closer to the source of fear, but it can move in any other direction."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query about whether a frightened creature can take the Dash action. It explains the limitations imposed by the frightened condition and clarifies that while a frightened creature can take the Dash action, it must do so in a specific manner\u2014namely, moving away from the source of its fear. This directly relates to the user's question.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a comprehensive answer to the query. It not only confirms that a frightened creature can take the Dash action but also elaborates on the conditions and restrictions that apply when doing so. The explanation includes examples of how the frightened condition affects movement, which is relevant and necessary for a full understanding of the situation. Therefore, the context is sufficient to fully answer the user's question without needing additional information.\n\n   **Score: 2/2**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

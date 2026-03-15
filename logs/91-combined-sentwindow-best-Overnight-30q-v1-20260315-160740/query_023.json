@@ -1,0 +1,138 @@
+{
+  "query_id": "query_023",
+  "session_id": "91-combined-sentwindow-best-Overnight-30q-v1-20260315-160740",
+  "timestamp": "2026-03-15T16:19:06.521308",
+  "query": {
+    "original": "How many languages does a standard Human character speak at character creation?",
+    "used": "How many languages does a standard Human character know at 1st level in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.03333333333333333,
+      "category": "Characterizations",
+      "topic": "Languages",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Languages.md",
+      "preview": "**Table- Standard Languages**\n\n| Language | Typical Speakers | Script   |\n|----------|------------------|----------|\n| Common   | Humans           | Common   |\n| Dwarvish | Dwarves          | Dwarvish"
+    },
+    {
+      "rank": 2,
+      "score": 0.03229166666666666,
+      "category": "Characterizations",
+      "topic": "Beyond 1st Level",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Beyond 1st Level.md",
+      "preview": "The Character Advancement table summarizes the XP you need to advance in levels from level 1 through level 20, and the proficiency bonus for a character of that level. "
+    },
+    {
+      "rank": 3,
+      "score": 0.03125763125763126,
+      "category": "Characterizations",
+      "topic": "Beyond 1st Level",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Beyond 1st Level.md",
+      "preview": "In addition, every character's proficiency bonus increases at certain levels.\n\n"
+    },
+    {
+      "rank": 4,
+      "score": 0.030886196246139225,
+      "category": "Races",
+      "topic": "Human",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Races\\Human.md",
+      "preview": "# Human\n\n### Human Traits\n\nIt's hard to make generalizations about humans, but your human character has these traits.\n\n"
+    },
+    {
+      "rank": 5,
+      "score": 0.016666666666666666,
+      "category": "Treasure",
+      "topic": "Rod of Absorption",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Rod of Absorption.md",
+      "preview": "When you become attuned to the rod, you know how many levels of energy the rod has absorbed over the course of its existence, and how many levels of spell energy it currently has stored.\n\n"
+    },
+    {
+      "rank": 6,
+      "score": 0.01639344262295082,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "For example, if you are the aforementioned ranger 4/wizard 3, you count as a 5th-level character when determining your spell slots: you have four 1st-level slots, three 2nd-level slots, and two 3rd-le"
+    },
+    {
+      "rank": 7,
+      "score": 0.01639344262295082,
+      "category": "Gamemastering",
+      "topic": "Traps",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Traps.md",
+      "preview": "## Traps in Play\n\nWhen adventurers come across a trap, you need to know how the trap is triggered and what it does, as well as the possibility for the characters to detect the trap and to disable or a"
+    },
+    {
+      "rank": 8,
+      "score": 0.01639344262295082,
+      "category": "Monsters",
+      "topic": "Oni",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Oni.md",
+      "preview": "| STR     | DEX     | CON     | INT     | WIS     | CHA     |\n|---------|---------|---------|---------|---------|---------|\n| 19 (+4) | 11 (+0) | 16 (+3) | 14 (+2) | 12 (+1) | 15 (+2) |\n\n**Saving Thro"
+    },
+    {
+      "rank": 9,
+      "score": 0.016129032258064516,
+      "category": "Classes",
+      "topic": "Bard",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Bard.md",
+      "preview": "#### Hit Points\n\n**Hit Dice:** 1d8 per bard level\n\n**Hit Points at 1st Level:** 8 + your Constitution modifier\n\n**Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per bard level "
+    },
+    {
+      "rank": 10,
+      "score": 0.016129032258064516,
+      "category": "Classes",
+      "topic": "Rogue",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Rogue.md",
+      "preview": "### Sneak Attack\n\nBeginning at 1st level, you know how to strike subtly and exploit a foe's distraction. "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 3435,
+    "rag_completion": 4177,
+    "meta_prompt": 57,
+    "meta_completion": 22,
+    "total_calls": 3,
+    "total": 7691
+  },
+  "costs": {
+    "rag": 0.00117148,
+    "meta": 2.175e-05,
+    "embed": 0.0,
+    "total": 0.00119323
+  },
+  "timings": {
+    "rag_s": 17.61,
+    "query_s": 18.54,
+    "total_s": 26.57
+  },
+  "answer": " A standard Human character knows Common language at 1st level in DnD 5e, according to the context provided.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.03333333333333333
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but is incomplete. It correctly states that a standard Human knows Common, but it fails to mention the additional language that a Human can choose, which is a key part of the answer."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context includes information about languages, specifically a table listing standard and exotic languages, as well as some details about human traits. However, it does not explicitly state how many languages a standard Human character knows at 1st level. In D&D 5e, a Human character typically knows Common and one additional language of their choice. The context does not provide this specific information directly, which is crucial to answering the query. Therefore, while there is relevant information about languages, it does not fully match the user's query.\n\n   **Score: 1/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does not provide a complete answer to the query regarding how many languages a standard Human character knows at 1st level. While it includes tables of languages, it lacks the specific detail that Humans know Common and one additional language. Thus, the context cannot be used exclusively to answer the user's query.\n\n   **Score: 0/2**\n\n**Final Feedback:**\nThe retrieved context contains relevant information about languages in D&D 5e but fails to provide the specific answer to the query about how many languages a standard Human character knows at 1st level. The absence of this critical detail means that the context is insufficient to fully answer the question.\n\n**Final Result:** [RESULT] 1.0"
+    }
+  }
+}

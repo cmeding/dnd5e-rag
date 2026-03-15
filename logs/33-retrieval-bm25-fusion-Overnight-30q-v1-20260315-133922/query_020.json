@@ -1,0 +1,138 @@
+{
+  "query_id": "query_020",
+  "session_id": "33-retrieval-bm25-fusion-Overnight-30q-v1-20260315-133922",
+  "timestamp": "2026-03-15T13:47:38.304807",
+  "query": {
+    "original": "Can a Druid wear metal armor?",
+    "used": "Can a Druid wear metal armor?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06434294871794871,
+      "category": "Classes",
+      "topic": "Druid",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Druid.md",
+      "preview": "#### Proficiencies\n\n**Armor:** Light armor, medium armor, shields (druids will not wear armor or use shields made of metal)\n\n**Weapons:** Clubs, daggers, darts, javelins, maces, quarterstaffs, scimita"
+    },
+    {
+      "rank": 2,
+      "score": 0.06220746363061354,
+      "category": "Classes",
+      "topic": "Druid",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Druid.md",
+      "preview": "#### Equipment\n\nYou start with the following equipment, in addition to the equipment granted by your background:\n\n- (*a*) a wooden shield or (*b*) any simple weapon\n- (*a*) a scimitar or (*b*) any sim"
+    },
+    {
+      "rank": 3,
+      "score": 0.04696394686907021,
+      "category": "Equipment",
+      "topic": "Armor",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Armor.md",
+      "preview": "## Medium Armor\n\nMedium armor offers more protection than light armor, but it also impairs movement more. If you wear medium armor, you add your Dexterity modifier, to a maximum of +2, to the base num"
+    },
+    {
+      "rank": 4,
+      "score": 0.046153846153846156,
+      "category": "Equipment",
+      "topic": "Armor",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Armor.md",
+      "preview": "# Armor\n\nFantasy gaming worlds are a vast tapestry made up of many different cultures, each with its own technology level. For this reason, adventurers have access to a variety of armor types, ranging"
+    },
+    {
+      "rank": 5,
+      "score": 0.03278688524590164,
+      "category": "Classes",
+      "topic": "Druid",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Druid.md",
+      "preview": "- When you transform, you assume the beast's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert"
+    },
+    {
+      "rank": 6,
+      "score": 0.03278688524590164,
+      "category": "Characterizations",
+      "topic": "Multiclassing",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Characterizations\\Multiclassing.md",
+      "preview": "## Proficiencies\n\nWhen you gain your first level in a class other than your initial class, you gain only some of new class's starting proficiencies, as shown in the Multiclassing Proficiencies table.\n"
+    },
+    {
+      "rank": 7,
+      "score": 0.032539682539682535,
+      "category": "Treasure",
+      "topic": "# Magic Items",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\# Magic Items.md",
+      "preview": "## Wearing and Wielding Items\n\nUsing a magic item\u2019s properties might mean wearing or wielding it. A magic item meant to be worn must be donned in the intended fashion: boots go on the feet, gloves on "
+    },
+    {
+      "rank": 8,
+      "score": 0.03200204813108039,
+      "category": "Monsters",
+      "topic": "Druid (NPC)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Druid (NPC).md",
+      "preview": "### Druid\n\n*Medium humanoid (any race), any alignment*\n\n**Armor Class** 11 (16 with *barkskin*)\n\n**Hit Points** 27 (5d8 + 5)\n\n**Speed** 30 ft.\n\n| STR     | DEX     | CON     | INT     | WIS     | CHA "
+    },
+    {
+      "rank": 9,
+      "score": 0.031746031746031744,
+      "category": "Spells",
+      "topic": "Heat Metal",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Heat Metal.md",
+      "preview": "### Heat Metal\n\n*2nd-level transmutation*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S, M (a piece of iron and a flame)\n\n**Duration:** Concentration, up to 1 minute\n\nChoose a "
+    },
+    {
+      "rank": 10,
+      "score": 0.03125,
+      "category": "Monsters",
+      "topic": "Gray Ooze",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Gray Ooze.md",
+      "preview": "###### Actions\n\n***Pseudopod***. *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6+1) bludgeoning damage plus 7 (2d6) acid damage, and if the target is wearing nonmagical metal "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 4254,
+    "rag_completion": 4811,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 9065
+  },
+  "costs": {
+    "rag": 0.00138203,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00138203
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 14.56,
+    "total_s": 20.76
+  },
+  "answer": " Based on the context provided, Druids are not proficient in wearing or using metal armor. Therefore, they cannot wear metal armor.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06434294871794871
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains inaccuracies. It incorrectly states that Druids cannot wear metal armor, while the reference answer clarifies that they can wear it but traditionally do not due to class ethos."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the retrieved context directly addresses the query about whether a Druid can wear metal armor. It explicitly states that \"druids will not wear armor or use shields made of metal,\" which is a clear and direct answer to the question. This context is relevant and provides the necessary information regarding the Druid's restrictions on armor types.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - Yes, the retrieved context can be used to provide a full answer to the user's query. The statement regarding Druids not wearing metal armor is definitive and does not require additional information to clarify or expand upon the answer. The context is sufficient on its own to answer the question completely.\n\n**Feedback Summary:**\nThe retrieved context is highly relevant and directly answers the query about Druids and metal armor. It provides a clear prohibition against wearing metal armor, which is the crux of the question. Additionally, the context is comprehensive enough to stand alone without needing further elaboration.\n\n[RESULT] 4.0"
+    }
+  }
+}

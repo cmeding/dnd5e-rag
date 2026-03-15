@@ -1,0 +1,138 @@
+{
+  "query_id": "query_029",
+  "session_id": "91-combined-sentwindow-best-Overnight-30q-v1-20260315-160740",
+  "timestamp": "2026-03-15T16:21:50.473639",
+  "query": {
+    "original": "Does a Barbarian lose their Rage bonus damage if they cast a spell while raging?",
+    "used": "Does a Barbarian retain their Rage bonus damage when casting a spell while raging in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.06558258417063283,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "If you are able to cast spells, you can't cast them or concentrate on them while raging.\n\n"
+    },
+    {
+      "rank": 2,
+      "score": 0.06111502876208759,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "### Relentless Rage\n\nStarting at 11th level, your rage can keep you fighting despite grievous wounds. "
+    },
+    {
+      "rank": 3,
+      "score": 0.059954257293647305,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "On your turn, you can enter a rage as a bonus action.\n\n"
+    },
+    {
+      "rank": 4,
+      "score": 0.04814747488101534,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "- When you make a melee weapon attack using Strength, you gain a bonus to the damage roll that increases as you gain levels as a barbarian, as shown in the Rage Damage column of the Barbarian table.\n"
+    },
+    {
+      "rank": 5,
+      "score": 0.04769119769119769,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "#### Mindless Rage\n\nBeginning at 6th level, you can't be charmed or frightened while raging. "
+    },
+    {
+      "rank": 6,
+      "score": 0.04762704813108039,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "If you are charmed or frightened when you enter your rage, the effect is suspended for the duration of the rage.\n\n"
+    },
+    {
+      "rank": 7,
+      "score": 0.04525625548726953,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "### Persistent Rage\n\nBeginning at 15th level, your rage is so fierce that it ends early only if you fall unconscious or if you choose to end it.\n\n"
+    },
+    {
+      "rank": 8,
+      "score": 0.032266458495966696,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "Once you have raged the number of times shown for your barbarian level in the Rages column of the Barbarian table, you must finish a long rest before you can rage again.\n\n"
+    },
+    {
+      "rank": 9,
+      "score": 0.031009615384615385,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. "
+    },
+    {
+      "rank": 10,
+      "score": 0.030621785881252923,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "If you drop to 0 hit points while you're raging and don't die outright, you can make a DC 10 Constitution saving throw. "
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1789,
+    "rag_completion": 2621,
+    "meta_prompt": 61,
+    "meta_completion": 23,
+    "total_calls": 3,
+    "total": 4494
+  },
+  "costs": {
+    "rag": 0.00069478,
+    "meta": 2.295e-05,
+    "embed": 0.0,
+    "total": 0.00071773
+  },
+  "timings": {
+    "rag_s": 18.16,
+    "query_s": 21.46,
+    "total_s": 28.41
+  },
+  "answer": " No, a Barbarian does not retain their Rage bonus damage when casting a spell while raging in DnD 5e. According to the provided rules, if you are able to cast spells, you can't cast them or concentrate on them while raging.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.06558258417063283
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query but contains a significant mistake. It incorrectly states that a Barbarian cannot retain Rage bonus damage when casting spells, implying that they can cast spells while raging, which contradicts the rules. The reference answer correctly states that a Barbarian cannot cast spells at all while raging."
+    },
+    "context_relevancy": {
+      "score": 0.25,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context does touch on the subject matter of the query, specifically mentioning that if you are able to cast spells, you cannot cast them or concentrate on them while raging. This implies that a Barbarian cannot cast spells while raging, which is directly relevant to the question about retaining Rage bonus damage when casting a spell. However, it does not explicitly address the question of whether a Barbarian retains their Rage bonus damage while casting a spell, as it states that casting spells is not possible during rage.\n\n   **Score: 1 point** (The context is relevant but does not fully address the query.)\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The context provided cannot be used to give a full answer to the user's query. While it indicates that a Barbarian cannot cast spells while raging, it does not clarify what happens to the Rage bonus damage in the context of casting spells. Since the query specifically asks about the retention of Rage bonus damage while casting a spell, and the context does not provide that information, it is insufficient to answer the question fully.\n\n   **Score: 0 points** (The context does not provide a complete answer to the query.)\n\n**Final Feedback:** The retrieved context is partially relevant as it discusses the relationship between raging and spellcasting, but it fails to directly answer the user's question about Rage bonus damage. Therefore, while it provides some useful information, it does not suffice to fully address the query.\n\n[RESULT] 1.0"
+    }
+  }
+}

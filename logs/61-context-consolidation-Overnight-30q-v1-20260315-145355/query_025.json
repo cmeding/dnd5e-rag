@@ -1,0 +1,66 @@
+{
+  "query_id": "query_025",
+  "session_id": "61-context-consolidation-Overnight-30q-v1-20260315-145355",
+  "timestamp": "2026-03-15T15:00:16.911409",
+  "query": {
+    "original": "Does the stunned condition prevent a creature from making saving throws?",
+    "used": "Does the stunned condition prevent a creature from making saving throws?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "The stunned condition in Dungeons & Dragons 5th Edition has specific effects on a creature's abilities. A stunned creature is incapacitated, cannot move, and can only speak falteringly. Importantly, a"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1254,
+    "rag_completion": 3443,
+    "meta_prompt": 1557,
+    "meta_completion": 202,
+    "total_calls": 2,
+    "total": 6456
+  },
+  "costs": {
+    "rag": 0.0007921100000000001,
+    "meta": 0.00035475,
+    "embed": 0.0,
+    "total": 0.00114686
+  },
+  "timings": {
+    "rag_s": 4.18,
+    "query_s": 7.21,
+    "total_s": 17.65
+  },
+  "answer": " No, the stunned condition does not prevent a creature from making saving throws in total. However, it specifically negates the ability to succeed on Strength and Dexterity saving throws.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant and correctly states that the stunned condition does not prevent saving throws. However, it inaccurately implies that the stunned condition negates the ability to succeed on Strength and Dexterity saving throws, which is misleading. The reference answer clarifies that a stunned creature automatically fails those specific saving throws, but it can still attempt them."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the user's query about the stunned condition and its effects on saving throws. It explains that a stunned creature automatically fails all Strength and Dexterity saving throws, which is the core of the user's question. The context also provides additional information about the general nature of saving throws, which is relevant but not strictly necessary for answering the query.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the retrieved context can be used to provide a full answer to the user's query. It clearly states that the stunned condition prevents a creature from succeeding on Strength and Dexterity saving throws, which is the specific information needed. While it elaborates on the nature of saving throws in general, the essential answer regarding the stunned condition is complete and accurate.\n\n**Feedback:**  \nThe retrieved context is highly relevant and provides a comprehensive answer to the query. It not only confirms that the stunned condition affects saving throws but also specifies which types of saving throws are impacted. The additional context about saving throws in general enhances understanding but is not necessary for answering the specific question. Overall, the response is clear, accurate, and directly related to the query.\n\n[RESULT] 4.0"
+    }
+  }
+}

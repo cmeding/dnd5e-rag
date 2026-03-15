@@ -1,0 +1,178 @@
+{
+  "query_id": "query_020",
+  "session_id": "35-retrieval-topk15-Overnight-30q-v1-20260315-135829",
+  "timestamp": "2026-03-15T14:03:19.976955",
+  "query": {
+    "original": "Can a Druid wear metal armor?",
+    "used": "Can a Druid wear metal armor?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Treasure",
+      "topic": "# Magic Items",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\# Magic Items.md",
+      "preview": "## Wearing and Wielding Items\n\nUsing a magic item\u2019s properties might mean wearing or wielding it. A magic item meant to be worn must be donned in the intended fashion: boots go on the feet, gloves on "
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Classes",
+      "topic": "Druid",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Druid.md",
+      "preview": "- When you transform, you assume the beast's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert"
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Classes",
+      "topic": "Druid",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Druid.md",
+      "preview": "#### Equipment\n\nYou start with the following equipment, in addition to the equipment granted by your background:\n\n- (*a*) a wooden shield or (*b*) any simple weapon\n- (*a*) a scimitar or (*b*) any sim"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Monsters",
+      "topic": "Druid (NPC)",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Druid (NPC).md",
+      "preview": "### Druid\n\n*Medium humanoid (any race), any alignment*\n\n**Armor Class** 11 (16 with *barkskin*)\n\n**Hit Points** 27 (5d8 + 5)\n\n**Speed** 30 ft.\n\n| STR     | DEX     | CON     | INT     | WIS     | CHA "
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Monsters",
+      "topic": "# Monster Statistics",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\# Monster Statistics.md",
+      "preview": "## Equipment\n\nA stat block rarely refers to equipment, other than armor or weapons used by a monster. A creature that customarily wears clothes, such as a humanoid, is assumed to be dressed appropriat"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Classes",
+      "topic": "Druid",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Druid.md",
+      "preview": "#### Proficiencies\n\n**Armor:** Light armor, medium armor, shields (druids will not wear armor or use shields made of metal)\n\n**Weapons:** Clubs, daggers, darts, javelins, maces, quarterstaffs, scimita"
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Equipment",
+      "topic": "Gear",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Gear.md",
+      "preview": "***Component Pouch***. A component pouch is a small, watertight leather belt pouch that has compartments to hold all the material components and other special items you need to cast your spells, excep"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Treasure",
+      "topic": "# Magic Items",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\# Magic Items.md",
+      "preview": "### Multiple Items of the Same Kind\n\nUse common sense to determine whether more than one of a given kind of magic item can be worn. A character can\u2019t normally wear more than one pair of footwear, one "
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Equipment",
+      "topic": "Armor",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Armor.md",
+      "preview": "## Medium Armor\n\nMedium armor offers more protection than light armor, but it also impairs movement more. If you wear medium armor, you add your Dexterity modifier, to a maximum of +2, to the base num"
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Treasure",
+      "topic": "Plate Armor of Etherealness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Plate Armor of Etherealness.md",
+      "preview": "### Plate Armor of Etherealness\n\n*Armor (plate), legendary (requires attunement)*\n\nWhile you're wearing this armor, you can speak its command word as an action to gain the effect of the *etherealness*"
+    },
+    {
+      "rank": 11,
+      "score": 0.014285714285714285,
+      "category": "Classes",
+      "topic": "Druid",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Druid.md",
+      "preview": "### Beast Spells\n\nBeginning at 18th level, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in "
+    },
+    {
+      "rank": 12,
+      "score": 0.014084507042253521,
+      "category": "Equipment",
+      "topic": "Armor",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Equipment\\Armor.md",
+      "preview": "# Armor\n\nFantasy gaming worlds are a vast tapestry made up of many different cultures, each with its own technology level. For this reason, adventurers have access to a variety of armor types, ranging"
+    },
+    {
+      "rank": 13,
+      "score": 0.013888888888888888,
+      "category": "Treasure",
+      "topic": "Armor of Invulnerability",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Armor of Invulnerability.md",
+      "preview": "### Armor of Invulnerability\n\n*Armor (plate), legendary (requires attunement)*\n\nYou have resistance to nonmagical damage while you wear this armor. Additionally, you can use an action to make yourself"
+    },
+    {
+      "rank": 14,
+      "score": 0.0136986301369863,
+      "category": "Monsters",
+      "topic": "Elf, Drow",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Elf, Drow.md",
+      "preview": "## Elf, Drow\n\n*Medium humanoid (elf), neutral evil*\n\n**Armor Class** 15 (chain shirt)\n\n**Hit Points** 13 (3d8)\n\n**Speed** 30 ft.\n\n| STR     | DEX     | CON     | INT     | WIS     | CHA     |\n|-------"
+    },
+    {
+      "rank": 15,
+      "score": 0.013513513513513514,
+      "category": "Classes",
+      "topic": "Barbarian",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Barbarian.md",
+      "preview": "### Unarmored Defense\n\nWhile you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit."
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 5494,
+    "rag_completion": 6046,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 2,
+    "total": 11540
+  },
+  "costs": {
+    "rag": 0.0017530800000000002,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0017530800000000002
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 9.77,
+    "total_s": 17.65
+  },
+  "answer": " Druids are not restricted from wearing metal armor when not assuming a beast shape based on the given context. However, the ability to use etherealness while wearing a plate armor is exclusive to that specific armor and not a general ability for Druids.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "relevancy": {
+      "score": 0.0,
+      "passing": false,
+      "feedback": "NO"
+    },
+    "correctness": {
+      "score": 2.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query about Druids wearing metal armor, but it contains inaccuracies. It incorrectly implies that Druids can use etherealness while wearing plate armor, which is not a standard ability associated with Druids. Additionally, it does not mention the traditional ethos of Druids against wearing metal armor, which is a key aspect of the reference answer."
+    },
+    "context_relevancy": {
+      "score": 0.75,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context discusses various aspects of wearing and wielding items, including armor types and the general rules surrounding them. However, it specifically mentions that \"druids will not wear armor or use shields made of metal.\" This directly addresses the user's query about whether a druid can wear metal armor. Therefore, the context is relevant to the subject matter of the query.\n\n   **Score: 2 points**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context provides a clear answer to the query by stating that druids do not wear metal armor. However, it does not elaborate on the reasons behind this restriction or provide additional context about armor types available to druids. While it does answer the question, it lacks comprehensive detail that could enhance understanding. Thus, while it can provide a direct answer, it does not fully explore the topic.\n\n   **Score: 1 point**\n\n**Final Result: [RESULT] 3.0**"
+    }
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "query_id": "query_010",
+  "session_id": "52-transform-decomposition-Overnight-30q-v1-20260315-143000",
+  "timestamp": "2026-03-15T14:34:13.327954",
+  "query": {
+    "original": "Does being charmed prevent a creature from attacking non-charmers?",
+    "used": "Does being charmed prevent a creature from attacking non-charmers?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": null,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "Sub question: What does the charmed condition do?\nResponse:  A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects. The charmer has advantage on a"
+    },
+    {
+      "rank": 2,
+      "score": null,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "Sub question: Are there any specific rules about attacking while charmed?\nResponse:  A charmed creature cannot attack the charmer or target the charmer with harmful abilities or magical effects (Conte"
+    },
+    {
+      "rank": 3,
+      "score": null,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "Sub question: What are the effects of the charmed condition on a creature's behavior?\nResponse:  A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical eff"
+    },
+    {
+      "rank": 4,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Charmed\n\n- A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.\n- The charmer has advantage on any ability check to interact socially with th"
+    },
+    {
+      "rank": 5,
+      "score": 0.01639344262295082,
+      "category": "Spells",
+      "topic": "Charm Person",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Charm Person.md",
+      "preview": "### Charm Person\n\n*1st-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S\n\n**Duration:** 1 hour\n\nYou attempt to charm a humanoid you can see within range. It must"
+    },
+    {
+      "rank": 6,
+      "score": 0.016129032258064516,
+      "category": "Spells",
+      "topic": "Modify Memory",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Modify Memory.md",
+      "preview": "### Modify Memory\n\n*5th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou attempt to reshape another creature's"
+    },
+    {
+      "rank": 7,
+      "score": 0.015873015873015872,
+      "category": "Treasure",
+      "topic": "Glamoured Studded Leather",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Glamoured Studded Leather.md",
+      "preview": "### Glamoured Studded Leather\n\n*Armor (studded leather), rare*\n\nWhile wearing this armor, you gain a +1 bonus to AC. You can also use a bonus action to speak the armor's command word and cause the arm"
+    },
+    {
+      "rank": 8,
+      "score": 0.015625,
+      "category": "Treasure",
+      "topic": "## Sentient Magic",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\## Sentient Magic.md",
+      "preview": "### Conflict\n\nA sentient item has a will of its own, shaped by its personality and alignment. If its wielder acts in a manner opposed to the item's alignment or purpose, conflict can arise. When such "
+    },
+    {
+      "rank": 9,
+      "score": 0.015384615384615385,
+      "category": "Monsters",
+      "topic": "Dryad",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Dryad.md",
+      "preview": "###### Actions\n\n***Club***. *Melee Weapon Attack:* +2 to hit (+6 to hit with *shillelagh*), reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage, or 8 (1d8+4) bludgeoning damage with *shillelagh"
+    },
+    {
+      "rank": 10,
+      "score": 0.015151515151515152,
+      "category": "Gamemastering",
+      "topic": "Madness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Madness.md",
+      "preview": "The confusion effect lasts for 1 minute.            |\n| 91-95  | The character loses the ability to speak.                                                                                              "
+    },
+    {
+      "rank": 11,
+      "score": 0.014925373134328358,
+      "category": "Gamemastering",
+      "topic": "Madness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Madness.md",
+      "preview": "**Table- Madness Long-Term Effects**\n\n| d100   | Effect (lasts 1d10 \u00d7 10 hours)                                                                                                                         "
+    },
+    {
+      "rank": 12,
+      "score": 0.014705882352941176,
+      "category": "Spells",
+      "topic": "Find Steed",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Find Steed.md",
+      "preview": "### Find Steed\n\n*2nd-level conjuration*\n\n**Casting Time:** 10 minutes\n\n**Range:** 30 feet\n\n**Components:** V, S\n\n**Duration:** Instantaneous\n\nYou summon a spirit that assumes the form of an unusually "
+    },
+    {
+      "rank": 13,
+      "score": 0.014492753623188406,
+      "category": "Treasure",
+      "topic": "Eyes of Charming",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\Eyes of Charming.md",
+      "preview": "### Eyes of Charming\n\n*Wondrous item, uncommon (requires attunement)*\n\nThese crystal lenses fit over the eyes. They have 3 charges. While wearing them, you can expend 1 charge as an action to cast the"
+    },
+    {
+      "rank": 14,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Charmed\n\n- A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.\n- The charmer has advantage on any ability check to interact socially with th"
+    },
+    {
+      "rank": 15,
+      "score": 0.01639344262295082,
+      "category": "Treasure",
+      "topic": "## Sentient Magic",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Treasure\\## Sentient Magic.md",
+      "preview": "### Conflict\n\nA sentient item has a will of its own, shaped by its personality and alignment. If its wielder acts in a manner opposed to the item's alignment or purpose, conflict can arise. When such "
+    },
+    {
+      "rank": 16,
+      "score": 0.016129032258064516,
+      "category": "Gameplay",
+      "topic": "Combat",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Combat.md",
+      "preview": "# Making an Attack\n\nWhether you're striking with a melee weapon, firing a weapon at range, or making an attack roll as part of a spell, an attack has a simple structure.\n\n- **Choose a target**. Pick a"
+    },
+    {
+      "rank": 17,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "Charm Person",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Charm Person.md",
+      "preview": "### Charm Person\n\n*1st-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S\n\n**Duration:** 1 hour\n\nYou attempt to charm a humanoid you can see within range. It must"
+    },
+    {
+      "rank": 18,
+      "score": 0.015625,
+      "category": "Spells",
+      "topic": "Dominate Person",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Dominate Person.md",
+      "preview": "### Dominate Person\n\n*5th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou attempt to beguile a humanoid that "
+    },
+    {
+      "rank": 19,
+      "score": 0.015384615384615385,
+      "category": "Monsters",
+      "topic": "Dryad",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Dryad.md",
+      "preview": "###### Actions\n\n***Club***. *Melee Weapon Attack:* +2 to hit (+6 to hit with *shillelagh*), reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage, or 8 (1d8+4) bludgeoning damage with *shillelagh"
+    },
+    {
+      "rank": 20,
+      "score": 0.015151515151515152,
+      "category": "Spells",
+      "topic": "Protection from Evil and Good",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Protection from Evil and Good.md",
+      "preview": "### Protection from Evil and Good\n\n*1st-level abjuration*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S, M (holy water or powdered silver and iron, which the spell consumes)\n\n**D"
+    },
+    {
+      "rank": 21,
+      "score": 0.014925373134328358,
+      "category": "Monsters",
+      "topic": "Vampire",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Vampire.md",
+      "preview": "###### Actions\n\n***Multiattack (Vampire Form Only)***. The vampire makes two attacks, only one of which can be a bite attack.\n\n***Unarmed Strike (Vampire Form Only)***. *Melee Weapon Attack:* +9 to hi"
+    },
+    {
+      "rank": 22,
+      "score": 0.014705882352941176,
+      "category": "Spells",
+      "topic": "Dominate Monster",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Dominate Monster.md",
+      "preview": "### Dominate Monster\n\n*8th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 hour\n\nYou attempt to beguile a creature that y"
+    },
+    {
+      "rank": 23,
+      "score": 0.014492753623188406,
+      "category": "Spells",
+      "topic": "Heroism",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Heroism.md",
+      "preview": "### Heroism\n\n*1st-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** Touch\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nA willing creature you touch is imbued with brave"
+    },
+    {
+      "rank": 24,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Charmed\n\n- A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.\n- The charmer has advantage on any ability check to interact socially with th"
+    },
+    {
+      "rank": 25,
+      "score": 0.01639344262295082,
+      "category": "Spells",
+      "topic": "Modify Memory",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Modify Memory.md",
+      "preview": "### Modify Memory\n\n*5th-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou attempt to reshape another creature's"
+    },
+    {
+      "rank": 26,
+      "score": 0.016129032258064516,
+      "category": "Gamemastering",
+      "topic": "Madness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Madness.md",
+      "preview": "**Table- Madness Long-Term Effects**\n\n| d100   | Effect (lasts 1d10 \u00d7 10 hours)                                                                                                                         "
+    },
+    {
+      "rank": 27,
+      "score": 0.015873015873015872,
+      "category": "Monsters",
+      "topic": "Succubus-Incubus",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Succubus-Incubus.md",
+      "preview": "###### Actions\n\n***Claw (Fiend Form Only)***. *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6+3) slashing damage.\n\n***Charm***. One humanoid the fiend can see within 30 feet o"
+    },
+    {
+      "rank": 28,
+      "score": 0.015625,
+      "category": "Spells",
+      "topic": "Calm Emotions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Calm Emotions.md",
+      "preview": "### Calm Emotions\n\n*2nd-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 60 feet\n\n**Components:** V, S\n\n**Duration:** Concentration, up to 1 minute\n\nYou attempt to suppress strong emotions i"
+    },
+    {
+      "rank": 29,
+      "score": 0.015384615384615385,
+      "category": "Spells",
+      "topic": "Hallow",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Hallow.md",
+      "preview": "### Hallow\n\n*5th-level evocation*\n\n**Casting Time:** 24 hours\n\n**Range:** Touch\n\n**Components:** V, S, M (herbs, oils, and incense worth at least 1,000 gp, which the spell consumes)\n\n**Duration:** Unt"
+    },
+    {
+      "rank": 30,
+      "score": 0.015151515151515152,
+      "category": "Gamemastering",
+      "topic": "Madness",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Madness.md",
+      "preview": "## Madness Effects\n\nMadness can be short-term, long-term, or indefinite. Most relatively mundane effects impose short-term madness, which lasts for just a few minutes. More horrific effects or cumulat"
+    },
+    {
+      "rank": 31,
+      "score": 0.014925373134328358,
+      "category": "Spells",
+      "topic": "Charm Person",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Charm Person.md",
+      "preview": "### Charm Person\n\n*1st-level enchantment*\n\n**Casting Time:** 1 action\n\n**Range:** 30 feet\n\n**Components:** V, S\n\n**Duration:** 1 hour\n\nYou attempt to charm a humanoid you can see within range. It must"
+    },
+    {
+      "rank": 32,
+      "score": 0.014705882352941176,
+      "category": "Monsters",
+      "topic": "Dryad",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Dryad.md",
+      "preview": "###### Actions\n\n***Club***. *Melee Weapon Attack:* +2 to hit (+6 to hit with *shillelagh*), reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage, or 8 (1d8+4) bludgeoning damage with *shillelagh"
+    },
+    {
+      "rank": 33,
+      "score": 0.014492753623188406,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Frightened\n\n- A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\n- The creature can't willingly move closer to the sourc"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 13986,
+    "rag_completion": 15149,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 5,
+    "total": 29135
+  },
+  "costs": {
+    "rag": 0.0044167699999999996,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0044167699999999996
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 10.03,
+    "total_s": 41.68
+  },
+  "answer": " Yes, being charmed prevents a creature from attacking the charmer, but it does not restrict the creature from attacking non-charmers.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 4.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and mostly correct, accurately stating that being charmed prevents a creature from attacking the charmer while clarifying that it does not restrict attacks on non-charmers. However, the initial \"Yes\" could be misleading, as it implies a broader restriction than what is true."
+    },
+    "context_relevancy": {
+      "score": null,
+      "passing": null,
+      "feedback": "The evaluation of the existing context regarding the query about whether being charmed prevents a creature from attacking non-charmers is accurate.\n\n1. **Does the retrieved context match the subject matter of the user's query?**\n   - Yes, the context discusses the effects of the charmed condition, specifically stating that a charmed creature cannot attack the charmer or target the charmer with harmful abilities or magical effects. However, it does not explicitly address whether a charmed creature can attack non-charmers, which is the core of the user's query. Therefore, while the context is relevant, it does not fully answer the question.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - No, the context does not provide a complete answer. It explains the limitations on attacking the charmer but does not clarify whether the charmed creature is free to attack other targets that are not the charmer. This omission means that the context cannot be used exclusively to answer the query.\n\n**Feedback Summary:**\nThe retrieved context is relevant to the subject matter of the query, as it discusses the charmed condition and its effects. However, it fails to provide a complete answer regarding whether a charmed creature can attack non-charmers. Therefore, while it earns points for relevance, it loses points for not fully addressing the user's question.\n\nFinal Result: **2.0**. \n\nIf the existing evaluation was already 4.0, it would still be 2.0 based on the provided context. The information is not fully present in the new context to warrant a higher score."
+    }
+  }
+}

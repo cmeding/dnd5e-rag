@@ -1,0 +1,66 @@
+{
+  "query_id": "query_021",
+  "session_id": "61-context-consolidation-Overnight-30q-v1-20260315-145355",
+  "timestamp": "2026-03-15T14:59:14.387294",
+  "query": {
+    "original": "What is the casting time of the Wish spell?",
+    "used": "What is the casting time of the Wish spell?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "The **Wish** spell is a 9th-level conjuration with a casting time of **1 action**. It allows the caster to alter reality according to their desires by simply speaking aloud. The basic use of the spell"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1375,
+    "rag_completion": 4570,
+    "meta_prompt": 2599,
+    "meta_completion": 279,
+    "total_calls": 2,
+    "total": 8823
+  },
+  "costs": {
+    "rag": 0.00101955,
+    "meta": 0.00055725,
+    "embed": 0.0,
+    "total": 0.0015768
+  },
+  "timings": {
+    "rag_s": 7.47,
+    "query_s": 8.96,
+    "total_s": 15.6
+  },
+  "answer": " The casting time of the Wish spell is 1 action.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is fully correct and matches the reference answer exactly, providing the accurate casting time of the Wish spell."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the user's query about the casting time of the Wish spell. It clearly states that the casting time is \"1 action,\" which is the specific information requested.\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a complete answer to the user's query regarding the casting time of the Wish spell. While it includes additional information about the spell's effects and potential consequences, the essential detail about the casting time is present and can stand alone to answer the question.\n\n**Feedback:**  \nThe retrieved context is highly relevant to the query, as it not only provides the specific casting time of the Wish spell but also offers additional context that could be useful for understanding the spell's mechanics. However, since the user only asked for the casting time, the extra information, while informative, is not necessary for answering the query. Nonetheless, the core information is clear and accurate.\n\nFinal result: [RESULT] 4.0"
+    }
+  }
+}

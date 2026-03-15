@@ -1,0 +1,66 @@
+{
+  "query_id": "query_015",
+  "session_id": "93-kitchen-sink-Overnight-30q-v1-20260315-163650",
+  "timestamp": "2026-03-15T16:41:42.573515",
+  "query": {
+    "original": "What conditions cause the Grappled condition to end?",
+    "used": "What actions or effects can end the Grappled condition in DnD 5e?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 1.0,
+      "category": null,
+      "topic": null,
+      "file": null,
+      "preview": "In Dungeons & Dragons 5th Edition, the Grappled condition can be ended through several specific actions or effects:\n\n1. **Escaping the Grapple**: A grappled creature can use its action to attempt to e"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 2407,
+    "rag_completion": 6892,
+    "meta_prompt": 3282,
+    "meta_completion": 279,
+    "total_calls": 4,
+    "total": 12860
+  },
+  "costs": {
+    "rag": 0.0015742500000000001,
+    "meta": 0.0006597,
+    "embed": 0.0,
+    "total": 0.00223395
+  },
+  "timings": {
+    "rag_s": 9.63,
+    "query_s": 22.7,
+    "total_s": 30.59
+  },
+  "answer": " The Grappled condition in DnD 5e can be ended through several actions or effects as stated in the context:\n\n1. Escaping the Grapple: A grappled creature can use its action to attempt to escape.\n2. Grappler's Choice: The grappler can release the target at any time without using an action.\n3. Grappler Incapacitated: The Grappled condition ends if the grappler becomes incapacitated.\n4. Removal from Reach: The condition also ends if an effect removes the grappled creature from the reach of the grappler.\n5. Special Abilities: Certain creatures may have specific abilities that can end a grapple.\n\nTherefore, the actions or effects that can end the Grappled condition in DnD 5e are: escaping the grapple, the grappler releasing the target, the grappler becoming incapacitated, removal of the grappled creature from the reach of the grappler, and certain special abilities of specific creatures.",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 1.0
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and fully correct, accurately detailing the actions and effects that can end the Grappled condition in DnD 5e, including all necessary points from the reference answer and additional relevant information."
+    },
+    "context_relevancy": {
+      "score": 1.0,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   Yes, the retrieved context directly addresses the query regarding the actions or effects that can end the Grappled condition in Dungeons & Dragons 5th Edition. It provides a comprehensive list of methods, including escaping the grapple, the grappler's choice to release, the incapacitation of the grappler, removal from reach, and special abilities of certain creatures. Each point is relevant and pertains specifically to the Grappled condition.\n\n   **Score: 2/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   Yes, the context provides a complete answer to the query. It outlines all the necessary actions and effects that can end the Grappled condition without requiring additional information. The details are clear and sufficient for a player or Dungeon Master to understand how to manage the Grappled condition in gameplay.\n\n   **Score: 2/2**\n\n**Final Result:** [RESULT] 4.0"
+    }
+  }
+}

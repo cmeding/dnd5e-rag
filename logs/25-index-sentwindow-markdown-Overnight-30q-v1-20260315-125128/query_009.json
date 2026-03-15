@@ -1,0 +1,138 @@
+{
+  "query_id": "query_009",
+  "session_id": "25-index-sentwindow-markdown-Overnight-30q-v1-20260315-125128",
+  "timestamp": "2026-03-15T12:52:57.578533",
+  "query": {
+    "original": "Does the invisible condition prevent a creature from casting spells?",
+    "used": "Does the invisible condition prevent a creature from casting spells?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 0.016666666666666666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Invisible\n\n- An invisible creature is impossible to see without the aid of magic or a special sense. "
+    },
+    {
+      "rank": 2,
+      "score": 0.01639344262295082,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "Unless a spell has a perceptible effect, a creature might not know it was targeted by a spell at all. "
+    },
+    {
+      "rank": 3,
+      "score": 0.016129032258064516,
+      "category": "Monsters",
+      "topic": "Cloaker",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Cloaker.md",
+      "preview": "A creature is unaffected by this magical effect if it can't see or if it relies on senses other than sight.\n\n"
+    },
+    {
+      "rank": 4,
+      "score": 0.015873015873015872,
+      "category": "Spells",
+      "topic": "Mirror Image",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Mirror Image.md",
+      "preview": "A creature is unaffected by this spell if it can't see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight."
+    },
+    {
+      "rank": 5,
+      "score": 0.015625,
+      "category": "Spells",
+      "topic": "Sequester",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Sequester.md",
+      "preview": "When you cast the spell and touch the target, it becomes invisible and can't be targeted by divination spells or perceived through scrying sensors created by divination spells.\n\n"
+    },
+    {
+      "rank": 6,
+      "score": 0.015384615384615385,
+      "category": "Monsters",
+      "topic": "Sprite",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Monsters\\Sprite.md",
+      "preview": "The sprite magically turns invisible until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). "
+    },
+    {
+      "rank": 7,
+      "score": 0.015151515151515152,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "- The creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings.\n"
+    },
+    {
+      "rank": 8,
+      "score": 0.014925373134328358,
+      "category": "Gameplay",
+      "topic": "Abilities",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gameplay\\Abilities.md",
+      "preview": ">\n>You can't hide from a creature that can see you clearly, and you give away your position if you make noise, such as shouting a warning or knocking over a vase.\n"
+    },
+    {
+      "rank": 9,
+      "score": 0.014705882352941176,
+      "category": "Spells",
+      "topic": "Silent Image",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\Silent Image.md",
+      "preview": "If a creature discerns the illusion for what it is, the creature can see through the image."
+    },
+    {
+      "rank": 10,
+      "score": 0.014492753623188406,
+      "category": "Classes",
+      "topic": "Warlock",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Classes\\Warlock.md",
+      "preview": "#### Eldritch Sight\n\nYou can cast *detect magic* at will, without expending a spell slot.\n\n"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1191,
+    "rag_completion": 1441,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 2632
+  },
+  "costs": {
+    "rag": 0.0004048,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.0004048
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 4.58,
+    "total_s": 13.36
+  },
+  "answer": " The provided context does not indicate that the invisible condition prevents a creature from casting spells. The only mention of casting spells in relation to the invisible condition is for the creature being unaffected by the Mirror Image spell if it can perceive illusions as false.",
+  "refused": false,
+  "confidence": {
+    "passed": false,
+    "best_score": 0.016666666666666666
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 3.0,
+      "passing": false,
+      "feedback": "The generated answer is relevant to the user query and correctly states that the invisible condition does not prevent spellcasting. However, it introduces unnecessary complexity by mentioning the Mirror Image spell, which is not directly related to the question. This could lead to confusion, thus affecting the clarity of the answer."
+    },
+    "context_relevancy": {
+      "score": 0.5,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**  \n   The retrieved context discusses the invisible condition and its effects on creatures, including how invisibility interacts with spells and perception. However, it does not directly address whether the invisible condition prevents a creature from casting spells. The context mentions that an invisible creature cannot be targeted by divination spells and that a sprite becomes invisible until it attacks or casts a spell, but it does not explicitly state that invisibility prevents spellcasting. Therefore, while the context is related to the topic of invisibility, it does not fully match the specific subject matter of the query regarding spellcasting.\n\n   **Score: 1/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**  \n   The context does not provide a complete answer to the query. While it contains relevant information about invisibility, it lacks a definitive statement regarding whether being invisible prevents a creature from casting spells. The mention of the sprite becoming invisible until it casts a spell suggests that invisibility does not inherently prevent spellcasting, but this is not clearly articulated in the context. Therefore, the context cannot be used exclusively to provide a full answer to the user's query.\n\n   **Score: 1/2**\n\n**Final Result:** [RESULT] 2.0"
+    }
+  }
+}

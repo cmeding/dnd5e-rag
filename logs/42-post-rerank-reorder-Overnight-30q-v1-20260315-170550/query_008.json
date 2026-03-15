@@ -1,0 +1,98 @@
+{
+  "query_id": "query_008",
+  "session_id": "42-post-rerank-reorder-Overnight-30q-v1-20260315-170550",
+  "timestamp": "2026-03-15T17:07:13.434680",
+  "query": {
+    "original": "Can a restrained creature still make attack rolls?",
+    "used": "Can a restrained creature still make attack rolls?"
+  },
+  "retrieved_nodes": [
+    {
+      "rank": 1,
+      "score": 4.513312339782715,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Restrained\n\n- A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- Attack rolls against the creature have advantage, and the creature's attack rolls have dis"
+    },
+    {
+      "rank": 2,
+      "score": -3.129291296005249,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Paralyzed\n\n- A paralyzed creature is incapacitated (see the condition) and can't move or speak.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the c"
+    },
+    {
+      "rank": 3,
+      "score": -3.724337100982666,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Unconscious\n\n- An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings\n- The creature drops whatever it's holding and falls prone.\n- Th"
+    },
+    {
+      "rank": 4,
+      "score": -3.287710428237915,
+      "category": "Gamemastering",
+      "topic": "Conditions",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Gamemastering\\Conditions.md",
+      "preview": "## Prone\n\n- A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.\n- The creature has disadvantage on attack rolls.\n- An attack roll against the creat"
+    },
+    {
+      "rank": 5,
+      "score": -3.099186897277832,
+      "category": "Spells",
+      "topic": "# Spellcasting",
+      "file": "E:\\Programms\\JetBrains\\_Projects\\Python\\SeminarRAG\\src\\..\\data\\DND.SRD.Wiki-0.5.2\\Spells\\# Spellcasting.md",
+      "preview": "# Spell Attack Rolls\n\nSome spells require the caster to make an attack roll to determine whether the spell effect hits the intended target. Your attack bonus with a spell attack equals your spellcasti"
+    }
+  ],
+  "tokens": {
+    "rag_prompt": 1154,
+    "rag_completion": 1342,
+    "meta_prompt": 0,
+    "meta_completion": 0,
+    "total_calls": 1,
+    "total": 2496
+  },
+  "costs": {
+    "rag": 0.00038192,
+    "meta": 0.0,
+    "embed": 0.0,
+    "total": 0.00038192
+  },
+  "timings": {
+    "rag_s": 0.0,
+    "query_s": 3.38,
+    "total_s": 13.31
+  },
+  "answer": " Yes, a restrained creature can still make attack rolls, but they have disadvantage on their attack rolls. (Refer to the \"Restrained\" section in the provided rules.)",
+  "refused": false,
+  "confidence": {
+    "passed": true,
+    "best_score": 4.513312339782715
+  },
+  "evaluation": {
+    "faithfulness": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "relevancy": {
+      "score": 1.0,
+      "passing": true,
+      "feedback": "YES"
+    },
+    "correctness": {
+      "score": 5.0,
+      "passing": true,
+      "feedback": "The generated answer is relevant and fully correct, accurately stating that a restrained creature can make attack rolls with disadvantage, and it also references the rules for further clarification."
+    },
+    "context_relevancy": {
+      "score": 0.5,
+      "passing": null,
+      "feedback": "1. **Does the retrieved context match the subject matter of the user's query?**\n   - The retrieved context provides information about the \"restrained\" condition in DnD 5e, which is directly relevant to the user's query about whether a restrained creature can make attack rolls. It specifically states that a restrained creature's attack rolls have disadvantage, which is pertinent to understanding the implications of being restrained on attack rolls. However, it does not explicitly state whether a restrained creature can make attack rolls at all, which is a key part of the user's question. Therefore, while the context is relevant, it does not fully address the query.\n\n   **Score: 1.5/2**\n\n2. **Can the retrieved context be used exclusively to provide a full answer to the user's query?**\n   - The context does not provide a complete answer to the user's query. While it mentions that a restrained creature has disadvantage on attack rolls, it does not clarify whether the creature can still make attack rolls at all. In DnD 5e, a restrained creature can still make attack rolls, but this information is not included in the retrieved context. Thus, the context cannot be used exclusively to provide a full answer to the user's query.\n\n   **Score: 0.5/2**\n\n**Final Feedback:**\nThe retrieved context is partially relevant to the user's query about restrained creatures and attack rolls. It provides some information about the disadvantages faced by a restrained creature but fails to clarify whether they can make attack rolls at all. Therefore, while it is somewhat useful, it does not fully answer the question.\n\n[RESULT] 2.0"
+    }
+  }
+}
