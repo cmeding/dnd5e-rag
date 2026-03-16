@@ -1265,7 +1265,7 @@ class Reporter:
     def export_latex_figure_overview(self, img_path: str, caption: str, label: str,
                                      save_path: str = None) -> str:
         tex = (
-            f"\\begin{{figure}}[p]\n"
+            f"\\begin{{figure}}[H]\n"
             f"    \\centering\n"
             f"    \\makebox[\\textwidth][c]{{\n"
             f"        \\includegraphics[height=0.95\\textheight]{{{img_path}}}\n"
@@ -1284,7 +1284,7 @@ class Reporter:
                                     caption_b: str = "Q15--Q29",
                                     save_path: str = None) -> str:
         tex = (
-            f"\\begin{{figure}}[p]\n"
+            f"\\begin{{figure}}[H]\n"
             f"    \\centering\n"
             f"    \\begin{{subfigure}}[t]{{0.48\\textwidth}}\n"
             f"        \\centering\n"
@@ -1663,6 +1663,494 @@ class Reporter:
         if save_path:
             plt.savefig(save_path, dpi=150, bbox_inches="tight")
         plt.show()
+
+    def plot_metric_boxplot(self, session_ids: list[str],
+                            metric: str = "correctness",
+                            config_label: str = "prefix",
+                            title: str = "", save_path: str = None,
+                            axis_font_scale: float = 0.20):
+        """
+        Horizontal boxplot per config for a single metric.
+        Configs sorted by median score.
+        """
+        import textwrap
+
+        metric_display = {
+            "correctness": "Correctness (1–5)",
+            "faithfulness": "Faithfulness (0–1)",
+            "relevancy": "Relevancy (0–1)",
+            "context_relevancy": "Ctx. Relevancy (0–1)",
+        }
+
+        configs_data = []
+        for sid in session_ids:
+            config, queries = self.load_session(sid)
+            name = config.get("config_name", sid)
+            scores = []
+            for q in queries:
+                s = q.get("evaluation", {}).get(metric, {}).get("score")
+                if s is not None:
+                    scores.append(float(s))
+            if scores:
+                configs_data.append((name, scores))
+
+        if not configs_data:
+            print(f"No data for metric: {metric}")
+            return
+
+        # sort by median
+        configs_data.sort(key=lambda x: np.median(x[1]))
+
+        def _make_label(name):
+            if config_label == "prefix":
+                p = name.split("-", 1)
+                prefix = p[0] if p[0].isdigit() else name
+                return f"C{prefix}"
+            elif config_label == "number":
+                return str(configs_data.index((name, configs_data[[c[0] for c in configs_data].index(name)][1])) + 1)
+            else:
+                return name.split("-", 1)[-1] if "-" in name else name
+
+        labels = [_make_label(name) for name, _ in configs_data]
+        data = [scores for _, scores in configs_data]
+
+        fig_h = max(6, len(configs_data) * 0.45)
+        fig_w = 10
+        fig, ax = plt.subplots(figsize=(fig_w, fig_h))
+
+        cell_h_pts = (fig_h / len(configs_data)) * 72
+        axis_fontsize = min(13, max(7, cell_h_pts * axis_font_scale))
+
+        bp = ax.boxplot(data, vert=False, patch_artist=True,
+                        medianprops=dict(color="black", linewidth=2),
+                        boxprops=dict(facecolor="#4C72B0", alpha=0.7),
+                        whiskerprops=dict(linewidth=1.2),
+                        capprops=dict(linewidth=1.2),
+                        flierprops=dict(marker="o", markersize=4,
+                                        markerfacecolor="#C44E52", alpha=0.7))
+
+        ax.set_yticks(range(1, len(labels) + 1))
+        ax.set_yticklabels(labels, fontsize=axis_fontsize)
+
+        # set x range based on metric
+        if metric == "correctness":
+            ax.set_xlim(0.5, 5.5)
+            ax.set_xlabel("Score (1–5)", fontsize=axis_fontsize)
+        else:
+            ax.set_xlim(-0.05, 1.1)
+            ax.set_xlabel("Score (0–1)", fontsize=axis_fontsize)
+
+        ax.axvline(x=np.median([s for _, scores in configs_data for s in scores]),
+                   color="grey", linestyle="--", linewidth=1, alpha=0.5,
+                   label="Gesamtmedian")
+        ax.legend(fontsize=axis_fontsize * 0.85)
+        ax.grid(axis="x", linestyle=":", alpha=0.4)
+
+        wrapped = "\n".join(textwrap.wrap(
+            title or f"Alle Konfigurationen — {metric_display.get(metric, metric)}",
+            width=70))
+        ax.set_title(wrapped, fontsize=axis_fontsize * 1.15)
+        fig.subplots_adjust(top=0.92)
+        plt.tight_layout()
+        if save_path:
+            plt.savefig(save_path, dpi=150, bbox_inches="tight")
+        plt.show()
+
+    def export_latex_ranking_table(self, session_ids: list[str],
+                                   sort_by: str = "correctness",
+                                   caption: str = "", label: str = "",
+                                   save_path: str = None) -> str:
+        """
+        Summary ranking table: all configs sorted by avg of sort_by metric.
+        Columns: Rank | Config | Correct. | Faith. | Relev. | Ctx.Rel. | Ø Cost | Ø Zeit
+        """
+        rows = []
+        for sid in session_ids:
+            config, queries = self.load_session(sid)
+            n = max(len(queries), 1)
+            name = config.get("config_name", sid)
+
+            def avg(metric):
+                scores = [q.get("evaluation", {}).get(metric, {}).get("score")
+                          for q in queries if q.get("evaluation", {}).get(metric)]
+                scores = [float(s) for s in scores if s is not None]
+                return sum(scores) / len(scores) if scores else 0.0
+
+            avg_cost = sum(q.get("costs", {}).get("total", 0.0) for q in queries) / n
+            avg_time = sum(q.get("timings", {}).get("total_s", 0.0)
+                           for q in queries
+                           if q.get("timings", {}).get("total_s") is not None) / n
+
+            rows.append({
+                "config": name,
+                "correctness": avg("correctness"),
+                "faithfulness": avg("faithfulness"),
+                "relevancy": avg("relevancy"),
+                "ctx_rel": avg("context_relevancy"),
+                "cost": avg_cost,
+                "time": avg_time,
+            })
+
+        rows.sort(key=lambda r: r[sort_by], reverse=True)
+
+        lines = []
+        lines.append("\\begin{table}[H]")
+        lines.append("\\centering")
+        lines.append("\\small")
+        lines.append("\\begin{tabular}{rllcccccc}")
+        lines.append("\\toprule")
+        lines.append("Rang & Config & Correct. & Faith. & Relev. & Ctx.Rel. & Ø Kosten & Ø Zeit \\\\")
+        lines.append("\\midrule")
+
+        for rank, r in enumerate(rows, 1):
+            is_best = rank == 1
+
+            def fmt(val):
+                return f"\\textbf{{{val}}}" if is_best else str(val)
+
+            correctness = f"{r['correctness']:.2f}"
+            faithfulness = f"{r['faithfulness']:.2f}"
+            relevancy = f"{r['relevancy']:.2f}"
+            ctx_rel = f"{r['ctx_rel']:.2f}"
+            cost = f"\\${r['cost']:.5f}"
+            time = f"{r['time']:.1f}s"
+
+            lines.append(
+                f"{fmt(rank)} & "
+                f"{fmt(r['config'])} & "
+                f"{fmt(correctness)} & "
+                f"{fmt(faithfulness)} & "
+                f"{fmt(relevancy)} & "
+                f"{fmt(ctx_rel)} & "
+                f"{fmt(cost)} & "
+                f"{fmt(time)} \\\\"
+            )
+
+        lines.append("\\bottomrule")
+        lines.append("\\end{tabular}")
+        if caption:
+            lines.append(f"\\caption{{{caption}}}")
+        if label:
+            lines.append(f"\\label{{tab:{label}}}")
+        lines.append("\\end{table}")
+
+        result = "\n".join(lines)
+        if save_path:
+            os.makedirs(os.path.dirname(save_path), exist_ok=True)
+            with open(save_path, "w", encoding="utf-8") as f:
+                f.write(result)
+        return result
+
+    def export_latex_config_table(self, session_id: str,
+                                  phase_description: str = "",
+                                  save_path: str = None) -> str:
+        """
+        Full parameter table for a single config session.
+        Groups: Modelle, Indexierung, Retrieval, Postprocessing,
+                Query-Transformation, Kontextverarbeitung, Generierung, Guards
+        Non-default values are highlighted in bold.
+        """
+        config, _ = self.load_session(session_id)
+        pipe = config.get("pipeline", {})
+        prompt = config.get("prompt", {})
+        name = config.get("config_name", session_id)
+
+        # defaults matching RAGPipeline.__init__
+        DEFAULTS = {
+            "rag_llm_model": "mistralai/mistral-7b-instruct-v0.1",
+            "meta_llm_model": "openai/gpt-4o-mini",
+            "meta_temperature": 0.0,
+            "llm_max_response": 512,
+            "llm_context_window": 4096,
+            "llm_temperature": 0.1,
+            "llm_top_p": 0.9,
+            "llm_top_k": 40,
+            "llm_instruction": "",
+            "embed_model": "BAAI/bge-small-en-v1.5",
+            "chunk_size": 512,
+            "chunk_overlay": 50,
+            "embed_with_markdown": False,
+            "embed_split_on": "tokens",
+            "special_mode": "none",
+            "retriever_top_k": 10,
+            "retriever_query_variants": 1,
+            "retriever_with_keywords": False,
+            "post_use_cutoff": False,
+            "post_cutoff": 0.14,
+            "post_use_rerank": False,
+            "post_rerank_model": "cross-encoder/ms-marco-MiniLM-L-2-v2",
+            "post_rerank_top_n": 3,
+            "post_use_reorder": False,
+            "response_mode": "COMPACT",
+            "use_hyde": False,
+            "use_query_rewrite": False,
+            "use_query_decomposition": False,
+            "use_dedup": False,
+            "dedup_threshold": 0.85,
+            "use_llm_consolidation": False,
+            "use_confidence_guard": False,
+            "confidence_cutoff": 0.5,
+        }
+
+        def val(key, source=pipe):
+            return source.get(key, DEFAULTS.get(key, "—"))
+
+        def fmt(key, source=pipe):
+            v = val(key, source)
+            d = DEFAULTS.get(key)
+            v_str = str(v)
+            # escape special latex chars
+            v_str = v_str.replace("_", "\\_").replace("%", "\\%").replace("&", "\\&")
+            if d is not None and v != d:
+                return f"\\textbf{{{v_str}}}"
+            return v_str
+
+        def bool_fmt(key, source=pipe):
+            v = val(key, source)
+            d = DEFAULTS.get(key)
+            v_str = "Ja" if v else "Nein"
+            if d is not None and v != d:
+                return f"\\textbf{{{v_str}}}"
+            return v_str
+
+        groups = []
+
+        # ── Modelle ──────────────────────────────────────────────────────────────
+        groups.append(("Modelle", [
+            ("Generator LLM", fmt("rag_llm_model")),
+            ("Meta / Eval LLM", fmt("meta_llm_model")),
+            ("Embedding-Modell", fmt("embed_model")),
+            ("LLM Temperatur", fmt("llm_temperature")),
+            ("Meta Temperatur", fmt("meta_temperature")),
+            ("Max Response Tokens", fmt("llm_max_response")),
+            ("Context Window", fmt("llm_context_window")),
+            ("Top-p", fmt("llm_top_p")),
+            ("Top-k", fmt("llm_top_k")),
+        ]))
+
+        # ── Indexierung ───────────────────────────────────────────────────────────
+        groups.append(("Indexierung", [
+            ("Chunking-Modus", fmt("special_mode")),
+            ("Split-Strategie", fmt("embed_split_on")),
+            ("Markdown-Vorparser", bool_fmt("embed_with_markdown")),
+            ("Chunk-Größe", fmt("chunk_size")),
+            ("Chunk-Überlappung", fmt("chunk_overlay")),
+        ]))
+
+        # ── Retrieval ─────────────────────────────────────────────────────────────
+        groups.append(("Retrieval", [
+            ("top-k", fmt("retriever_top_k")),
+            ("Query-Varianten (Fusion)", fmt("retriever_query_variants")),
+            ("BM25 Keyword-Retrieval", bool_fmt("retriever_with_keywords")),
+        ]))
+
+        # ── Postprocessing ────────────────────────────────────────────────────────
+        groups.append(("Postprocessing", [
+            ("Score-Cutoff aktiv", bool_fmt("post_use_cutoff")),
+            ("Score-Cutoff Wert", fmt("post_cutoff")),
+            ("Reranking aktiv", bool_fmt("post_use_rerank")),
+            ("Reranking-Modell", fmt("post_rerank_model")),
+            ("Reranking top-n", fmt("post_rerank_top_n")),
+            ("LongContextReorder", bool_fmt("post_use_reorder")),
+        ]))
+
+        # ── Query-Transformation ──────────────────────────────────────────────────
+        groups.append(("Query-Transformation", [
+            ("Query Rewrite", bool_fmt("use_query_rewrite")),
+            ("HyDE", bool_fmt("use_hyde")),
+            ("Query-Dekomposition", bool_fmt("use_query_decomposition")),
+        ]))
+
+        # ── Kontextverarbeitung ───────────────────────────────────────────────────
+        groups.append(("Kontextverarbeitung", [
+            ("Deduplizierung aktiv", bool_fmt("use_dedup")),
+            ("Dedup-Schwellwert", fmt("dedup_threshold")),
+            ("LLM-Konsolidierung", bool_fmt("use_llm_consolidation")),
+        ]))
+
+        # ── Generierung ───────────────────────────────────────────────────────────
+        PROMPT_ALIASES = {
+            "Use ONLY the context below to answer. If the answer is not explicitly stated":
+                "PROMPT\\_STRICT",
+            "Use ONLY the context below to answer. If the context describes a condition":
+                "PROMPT\\_SOFT",
+            "Answer the question using the context below as your primary source.":
+                "PROMPT\\_PERMISSIVE",
+        }
+
+        prompt_text = prompt.get("pretext", "—")
+        alias = None
+        for key, a in PROMPT_ALIASES.items():
+            if prompt_text.startswith(key):
+                alias = a
+                break
+        if alias:
+            prompt_display = alias
+        else:
+            prompt_display = prompt_text[:60] + "\\ldots" if len(prompt_text) > 60 else prompt_text
+            prompt_display = prompt_display.replace("_", "\\_").replace("%", "\\%").replace("&", "\\&")
+
+        groups.append(("Generierung", [
+            ("Response-Modus", fmt("response_mode")),
+            ("Prompt-Pretext", prompt_display),
+        ]))
+
+        # ── Guards ────────────────────────────────────────────────────────────────
+        groups.append(("Guards", [
+            ("Confidence Guard aktiv", bool_fmt("use_confidence_guard")),
+            ("Confidence Cutoff", fmt("confidence_cutoff")),
+        ]))
+
+        # ── Build LaTeX ───────────────────────────────────────────────────────────
+        desc = phase_description or f"Konfiguration: {name}"
+
+        def _build_table(grps, cap, lbl):
+            t = []
+            t.append("\\begin{table}[H]")
+            t.append("\\centering")
+            t.append("\\small")
+            t.append("\\setlength{\\tabcolsep}{4pt}")
+            t.append("\\begin{tabular}{lp{8cm}}")
+            t.append("\\toprule")
+            t.append("\\textbf{Parameter} & \\textbf{Wert} \\\\")
+            for group_name, params in grps:
+                t.append("\\midrule")
+                t.append(f"\\multicolumn{{2}}{{l}}{{\\textit{{{group_name}}}}} \\\\")
+                t.append("\\midrule")
+                for param, value in params:
+                    param_escaped = param.replace("_", "\\_")
+                    t.append(f"\\quad {param_escaped} & {value} \\\\")
+            t.append("\\bottomrule")
+            t.append("\\end{tabular}")
+            t.append(f"\\caption{{{cap}}}")
+            t.append(f"\\label{{tab:{lbl}}}")
+            t.append("\\end{table}")
+            return "\n".join(t)
+
+        mid = len(groups) // 2
+        groups_a = groups[:mid]
+        groups_b = groups[mid:]
+
+        result_a = _build_table(
+            groups_a,
+            f"\\textbf{{{name}}} -- {desc} (1/2)",
+            f"config_{name.replace('-', '_')}_a"
+        )
+        result_b = _build_table(
+            groups_b,
+            f"\\textbf{{{name}}} -- {desc} (2/2)",
+            f"config_{name.replace('-', '_')}_b"
+        )
+
+        result = result_a + "\n\n" + result_b
+
+        if save_path:
+            os.makedirs(os.path.dirname(save_path), exist_ok=True)
+            with open(save_path, "w", encoding="utf-8") as f:
+                f.write(result)
+        return result
+
+    def export_latex_sample_questions_appendix(self, session_id: str,
+                                               question_indices: list[int],
+                                               save_path: str = None) -> str:
+        """
+        Generates a LaTeX appendix block for sample questions of a config.
+        Per question: ID, question text, 4 eval scores, retrieved nodes preview.
+        """
+        config, queries = self.load_session(session_id)
+        name = config.get("config_name", session_id)
+
+        lines = []
+        lines.append(f"\\subsubsection*{{\\texttt{{{name.replace('_', chr(92) + '_')}}}}}")
+        lines.append(f"\\label{{app:samples:{name.replace('-', '_')}}}")
+        lines.append("")
+
+        for idx in question_indices:
+            if idx >= len(queries):
+                continue
+            q = queries[idx]
+
+            question = q.get("query", {}).get("original", "—")
+            used_query = q.get("query", {}).get("used", question)
+            evals = q.get("evaluation", {})
+            nodes = q.get("retrieved_nodes", [])
+
+            # eval scores
+            def escore(metric):
+                s = evals.get(metric, {}).get("score")
+                return f"{s:.2f}" if s is not None else "—"
+
+            corr = escore("correctness")
+            faith = escore("faithfulness")
+            relev = escore("relevancy")
+            ctx = escore("context_relevancy")
+
+            # answer (truncated)
+            answer = str(q.get("answer", "")).strip().replace("\n", " ")
+            if len(answer) > 300:
+                answer = answer[:300] + "\\ldots"
+            answer = answer.replace("_", "\\_").replace("&", "\\&").replace("%", "\\%").replace("#", "\\#")
+
+            # question text escaped
+            question_tex = question.replace("_", "\\_").replace("&", "\\&").replace("%", "\\%")
+            used_tex = used_query.replace("_", "\\_").replace("&", "\\&").replace("%", "\\%")
+
+            lines.append(f"\\paragraph{{Q{idx}: {question_tex}}}")
+
+            # rewritten query if different
+            if used_query != question:
+                lines.append(f"\\textit{{Umgeschrieben:}} {used_tex}\\\\[2pt]")
+
+            # eval scores as inline colored boxes
+            lines.append(
+                f"\\noindent "
+                f"\\textbf{{Corr.:}}~{corr}/5\\quad "
+                f"\\textbf{{Faith.:}}~{faith}\\quad "
+                f"\\textbf{{Relev.:}}~{relev}\\quad "
+                f"\\textbf{{Ctx.Rel.:}}~{ctx}\\\\"
+            )
+            lines.append("")
+
+            # answer
+            lines.append(f"\\noindent\\textbf{{Antwort:}} {answer}")
+            lines.append("")
+
+            # retrieved nodes
+            if nodes:
+                lines.append("\\noindent\\textbf{Abgerufene Chunks:}")
+                lines.append("\\begin{itemize}[noitemsep, topsep=2pt]")
+                for node in nodes[:5]:  # show top 5
+                    rank = node.get("rank", "?")
+                    score = node.get("score")
+                    score_s = f"{score:.4f}" if score is not None else "—"
+                    cat = node.get("category") or "?"
+                    topic = node.get("topic") or "?"
+                    preview = str(node.get("preview", "")).replace("\n", " ").strip()
+                    if len(preview) > 80:
+                        preview = preview[:80] + "\\ldots"
+                    preview = preview.replace("_", "\\_").replace("&", "\\&") \
+                        .replace("%", "\\%").replace("#", "\\#") \
+                        .replace("$", "\\$")
+                    topic_tex = topic.replace("_", "\\_").replace("&", "\\&")
+                    lines.append(
+                        f"  \\item[\\textbf{{\\#{rank}}}] "
+                        f"\\texttt{{[{score_s}]}} "
+                        f"\\textit{{{cat}/{topic_tex}}} -- "
+                        f"{preview}"
+                    )
+                lines.append("\\end{itemize}")
+
+            lines.append("\\vspace{4pt}")
+            lines.append("\\hrule")
+            lines.append("\\vspace{6pt}")
+            lines.append("")
+
+        result = "\n".join(lines)
+        if save_path:
+            os.makedirs(os.path.dirname(save_path), exist_ok=True)
+            with open(save_path, "w", encoding="utf-8") as f:
+                f.write(result)
+        return result
 
 # ─────────────────────────────────────────────────────────────────────────────
 # CLI entrypoint

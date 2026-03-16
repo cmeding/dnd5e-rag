@@ -277,8 +277,100 @@ def make_index_time_stuff():
         axis_font_scale=0.3
     )
 
+def final_gens():
+    r = Reporter("../logs")
+    all_sessions = r.get_sessions_by_phase_prefix(
+        [f"{k}{i}-" for k, v in phase_ranges.items() for i in range(v + 1)]
+    )
+
+    # one boxplot per metric
+    for metric in ["correctness", "faithfulness", "relevancy", "context_relevancy"]:
+        r.plot_metric_boxplot(
+            all_sessions, metric=metric,
+            config_label="prefix",
+            title=f"Gesamtergebnis — {metric.capitalize()} alle Konfigurationen",
+            save_path=f"../paper/img/results/overall_boxplot_{metric}.pdf",
+            axis_font_scale=0.45,
+        )
+
+    # ranking table
+    r.export_latex_ranking_table(
+        all_sessions,
+        sort_by="correctness",
+        caption="Gesamtranking aller Konfigurationen nach durchschnittlicher Correctness",
+        label="overall_ranking",
+        save_path="../paper/tex/results/overall_ranking.tex",
+    )
+
+config_descriptions = {
+    "10-baseline-no-rag":           "Baseline -- Direktes LLM ohne RAG-Retrieval",
+    "20-index-token-default":       "Indexierung -- Token-Splitting ohne Markdown-Vorparser",
+    "21-index-token-markdown":      "Indexierung -- Token-Splitting mit Markdown-Vorparser",
+    "22-index-sentences-default":   "Indexierung -- Sentence-Splitting ohne Markdown-Vorparser",
+    "23-index-sentences-markdown":  "Indexierung -- Sentence-Splitting mit Markdown-Vorparser (Basisindex)",
+    "24-index-sentwindow-default":  "Indexierung -- Sentence-Window-Verfahren ohne Markdown-Vorparser",
+    "25-index-sentwindow-markdown": "Indexierung -- Sentence-Window-Verfahren mit Markdown-Vorparser",
+    "26-index-hierarchical-default":  "Indexierung -- Hierarchisches Chunking ohne Markdown-Vorparser",
+    "27-index-hierarchical-markdown": "Indexierung -- Hierarchisches Chunking mit Markdown-Vorparser",
+    "30-retrieval-bm25":            "Retrieval -- BM25 Hybrid-Retrieval (Keyword + Vektor)",
+    "31-retrieval-fusion-2q":       "Retrieval -- Query-Fusion mit 2 Anfragevarianten",
+    "32-retrieval-fusion-3q":       "Retrieval -- Query-Fusion mit 3 Anfragevarianten",
+    "33-retrieval-bm25-fusion":     "Retrieval -- BM25 kombiniert mit Query-Fusion (2 Varianten)",
+    "34-retrieval-topk5":           "Retrieval -- Reduziertes top-k=5",
+    "35-retrieval-topk15":          "Retrieval -- Erweitertes top-k=15",
+    "40-post-rerank":               "Postprocessing -- Cross-Encoder Reranking (top-n=5)",
+    "41-post-reorder":              "Postprocessing -- LongContextReorder (Lost-in-the-Middle)",
+    "42-post-rerank-reorder":       "Postprocessing -- Reranking kombiniert mit Reorder",
+    "43-post-cutoff":               "Postprocessing -- Score-Cutoff bei 0.015 (RRF-Schwellwert)",
+    "50-transform-rewrite":         "Query-Transformation -- Query-Rewrite via Meta-LLM",
+    "51-transform-hyde":            "Query-Transformation -- HyDE (Hypothetical Document Embedding)",
+    "52-transform-decomposition":   "Query-Transformation -- Query-Dekomposition in Teilfragen",
+    "60-context-dedup":             "Kontextverarbeitung -- Jaccard-Deduplizierung (Schwellwert 0.80)",
+    "61-context-consolidation":     "Kontextverarbeitung -- LLM-basierte Kontextkomprimierung",
+    "70-prompt-strict":             "Prompt-Template -- Striktes Template (nur explizites Regelwissen)",
+    "71-prompt-soft":               "Prompt-Template -- Weiches Template (Schlussfolgerungen erlaubt)",
+    "72-prompt-permissive":         "Prompt-Template -- Permissives Template (freies Schlussfolgern)",
+    "80-mode-refine":               "Response-Modus -- REFINE (iterative Chunk-Verfeinerung)",
+    "81-mode-tree-summarize":       "Response-Modus -- TREE\\_SUMMARIZE (hierarchische Zusammenfassung)",
+    "90-combined-best-guess":       "Kombination -- Beste Einzelmodule kombiniert (Sentences-Markdown-Index)",
+    "91-combined-sentwindow-best":  "Kombination -- Beste Module mit Sentence-Window-Index",
+    "92-combined-best-permissive":  "Kombination -- Beste Module mit permissivem Prompt-Template",
+    "93-kitchen-sink":              "Kombination -- Alle verfügbaren Module aktiviert (Kitchen-Sink)",
+}
+
+
+def config_tables():
+    all_sessions = r.get_sessions_by_phase_prefix(
+        [f"{k}{i}-" for k, v in phase_ranges.items() for i in range(v + 1)]
+    )
+    for sid in all_sessions:
+        config, _ = r.load_session(sid)
+        name = config.get("config_name", sid)
+        description = config_descriptions.get(name, f"Konfiguration: {name}")
+        r.export_latex_config_table(
+            sid,
+            phase_description=description,
+            save_path=f"../paper/tex/configs/{name}_params.tex"
+        )
+
+def questions():
+    show_question_ids = [3, 5, 12, 16]
+
+    all_sessions = r.get_sessions_by_phase_prefix(
+        [f"{k}{i}-" for k, v in phase_ranges.items() for i in range(v + 1)]
+    )
+
+    for sid in all_sessions:
+        config, _ = r.load_session(sid)
+        name = config.get("config_name", sid)
+        r.export_latex_sample_questions_appendix(
+            sid,
+            question_indices=show_question_ids,
+            save_path=f"../paper/tex/samples/{name}_samples.tex"
+        )
+
 def main():
     pass
 
 if __name__ == "__main__":
-    phase_loop()
+    final_gens()
