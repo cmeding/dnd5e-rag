@@ -59,121 +59,103 @@ questions_aliases = {
 show_question_ids = [3, 5, 12, 16]
 
 def phase_loop():
+    import os
+    for d in ["../paper/img/results", "../paper/tex/results", "../paper/tex/figures"]:
+        os.makedirs(d, exist_ok=True)
+
     for k, v in phase_ranges.items():
-        phase = r.get_sessions_by_phase_prefix([f"{k}{i}" for i in range(v+1)])
+        phase = r.get_sessions_by_phase_prefix([f"{k}{i}-" for i in range(v + 1)])
+        if not phase:
+            print(f"Skipping phase {k} — no sessions found")
+            continue
+
+        is_single = len(phase) == 1
         phase_name = phase_names[k]
-        title_prefix = f"Phase {k} - {phase_name}"
+        title_prefix = f"Phase {k}: {phase_name}"
 
         titles = {
-            "bar": f"{title_prefix} -- Ø Evaluationsmetriken pro Konfiguration",
+            "bar":        f"{title_prefix} -- Ø Evaluationsmetriken pro Konfiguration",
             "eval_table": f"{title_prefix} -- Durchschnittliche Evaluationsmetriken",
             "cost_table": f"{title_prefix} -- Durchschnittliche Token-, Kosten- und Zeitwerte",
-            "overview": f"{title_prefix} -- Config × Frage Übersicht",
-            "metrics_a": f"{title_prefix} -- Metrik × Frage, Q0--Q14 (Ø über alle Configs)",
-            "metrics_b": f"{title_prefix} -- Metrik × Frage, Q15--Q29 (Ø über alle Configs)",
+            "overview":   f"{title_prefix} -- Config × Frage Übersicht",
+            "metrics_a":  f"{title_prefix} -- Metrik × Frage, Q0--Q14 (Ø über alle Configs)",
+            "metrics_b":  f"{title_prefix} -- Metrik × Frage, Q15--Q29 (Ø über alle Configs)",
         }
-
         labels = {
-            "bar": f"phase{k}_bar",
+            "bar":        f"phase{k}_bar",
             "eval_table": f"phase{k}_eval",
             "cost_table": f"phase{k}_cost",
-            "overview": f"phase{k}_overview",
-            "metrics_a": f"phase{k}_metrics_a",
-            "metrics_b": f"phase{k}_metrics_b",
+            "overview":   f"phase{k}_overview",
+            "metrics_a":  f"phase{k}_metrics_a",
+            "metrics_b":  f"phase{k}_metrics_b",
         }
-
         paths = {
-            "bar": f"../paper/img/results/phase{k}_bar.pdf",
+            "bar":        f"../paper/img/results/phase{k}_bar.pdf",
             "eval_table": f"../paper/tex/results/phase{k}_eval_table.tex",
             "cost_table": f"../paper/tex/results/phase{k}_cost_table.tex",
-            "overview": f"../paper/img/results/phase{k}_overview.pdf",
-            "metrics_a": f"../paper/img/results/phase{k}_metrics_a.pdf",
-            "metrics_b": f"../paper/img/results/phase{k}_metrics_b.pdf",
+            "overview":   f"../paper/img/results/phase{k}_overview.pdf",
+            "metrics_a":  f"../paper/img/results/phase{k}_metrics_a.pdf",
+            "metrics_b":  f"../paper/img/results/phase{k}_metrics_b.pdf",
         }
-
-        # Bar
-        r.plot_phase_bar_chart_horizontal(
-            session_ids=phase,
-            config_label="name",
-            title=titles["bar"],
-            save_path=paths["bar"],
-            axis_font_scale=0.25,
-            bar_label_scale=0.15,
-        )
-
-        # Eval table
-        r.export_latex_eval_table(
-            session_ids=phase,
-            caption=titles["eval_table"],
-            label=labels["eval_table"],
-            save_path=paths["eval_table"],
-        )
-
-        # Cost table
-        r.export_latex_cost_table(
-            session_ids=phase,
-            caption=titles["cost_table"],
-            label=labels["cost_table"],
-            save_path=paths["cost_table"],
-        )
-
-        # Overview heatmap
-        r.plot_phase_overview_heatmap_vertical(
-            session_ids=phase,
-            question_aliases=None,
-            question_filter=list(range(0, 30)),
-            title=titles["overview"],
-            save_path=paths["overview"],
-            show_cell_text=True,
-            config_label="prefix",
-            config_filter=list(range(0, v + 1)),
-            axis_font_scale=0.30,
-            cell_font_scale=0.25,
-        )
-
-        # Metrics heatmap a (Q0-Q14)
-        r.plot_phase_question_metric_heatmap_vertical(
-            session_ids=phase,
-            question_aliases=None,
-            question_filter=list(range(0, 15)),
-            title=titles["metrics_a"],
-            save_path=paths["metrics_a"],
-        )
-
-        # Metrics heatmap b (Q15-Q29)
-        r.plot_phase_question_metric_heatmap_vertical(
-            session_ids=phase,
-            question_aliases=None,
-            question_filter=list(range(15, 30)),
-            title=titles["metrics_b"],
-            save_path=paths["metrics_b"],
-        )
-
         fig_paths = {
-            "bar": f"../paper/tex/figures/phase{k}_bar.tex",
+            "bar":      f"../paper/tex/figures/phase{k}_bar.tex",
             "overview": f"../paper/tex/figures/phase{k}_overview.tex",
-            "metrics": f"../paper/tex/figures/phase{k}_metrics.tex",
+            "metrics":  f"../paper/tex/figures/phase{k}_metrics.tex",
         }
 
+        # always generate these
+        r.plot_phase_bar_chart_horizontal(
+            session_ids=phase, config_label="name",
+            title=titles["bar"], save_path=paths["bar"],
+            axis_font_scale=0.25, bar_label_scale=0.15,
+        )
+        r.export_latex_eval_table(
+            session_ids=phase, caption=titles["eval_table"],
+            label=labels["eval_table"], save_path=paths["eval_table"],
+        )
+        r.export_latex_cost_table(
+            session_ids=phase, caption=titles["cost_table"],
+            label=labels["cost_table"], save_path=paths["cost_table"],
+        )
         r.export_latex_figure_bar(
             img_path=f"img/results/phase{k}_bar.pdf",
-            caption=titles["bar"],
-            label=labels["bar"],
+            caption=titles["bar"], label=labels["bar"],
             save_path=fig_paths["bar"],
         )
 
+        # skip heatmaps for single-session phases
+        if is_single:
+            print(f"Phase {k}: single session — skipping heatmaps")
+            continue
+
+        r.plot_phase_overview_heatmap_vertical(
+            session_ids=phase, question_aliases=None,
+            question_filter=list(range(0, 30)),
+            title=titles["overview"], save_path=paths["overview"],
+            show_cell_text=True, config_label="prefix",
+            config_filter=list(range(0, v + 1)),
+            axis_font_scale=0.30, cell_font_scale=0.25,
+        )
+        r.plot_phase_question_metric_heatmap_vertical(
+            session_ids=phase, question_aliases=None,
+            question_filter=list(range(0, 15)),
+            title=titles["metrics_a"], save_path=paths["metrics_a"],
+        )
+        r.plot_phase_question_metric_heatmap_vertical(
+            session_ids=phase, question_aliases=None,
+            question_filter=list(range(15, 30)),
+            title=titles["metrics_b"], save_path=paths["metrics_b"],
+        )
         r.export_latex_figure_overview(
             img_path=f"img/results/phase{k}_overview.pdf",
-            caption=titles["overview"],
-            label=labels["overview"],
+            caption=titles["overview"], label=labels["overview"],
             save_path=fig_paths["overview"],
         )
-
         r.export_latex_figure_metrics(
             img_path_a=f"img/results/phase{k}_metrics_a.pdf",
             img_path_b=f"img/results/phase{k}_metrics_b.pdf",
-            caption=titles["metrics_a"].split(",")[0],  # shared caption
-            label=labels["metrics_a"].replace("_a", ""),
+            caption=f"{title_prefix} -- Metrik × Frage (Ø über alle Konfigurationen)",
+            label=f"phase{k}_metrics",
             save_path=fig_paths["metrics"],
         )
 

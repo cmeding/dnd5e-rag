@@ -7,7 +7,7 @@ from datetime import datetime
 import matplotlib.pyplot as plt
 import matplotlib
 import numpy as np
-
+import textwrap
 
 # ─────────────────────────────────────────────────────────────────────────────
 # ANSI colour helpers
@@ -381,7 +381,7 @@ class Reporter:
             })
 
         lines = []
-        lines.append("\\begin{table}[h]")
+        lines.append("\\begin{table}[H]")
         lines.append("\\centering")
         lines.append("\\small")
         lines.append("\\begin{tabular}{lcccccc}")
@@ -745,7 +745,7 @@ class Reporter:
             plt.savefig(save_path, dpi=150, bbox_inches="tight")
         plt.show()
 
-    def plot_phase_overview_heatmap_vertical(self, session_ids: list[str],
+    def oplot_phase_overview_heatmap_vertical(self, session_ids: list[str],
                                              question_aliases: dict = None,
                                              question_filter: list[int] | None = None,
                                              config_filter: list[int] | None = None,
@@ -848,7 +848,7 @@ class Reporter:
             plt.savefig(save_path, dpi=200, bbox_inches="tight")
         plt.show()
 
-    def plot_phase_question_metric_heatmap_vertical(self, session_ids: list[str],
+    def oplot_phase_question_metric_heatmap_vertical(self, session_ids: list[str],
                                                     question_aliases: dict = None,
                                                     question_filter: list[int] | None = None,
                                                     title: str = "", save_path: str = None):
@@ -982,7 +982,7 @@ class Reporter:
             plt.savefig(save_path, dpi=150, bbox_inches="tight")
         plt.show()
 
-    def plot_phase_bar_chart_horizontal(self, session_ids: list[str],
+    def oplot_phase_bar_chart_horizontal(self, session_ids: list[str],
                                         config_label: str = "name",
                                         title: str = "", save_path: str = None,
                                         axis_font_scale: float = 0.20,
@@ -1080,7 +1080,7 @@ class Reporter:
             })
 
         lines = []
-        lines.append("\\begin{table}[h]")
+        lines.append("\\begin{table}[H]")
         lines.append("\\centering")
         lines.append("\\small")
         lines.append("\\begin{tabular}{lcccc}")
@@ -1133,7 +1133,7 @@ class Reporter:
             })
 
         lines = []
-        lines.append("\\begin{table}[h]")
+        lines.append("\\begin{table}[H]")
         lines.append("\\centering")
         lines.append("\\small")
         lines.append("\\begin{tabular}{lcccc}")
@@ -1160,7 +1160,7 @@ class Reporter:
                 f.write(result)
         return result
 
-    def plot_index_build_stats(self, title: str = "", save_path: str = None,
+    def oplot_index_build_stats(self, title: str = "", save_path: str = None,
                                axis_font_scale: float = 0.25,
                                bar_label_scale: float = 0.18):
         """
@@ -1310,7 +1310,7 @@ class Reporter:
     def export_latex_figure_bar(self, img_path: str, caption: str, label: str,
                                 save_path: str = None) -> str:
         tex = (
-            f"\\begin{{figure}}[h]\n"
+            f"\\begin{{figure}}[H]\n"
             f"    \\centering\n"
             f"    \\includegraphics[width=\\textwidth]{{{img_path}}}\n"
             f"    \\caption{{{caption}}}\n"
@@ -1325,7 +1325,7 @@ class Reporter:
                                         width: str = "1.2\\textwidth",
                                         save_path: str = None) -> str:
         tex = (
-            f"\\begin{{figure}}[h]\n"
+            f"\\begin{{figure}}[H]\n"
             f"    \\centering\n"
             f"    \\makebox[\\textwidth][c]{{\n"
             f"        \\includegraphics[width={width}]{{{img_path}}}\n"
@@ -1337,6 +1337,332 @@ class Reporter:
         if save_path:
             self._save_tex(tex, save_path)
         return tex
+
+
+
+    def plot_phase_overview_heatmap_vertical(self, session_ids: list[str],
+                                             question_aliases: dict = None,
+                                             question_filter: list[int] | None = None,
+                                             config_filter: list[int] | None = None,
+                                             show_cell_text: bool = True,
+                                             config_label: str = "name",
+                                             title: str = "", save_path: str = None,
+                                             axis_font_scale=0.25,
+                                             cell_font_scale=0.18):
+        metrics = ["correctness", "faithfulness", "relevancy", "context_relevancy"]
+        short = ["C", "F", "R", "X"]
+
+        if question_filter is None and question_aliases is not None:
+            question_filter = sorted(question_aliases.keys())
+
+        configs_data = []
+        for sid in session_ids:
+            config, queries = self.load_session(sid)
+            name = config.get("config_name", sid)
+            scores_per_q = []
+            for q in queries:
+                ev = q.get("evaluation", {})
+                row = {}
+                for m in metrics:
+                    s = ev.get(m, {}).get("score")
+                    row[m] = float(s) if s is not None else None
+                scores_per_q.append(row)
+            configs_data.append((name, scores_per_q))
+
+        if config_filter is not None:
+            configs_data = [configs_data[i] for i in config_filter if i < len(configs_data)]
+
+        if question_filter is None:
+            q_indices = list(range(len(configs_data[0][1])))
+        else:
+            q_indices = [i for i in question_filter if i < len(configs_data[0][1])]
+
+        n_configs = len(configs_data)
+        n_questions = len(q_indices)
+
+        color_matrix = np.full((n_questions, n_configs), np.nan)
+        annot = [[""] * n_configs for _ in range(n_questions)]
+
+        for ci, (name, scores_per_q) in enumerate(configs_data):
+            for new_qi, orig_qi in enumerate(q_indices):
+                row = scores_per_q[orig_qi]
+                vals = []
+                parts = []
+                for m, s in zip(metrics, short):
+                    v = row.get(m)
+                    norm = (v / 5.0) if m == "correctness" else v
+                    if v is not None:
+                        vals.append(norm)
+                        parts.append(f"{s}:{v:.1f}" if m == "correctness" else f"{s}:{v:.2f}")
+                if vals:
+                    color_matrix[new_qi, ci] = sum(vals) / len(vals)
+                annot[new_qi][ci] = "\n".join([" ".join(parts[:2]), " ".join(parts[2:])])
+
+        ylabels = [f"Q{i}: {question_aliases.get(i, '')}" if question_aliases else f"Q{i}"
+                   for i in q_indices]
+
+        def _make_xlabel(ci, name):
+            if config_label == "number":
+                return str(ci + 1)
+            elif config_label == "prefix":
+                p = name.split("-", 1)
+                prefix = p[0] if p[0].isdigit() else str(ci + 1)
+                return f"C{prefix}"
+            else:
+                return name.split("-", 1)[-1] if "-" in name else name
+
+        xlabels = [_make_xlabel(ci, name) for ci, (name, _) in enumerate(configs_data)]
+
+        fig_w = max(6, n_configs * 1.6)
+        fig_h = max(10, n_questions * 0.55)
+        fig, ax = plt.subplots(figsize=(fig_w, fig_h))
+
+        cell_h_pts = (fig_h / n_questions) * 72
+        cell_w_pts = (fig_w / n_configs) * 72
+        cell_min_pts = min(cell_h_pts, cell_w_pts)
+        axis_fontsize = min(14, max(7, cell_h_pts * axis_font_scale))
+        cell_fontsize = min(11, max(5, cell_min_pts * cell_font_scale))
+
+        im = ax.imshow(color_matrix, aspect="auto", cmap="RdYlGn", vmin=0, vmax=1)
+        ax.set_yticks(range(n_questions))
+        ax.set_yticklabels(ylabels, fontsize=axis_fontsize)
+        ax.set_xticks(range(n_configs))
+        ax.set_xticklabels(xlabels, rotation=30, ha="right", fontsize=axis_fontsize)
+
+        if show_cell_text:
+            for new_qi in range(n_questions):
+                for ci in range(n_configs):
+                    ax.text(ci, new_qi, annot[new_qi][ci], ha="center", va="center",
+                            fontsize=cell_fontsize, color="black", linespacing=1.3)
+
+        plt.colorbar(im, ax=ax, fraction=0.015, pad=0.01, label="Normalisierter Gesamtscore (0–1)")
+        wrapped_title = "\n".join(textwrap.wrap(title or "Phase — Question × Config Übersicht", width=80))
+        ax.set_title(wrapped_title, fontsize=axis_fontsize * 1.1)
+        fig.subplots_adjust(top=0.92)
+        plt.tight_layout()
+        if save_path:
+            plt.savefig(save_path, dpi=200, bbox_inches="tight")
+        plt.show()
+
+    def plot_phase_question_metric_heatmap_vertical(self, session_ids: list[str],
+                                                    question_aliases: dict = None,
+                                                    question_filter: list[int] | None = None,
+                                                    title: str = "", save_path: str = None):
+        metrics = ["correctness", "faithfulness", "relevancy", "context_relevancy"]
+        metric_labels = ["Correct.\n(/5)", "Faith.", "Relev.", "Ctx.Rel."]
+
+        if question_filter is None and question_aliases is not None:
+            question_filter = sorted(question_aliases.keys())
+
+        n_total = None
+        acc = None
+        cnt = None
+
+        for sid in session_ids:
+            _, queries = self.load_session(sid)
+            if n_total is None:
+                n_total = len(queries)
+                acc = {m: np.zeros(n_total) for m in metrics}
+                cnt = {m: np.zeros(n_total) for m in metrics}
+            for i, q in enumerate(queries):
+                ev = q.get("evaluation", {})
+                for m in metrics:
+                    s = ev.get(m, {}).get("score")
+                    if s is not None:
+                        acc[m][i] += float(s)
+                        cnt[m][i] += 1
+
+        q_indices = question_filter if question_filter is not None else list(range(n_total))
+        q_indices = [i for i in q_indices if i < n_total]
+        n_questions = len(q_indices)
+
+        matrix = np.zeros((n_questions, len(metrics)))
+        for mi, m in enumerate(metrics):
+            for new_qi, orig_qi in enumerate(q_indices):
+                if cnt[m][orig_qi] > 0:
+                    v = acc[m][orig_qi] / cnt[m][orig_qi]
+                    matrix[new_qi, mi] = (v / 5.0) if m == "correctness" else v
+
+        ylabels = [f"Q{i}: {question_aliases.get(i, '')}" if question_aliases else f"Q{i}"
+                   for i in q_indices]
+
+        fig, ax = plt.subplots(figsize=(5, max(10, n_questions * 0.55)))
+        im = ax.imshow(matrix, aspect="auto", cmap="RdYlGn", vmin=0, vmax=1)
+        ax.set_yticks(range(n_questions))
+        ax.set_yticklabels(ylabels, fontsize=8)
+        ax.set_xticks(range(len(metrics)))
+        ax.set_xticklabels(metric_labels, fontsize=9)
+        for new_qi in range(n_questions):
+            for mi in range(len(metrics)):
+                val = matrix[new_qi, mi]
+                ax.text(mi, new_qi, f"{val:.2f}", ha="center", va="center",
+                        fontsize=7, color="black" if 0.25 < val < 0.75 else "white")
+        plt.colorbar(im, ax=ax, fraction=0.04, pad=0.02, label="Score (norm. 0–1)")
+        wrapped_title = "\n".join(textwrap.wrap(title or "Phase — Frage × Metrik (Ø über alle Configs)", width=50))
+        ax.set_title(wrapped_title, fontsize=9)
+        fig.subplots_adjust(top=0.92)
+        plt.tight_layout()
+        if save_path:
+            plt.savefig(save_path, dpi=150, bbox_inches="tight")
+        plt.show()
+
+    def plot_phase_bar_chart_horizontal(self, session_ids: list[str],
+                                        config_label: str = "name",
+                                        title: str = "", save_path: str = None,
+                                        axis_font_scale: float = 0.20,
+                                        bar_label_scale: float = 0.15):
+        metrics = ["correctness", "faithfulness", "relevancy", "context_relevancy"]
+        metric_labels = ["Correctness (/5)", "Faithfulness", "Relevancy", "Ctx. Relevancy"]
+        colors = ["#4C72B0", "#DD8452", "#55A868", "#C44E52"]
+
+        configs_data = []
+        for sid in session_ids:
+            config, queries = self.load_session(sid)
+            name = config.get("config_name", sid)
+            avgs = {}
+            for m in metrics:
+                scores = [q.get("evaluation", {}).get(m, {}).get("score")
+                          for q in queries if q.get("evaluation", {}).get(m)]
+                scores = [float(s) for s in scores if s is not None]
+                avgs[m] = (sum(scores) / len(scores)) if scores else 0.0
+            configs_data.append((name, avgs))
+
+        def _make_ylabel(ci, name):
+            if config_label == "number":
+                return str(ci + 1)
+            elif config_label == "prefix":
+                p = name.split("-", 1)
+                prefix = p[0] if p[0].isdigit() else str(ci + 1)
+                return f"C{prefix}"
+            else:
+                return name.split("-", 1)[-1] if "-" in name else name
+
+        ylabels = [_make_ylabel(ci, name) for ci, (name, _) in enumerate(configs_data)]
+        y = np.arange(len(configs_data))
+        height = 0.18
+
+        fig_h = max(6, len(configs_data) * 0.8)
+        fig_w = 10
+        fig, ax = plt.subplots(figsize=(fig_w, fig_h))
+
+        cell_h_pts = (fig_h / len(configs_data)) * 72
+        cell_w_pts = fig_w * 72
+        cell_min_pts = min(cell_h_pts, cell_w_pts)
+        axis_fontsize = min(14, max(7, cell_h_pts * axis_font_scale))
+        bar_label_fontsize = min(10, max(5, cell_min_pts * bar_label_scale))
+
+        for mi, (m, label, color) in enumerate(zip(metrics, metric_labels, colors)):
+            vals = [(avgs[m] / 5.0) if m == "correctness" else avgs[m]
+                    for _, avgs in configs_data]
+            bars = ax.barh(y + mi * height, vals, height, label=label, color=color)
+            for bar, v in zip(bars, vals):
+                ax.text(bar.get_width() + 0.01,
+                        bar.get_y() + bar.get_height() / 2,
+                        f"{v:.2f}", ha="left", va="center",
+                        fontsize=bar_label_fontsize)
+
+        ax.set_yticks(y + height * 1.5)
+        ax.set_yticklabels(ylabels, fontsize=axis_fontsize)
+        ax.set_xlim(0, 1.45)
+        ax.set_xlabel("Score (normalisiert 0–1)", fontsize=axis_fontsize)
+        wrapped_title = "\n".join(textwrap.wrap(title or "Phase — Ø Evaluationsmetriken pro Config", width=70))
+        ax.set_title(wrapped_title, fontsize=axis_fontsize * 1.2)
+        fig.subplots_adjust(top=0.88)
+        ax.legend(loc="upper right", fontsize=axis_fontsize * 0.9)
+        plt.tight_layout()
+        if save_path:
+            plt.savefig(save_path, dpi=150, bbox_inches="tight")
+        plt.show()
+
+    def plot_index_build_stats(self, title: str = "", save_path: str = None,
+                               axis_font_scale: float = 0.25,
+                               bar_label_scale: float = 0.18):
+        build_sessions = [s for s in self.list_sessions() if "index-build" in s.lower()
+                          or s.startswith("BASE-")]
+
+        data = []
+        for sid in build_sessions:
+            try:
+                config_path = os.path.join(self.log_dir, sid, "config.json")
+                with open(config_path) as f:
+                    cfg = json.load(f)
+                index_info = cfg.get("index", {})
+                name = cfg.get("config_name", sid)
+                time_str = index_info.get("index_time", "0s")
+                size_mb = index_info.get("index_size_mb", 0.0)
+                chunks = index_info.get("chunks_in_store", 0)
+                try:
+                    time_s = float(str(time_str).rstrip("s"))
+                except ValueError:
+                    time_s = 0.0
+                data.append({
+                    "name": name,
+                    "time_s": time_s,
+                    "size_mb": float(size_mb),
+                    "chunks": int(chunks),
+                })
+            except Exception:
+                continue
+
+        if not data:
+            print("No index build sessions found.")
+            return
+
+        data.sort(key=lambda d: d["time_s"])
+        names = [d["name"].split("-", 1)[-1] if "-" in d["name"] else d["name"] for d in data]
+        times = [d["time_s"] for d in data]
+        sizes = [d["size_mb"] for d in data]
+        chunks = [d["chunks"] for d in data]
+
+        fig_h = max(5, len(data) * 0.6)
+        fig_w = 14
+        fig, axes = plt.subplots(1, 3, figsize=(fig_w, fig_h))
+
+        cell_h_pts = (fig_h / len(data)) * 72
+        cell_w_pts = (fig_w / 3) * 72
+        cell_min_pts = min(cell_h_pts, cell_w_pts)
+        axis_fontsize = min(13, max(7, cell_h_pts * axis_font_scale))
+        bar_label_fontsize = min(11, max(5, cell_min_pts * bar_label_scale))
+
+        y = np.arange(len(data))
+
+        axes[0].barh(y, times, color="#4C72B0")
+        axes[0].set_yticks(y)
+        axes[0].set_yticklabels(names, fontsize=axis_fontsize)
+        axes[0].set_xlim(0, max(times) * 1.15)
+        axes[0].set_xlabel("Indexierungszeit (s)", fontsize=axis_fontsize)
+        axes[0].set_title("Build-Zeit", fontsize=axis_fontsize * 1.1)
+        for i, v in enumerate(times):
+            axes[0].text(v + max(times) * 0.01, i, f"{v:.0f}s",
+                         va="center", fontsize=bar_label_fontsize)
+
+        axes[1].barh(y, sizes, color="#55A868")
+        axes[1].set_yticks(y)
+        axes[1].set_yticklabels([], fontsize=axis_fontsize)
+        axes[1].set_xlim(0, max(sizes) * 1.25)
+        axes[1].set_xlabel("Indexgröße (MB)", fontsize=axis_fontsize)
+        axes[1].set_title("Indexgröße", fontsize=axis_fontsize * 1.1)
+        for i, v in enumerate(sizes):
+            axes[1].text(v + max(sizes) * 0.01, i, f"{v:.1f} MB",
+                         va="center", fontsize=bar_label_fontsize)
+
+        axes[2].barh(y, chunks, color="#DD8452")
+        axes[2].set_yticks(y)
+        axes[2].set_yticklabels([], fontsize=axis_fontsize)
+        axes[2].set_xlim(0, max(chunks) * 1.2)
+        axes[2].set_xlabel("Anzahl Chunks", fontsize=axis_fontsize)
+        axes[2].set_title("Chunks im Index", fontsize=axis_fontsize * 1.1)
+        for i, v in enumerate(chunks):
+            axes[2].text(v + max(chunks) * 0.01, i, f"{v:,}",
+                         va="center", fontsize=bar_label_fontsize)
+
+        wrapped_title = "\n".join(textwrap.wrap(title or "Index Build-Statistiken", width=80))
+        fig.suptitle(wrapped_title, fontsize=axis_fontsize * 1.3, fontweight="bold")
+        fig.subplots_adjust(top=0.88)
+        plt.tight_layout()
+        if save_path:
+            plt.savefig(save_path, dpi=150, bbox_inches="tight")
+        plt.show()
 
 # ─────────────────────────────────────────────────────────────────────────────
 # CLI entrypoint
