@@ -1,0 +1,45 @@
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{rllcccccc}
+\toprule
+Rang & Config & Correct. & Faith. & Relev. & Ctx.Rel. & Ø Kosten & Ø Zeit \\
+\midrule
+\textbf{1} & \textbf{61-context-consolidation} & \textbf{4.13} & \textbf{0.97} & \textbf{0.93} & \textbf{1.00} & \textbf{\$0.00121} & \textbf{15.6s} \\
+2 & 93-kitchen-sink & 4.03 & 1.00 & 1.00 & 1.00 & \$0.00191 & 20.5s \\
+3 & 81-mode-tree-summarize & 3.77 & 0.80 & 0.77 & 0.74 & \$0.00092 & 13.3s \\
+4 & 26-index-hierarchical-default & 3.67 & 0.70 & 0.63 & 0.68 & \$0.00104 & 15.0s \\
+5 & 27-index-hierarchical-markdown & 3.67 & 0.73 & 0.63 & 0.69 & \$0.00103 & 14.4s \\
+6 & 42-post-rerank-reorder & 3.63 & 0.77 & 0.70 & 0.71 & \$0.00058 & 11.7s \\
+7 & 52-transform-decomposition & 3.60 & 0.63 & 0.53 & 0.80 & \$0.00308 & 35.6s \\
+8 & 24-index-sentwindow-default & 3.53 & 0.80 & 0.70 & 0.61 & \$0.00042 & 11.4s \\
+9 & 72-prompt-permissive & 3.53 & 0.87 & 0.67 & 0.70 & \$0.00088 & 11.9s \\
+10 & 34-retrieval-topk5 & 3.50 & 0.77 & 0.63 & 0.68 & \$0.00052 & 11.9s \\
+11 & 92-combined-best-permissive & 3.50 & 0.80 & 0.83 & 0.73 & \$0.00126 & 28.3s \\
+12 & 21-index-token-markdown & 3.47 & 0.77 & 0.57 & 0.74 & \$0.00089 & 11.4s \\
+13 & 23-index-sentences-markdown & 3.47 & 0.73 & 0.60 & 0.73 & \$0.00089 & 11.5s \\
+14 & 43-post-cutoff & 3.47 & 0.77 & 0.57 & 0.72 & \$0.00066 & 13.6s \\
+15 & 50-transform-rewrite & 3.47 & 0.67 & 0.63 & 0.67 & \$0.00105 & 13.9s \\
+16 & 60-context-dedup & 3.47 & 0.67 & 0.60 & 0.76 & \$0.00088 & 11.6s \\
+17 & 71-prompt-soft & 3.47 & 0.67 & 0.60 & 0.72 & \$0.00089 & 12.5s \\
+18 & 91-combined-sentwindow-best & 3.47 & 0.73 & 0.53 & 0.64 & \$0.00087 & 29.4s \\
+19 & 25-index-sentwindow-markdown & 3.40 & 0.73 & 0.73 & 0.62 & \$0.00042 & 11.6s \\
+20 & 31-retrieval-fusion-2q & 3.40 & 0.67 & 0.50 & 0.72 & \$0.00112 & 24.8s \\
+21 & 51-transform-hyde & 3.40 & 0.83 & 0.60 & 0.70 & \$0.00116 & 17.2s \\
+22 & 35-retrieval-topk15 & 3.37 & 0.63 & 0.47 & 0.76 & \$0.00142 & 15.1s \\
+23 & 40-post-rerank & 3.30 & 0.83 & 0.60 & 0.75 & \$0.00058 & 12.2s \\
+24 & 41-post-reorder & 3.27 & 0.70 & 0.57 & 0.67 & \$0.00089 & 12.8s \\
+25 & 90-combined-best-guess & 3.27 & 0.63 & 0.57 & 0.74 & \$0.00126 & 29.2s \\
+26 & 30-retrieval-bm25 & 3.17 & 0.73 & 0.53 & 0.75 & \$0.00092 & 11.9s \\
+27 & 32-retrieval-fusion-3q & 3.17 & 0.70 & 0.60 & 0.72 & \$0.00110 & 15.4s \\
+28 & 33-retrieval-bm25-fusion & 3.17 & 0.67 & 0.60 & 0.75 & \$0.00113 & 25.8s \\
+29 & 20-index-token-default & 3.13 & 0.50 & 0.47 & 0.71 & \$0.00156 & 14.7s \\
+30 & 10-baseline-no-rag & 3.00 & 0.00 & 0.00 & 0.00 & \$0.00016 & 10.6s \\
+31 & 70-prompt-strict & 2.83 & 0.63 & 0.50 & 0.71 & \$0.00088 & 12.3s \\
+32 & 80-mode-refine & 2.83 & 0.57 & 0.50 & 0.70 & \$0.00267 & 50.2s \\
+33 & 22-index-sentences-default & 2.73 & 0.33 & 0.33 & 0.57 & \$0.00169 & 19.5s \\
+\bottomrule
+\end{tabular}
+\caption{Gesamtranking aller Konfigurationen nach durchschnittlicher Correctness}
+\label{tab:overall_ranking}
+\end{table}

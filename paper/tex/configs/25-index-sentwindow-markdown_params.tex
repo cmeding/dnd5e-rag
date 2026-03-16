@@ -1,0 +1,82 @@
+\begin{table}[H]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lp{8cm}}
+\toprule
+\textbf{Parameter} & \textbf{Wert} \\
+\midrule
+\multicolumn{2}{l}{\textit{Modelle}} \\
+\midrule
+\quad Generator LLM & mistralai/mistral-7b-instruct-v0.1 \\
+\quad Meta / Eval LLM & openai/gpt-4o-mini \\
+\quad Embedding-Modell & BAAI/bge-small-en-v1.5 \\
+\quad LLM Temperatur & 0.1 \\
+\quad Meta Temperatur & 0.0 \\
+\quad Max Response Tokens & 512 \\
+\quad Context Window & 4096 \\
+\quad Top-p & 0.9 \\
+\quad Top-k & 40 \\
+\midrule
+\multicolumn{2}{l}{\textit{Indexierung}} \\
+\midrule
+\quad Chunking-Modus & none \\
+\quad Split-Strategie & tokens \\
+\quad Markdown-Vorparser & Nein \\
+\quad Chunk-Größe & 512 \\
+\quad Chunk-Überlappung & 50 \\
+\midrule
+\multicolumn{2}{l}{\textit{Retrieval}} \\
+\midrule
+\quad top-k & 10 \\
+\quad Query-Varianten (Fusion) & 1 \\
+\quad BM25 Keyword-Retrieval & Nein \\
+\midrule
+\multicolumn{2}{l}{\textit{Postprocessing}} \\
+\midrule
+\quad Score-Cutoff aktiv & Nein \\
+\quad Score-Cutoff Wert & \textbf{0.5} \\
+\quad Reranking aktiv & Nein \\
+\quad Reranking-Modell & cross-encoder/ms-marco-MiniLM-L-2-v2 \\
+\quad Reranking top-n & 3 \\
+\quad LongContextReorder & Nein \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{25-index-sentwindow-markdown} -- Indexierung -- Sentence-Window-Verfahren mit Markdown-Vorparser (1/2)}
+\label{tab:config_25_index_sentwindow_markdown_a}
+\end{table}
+
+\begin{table}[H]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lp{8cm}}
+\toprule
+\textbf{Parameter} & \textbf{Wert} \\
+\midrule
+\multicolumn{2}{l}{\textit{Query-Transformation}} \\
+\midrule
+\quad Query Rewrite & Nein \\
+\quad HyDE & Nein \\
+\quad Query-Dekomposition & Nein \\
+\midrule
+\multicolumn{2}{l}{\textit{Kontextverarbeitung}} \\
+\midrule
+\quad Deduplizierung aktiv & Nein \\
+\quad Dedup-Schwellwert & 0.85 \\
+\quad LLM-Konsolidierung & Nein \\
+\midrule
+\multicolumn{2}{l}{\textit{Generierung}} \\
+\midrule
+\quad Response-Modus & COMPACT \\
+\quad Prompt-Pretext & PROMPT\_SOFT \\
+\midrule
+\multicolumn{2}{l}{\textit{Guards}} \\
+\midrule
+\quad Confidence Guard aktiv & Nein \\
+\quad Confidence Cutoff & 0.5 \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{25-index-sentwindow-markdown} -- Indexierung -- Sentence-Window-Verfahren mit Markdown-Vorparser (2/2)}
+\label{tab:config_25_index_sentwindow_markdown_b}
+\end{table}
