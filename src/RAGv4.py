@@ -66,7 +66,7 @@ class RAGPipeline:
 
     def __init__(
         self,
-        APIKey=key_from_file("./key.txt"),
+        APIKey=key_from_file("key_old.txt"),
         kb_source="../data/DND.SRD.Wiki-0.5.2",
         ind_dir="../index",
         ind_name="SRD-BaseTest-v1",
@@ -153,7 +153,7 @@ class RAGPipeline:
         Parameters
         ----------
         APIKey : str
-            OpenRouter API key. Defaults to reading from ``./key.txt``.
+            OpenRouter API key. Defaults to reading from ``./key_old.txt``.
         kb_source : str
             Path to the knowledge base directory containing ``.md`` source files.
         ind_dir : str
@@ -1480,6 +1480,21 @@ class RAGPipeline:
         logger.info("Batch simple complete — {} queries", total)
         return records
 
+    def get_config_path(self, relative_to: str = None) -> str:
+        path = os.path.join(self._session_dir, "config.json")
+        if relative_to:
+            return os.path.relpath(path, relative_to)
+        return path
+
+    def get_last_query_path(self, relative_to: str = None) -> str:
+        if self._query_count == 0:
+            return None
+        fname = f"query_{self._query_count:03d}.json"
+        path = os.path.join(self._session_dir, fname)
+        if relative_to:
+            return os.path.relpath(path, relative_to)
+        return path
+
     def batch_RAG_query(self, queries: list[str], references: list[str] | None = None) -> list[dict]:
         """
         Run RAG_query for a list of questions.
@@ -1529,7 +1544,7 @@ class RAGPipeline:
         return records
 
 def main():
-    key = key_from_file("./key.txt")
+    key = key_from_file("key_old.txt")
     RAG = RAGPipeline(APIKey=key)
     while True:
         RAG.RAG_query(input("Input Query: > "))

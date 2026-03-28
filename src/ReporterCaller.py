@@ -1,4 +1,4 @@
-from Reporter import Reporter
+from src.old.Reporter_old import Reporter
 r = Reporter("../logs")
 
 
@@ -159,116 +159,7 @@ def phase_loop():
             save_path=fig_paths["metrics"],
         )
 
-def a_main():
-    r = Reporter("../logs")
-    # get all session IDs for phase 3 retrieval configs
-    phase3 = [s for s in r.list_sessions() if
-              "30-" in s or "31-" in s or "32-" in s or "33-" in s or "34-" in s or "35-" in s]
-    print(r.export_latex_phase_table(phase3, caption="Phase 3: Retrieval Konfigurationen", label="phase3"))
-
-    print(r.export_latex_sample_questions(
-        phase3[0],
-        question_indices=[0,1,2,4,5]
-    ))
-
-def b_main():
-    r = Reporter("../logs")
-
-    # generate all phase graphs and save as PDFs for LaTeX inclusion
-    #phase2 = [s for s in r.list_sessions() if any(f"2{i}-" in s for i in range(7))]
-    phase2 = r.get_sessions_by_phase_prefix(["20-", "21-", "22-", "23-", "24-", "25-", "26-", "27-"])
-    r.plot_phase_comparison(phase2, metric="correctness",
-                            title="Phase 2: Chunking — Avg Correctness",
-                            save_path="../paper/img/phase2_correctness.pdf")
-
-    r.plot_all_metrics_comparison(phase2,
-                                  title="Phase 2: Chunking — Alle Metriken",
-                                  save_path="../paper/img/phase2_all_metrics.pdf")
-
-    r.plot_stacked_heatmap(
-        [phase2[0]],
-        title="Phase 2: Question Full Heatmap",
-        save_path="../paper/img/phase2_question_full_heatmap.pdf",
-        question_aliases=questions_aliases,
-    )
-
-
-
-    # LaTeX table
-    print(r.export_latex_phase_table(phase2,
-                                     caption="Phase 2: Chunking-Konfigurationen im Vergleich",
-
-                                     label="phase2"))
-def test_over_phase2():
-    phase = r.get_sessions_by_phase_prefix([f"{2}{i}" for i in range(phase_ranges[2] + 1)])
-
-    r.plot_phase_overview_heatmap_vertical(
-        session_ids=phase,
-        question_aliases=None,#{k: v for k, v in questions_aliases.items() if k < 15},
-        question_filter=[i for i in range(0,30)],
-        title="Heatmap Summary 1",
-        save_path="../paper/img/phase2_v_summary.pdf",
-        show_cell_text=True,
-        config_label="prefix",
-        config_filter=[i for i in range(0,8)],
-        axis_font_scale=0.30,
-        cell_font_scale=0.25,
-    )
-
-    """
-    r.plot_phase_question_metric_heatmap_vertical(
-        session_ids=phase,
-        question_aliases=None,#{k: v for k, v in questions_aliases.items() if k < 15},
-        question_filter=[i for i in range(0,16)],
-        title="Heatmap Metrics 1",
-        save_path="../paper/img/phase2_v_metrics.pdf",
-    )
-
-    r.plot_phase_overview_heatmap(
-        session_ids=phase,
-        question_aliases=None,  # {k: v for k, v in questions_aliases.items() if k < 15},
-        question_filter=[i for i in range(0, 16)],
-        title="Heatmap Summary 1",
-        save_path="../paper/img/phase2_h_summary.pdf",
-        show_cell_text=False,
-    )
-
-    r.plot_phase_question_metric_heatmap(
-        session_ids=phase,
-        question_aliases={k: v for k, v in questions_aliases.items() if k < 15},
-        title="Heatmap Metrics 1",
-        save_path="../paper/img/phase2_h_metrics.pdf",
-    )
-    
-    """
-
-def test2_over_phase2():
-    phase = r.get_sessions_by_phase_prefix([f"{2}{i}" for i in range(phase_ranges[2] + 1)])
-
-    r.plot_phase_bar_chart_horizontal(
-        session_ids=phase,
-        config_label="name",
-        title="Phase 2 Bar Chart",
-        save_path="../paper/img/phase2_bar_chart_v.pdf",
-        axis_font_scale=0.25,
-        bar_label_scale=0.15,
-    )
-
-    r.export_latex_eval_table(
-        session_ids=phase,
-        caption="Phase 2 Eval Table",
-        label="phase2-eval-table",
-        save_path="../paper/tex/phase2_eval_table.tex",
-    )
-
-    r.export_latex_cost_table(
-        session_ids=phase,
-        caption="Phase 2 Cost Table",
-        label="phase2-cost-table",
-        save_path="../paper/tex/phase2_cost_table.tex",
-    )
-
-def make_index_time_stuff():
+def make_index_times():
     r = Reporter("../logs")
     r.plot_index_build_stats(
         title="Phase 2: Chunking — Index Build-Statistiken",
@@ -338,7 +229,6 @@ config_descriptions = {
     "93-kitchen-sink":              "Kombination -- Alle verfügbaren Module aktiviert (Kitchen-Sink)",
 }
 
-
 def config_tables():
     all_sessions = r.get_sessions_by_phase_prefix(
         [f"{k}{i}-" for k, v in phase_ranges.items() for i in range(v + 1)]
@@ -369,8 +259,5 @@ def questions():
             save_path=f"../paper/tex/samples/{name}_samples.tex"
         )
 
-def main():
-    pass
-
 if __name__ == "__main__":
-    final_gens()
+    pass

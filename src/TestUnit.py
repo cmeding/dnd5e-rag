@@ -2,74 +2,8 @@ from RAGv4 import RAGPipeline, key_from_file
 from loguru import logger
 import time
 
-KEYFILE = "./key.txt"
+KEYFILE = "./key_old.txt"
 BASE_QUESTION = "Can a grappled Creature cast Spells?"
-
-MINIMUM_RAG = {
-    "ind_name":              "SRD-Minimum-v1",
-    "embed_split_on":        "tokens",
-    "special_mode":          "none",
-    "retriever_top_k":       5,
-    "retriever_query_variants": 1,
-    "retriever_with_keywords": False,
-    "post_use_cutoff":       False,
-    "post_use_rerank":       False,
-    "post_use_reorder":      False,
-    "use_hyde":              False,
-    "use_query_rewrite":     False,
-    "use_llm_metadata_filter": False,
-    "use_confidence_guard":  False,
-    "use_query_decomposition": False,
-    "use_dedup":             False,
-    "use_llm_consolidation": False,
-    "eval_faithfulness":     False,
-    "eval_relevancy":        False,
-    "eval_correctness":      False,
-}
-
-MAXIMUM_RAG = {
-    "ind_name":              "SRD-Maximum-v1",
-    "embed_with_markdown":   True,
-    "embed_split_on":        "sentences",
-    "special_mode":          "sentence_window",
-    "retriever_top_k":       15,
-    "retriever_query_variants": 4,
-    "retriever_with_keywords": True,
-    "post_use_cutoff":       False,
-    "post_cutoff":           0.3,
-    "post_use_rerank":       True,
-    "post_rerank_top_n":     5,
-    "post_use_reorder":      True,
-    "use_hyde":              True,
-    "use_query_rewrite":     True,
-    "use_confidence_guard":  True,
-    "use_query_decomposition": True,
-    "use_dedup":             True,
-    "use_llm_consolidation": True,
-    "eval_faithfulness":     True,
-    "eval_relevancy":        True,
-    "eval_correctness":      True,
-    "eval_reference": (
-        "Yes. The Grappled condition only reduces speed to 0. "
-        "It does not restrict spellcasting in any way."
-    ),
-}
-
-TEST_RAG = {
-    "ind_name": "SRD-Test-v4",
-    "eval_faithfulness": True,
-    "eval_relevancy": True,
-    "eval_correctness": True,
-    "eval_context_relevancy": True,
-    "eval_reference": (
-        "Yes. The Grappled condition only reduces speed to 0. "
-        "It does not restrict spellcasting or other actions in any way."
-    ),
-    "verbose": True,
-    "log_queries": True,
-    "config_name": "DEFAULT-EVAL",
-    "session_name": "Context-Relevancy-01",
-}
 
 
 INDEX_SETTING_COMBINATIONS = [
@@ -128,44 +62,6 @@ INDEX_SETTING_COMBINATIONS = [
 
 ]
 
-def test_rag():
-    key = key_from_file(KEYFILE)
-
-    print("\n" + "=" * 60)
-    print("  RUNTIME TEST — TEST RAG")
-    print("=" * 60)
-    min_rag = RAGPipeline(APIKey=key, **TEST_RAG)
-    min_rag.RAG_query(BASE_QUESTION)
-
-    print("\n" + "=" * 60)
-    print("Finished TEST RAG")
-
-def runtime_test():
-    key = key_from_file(KEYFILE)
-
-    print("\n" + "=" * 60)
-    print("  RUNTIME TEST — DIRECT LLM (no RAG)")
-    print("=" * 60)
-    baseline = RAGPipeline(APIKey=key, do_startup_setup=True)
-    baseline.simple_query(BASE_QUESTION)
-
-    print("\n" + "=" * 60)
-    print("  RUNTIME TEST — MINIMUM RAG")
-    print("=" * 60)
-    min_rag = RAGPipeline(APIKey=key, **MINIMUM_RAG)
-    min_rag.RAG_query(BASE_QUESTION)
-
-
-    print("\n" + "=" * 60)
-    print("  RUNTIME TEST — MAXIMUM RAG")
-    print("=" * 60)
-    max_rag = RAGPipeline(APIKey=key, **MAXIMUM_RAG)
-    max_rag.RAG_query(BASE_QUESTION)
-
-    print("\n" + "=" * 60)
-    print("  RUNTIME TEST COMPLETE")
-    print("=" * 60)
-
 def index_run():
     key = key_from_file(KEYFILE)
     for i_rag in INDEX_SETTING_COMBINATIONS:
@@ -220,84 +116,6 @@ def batch_test(config, questions, ground_truths):
     print("\n" + "=" * 60)
     print("\n" + "=" * 60)
 
-BEST_GUESS = {
-    # Indexing — sentence splitter with markdown awareness
-    # SRD files are well-structured markdown, so the parser can use that structure
-    # sentence splitting respects natural rule boundaries better than token splitting
-    "ind_name":            "sentences-markdown",
-    "config_name": "BEST-G-sent-md-v2",
-    "special_mode":        "none",
-    "embed_split_on":      "sentences",
-    "embed_with_markdown": True,
-    "chunk_size":          512,
-    "chunk_overlay":       50,
-    "generate_metadata":   True,
-
-    # Retrieval — hybrid vector + BM25
-    # DnD rules have very specific terminology (grappled, concentration, spell slots)
-    # BM25 is strong on exact keyword matches which matters a lot here
-    "retriever_top_k":           10,
-    "retriever_with_keywords":   True,
-    "retriever_query_variants":  2,
-
-    # Postprocessing — rerank then reorder
-    # cross-encoder reranking is the single highest-impact postprocessing step
-    # reorder puts best chunks at context edges where LLMs attend better
-    "post_use_rerank":   True,
-    "post_rerank_model": "cross-encoder/ms-marco-MiniLM-L-2-v2",
-    "post_rerank_top_n": 5,
-    "post_use_reorder":  True,
-    "post_use_cutoff":   False,  # cutoff after rerank is redundant
-
-    # Query transformation — rewrite only
-    # rewrite helps with vague natural language questions
-    # HyDE tends to hallucinate DnD rules it doesn't know
-    # decomposition overkill for single-fact rule lookups
-    "use_query_rewrite":      True,
-    "use_hyde":               False,
-    "use_query_decomposition":False,
-
-    # Context — dedup only, skip consolidation
-    # dedup removes redundant chunks that often appear in the SRD
-    # consolidation adds latency and meta LLM cost for questionable gain
-    "use_dedup":             True,
-    "dedup_threshold":       0.80,
-    "use_llm_consolidation": False,
-
-    # Response
-    "response_mode": "COMPACT",
-}
-
-OLD_GROUND_TRUTH = [
-    # Type A
-    "Fireball has a range of 150 feet.",
-    "An Aboleth has an Armor Class of 17.",
-    "Inflict Wounds deals necrotic damage.",
-    "Haste lasts up to 1 minute and requires concentration.",
-    "A Fighter uses a d10 as their hit die.",
-
-    # Type B
-    "Yes. The grappled condition only reduces the creature's speed to 0. It imposes no restriction on spellcasting.",
-    "Yes. The frightened condition only imposes disadvantage on ability checks and attack rolls while the source of fear is in sight, and prevents moving closer to the source. It does not restrict which actions a creature can take.",
-    "Yes. The restrained condition does not prevent attack rolls, though attack rolls made by a restrained creature have disadvantage and attack rolls against it have advantage.",
-    "No. The invisible condition grants advantage on attack rolls and imposes disadvantage on attack rolls against the creature. It does not restrict spellcasting.",
-    "No. The charmed condition only prevents the charmed creature from attacking the charmer and from targeting them with harmful abilities or magical effects. It places no restriction on actions against other creatures.",
-
-    # Type C
-    "Concentration ends immediately when a caster falls unconscious, ending any concentration spell that was active.",
-    "Yes. Divine Smite is a class feature, not a spell. Sanctuary ends only when the protected creature casts a spell that affects an enemy or takes an action that targets an enemy with a harmful effect. Using Divine Smite does not end Sanctuary.",
-    "Exhaustion level 3 halves movement speed. The restrained condition reduces speed to 0. Speed of 0 takes precedence — the creature cannot move at all.",
-    "No. A paralyzed creature is incapacitated. Incapacitated creatures cannot take actions, and making a death saving throw requires an action. Therefore a paralyzed creature cannot make death saving throws.",
-    "The grappled condition ends if the grappler is incapacitated, or if an effect removes the grappled creature from the reach of the grappler or the grappling effect.",
-
-    # Type D
-    "No. A critical hit on a natural 20 doubles the number of damage dice rolled. It does not automatically deal maximum damage.",
-    "Yes. Action Surge grants an additional action. The restriction on casting two leveled spells applies only when one of them is cast using a bonus action. Casting a leveled spell with a normal action and another leveled spell with an Action Surge action is permitted.",
-    "No. Sneak Attack requires either advantage on the attack roll, or that an ally of the rogue is adjacent to the target and that ally is not incapacitated. Being hidden is not required.",
-    "No. Proficiency bonus applies only to saving throws for which the creature has proficiency, as determined by its class or other features.",
-    "Druids will not wear metal armor by tradition — the class description states they will not — but there is no mechanical rule preventing it. A Druid who wears metal armor violates the class ethos but suffers no mechanical penalty from the rules as written.",
-
-]
 
 # -------------------------------------------------------------------------------
 
@@ -603,9 +421,6 @@ def full_configs_test(configs, questions, truths):
     for cfg in configs:
         cfg = cfg.copy()
         is_simple_only = cfg.pop("_simple_only", False)
-        if not (cfg.get("config_name", "?") == "43-post-cutoff"):
-            print(f"SKIPPED {cfg.get('config_name', '?')}")
-            continue
         try:
             print("")
             print("=" * 60)
@@ -649,5 +464,4 @@ def rep_test_good():
     rag.batch_RAG_query([question], [reference])
 
 if __name__ == "__main__":
-    #full_configs_test(configs=CONFIGS, questions=QUESTIONS, truths=GROUND_TRUTH)
-    rep_test_good()
+    full_configs_test(configs=CONFIGS, questions=QUESTIONS, truths=GROUND_TRUTH)
