@@ -1,7 +1,7 @@
 import argparse
 from RAGv4 import RAGPipeline, key_from_file
 
-from src.old.Reporter_old import Reporter
+from Reporter import Reporter
 r = Reporter("../logs")
 
 # Frame Config
@@ -14,6 +14,8 @@ FRAME_CONFIG = {
 # Setting Configs
 BASIC_CONFIG = {
     "ind_name": "token-default",
+    "embed_split_on": "tokens",
+    "embed_with_markdown": False,
     "rag_llm_model": "mistralai/mistral-7b-instruct-v0.1",
     "meta_llm_model": "openai/gpt-4o-mini",
 }
@@ -42,6 +44,63 @@ BEST_CONFIG = {
     "response_mode": "COMPACT",
 }
 
+PROMPT_STRICT = (
+    "Use ONLY the context below to answer. "
+    "If the answer is not explicitly stated in the context, "
+    "respond with exactly: 'I cannot find this in the provided rules.' "
+    "Do not infer, guess, or use outside knowledge."
+)
+
+PROMPT_SOFT = (
+    "Answer the question using the context below as your primary source. "
+    "You may use reasoning and inference based on the rules described. "
+    "If the context contains no relevant information at all, say so."
+)
+
+STRICT_CONFIG = {
+    "ind_name": "sentences-markdown",
+    "prompt_pretext": PROMPT_STRICT,
+    "post_use_rerank": True,
+    "post_rerank_model": "cross-encoder/ms-marco-MiniLM-L-2-v2",
+    "retriever_top_k": 15,
+    "post_rerank_top_n": 5,
+    "use_query_decomposition": True,
+    "use_query_rewrite": False,
+    "use_hyde": False,
+}
+
+SOFT_CONFIG = {
+    "ind_name": "sentences-markdown",
+    "prompt_pretext": PROMPT_SOFT,
+    "post_use_rerank": True,
+    "post_rerank_model": "cross-encoder/ms-marco-MiniLM-L-2-v2",
+    "retriever_top_k": 15,
+    "post_rerank_top_n": 5,
+    "use_query_decomposition": True,
+    "use_query_rewrite": False,
+    "use_hyde": False,
+}
+
+SOFT_SIMPLE_CONFIG = {
+    "ind_name": "sentences-markdown",
+    "prompt_pretext": PROMPT_SOFT,
+    "post_use_rerank": True,
+    "post_rerank_model": "cross-encoder/ms-marco-MiniLM-L-2-v2",
+    "retriever_top_k": 15,
+    "post_rerank_top_n": 5,
+    "use_query_decomposition": False,
+    "use_query_rewrite": False,
+    "use_hyde": False,
+}
+
+BAD_CONFIG = {
+    "ind_name": "token-default",        # worst chunking — no markdown, token splitting
+    "prompt_pretext": PROMPT_STRICT,    # strict prompt — fails on Type B questions
+    "retriever_top_k": 15,              # lots of noise in context
+    "retriever_query_variants": 3,      # more fusion = more RRF score compression
+    "response_mode": "REFINE",          # iterative refinement — worst response mode
+}
+
 # Session Names
 SESSION_NAME = "LiveDemo"
 CONFIG_PREFIX = "DEMO-"
@@ -49,6 +108,10 @@ CONFIG_PREFIX = "DEMO-"
 NO_RAG_SUFFIX = "no-rag"
 BASIC_SUFIX = "baseline"
 BEST_SUFIX = "best-consolidation"
+SOFT_SUFIX = "soft-prompt"
+STRICT_SUFIX = "strict-prompt"
+SOFT_SIMPLE_SUFFIX = "soft-simple"
+BAD_SUFIX = "bad"
 
 # Eval Configs
 NO_EVAL_CONFIG = {
@@ -73,7 +136,7 @@ def setup(mode, do_eval, do_verbose):
         eval_ = NO_EVAL_CONFIG
 
     session_name_ = SESSION_NAME
-    if mode == "no_rag":
+    if mode == "no-rag":
         config_name_ = CONFIG_PREFIX + NO_RAG_SUFFIX
         config_ = BASIC_CONFIG
     elif mode == "basic":
@@ -82,6 +145,18 @@ def setup(mode, do_eval, do_verbose):
     elif mode == "best":
         config_name_ = CONFIG_PREFIX + BEST_SUFIX
         config_ = BEST_CONFIG
+    elif mode == "soft":
+        config_name_ = CONFIG_PREFIX + SOFT_SUFIX
+        config_ = SOFT_CONFIG
+    elif mode == "strict":
+        config_name_ = CONFIG_PREFIX + STRICT_SUFIX
+        config_ = STRICT_CONFIG
+    elif mode == "soft-simple":
+        config_name_ = CONFIG_PREFIX + SOFT_SIMPLE_SUFFIX
+        config_ = SOFT_SIMPLE_CONFIG
+    elif mode == "bad":
+        config_name_ = CONFIG_PREFIX + BAD_SUFIX
+        config_ = BAD_CONFIG
     else:
         raise ValueError(f"Unknown mode {mode}")
 
@@ -89,7 +164,7 @@ def setup(mode, do_eval, do_verbose):
     return RAG
 
 def startup(RAG, mode):
-    if mode == "no_rag":
+    if mode == "no-rag":
         return
     config_path = RAG.get_config_path()
     print(config_path)
@@ -100,7 +175,7 @@ def cycle(RAG, mode):
         prompt = input(f"{mode} > ")
         if prompt == "exit" or prompt == "quit" or prompt == "q":
             break
-        if mode == "no_rag":
+        if mode == "no-rag":
             RAG.simple_query(prompt)
         else:
             RAG.RAG_query(prompt)
@@ -124,7 +199,7 @@ if __name__ == "__main__":
         description='What the program does',
         epilog='Text at the bottom of help')
 
-    parser.add_argument('-m', '--mode', type=str, choices=['no_rag', 'basic', 'best'], default='basic')
+    parser.add_argument('-m', '--mode', type=str, choices=['no-rag', 'basic', 'best', 'soft', 'strict', 'soft-simple', 'bad'], default='basic')
     parser.add_argument("-e", "--eval", action="store_true", default=False)
     parser.add_argument("-v", "--verbose", action="store_true", default=False)
 

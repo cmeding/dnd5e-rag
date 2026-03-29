@@ -514,7 +514,7 @@ class RAGPipeline:
             "retrieved_nodes": [
                 {
                     "rank":     i + 1,
-                    "score":    float(node.score),
+                    "score":    float(node.score) if node.score is not None else None,
                     "category": node.metadata.get("category"),
                     "topic":    node.metadata.get("topic"),
                     "file":     node.metadata.get("file_path"),

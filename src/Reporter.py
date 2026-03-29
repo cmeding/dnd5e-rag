@@ -1920,12 +1920,12 @@ class Reporter:
         if nodes:
             print(bold(f"  RETRIEVED NODES  ({len(nodes)})"))
             print(f"  {grey(_bar('─', W - 2))}")
-            for n in nodes[:5]:
+            for n in nodes[:7]:
                 score_s = _score_color(n.get("score"))
                 cat = n.get("category") or "?"
                 topic = n.get("topic") or "?"
                 rank = n.get("rank", "?")
-                preview = dim(_trunc(n.get("preview"), 80))
+                preview = dim(_trunc(n.get("preview"), 128))
                 print(f"  {bold(f'#{rank}')}  {score_s}  {cyan(cat)}/{topic}")
                 print(f"      {preview}")
             print()
@@ -1939,7 +1939,7 @@ class Reporter:
                 else:
                     score = result.get("score")
                     passing = result.get("passing")
-                    fb = _trunc(result.get("feedback"), 60)
+                    fb = _trunc(result.get("feedback"), 128)
                     print(f"  {name:14s}  {_score_color(score)}  {_passing(passing)}  {dim(fb)}")
             print()
 

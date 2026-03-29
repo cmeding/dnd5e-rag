@@ -1,4 +1,4 @@
-from src.old.Reporter_old import Reporter
+from Reporter import Reporter
 r = Reporter("../logs")
 
 
@@ -160,7 +160,7 @@ def phase_loop():
         )
 
 def make_index_times():
-    r = Reporter("../logs")
+    r = Reporter("../logs_archive")
     r.plot_index_build_stats(
         title="Phase 2: Chunking — Index Build-Statistiken",
         save_path="../paper/img/phase2_index_build.pdf",
@@ -260,4 +260,4 @@ def questions():
         )
 
 if __name__ == "__main__":
-    pass
+    make_index_times()
